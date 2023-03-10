@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-theremini",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.2max::Chans" : [ 4.0 ],
+					"mo.2max::Send" : [ "my-theremini~" ],
+					"mo.2max::[1]::To" : [ "carrier" ],
+					"mo.2max::[1]::Mute" : [ 0.0 ],
+					"mo.2max::[2]::To" : [ "timbre" ],
+					"mo.2max::[2]::Mute" : [ 0.0 ],
+					"mo.2max::[3]::To" : [ "vibrato" ],
+					"mo.2max::[3]::Mute" : [ 0.0 ],
+					"mo.2max::[4]::To" : [ "gain" ],
+					"mo.2max::[4]::Mute" : [ 0.0 ],
+					"mo.scale::Chans" : [ 4.0 ],
+					"mo.scale::[1]::Min" : [ 110.0 ],
+					"mo.scale::[1]::Max" : [ 1760.0 ],
+					"mo.scale::[1]::Curve" : [ 1.0 ],
+					"mo.scale::[1]::Mute" : [ 0.0 ],
+					"mo.scale::[2]::Min" : [ 1.0 ],
+					"mo.scale::[2]::Max" : [ 8.0 ],
+					"mo.scale::[2]::Curve" : [ 1.0 ],
+					"mo.scale::[2]::Mute" : [ 0.0 ],
+					"mo.scale::[3]::Min" : [ 0.0 ],
+					"mo.scale::[3]::Max" : [ 8.0 ],
+					"mo.scale::[3]::Curve" : [ 1.0 ],
+					"mo.scale::[3]::Mute" : [ 0.0 ],
+					"mo.scale::[4]::Min" : [ 0.0 ],
+					"mo.scale::[4]::Max" : [ 1.0 ],
+					"mo.scale::[4]::Curve" : [ 1.0 ],
+					"mo.scale::[4]::Mute" : [ 0.0 ],
+					"mo.theremini~::Carrier" : [ 124.904676051810384 ],
+					"mo.theremini~::Timbre" : [ 6.479440748691559 ],
+					"mo.theremini~::Vibrato" : [ 3.722541332244873 ],
+					"mo.theremini~::Gain" : [ 0.880800247192383 ],
+					"mo.theremini~::Mute" : [ 0.0 ],
+					"mo.theremini~::Name" : [ "my-theremini~" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

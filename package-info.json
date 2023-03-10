@@ -1,0 +1,20 @@
+{
+    "author" : "Francesco Di Maggio",
+    "description" : "A toolkit for sound-gesture interaction design.",
+    "homepatcher" : "modulo.maxpat",
+    "max_version_min" : "7.1", "max_version_max" : "none",
+    "name" : "modulo",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "tags" : [ ],
+    "version" : "1.0",
+    "website" : "https://francescodimaggio.nl/"
+}

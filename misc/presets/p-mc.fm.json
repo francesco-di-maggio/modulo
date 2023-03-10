@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-fm-synth",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.scale::Voices" : [ 6.0 ],
+					"mo.scale::poly~.1::Min" : [ 20.0 ],
+					"mo.scale::poly~.1::Max" : [ 200.0 ],
+					"mo.scale::poly~.1::Curve" : [ 1.0 ],
+					"mo.scale::poly~.2::Min" : [ 0.0 ],
+					"mo.scale::poly~.2::Max" : [ 10.0 ],
+					"mo.scale::poly~.2::Curve" : [ 1.0 ],
+					"mo.scale::poly~.3::Min" : [ 0.0 ],
+					"mo.scale::poly~.3::Max" : [ 80.0 ],
+					"mo.scale::poly~.3::Curve" : [ 1.0 ],
+					"mo.scale::poly~.4::Min" : [ 0.0 ],
+					"mo.scale::poly~.4::Max" : [ 50.0 ],
+					"mo.scale::poly~.4::Curve" : [ 1.0 ],
+					"mo.scale::poly~.5::Min" : [ 0.0 ],
+					"mo.scale::poly~.5::Max" : [ 1.0 ],
+					"mo.scale::poly~.5::Curve" : [ 1.0 ],
+					"mo.scale::poly~.6::Min" : [ 0.0 ],
+					"mo.scale::poly~.6::Max" : [ 1.0 ],
+					"mo.scale::poly~.6::Curve" : [ 1.0 ],
+					"mo.regress::Model" : [ "m-fm-synth.json" ],
+					"mo.tomax::Voices" : [ 6.0 ],
+					"mo.tomax::poly~.1::Send" : [ "1-output" ],
+					"mo.tomax::poly~.1::Mute" : [ 0.0 ],
+					"mo.tomax::poly~.2::Send" : [ "2-output" ],
+					"mo.tomax::poly~.2::Mute" : [ 0.0 ],
+					"mo.tomax::poly~.3::Send" : [ "3-output" ],
+					"mo.tomax::poly~.3::Mute" : [ 0.0 ],
+					"mo.tomax::poly~.4::Send" : [ "4-output" ],
+					"mo.tomax::poly~.4::Mute" : [ 0.0 ],
+					"mo.tomax::poly~.5::Send" : [ "5-output" ],
+					"mo.tomax::poly~.5::Mute" : [ 0.0 ],
+					"mo.tomax::poly~.6::Send" : [ "6-output" ],
+					"mo.tomax::poly~.6::Mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

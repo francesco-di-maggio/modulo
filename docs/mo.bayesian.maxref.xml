@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name='mo.bayesian'>
+
+	<digest>Performs bayesian filtering.</digest>
+	<description>Performs bayesian filtering of a list of messages.</description>
+
+	<discussion><h4><openfilelink filename="modulo.maxpat"> Open the Overview Patch</openfilelink></h4></discussion>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name='author'>Francesco Di Maggio</metadata>
+		<metadata name='tag'>processing</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+    <inletlist>
+        <inlet id="0" type="list">
+            <digest>list: input to be filtered [range: -1,1]</digest>
+        </inlet>
+    </inletlist>
+
+    <!--OUTLETS-->
+    <outletlist>
+        <outlet id="0" type="list">
+            <digest>list: filtered output [range: 0,1]</digest>
+        </outlet>
+    </outletlist>	
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="chans" optional="1" type="int">
+            <digest>Number of channels, default is 1.</digest>
+        </objarg>
+    </objarglist>
+
+    <!--MESSAGES-->
+    <methodlist>
+
+		<method name='list'>
+			<digest>Input values to filter [range: -1,1]</digest>
+			<description>Input values to filter. </description>
+		</method>        
+
+        <method name="chans">
+            <arglist>
+                <arg name="chans-num" optional="0" type="int" />
+            </arglist>
+            <digest>Number of channels</digest>
+            <description>Number of channels.</description>
+        </method>
+
+        <method name="jumprate">
+            <arglist>
+                <arg name="jump-prob" optional="0" type="int" />
+            </arglist>
+            <digest>Log-probability of sudden jumps (lower = less jumps)</digest>
+            <description>Log-probability of sudden jumps (lower = less jumps).</description>
+        </method>        
+
+        <method name="diffusion">
+            <arglist>
+                <arg name="dif-rate" optional="0" type="int" />
+            </arglist>
+            <digest>Log of the diffusion rate (lower = slower changes)</digest>
+            <description>Log of the diffusion rate (lower = slower changes).</description>
+        </method>   
+        
+        <method name="mvc">
+            <arglist>
+                <arg name="dif-rate" optional="0" type="list" />
+            </arglist>
+            <digest>Maximum value contraction (vector)</digest>
+            <description>Maximum value contraction (vector).</description>
+        </method>        
+
+        <method name="calibrate">
+            <arglist>
+                <arg name="force-calib" optional="0" type="toggle" />
+            </arglist>
+            <digest>Enable/disable automatic force calibration</digest>
+            <description>Enable/disable automatic force calibration.</description>
+        </method>                
+
+    </methodlist>	
+
+    <!--ATTRIBUTES-->
+    <attributelist>
+
+        <attribute name='chans' get='1' set='1' type='int' size='1' >
+            <digest>Number of channels</digest>
+            <description>Number of channels.</description>
+        </attribute>
+​
+        <attribute name='jumprate' get='1' set='1' type='int' size='1' >
+            <digest>Log-probability of sudden jumps (lower = less jumps)</digest>
+            <description>Log-probability of sudden jumps (lower = less jumps).</description>
+        </attribute>
+​
+        <attribute name='diffusion' get='1' set='1' type='int' size='1' >
+            <digest>Log of the diffusion rate (lower = slower changes)</digest>
+            <description>Log of the diffusion rate (lower = slower changes).</description>
+        </attribute>
+
+        <attribute name='mvc' get='1' set='1' type='list' size='1' >
+            <digest>Maximum value contraction (vector)</digest>
+            <description>Maximum value contraction (vector).</description>
+        </attribute>
+
+        <attribute name='calibrate' get='1' set='1' type='int' size='1' >
+            <digest>Enable/disable automatic force calibration</digest>
+            <description>Enable/disable automatic force calibration.</description>
+        </attribute>
+
+    </attributelist>
+
+	<!--SEEALSO-->
+    <seealsolist>
+        <seealso name="mo.rms~"/>
+    </seealsolist>
+
+</c74object>

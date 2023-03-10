@@ -1,0 +1,53 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-crosspatch",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bbdmi.multislider::Chans" : [ 4.0 ],
+					"bbdmi.multislider::Mode" : [ 0.0 ],
+					"bbdmi.multislider::Multislider" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"mo.crosspatch::Crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 4,
+								"numouts" : 4,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 3,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"mo.crosspatch::In" : [ 4.0 ],
+					"mo.crosspatch::Out" : [ 4.0 ],
+					"bbdmi.multislider[1]::Chans" : [ 4.0 ],
+					"bbdmi.multislider[1]::Mode" : [ 0.0 ],
+					"bbdmi.multislider[1]::Multislider" : [ 0.0, 0.0, 0.0, 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,62 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-granulator~",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.granulator~::Mode" : [ 1.0 ],
+					"mo.granulator~::PlayPos" : [ 0.0 ],
+					"mo.granulator~::Stretch" : [ 1.0 ],
+					"mo.granulator~::RandPos" : [ 5.0 ],
+					"mo.granulator~::GrainDur" : [ 100.0 ],
+					"mo.granulator~::Transp" : [ 0.0 ],
+					"mo.granulator~::AleaOct" : [ 0.0 ],
+					"mo.granulator~::Quant" : [ 0.0 ],
+					"mo.granulator~::RandPan" : [ 0.5 ],
+					"mo.granulator~::Gain" : [ 0.5 ],
+					"mo.granulator~::Name" : [ "my-granulator~" ],
+					"mo.granulator~::Mute" : [ 0.0 ],
+					"mo.scale::Chans" : [ 11.0 ],
+					"mo.scale::mo.scale[1]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[1]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[1]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[2]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[2]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[2]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[3]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[3]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[3]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[4]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[4]::Max" : [ 0.5 ],
+					"mo.scale::mo.scale[4]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[5]::Min" : [ -5.0 ],
+					"mo.scale::mo.scale[5]::Max" : [ 5.0 ],
+					"mo.scale::mo.scale[5]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[6]::Min" : [ -2400.0 ],
+					"mo.scale::mo.scale[6]::Max" : [ 1200.0 ],
+					"mo.scale::mo.scale[6]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[7]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[7]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[7]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[8]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[8]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[8]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[9]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[9]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[9]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[10]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[10]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[10]::Curve" : [ 1.0 ],
+					"mo.scale::mo.scale[11]::Min" : [ 0.0 ],
+					"mo.scale::mo.scale[11]::Max" : [ 1.0 ],
+					"mo.scale::mo.scale[11]::Curve" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-sonification",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.rand~::Rate" : [ 300.0 ],
+					"mo.rand~::Amount" : [ 1.0 ],
+					"mo.rand~::Chans" : [ 2.0 ],
+					"mo.onepole~::Chans" : [ 2.0 ],
+					"mo.onepole~::Cutoff" : [ 99.999999999999972 ],
+					"mo.onepole~::Mode" : [ 0.0 ],
+					"mo.onepole~::[1]::Mute" : [ 0.0 ],
+					"mo.onepole~::[1]::Cutoff" : [ 99.999999999999972 ],
+					"mo.onepole~::[1]::Mode" : [ 0.0 ],
+					"mo.onepole~::[2]::Mute" : [ 0.0 ],
+					"mo.onepole~::[2]::Cutoff" : [ 99.999999999999972 ],
+					"mo.onepole~::[2]::Mode" : [ 0.0 ],
+					"mo.crosspatch~::Ins" : [ 2.0 ],
+					"mo.crosspatch~::Outs" : [ 2.0 ],
+					"mo.crosspatch~::Crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 2,
+								"numouts" : 2,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 1,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
