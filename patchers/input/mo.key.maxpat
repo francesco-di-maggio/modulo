@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 100.0, 56.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -320,9 +320,9 @@
 
 					}
 ,
-					"text" : "SPACEBAR",
+					"text" : "⮐",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "SPACEBAR",
+					"texton" : "⮐",
 					"varname" : "live.text"
 				}
 

@@ -107,7 +107,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 611.858322477340835, 610.105943384143188, 147.0, 23.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 3 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -421,9 +421,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"contrastactivetab" : 0,
 					"fontsize" : 9.5,
-					"htabcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"htabcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -434,13 +433,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 55.0, 196.0, 127.200000000000003 ],
 					"rounded" : 0.0,
-					"saved_attribute_attributes" : 					{
-						"htabcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-,
 					"spacing_x" : 2.0,
 					"spacing_y" : 7.0,
 					"tabcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.0 ],

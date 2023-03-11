@@ -331,8 +331,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -344,7 +344,7 @@
 			}
 , 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1

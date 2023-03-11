@@ -191,29 +191,27 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "keys.txt",
-				"bootpath" : "~/Documents/GitHub/modulo/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lock.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.key.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "unlock.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
