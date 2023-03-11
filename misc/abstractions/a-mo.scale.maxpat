@@ -808,9 +808,9 @@
 
 					}
 ,
-					"text" : "16",
+					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "16",
+					"texton" : " ",
 					"varname" : "Mute-TX"
 				}
 

@@ -98,7 +98,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -106,7 +106,7 @@
 					"patching_rect" : [ 23.000000000000028, 327.999999999999886, 211.0, 126.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.000000000000028, 314.999999999999886, 211.0, 110.0 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -123,13 +123,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.000000000000028, 24.499999999999886, 211.0, 126.0 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -258,6 +258,10 @@
 ,
 				"obj-13::obj-107::obj-35" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-13::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[17]"
 				}
 ,
 				"obj-13::obj-123::obj-35" : 				{
@@ -561,8 +565,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -584,7 +588,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

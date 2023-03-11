@@ -243,7 +243,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -251,7 +251,7 @@
 					"patching_rect" : [ 22.824253082275391, 24.0, 210.363907903432846, 252.706193134188652 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.824253082275391, 21.0, 210.561927691102028, 252.706193134188652 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -576,7 +576,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.speedlim", "mo.line", "mo.2midi" ],
+					"subscribe" : [ "mo.speedlim", "mo.2midi", "mo.line" ],
 					"text" : "pattrstorage p-live @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-live"
 				}
@@ -1487,35 +1487,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.2midi.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
 				"bootpath" : "~/Documents/GitHub/modulo/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -1531,43 +1531,43 @@
 			}
 , 			{
 				"name" : "mo.2midi.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.keyboard.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.line.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.speedlim.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-live.json",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -120,13 +120,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 25.0, 210.219461962580681, 125.734495148062706 ],
-					"varname" : "mo.slider",
+					"patching_rect" : [ 25.0, 25.0, 210.219461962580681, 123.734495148062706 ],
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 233.0, 210.219461962580681, 125.734495148062706 ],
+					"patching_rect" : [ 25.0, 234.0, 210.219461962580681, 123.734495148062706 ],
 					"varname" : "mo.calibrate",
 					"viewvisibility" : 1
 				}
@@ -928,7 +928,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

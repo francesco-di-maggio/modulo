@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 211.0, 80.0 ],
+		"rect" : [ 0.0, 66.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 211.0, 80.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -174,18 +174,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 471.75, 450.626276284456253, 23.0, 21.0 ],
-					"text" : "dB"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -215,6 +203,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 26.153199976682799, 302.0, 44.0, 15.0 ],
+					"pictures" : [ "micon.svg", "micoff.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.498542189598083, 7.371792723306498, 40.501457810401917, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -228,7 +217,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -238,6 +227,7 @@
 ,
 					"text" : "mute",
 					"texton" : "mute",
+					"usepicture" : 1,
 					"varname" : "Mute-LD[1]"
 				}
 
@@ -269,7 +259,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[3]",
+							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",

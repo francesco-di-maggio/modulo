@@ -385,7 +385,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -393,7 +393,7 @@
 					"patching_rect" : [ 16.0, 575.387398037644971, 210.223602352042974, 126.267661435184777 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.0, 492.060914050925646, 210.223602352042974, 126.267661435184777 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -459,7 +459,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -467,7 +467,7 @@
 					"patching_rect" : [ 268.666666666666686, 16.5, 210.223602352042974, 127.267661435184777 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 246.0, 16.5, 210.223602352042974, 127.267661435184777 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -731,11 +731,11 @@
 			"obj-16::obj-123::obj-20" : [ "Show Particle Settings[25]", "live.text", 0 ],
 			"obj-16::obj-123::obj-35" : [ "live.text[81]", "live.text", 0 ],
 			"obj-16::obj-1::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
-			"obj-16::obj-1::obj-35" : [ "live.text[91]", "live.text", 0 ],
-			"obj-16::obj-35" : [ "live.text[92]", "live.text", 0 ],
+			"obj-16::obj-1::obj-35" : [ "live.text[94]", "live.text", 0 ],
+			"obj-16::obj-35" : [ "live.text[96]", "live.text", 0 ],
 			"obj-16::obj-36::obj-20" : [ "Show Particle Settings[4]", "live.text", 0 ],
 			"obj-16::obj-36::obj-35" : [ "live.text[13]", "live.text", 0 ],
-			"obj-16::obj-38" : [ "live.text[93]", "live.text", 0 ],
+			"obj-16::obj-38" : [ "live.text[95]", "live.text", 0 ],
 			"obj-16::obj-4" : [ "live.text[172]", "live.text", 0 ],
 			"obj-16::obj-40::obj-20" : [ "Show Particle Settings[5]", "live.text", 0 ],
 			"obj-16::obj-40::obj-35" : [ "live.text[14]", "live.text", 0 ],
@@ -767,11 +767,11 @@
 			"obj-18::obj-123::obj-20" : [ "Show Particle Settings[16]", "live.text", 0 ],
 			"obj-18::obj-123::obj-35" : [ "live.text[37]", "live.text", 0 ],
 			"obj-18::obj-1::obj-20" : [ "Show Particle Settings[19]", "live.text", 0 ],
-			"obj-18::obj-1::obj-35" : [ "live.text[94]", "live.text", 0 ],
-			"obj-18::obj-35" : [ "live.text[96]", "live.text", 0 ],
+			"obj-18::obj-1::obj-35" : [ "live.text[97]", "live.text", 0 ],
+			"obj-18::obj-35" : [ "live.text[99]", "live.text", 0 ],
 			"obj-18::obj-36::obj-20" : [ "Show Particle Settings[20]", "live.text", 0 ],
 			"obj-18::obj-36::obj-35" : [ "live.text[41]", "live.text", 0 ],
-			"obj-18::obj-38" : [ "live.text[95]", "live.text", 0 ],
+			"obj-18::obj-38" : [ "live.text[98]", "live.text", 0 ],
 			"obj-18::obj-4" : [ "live.text[56]", "live.text", 0 ],
 			"obj-18::obj-40::obj-20" : [ "Show Particle Settings[21]", "live.text", 0 ],
 			"obj-18::obj-40::obj-35" : [ "live.text[42]", "live.text", 0 ],
@@ -823,15 +823,15 @@
 			"obj-28::obj-113" : [ "F.Attack[3]", "attack", 0 ],
 			"obj-28::obj-114" : [ "F.Sustain[3]", "sustain", 0 ],
 			"obj-28::obj-118" : [ "live.dial[19]", "carrier", 0 ],
-			"obj-28::obj-12" : [ "live.text[2]", "live.text", 0 ],
+			"obj-28::obj-12" : [ "live.text[92]", "live.text", 0 ],
 			"obj-28::obj-22" : [ "live.dial[18]", "timbre", 0 ],
 			"obj-28::obj-24" : [ "F.Release[3]", "release", 0 ],
 			"obj-28::obj-25" : [ "live.dial[9]", "semitone", 0 ],
 			"obj-28::obj-27" : [ "live.dial[10]", "vibrato", 0 ],
-			"obj-28::obj-34" : [ "live.text[1]", "live.text", 0 ],
+			"obj-28::obj-34" : [ "live.text[91]", "live.text", 0 ],
 			"obj-28::obj-37" : [ "live.dial[30]", "octave", 0 ],
 			"obj-28::obj-4" : [ "live.dial[20]", "gain", 0 ],
-			"obj-28::obj-42" : [ "live.text", "live.text", 0 ],
+			"obj-28::obj-42" : [ "live.text[93]", "live.text", 0 ],
 			"obj-7::obj-107::obj-35" : [ "live.text[73]", "live.text", 0 ],
 			"obj-7::obj-107::obj-66" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-7::obj-107::obj-68" : [ "live.numbox[19]", "live.numbox", 0 ],
@@ -945,11 +945,11 @@
 				}
 ,
 				"obj-16::obj-1::obj-35" : 				{
-					"parameter_longname" : "live.text[91]"
+					"parameter_longname" : "live.text[94]"
 				}
 ,
 				"obj-16::obj-35" : 				{
-					"parameter_longname" : "live.text[92]"
+					"parameter_longname" : "live.text[96]"
 				}
 ,
 				"obj-16::obj-36::obj-20" : 				{
@@ -961,7 +961,7 @@
 				}
 ,
 				"obj-16::obj-38" : 				{
-					"parameter_longname" : "live.text[93]"
+					"parameter_longname" : "live.text[95]"
 				}
 ,
 				"obj-16::obj-4" : 				{
@@ -1089,11 +1089,11 @@
 				}
 ,
 				"obj-18::obj-1::obj-35" : 				{
-					"parameter_longname" : "live.text[94]"
+					"parameter_longname" : "live.text[97]"
 				}
 ,
 				"obj-18::obj-35" : 				{
-					"parameter_longname" : "live.text[96]"
+					"parameter_longname" : "live.text[99]"
 				}
 ,
 				"obj-18::obj-36::obj-20" : 				{
@@ -1105,7 +1105,7 @@
 				}
 ,
 				"obj-18::obj-38" : 				{
-					"parameter_longname" : "live.text[95]"
+					"parameter_longname" : "live.text[98]"
 				}
 ,
 				"obj-18::obj-4" : 				{
@@ -1224,6 +1224,10 @@
 					"parameter_longname" : "live.text[34]"
 				}
 ,
+				"obj-19::obj-41" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-19::obj-45" : 				{
 					"parameter_longname" : "live.text[31]"
 				}
@@ -1242,6 +1246,10 @@
 ,
 				"obj-19::obj-9" : 				{
 					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-19::obj-92" : 				{
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-19::obj-93" : 				{
@@ -1273,7 +1281,7 @@
 				}
 ,
 				"obj-28::obj-12" : 				{
-					"parameter_longname" : "live.text[2]"
+					"parameter_longname" : "live.text[92]"
 				}
 ,
 				"obj-28::obj-22" : 				{
@@ -1293,7 +1301,7 @@
 				}
 ,
 				"obj-28::obj-34" : 				{
-					"parameter_longname" : "live.text[1]"
+					"parameter_longname" : "live.text[91]"
 				}
 ,
 				"obj-28::obj-37" : 				{
@@ -1305,7 +1313,7 @@
 				}
 ,
 				"obj-28::obj-42" : 				{
-					"parameter_longname" : "live.text"
+					"parameter_longname" : "live.text[93]"
 				}
 ,
 				"obj-7::obj-107::obj-35" : 				{
@@ -1640,35 +1648,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.2max.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
 				"bootpath" : "~/Documents/GitHub/modulo/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -1696,71 +1704,71 @@
 			}
 , 			{
 				"name" : "mo.2max.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.regress.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.theremini~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/sound",
-				"patcherrelativepath" : "../patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-theremini.json",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

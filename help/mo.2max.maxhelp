@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 425.5, 210.280237540602684, 125.750918656587601 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -210,13 +210,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 26.5, 210.280237540602684, 125.750918656587601 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -716,12 +716,24 @@
 					"parameter_longname" : "live.text[64]"
 				}
 ,
+				"obj-4::obj-35" : 				{
+					"parameter_longname" : "live.text[190]"
+				}
+,
 				"obj-4::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[16]"
 				}
 ,
 				"obj-4::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[51]"
+				}
+,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[191]"
+				}
+,
+				"obj-4::obj-4" : 				{
+					"parameter_longname" : "live.text[149]"
 				}
 ,
 				"obj-4::obj-40::obj-20" : 				{
@@ -812,6 +824,10 @@
 					"parameter_longname" : "live.text[70]"
 				}
 ,
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[66]"
+				}
+,
 				"obj-4::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[18]"
 				}
@@ -872,8 +888,8 @@
 			}
 , 			{
 				"name" : "mo.2max.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -892,7 +908,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

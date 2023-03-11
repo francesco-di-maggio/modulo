@@ -436,7 +436,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-105",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -680,7 +679,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "my-granulator~-buf",
+					"buffername" : "name-buf",
 					"chanoffset" : 2,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
@@ -749,7 +748,7 @@
 				"box" : 				{
 					"comment" : "(message) file, folder, length, rec",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -815,7 +814,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 102.107140948880442, 8.371792723306498, 100.522462437044851, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "my-granulator~",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Name-TX"
@@ -938,7 +936,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) output",
 					"id" : "obj-52",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -950,11 +948,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1004.948104470968246, 14.0, 30.0, 30.0 ]
 				}
 
@@ -1215,7 +1213,6 @@
 									"hint" : "MAIN PATH NAME",
 									"id" : "obj-44",
 									"ignoreclick" : 1,
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1246,7 +1243,6 @@
 									"hint" : "NEEDS A BANG",
 									"id" : "obj-81",
 									"ignoreclick" : 1,
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1649,7 +1645,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 148.75, 278.499999999999943, 100.0, 20.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Home/Documents/GitHub/modulo/help/media/",
+					"prefix" : "Macintosh HD:/Users/Home/Documents/GitHub/modulo/patchers/input/media/",
 					"presentation" : 1,
 					"presentation_rect" : [ 102.107140948880442, 134.062851072478054, 81.500000000000057, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1827,7 +1823,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "my-granulator~-buf",
+					"buffername" : "name-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,
@@ -3285,6 +3281,53 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-125" : [ "live.numbox[60]", "live.dial[12]", 0 ],
+			"obj-138" : [ "live.numbox[58]", "live.dial[12]", 0 ],
+			"obj-141" : [ "live.text[1]", "live.text", 0 ],
+			"obj-23" : [ "live.text[2]", "live.text", 0 ],
+			"obj-33" : [ "live.text[72]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "loop.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "record.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]

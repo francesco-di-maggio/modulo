@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1149.0, 680.0 ],
+		"rect" : [ 0.0, 53.0, 1142.0, 678.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -148,8 +148,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1071.375, 568.226974681019783, 29.5, 23.0 ],
-					"text" : "pad"
+					"patching_rect" : [ 1071.375, 568.226974681019783, 34.0, 23.0 ],
+					"text" : "pads"
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -173,7 +173,7 @@
 					"patching_rect" : [ 18.875, 353.226974681019783, 211.363907903432846, 188.750918656587601 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.875, 225.393028909961401, 211.363907903432846, 188.750918656587601 ],
-					"varname" : "mo.slider[2]",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -190,7 +190,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -198,7 +198,7 @@
 					"patching_rect" : [ 270.875, 568.226974681019783, 211.363907903432846, 236.750918656587601 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.375, 425.226974681019783, 211.363907903432846, 236.750918656587601 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders[2]",
 					"viewvisibility" : 1
 				}
 
@@ -215,7 +215,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad.maxpat",
+					"name" : "mo.pads.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -223,7 +223,7 @@
 					"patching_rect" : [ 270.875, 130.476056024432182, 211.363907903432846, 125.750918656587601 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.375, 89.559083138902977, 211.363907903432846, 125.750918656587586 ],
-					"varname" : "mo.pad",
+					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
 
@@ -333,7 +333,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -341,7 +341,7 @@
 					"patching_rect" : [ 18.875, 130.476056024432182, 211.363907903432846, 125.750918656587601 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.875, 89.559083138902977, 211.363907903432846, 125.750918656587601 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -642,7 +642,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.scale", "mo.pad", "mo.2max", "mo.crosspatch" ],
+					"subscribe" : [ "mo.2max", "mo.scale", "mo.pad", "mo.crosspatch", "mo.pads" ],
 					"text" : "pattrstorage p-granulator @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-granulator"
 				}
@@ -944,7 +944,7 @@
 			"obj-28::obj-36::obj-20" : [ "Show Particle Settings[20]", "live.text", 0 ],
 			"obj-28::obj-36::obj-35" : [ "live.text[165]", "live.text", 0 ],
 			"obj-28::obj-38" : [ "live.text[187]", "live.text", 0 ],
-			"obj-28::obj-4" : [ "live.text[188]", "live.text", 0 ],
+			"obj-28::obj-4" : [ "live.text[72]", "live.text", 0 ],
 			"obj-28::obj-40::obj-20" : [ "Show Particle Settings[21]", "live.text", 0 ],
 			"obj-28::obj-40::obj-35" : [ "live.text[163]", "live.text", 0 ],
 			"obj-28::obj-41::obj-20" : [ "Show Particle Settings[22]", "live.text", 0 ],
@@ -1098,7 +1098,7 @@
 			"obj-6::obj-56" : [ "live.numbox[67]", "live.numbox", 0 ],
 			"obj-6::obj-74::obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
 			"obj-6::obj-74::obj-35" : [ "live.text[173]", "live.text", 0 ],
-			"obj-7::obj-107::obj-15" : [ "live.text[72]", "live.text", 0 ],
+			"obj-7::obj-107::obj-15" : [ "live.text[101]", "live.text", 0 ],
 			"obj-7::obj-107::obj-18" : [ "live.text[71]", "live.text", 0 ],
 			"obj-7::obj-107::obj-8" : [ "live.text[124]", "live.text", 0 ],
 			"obj-7::obj-36::obj-15" : [ "live.text[75]", "live.text", 0 ],
@@ -1383,7 +1383,7 @@
 				}
 ,
 				"obj-28::obj-4" : 				{
-					"parameter_longname" : "live.text[188]"
+					"parameter_longname" : "live.text[72]"
 				}
 ,
 				"obj-28::obj-40::obj-20" : 				{
@@ -1983,7 +1983,7 @@
 				}
 ,
 				"obj-7::obj-107::obj-15" : 				{
-					"parameter_longname" : "live.text[72]"
+					"parameter_longname" : "live.text[101]"
 				}
 ,
 				"obj-7::obj-107::obj-18" : 				{
@@ -2218,56 +2218,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.2max.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.gran~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.pad.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
 				"bootpath" : "~/Documents/GitHub/modulo/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -2284,100 +2284,114 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "micoff.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "micon.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.2max.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.adc~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.granulator~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/sound",
-				"patcherrelativepath" : "../patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pad.maxpat",
+				"name" : "mo.pads.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.wave.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-granulator.json",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

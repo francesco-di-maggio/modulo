@@ -10,7 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 149.0, 243.0 ],
+		"rect" : [ 0.0, 66.0, 212.0, 79.0 ],
+		"openrect" : [ 0.0, 0.0, 212.0, 78.626728996634483 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -22,11 +23,11 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
+		"lefttoolbarpinned" : 2,
+		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 3,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -40,42 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 27.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 68.0, 53.0, 23.0 ],
-					"text" : "mute $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 194.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -85,42 +50,24 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.spacebar.maxpat",
-					"numinlets" : 1,
+					"name" : "mo.tabs.maxpat",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 109.0, 99.255791574060538, 55.596866592764854 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 210.361835166811943, 75.750918656587601 ],
+					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-15" : [ "live.text[32]", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[17]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-59" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -131,12 +78,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-15" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[32]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
+				"obj-1::obj-38" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-1::obj-4" : 				{
+					"parameter_longname" : "live.text[188]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
 				}
 
 			}
@@ -145,23 +96,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "dice.svg",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.spacebar.maxpat",
+				"name" : "mo.tabs.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spacebar.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

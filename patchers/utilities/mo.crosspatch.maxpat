@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 211.0, 77.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -486,6 +486,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
+													"int" : 1,
 													"maxclass" : "gswitch",
 													"numinlets" : 3,
 													"numoutlets" : 1,
@@ -1639,7 +1640,18 @@
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 1,
-								"numouts" : 1
+								"numouts" : 4,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 3,
+										"gain" : 1.0
+									}
+ ]
 							}
 
 						}
@@ -1699,14 +1711,13 @@
 					"numinlets" : 1,
 					"numins" : 1,
 					"numoutlets" : 2,
-					"numouts" : 1,
 					"outcolormap" : "none",
-					"outlabels" : "1",
+					"outlabels" : [ "1", "2", "3", "4" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 679.139760281642339, 451.5, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 55.0, 196.0, 16.0 ],
+					"presentation_rect" : [ 7.0, 55.0, 196.0, 64.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Crosspatch-CP"
 				}

@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad.maxpat",
+					"name" : "mo.pads.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 259.280237540602684, 114.5, 212.173431724309921, 124.0 ],
-					"varname" : "mo.pad",
+					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
 
@@ -94,13 +94,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 114.5, 210.0, 124.0 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -125,7 +125,7 @@
  ],
 		"parameters" : 		{
 			"obj-2::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
-			"obj-2::obj-107::obj-35" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-107::obj-35" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-123::obj-20" : [ "Show Particle Settings[17]", "live.text", 0 ],
 			"obj-2::obj-123::obj-35" : [ "live.text[105]", "live.text", 0 ],
 			"obj-2::obj-1::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
@@ -172,7 +172,6 @@
 			"obj-5::obj-107::obj-15" : [ "live.text[27]", "live.text", 0 ],
 			"obj-5::obj-107::obj-18" : [ "live.text[26]", "live.text", 0 ],
 			"obj-5::obj-107::obj-8" : [ "live.text[23]", "live.text", 0 ],
-			"obj-5::obj-123::obj-35" : [ "live.text[81]", "live.text", 0 ],
 			"obj-5::obj-36::obj-15" : [ "live.text[35]", "live.text", 0 ],
 			"obj-5::obj-36::obj-18" : [ "live.text[36]", "live.text", 0 ],
 			"obj-5::obj-36::obj-8" : [ "live.text[37]", "live.text", 0 ],
@@ -236,7 +235,11 @@
 				}
 ,
 				"obj-2::obj-107::obj-35" : 				{
-					"parameter_longname" : "live.text[2]"
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[17]"
 				}
 ,
 				"obj-2::obj-123::obj-35" : 				{
@@ -405,10 +408,6 @@
 ,
 				"obj-5::obj-107::obj-8" : 				{
 					"parameter_longname" : "live.text[23]"
-				}
-,
-				"obj-5::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[81]"
 				}
 ,
 				"obj-5::obj-36::obj-15" : 				{
@@ -605,13 +604,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.gate.maxpat",
-				"bootpath" : "~/Documents/GitHub/blackbox/archive/multislider/mo-multislider",
-				"patcherrelativepath" : "../../blackbox/archive/multislider/mo-multislider",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.pad.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
@@ -627,8 +619,8 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -641,8 +633,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -653,14 +645,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pad.maxpat",
+				"name" : "mo.pads.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

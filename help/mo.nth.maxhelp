@@ -97,13 +97,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.000000000000028, 255.297012329101562, 210.361835166811943, 75.750918656587601 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -155,13 +155,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.000000000000028, 24.499999999999886, 211.0, 126.0 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -202,38 +202,38 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-107::obj-20" : [ "Show Particle Settings[20]", "live.text", 0 ],
-			"obj-13::obj-107::obj-35" : [ "live.text[2]", "live.text", 0 ],
+			"obj-13::obj-107::obj-35" : [ "live.text[4]", "live.text", 0 ],
 			"obj-13::obj-123::obj-20" : [ "Show Particle Settings[18]", "live.text", 0 ],
 			"obj-13::obj-123::obj-35" : [ "live.text[105]", "live.text", 0 ],
 			"obj-13::obj-1::obj-20" : [ "Show Particle Settings[21]", "live.text", 0 ],
 			"obj-13::obj-1::obj-35" : [ "live.text[44]", "live.text", 0 ],
 			"obj-13::obj-35" : [ "live.text[46]", "live.text", 0 ],
 			"obj-13::obj-36::obj-20" : [ "Show Particle Settings[22]", "live.text", 0 ],
-			"obj-13::obj-36::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-13::obj-36::obj-35" : [ "live.text[5]", "live.text", 0 ],
 			"obj-13::obj-38" : [ "live.text[45]", "live.text", 0 ],
 			"obj-13::obj-4" : [ "live.text[116]", "live.text", 0 ],
 			"obj-13::obj-40::obj-20" : [ "Show Particle Settings[23]", "live.text", 0 ],
-			"obj-13::obj-40::obj-35" : [ "live.text[5]", "live.text", 0 ],
+			"obj-13::obj-40::obj-35" : [ "live.text[6]", "live.text", 0 ],
 			"obj-13::obj-41::obj-20" : [ "Show Particle Settings[24]", "live.text", 0 ],
-			"obj-13::obj-41::obj-35" : [ "live.text[6]", "live.text", 0 ],
+			"obj-13::obj-41::obj-35" : [ "live.text[7]", "live.text", 0 ],
 			"obj-13::obj-42::obj-20" : [ "Show Particle Settings[25]", "live.text", 0 ],
-			"obj-13::obj-42::obj-35" : [ "live.text[7]", "live.text", 0 ],
+			"obj-13::obj-42::obj-35" : [ "live.text[8]", "live.text", 0 ],
 			"obj-13::obj-43::obj-20" : [ "Show Particle Settings[26]", "live.text", 0 ],
-			"obj-13::obj-43::obj-35" : [ "live.text[8]", "live.text", 0 ],
+			"obj-13::obj-43::obj-35" : [ "live.text[9]", "live.text", 0 ],
 			"obj-13::obj-44::obj-20" : [ "Show Particle Settings[27]", "live.text", 0 ],
-			"obj-13::obj-44::obj-35" : [ "live.text[9]", "live.text", 0 ],
+			"obj-13::obj-44::obj-35" : [ "live.text[10]", "live.text", 0 ],
 			"obj-13::obj-45::obj-20" : [ "Show Particle Settings[28]", "live.text", 0 ],
-			"obj-13::obj-45::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-13::obj-45::obj-35" : [ "live.text[11]", "live.text", 0 ],
 			"obj-13::obj-46::obj-20" : [ "Show Particle Settings[29]", "live.text", 0 ],
-			"obj-13::obj-46::obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-13::obj-46::obj-35" : [ "live.text[12]", "live.text", 0 ],
 			"obj-13::obj-47::obj-20" : [ "Show Particle Settings[30]", "live.text", 0 ],
-			"obj-13::obj-47::obj-35" : [ "live.text[12]", "live.text", 0 ],
+			"obj-13::obj-47::obj-35" : [ "live.text[13]", "live.text", 0 ],
 			"obj-13::obj-48::obj-20" : [ "Show Particle Settings[31]", "live.text", 0 ],
-			"obj-13::obj-48::obj-35" : [ "live.text[13]", "live.text", 0 ],
+			"obj-13::obj-48::obj-35" : [ "live.text[14]", "live.text", 0 ],
 			"obj-13::obj-49::obj-20" : [ "Show Particle Settings[32]", "live.text", 0 ],
-			"obj-13::obj-49::obj-35" : [ "live.text[14]", "live.text", 0 ],
+			"obj-13::obj-49::obj-35" : [ "live.text[15]", "live.text", 0 ],
 			"obj-13::obj-50::obj-20" : [ "Show Particle Settings[33]", "live.text", 0 ],
-			"obj-13::obj-50::obj-35" : [ "live.text[15]", "live.text", 0 ],
+			"obj-13::obj-50::obj-35" : [ "live.text[16]", "live.text", 0 ],
 			"obj-13::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-13::obj-74::obj-20" : [ "Show Particle Settings[19]", "live.text", 0 ],
 			"obj-13::obj-74::obj-35" : [ "live.text[1]", "live.text", 0 ],
@@ -289,7 +289,7 @@
 				}
 ,
 				"obj-13::obj-107::obj-35" : 				{
-					"parameter_longname" : "live.text[2]"
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-13::obj-123::obj-20" : 				{
@@ -317,7 +317,7 @@
 				}
 ,
 				"obj-13::obj-36::obj-35" : 				{
-					"parameter_longname" : "live.text[4]"
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-13::obj-38" : 				{
@@ -333,7 +333,7 @@
 				}
 ,
 				"obj-13::obj-40::obj-35" : 				{
-					"parameter_longname" : "live.text[5]"
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-13::obj-41::obj-20" : 				{
@@ -341,7 +341,7 @@
 				}
 ,
 				"obj-13::obj-41::obj-35" : 				{
-					"parameter_longname" : "live.text[6]"
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-13::obj-42::obj-20" : 				{
@@ -349,7 +349,7 @@
 				}
 ,
 				"obj-13::obj-42::obj-35" : 				{
-					"parameter_longname" : "live.text[7]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-13::obj-43::obj-20" : 				{
@@ -357,7 +357,7 @@
 				}
 ,
 				"obj-13::obj-43::obj-35" : 				{
-					"parameter_longname" : "live.text[8]"
+					"parameter_longname" : "live.text[9]"
 				}
 ,
 				"obj-13::obj-44::obj-20" : 				{
@@ -365,7 +365,7 @@
 				}
 ,
 				"obj-13::obj-44::obj-35" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-13::obj-45::obj-20" : 				{
@@ -373,7 +373,7 @@
 				}
 ,
 				"obj-13::obj-45::obj-35" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_longname" : "live.text[11]"
 				}
 ,
 				"obj-13::obj-46::obj-20" : 				{
@@ -381,7 +381,7 @@
 				}
 ,
 				"obj-13::obj-46::obj-35" : 				{
-					"parameter_longname" : "live.text[11]"
+					"parameter_longname" : "live.text[12]"
 				}
 ,
 				"obj-13::obj-47::obj-20" : 				{
@@ -389,7 +389,7 @@
 				}
 ,
 				"obj-13::obj-47::obj-35" : 				{
-					"parameter_longname" : "live.text[12]"
+					"parameter_longname" : "live.text[13]"
 				}
 ,
 				"obj-13::obj-48::obj-20" : 				{
@@ -397,7 +397,7 @@
 				}
 ,
 				"obj-13::obj-48::obj-35" : 				{
-					"parameter_longname" : "live.text[13]"
+					"parameter_longname" : "live.text[14]"
 				}
 ,
 				"obj-13::obj-49::obj-20" : 				{
@@ -405,7 +405,7 @@
 				}
 ,
 				"obj-13::obj-49::obj-35" : 				{
-					"parameter_longname" : "live.text[14]"
+					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-13::obj-50::obj-20" : 				{
@@ -413,7 +413,7 @@
 				}
 ,
 				"obj-13::obj-50::obj-35" : 				{
-					"parameter_longname" : "live.text[15]"
+					"parameter_longname" : "live.text[16]"
 				}
 ,
 				"obj-13::obj-56" : 				{
@@ -436,6 +436,10 @@
 					"parameter_longname" : "live.text[30]"
 				}
 ,
+				"obj-1::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[17]"
+				}
+,
 				"obj-1::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[81]"
 				}
@@ -448,12 +452,20 @@
 					"parameter_longname" : "live.text[160]"
 				}
 ,
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-1::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
 ,
 				"obj-1::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-1::obj-38" : 				{
+					"parameter_longname" : "live.text[187]"
 				}
 ,
 				"obj-1::obj-4" : 				{
@@ -548,6 +560,10 @@
 					"parameter_longname" : "live.text[43]"
 				}
 ,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[70]"
+				}
+,
 				"obj-1::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[1]"
 				}
@@ -581,8 +597,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -600,7 +616,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

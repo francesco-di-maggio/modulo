@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 470.0, 211.0, 23.0 ],
-					"text" : "0 0 0 0"
+					"text" : "0. 0. 0. 0."
 				}
 
 			}
@@ -185,13 +185,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 320.297012329101562, 211.0, 125.0 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -410,6 +410,14 @@
 					"parameter_longname" : "live.text[16]"
 				}
 ,
+				"obj-6::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[17]"
+				}
+,
+				"obj-6::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[105]"
+				}
+,
 				"obj-6::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[34]"
 				}
@@ -418,12 +426,24 @@
 					"parameter_longname" : "live.text[17]"
 				}
 ,
+				"obj-6::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-6::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[30]"
 				}
 ,
 				"obj-6::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-6::obj-38" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-6::obj-4" : 				{
+					"parameter_longname" : "live.text[116]"
 				}
 ,
 				"obj-6::obj-40::obj-20" : 				{
@@ -514,6 +534,10 @@
 					"parameter_longname" : "live.text[38]"
 				}
 ,
+				"obj-6::obj-56" : 				{
+					"parameter_longname" : "live.numbox[70]"
+				}
+,
 				"obj-6::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[29]"
 				}
@@ -550,8 +574,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -569,7 +593,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

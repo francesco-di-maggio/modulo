@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad.maxpat",
+					"name" : "mo.pads.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 349.0, 210.219461962580681, 123.734495148062706 ],
-					"varname" : "mo.pad",
+					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
 
@@ -108,13 +108,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 25.0, 210.219461962580681, 124.734495148062706 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -249,7 +249,6 @@
 			"obj-5::obj-107::obj-15" : [ "live.text[108]", "live.text", 0 ],
 			"obj-5::obj-107::obj-18" : [ "live.text[71]", "live.text", 0 ],
 			"obj-5::obj-107::obj-8" : [ "live.text[107]", "live.text", 0 ],
-			"obj-5::obj-123::obj-35" : [ "live.text[53]", "live.text", 0 ],
 			"obj-5::obj-36::obj-15" : [ "live.text[117]", "live.text", 0 ],
 			"obj-5::obj-36::obj-18" : [ "live.text[72]", "live.text", 0 ],
 			"obj-5::obj-36::obj-8" : [ "live.text[123]", "live.text", 0 ],
@@ -652,10 +651,6 @@
 					"parameter_longname" : "live.text[107]"
 				}
 ,
-				"obj-5::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[53]"
-				}
-,
 				"obj-5::obj-36::obj-15" : 				{
 					"parameter_longname" : "live.text[117]"
 				}
@@ -666,6 +661,10 @@
 ,
 				"obj-5::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[123]"
+				}
+,
+				"obj-5::obj-39" : 				{
+					"parameter_longname" : "live.toggle[1]"
 				}
 ,
 				"obj-5::obj-4" : 				{
@@ -838,13 +837,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.gate.maxpat",
-				"bootpath" : "~/Documents/GitHub/blackbox/archive/multislider/mo-multislider",
-				"patcherrelativepath" : "../../blackbox/archive/multislider/mo-multislider",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.pad.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
@@ -867,8 +859,8 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -881,8 +873,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -893,7 +885,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pad.maxpat",
+				"name" : "mo.pads.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
@@ -907,7 +899,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",

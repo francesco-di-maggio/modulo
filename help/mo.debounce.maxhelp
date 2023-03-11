@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 244.0, 276.0 ],
+		"rect" : [ 34.0, 100.0, 260.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.039229302942374, 233.795919179916382, 50.0, 23.0 ],
+					"patching_rect" : [ 77.039229302942374, 218.795919179916382, 50.0, 23.0 ],
 					"text" : "0"
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 27.783437728881836, 233.795919179916382, 24.0, 24.0 ]
+					"patching_rect" : [ 27.783437728881836, 218.795919179916382, 24.0, 24.0 ]
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.836733102798462, 68.276604175567627, 49.0, 23.0 ],
+					"patching_rect" : [ 167.836733102798462, 61.077552780508995, 49.0, 23.0 ],
 					"text" : "time $1"
 				}
 
@@ -97,12 +97,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.spacebar.maxpat",
+					"name" : "mo.key.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.783437728881836, 28.480686187744141, 99.255791574060538, 55.596866592764854 ],
+					"varname" : "mo.key",
 					"viewvisibility" : 1
 				}
 
@@ -123,7 +124,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.783437728881836, 142.689380136132229, 99.255791574060538, 56.596866592764854 ],
+					"patching_rect" : [ 27.783437728881836, 127.689380136132229, 99.255791574060538, 56.596866592764854 ],
 					"varname" : "mo.debounce",
 					"viewvisibility" : 1
 				}
@@ -141,7 +142,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 177.336733102798462, 129.0, 117.539229302942374, 129.0 ],
+					"midpoints" : [ 177.336733102798462, 114.0, 117.539229302942374, 114.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -149,7 +150,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 37.283437728881836, 201.0, 37.283437728881836, 201.0 ],
+					"midpoints" : [ 37.283437728881836, 186.0, 37.283437728881836, 186.0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -158,7 +159,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 37.283437728881836, 219.0, 117.539229302942374, 219.0 ],
+					"midpoints" : [ 37.283437728881836, 204.0, 117.539229302942374, 204.0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -202,6 +203,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "keys.txt",
+				"bootpath" : "~/Documents/GitHub/modulo/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -215,17 +223,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.spacebar.maxpat",
+				"name" : "mo.key.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spacebar.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

@@ -122,13 +122,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 25.374999999999886, 211.0, 125.0 ],
-					"varname" : "mo.slider[1]",
+					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
 
@@ -194,13 +194,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.sliders.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 350.8125, 211.0, 125.0 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
 
@@ -587,12 +587,24 @@
 					"parameter_longname" : "live.text[13]"
 				}
 ,
+				"obj-9::obj-35" : 				{
+					"parameter_longname" : "live.text[190]"
+				}
+,
 				"obj-9::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
 ,
 				"obj-9::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-9::obj-38" : 				{
+					"parameter_longname" : "live.text[191]"
+				}
+,
+				"obj-9::obj-4" : 				{
+					"parameter_longname" : "live.text[149]"
 				}
 ,
 				"obj-9::obj-40::obj-20" : 				{
@@ -683,6 +695,10 @@
 					"parameter_longname" : "live.text[25]"
 				}
 ,
+				"obj-9::obj-56" : 				{
+					"parameter_longname" : "live.numbox[66]"
+				}
+,
 				"obj-9::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[1]"
 				}
@@ -705,8 +721,8 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -719,8 +735,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -744,7 +760,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
@@ -752,22 +768,22 @@
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

@@ -1,0 +1,37 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-mapping",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.crosspatch::In" : [ 1.0 ],
+					"mo.crosspatch::Out" : [ 4.0 ],
+					"mo.crosspatch::Crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 1,
+								"numouts" : 4,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 0.58
+									}
+, 									{
+										"in" : 0,
+										"out" : 3,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
