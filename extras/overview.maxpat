@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 817.0, 759.0 ],
+		"rect" : [ 0.0, 66.0, 808.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.5, 195.0, 774.5, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 233.665829000000031, 775.0, 7.99633318471524 ],
+					"presentation_rect" : [ 21.5, 233.665829000000031, 766.0, 7.99633318471524 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -387,7 +387,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1127,7 +1127,7 @@
 																	"id" : "obj-3",
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 4,
-																	"num_lines_presentation" : 4,
+																	"num_lines_presentation" : 3,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -1151,9 +1151,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-recording", "mo-regression", "mo-sonification", "mo-workflow" ],
+																			"parameter_enum" : [ "mo-recording", "mo-regression", "mo-sonification" ],
 																			"parameter_longname" : "live.menu[7]",
-																			"parameter_mmax" : 3,
+																			"parameter_mmax" : 2,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2553,7 +2553,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture gesture input data, such as accelerometers, touch sensors, and keyboards.",
+													"text" : "Manage MIDI or OSC input and output, interfacing with external devices, or handling audio storage and routing.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3098,7 +3098,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -1230.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -3581,9 +3581,9 @@
 ,
 																		"valueof" : 																		{
 																			"parameter_defer" : 1,
-																			"parameter_enum" : [ "mo.~2list", "mo.2max", "mo.2midi", "mo.2osc", "mo.adc~", "mo.buffer~", "mo.crosspatch", "mo.crosspatch~", "mo.dac~", "mo.eq~", "mo.if", "mo.list2~", "mo.meter~", "mo.nth", "mo.playlist~", "mo.prepend", "mo.receive", "mo.receive~", "mo.recorder", "mo.recorder~", "mo.route", "mo.scope", "mo.scope~", "mo.send", "mo.send~", "mo.udpreceive", "mo.udpsend" ],
+																			"parameter_enum" : [ "mo.~2list", "mo.2max", "mo.2midi", "mo.2osc", "mo.adc~", "mo.buffer~", "mo.crosspatch", "mo.crosspatch~", "mo.dac~", "mo.eq~", "mo.if", "mo.list2~", "mo.meter~", "mo.notepad", "mo.nth", "mo.playlist~", "mo.prepend", "mo.receive", "mo.receive~", "mo.recorder", "mo.recorder~", "mo.route", "mo.scope", "mo.scope~", "mo.send", "mo.send~", "mo.udpreceive", "mo.udpsend" ],
 																			"parameter_longname" : "live.menu[6]",
-																			"parameter_mmax" : 26,
+																			"parameter_mmax" : 27,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -4614,13 +4614,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 26.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.5, 90.0, 544.0, 38.0 ],
+					"patching_rect" : [ 176.5, 90.0, 544.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 85.0, 544.0, 38.0 ],
-					"text" : "A toolkit for sound-gesture interaction design."
+					"presentation_rect" : [ 206.5, 85.0, 551.0, 38.0 ],
+					"text" : "A Toolkit for Digital Musical Instrument Design."
 				}
 
 			}
@@ -4684,8 +4685,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.5, 158.0, 765.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 193.665829000000031, 765.0, 35.0 ],
-					"text" : "Combine modules, and build your digital musical instrument prototypes",
+					"presentation_rect" : [ 21.5, 193.665829000000031, 589.0, 35.0 ],
+					"text" : "A multichannel, modular approach to fast prototyping.",
 					"textjustification" : 1
 				}
 
@@ -4804,14 +4805,7 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo",
-				"patcherrelativepath" : "..",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],

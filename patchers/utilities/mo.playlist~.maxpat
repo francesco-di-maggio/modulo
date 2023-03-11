@@ -197,17 +197,17 @@
 					"allowreorder" : 2,
 					"basictuning" : 440,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"clipheight" : 142.052631616592294,
+					"clipheight" : 141.052631616592294,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "cello-f2.aif",
-								"filename" : "cello-f2.aif",
+								"absolutepath" : "chiko.aif",
+								"filename" : "chiko.aif",
 								"filekind" : "audiofile",
-								"id" : "u430004400",
-								"loop" : 0,
+								"id" : "u148002335",
+								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 0
+									"loop" : 1
 								}
 
 							}

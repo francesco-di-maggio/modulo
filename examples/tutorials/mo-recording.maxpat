@@ -509,7 +509,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "@rate", 50 ],
+					"args" : [ 4, "@rate", 50, "@pulse", 1000 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -823,7 +823,7 @@
 			"obj-39::obj-3" : [ "live.text[4]", "live.text", 0 ],
 			"obj-39::obj-45" : [ "live.text[5]", "live.text", 0 ],
 			"obj-39::obj-50" : [ "live.text[10]", "live.text", 0 ],
-			"obj-39::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-39::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-39::obj-85" : [ "live.text[3]", "live.text", 0 ],
 			"obj-39::obj-88" : [ "live.text[91]", "live.text", 0 ],
 			"obj-39::obj-92" : [ "live.text[2]", "live.text", 0 ],
@@ -831,10 +831,11 @@
 			"obj-6::obj-38" : [ "live.text[16]", "live.text", 0 ],
 			"obj-6::obj-4" : [ "live.text[188]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-6::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-6::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-6::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-7::obj-11" : [ "live.text[25]", "live.text", 0 ],
-			"obj-7::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-7::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-9::obj-11" : [ "live.text", "live.text", 0 ],
 			"obj-9::obj-52" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -891,12 +892,16 @@
 					"parameter_longname" : "live.text[5]"
 				}
 ,
+				"obj-39::obj-52" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
 				"obj-7::obj-11" : 				{
 					"parameter_longname" : "live.text[25]"
 				}
 ,
 				"obj-7::obj-52" : 				{
-					"parameter_longname" : "live.numbox[8]"
+					"parameter_longname" : "live.numbox[10]"
 				}
 ,
 				"obj-9::obj-11" : 				{
@@ -914,15 +919,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -941,63 +946,63 @@
 , 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.recorder.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.recorder~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.~2list.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

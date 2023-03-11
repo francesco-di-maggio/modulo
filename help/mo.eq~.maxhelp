@@ -320,10 +320,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "harp_riff.wav",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/media/sound files/old",
-				"patcherrelativepath" : "../../../Max 8/Packages/Virtual Sound Macros/media/sound files/old",
-				"type" : "WAVE",
+				"name" : "chiko.aif",
+				"bootpath" : "~/Documents/GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"patcherrelativepath" : "../../blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{

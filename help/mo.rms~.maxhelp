@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 479.0, 528.0 ],
+		"rect" : [ 34.0, 100.0, 479.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.scope.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.824253082275391, 350.595428462257132, 211.059561000000002, 184.0 ],
+					"varname" : "mo.scope",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "message",
@@ -179,28 +201,6 @@
 			}
 , 			{
 				"box" : 				{
-					"candycane" : 16,
-					"contdata" : 1,
-					"id" : "obj-20",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 28.824253082275391, 384.595428462257132, 211.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 53.480896085500717, 234.0, 158.0, 95.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 3,
-					"signed" : 1,
-					"size" : 4,
-					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"spacing" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -251,8 +251,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 38.324253082275391, 300.0, 38.324253082275391, 300.0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -309,6 +308,8 @@
 			"obj-2::obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-2::obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-2::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-3::obj-11" : [ "live.text[25]", "live.text", 0 ],
+			"obj-3::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -358,8 +359,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -374,6 +375,13 @@
 				"name" : "mo.rms~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
 				"patcherrelativepath" : "../patchers/processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.scope.maxpat",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"patcherrelativepath" : "../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -302,6 +302,7 @@
 			"obj-1::obj-38" : [ "live.text[16]", "live.text", 0 ],
 			"obj-1::obj-4" : [ "live.text[188]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-1::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-2::obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
@@ -352,6 +353,15 @@
 				"obj-2::obj-28" : 				{
 					"parameter_longname" : "live.numbox[10]"
 				}
+,
+				"obj-2::obj-34" : 				{
+					"parameter_initial" : 10,
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_range" : [ 1.0, 100.0 ],
+					"parameter_type" : 0,
+					"parameter_unitstyle" : 2
+				}
 
 			}
 ,
@@ -360,8 +370,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

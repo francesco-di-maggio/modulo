@@ -420,7 +420,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.onepole~", "mo.rand~", "mo.crosspatch~" ],
+					"subscribe" : [ "mo.rand~", "mo.onepole~", "mo.crosspatch~" ],
 					"text" : "pattrstorage p-sonification @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-sonification"
 				}
@@ -579,6 +579,7 @@
 			"obj-6::obj-38" : [ "live.text[16]", "live.text", 0 ],
 			"obj-6::obj-4" : [ "live.text[188]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-6::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-6::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-6::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-7::obj-107::obj-35" : [ "live.text[82]", "live.text", 0 ],
@@ -644,6 +645,10 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-7" : 				{
 					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-6::obj-36" : 				{
+					"parameter_range" : [ 0.0, 500.0 ]
 				}
 ,
 				"obj-7::obj-107::obj-35" : 				{
@@ -846,63 +851,63 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-sonification.json",
 				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

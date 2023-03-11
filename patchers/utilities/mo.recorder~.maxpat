@@ -797,8 +797,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 983.0, 290.022246999999993, 327.0, 23.0 ],
-					"text" : "script replace play newex 0 0 100 12 mcs.play~ my_crop $1"
+					"patching_rect" : [ 983.0, 290.022246999999993, 374.0, 23.0 ],
+					"text" : "script replace play newex 0 0 100 12 mcs.play~ my_crop $1 @loop 1"
 				}
 
 			}
@@ -824,7 +824,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
 					"patching_rect" : [ 983.0, 724.457984536886215, 170.0, 22.0 ],
-					"text" : "mcs.play~ my_crop 1 @loop 1",
+					"text" : "mcs.play~ my_crop 4 @loop 1",
 					"varname" : "play"
 				}
 

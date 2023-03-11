@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 471.0, 419.0 ],
+		"rect" : [ 34.0, 100.0, 471.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.824253082275391, 206.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 222.0, 211.059561000000002, 184.0 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -102,7 +102,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.824253082275391, 138.595428462257132, 99.173431724309921, 36.476056024432182 ],
+					"patching_rect" : [ 28.824253082275391, 146.595428462257132, 99.173431724309921, 36.476056024432182 ],
 					"varname" : "mo.~2list",
 					"viewvisibility" : 1
 				}
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.83221094686894, 285.500000000000057, 74.0, 25.0 ],
+					"patching_rect" : [ 368.83221094686894, 293.500000000000057, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -135,7 +135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.33221094686894, 288.000000000000057, 20.0, 20.0 ],
+					"patching_rect" : [ 341.33221094686894, 296.000000000000057, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -152,7 +152,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.498877613535569, 271.5, 53.0, 53.0 ]
+					"patching_rect" : [ 273.498877613535569, 279.5, 53.0, 53.0 ]
 				}
 
 			}
@@ -191,7 +191,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 38.324253082275391, 177.0, 38.324253082275391, 177.0 ],
+					"midpoints" : [ 38.324253082275391, 186.0, 38.324253082275391, 186.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -199,7 +199,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 230.383814082275393, 177.0, 230.383814082275393, 177.0 ],
+					"midpoints" : [ 230.383814082275393, 186.0, 230.383814082275393, 186.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -207,7 +207,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 230.383814082275393, 155.0, 230.383814082275393, 155.0 ],
+					"midpoints" : [ 230.383814082275393, 153.0, 230.383814082275393, 153.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -280,8 +280,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

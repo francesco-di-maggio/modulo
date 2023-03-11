@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 473.0, 557.0 ],
+		"rect" : [ 34.0, 100.0, 436.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,19 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 139.0, 404.0, 147.0, 23.0 ],
-					"text" : "/dev/output-1 0.73087"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 457.5, 146.0, 23.0 ],
-					"text" : "/output-1 0.413968"
+					"text" : "/dev/output-4 0.456222"
 				}
 
 			}
@@ -151,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 506.5, 212.0, 23.0 ],
-					"text" : "/output-1 0.73087"
+					"patching_rect" : [ 24.0, 476.5, 212.0, 23.0 ],
+					"text" : "/output-4 0.456222"
 				}
 
 			}
@@ -216,16 +204,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 107.5, 444.0, 255.5, 444.0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 33.5, 492.0, 226.5, 492.0 ],
+					"midpoints" : [ 33.5, 462.0, 226.5, 462.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -618,8 +598,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

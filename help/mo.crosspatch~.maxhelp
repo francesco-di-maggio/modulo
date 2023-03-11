@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 484.0, 480.0 ],
+		"rect" : [ 0.0, 66.0, 484.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,27 @@
 		"subpatcher_template" : "Default Max 7",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.meter~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 22.824253082275391, 342.0, 211.059561000000002, 184.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-6",
@@ -160,7 +181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.83221094686894, 380.595428462257189, 74.0, 24.0 ],
+					"patching_rect" : [ 358.83221094686894, 421.500000000000057, 74.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.041666666666629, 318.633830717592389, 74.0, 24.0 ],
 					"text" : "start dsp"
@@ -182,7 +203,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 331.33221094686894, 383.095428462257189, 20.0, 20.0 ],
+					"patching_rect" : [ 331.33221094686894, 424.000000000000057, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 568.541666666666629, 321.133830717592389, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -201,32 +222,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.498877613535569, 366.595428462257132, 53.0, 53.0 ],
+					"patching_rect" : [ 263.498877613535569, 407.5, 53.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 504.666666666666629, 304.633830717592389, 53.0, 53.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"id" : "obj-20",
-					"maxclass" : "live.meter~",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 1,
-					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 22.824253082275391, 338.595428462257132, 211.0, 109.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 53.480896085500717, 234.0, 215.0, 109.0 ],
-					"saved_attribute_attributes" : 					{
-						"coldcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-
 				}
 
 			}
@@ -247,7 +245,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 22.824253082275391, 158.946220395679347, 211.175746917724638, 125.750918656587601 ],
+					"patching_rect" : [ 22.824253082275391, 158.946220395679347, 211.175746917724638, 139.750918656587601 ],
 					"varname" : "mo.crosspatch~",
 					"viewvisibility" : 1
 				}
@@ -279,8 +277,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 32.324253082275391, 285.0, 32.324253082275391, 285.0 ],
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 32.324253082275391, 300.0, 32.324253082275391, 300.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -350,6 +348,7 @@
 			"obj-3::obj-38" : [ "live.text[16]", "live.text", 0 ],
 			"obj-3::obj-4" : [ "live.text[188]", "live.text", 0 ],
 			"obj-3::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-3::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-3::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-3::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -377,20 +376,27 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
+				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"patcherrelativepath" : "../patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.meter~.maxpat",
 				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
 				"patcherrelativepath" : "../patchers/utilities",
 				"type" : "JSON",

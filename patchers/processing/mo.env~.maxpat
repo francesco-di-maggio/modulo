@@ -458,10 +458,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 100 ],
+							"parameter_initial" : [ 10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[1]",
-							"parameter_mmax" : 60000.0,
+							"parameter_mmax" : 100.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2

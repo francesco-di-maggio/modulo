@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 759.0, 482.0 ],
+		"rect" : [ 34.0, 100.0, 747.0, 482.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 62.300459328293414, 53.0, 23.0 ],
+					"patching_rect" : [ 516.0, 47.300459328293414, 53.0, 23.0 ],
 					"text" : "prepend"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 398.0, 95.900459328293437, 152.0, 23.0 ],
+					"patching_rect" : [ 383.0, 80.900459328293437, 152.0, 23.0 ],
 					"text" : "combine mo. s @triggers 1"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 126.3754593282938, 77.0, 23.0 ],
+					"patching_rect" : [ 383.0, 111.3754593282938, 77.0, 23.0 ],
 					"text" : "subscribe $1"
 				}
 
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.5, 220.3754593282938, 85.0, 25.0 ],
+					"patching_rect" : [ 429.5, 205.3754593282938, 85.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.885702821115501, 332.559289701282978, 85.0, 25.0 ],
 					"text" : "load preset"
@@ -95,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 126.3754593282938, 65.0, 23.0 ],
+					"patching_rect" : [ 297.0, 111.3754593282938, 65.0, 23.0 ],
 					"text" : "writeagain"
 				}
 
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 312.0, 217.3754593282938, 100.0, 29.0 ],
+					"patching_rect" : [ 297.0, 202.3754593282938, 100.0, 29.0 ],
 					"pattrstorage" : "p-udpsend",
 					"presentation" : 1,
 					"presentation_rect" : [ 264.885702821115501, 330.059289701282978, 53.397435694932938, 29.0 ]
@@ -123,11 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 173.400459328293437, 421.0, 23.0 ],
-					"priority" : 					{
-						"mo.prepend::Device" : 1
-					}
-,
+					"patching_rect" : [ 297.0, 158.400459328293437, 421.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 926, 122, 1326, 622 ],
 						"parameter_enable" : 0,
@@ -156,7 +152,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 418.666666666666515, 221.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 403.666666666666515, 206.8754593282938, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 327.885702821115501, 334.559289701282978, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -272,7 +268,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 407.5, 159.0, 321.5, 159.0 ],
+					"midpoints" : [ 392.5, 144.0, 306.5, 144.0 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -280,7 +276,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 407.5, 120.0, 407.5, 120.0 ],
+					"midpoints" : [ 392.5, 105.0, 392.5, 105.0 ],
 					"source" : [ "obj-121", 0 ]
 				}
 
@@ -296,7 +292,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-121", 1 ],
-					"midpoints" : [ 540.5, 87.0, 540.5, 87.0 ],
+					"midpoints" : [ 525.5, 72.0, 525.5, 72.0 ],
 					"source" : [ "obj-136", 0 ]
 				}
 
@@ -312,7 +308,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 321.5, 150.0, 321.5, 150.0 ],
+					"midpoints" : [ 306.5, 135.0, 306.5, 135.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -633,8 +629,8 @@
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
+				"patcherrelativepath" : "../object-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

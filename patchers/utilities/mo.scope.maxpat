@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 184.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 212.0, 184.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -438,8 +438,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.842786306142557, 351.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 35.134303470023951, 195.0, 143.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"presentation_rect" : [ 7.5, 35.134303470023951, 195.0, 142.0 ],
 					"setstyle" : 3,
 					"size" : 4,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
