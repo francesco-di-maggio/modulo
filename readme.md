@@ -1,4 +1,4 @@
-![modulo logo](modulo/icon.png "the modulo logo")
+![modulo logo](icon.png "the modulo logo")
 
 # modulo
 > A Toolkit for Digital Musical Instrument Design. 
