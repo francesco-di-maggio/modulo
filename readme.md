@@ -1,10 +1,9 @@
 ![modulo logo](icon.png "the modulo logo")
 
 # modulo
-> A Toolkit for Digital Musical Instrument Design. 
 
 ## About 
-It consists of a set of standardised and independent modules for building complex digital musical instruments.
+A Toolkit for Digital Musical Instrument Design. 
 
 ## Installation
 
