@@ -51,11 +51,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.notepad.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 211.059561000000002, 184.0 ],
+					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
 
@@ -63,9 +63,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-4" : [ "live.text[118]", "live.text", 0 ],
-			"obj-1::obj-41" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-22" : [ "live.text[54]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[13]", "live.text", 0 ],
+			"obj-1::obj-41" : [ "live.text[53]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -86,14 +86,14 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.notepad.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1

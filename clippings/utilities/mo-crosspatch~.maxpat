@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 95.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 95.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 210.361835166811943, 91.800299942493439 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 209.46315561234951, 91.978553056716919 ],
 					"varname" : "mo.crosspatch~",
 					"viewvisibility" : 1
 				}
@@ -92,14 +92,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1

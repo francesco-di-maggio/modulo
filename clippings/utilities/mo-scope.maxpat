@@ -51,11 +51,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.scope.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 211.059561000000002, 184.0 ],
+					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
 
@@ -63,6 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-11" : [ "live.text[25]", "live.text", 0 ],
 			"obj-1::obj-52" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -73,12 +75,19 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-52" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1

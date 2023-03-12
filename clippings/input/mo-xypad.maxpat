@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 236.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 236.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"openrect" : [ 0.0, 0.0, 141.0, 162.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 2.0, 210.280237540602684, 233.343892440199852 ],
+					"patching_rect" : [ 1.0, 2.0, 138.629720106720924, 158.773449882864952 ],
 					"viewvisibility" : 1
 				}
 
@@ -64,8 +64,8 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

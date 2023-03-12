@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 101.0, 115.0 ],
-		"openrect" : [ 0.0, 0.0, 101.0, 115.010229110717773 ],
+		"rect" : [ 0.0, 66.0, 70.0, 112.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 112.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,11 +51,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.encoder.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 99.255791574060538, 111.862850174307823 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.364882051288703, 108.879321441054344 ],
+					"varname" : "mo.encoder",
 					"viewvisibility" : 1
 				}
 
@@ -63,12 +64,20 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-35" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-8" : 				{
+					"parameter_longname" : "live.text[188]"
 				}
 
 			}
@@ -84,7 +93,7 @@
 			}
 , 			{
 				"name" : "mo.encoder.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1

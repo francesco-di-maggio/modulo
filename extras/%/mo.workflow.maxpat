@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1421.0, 742.0 ],
+		"rect" : [ 0.0, 53.0, 1421.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 92.0, 1421.0, 716.0 ],
+						"rect" : [ 0.0, 26.0, 1421.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -359,13 +359,13 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "mo.slider.maxpat",
+									"name" : "mo.sliders.maxpat",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 383.75, 41.0, 211.361835166811943, 125.750918656587601 ],
-									"varname" : "mo.slider",
+									"varname" : "mo.sliders",
 									"viewvisibility" : 1
 								}
 
@@ -1047,7 +1047,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 431.75, 20.0, 24.0, 24.0 ]
+									"patching_rect" : [ 437.75, 20.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1058,7 +1058,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 431.75, 55.0, 50.0, 23.0 ],
+									"patching_rect" : [ 437.75, 55.0, 50.0, 23.0 ],
 									"text" : "rand $1"
 								}
 
@@ -1097,8 +1097,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.75, 93.0, 67.0, 22.0 ],
-									"text" : "mo.slider 4",
+									"patching_rect" : [ 383.75, 93.0, 73.0, 22.0 ],
+									"text" : "mo.sliders 4",
 									"varname" : "mo.slider"
 								}
 
@@ -1144,7 +1144,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 1 ],
-									"midpoints" : [ 441.25, 81.0, 441.25, 81.0 ],
+									"midpoints" : [ 447.25, 81.0, 447.25, 81.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -1160,7 +1160,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 441.25, 45.0, 441.25, 45.0 ],
+									"midpoints" : [ 447.25, 45.0, 447.25, 45.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -1441,9 +1441,9 @@
 			"obj-1::obj-7::obj-34" : [ "live.text[29]", "live.text", 0 ],
 			"obj-1::obj-7::obj-37" : [ "live.dial[30]", "octave", 0 ],
 			"obj-1::obj-7::obj-4" : [ "live.dial[20]", "gain", 0 ],
-			"obj-1::obj-7::obj-42" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-7::obj-42" : [ "live.text[31]", "live.text", 0 ],
 			"obj-1::obj-8::obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-1::obj-8::obj-7" : [ "live.text[31]", "live.text", 0 ],
+			"obj-1::obj-8::obj-7" : [ "live.text[32]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-20" : [ "Show Particle Settings[25]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-35" : [ "live.text[70]", "live.text", 0 ],
 			"obj-2::obj-1::obj-123::obj-20" : [ "Show Particle Settings[23]", "live.text", 0 ],
@@ -1587,12 +1587,24 @@
 					"parameter_longname" : "live.text[3]"
 				}
 ,
+				"obj-1::obj-18::obj-35" : 				{
+					"parameter_longname" : "live.text[190]"
+				}
+,
 				"obj-1::obj-18::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
 ,
 				"obj-1::obj-18::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-1::obj-18::obj-38" : 				{
+					"parameter_longname" : "live.text[191]"
+				}
+,
+				"obj-1::obj-18::obj-4" : 				{
+					"parameter_longname" : "live.text[149]"
 				}
 ,
 				"obj-1::obj-18::obj-40::obj-20" : 				{
@@ -1681,6 +1693,10 @@
 ,
 				"obj-1::obj-18::obj-50::obj-35" : 				{
 					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-18::obj-56" : 				{
+					"parameter_longname" : "live.numbox[66]"
 				}
 ,
 				"obj-1::obj-18::obj-74::obj-20" : 				{
@@ -1939,8 +1955,12 @@
 					"parameter_longname" : "live.text[29]"
 				}
 ,
-				"obj-1::obj-8::obj-7" : 				{
+				"obj-1::obj-7::obj-42" : 				{
 					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-1::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.text[32]"
 				}
 ,
 				"obj-2::obj-1::obj-107::obj-20" : 				{
@@ -2418,29 +2438,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.scale.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
-				"bootpath" : "~/Documents/GitHub/modulo/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -2452,57 +2472,57 @@
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"name" : "mo.sliders.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.theremini~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/sound",
-				"patcherrelativepath" : "../patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-workflow-mod.json",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-workflow-obj.json",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}

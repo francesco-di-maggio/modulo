@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 390.0, 333.0 ],
+		"rect" : [ 34.0, 100.0, 390.0, 380.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 282.714745454545209, 190.0, 84.0, 42.0 ],
-					"presentation_linecount" : 3,
 					"text" : ";\nnotepad 1"
 				}
 
@@ -208,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 28.824253082275391, 119.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 119.0, 211.059561000000002, 234.0 ],
 					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
@@ -298,14 +297,14 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.notepad.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
 				"patcherrelativepath" : "../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 184.0 ],
+		"rect" : [ 0.0, 66.0, 212.0, 185.0 ],
+		"openrect" : [ 0.0, 0.0, 212.0, 185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 691.051895529031754, 39.0, 30.0, 30.0 ]
 				}
 
@@ -178,7 +178,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 307.0, 212.0, 23.0 ],
-									"text" : "hello world"
+									"text" : "hello world!"
 								}
 
 							}
@@ -392,7 +392,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[53]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -411,6 +411,7 @@
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -419,7 +420,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 301.0, 481.0, 44.0, 15.0 ],
-					"pictures" : [ "circle.svg", "circle.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.58179347217083, 7.371792723306498, 37.001353085041046, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -441,7 +441,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[54]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -449,10 +449,8 @@
 
 					}
 ,
-					"text" : "clear",
+					"text" : "•",
 					"texton" : "clear",
-					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "live.text[1]"
 				}
 
@@ -487,7 +485,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.860643649101007, 313.525856395133815, 262.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.134303470023951, 198.0, 141.859598815441132 ],
+					"presentation_rect" : [ 6.5, 35.256605525382838, 197.5, 142.792681763998189 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
@@ -542,7 +540,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[118]",
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

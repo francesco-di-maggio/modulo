@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 245.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -50,12 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.tab.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.148589610397437, 241.596135124564171 ],
+					"varname" : "mo.tab",
 					"viewvisibility" : 1
 				}
 
@@ -63,7 +64,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "live.text[50]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-59" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -85,13 +88,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "dice.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.tab.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",

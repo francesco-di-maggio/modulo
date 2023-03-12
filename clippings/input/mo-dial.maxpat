@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 245.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 112.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 112.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,12 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.dial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.148589610397437, 241.596135124564171 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.364882051288703, 108.879321441054344 ],
+					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
 
@@ -63,7 +64,6 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "live.text[50]", "live.text", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -91,7 +91,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.dial.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",

@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 211.0, 92.0 ],
+		"openrect" : [ 0.0, 0.0, 210.0, 92.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.806426948308967, 42.626276284456253, 30.0, 30.0 ]
 				}
 
@@ -583,6 +583,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
+													"int" : 1,
 													"maxclass" : "gswitch",
 													"numinlets" : 3,
 													"numoutlets" : 1,
@@ -791,7 +792,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.0, 128.999999999999886, 95.0, 22.0 ],
-													"text" : "pak 7 69.5 196 f"
+													"text" : "pak 7 69.5 194 f"
 												}
 
 											}
@@ -1698,7 +1699,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 769.23700587843598, 208.688857341492167, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.071533560752869, 7.371792723306498, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 165.071533560752869, 7.371792723306498, 36.928466439247131, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1741,7 +1742,7 @@
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 1,
-								"numouts" : 1
+								"numouts" : 2
 							}
 
 						}
@@ -1801,14 +1802,14 @@
 					"numinlets" : 1,
 					"numins" : 1,
 					"numoutlets" : 2,
-					"numouts" : 1,
+					"numouts" : 2,
 					"outcolormap" : "none",
-					"outlabels" : "1",
+					"outlabels" : [ "1", "2" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 679.139760281642339, 451.5, 160.0, 189.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 69.5, 196.0, 16.0 ],
+					"presentation_rect" : [ 7.0, 69.5, 194.0, 32.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Crosspatch-CP"
 				}
@@ -1864,7 +1865,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.842786306142557, 66.626276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 197.5, 7.692913740873337 ],
+					"presentation_rect" : [ 6.5, 28.371792723306498, 195.5, 7.692913740873337 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -2003,7 +2004,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.0, 201.273999968171836, 206.0, 23.0 ],
-									"text" : "window size 0 0 211 $1, window exec"
+									"text" : "window size 0 0 209 $1, window exec"
 								}
 
 							}

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 100.0, 114.0 ],
-		"openrect" : [ 0.0, 0.0, 100.0, 113.636735811829567 ],
+		"rect" : [ 1.0, 66.0, 279.0, 108.0 ],
+		"openrect" : [ 0.0, 0.0, 279.0, 108.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 74.489049971103668, 607.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.729476302862167, 35.890512143143496, 71.10270668566227, 68.013671666383743 ],
+					"presentation_rect" : [ 6.9524886906147, 50.910552461513362, 265.661416038870811, 50.825680677626877 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -112,7 +112,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 74.489049971103668, 607.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.961126014590263, 38.081084315546832, 66.683544300496578, 63.66431051492691 ],
+					"presentation_rect" : [ 9.184138402342796, 53.101124633916697, 261.24225365370512, 46.476319526170045 ],
 					"size" : 1.0
 				}
 
@@ -217,7 +217,7 @@
 					"patching_rect" : [ 22.872310342721619, 190.875, 44.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.5, 8.371792723306498, 24.03719088435173, 15.0 ],
+					"presentation_rect" : [ 248.576713845133781, 33.371792723306498, 24.03719088435173, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -286,7 +286,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.842786306142557, 38.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 84.03719088435173, 5.0 ],
+					"presentation_rect" : [ 6.5, 28.371792723306498, 266.113904729485512, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -315,11 +315,10 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-58",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 29.0, 35.0 ],
+					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 5.371792723306498, 43.0, 21.0 ],
 					"text" : "rslider",
@@ -340,7 +339,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.489049971103668, 607.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.944719538092613, 35.979950134524188, 71.361884564161301, 68.447023302316666 ],
+					"presentation_rect" : [ 7.167731925845146, 50.999990452894053, 265.920593917369843, 51.2590323135598 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
