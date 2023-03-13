@@ -507,7 +507,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[34]",
+							"parameter_longname" : "Show Particle Settings[15]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -584,7 +584,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 111.666666666666657, 612.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.21651405849056, 0.0, 142.0, 15.0 ],
+					"presentation_rect" : [ 53.207453428255299, 0.0, 139.0, 15.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
@@ -816,7 +816,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[95]",
+							"parameter_longname" : "live.text[105]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -918,7 +918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.666666666666657, 612.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.601025737901494, 1.033069491386414, 146.390427621622905, 13.277105666697025 ],
+					"presentation_rect" : [ 50.601025737901494, 1.033069491386414, 143.740030559321269, 13.277105666697025 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

@@ -352,6 +352,7 @@
 			"obj-20::obj-38" : [ "live.text[34]", "live.text", 0 ],
 			"obj-20::obj-4" : [ "live.text[35]", "live.text", 0 ],
 			"obj-20::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-20::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-20::obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-20::obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -563,6 +564,14 @@
 					"parameter_longname" : "live.numbox[16]"
 				}
 ,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
 				"obj-20::obj-36" : 				{
 					"parameter_longname" : "live.numbox[32]"
 				}
@@ -594,37 +603,51 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
+				"patcherrelativepath" : "../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
 				"patcherrelativepath" : "../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],

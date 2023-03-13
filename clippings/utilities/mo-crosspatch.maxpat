@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 7.0, 66.0, 212.0, 79.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 78.626728996634483 ],
+		"rect" : [ 0.0, 66.0, 211.0, 95.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 95.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 210.361835166811943, 75.750918656587601 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 209.46315561234951, 91.978553056716919 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
 				}
@@ -77,6 +77,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-2" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-1::obj-37" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
@@ -87,9 +91,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.crosspatch.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 575.0, 53.0, 1311.0, 993.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 100.0, 56.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -497,7 +497,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"activebgcolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 					"id" : "obj-8",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -581,7 +581,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 1.0, 1.0, 0.4 ],
+					"activebgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-4",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -975,7 +975,7 @@
 					"presentation_rect" : [ 9.5, 28.371792723306498, 77.0, 8.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"signed" : 1,
-					"slidercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"slidercolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 					"spacing" : 3,
 					"thickness" : 20,
 					"varname" : "Slider-MS"

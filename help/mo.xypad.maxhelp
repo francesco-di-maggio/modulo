@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 261.0, 322.0 ],
+		"rect" : [ 34.0, 100.0, 261.0, 342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 206.5, 211.0, 93.0 ],
+					"patching_rect" : [ 24.0, 206.5, 209.46315561234951, 108.978553056716919 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -95,15 +95,15 @@
 		"parameters" : 		{
 			"obj-2::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-2::obj-107::obj-35" : [ "live.text[2]", "live.text", 0 ],
-			"obj-2::obj-123::obj-20" : [ "Show Particle Settings[17]", "live.text", 0 ],
-			"obj-2::obj-123::obj-35" : [ "live.text[81]", "live.text", 0 ],
+			"obj-2::obj-123::obj-20" : [ "Show Particle Settings[15]", "live.text", 0 ],
+			"obj-2::obj-123::obj-35" : [ "live.text[105]", "live.text", 0 ],
 			"obj-2::obj-1::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
-			"obj-2::obj-1::obj-35" : [ "live.text[160]", "live.text", 0 ],
-			"obj-2::obj-35" : [ "live.text[183]", "live.text", 0 ],
+			"obj-2::obj-1::obj-35" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-2::obj-36::obj-20" : [ "Show Particle Settings[4]", "live.text", 0 ],
 			"obj-2::obj-36::obj-35" : [ "live.text[4]", "live.text", 0 ],
-			"obj-2::obj-38" : [ "live.text[187]", "live.text", 0 ],
-			"obj-2::obj-4" : [ "live.text[172]", "live.text", 0 ],
+			"obj-2::obj-38" : [ "live.text[18]", "live.text", 0 ],
+			"obj-2::obj-4" : [ "live.text[116]", "live.text", 0 ],
 			"obj-2::obj-40::obj-20" : [ "Show Particle Settings[5]", "live.text", 0 ],
 			"obj-2::obj-40::obj-35" : [ "live.text[5]", "live.text", 0 ],
 			"obj-2::obj-41::obj-20" : [ "Show Particle Settings[6]", "live.text", 0 ],
@@ -112,21 +112,21 @@
 			"obj-2::obj-42::obj-35" : [ "live.text[7]", "live.text", 0 ],
 			"obj-2::obj-43::obj-20" : [ "Show Particle Settings[8]", "live.text", 0 ],
 			"obj-2::obj-43::obj-35" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-44::obj-20" : [ "Show Particle Settings[18]", "live.text", 0 ],
+			"obj-2::obj-44::obj-20" : [ "Show Particle Settings[9]", "live.text", 0 ],
 			"obj-2::obj-44::obj-35" : [ "live.text[9]", "live.text", 0 ],
-			"obj-2::obj-45::obj-20" : [ "Show Particle Settings[19]", "live.text", 0 ],
+			"obj-2::obj-45::obj-20" : [ "Show Particle Settings[10]", "live.text", 0 ],
 			"obj-2::obj-45::obj-35" : [ "live.text[10]", "live.text", 0 ],
-			"obj-2::obj-46::obj-20" : [ "Show Particle Settings[20]", "live.text", 0 ],
+			"obj-2::obj-46::obj-20" : [ "Show Particle Settings[11]", "live.text", 0 ],
 			"obj-2::obj-46::obj-35" : [ "live.text[11]", "live.text", 0 ],
-			"obj-2::obj-47::obj-20" : [ "Show Particle Settings[21]", "live.text", 0 ],
+			"obj-2::obj-47::obj-20" : [ "Show Particle Settings[12]", "live.text", 0 ],
 			"obj-2::obj-47::obj-35" : [ "live.text[12]", "live.text", 0 ],
-			"obj-2::obj-48::obj-20" : [ "Show Particle Settings[22]", "live.text", 0 ],
+			"obj-2::obj-48::obj-20" : [ "Show Particle Settings[13]", "live.text", 0 ],
 			"obj-2::obj-48::obj-35" : [ "live.text[13]", "live.text", 0 ],
-			"obj-2::obj-49::obj-20" : [ "Show Particle Settings[23]", "live.text", 0 ],
+			"obj-2::obj-49::obj-20" : [ "Show Particle Settings[14]", "live.text", 0 ],
 			"obj-2::obj-49::obj-35" : [ "live.text[14]", "live.text", 0 ],
-			"obj-2::obj-50::obj-20" : [ "Show Particle Settings[24]", "live.text", 0 ],
+			"obj-2::obj-50::obj-20" : [ "Show Particle Settings[16]", "live.text", 0 ],
 			"obj-2::obj-50::obj-35" : [ "live.text[15]", "live.text", 0 ],
-			"obj-2::obj-56" : [ "live.numbox[70]", "live.numbox", 0 ],
+			"obj-2::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
 			"obj-2::obj-74::obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
 			"obj-2::obj-74::obj-35" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -147,24 +147,12 @@
 					"parameter_longname" : "live.text[2]"
 				}
 ,
-				"obj-2::obj-123::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[17]"
-				}
-,
-				"obj-2::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[81]"
-				}
-,
 				"obj-2::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
 ,
 				"obj-2::obj-1::obj-35" : 				{
-					"parameter_longname" : "live.text[160]"
-				}
-,
-				"obj-2::obj-35" : 				{
-					"parameter_longname" : "live.text[183]"
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-2::obj-36::obj-20" : 				{
@@ -173,14 +161,6 @@
 ,
 				"obj-2::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-2::obj-38" : 				{
-					"parameter_longname" : "live.text[187]"
-				}
-,
-				"obj-2::obj-4" : 				{
-					"parameter_longname" : "live.text[172]"
 				}
 ,
 				"obj-2::obj-40::obj-20" : 				{
@@ -216,7 +196,7 @@
 				}
 ,
 				"obj-2::obj-44::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[18]"
+					"parameter_longname" : "Show Particle Settings[9]"
 				}
 ,
 				"obj-2::obj-44::obj-35" : 				{
@@ -224,7 +204,7 @@
 				}
 ,
 				"obj-2::obj-45::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[19]"
+					"parameter_longname" : "Show Particle Settings[10]"
 				}
 ,
 				"obj-2::obj-45::obj-35" : 				{
@@ -232,7 +212,7 @@
 				}
 ,
 				"obj-2::obj-46::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[20]"
+					"parameter_longname" : "Show Particle Settings[11]"
 				}
 ,
 				"obj-2::obj-46::obj-35" : 				{
@@ -240,7 +220,7 @@
 				}
 ,
 				"obj-2::obj-47::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[21]"
+					"parameter_longname" : "Show Particle Settings[12]"
 				}
 ,
 				"obj-2::obj-47::obj-35" : 				{
@@ -248,7 +228,7 @@
 				}
 ,
 				"obj-2::obj-48::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[22]"
+					"parameter_longname" : "Show Particle Settings[13]"
 				}
 ,
 				"obj-2::obj-48::obj-35" : 				{
@@ -256,7 +236,7 @@
 				}
 ,
 				"obj-2::obj-49::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[23]"
+					"parameter_longname" : "Show Particle Settings[14]"
 				}
 ,
 				"obj-2::obj-49::obj-35" : 				{
@@ -264,15 +244,11 @@
 				}
 ,
 				"obj-2::obj-50::obj-20" : 				{
-					"parameter_longname" : "Show Particle Settings[24]"
+					"parameter_longname" : "Show Particle Settings[16]"
 				}
 ,
 				"obj-2::obj-50::obj-35" : 				{
 					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-2::obj-56" : 				{
-					"parameter_longname" : "live.numbox[70]"
 				}
 ,
 				"obj-2::obj-74::obj-20" : 				{

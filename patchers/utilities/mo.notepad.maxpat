@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 185.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 212.0, 185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 723.0, 261.0, 301.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ "> type here" ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr notepad @bindto notepad- @initial \"> type here\"",
+					"varname" : "notepad"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,7 +78,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 691.051895529031754, 39.0, 30.0, 30.0 ]
 				}
 
@@ -178,7 +197,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 307.0, 212.0, 23.0 ],
-									"text" : "hello world!"
+									"text" : "> type here asad as a s as as as as"
 								}
 
 							}
@@ -471,10 +490,10 @@
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 0.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.5,
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"lines" : 1,
 					"maxclass" : "textedit",
@@ -483,13 +502,13 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 63.860643649101007, 313.525856395133815, 262.0, 140.0 ],
+					"patching_rect" : [ 63.860643649101007, 313.525856395133815, 251.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.256605525382838, 197.5, 142.792681763998189 ],
+					"presentation_rect" : [ 15.14285671710968, 38.093906720050654, 182.0, 135.606174598566213 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
-					"varname" : "Notepad-TX"
+					"varname" : "notepad-"
 				}
 
 			}
@@ -590,6 +609,25 @@
 
 					}
 
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-8",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 332.0, 313.525856395133815, 130.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.5, 35.256605525382838, 197.5, 142.792681763998189 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}

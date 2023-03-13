@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 270.0, 308.0 ],
+		"rect" : [ 34.0, 100.0, 252.0, 308.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.255791574060538, 19.0, 29.5, 23.0 ],
+					"patching_rect" : [ 203.255791574060538, 19.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.255791574060538, 19.0, 44.0, 23.0 ],
+					"patching_rect" : [ 146.255791574060538, 19.0, 44.0, 23.0 ],
 					"text" : "DELAY"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.255791574060538, 68.0, 54.0, 23.0 ],
+					"patching_rect" : [ 146.255791574060538, 68.0, 54.0, 23.0 ],
 					"text" : "name $1"
 				}
 
@@ -145,7 +145,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 232.755791574060538, 54.0, 175.755791574060538, 54.0 ],
+					"midpoints" : [ 212.755791574060538, 54.0, 155.755791574060538, 54.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -153,7 +153,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 175.755791574060538, 105.0, 86.587685733377555, 105.0 ],
+					"midpoints" : [ 155.755791574060538, 105.0, 86.587685733377555, 105.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -169,7 +169,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 175.755791574060538, 45.0, 175.755791574060538, 45.0 ],
+					"midpoints" : [ 155.755791574060538, 45.0, 155.755791574060538, 45.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -185,8 +185,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-21" : [ "dial%[1]", "dial-", 0 ],
-			"obj-1::obj-35" : [ "live.text[462]", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[457]", "live.text", 0 ],
+			"obj-1::obj-37" : [ "live.text[456]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -197,9 +196,9 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-35" : 				{
+				"obj-1::obj-37" : 				{
 					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[462]",
+					"parameter_longname" : "live.text[456]",
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
@@ -211,22 +210,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.dial.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

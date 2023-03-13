@@ -699,7 +699,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 40.666666666666657, 360.944444444444343, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.973149760419801, -0.058990031480789, 161.356452226389592, 15.0 ],
+					"presentation_rect" : [ 34.973149760419801, -0.058990031480789, 159.68514311288709, 15.0 ],
 					"rounded" : 0.0,
 					"text" : "output-1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -770,7 +770,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[35]",
+							"parameter_longname" : "live.text[105]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

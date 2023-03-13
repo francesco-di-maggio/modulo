@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 100.0, 56.0 ],
 		"openrect" : [ 0.0, 0.0, 100.0, 56.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -201,6 +201,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -212,6 +213,10 @@
 					"presentation_rect" : [ 6.5, 35.371792723306498, 55.03719088435173, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,

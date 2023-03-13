@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 203.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 203.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 1.0, 2.0, 210.219461962580681, 199.908045038580894 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 209.46315561234951, 199.978553056716919 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -65,6 +65,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-113" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-147" : [ "live.text[51]", "live.text", 0 ],
 			"obj-1::obj-21" : [ "live.text", "number", 0 ],
 			"obj-1::obj-26" : [ "number[6]", "number", 0 ],
 			"obj-1::obj-37" : [ "live.text[8]", "number", 0 ],
@@ -90,29 +91,6 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-113" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-1::obj-21" : 				{
-					"parameter_longname" : "live.text"
-				}
-,
-				"obj-1::obj-37" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-1::obj-54" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-1::obj-9" : 				{
-					"parameter_longname" : "live.numbox"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
@@ -134,8 +112,8 @@
 			}
 , 			{
 				"name" : "mo.regress.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
+				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

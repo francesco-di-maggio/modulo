@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 210.0, 92.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 210.0, 92.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -209,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 747.75, 267.286711341492264, 224.0, 23.0 ],
+					"patching_rect" : [ 751.75, 267.286711341492264, 224.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ " " ],
 						"parameter_enable" : 0,
@@ -242,22 +242,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 94.850202091038199, 6.609515775808177, 70.22133146971467, 14.942765593528748 ],
 					"rounded" : 0.0,
-					"text" : "BANG",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-76",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1004.0, 316.23671126996669, 62.0, 23.0 ],
-					"text" : "route text"
 				}
 
 			}
@@ -295,7 +282,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 677.25, 326.52742561583932, 207.0, 23.0 ],
+					"patching_rect" : [ 678.25, 326.52742561583932, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -317,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 712.5, 298.19475324486848, 213.0, 22.0 ],
+					"patching_rect" : [ 714.5, 298.19475324486848, 213.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 4000.0 ],
 						"parameter_enable" : 0,
@@ -358,8 +345,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 642.0, 220.0, 160.0, 23.0 ],
-					"text" : "route onoff mode time name"
+					"patching_rect" : [ 642.0, 220.0, 165.0, 23.0 ],
+					"text" : "route onoff mode time device"
 				}
 
 			}
@@ -1683,6 +1670,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1708,6 +1696,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-107",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1733,6 +1722,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-74",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2399,14 +2389,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 2 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"midpoints" : [ 1013.5, 288.436711556068872, 1013.5, 288.436711556068872 ],
-					"source" : [ "obj-26", 0 ]
 				}
 
 			}

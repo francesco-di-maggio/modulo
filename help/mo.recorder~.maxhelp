@@ -44,8 +44,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.398149454545774, 248.0, 33.0, 21.0 ],
-					"text" : "crop"
+					"patching_rect" : [ 479.398149454545774, 248.0, 53.0, 21.0 ],
+					"text" : "cropped"
 				}
 
 			}
@@ -441,6 +441,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
 				"obj-16::obj-7" : 				{
 					"parameter_longname" : "live.text"
 				}
@@ -449,13 +453,42 @@
 					"parameter_longname" : "live.text[9]"
 				}
 ,
+				"obj-39::obj-141" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-39::obj-18" : 				{
+					"parameter_longname" : "live.numbox[60]"
+				}
+,
+				"obj-39::obj-3" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-39::obj-45" : 				{
 					"parameter_initial" : 1.0,
-					"parameter_initial_enable" : 1
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[72]"
 				}
 ,
 				"obj-39::obj-50" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-39::obj-52" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-39::obj-85" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-39::obj-88" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-39::obj-92" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-9::obj-45" : 				{
@@ -473,8 +506,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -491,44 +524,72 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mic-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mic-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.adc~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
+				"patcherrelativepath" : "../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.recorder~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
 				"patcherrelativepath" : "../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}

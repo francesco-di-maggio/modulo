@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 79.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 78.626728996634483 ],
+		"rect" : [ 0.0, 66.0, 211.0, 95.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 95.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 210.361835166811943, 75.750918656587601 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 209.46315561234951, 91.978553056716919 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -64,8 +64,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-38" : [ "live.text[17]", "live.text", 0 ],
-			"obj-1::obj-4" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[18]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[116]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
 			"obj-1::obj-59" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -79,15 +79,19 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-1::obj-38" : 				{
-					"parameter_longname" : "live.text[17]"
+					"parameter_longname" : "live.text[18]"
 				}
 ,
 				"obj-1::obj-4" : 				{
-					"parameter_longname" : "live.text[188]"
+					"parameter_longname" : "live.text[116]"
 				}
 ,
 				"obj-1::obj-56" : 				{
 					"parameter_longname" : "live.numbox[49]"
+				}
+,
+				"obj-1::obj-59" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 
 			}
@@ -97,8 +101,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -110,7 +114,7 @@
 			}
 , 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
