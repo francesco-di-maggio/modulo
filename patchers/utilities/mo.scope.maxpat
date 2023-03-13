@@ -59,15 +59,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 564.0, 221.0, 244.0, 23.0 ],
+					"patching_rect" : [ 564.0, 221.0, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Polarity @bindto Polarity-TX @initial 0",
-					"varname" : "Polarity"
+					"text" : "pattr mode @bindto mode- @initial 0",
+					"varname" : "mode"
 				}
 
 			}
@@ -78,8 +78,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 564.0, 184.5, 81.0, 23.0 ],
-					"text" : "route polarity"
+					"patching_rect" : [ 564.0, 184.5, 70.0, 23.0 ],
+					"text" : "route mode"
 				}
 
 			}
@@ -106,7 +106,7 @@
 					}
 ,
 					"text" : "U",
-					"varname" : "Polarity-TX"
+					"varname" : "mode-"
 				}
 
 			}
@@ -306,15 +306,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 510.0, 301.0, 230.0, 23.0 ],
+					"patching_rect" : [ 510.0, 301.0, 215.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Chans @bindto Chans-NB @initial 1",
-					"varname" : "Chans"
+					"text" : "pattr voices @bindto voices- @initial 1",
+					"varname" : "voices"
 				}
 
 			}
@@ -386,7 +386,7 @@
 
 					}
 ,
-					"varname" : "Chans-NB"
+					"varname" : "voices-"
 				}
 
 			}
@@ -441,6 +441,7 @@
 					"presentation_rect" : [ 7.5, 36.134303470023951, 194.0, 141.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
+					"size" : 4,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

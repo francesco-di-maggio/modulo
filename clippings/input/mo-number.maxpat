@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 141.0, 52.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 112.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 112.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 138.978401332437613, 47.89377236366272 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.087685733377555, 109.1312106102705 ],
 					"varname" : "mo.number",
 					"viewvisibility" : 1
 				}
@@ -64,8 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-3" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-37" : [ "live.text[456]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -75,38 +74,14 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-3" : 				{
-					"parameter_longname" : "live.numbox",
-					"parameter_shortname" : "live.numbox"
-				}
-,
-				"obj-1::obj-8" : 				{
-					"parameter_longname" : "live.text[188]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.number.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

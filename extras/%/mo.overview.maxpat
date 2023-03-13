@@ -2657,7 +2657,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
+													"text" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3202,7 +3202,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -820.0, 0.0 ],
+									"offset" : [ -2050.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -3215,7 +3215,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
+										"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -3358,7 +3358,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 3,
-																	"num_lines_presentation" : 3,
+																	"num_lines_presentation" : 4,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -3382,9 +3382,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.rcurves", "mo.rfloats", "mo.rpads" ],
+																			"parameter_enum" : [ "mo.rcurves", "mo.rfloats", "mo.rpads", "mo.rtabs" ],
 																			"parameter_longname" : "live.menu[13]",
-																			"parameter_mmax" : 2,
+																			"parameter_mmax" : 3,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -4418,7 +4418,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 10,
-																	"num_lines_presentation" : 11,
+																	"num_lines_presentation" : 12,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -4442,9 +4442,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.buffer~", "mo.date", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.key", "mo.key+", "mo.keyboard", "mo.myo", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand~", "mo.rslider", "mo.slider", "mo.sliders", "mo.tab", "mo.tabs", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.buffer~", "mo.date", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.key", "mo.key+", "mo.keyboard", "mo.myo", "mo.number", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand~", "mo.rslider", "mo.rsliders", "mo.slider", "mo.sliders", "mo.tab", "mo.tabs", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[3]",
-																			"parameter_mmax" : 21,
+																			"parameter_mmax" : 23,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9

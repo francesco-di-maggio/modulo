@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 68.0, 108.0 ],
 		"openrect" : [ 0.0, 0.0, 68.0, 108.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -95,7 +95,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[456]",
+							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -155,7 +155,7 @@
 					}
 ,
 					"size" : 1.0,
-					"thickness" : 20.0,
+					"thickness" : 15.0,
 					"varname" : "dial-"
 				}
 
