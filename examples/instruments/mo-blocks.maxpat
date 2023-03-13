@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 434.0, 415.0 ],
+		"rect" : [ 0.0, 66.0, 434.0, 415.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -123,7 +123,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 434.0, 184.03344638645649, 399.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 1057, 100, 1440, 462 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -442,6 +442,10 @@
 ,
 				"obj-55::obj-37" : 				{
 					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-58::obj-38" : 				{
+					"parameter_longname" : "live.text[460]"
 				}
 ,
 				"obj-58::obj-6" : 				{

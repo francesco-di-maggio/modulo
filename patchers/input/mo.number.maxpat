@@ -103,7 +103,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 13.0,
-					"format" : 5,
 					"id" : "obj-39",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -211,7 +210,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[456]",
+							"parameter_longname" : "live.text[459]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -240,7 +239,7 @@
 					}
 ,
 					"text" : "pattr number @bindto number- @initial 0",
-					"varname" : "number[1]"
+					"varname" : "number"
 				}
 
 			}
