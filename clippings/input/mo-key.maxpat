@@ -50,12 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.spacebar.maxpat",
-					"numinlets" : 0,
+					"name" : "mo.key.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 99.255791574060538, 55.596866592764854 ],
+					"varname" : "mo.key",
 					"viewvisibility" : 1
 				}
 
@@ -89,23 +90,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "keys.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.spacebar.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"name" : "mo.key.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spacebar.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

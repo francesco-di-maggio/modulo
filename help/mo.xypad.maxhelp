@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 261.0, 398.0 ],
+		"rect" : [ 34.0, 100.0, 261.0, 322.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 281.5, 211.0, 93.0 ],
+					"patching_rect" : [ 24.0, 206.5, 211.0, 93.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -77,7 +77,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 24.5, 211.0, 234.0 ],
+					"patching_rect" : [ 24.0, 24.5, 138.629720106720924, 158.773449882864952 ],
+					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
 
@@ -289,22 +290,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
-				"bootpath" : "~/Documents/GitHub/modulo/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -316,14 +317,14 @@
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1

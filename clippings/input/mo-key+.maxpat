@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 101.0, 59.0 ],
 		"openrect" : [ 0.0, 0.0, 101.0, 59.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -50,8 +50,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.click+.maxpat",
-					"numinlets" : 1,
+					"name" : "mo.key+.maxpat",
+					"numinlets" : 2,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -64,6 +64,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-126" : [ "live.text[62]", "live.text", 0 ],
+			"obj-1::obj-51" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-74" : [ "live.text[33]", "live.text", 0 ],
 			"obj-1::obj-75" : [ "live.text[50]", "live.text", 0 ],
 			"obj-1::obj-78" : [ "live.text[58]", "live.text", 0 ],
@@ -95,9 +96,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.click+.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"name" : "mo.key+.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

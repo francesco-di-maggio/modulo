@@ -1,0 +1,79 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-controller",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.encoder[4]::mode" : [ 0 ],
+					"mo.encoder[4]::encoder" : [ 0.0 ],
+					"mo.rslider[1]::rslider" : [ 0.718450639320137, 0.800085750588715 ],
+					"mo.xypad[1]::xypad" : [ 0, 0 ],
+					"mo.xypad[2]::xypad" : [ 127, 127 ],
+					"mo.slider[2]::slider" : [ 0.3302947086337 ],
+					"mo.slider[1]::slider" : [ 0.137112890451882 ],
+					"mo.tab[4]::Chans" : [ 4.0 ],
+					"mo.tab[4]::Mode" : [ 0.0 ],
+					"mo.tab[4]::Mute" : [ 0.0 ],
+					"mo.tab[4]::tab" : [ 0 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 1.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 0.0 ],
+					"mo.dial[4]::dial" : [ 0.636029027855114 ],
+					"mo.dial[1]::dial" : [ 0.0 ],
+					"mo.tab[1]::Chans" : [ 4.0 ],
+					"mo.tab[1]::Mode" : [ 0.0 ],
+					"mo.tab[1]::Mute" : [ 0.0 ],
+					"mo.tab[1]::tab" : [ 1 ],
+					"mo.encoder[1]::mode" : [ 0 ],
+					"mo.encoder[1]::encoder" : [ 0.0 ],
+					"mo.rslider[2]::rslider" : [ 0.26362644796663, 0.846734385599331 ],
+					"mo.pad[6]::mode" : [ 1.0 ],
+					"mo.pad[6]::pad" : [ 0.0 ],
+					"mo.pad[5]::mode" : [ 1.0 ],
+					"mo.pad[5]::pad" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"mo.encoder[4]::mode" : [ 0 ],
+					"mo.encoder[4]::encoder" : [ 0.216144225990002 ],
+					"mo.rslider[1]::rslider" : [ 0.0, 0.609603824295366 ],
+					"mo.xypad[1]::xypad" : [ 0, 127 ],
+					"mo.xypad[2]::xypad" : [ 57, 79 ],
+					"mo.slider[2]::slider" : [ 0.671203799542791 ],
+					"mo.slider[1]::slider" : [ 0.978021981360973 ],
+					"mo.tab[4]::Chans" : [ 4.0 ],
+					"mo.tab[4]::Mode" : [ 0.0 ],
+					"mo.tab[4]::Mute" : [ 0.0 ],
+					"mo.tab[4]::tab" : [ -1 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 1.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 1.0 ],
+					"mo.dial[4]::dial" : [ 0.0 ],
+					"mo.dial[1]::dial" : [ 0.0 ],
+					"mo.tab[1]::Chans" : [ 4.0 ],
+					"mo.tab[1]::Mode" : [ 0.0 ],
+					"mo.tab[1]::Mute" : [ 0.0 ],
+					"mo.tab[1]::tab" : [ 3 ],
+					"mo.encoder[1]::mode" : [ 0 ],
+					"mo.encoder[1]::encoder" : [ 0.0 ],
+					"mo.rslider[2]::rslider" : [ 0.0, 0.073144521673281 ],
+					"mo.pad[6]::mode" : [ 1.0 ],
+					"mo.pad[6]::pad" : [ 0.0 ],
+					"mo.pad[5]::mode" : [ 1.0 ],
+					"mo.pad[5]::pad" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

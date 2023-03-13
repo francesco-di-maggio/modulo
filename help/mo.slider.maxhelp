@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 294.0, 320.0 ],
+		"rect" : [ 34.0, 100.0, 294.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -120,8 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 274.0, 99.173431724309921, 23.0 ],
-					"text" : "1."
+					"patching_rect" : [ 24.0, 421.0, 68.148589610397437, 23.0 ],
+					"text" : "0.092"
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 128.0, 99.255791574060538, 111.862850174307823 ],
+					"patching_rect" : [ 24.0, 128.0, 68.148589610397437, 269.631871804594994 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -151,7 +151,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 181.755791574060538, 114.0, 113.755791574060538, 114.0 ],
+					"midpoints" : [ 181.755791574060538, 114.0, 82.648589610397437, 114.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -167,7 +167,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 113.755791574060538, 102.0, 113.755791574060538, 102.0 ],
+					"midpoints" : [ 113.755791574060538, 114.0, 82.648589610397437, 114.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -175,7 +175,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 33.5, 261.0, 113.673431724309921, 261.0 ],
+					"midpoints" : [ 33.5, 408.0, 82.648589610397437, 408.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -206,24 +206,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-6" : [ "live.text", "live.text", 0 ],
-			"obj-5::obj-8" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-6" : [ "live.text[456]", "live.text", 0 ],
+			"obj-5::obj-8" : [ "live.text[455]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-6" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
 				}
 
 			}
@@ -239,7 +228,7 @@
 			}
 , 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1

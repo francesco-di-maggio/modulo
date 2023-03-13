@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 112.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 112.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.364882051288703, 108.879321441054344 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.087685733377555, 109.1312106102705 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -64,6 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

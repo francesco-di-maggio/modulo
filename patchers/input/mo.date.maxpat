@@ -65,25 +65,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 430.0, 453.0, 217.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Mute @bindto Mute-TX @initial 0",
-					"varname" : "Mute"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -254,7 +235,7 @@
 
 					}
 ,
-					"text" : "0 : 28 : 57 : 370",
+					"text" : "0 : 13 : 11 : 459",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -313,7 +294,7 @@
 
 					}
 ,
-					"text" : "20 : 5 : 24",
+					"text" : "12 : 39 : 32",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
@@ -430,7 +411,7 @@
 
 					}
 ,
-					"text" : "3 / 11 / 2023",
+					"text" : "3 / 12 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"

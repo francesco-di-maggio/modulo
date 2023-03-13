@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 313.0, 308.0 ],
+		"rect" : [ 34.0, 100.0, 270.0, 308.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.255791574060538, 19.0, 29.5, 23.0 ],
+					"patching_rect" : [ 223.255791574060538, 19.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.255791574060538, 19.0, 36.0, 23.0 ],
+					"patching_rect" : [ 166.255791574060538, 19.0, 36.0, 23.0 ],
 					"text" : "SPAT"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.255791574060538, 68.0, 54.0, 23.0 ],
+					"patching_rect" : [ 166.255791574060538, 68.0, 54.0, 23.0 ],
 					"text" : "name $1"
 				}
 
@@ -95,7 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 108.0, 27.0, 24.0, 24.0 ]
+					"patching_rect" : [ 77.0, 27.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 68.0, 53.0, 23.0 ],
+					"patching_rect" : [ 77.0, 68.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -127,7 +127,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 119.0, 99.255791574060538, 111.862850174307823 ],
+					"patching_rect" : [ 28.0, 119.0, 67.58196696573458, 108.879321441054344 ],
 					"varname" : "mo.encoder",
 					"viewvisibility" : 1
 				}
@@ -137,7 +137,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 37.5, 231.0, 37.5, 231.0 ],
+					"midpoints" : [ 37.5, 228.0, 37.5, 228.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -145,7 +145,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 263.755791574060538, 54.0, 206.755791574060538, 54.0 ],
+					"midpoints" : [ 232.755791574060538, 54.0, 175.755791574060538, 54.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -153,7 +153,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 206.755791574060538, 105.0, 117.755791574060538, 105.0 ],
+					"midpoints" : [ 175.755791574060538, 105.0, 86.08196696573458, 105.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -161,7 +161,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 117.5, 93.0, 117.755791574060538, 93.0 ],
+					"midpoints" : [ 86.5, 93.0, 86.08196696573458, 93.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -169,7 +169,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 206.755791574060538, 45.0, 206.755791574060538, 45.0 ],
+					"midpoints" : [ 175.755791574060538, 45.0, 175.755791574060538, 45.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -177,35 +177,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 117.5, 54.0, 117.5, 54.0 ],
+					"midpoints" : [ 86.5, 54.0, 86.5, 54.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-5" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
+			"obj-1::obj-35" : [ "live.text[462]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[461]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-5" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-1::obj-8" : 				{
-					"parameter_longname" : "live.text[188]"
 				}
 
 			}
@@ -221,7 +206,7 @@
 			}
 , 			{
 				"name" : "mo.encoder.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1

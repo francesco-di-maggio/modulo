@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.364882051288703, 108.879321441054344 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.027613907396415, 108.879321441054344 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -79,6 +79,10 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[49]"
 				}
 ,
 				"obj-1::obj-8" : 				{

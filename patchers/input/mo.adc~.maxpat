@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 66.0, 211.0, 80.0 ],
 		"openrect" : [ 0.0, 0.0, 211.0, 80.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -203,9 +203,10 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 26.153199976682799, 302.0, 44.0, 15.0 ],
-					"pictures" : [ "micon.svg", "micoff.svg" ],
+					"pictures" : [ "mic-on.svg", "mic-off.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.498542189598083, 7.371792723306498, 40.501457810401917, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 281.0, 112.0 ],
+		"openrect" : [ 0.0, 0.0, 141.0, 112.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 279.451449661790946, 108.879321441054344 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 138.978401332437613, 108.879321441054344 ],
+					"varname" : "mo.rslider",
 					"viewvisibility" : 1
 				}
 

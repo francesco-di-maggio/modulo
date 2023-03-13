@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 141.0, 162.0 ],
 		"openrect" : [ 0.0, 0.0, 141.0, 162.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -56,6 +56,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 2.0, 138.629720106720924, 158.773449882864952 ],
+					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
 

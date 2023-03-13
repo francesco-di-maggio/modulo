@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 245.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 245.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 273.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,10 +52,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.tab.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.148589610397437, 241.596135124564171 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 67.721362679540732, 269.985966309905052 ],
 					"varname" : "mo.tab",
 					"viewvisibility" : 1
 				}
@@ -78,6 +78,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-38" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
+				}
+,
+				"obj-1::obj-59" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-1::obj-8" : 				{
 					"parameter_longname" : "live.text[188]"
 				}

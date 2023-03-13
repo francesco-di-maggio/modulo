@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 190.0, 119.0, 221.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0, 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr xypad @bindto xypad- @initial 0 0",
+					"varname" : "xypad"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -110,7 +129,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"invisiblebkgnd" : 1,
 					"maxclass" : "pictslider",
@@ -121,13 +140,7 @@
 					"patching_rect" : [ 28.0, 119.0, 109.0, 105.263157844543457 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.960398711567791, 37.722749509045229, 125.716166566043, 114.117202874393485 ],
-					"saved_attribute_attributes" : 					{
-						"elementcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-
+					"varname" : "xypad-"
 				}
 
 			}

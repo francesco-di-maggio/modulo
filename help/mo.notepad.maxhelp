@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 390.0, 380.0 ],
+		"rect" : [ 34.0, 100.0, 390.0, 327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -193,7 +193,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -207,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 28.824253082275391, 119.0, 211.059561000000002, 234.0 ],
+					"patching_rect" : [ 28.824253082275391, 119.0, 211.059561000000002, 184.0 ],
 					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
@@ -263,9 +262,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-22" : [ "live.text[2]", "live.text", 0 ],
-			"obj-5::obj-4" : [ "live.text[118]", "live.text", 0 ],
-			"obj-5::obj-41" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-22" : [ "live.text[54]", "live.text", 0 ],
+			"obj-5::obj-4" : [ "live.text[13]", "live.text", 0 ],
+			"obj-5::obj-41" : [ "live.text[53]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -275,27 +274,10 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-5::obj-22" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-5::obj-41" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "circle.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
 				"patcherrelativepath" : "../misc/flaticons",

@@ -41,14 +41,15 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.833333333333314, 219.267661435184777, 95.0, 25.0 ],
+					"patching_rect" : [ 272.833333333333314, 219.267661435184777, 54.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 268.166666666666686, 212.249999999999829, 95.0, 25.0 ],
-					"text" : "move xyapad"
+					"presentation_rect" : [ 10.166666666666686, 209.249999999999829, 39.0, 40.0 ],
+					"text" : "move"
 				}
 
 			}
@@ -69,7 +70,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 244.0, 221.767661435184777, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.666666666666686, 214.749999999999829, 20.0, 20.0 ],
+					"presentation_rect" : [ 19.666666666666686, 182.749999999999829, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -113,7 +114,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 283.666666666666742, 633.989895233677657, 210.363907903432846, 157.665164239152432 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 676.429321299272942, 212.223602352042974, 158.267661435184891 ],
+					"presentation_rect" : [ 18.0, 676.429321299272942, 212.223602352042974, 157.773449882865066 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -215,7 +216,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 536.333333333333485, 633.989895233677657, 210.363907903432903, 157.665164239152432 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.666666666666686, 676.429321299272942, 212.223602352043031, 158.267661435184891 ],
+					"presentation_rect" : [ 251.666666666666686, 676.429321299272942, 212.223602352043031, 157.773449882865066 ],
 					"varname" : "mo.2max",
 					"viewvisibility" : 1
 				}
@@ -240,7 +241,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 633.989895233677657, 210.363907903432846, 157.665164239152318 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 485.429321299272942, 212.223602352042974, 158.267661435184777 ],
+					"presentation_rect" : [ 18.0, 485.429321299272942, 212.223602352042974, 157.773449882864952 ],
 					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
@@ -290,7 +291,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 388.666666666666686, 16.5, 210.363907903432846, 158.665164239152318 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.666666666666686, 18.5, 212.223602352042974, 159.267661435184777 ],
+					"presentation_rect" : [ 251.666666666666686, 18.5, 212.223602352042974, 158.773449882864952 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -312,9 +313,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 16.5, 211.0, 234.0 ],
+					"patching_rect" : [ 16.0, 16.5, 138.629720106720924, 158.773449882864952 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 18.5, 211.0, 234.0 ],
+					"presentation_rect" : [ 18.0, 18.5, 138.629720106720924, 158.773449882864952 ],
 					"viewvisibility" : 1
 				}
 
@@ -409,7 +410,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.2max", "mo.scale", "mo.regress" ],
+					"subscribe" : [ "mo.scale", "mo.regress", "mo.2max" ],
 					"text" : "pattrstorage p-regression @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-regression"
 				}
@@ -1426,36 +1427,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.2max.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.scale.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
-				"bootpath" : "~/Documents/GitHub/modulo/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -1483,42 +1484,42 @@
 			}
 , 			{
 				"name" : "mo.2max.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.regress.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
 				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
 				"patcherrelativepath" : "../../patchers/processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-regression.json",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1

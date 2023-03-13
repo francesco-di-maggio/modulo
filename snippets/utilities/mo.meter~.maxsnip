@@ -1,0 +1,46 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"patching_rect" : [ 10.0, 10.0, 211.059561000000002, 184.0 ],
+					"numinlets" : 1,
+					"name" : "mo.meter~.maxpat",
+					"numoutlets" : 1,
+					"id" : "obj-1",
+					"outlettype" : [ "" ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "211 x 184, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.meter~",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "211 x 184, containing 1 object",
+			"image" : "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"
+		}
+
+	}
+
+}

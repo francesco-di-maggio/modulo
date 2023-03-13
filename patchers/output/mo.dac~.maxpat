@@ -91,6 +91,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -98,16 +99,22 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 25.153199976682799, 425.0, 44.0, 15.0 ],
+					"pictures" : [ "speaker-on.svg", "speaker-off.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.498542189598083, 7.371792723306498, 40.501457810401917, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[20]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -117,6 +124,7 @@
 ,
 					"text" : "mute",
 					"texton" : "mute",
+					"usepicture" : 1,
 					"varname" : "Mute-LD[1]"
 				}
 
@@ -251,7 +259,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[2]",
+							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -275,7 +283,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 192.153199976682799, 26.0, 30.0, 30.0 ]
 				}
 

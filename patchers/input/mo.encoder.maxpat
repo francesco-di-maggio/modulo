@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 68.0, 108.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 68.0, 108.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,25 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 401.989049971103668, 365.5, 236.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr encoder @bindto encoder- @initial 0",
+					"varname" : "encoder"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -118,15 +137,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 401.989049971103668, 229.5, 227.0, 23.0 ],
+					"patching_rect" : [ 401.989049971103668, 229.5, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Mode @bindto Mode-UM @initial 0",
-					"varname" : "Mode"
+					"text" : "pattr mode @bindto mode- @initial 0",
+					"varname" : "mode"
 				}
 
 			}
@@ -151,7 +170,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 74.489049971103668, 379.001276284456253, 100.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "Mode-UM"
+					"varname" : "mode-"
 				}
 
 			}
@@ -561,13 +580,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"outlinecolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 193.489049971103668, 350.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.95109873265028, 44.33580409444221, 64.77156600356102, 64.77156600356102 ],
 					"size" : 1.0,
-					"thickness" : 15.0
+					"thickness" : 18.0,
+					"varname" : "encoder-"
 				}
 
 			}
@@ -633,8 +653,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 22.872310342721619, 175.001276284456253, 44.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
-					"presentation" : 1,
-					"presentation_rect" : [ 37.689267888665199, 33.371792723306498, 24.03719088435173, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -721,7 +739,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 193.489049971103668, 350.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 39.979950134524188, 55.22645877301693, 37.447023302316666 ],
+					"presentation_rect" : [ 6.5, 21.979950134524188, 55.22645877301693, 37.447023302316666 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -741,7 +759,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[18]",
+							"parameter_longname" : "live.text[462]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -749,28 +767,9 @@
 
 					}
 ,
-					"text" : " ",
-					"texton" : " ",
+					"text" : "SPAT",
+					"texton" : "SPAT",
 					"varname" : "live.text[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-36",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 193.489049971103668, 350.001276284456253, 78.0, 78.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.389163583517075, 51.302531880208335, 54.33679373562336, 51.153115250170231 ],
-					"proportion" : 0.5,
-					"rounded" : 100
 				}
 
 			}

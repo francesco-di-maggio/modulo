@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 507.0, 517.0 ],
+		"rect" : [ 34.0, 100.0, 507.0, 544.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 413.0, 31.0, 23.0 ],
+					"patching_rect" : [ 268.0, 443.0, 31.0, 23.0 ],
 					"text" : "1"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 458.0, 210.280237540602684, 23.0 ],
+					"patching_rect" : [ 268.0, 488.0, 210.280237540602684, 23.0 ],
 					"text" : "1 44"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 458.0, 212.0, 23.0 ],
+					"patching_rect" : [ 24.0, 488.0, 212.0, 23.0 ],
 					"text" : "60 0"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 217.0, 380.0, 92.5, 23.0 ],
+					"patching_rect" : [ 217.0, 410.0, 92.5, 23.0 ],
 					"text" : "midiparse"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 217.0, 343.0, 40.0, 23.0 ],
+					"patching_rect" : [ 217.0, 373.0, 40.0, 23.0 ],
 					"text" : "midiin"
 				}
 
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 24.0, 184.5, 212.0, 126.750918656587601 ],
+					"patching_rect" : [ 24.0, 184.5, 212.0, 139.750918656587601 ],
 					"varname" : "mo.2midi",
 					"viewvisibility" : 1
 				}
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 268.0, 184.5, 210.280237540602684, 126.750918656587601 ],
+					"patching_rect" : [ 268.0, 184.5, 210.280237540602684, 139.750918656587601 ],
 					"varname" : "mo.tomidi",
 					"viewvisibility" : 1
 				}
@@ -199,7 +199,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 226.5, 369.0, 226.5, 369.0 ],
+					"midpoints" : [ 226.5, 399.0, 226.5, 399.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -214,7 +214,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 289.5, 405.0, 289.5, 405.0 ],
+					"midpoints" : [ 289.5, 435.0, 289.5, 435.0 ],
 					"source" : [ "obj-6", 6 ]
 				}
 
@@ -222,7 +222,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 226.5, 405.0, 226.5, 405.0 ],
+					"midpoints" : [ 226.5, 435.0, 226.5, 435.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -230,7 +230,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 247.5, 444.0, 468.780237540602684, 444.0 ],
+					"midpoints" : [ 247.5, 474.0, 468.780237540602684, 474.0 ],
 					"source" : [ "obj-6", 2 ]
 				}
 
@@ -1644,29 +1644,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.2midi.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
-				"bootpath" : "~/Documents/GitHub/modulo/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -1678,14 +1678,14 @@
 			}
 , 			{
 				"name" : "mo.2midi.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/output",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
 				"patcherrelativepath" : "../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
