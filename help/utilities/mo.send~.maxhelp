@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 739.0, 416.0 ],
+		"rect" : [ 34.0, 100.0, 739.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 295.0, 206.369893655180931, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 295.0, 206.369893655180931, 209.762840316425326, 232.196993619203568 ],
 					"viewvisibility" : 1
 				}
 
@@ -533,6 +533,30 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-13::obj-36" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-13::obj-38" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-13::obj-4" : 				{
+					"parameter_longname" : "live.text[188]"
+				}
+,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
+				}
+,
+				"obj-13::obj-66" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-13::obj-71" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
 				"obj-1::obj-12" : 				{
 					"parameter_longname" : "live.text[3]"
 				}
@@ -552,36 +576,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.meter~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.receive~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.send~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

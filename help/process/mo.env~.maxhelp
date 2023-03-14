@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 479.0, 562.0 ],
+		"rect" : [ 34.0, 100.0, 479.0, 611.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.824253082275391, 350.595428462257132, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 350.595428462257132, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -308,8 +308,8 @@
 			"obj-2::obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-2::obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-2::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-3::obj-11" : [ "live.text[25]", "live.text", 0 ],
-			"obj-3::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-3::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-52" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -362,6 +362,10 @@
 					"parameter_type" : 0,
 					"parameter_unitstyle" : 2
 				}
+,
+				"obj-3::obj-52" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
 
 			}
 ,
@@ -370,29 +374,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/object-icons",
-				"patcherrelativepath" : "../object-icons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.env~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

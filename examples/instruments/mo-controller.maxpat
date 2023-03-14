@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 964.0, 446.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2134,7 +2134,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -2149,9 +2148,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.995233258093606, 130.285335555672646, 68.482162147104361, 269.985966309905052 ],
+					"patching_rect" : [ 159.995233258093606, 130.285335555672646, 68.482162147104361, 270.335616663098335 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 159.995233258093606, 130.285335555672646, 68.482162147104361, 269.985966309905052 ],
+					"presentation_rect" : [ 159.995233258093606, 130.285335555672646, 68.482162147104361, 270.335616663098335 ],
 					"varname" : "mo.tab[1]",
 					"viewvisibility" : 1
 				}
@@ -2221,9 +2220,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.232760867621096, 130.285335555672646, 68.148589610397437, 269.631871804594994 ],
+					"patching_rect" : [ 89.232760867621096, 130.285335555672646, 68.148589610397437, 270.33117251098156 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.232760867621096, 130.285335555672646, 68.148589610397437, 269.631871804594994 ],
+					"presentation_rect" : [ 89.232760867621096, 130.285335555672646, 68.148589610397437, 270.33117251098156 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -3792,7 +3791,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.rtabs[1]", "mo.2midi[1]", "mo.rpads[1]", "mo.rfloats[1]", "mo.2midi[2]" ],
+					"subscribe" : [ "mo.rpads[1]", "mo.rfloats[1]", "mo.rtabs[1]", "mo.2midi[1]", "mo.2midi[2]" ],
 					"text" : "pattrstorage p-controller @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-controller"
 				}
@@ -4070,7 +4069,7 @@
 			"obj-154::obj-74::obj-35" : [ "live.text[38]", "live.text", 0 ],
 			"obj-154::obj-74::obj-66" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-37" : [ "live.text[459]", "live.text", 0 ],
-			"obj-22::obj-6" : [ "live.text[402]", "live.text", 0 ],
+			"obj-22::obj-6" : [ "live.text[28]", "live.text", 0 ],
 			"obj-28" : [ "live.text[544]", "live.text", 0 ],
 			"obj-29::obj-107::obj-35" : [ "live.text[631]", "live.text", 0 ],
 			"obj-29::obj-107::obj-41" : [ "live.text[632]", "live.text", 0 ],
@@ -4681,10 +4680,6 @@
 ,
 				"obj-1::obj-37" : 				{
 					"parameter_longname" : "live.text[459]"
-				}
-,
-				"obj-22::obj-6" : 				{
-					"parameter_longname" : "live.text[402]"
 				}
 ,
 				"obj-29::obj-107::obj-35" : 				{
@@ -6037,14 +6032,6 @@
 ,
 				"obj-55::obj-37" : 				{
 					"parameter_longname" : "live.text[414]"
-				}
-,
-				"obj-58::obj-38" : 				{
-					"parameter_longname" : "live.text[461]"
-				}
-,
-				"obj-58::obj-6" : 				{
-					"parameter_longname" : "live.text[460]"
 				}
 ,
 				"obj-61::obj-37" : 				{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 471.0, 431.0 ],
+		"rect" : [ 34.0, 100.0, 471.0, 478.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 220.883814082275393, 128.320565830101714, 24.0, 24.0 ]
+					"patching_rect" : [ 219.883814082275393, 128.320565830101714, 24.0, 24.0 ]
 				}
 
 			}
@@ -57,14 +57,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.883814082275393, 160.071484486689315, 55.0, 23.0 ],
+					"patching_rect" : [ 219.883814082275393, 160.071484486689315, 55.0, 23.0 ],
 					"text" : "mode $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -79,7 +78,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.824253082275391, 222.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 222.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -199,7 +198,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 230.383814082275393, 186.0, 230.383814082275393, 186.0 ],
+					"midpoints" : [ 229.383814082275393, 186.0, 229.087093398700716, 186.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -207,7 +206,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 230.383814082275393, 153.0, 230.383814082275393, 153.0 ],
+					"midpoints" : [ 229.383814082275393, 153.0, 229.383814082275393, 153.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -222,8 +221,8 @@
 			"obj-1::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-2::obj-32" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-5::obj-11" : [ "live.text", "live.text", 0 ],
-			"obj-5::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-5::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -263,15 +262,6 @@
 				"obj-2::obj-32" : 				{
 					"parameter_longname" : "live.numbox[7]"
 				}
-,
-				"obj-5::obj-11" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text",
-					"parameter_modmode" : 0,
-					"parameter_shortname" : "live.text",
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
 
 			}
 ,
@@ -281,28 +271,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.~2list.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

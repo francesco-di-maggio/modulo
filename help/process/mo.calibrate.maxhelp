@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 517.0, 589.0 ],
+		"rect" : [ 34.0, 100.0, 517.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 427.46315561234951, 176.0, 64.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "winsize $1"
 				}
 
@@ -154,7 +153,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 378.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 25.0, 378.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -445,7 +444,7 @@
 			"obj-4::obj-56" : [ "live.numbox[92]", "live.numbox", 0 ],
 			"obj-4::obj-74::obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
 			"obj-4::obj-74::obj-35" : [ "live.text[55]", "live.text", 0 ],
-			"obj-7::obj-11" : [ "live.text", "live.text", 0 ],
+			"obj-7::obj-11" : [ "live.text[111]", "live.text", 0 ],
 			"obj-7::obj-52" : [ "live.numbox[36]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -901,6 +900,10 @@
 					"parameter_longname" : "live.text[55]"
 				}
 ,
+				"obj-7::obj-11" : 				{
+					"parameter_longname" : "live.text[111]"
+				}
+,
 				"obj-7::obj-52" : 				{
 					"parameter_longname" : "live.numbox[36]"
 				}
@@ -913,28 +916,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.calibrate.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -946,22 +949,22 @@
 			}
 , 			{
 				"name" : "mo.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

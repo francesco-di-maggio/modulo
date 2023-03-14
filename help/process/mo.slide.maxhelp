@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 457.0, 577.0 ],
+		"rect" : [ 34.0, 100.0, 457.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 382.0, 176.0, 47.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "rate $1"
 				}
 
@@ -120,7 +119,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 176.0, 54.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "down $1"
 				}
 
@@ -153,7 +151,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.824253082275391, 366.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 24.824253082275391, 366.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -371,8 +369,8 @@
 			"obj-1::obj-74::obj-68" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-74::obj-8" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-1::obj-9" : [ "live.numbox[65]", "live.numbox", 0 ],
-			"obj-3::obj-11" : [ "live.text", "live.text", 0 ],
-			"obj-3::obj-52" : [ "live.numbox[68]", "live.numbox", 0 ],
+			"obj-3::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-4::obj-107::obj-20" : [ "Show Particle Settings[17]", "live.text", 0 ],
 			"obj-4::obj-107::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-4::obj-123::obj-20" : [ "Show Particle Settings[15]", "live.text", 0 ],
@@ -728,10 +726,6 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
-				"obj-3::obj-52" : 				{
-					"parameter_longname" : "live.numbox[68]"
-				}
-,
 				"obj-4::obj-107::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[17]"
 				}
@@ -748,12 +742,20 @@
 					"parameter_longname" : "live.text[18]"
 				}
 ,
+				"obj-4::obj-35" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
 				"obj-4::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[19]"
 				}
 ,
 				"obj-4::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[52]"
 				}
 ,
 				"obj-4::obj-40::obj-20" : 				{
@@ -864,28 +866,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.slide.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -898,21 +900,21 @@
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.slide.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

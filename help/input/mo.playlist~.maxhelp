@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 270.0, 353.0 ],
+		"rect" : [ 34.0, 100.0, 265.0, 416.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 27.140615909090684, 248.297012329101562, 210.358261704444885, 79.95090751349926 ],
+					"patching_rect" : [ 27.140615909090684, 308.297012329101562, 210.358261704444885, 79.95090751349926 ],
 					"varname" : "mo.dac~[1]",
 					"viewvisibility" : 1
 				}
@@ -75,7 +75,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 27.140615909090684, 31.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 27.140615909090684, 31.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -85,7 +85,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 36.640615909090684, 216.0, 36.640615909090684, 216.0 ],
+					"midpoints" : [ 36.640615909090684, 264.0, 36.640615909090684, 264.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -121,10 +121,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "harp_riff.wav",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/media/sound files/old",
-				"patcherrelativepath" : "../../../Max 8/Packages/Virtual Sound Macros/media/sound files/old",
-				"type" : "WAVE",
+				"name" : "chiko.aif",
+				"bootpath" : "~/Documents/GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"patcherrelativepath" : "../../../../../GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
@@ -135,16 +135,30 @@
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],

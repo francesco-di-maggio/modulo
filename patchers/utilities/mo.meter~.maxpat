@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 184.0 ],
+		"rect" : [ 0.0, 66.0, 210.0, 232.0 ],
+		"openrect" : [ 0.0, 0.0, 210.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 84.842786306142557, 141.411174970092702, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 37.134303470023951, 194.0, 139.0 ],
+					"presentation_rect" : [ 9.5, 37.134303470023951, 194.0, 188.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
@@ -119,7 +119,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.842786306142557, 66.626276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 197.5, 5.0 ],
+					"presentation_rect" : [ 6.5, 28.371792723306498, 194.572831039708603, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -143,7 +143,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.842786306142557, 141.411174970092702, 210.561927691102028, 88.321579620242119 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.134303470023951, 197.977806806564331, 142.914983819357076 ],
+					"presentation_rect" : [ 7.5, 35.134303470023951, 194.572831039708603, 189.581318165585458 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

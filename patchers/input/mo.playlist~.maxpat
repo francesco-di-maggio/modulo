@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 184.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 184.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"openrect" : [ 0.0, 0.0, 210.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -197,7 +197,7 @@
 					"allowreorder" : 2,
 					"basictuning" : 440,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"clipheight" : 141.052631616592294,
+					"clipheight" : 189.052631616592294,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
@@ -205,6 +205,7 @@
 								"filename" : "chiko.aif",
 								"filekind" : "audiofile",
 								"id" : "u148002335",
+								"selection" : [ 0.408163265306122, 0.625850340136054 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -225,10 +226,10 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "multichannelsignal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 142.052631616592294 ],
+					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 190.052631616592294 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.134303470023951, 197.977806806564331, 142.914983819357076 ],
+					"presentation_rect" : [ 6.5, 35.134303470023951, 193.582202315330505, 189.581318165585458 ],
 					"quality" : "basic",
 					"saved_attribute_attributes" : 					{
 						"accentcolor" : 						{
@@ -274,7 +275,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 522.0, 30.0, 30.0 ]
+					"patching_rect" : [ 35.0, 627.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -285,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 35.0, 377.0, 187.0, 23.0 ],
+					"patching_rect" : [ 35.0, 482.0, 187.0, 23.0 ],
 					"text" : "mc.selector~ 1 1 @ramptime 200"
 				}
 
@@ -351,7 +352,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 35.0, 230.127813490720541, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.5493403673172, 7.371792723306498, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 164.5493403673172, 7.371792723306498, 36.928466439247131, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -392,9 +393,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 142.052631616592294 ],
+					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 190.052631616592294 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.134303470023951, 197.977806806564331, 142.914983819357076 ],
+					"presentation_rect" : [ 6.5, 35.134303470023951, 194.572831039708603, 189.581318165585458 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -426,7 +427,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 630.842786306142557, 51.872348517179489, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 197.5, 5.0 ],
+					"presentation_rect" : [ 6.5, 28.371792723306498, 194.797297477722168, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -465,7 +466,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 44.5, 402.0, 44.5, 402.0 ],
+					"midpoints" : [ 44.5, 507.0, 44.5, 507.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 184.0 ],
+		"rect" : [ 0.0, 66.0, 210.0, 232.0 ],
+		"openrect" : [ 0.0, 0.0, 210.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -93,11 +93,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 251.404713997244585, 256.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 145.038122892379761, 6.064706464179835, 20.0, 15.0 ],
+					"presentation_rect" : [ 143.038122892379761, 6.064706464179835, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -365,7 +365,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 139.0, 256.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.038122892379761, 6.064706464179835, 36.961877107620239, 15.0 ],
+					"presentation_rect" : [ 165.038122892379761, 6.064706464179835, 36.961877107620239, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -376,7 +376,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[8]",
+							"parameter_longname" : "live.numbox[10]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -438,10 +438,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.842786306142557, 351.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 36.134303470023951, 194.0, 141.0 ],
+					"presentation_rect" : [ 8.5, 36.134303470023951, 192.0, 188.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
-					"size" : 4,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -497,7 +496,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.842786306142557, 66.626276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 197.5, 5.0 ],
+					"presentation_rect" : [ 6.5, 28.371792723306498, 194.572831039708603, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -521,7 +520,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.842786306142557, 351.411174970092702, 210.561927691102028, 88.321579620242119 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.134303470023951, 197.977806806564331, 142.914983819357076 ],
+					"presentation_rect" : [ 7.5, 35.134303470023951, 194.572831039708603, 189.581318165585458 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

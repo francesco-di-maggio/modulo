@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 465.0, 521.0 ],
+		"rect" : [ 34.0, 100.0, 465.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -145,7 +144,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.824253082275391, 305.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 305.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -340,8 +339,8 @@
 			"obj-1::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-3::obj-32" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-5::obj-11" : [ "live.text[25]", "live.text", 0 ],
-			"obj-5::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-5::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -381,10 +380,6 @@
 				"obj-3::obj-32" : 				{
 					"parameter_longname" : "live.numbox[7]"
 				}
-,
-				"obj-5::obj-11" : 				{
-					"parameter_longname" : "live.text[25]"
-				}
 
 			}
 ,
@@ -394,28 +389,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.~2list.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

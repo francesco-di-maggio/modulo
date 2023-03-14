@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 481.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -576,7 +576,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.speedlim", "mo.2midi", "mo.line" ],
+					"subscribe" : [ "mo.2midi", "mo.line", "mo.speedlim" ],
 					"text" : "pattrstorage p-live @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-live"
 				}
@@ -998,6 +998,10 @@
 					"parameter_longname" : "live.numbox[15]"
 				}
 ,
+				"obj-4::obj-15" : 				{
+					"parameter_longname" : "live.text[669]"
+				}
+,
 				"obj-4::obj-1::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
@@ -1310,6 +1314,18 @@
 					"parameter_longname" : "live.numbox[68]"
 				}
 ,
+				"obj-4::obj-53" : 				{
+					"parameter_longname" : "live.text[210]"
+				}
+,
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[566]"
+				}
+,
+				"obj-4::obj-72" : 				{
+					"parameter_longname" : "live.numbox[601]"
+				}
+,
 				"obj-4::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
@@ -1412,8 +1428,8 @@
 			}
 , 			{
 				"name" : "mo.line.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1426,8 +1442,8 @@
 			}
 , 			{
 				"name" : "mo.speedlim.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}

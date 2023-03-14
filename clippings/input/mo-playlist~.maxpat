@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 185.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 185.0 ],
+		"rect" : [ 0.0, 66.0, 211.0, 233.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 0.0, 0.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 0.0, 0.0, 209.762840316425326, 232.196993619203568 ],
+					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
 
@@ -79,8 +80,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "cello-f2.aif",
-				"bootpath" : "C74:/media/msp",
+				"name" : "chiko.aif",
+				"bootpath" : "~/Documents/GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"patcherrelativepath" : "../../../../../GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -92,8 +94,8 @@
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

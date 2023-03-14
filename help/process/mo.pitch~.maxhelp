@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 270.0, 525.0 ],
+		"rect" : [ 34.0, 100.0, 270.0, 569.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 27.0, 325.297012329101562, 210.561927691102028, 175.099334746599197 ],
+					"patching_rect" : [ 27.0, 370.297012329101562, 210.561927691102028, 175.099334746599197 ],
 					"viewvisibility" : 1
 				}
 
@@ -74,7 +74,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 27.0, 27.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 27.0, 27.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 251.297012329101562, 99.255791574060538, 35.025755986571312 ],
+					"patching_rect" : [ 27.0, 296.297012329101562, 99.255791574060538, 35.025755986571312 ],
 					"varname" : "mo.pitch~",
 					"viewvisibility" : 1
 				}
@@ -143,14 +143,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "chiko.aif",
 				"bootpath" : "~/Documents/GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
-				"patcherrelativepath" : "../../../../GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
+				"patcherrelativepath" : "../../../../../GitHub/blackbox/refactoring/test-emg/emg-granular-regression/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -163,21 +163,21 @@
 , 			{
 				"name" : "mo.keyboard.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pitch~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 519.0, 558.0 ],
+		"rect" : [ 34.0, 100.0, 519.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -194,7 +194,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -209,7 +208,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.824253082275391, 349.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 23.824253082275391, 349.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -399,8 +398,8 @@
 			"obj-1::obj-74::obj-66" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-3::obj-13" : [ "live.numbox[52]", "live.numbox", 0 ],
 			"obj-3::obj-21" : [ "live.text[89]", "live.text", 0 ],
-			"obj-5::obj-11" : [ "live.text", "live.text", 0 ],
-			"obj-5::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-5::obj-11" : [ "live.text[24]", "live.text", 0 ],
+			"obj-5::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -656,12 +655,7 @@
 				}
 ,
 				"obj-5::obj-11" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text",
-					"parameter_modmode" : 0,
-					"parameter_shortname" : "live.text",
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
+					"parameter_longname" : "live.text[24]"
 				}
 
 			}
@@ -672,14 +666,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.random.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.rfloat.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -691,36 +685,36 @@
 			}
 , 			{
 				"name" : "mo.poll.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rfloats.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/random",
-				"patcherrelativepath" : "../patchers/random",
+				"patcherrelativepath" : "../../patchers/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}

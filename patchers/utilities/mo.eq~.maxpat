@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 940.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 435.0, 230.0 ],
 		"openrect" : [ 0.0, 0.0, 435.0, 230.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -71,7 +71,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 496.25, 210.877813133092843, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 388.728526681661606, 7.371792723306498, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 387.728526681661606, 7.371792723306498, 36.928466439247131, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -109,7 +109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 739.649765342473984, 210.877813133092843, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.722920648753643, 33.371792723306498, 29.0, 18.0 ],
+					"presentation_rect" : [ 36.722920648753643, 33.371792723306498, 29.0, 18.0 ],
 					"text" : "filter"
 				}
 
@@ -148,7 +148,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 614.25, 207.377813133092843, 118.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 50.343438953161183, 94.092457070946693, 21.0 ],
+					"presentation_rect" : [ 8.5, 50.343438953161183, 94.092457070946693, 21.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Filter-UM"
 				}
@@ -167,7 +167,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 614.25, 207.377813133092843, 119.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 52.343438953161183, 95.16484309732914, 17.383757948875427 ],
+					"presentation_rect" : [ 8.5, 52.343438953161183, 95.16484309732914, 17.383757948875427 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -284,7 +284,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 614.25, 341.299986302852631, 470.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.649765342473984, 92.840433567762375, 419.007227778434753, 128.304767966270447 ],
+					"presentation_rect" : [ 8.5, 92.840433567762375, 416.156993120908737, 129.304767966270447 ],
 					"saved_attribute_attributes" : 					{
 						"hcurvecolor" : 						{
 							"expression" : "themecolor.live_numbox_triangle"
@@ -292,7 +292,7 @@
 
 					}
 ,
-					"setfilter" : [ 0, 1, 1, 0, 0, 2127.4794921875, 2.080629587173462, 0.75, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 9, 1, 0, 0, 16000.0, 1.0, 0.75, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
@@ -355,7 +355,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 0.75 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[3]",
+							"parameter_longname" : "Q-DL",
 							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "bandwidth",
 							"parameter_type" : 0,
@@ -384,7 +384,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[2]",
+							"parameter_longname" : "Cutoff-DL[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,
@@ -413,7 +413,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 16000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[1]",
+							"parameter_longname" : "Cutoff-DL",
 							"parameter_mmax" : 22000.0,
 							"parameter_mmin" : 20.0,
 							"parameter_shortname" : "cutoff",
@@ -561,7 +561,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 40.0, 583.127813490720541, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 388.728526681661606, 37.843438953161183, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 387.728526681661606, 37.843438953161183, 36.928466439247131, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -616,7 +616,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 614.25, 341.299986302852631, 470.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.649765342473984, 92.840433567762375, 419.007227778434753, 128.304767966270447 ],
+					"presentation_rect" : [ 8.5, 92.840433567762375, 416.156993120908737, 129.304767966270447 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

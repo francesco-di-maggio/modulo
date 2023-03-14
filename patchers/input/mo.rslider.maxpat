@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 68.0, 269.0 ],
 		"openrect" : [ 0.0, 0.0, 68.0, 269.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -113,7 +113,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 74.489049971103668, 592.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.167731925845146, 54.503629505110951, 51.637161568091273, 203.628239214420319 ],
+					"presentation_rect" : [ 6.167731925845146, 52.503629505110951, 55.637161568091273, 207.628239214420319 ],
 					"size" : 1.0,
 					"varname" : "rslider-"
 				}
@@ -214,7 +214,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[456]",
+							"parameter_longname" : "live.text[412]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -244,7 +244,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -288,7 +288,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -361,7 +361,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -558,22 +558,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6" : [ "live.text[456]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]

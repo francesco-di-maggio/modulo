@@ -294,7 +294,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 785.5, 132.038199247394118, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.73809526860714, 160.038199247394118, 59.0, 26.0 ],
+					"presentation_rect" : [ 707.73809526860714, 161.038199247394118, 59.0, 26.0 ],
 					"text" : "(2023)"
 				}
 
@@ -877,7 +877,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are instruments that deal with direct mapping, and machine learning algorithms, such as regression and classification.",
+													"text" : "These are tutorials that show how to perform various tasks, such as recording, sonification strategies, and patching workflow.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -1086,7 +1086,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -2869,7 +2869,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3414,7 +3414,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -2050.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -4630,7 +4630,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 10,
-																	"num_lines_presentation" : 12,
+																	"num_lines_presentation" : 13,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -4654,9 +4654,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.buffer~", "mo.date", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.key", "mo.key+", "mo.keyboard", "mo.myo", "mo.number", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand~", "mo.rslider", "mo.rsliders", "mo.slider", "mo.sliders", "mo.tab", "mo.tabs", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.buffer~", "mo.date", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.key", "mo.key+", "mo.keyboard", "mo.myo", "mo.nodes", "mo.number", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand~", "mo.rslider", "mo.rsliders", "mo.slider", "mo.sliders", "mo.tab", "mo.tabs", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[3]",
-																			"parameter_mmax" : 23,
+																			"parameter_mmax" : 24,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -5344,7 +5344,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.5, 90.0, 551.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 93.0, 551.0, 38.0 ],
+					"presentation_rect" : [ 206.5, 94.0, 551.0, 38.0 ],
 					"text" : "A Toolkit for Digital Musical Instrument Design.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -5360,7 +5360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.5, 132.0, 87.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 524.5, 132.038199247394118, 87.0, 26.0 ],
+					"presentation_rect" : [ 524.5, 133.038199247394118, 87.0, 26.0 ],
 					"text" : "Created by"
 				}
 
@@ -5375,7 +5375,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.5, 28.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 28.411127424189658, 173.0, 67.0 ],
+					"presentation_rect" : [ 206.5, 29.411127424189658, 173.0, 67.0 ],
 					"text" : "modulo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"underline" : 1
@@ -5427,7 +5427,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 628.5, 132.0, 157.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 609.73809526860714, 132.038199247394118, 157.0, 26.0 ],
+					"presentation_rect" : [ 609.73809526860714, 133.038199247394118, 157.0, 26.0 ],
 					"text" : "Francesco Di Maggio",
 					"textcolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
 					"underline" : 1
@@ -5446,7 +5446,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 678.750000000000114, 216.665829000000031, 51.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 609.73809526860714, 132.038199247394118, 157.5, 26.0 ]
+					"presentation_rect" : [ 609.73809526860714, 133.038199247394118, 157.5, 26.0 ]
 				}
 
 			}

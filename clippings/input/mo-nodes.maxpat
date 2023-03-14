@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 273.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.tab.maxpat",
-					"numinlets" : 2,
+					"name" : "mo.nodes.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.482162147104361, 270.335616663098335 ],
-					"varname" : "mo.tab",
+					"patching_rect" : [ 0.0, 0.0, 209.762840316425326, 232.196993619203568 ],
+					"varname" : "mo.nodes",
 					"viewvisibility" : 1
 				}
 
@@ -64,34 +64,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-38" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-162" : [ "multislider[2]", "multislider[2]", 0 ],
+			"obj-1::obj-3" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[18]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
-			"obj-1::obj-59" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[456]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "multislider[3]", "multislider[2]", 0 ],
+			"obj-1::obj-92" : [ "live.text[11]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-38" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-1::obj-56" : 				{
-					"parameter_longname" : "live.numbox[49]"
-				}
-,
-				"obj-1::obj-59" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[456]"
 				}
 
 			}
@@ -107,9 +90,58 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.tab.maxpat",
+				"name" : "ease.chooser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
+				"patcherrelativepath" : "../../../ease/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ease.xfade.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mo.nodes.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.between.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
+				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.random.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
+				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}

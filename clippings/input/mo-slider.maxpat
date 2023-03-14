@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.148589610397437, 269.631871804594994 ],
+					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 68.148589610397437, 270.33117251098156 ],
 					"varname" : "mo.slider",
 					"viewvisibility" : 1
 				}
@@ -65,7 +65,6 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-6" : [ "live.text[50]", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -79,10 +78,6 @@
 				"obj-1::obj-6" : 				{
 					"parameter_longname" : "live.text[50]"
 				}
-,
-				"obj-1::obj-8" : 				{
-					"parameter_longname" : "live.text[188]"
-				}
 
 			}
 ,
@@ -90,22 +85,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

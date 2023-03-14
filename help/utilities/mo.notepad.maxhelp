@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 390.0, 327.0 ],
+		"rect" : [ 34.0, 100.0, 390.0, 376.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -206,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 28.824253082275391, 119.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 28.824253082275391, 119.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
@@ -280,14 +280,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.notepad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

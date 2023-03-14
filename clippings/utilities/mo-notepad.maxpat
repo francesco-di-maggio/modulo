@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 212.0, 185.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 185.0 ],
+		"rect" : [ 0.0, 66.0, 211.0, 233.0 ],
+		"openrect" : [ 0.0, 0.0, 211.0, 233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 211.059561000000002, 184.0 ],
+					"patching_rect" : [ 0.0, 0.0, 209.762840316425326, 232.196993619203568 ],
 					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
@@ -79,12 +79,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "circle.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
 				"patcherrelativepath" : "../../misc/flaticons",
