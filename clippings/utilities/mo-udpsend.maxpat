@@ -50,12 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.updsend.maxpat",
+					"name" : "mo.udpsend.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 0.824253082275391, 2.297012329101562, 99.520341842710593, 75.326849862933159 ],
-					"varname" : "mo.updsend",
+					"varname" : "mo.udpsend",
 					"viewvisibility" : 1
 				}
 
@@ -91,9 +91,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.updsend.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"name" : "mo.udpsend.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
