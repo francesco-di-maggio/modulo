@@ -1810,12 +1810,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 733.959626924991881, 501.894056615856812, 215.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
+						"initial" : [ 4 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr voices @bindto voices- @initial 1",
+					"text" : "pattr voices @bindto voices- @initial 4",
 					"varname" : "voices"
 				}
 

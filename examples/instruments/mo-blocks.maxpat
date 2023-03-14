@@ -452,8 +452,16 @@
 					"parameter_longname" : "live.text[7]"
 				}
 ,
+				"obj-88::obj-2" : 				{
+					"parameter_longname" : "live.text[500]"
+				}
+,
 				"obj-88::obj-37" : 				{
 					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-88::obj-6" : 				{
+					"parameter_longname" : "live.text[502]"
 				}
 
 			}
