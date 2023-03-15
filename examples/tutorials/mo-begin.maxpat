@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1421.0, 742.0 ],
+		"rect" : [ 0.0, 66.0, 1421.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -341,7 +341,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.75, 190.307184333602606, 211.361835166811943, 125.750918656587601 ],
+									"patching_rect" : [ 383.75, 188.307184333602606, 210.358261704444885, 139.750918656587601 ],
 									"varname" : "mo.scale",
 									"viewvisibility" : 1
 								}
@@ -364,7 +364,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.75, 41.0, 211.361835166811943, 125.750918656587601 ],
+									"patching_rect" : [ 383.75, 34.1245406717062, 210.358261704444885, 139.750918656587601 ],
 									"varname" : "mo.sliders",
 									"viewvisibility" : 1
 								}
@@ -402,7 +402,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 217.682643661896407, 93.0, 23.0 ],
+									"patching_rect" : [ 40.0, 222.682643661896407, 93.0, 23.0 ],
 									"text" : "PROCESSING",
 									"underline" : 1
 								}
@@ -440,7 +440,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 242.682643661896407, 312.0, 21.0 ],
+									"patching_rect" : [ 40.0, 247.682643661896407, 312.0, 21.0 ],
 									"text" : " • Scale parameteres to adapt to sound synthesis module"
 								}
 
@@ -493,7 +493,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 393.25, 324.0, 393.25, 324.0 ],
+									"midpoints" : [ 393.25, 330.0, 393.25, 330.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -811,7 +811,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 217.682643661896407, 93.0, 23.0 ],
+									"patching_rect" : [ 40.0, 222.682643661896407, 93.0, 23.0 ],
 									"text" : "PROCESSING",
 									"underline" : 1
 								}
@@ -849,7 +849,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 242.682643661896407, 312.0, 21.0 ],
+									"patching_rect" : [ 40.0, 247.682643661896407, 312.0, 21.0 ],
 									"text" : " • Scale parameteres to adapt to sound synthesis module"
 								}
 
@@ -1110,7 +1110,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.75, 241.682643661896464, 65.0, 23.0 ],
+									"patching_rect" : [ 383.75, 246.682643661896464, 65.0, 23.0 ],
 									"text" : "mo.scale 4",
 									"varname" : "mo.scale"
 								}
@@ -1579,6 +1579,14 @@
 					"parameter_longname" : "live.text[2]"
 				}
 ,
+				"obj-1::obj-18::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[34]"
+				}
+,
+				"obj-1::obj-18::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[95]"
+				}
+,
 				"obj-1::obj-18::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
@@ -1721,6 +1729,22 @@
 ,
 				"obj-1::obj-24::obj-107::obj-72" : 				{
 					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-1::obj-24::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[156]"
+				}
+,
+				"obj-1::obj-24::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[124]"
+				}
+,
+				"obj-1::obj-24::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[70]"
+				}
+,
+				"obj-1::obj-24::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[123]"
 				}
 ,
 				"obj-1::obj-24::obj-1::obj-35" : 				{
@@ -1931,6 +1955,10 @@
 					"parameter_longname" : "live.numbox[43]"
 				}
 ,
+				"obj-1::obj-24::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
+				}
+,
 				"obj-1::obj-24::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
@@ -1957,6 +1985,10 @@
 ,
 				"obj-1::obj-7::obj-42" : 				{
 					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-1::obj-8::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
 				}
 ,
 				"obj-1::obj-8::obj-7" : 				{
@@ -2479,8 +2511,8 @@
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processing",
-				"patcherrelativepath" : "../../patchers/processing",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/process",
+				"patcherrelativepath" : "../../patchers/process",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2514,6 +2546,20 @@
 			}
 , 			{
 				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
+				"patcherrelativepath" : "../../misc/flaticons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
 				"patcherrelativepath" : "../../misc/flaticons",
 				"type" : "svg",
