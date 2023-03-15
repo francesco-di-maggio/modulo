@@ -90,7 +90,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"size" : 8,
+					"size" : 4,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"spacing" : 2
 				}

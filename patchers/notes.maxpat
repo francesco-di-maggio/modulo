@@ -40,12 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
+					"fontsize" : 25.0,
+					"id" : "obj-1",
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 69.0, 199.0, 21.0 ],
-					"text" : "mo.rsliders"
+					"patching_rect" : [ 30.0, 28.0, 405.0, 367.0 ],
+					"text" : "add one main controller for all!\n(perhaps the time of the day?)\n\nadd preset control\nadd leds\nadd color choice\n\nadd LFO\n\nadd rslider(s)\n\nfix midi note bug at load"
 				}
 
 			}

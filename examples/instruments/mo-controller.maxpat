@@ -3792,7 +3792,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.rfloats[1]", "mo.2midi[1]", "mo.rpads[1]", "mo.rtabs[1]", "mo.2midi[2]" ],
+					"subscribe" : [ "mo.rtabs[1]", "mo.rpads[1]", "mo.2midi[2]", "mo.rfloats[1]", "mo.2midi[1]" ],
 					"text" : "pattrstorage p-controller @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-controller"
 				}
@@ -3838,18 +3838,6 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"linecount" : 15,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 740.852622449398041, 579.44434766471386, 171.0, 223.0 ],
-					"text" : "add noteout\nadd one main controller for all!\n(perhaps the time of the day?)\nadd midiout and test w/ Live!\n\nadd preset control\nadd nodes?\nadd leds\nadd color choice\n\nadd LFO\n\nadd rslider(s)\n\nfix midi note bug at load"
 				}
 
 			}

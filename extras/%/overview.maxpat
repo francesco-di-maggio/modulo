@@ -600,7 +600,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -877,7 +877,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are tutorials that show how to perform various tasks, such as recording, sonification strategies, and patching workflow.",
+													"text" : "These are instruments that deal with direct mapping, and machine learning algorithms, such as regression and classification.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -1086,7 +1086,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -410.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -2653,8 +2653,6 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "instruments", "tutorials" ],
-											"parameter_initial" : [ 0.0 ],
-											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.menu[11]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
@@ -2861,15 +2859,14 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 5.0, 210.0, 460.0, 38.0 ],
+													"patching_rect" : [ 5.0, 210.0, 460.0, 22.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Manage MIDI or OSC output, interfacing with external devices.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3414,7 +3411,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -3761,7 +3758,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 4,
-																	"num_lines_presentation" : 4,
+																	"num_lines_presentation" : 6,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -3785,9 +3782,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.dac~", "mo.2max", "mo.2midi", "mo.2osc" ],
+																			"parameter_enum" : [ "mo.2max", "mo.2midi", "mo.2osc", "mo.ctlout", "mo.dac~", "mo.noteout" ],
 																			"parameter_longname" : "live.menu[12]",
-																			"parameter_mmax" : 3,
+																			"parameter_mmax" : 5,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
