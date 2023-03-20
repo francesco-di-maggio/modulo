@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 210.0, 232.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -391,7 +391,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 353.051895529031754, 481.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.833706885576248, 7.371792723306498, 39.332586228847504, 15.0 ],
+					"presentation_rect" : [ 6.675538547296355, 44.264996101030192, 39.332586228847504, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -440,7 +440,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 301.0, 481.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.58179347217083, 7.371792723306498, 37.001353085041046, 15.0 ],
+					"presentation_rect" : [ 48.423625133890937, 44.264996101030192, 37.001353085041046, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -504,7 +504,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.860643649101007, 313.525856395133815, 251.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.14285671710968, 41.093906720050654, 182.0, 181.606174598566213 ],
+					"presentation_rect" : [ 15.14285671710968, 70.093906720050654, 182.0, 181.606174598566213 ],
 					"rounded" : 0.0,
 					"text" : "> type here",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -560,7 +560,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -578,18 +578,20 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-58",
-					"maxclass" : "comment",
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-91",
+					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.307072693109262, 13.608419418334961, 53.0, 21.0 ],
+					"patching_rect" : [ 328.1877336576174, 313.525856395133815, 131.693199520390976, 38.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 4.371792723306498, 53.0, 21.0 ],
-					"text" : "notepad",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 199.339669197688949, 192.99261078321473 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}
@@ -600,9 +602,9 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.307072693109262, 37.608419418334961, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 13.842786306142557, 38.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 194.572831039708603, 5.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -615,20 +617,18 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-8",
-					"maxclass" : "panel",
-					"mode" : 0,
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-58",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 313.525856395133815, 210.561927691102028, 88.321579620242119 ],
+					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 53.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 35.256605525382838, 194.572831039708603, 189.581318165585458 ],
-					"proportion" : 0.5,
-					"rounded" : 0
+					"presentation_rect" : [ 3.0, 4.0, 53.0, 21.0 ],
+					"text" : "notepad",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -738,9 +738,44 @@
 
 			}
  ],
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"parameters" : 		{
+			"obj-22" : [ "live.text[54]", "live.text", 0 ],
+			"obj-4" : [ "live.text[29]", "live.text", 0 ],
+			"obj-41" : [ "live.text[53]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

@@ -1,0 +1,133 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-untitled",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.078467130661011 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.778758134692907 ],
+					"mo.sliders::[3]::slider" : [ 0.781753431539983 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.69149159733206 ],
+					"mo.preset::device" : [ "" ],
+					"mo.pads::[1]::pad" : [ 0.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 0.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 1.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.626147827599198 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.278353954665363 ],
+					"mo.sliders::[3]::slider" : [ 0.604910601861775 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.317945204209536 ],
+					"mo.preset::device" : [ "" ],
+					"mo.pads::[1]::pad" : [ 1.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 1.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 0.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 0.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.31390957115218 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.575899126473814 ],
+					"mo.sliders::[3]::slider" : [ 0.47604953404516 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.787915549706668 ],
+					"mo.preset::device" : [ "" ],
+					"mo.pads::[1]::pad" : [ 0.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 0.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 0.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 1 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.188734240829945 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.949002143461257 ],
+					"mo.sliders::[3]::slider" : [ 0.507717634551227 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.116472583729774 ],
+					"mo.preset::device" : [ "" ],
+					"mo.pads::[1]::pad" : [ 1.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 1.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 1.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 3 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -7,24 +7,33 @@
 				"data" : 				{
 					"mo.rslider::rslider" : [ 0.71764048681703, 0.840413242189506 ],
 					"mo.rslider::mute" : [ 0.0 ],
-					"mo.xypad::xypad" : [ 43, 58 ],
 					"mo.slider::slider" : [ 0.554567983919271 ],
 					"mo.slider::mute" : [ 0.0 ],
 					"mo.pad::mode" : [ 0.0 ],
 					"mo.pad::pad" : [ 1.0 ],
 					"mo.dial::dial" : [ 0.487209036010181 ],
 					"mo.dial::mute" : [ 0.0 ],
-					"mo.tab::voices" : [ 1.0 ],
+					"mo.tab::voices" : [ 4.0 ],
 					"mo.tab::mode" : [ 0.0 ],
-					"mo.tab::tab" : [ -1 ],
+					"mo.tab::tab" : [ 2 ],
 					"mo.tab::mute" : [ 0.0 ],
 					"mo.encoder::mode" : [ 0 ],
 					"mo.encoder::encoder" : [ 0.011912109759992 ],
-					"mo.encoder::mute" : [ 0.0 ],
+					"mo.encoder::mute[1]" : [ 0.0 ],
 					"mo.pad[5]::mode" : [ 1.0 ],
 					"mo.pad[5]::pad" : [ 0.0 ],
 					"mo.number::mode" : [ 0 ],
-					"mo.number::number" : [ 77 ]
+					"mo.number::number" : [ 77 ],
+					"mo.led::color" : [ 0 ],
+					"mo.led::led" : [ 0 ],
+					"mo.number[1]::mode" : [ 0 ],
+					"mo.number[1]::number" : [ 60 ],
+					"mo.number[2]::mode" : [ 2 ],
+					"mo.number[2]::number" : [ 60.0 ],
+					"mo.key::key" : [ 0 ],
+					"mo.xypad::xypad" : [ 43, 58 ],
+					"mo.udpreceive::port" : [ 8001 ],
+					"mo.keyboard::keyboard" : [ 65, 55, 69, 37 ]
 				}
 
 			}
