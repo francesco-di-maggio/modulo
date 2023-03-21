@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.5, 399.25, 179.0, 33.0 ],
+					"patching_rect" : [ 175.5, 366.5, 179.0, 33.0 ],
 					"text" : "nanoKONTROL 2 ",
 					"textjustification" : 1
 				}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 367.25, 78.0, 38.0 ],
+					"patching_rect" : [ 179.0, 334.5, 78.0, 38.0 ],
 					"text" : "KORG",
 					"textjustification" : 1
 				}

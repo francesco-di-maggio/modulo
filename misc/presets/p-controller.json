@@ -32,8 +32,42 @@
 					"mo.number[2]::number" : [ 60.0 ],
 					"mo.key::key" : [ 0 ],
 					"mo.xypad::xypad" : [ 43, 58 ],
+					"mo.keyboard::keyboard" : [ 65, 55, 69, 37 ],
 					"mo.udpreceive::port" : [ 8001 ],
-					"mo.keyboard::keyboard" : [ 65, 55, 69, 37 ]
+					"mo.~2list::Chans" : [ 1.0 ],
+					"mo.noteout::port" : [ 1 ],
+					"mo.noteout::channel" : [ 1.0 ],
+					"mo.noteout::note" : [ 60.0 ],
+					"mo.noteout::mute" : [ 0.0 ],
+					"mo.fm~::Carrier" : [ 200.0 ],
+					"mo.fm~::Harmonicity" : [ 1.0 ],
+					"mo.fm~::Ratio" : [ 10.0 ],
+					"mo.fm~::Rate" : [ 0.0 ],
+					"mo.fm~::Mute" : [ 0.0 ],
+					"mo.fm~::Depth" : [ 1.0 ],
+					"mo.fm~::Gain[2]" : [ 0.5 ],
+					"mo.fm~::device" : [ "" ],
+					"mo.crosspatch::ins" : [ 1.0 ],
+					"mo.crosspatch::outs" : [ 1.0 ],
+					"mo.crosspatch::Crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 1,
+								"numouts" : 1,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"mo.scale::voices" : [ 1.0 ],
+					"mo.scale::[1]::min" : [ 0.0 ],
+					"mo.scale::[1]::max" : [ 1.0 ],
+					"mo.scale::[1]::curve" : [ 1.0 ],
+					"mo.scale::[1]::mute" : [ 0.0 ]
 				}
 
 			}

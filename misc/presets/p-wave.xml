@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PRESET_BANK name="Standalone preset bank" selected_id="9196e69a09884d428c923131a3542f12">
-  <PRESET id="9196e69a09884d428c923131a3542f12" custom_preset_name="wave"
+  <PRESET id="9196e69a09884d428c923131a3542f12" custom_preset_name="p-wave"
           midi_channel="0" active_by_default="1" tap_sensitivity="0.8463541865348816"
           accumulative_movements="0">
     <MAPPING type="16" center_value="0.0" points="0|0|0.75|0.5|0.75|0.5|1|1"

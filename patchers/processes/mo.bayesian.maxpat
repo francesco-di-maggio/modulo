@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 212.0, 101.133142560720444 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 344.5, 494.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 58.0, 55.0, 15.0 ],
+					"presentation_rect" : [ 6.5, 49.0, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -91,7 +91,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1088.5, 458.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.406688948743749, 58.0, 37.231164742726151, 15.0 ],
+					"presentation_rect" : [ 138.75275424658355, 49.0, 37.231164742726151, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -103,6 +103,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[71]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
@@ -121,7 +122,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
@@ -136,7 +137,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 793.5, 453.5, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 79.02060928445627, 169.1378536914699, 15.0 ],
+					"presentation_rect" : [ 7.651201665401459, 66.02060928445627, 167.986652026068441, 15.0 ],
 					"rounded" : 0.0,
 					"text" : "1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -158,7 +159,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 93.5, 494.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 37.371792723306498, 55.0, 15.0 ],
+					"presentation_rect" : [ 6.5, 33.371792723306498, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -189,7 +190,7 @@
 				"box" : 				{
 					"comment" : "(message) chans, jumprate, diffusion, mvc, calibrate",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -338,7 +339,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 852.5, 546.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 77.52060928445627, 26.0, 18.0 ],
+					"presentation_rect" : [ 179.0, 64.52060928445627, 26.0, 18.0 ],
 					"text" : "mcv"
 				}
 
@@ -390,7 +391,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1152.5, 546.0, 70.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.368336617946625, 35.910254408487162, 46.0, 18.0 ],
+					"presentation_rect" : [ 134.368336617946625, 31.910254408487162, 46.0, 18.0 ],
 					"text" : "calibrate"
 				}
 
@@ -470,7 +471,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 441.5, 546.0, 65.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.599099099636078, 56.5, 65.0, 18.0 ],
+					"presentation_rect" : [ 60.599099099636078, 47.5, 65.0, 18.0 ],
 					"text" : "diffusion rate"
 				}
 
@@ -486,7 +487,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 186.5, 546.0, 66.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.599099099636078, 35.871792723306498, 66.0, 18.0 ],
+					"presentation_rect" : [ 60.599099099636078, 31.871792723306498, 66.0, 18.0 ],
 					"text" : "sudden jumps"
 				}
 
@@ -1512,7 +1513,7 @@
 				"box" : 				{
 					"comment" : "(list) filtered",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1524,11 +1525,11 @@
 				"box" : 				{
 					"comment" : "(list) to filter",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.82135084271431, 28.0, 30.0, 30.0 ]
 				}
 
@@ -1575,42 +1576,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 498.062764792640564, 60.500000357628096, 150.442643090089064, 5.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 28.371792723306498, 197.5, 5.0 ],
-					"saved_attribute_attributes" : 					{
-						"linecolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 495.084086337685221, 40.0, 55.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 6.064706464179835, 55.0, 21.0 ],
-					"text" : "bayesian"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-70",
@@ -1621,7 +1586,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 93.5, 363.051943330534755, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.154362700879574, 9.064706464179835, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 171.071533560752869, 7.0, 36.928466439247131, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1647,6 +1612,44 @@
 					}
 ,
 					"varname" : "Chans-NB"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 91.75, 43.842577278614044, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-58",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 91.75, 19.842577278614044, 49.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 4.0, 55.0, 21.0 ],
+					"text" : "bayesian",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1914,9 +1917,42 @@
 
 			}
  ],
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"parameters" : 		{
+			"obj-135" : [ "live.text[71]", "live.text", 0 ],
+			"obj-155" : [ "live.numbox[7]", "live.dial[12]", 0 ],
+			"obj-31" : [ "live.numbox[6]", "live.dial[12]", 0 ],
+			"obj-70" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

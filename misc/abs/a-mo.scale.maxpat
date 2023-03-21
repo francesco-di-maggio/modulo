@@ -164,7 +164,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -441,7 +441,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 506.166666666666742, 480.738878038194287, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 172.871842004438236, -0.058990031480789, 34.837874054908752, 15.0 ],
+					"presentation_rect" : [ 170.809986449857547, -0.058990031480789, 37.071550905704498, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -497,7 +497,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 409.466666666666413, 480.738878038194287, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.221745667437688, -0.058990031480789, 60.869749993085875, 15.0 ],
+					"presentation_rect" : [ 104.847175297717229, -0.058990031480789, 60.869749993085875, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -514,7 +514,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[15]",
+							"parameter_longname" : "live.numbox[124]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -540,7 +540,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 313.266666666666481, 480.738878038194287, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.571649330437161, -0.058990031480789, 60.869749993085854, 15.0 ],
+					"presentation_rect" : [ 38.884364145576932, -0.058990031480789, 60.869749993085854, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -555,7 +555,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[16]",
+							"parameter_longname" : "live.numbox[70]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -791,7 +791,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -828,7 +828,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -874,7 +874,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[40]",
+							"parameter_longname" : "live.text[105]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1155,25 +1155,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-35" : [ "live.text[40]", "live.text", 0 ],
-			"obj-66" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-68" : [ "live.numbox[16]", "live.numbox", 0 ],
-			"obj-72" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

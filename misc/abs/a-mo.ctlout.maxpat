@@ -71,14 +71,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 756.541666666666629, 544.099402105612285, 179.0, 22.0 ],
+					"patching_rect" : [ 756.541666666666629, 544.099402105612285, 126.0, 22.0 ],
+					"restore" : [ 2.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr CC @bindto CC- @initial 1",
+					"text" : "pattr CC @bindto CC-",
 					"varname" : "CC"
 				}
 
@@ -221,7 +221,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[550]",
+							"parameter_longname" : "live.numbox[10]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -260,7 +260,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[420]",
+							"parameter_longname" : "live.numbox[12]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -298,7 +298,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
-							"parameter_longname" : "live.numbox[549]",
+							"parameter_longname" : "live.numbox[11]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -605,7 +605,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[105]",
+							"parameter_longname" : "live.text[52]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -613,9 +613,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "1",
+					"texton" : "2",
 					"varname" : "mute-"
 				}
 
@@ -648,7 +648,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -685,7 +685,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -708,6 +708,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"midpoints" : [ 143.666666666666629, 81.0, 143.166666666666629, 81.0 ],
+					"order" : 2,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"midpoints" : [ 143.666666666666629, 81.0, 120.0, 81.0, 120.0, 534.0, 228.166666666666657, 534.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -932,25 +941,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-35" : [ "live.text[105]", "live.text", 0 ],
-			"obj-66" : [ "live.numbox[420]", "live.numbox", 0 ],
-			"obj-68" : [ "live.numbox[549]", "live.numbox", 0 ],
-			"obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

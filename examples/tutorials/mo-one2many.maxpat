@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 706.0, 300.0 ],
+		"rect" : [ 34.0, 100.0, 705.0, 297.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -22,11 +22,11 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 3,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -92,7 +92,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 266.561615477442956, 553.886411435184982, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 524.401719078946485, 17.886411435185039, 70.0, 265.0 ],
+					"presentation_rect" : [ 525.30908795647656, 17.886411435185039, 70.0, 265.0 ],
 					"varname" : "mo.slider[3]",
 					"viewvisibility" : 1
 				}
@@ -116,7 +116,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 151.192934279859173, 553.886411435184982, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.873141482866117, 17.886411435185039, 70.0, 265.0 ],
+					"presentation_rect" : [ 434.687879237926268, 17.886411435185039, 70.0, 265.0 ],
 					"varname" : "mo.slider[2]",
 					"viewvisibility" : 1
 				}
@@ -140,7 +140,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.824253082275391, 553.886411435185096, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.344563886785693, 17.886411435185039, 70.0, 265.0 ],
+					"presentation_rect" : [ 344.066670519375975, 17.886411435185039, 70.0, 265.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -163,9 +163,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.824253082275391, 330.226893749612714, 209.46315561234951, 139.978553056716919 ],
+					"patching_rect" : [ 35.824253082275391, 330.226893749612714, 214.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.352830678355787, 80.397134906826579, 209.46315561234951, 139.978553056716919 ],
+					"presentation_rect" : [ 109.445461800825683, 81.886411435185039, 214.0, 137.0 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
 				}
@@ -431,13 +431,13 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-6" : [ "live.text[9]", "live.text", 0 ],
-			"obj-2::obj-2" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-4::obj-6" : [ "live.text[6]", "live.text", 0 ],
-			"obj-6::obj-6" : [ "live.text[7]", "live.text", 0 ],
-			"obj-7::obj-6" : [ "live.text[8]", "live.text", 0 ],
-			"obj-9::obj-6" : [ "live.text[10]", "live.text", 0 ],
+			"obj-4::obj-6" : [ "live.text[4]", "live.text", 0 ],
+			"obj-6::obj-6" : [ "live.text[5]", "live.text", 0 ],
+			"obj-7::obj-6" : [ "live.text[6]", "live.text", 0 ],
+			"obj-9::obj-6" : [ "live.text[7]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -448,24 +448,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-2" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
 				"obj-4::obj-6" : 				{
-					"parameter_longname" : "live.text[6]"
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-6::obj-6" : 				{
-					"parameter_longname" : "live.text[7]"
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-7::obj-6" : 				{
-					"parameter_longname" : "live.text[8]"
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-9::obj-6" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_longname" : "live.text[7]"
 				}
 
 			}
@@ -503,9 +499,19 @@
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }
