@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 743.0, 500.0 ],
+		"rect" : [ 34.0, 100.0, 602.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,48 +39,6 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 274.885702821115501, 536.059289701282978, 109.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 624.426817387342453, 18.754582119484667, 109.0, 25.0 ],
-					"text" : "set MIDI output"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"hint" : "",
-					"id" : "obj-11",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 248.885702821115501, 538.059289701282978, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 598.426817387342453, 20.754582119484667, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "4",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-12",
@@ -574,7 +532,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.speedlim", "mo.line", "mo.ctlouts", "mo.2midi" ],
+					"subscribe" : [ "mo.line", "mo.2midi", "mo.ctlouts", "mo.speedlim" ],
 					"text" : "pattrstorage p-live @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-live"
 				}
@@ -1201,35 +1159,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.ctlout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../misc/abs",
+				"patcherrelativepath" : "../../misc/abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../misc/abs",
+				"patcherrelativepath" : "../../misc/abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -1246,42 +1204,42 @@
 , 			{
 				"name" : "mo.ctlouts.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
-				"patcherrelativepath" : "../patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.keyboard.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.line.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
-				"patcherrelativepath" : "../patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
-				"patcherrelativepath" : "../patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-live.json",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

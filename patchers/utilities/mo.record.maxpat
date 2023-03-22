@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -127,7 +127,8 @@
 					"patching_rect" : [ 770.0, 890.478992268443108, 35.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.775862529873848, 127.28366207169023, 35.0, 18.0 ],
-					"text" : "lenght"
+					"text" : "lenght",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -652,7 +653,7 @@
 				"box" : 				{
 					"comment" : "(list) to record",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5322,7 +5323,7 @@
 				"box" : 				{
 					"comment" : "(list) recorded",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5346,7 +5347,7 @@
 				"box" : 				{
 					"comment" : "(list) to record",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5710,7 +5711,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -6586,76 +6587,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-141" : [ "live.text[1]", "live.text", 0 ],
-			"obj-18" : [ "live.numbox[60]", "live.dial[12]", 0 ],
-			"obj-3" : [ "live.text[4]", "live.text", 0 ],
-			"obj-45" : [ "live.text[5]", "live.text", 0 ],
-			"obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-56" : [ "live.text[145]", "live.text", 0 ],
-			"obj-85" : [ "live.text[3]", "live.text", 0 ],
-			"obj-88" : [ "live.text[91]", "live.text", 0 ],
-			"obj-92" : [ "live.text[2]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loop.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

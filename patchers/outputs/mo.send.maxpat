@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -215,7 +215,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
@@ -277,7 +277,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[140]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

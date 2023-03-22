@@ -531,7 +531,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 438.666666666666629, 328.694444444444343, 202.0, 23.0 ],
+					"patching_rect" : [ 440.666666666666629, 328.694444444444343, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -701,7 +701,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 38.973149760419801, -0.058990031480789, 168.31823694681043, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "output-1",
+					"text" : "mode",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -757,7 +757,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[213]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -765,9 +765,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "1",
+					"texton" : "2",
 					"varname" : "mute-"
 				}
 
@@ -815,8 +815,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 438.666666666666629, 251.694444444444343, 146.0, 23.0 ],
-					"restore" : [ "output-1" ],
+					"patching_rect" : [ 440.666666666666629, 251.694444444444343, 146.0, 23.0 ],
+					"restore" : [ "mode" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -834,7 +834,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.666666666666629, 205.25, 68.0, 23.0 ],
+					"patching_rect" : [ 440.666666666666629, 205.25, 68.0, 23.0 ],
 					"text" : "invisible $1"
 				}
 
@@ -846,8 +846,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 390.666666666666629, 141.0, 115.0, 23.0 ],
-					"text" : "route name invisible"
+					"patching_rect" : [ 390.666666666666629, 141.0, 120.0, 23.0 ],
+					"text" : "route device invisible"
 				}
 
 			}
@@ -867,7 +867,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -904,7 +904,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1005,7 +1005,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 448.166666666666629, 231.0, 448.166666666666629, 231.0 ],
+					"midpoints" : [ 450.166666666666629, 231.0, 450.166666666666629, 231.0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1014,7 +1014,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 448.166666666666629, 231.0, 423.0, 231.0, 423.0, 315.0, 448.166666666666629, 315.0 ],
+					"midpoints" : [ 450.166666666666629, 231.0, 425.0, 231.0, 425.0, 315.0, 450.166666666666629, 315.0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1103,7 +1103,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 448.166666666666629, 165.0, 448.166666666666629, 165.0 ],
+					"midpoints" : [ 450.666666666666629, 165.0, 450.166666666666629, 165.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -1125,22 +1125,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

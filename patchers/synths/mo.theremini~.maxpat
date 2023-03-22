@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -3051,7 +3051,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 787.385228862365125, 1055.436599800000067, 171.0, 23.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "theremini" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4154,7 +4154,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
@@ -4171,6 +4171,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 232.610452665740922, 8.194141161509847, 108.149765342473984, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "theremini",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Name-TX"
@@ -4799,6 +4800,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[11]",
 							"parameter_mmax" : 10.0,
+							"parameter_mmin" : 0.1,
 							"parameter_shortname" : "timbre",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3

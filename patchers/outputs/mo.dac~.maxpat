@@ -86,7 +86,7 @@
 				"box" : 				{
 					"comment" : "(message) mute, dB, chans",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -158,11 +158,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 192.153199976682799, 26.0, 30.0, 30.0 ]
 				}
 
@@ -228,14 +228,18 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 25.153199976682799, 619.626276284456253, 145.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 38.064706464179835, 201.0, 37.0 ],
+					"presentation_rect" : [ 6.5, 39.064706464179835, 201.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
 ,
+						"slidercolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
-							"expression" : "themecolor.live_meter_bg"
+							"expression" : ""
 						}
 ,
 						"valueof" : 						{
@@ -251,7 +255,7 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Gain-GN"
 				}
 
@@ -382,37 +386,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-7" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
