@@ -1,0 +1,71 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-controllerism",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.rfloats[1]::Rate" : [ 1.0 ],
+					"mo.rfloats[1]::Amount" : [ 1.0 ],
+					"mo.rfloats[1]::Chans" : [ 8.0 ],
+					"mo.rfloats[1]::Pulse" : [ 0.0 ],
+					"mo.speedlim[1]::rate" : [ 50.0 ],
+					"mo.rslider[1]::slider" : [ 0.904604630212532 ],
+					"mo.rslider[1]::mute" : [ 0.0 ],
+					"mo.xypad[1]::xypad" : [ 61, 38 ],
+					"mo.pad[2]::mode" : [ 1.0 ],
+					"mo.pad[2]::pad" : [ 0.0 ],
+					"mo.dial[1]::dial" : [ 0.159445158964919 ],
+					"mo.dial[1]::mute" : [ 0.0 ],
+					"mo.encoder[1]::mode" : [ 0 ],
+					"mo.encoder[1]::encoder" : [ 0 ],
+					"mo.encoder[1]::mute[1]" : [ 0.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 1.0 ],
+					"mo.noteout[1]::port" : [ 1 ],
+					"mo.noteout[1]::channel" : [ 1.0 ],
+					"mo.noteout[1]::note" : [ 60.0 ],
+					"mo.noteout[1]::mute" : [ 0.0 ],
+					"mo.ctlout[1]::port" : [ 1 ],
+					"mo.ctlout[1]::channel" : [ 1.0 ],
+					"mo.ctlout[1]::cc" : [ 1.0 ],
+					"mo.ctlout[1]::mute" : [ 0.0 ],
+					"mo.ctlout[2]::port" : [ 1 ],
+					"mo.ctlout[2]::channel" : [ 1.0 ],
+					"mo.ctlout[2]::cc" : [ 2.0 ],
+					"mo.ctlout[2]::mute" : [ 0.0 ],
+					"mo.noteout[2]::port" : [ 1 ],
+					"mo.noteout[2]::channel" : [ 1.0 ],
+					"mo.noteout[2]::note" : [ 62.0 ],
+					"mo.noteout[2]::mute" : [ 0.0 ],
+					"mo.speedlim[2]::rate" : [ 50.0 ],
+					"mo.number::mode" : [ 0 ],
+					"mo.number::number" : [ 0 ],
+					"mo.ctlout[3]::port" : [ 1 ],
+					"mo.ctlout[3]::channel" : [ 1.0 ],
+					"mo.ctlout[3]::cc" : [ 3.0 ],
+					"mo.ctlout[3]::mute" : [ 0.0 ],
+					"mo.~2list[1]::Chans" : [ 8.0 ],
+					"mo.speedlim[4]::rate" : [ 50.0 ],
+					"mo.speedlim[3]::rate" : [ 50.0 ],
+					"mo.ctlout[4]::port" : [ 1 ],
+					"mo.ctlout[4]::channel" : [ 1.0 ],
+					"mo.ctlout[4]::cc" : [ 4.0 ],
+					"mo.ctlout[4]::mute" : [ 0.0 ],
+					"mo.ctlout[5]::port" : [ 1 ],
+					"mo.ctlout[5]::channel" : [ 1.0 ],
+					"mo.ctlout[5]::cc" : [ 5.0 ],
+					"mo.ctlout[5]::mute" : [ 0.0 ],
+					"mo.ctlout[6]::port" : [ 1 ],
+					"mo.ctlout[6]::channel" : [ 1.0 ],
+					"mo.ctlout[6]::cc" : [ 6.0 ],
+					"mo.ctlout[6]::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

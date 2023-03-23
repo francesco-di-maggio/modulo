@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 262.0, 364.0 ],
+		"rect" : [ 34.0, 100.0, 317.0, 386.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.255791574060538, 112.0, 29.5, 23.0 ],
+					"patching_rect" : [ 269.255791574060538, 120.0, 29.5, 23.0 ],
 					"text" : "\" \"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -78,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.255791574060538, 112.0, 36.0, 23.0 ],
+					"patching_rect" : [ 212.255791574060538, 120.0, 36.0, 23.0 ],
 					"text" : "SPAT",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.255791574060538, 161.0, 60.0, 23.0 ],
+					"patching_rect" : [ 212.255791574060538, 170.0, 60.0, 23.0 ],
 					"text" : "device $1"
 				}
 
@@ -539,7 +539,7 @@
 
 					}
 ,
-					"patching_rect" : [ 23.0, 161.0, 46.0, 23.0 ],
+					"patching_rect" : [ 23.0, 170.0, 46.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -574,7 +574,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 322.0, 50.0, 23.0 ]
+					"patching_rect" : [ 23.0, 337.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -586,7 +586,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 74.0, 120.0, 24.0, 24.0 ]
+					"patching_rect" : [ 134.0, 120.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -597,7 +597,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 161.0, 53.0, 23.0 ],
+					"patching_rect" : [ 134.0, 170.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -618,7 +618,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 212.0, 70.0, 87.0 ],
+					"patching_rect" : [ 23.0, 227.0, 70.0, 87.0 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -628,7 +628,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 32.5, 300.0, 32.5, 300.0 ],
+					"midpoints" : [ 32.5, 315.0, 32.5, 315.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -636,7 +636,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 32.5, 186.0, 32.5, 186.0 ],
+					"midpoints" : [ 32.5, 195.0, 32.5, 195.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -668,7 +668,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 218.755791574060538, 147.0, 161.755791574060538, 147.0 ],
+					"midpoints" : [ 278.755791574060538, 156.0, 221.755791574060538, 156.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -684,7 +684,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 161.755791574060538, 198.0, 83.5, 198.0 ],
+					"midpoints" : [ 221.755791574060538, 213.0, 83.5, 213.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -692,7 +692,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 83.5, 186.0, 83.5, 186.0 ],
+					"midpoints" : [ 143.5, 213.0, 83.5, 213.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -700,7 +700,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 161.755791574060538, 138.0, 161.755791574060538, 138.0 ],
+					"midpoints" : [ 221.755791574060538, 144.0, 221.755791574060538, 144.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -708,7 +708,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 83.5, 147.0, 83.5, 147.0 ],
+					"midpoints" : [ 143.5, 147.0, 143.5, 147.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

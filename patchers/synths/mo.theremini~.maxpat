@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -4742,7 +4742,7 @@
 							"parameter_initial" : [ 440 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[7]",
-							"parameter_mmax" : 3520.0,
+							"parameter_mmax" : 2640.0,
 							"parameter_mmin" : 110.0,
 							"parameter_shortname" : "carrier",
 							"parameter_type" : 0,

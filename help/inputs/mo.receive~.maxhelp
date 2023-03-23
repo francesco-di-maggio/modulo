@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 801.0, 476.0 ],
+		"rect" : [ 34.0, 100.0, 800.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,12 +49,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.scope~.maxpat",
+					"name" : "mo.meter~.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 295.0, 219.0, 209.762840316425326, 232.196993619203568 ],
+					"patching_rect" : [ 295.0, 219.0, 214.0, 265.0 ],
+					"varname" : "mo.scope~",
 					"viewvisibility" : 1
 				}
 
@@ -311,8 +312,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 76.0, 54.0, 23.0 ],
-					"text" : "name $1"
+					"patching_rect" : [ 365.0, 76.0, 60.0, 23.0 ],
+					"presentation_linecount" : 2,
+					"text" : "device $1"
 				}
 
 			}
@@ -329,7 +331,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@chans", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -344,7 +345,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 295.0, 125.499999999999886, 99.255791574060538, 57.072881326079369 ],
+					"patching_rect" : [ 295.0, 125.499999999999886, 142.0, 57.5 ],
 					"varname" : "mo.receive",
 					"viewvisibility" : 1
 				}
@@ -352,7 +353,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "@rate", 50 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -367,7 +367,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 23.000000000000028, 125.499999999999886, 210.361835166811943, 75.750918656587601 ],
+					"patching_rect" : [ 23.000000000000028, 125.499999999999886, 214.0, 87.0 ],
 					"varname" : "mo.rand~",
 					"viewvisibility" : 1
 				}
@@ -448,15 +448,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-36" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-13::obj-38" : [ "live.text[16]", "live.text", 0 ],
-			"obj-13::obj-4" : [ "live.text[188]", "live.text", 0 ],
-			"obj-13::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
-			"obj-13::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-13::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-13::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-4::obj-12" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-13::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-13::obj-36" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-13::obj-38" : [ "live.text[34]", "live.text", 0 ],
+			"obj-13::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-13::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-13::obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-13::obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
+			"obj-4::obj-153" : [ "live.text[40]", "live.text", 0 ],
+			"obj-4::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -467,32 +467,8 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-13::obj-36" : 				{
-					"parameter_longname" : "live.numbox[5]"
-				}
-,
-				"obj-13::obj-38" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-13::obj-4" : 				{
-					"parameter_longname" : "live.text[188]"
-				}
-,
-				"obj-13::obj-56" : 				{
-					"parameter_longname" : "live.numbox[49]"
-				}
-,
-				"obj-13::obj-66" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-13::obj-71" : 				{
-					"parameter_longname" : "live.numbox[4]"
-				}
-,
-				"obj-4::obj-56" : 				{
-					"parameter_longname" : "live.numbox[7]"
+				"obj-4::obj-153" : 				{
+					"parameter_longname" : "live.text[40]"
 				}
 
 			}
@@ -501,38 +477,60 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../../misc/flaticons",
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.meter~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.receive~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
-				"type" : "JSON",
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

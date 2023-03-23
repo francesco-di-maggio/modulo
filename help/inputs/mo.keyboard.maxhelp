@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 267.0, 222.0 ],
+		"rect" : [ 34.0, 100.0, 264.0, 222.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,10 +50,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.keyboard.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 23.0, 210.561927691102028, 175.137611627578735 ],
+					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}
 
@@ -75,58 +76,39 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-6::obj-25" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.numbox[1]",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ -12, 12 ],
-					"parameter_type" : 1,
-					"parameter_unitstyle" : 7
-				}
-,
-				"obj-6::obj-39" : 				{
-					"parameter_longname" : "live.numbox[140]"
-				}
-,
-				"obj-6::obj-5" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.numbox[2]",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ -4, 4 ],
-					"parameter_type" : 1,
-					"parameter_units" : "oct",
-					"parameter_unitstyle" : 9
-				}
-,
-				"obj-6::obj-56" : 				{
-					"parameter_longname" : "live.text[145]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/GitHub/modulo/misc/images",
-				"patcherrelativepath" : "../misc/images",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.keyboard.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/input",
-				"patcherrelativepath" : "../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

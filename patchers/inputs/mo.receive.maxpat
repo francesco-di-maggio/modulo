@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -62,11 +62,11 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 179.285429396231621, 153.499999642372245, 75.0, 23.0 ],
-					"text" : "route device"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 179.285429396231621, 153.499999642372245, 105.0, 23.0 ],
+					"text" : "route device mute"
 				}
 
 			}
@@ -232,6 +232,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.125821217894554, 36.371792723306498, 127.874178782105446, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "my-receive",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "receive-"
@@ -277,7 +278,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[54]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -399,6 +400,14 @@
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 188.785429396231621, 218.0, 134.785429396231621, 218.0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 231.785429396231621, 303.0, 246.979002447922653, 303.0 ],
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
