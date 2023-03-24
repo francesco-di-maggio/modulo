@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 57.5 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
 					"varname" : "mo.if",
 					"viewvisibility" : 1
 				}

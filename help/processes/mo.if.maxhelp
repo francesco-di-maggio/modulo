@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 302.0, 283.0 ],
+		"rect" : [ 34.0, 100.0, 302.0, 288.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,8 +40,9 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
 					"id" : "obj-5",
-					"maxclass" : "number",
+					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -90,7 +91,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.000000000000028, 149.0, 99.173431724309921, 36.476056024432182 ],
+					"patching_rect" : [ 23.000000000000028, 149.0, 70.0, 57.5 ],
 					"varname" : "mo.if",
 					"viewvisibility" : 1
 				}
@@ -128,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.666666666666629, 68.0, 76.0, 23.0 ],
+					"patching_rect" : [ 96.666666666666629, 68.0, 76.0, 23.0 ],
 					"text" : "condition $1"
 				}
 
@@ -137,11 +138,13 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "number",
+					"maximum" : 6,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 102.666666666666629, 27.0, 50.0, 23.0 ]
+					"patching_rect" : [ 96.666666666666629, 27.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -149,7 +152,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 200.499999999999943, 136.0, 112.67343172430995, 136.0 ],
+					"midpoints" : [ 200.499999999999943, 135.0, 83.500000000000028, 135.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -157,7 +160,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 200.5, 52.0, 200.499999999999943, 52.0 ],
+					"midpoints" : [ 200.5, 51.0, 200.499999999999943, 51.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -165,6 +168,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 32.500000000000028, 207.0, 32.500000000000028, 207.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -172,6 +176,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 32.500000000000028, 54.0, 32.500000000000028, 54.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -179,6 +184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 32.500000000000028, 93.0, 32.500000000000028, 93.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -186,7 +192,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 112.166666666666629, 52.0, 112.166666666666629, 52.0 ],
+					"midpoints" : [ 106.166666666666629, 51.0, 106.166666666666629, 51.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -194,7 +200,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 112.166666666666629, 136.0, 112.67343172430995, 136.0 ],
+					"midpoints" : [ 106.166666666666629, 135.0, 83.500000000000028, 135.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -216,16 +222,27 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.if.maxpat",
-				"bootpath" : "~/Documents/GitHub/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

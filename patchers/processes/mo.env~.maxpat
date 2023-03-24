@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -217,8 +217,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.220077397142632, 375.0, 51.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 45.5, 35.871792723306498, 51.0, 18.0 ],
 					"text" : "sensitivity"
 				}
 
@@ -235,7 +233,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 94.127777791023277, 198.051943330534755, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.046718448400497, 7.0, 36.928466439247131, 15.0 ],
+					"presentation_rect" : [ 42.945452600717545, 7.0, 21.105681836605072, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -321,8 +319,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 612.551895529031754, 135.0, 160.0, 23.0 ],
-					"text" : "route chans sensivivity clock"
+					"patching_rect" : [ 612.551895529031754, 135.0, 159.0, 23.0 ],
+					"text" : "route chans sensitivity clock"
 				}
 
 			}
@@ -354,7 +352,7 @@
 				"box" : 				{
 					"comment" : "(message) winsize, clock",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -367,7 +365,7 @@
 				"box" : 				{
 					"comment" : "(list) averaged",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -403,11 +401,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to average",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 50.0, 55.0, 30.0, 30.0 ]
 				}
 
@@ -461,7 +459,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -567,7 +565,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.842786306142557, 37.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 70.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -939,7 +937,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 669.051895529031754, 357.0, 94.0, 357.0 ],
+					"midpoints" : [ 668.718562195698382, 357.0, 94.0, 357.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -955,7 +953,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 716.051895529031754, 543.0, 262.5, 543.0 ],
+					"midpoints" : [ 715.385228862365125, 543.0, 262.5, 543.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -969,24 +967,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
