@@ -132,7 +132,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1032.0, 249.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 107.371792723306498, 36.0, 18.0 ],
+					"presentation_rect" : [ 21.5, 113.371792723306498, 36.0, 18.0 ],
 					"text" : "length",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -151,7 +151,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 983.0, 250.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 127.28366207169023, 61.551725059747696, 15.0 ],
+					"presentation_rect" : [ 6.5, 133.28366207169023, 61.551725059747696, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -585,7 +585,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 687.0, 420.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.038122892379761, 127.28366207169023, 36.718755021691322, 15.0 ],
+					"presentation_rect" : [ 170.038122892379761, 133.28366207169023, 36.718755021691322, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -660,7 +660,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
 					"patching_rect" : [ 983.0, 724.457984536886215, 170.0, 22.0 ],
-					"text" : "mcs.play~ my_crop 1 @loop 1",
+					"text" : "mcs.play~ my_crop 2 @loop 1",
 					"varname" : "play"
 				}
 
@@ -794,7 +794,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 68.5, 610.478992268443108, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 146.54037730978456, 61.551725059747696, 15.0 ],
+					"presentation_rect" : [ 6.5, 152.54037730978456, 61.551725059747696, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -844,7 +844,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 739.0, 420.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.038122892379761, 146.54037730978456, 36.718755021691322, 15.0 ],
+					"presentation_rect" : [ 170.038122892379761, 152.54037730978456, 36.718755021691322, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

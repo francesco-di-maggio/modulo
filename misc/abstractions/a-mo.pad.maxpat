@@ -111,14 +111,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 669.666666666666629, 384.0, 135.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 669.666666666666629, 384.0, 188.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr pad @bindto pad-",
+					"text" : "pattr pad @bindto pad- @initial 0",
 					"varname" : "pad"
 				}
 
@@ -440,7 +440,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 669.666666666666629, 251.0, 68.0, 23.0 ],
+					"patching_rect" : [ 670.166666666666629, 291.625, 68.0, 23.0 ],
 					"text" : "invisible $1"
 				}
 
@@ -638,7 +638,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 679.666666666666629, 228.0, 679.166666666666629, 228.0 ],
+					"midpoints" : [ 679.666666666666629, 228.0, 679.666666666666629, 228.0, 679.666666666666629, 276.0, 679.666666666666629, 276.0 ],
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -670,7 +670,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 679.166666666666629, 276.0, 679.166666666666629, 276.0 ],
+					"midpoints" : [ 679.666666666666629, 315.0, 679.166666666666629, 315.0 ],
 					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
@@ -679,7 +679,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 679.166666666666629, 333.0, 654.0, 333.0, 654.0, 378.0, 679.166666666666629, 378.0 ],
+					"midpoints" : [ 679.666666666666629, 333.0, 654.0, 333.0, 654.0, 378.0, 679.166666666666629, 378.0 ],
 					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}

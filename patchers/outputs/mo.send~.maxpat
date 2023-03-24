@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -203,7 +203,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 125.0, 90.0, 30.0, 30.0 ]
 				}
 
@@ -290,7 +290,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -311,15 +311,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 495.479002447922539, 343.799999713897819, 220.0, 23.0 ],
+					"patching_rect" : [ 495.479002447922539, 343.799999713897819, 224.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ " " ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr send~ @bindto send~- @initial \" \"",
-					"varname" : "send~"
+					"text" : "pattr device @bindto device- @initial \" \"",
+					"varname" : "device"
 				}
 
 			}
@@ -344,9 +344,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.125821217894554, 36.371792723306498, 127.874178782105446, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "my-send~",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "Receive-TX"
+					"varname" : "device-"
 				}
 
 			}
@@ -389,7 +390,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[60]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

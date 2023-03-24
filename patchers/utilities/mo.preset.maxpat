@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 124.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 124.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -245,7 +245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 984.958427564707449, 635.0, 164.0, 23.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "my-preset" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -455,6 +455,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 110.508472933046505, 7.371792723306498, 95.956881514598194, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "my-preset",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -608,7 +609,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[56]",
+							"parameter_longname" : "live.text[109]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -660,7 +661,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[58]",
+							"parameter_longname" : "live.text[94]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1629,7 +1630,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[57]",
+							"parameter_longname" : "live.text[110]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

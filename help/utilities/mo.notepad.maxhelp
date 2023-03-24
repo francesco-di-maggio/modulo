@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 390.0, 376.0 ],
+		"rect" : [ 34.0, 100.0, 397.0, 411.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 282.714745454545209, 190.0, 80.0, 39.0 ],
-					"text" : ";\nnotepad 1"
+					"text" : "type:\n; toggle 1"
 				}
 
 			}
@@ -126,8 +126,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.714745454545209, 72.0, 60.0, 23.0 ],
-					"text" : "r notepad"
+					"patching_rect" : [ 306.714745454545209, 72.0, 50.0, 23.0 ],
+					"text" : "r toggle"
 				}
 
 			}
@@ -206,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 28.824253082275391, 119.0, 209.762840316425326, 232.196993619203568 ],
+					"patching_rect" : [ 28.824253082275391, 119.0, 214.0, 265.0 ],
 					"varname" : "mo.notepad",
 					"viewvisibility" : 1
 				}
@@ -263,7 +263,7 @@
  ],
 		"parameters" : 		{
 			"obj-5::obj-22" : [ "live.text[54]", "live.text", 0 ],
-			"obj-5::obj-4" : [ "live.text[13]", "live.text", 0 ],
+			"obj-5::obj-4" : [ "live.text[29]", "live.text", 0 ],
 			"obj-5::obj-41" : [ "live.text[53]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -279,8 +279,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../../misc/flaticons",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -293,9 +293,20 @@
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

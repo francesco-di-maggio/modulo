@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -74,11 +74,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 691.051895529031754, 39.0, 30.0, 30.0 ]
 				}
 
@@ -192,12 +192,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-39",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 307.0, 212.0, 23.0 ],
-									"text" : "\"> type here\""
+									"text" : ";\rtoggle 1"
 								}
 
 							}
@@ -420,7 +421,7 @@
 					}
 ,
 					"text" : "auto",
-					"texton" : "bang",
+					"texton" : "man >",
 					"varname" : "Mode-TX"
 				}
 
@@ -506,7 +507,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.14285671710968, 70.093906720050654, 182.0, 181.606174598566213 ],
 					"rounded" : 0.0,
-					"text" : "> type here",
+					"text" : "; toggle 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
 					"varname" : "notepad-"
@@ -738,31 +739,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-22" : [ "live.text[54]", "live.text", 0 ],
-			"obj-4" : [ "live.text[29]", "live.text", 0 ],
-			"obj-41" : [ "live.text[53]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

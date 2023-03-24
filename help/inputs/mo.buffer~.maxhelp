@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 689.0, 571.0 ],
+		"rect" : [ 34.0, 100.0, 701.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.398149454545774, 44.696579620242005, 53.0, 23.0 ],
-					"text" : "sounds+"
+					"patching_rect" : [ 485.398149454545774, 44.696579620242005, 95.0, 23.0 ],
+					"text" : "C74/media/msp"
 				}
 
 			}
@@ -81,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.398149454545774, 44.696579620242005, 71.0, 23.0 ],
-					"text" : "collider.wav"
+					"patching_rect" : [ 412.398149454545774, 44.696579620242005, 54.0, 23.0 ],
+					"text" : "chiko.aif"
 				}
 
 			}
@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.398149454545774, 80.696579620242005, 57.0, 23.0 ],
+					"patching_rect" : [ 485.398149454545774, 80.696579620242005, 57.0, 23.0 ],
 					"text" : "folder $1"
 				}
 
@@ -272,7 +272,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
-					"midpoints" : [ 505.898149454545774, 138.0, 228.5, 138.0 ],
+					"midpoints" : [ 494.898149454545774, 138.0, 228.5, 138.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -352,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 505.898149454545774, 69.0, 505.898149454545774, 69.0 ],
+					"midpoints" : [ 494.898149454545774, 69.0, 494.898149454545774, 69.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

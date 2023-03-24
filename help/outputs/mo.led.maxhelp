@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 241.0, 381.0 ],
+		"rect" : [ 34.0, 100.0, 226.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 73.027613907396415, 162.0, 50.0, 23.0 ]
+					"patching_rect" : [ 75.027613907396415, 162.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 134.0, 74.0, 79.0 ],
+					"patching_rect" : [ 130.0, 28.0, 74.0, 79.0 ],
 					"text" : "1 = RED\n2 = GREEN\n3 = BLUE\n4 = YELLOW\n5 = WHITE"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.027613907396415, 200.0, 53.0, 23.0 ],
+					"patching_rect" : [ 75.027613907396415, 200.0, 53.0, 23.0 ],
 					"text" : "color $1"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 24.0, 235.0, 68.027613907396415, 108.879321441054344 ],
+					"patching_rect" : [ 24.0, 235.0, 70.0, 87.0 ],
 					"varname" : "mo.led",
 					"viewvisibility" : 1
 				}
@@ -113,7 +113,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 24.0, 68.027613907396415, 108.879321441054344 ],
+					"patching_rect" : [ 24.0, 24.0, 70.0, 87.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -123,7 +123,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 82.527613907396415, 226.0, 82.527613907396415, 226.0 ],
+					"midpoints" : [ 84.527613907396415, 226.0, 84.5, 226.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -145,9 +145,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-2" : [ "live.text[500]", "live.text", 0 ],
-			"obj-5::obj-37" : [ "live.text[456]", "live.text", 0 ],
-			"obj-5::obj-6" : [ "live.text[502]", "live.text", 0 ],
+			"obj-5::obj-2" : [ "live.text[90]", "live.text", 0 ],
+			"obj-5::obj-37" : [ "live.text[91]", "live.text", 0 ],
+			"obj-5::obj-6" : [ "live.text[92]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -157,50 +157,46 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-5::obj-2" : 				{
-					"parameter_longname" : "live.text[500]"
-				}
-,
-				"obj-5::obj-37" : 				{
-					"parameter_longname" : "live.text[456]"
-				}
-,
-				"obj-5::obj-6" : 				{
-					"parameter_longname" : "live.text[502]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbyw.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

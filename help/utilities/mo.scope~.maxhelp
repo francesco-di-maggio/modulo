@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 471.0, 404.0 ],
+		"rect" : [ 34.0, 100.0, 472.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 28.824253082275391, 146.0, 209.762840316425326, 232.196993619203568 ],
+					"patching_rect" : [ 28.824253082275391, 162.0, 214.0, 265.0 ],
+					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
 
@@ -66,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.83221094686894, 225.500000000000057, 74.0, 25.0 ],
+					"patching_rect" : [ 370.83221094686894, 282.000000000000057, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -86,7 +87,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.33221094686894, 228.000000000000057, 20.0, 20.0 ],
+					"patching_rect" : [ 343.33221094686894, 284.500000000000057, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -103,13 +104,13 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.498877613535569, 211.5, 53.0, 53.0 ]
+					"patching_rect" : [ 275.498877613535569, 268.0, 53.0, 53.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "@rate", 100 ],
+					"args" : [ "@rate", 50 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -124,7 +125,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 28.824253082275391, 28.297012329101562, 210.361835166811943, 75.750918656587601 ],
+					"patching_rect" : [ 28.824253082275391, 28.297012329101562, 214.0, 87.0 ],
 					"varname" : "mo.rand~",
 					"viewvisibility" : 1
 				}
@@ -134,20 +135,19 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 38.324253082275391, 105.0, 38.324253082275391, 105.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-36" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-1::obj-38" : [ "live.text[16]", "live.text", 0 ],
-			"obj-1::obj-4" : [ "live.text[188]", "live.text", 0 ],
-			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
-			"obj-1::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-1::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-1::obj-71" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-36" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-1::obj-38" : [ "live.text[34]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-1::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-1::obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -157,49 +157,19 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-36" : 				{
-					"parameter_longname" : "live.numbox[5]",
-					"parameter_range" : [ 0.0, 100.0 ],
-					"parameter_unitstyle" : 3
-				}
-,
-				"obj-1::obj-38" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-1::obj-4" : 				{
-					"parameter_longname" : "live.text[188]"
-				}
-,
-				"obj-1::obj-56" : 				{
-					"parameter_longname" : "live.numbox[49]"
-				}
-,
-				"obj-1::obj-66" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-1::obj-71" : 				{
-					"parameter_longname" : "live.numbox[4]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/flaticons",
-				"patcherrelativepath" : "../../misc/flaticons",
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -210,11 +180,34 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
-		"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-		"editing_bgcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+,
+			"locked_bgcolor" : 			{
+				"expression" : "themecolor.live_surface_bg"
+			}
+
+		}
+
 	}
 
 }

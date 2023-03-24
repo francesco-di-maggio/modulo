@@ -412,7 +412,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -449,7 +449,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -529,7 +529,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-37",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -537,6 +537,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 296.666666666666515, 164.875, 78.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.0, 68.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -603,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 50.0, 21.0 ],
+					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 41.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 4.0, 41.0, 21.0 ],
 					"text" : "ctlout",
@@ -889,24 +891,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-37" : [ "live.text[13]", "live.text", 0 ],
-			"obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

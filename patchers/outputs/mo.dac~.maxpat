@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 210.0, 662.0, 202.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mute @bindto mute- @initial 1",
+					"varname" : "mute"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -70,15 +89,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 210.0, 626.626276284456253, 219.0, 23.0 ],
+					"patching_rect" : [ 210.0, 626.626276284456253, 205.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -6 ],
+						"initial" : [ -12 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Gain @bindto Gain-GN @initial -6",
-					"varname" : "Gain"
+					"text" : "pattr gain @bindto gain- @initial -12",
+					"varname" : "gain"
 				}
 
 			}
@@ -209,7 +228,7 @@
 					"text" : "mute",
 					"texton" : "mute",
 					"usepicture" : 1,
-					"varname" : "Mute-LD[1]"
+					"varname" : "mute-"
 				}
 
 			}
@@ -256,7 +275,7 @@
 ,
 					"showname" : 0,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "Gain-GN"
+					"varname" : "gain-"
 				}
 
 			}
@@ -327,6 +346,14 @@
 					"destination" : [ "obj-45", 0 ],
 					"midpoints" : [ 370.583333333333314, 606.0, 34.653199976682799, 606.0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 337.583333333333314, 396.0, 34.653199976682799, 396.0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}

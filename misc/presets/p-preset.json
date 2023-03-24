@@ -1,0 +1,137 @@
+{
+	"pattrstorage" : 	{
+		"name" : "my-preset",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::mute" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.0 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.0 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[3]::slider" : [ 0.010930162022834 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.0 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[1]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 1.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 0.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 1.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 0 ],
+					"mo.preset::device" : [ "my-preset" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::mute" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.091376996599138 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.379492917563766 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[3]::slider" : [ 0.004288137890399 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.344749233219773 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[1]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 0.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 0.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 0.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 0 ],
+					"mo.preset::device" : [ "my-preset" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::mute" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.0 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 1.0 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[3]::slider" : [ 1.0 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.344749233219773 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[1]::pad" : [ 0.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 0.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 1.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 0.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 2 ],
+					"mo.preset::device" : [ "my-preset" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"mo.sliders::voices" : [ 4.0 ],
+					"mo.sliders::mode" : [ 0.0 ],
+					"mo.sliders::mute" : [ 0.0 ],
+					"mo.sliders::[1]::mute" : [ 0.0 ],
+					"mo.sliders::[1]::slider" : [ 0.102571174502373 ],
+					"mo.sliders::[2]::mute" : [ 0.0 ],
+					"mo.sliders::[2]::slider" : [ 0.891802767757326 ],
+					"mo.sliders::[3]::mute" : [ 0.0 ],
+					"mo.sliders::[3]::slider" : [ 0.27308647101745 ],
+					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.456352372653782 ],
+					"mo.pads::voices" : [ 4.0 ],
+					"mo.pads::[1]::mode" : [ 0.0 ],
+					"mo.pads::[1]::pad" : [ 1.0 ],
+					"mo.pads::[2]::mode" : [ 0.0 ],
+					"mo.pads::[2]::pad" : [ 1.0 ],
+					"mo.pads::[3]::mode" : [ 0.0 ],
+					"mo.pads::[3]::pad" : [ 1.0 ],
+					"mo.pads::[4]::mode" : [ 0.0 ],
+					"mo.pads::[4]::pad" : [ 0.0 ],
+					"mo.tabs::voices" : [ 4.0 ],
+					"mo.tabs::mode" : [ 0.0 ],
+					"mo.tabs::mute" : [ 0.0 ],
+					"mo.tabs::tab" : [ 1 ],
+					"mo.preset::device" : [ "my-preset" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

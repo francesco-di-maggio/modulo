@@ -78,7 +78,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[414]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -315,7 +315,7 @@
 
 					}
 ,
-					"patching_rect" : [ 267.489049971103668, 225.998723715543747, 62.0, 23.0 ],
+					"patching_rect" : [ 291.489049971103668, 225.998723715543747, 62.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -1332,14 +1332,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"midpoints" : [ 276.989049971103668, 249.0, 276.605789599485718, 249.0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 754.5, 324.0, 754.5, 324.0 ],
 					"source" : [ "obj-13", 0 ]
@@ -1544,8 +1536,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 276.989049971103668, 51.0, 276.989049971103668, 51.0 ],
+					"destination" : [ "obj-35", 1 ],
+					"midpoints" : [ 276.989049971103668, 51.0, 276.989049971103668, 51.0, 276.989049971103668, 249.0, 276.605789599485718, 249.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 

@@ -88,7 +88,7 @@
 ,
 					"text" : " ",
 					"texton" : " ",
-					"varname" : "mute-[1]"
+					"varname" : "mute-"
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 364.0, 450.5, 149.0, 23.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
