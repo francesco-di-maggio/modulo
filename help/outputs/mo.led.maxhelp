@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 226.0, 347.0 ],
+		"rect" : [ 34.0, 100.0, 246.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 28.0, 74.0, 79.0 ],
+					"patching_rect" : [ 146.0, 163.0, 74.0, 79.0 ],
 					"text" : "1 = RED\n2 = GREEN\n3 = BLUE\n4 = YELLOW\n5 = WHITE"
 				}
 

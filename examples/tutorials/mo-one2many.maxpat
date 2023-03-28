@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 705.0, 297.0 ],
+		"rect" : [ 34.0, 100.0, 704.0, 300.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -271,33 +271,27 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mapping.json",
+					"autorestore" : "p-one2many.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 160.767661435184777, 498.0, 23.0 ],
-					"priority" : 					{
-						"mo.crosspatch::crosspatch" : 1
-					}
-,
+					"patching_rect" : [ 174.0, 160.767661435184777, 507.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 1057, 100, 1440, 462 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.crosspatch" ],
-					"text" : "pattrstorage p-mapping @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
-					"varname" : "p-mapping"
+					"text" : "pattrstorage p-one2many @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
+					"varname" : "p-one2many"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bubblesize" : 20,
 					"id" : "obj-33",
 					"maxclass" : "preset",
@@ -305,9 +299,9 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 174.0, 205.194744768518035, 53.0, 30.0 ],
-					"pattrstorage" : "p-mapping",
+					"pattrstorage" : "p-one2many",
 					"presentation" : 1,
-					"presentation_rect" : [ 128.166666666666686, 26.761870763478839, 52.0, 28.0 ]
+					"presentation_rect" : [ 128.166666666666686, 26.761870763478839, 53.0, 29.0 ]
 				}
 
 			}
@@ -430,14 +424,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-4::obj-6" : [ "live.text[4]", "live.text", 0 ],
-			"obj-6::obj-6" : [ "live.text[5]", "live.text", 0 ],
-			"obj-7::obj-6" : [ "live.text[6]", "live.text", 0 ],
-			"obj-9::obj-6" : [ "live.text[7]", "live.text", 0 ],
+			"obj-4::obj-7" : [ "live.text[4]", "live.text", 0 ],
+			"obj-6::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-7::obj-7" : [ "live.text[6]", "live.text", 0 ],
+			"obj-9::obj-7" : [ "live.text[7]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -448,19 +442,31 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-4::obj-6" : 				{
+				"obj-2::obj-1" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-37" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-4::obj-7" : 				{
 					"parameter_longname" : "live.text[4]"
 				}
 ,
-				"obj-6::obj-6" : 				{
+				"obj-6::obj-7" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
 ,
-				"obj-7::obj-6" : 				{
+				"obj-7::obj-7" : 				{
 					"parameter_longname" : "live.text[6]"
 				}
 ,
-				"obj-9::obj-6" : 				{
+				"obj-9::obj-7" : 				{
 					"parameter_longname" : "live.text[7]"
 				}
 
@@ -487,13 +493,6 @@
 				"name" : "mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-mapping.json",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 602.0, 392.0 ],
+		"rect" : [ 34.0, 100.0, 887.0, 392.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 603.173431724309921, 26.0, 261.0, 23.0 ],
+					"text" : "ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "message",
@@ -140,8 +152,8 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "number",
-					"maximum" : 8,
-					"minimum" : 1,
+					"maximum" : 16,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -175,6 +187,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 612.673431724309921, 60.0, 400.673431724309921, 60.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 225.5, 51.0, 225.673431724309921, 51.0 ],

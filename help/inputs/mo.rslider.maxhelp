@@ -166,12 +166,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 421.0, 70.0, 23.0 ],
-					"text" : "0. 0."
+					"patching_rect" : [ 24.0, 421.0, 70.0, 37.0 ],
+					"text" : "0.690196 0.792693"
 				}
 
 			}
@@ -192,6 +193,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 128.0, 70.0, 265.0 ],
+					"varname" : "mo.rslider",
 					"viewvisibility" : 1
 				}
 

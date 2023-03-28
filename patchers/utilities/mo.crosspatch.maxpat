@@ -1666,16 +1666,11 @@
 					"patching_rect" : [ 575.070339211769351, 752.325857325578113, 312.0, 22.0 ],
 					"restore" : [ 						{
 							"data" : 							{
-								"numins" : 4,
-								"numouts" : 4,
+								"numins" : 1,
+								"numouts" : 1,
 								"connections" : [ 									{
-										"in" : 3,
+										"in" : 0,
 										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 3,
-										"out" : 3,
 										"gain" : 1.0
 									}
  ]
@@ -1730,20 +1725,22 @@
 					"fontsize" : 9.5,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : [ "1", "2", "3", "4" ],
+					"inlabels" : "1",
 					"labelheight" : 15.0,
 					"labelwidth" : 25.0,
 					"linecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
+					"numins" : 1,
 					"numoutlets" : 2,
+					"numouts" : 1,
 					"outcolormap" : "none",
-					"outlabels" : [ "1", "2", "3", "4" ],
+					"outlabels" : "1",
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.139760281642339, 396.325857325578113, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 16.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "crosspatch-"
 				}
@@ -2515,7 +2512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.139760281642339, 260.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

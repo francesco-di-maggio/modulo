@@ -143,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.83221094686894, 353.500000000000057, 74.0, 25.0 ],
+					"patching_rect" : [ 359.83221094686894, 394.000000000000057, 74.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.041666666666629, 318.633830717592389, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -165,7 +165,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.33221094686894, 356.000000000000057, 20.0, 20.0 ],
+					"patching_rect" : [ 332.33221094686894, 396.500000000000057, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 568.541666666666629, 321.133830717592389, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -184,7 +184,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.498877613535569, 339.5, 53.0, 53.0 ],
+					"patching_rect" : [ 264.498877613535569, 380.0, 53.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 504.666666666666629, 304.633830717592389, 53.0, 53.0 ]
 				}

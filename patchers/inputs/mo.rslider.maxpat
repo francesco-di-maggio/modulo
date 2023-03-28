@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 266.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,59 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"id" : "obj-6",
+					"ignoreclick" : 1,
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 370.0, 264.001276284456253, 78.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.680297577426614, 42.489995495694359, 54.081419310943673, 16.776920566861513 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[414]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : " ",
+					"texton" : " ",
+					"varname" : "mute-"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
@@ -155,59 +208,6 @@
 ,
 					"text" : "pattr rslider @bindto rslider- @initial 0 0",
 					"varname" : "rslider"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"id" : "obj-6",
-					"ignoreclick" : 1,
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
-					"patching_rect" : [ 370.0, 264.001276284456253, 78.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.680297577426614, 42.489995495694359, 54.081419310943673, 16.776920566861513 ],
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_active_automation"
-						}
-,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetextoncolor" : 						{
-							"expression" : ""
-						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[414]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : " ",
-					"texton" : " ",
-					"varname" : "mute-"
 				}
 
 			}

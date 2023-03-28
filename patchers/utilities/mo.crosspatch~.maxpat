@@ -1535,6 +1535,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "live.text",
@@ -1550,6 +1551,10 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_value_bar"
 						}
 ,
 						"bordercolor" : 						{
@@ -2602,14 +2607,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"midpoints" : [ 484.806426948308967, 132.0, 484.806426948308967, 132.0, 484.806426948308967, 225.0, 484.806426948308967, 225.0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"midpoints" : [ 505.806426948308967, 456.0, 23.5, 456.0 ],
 													"source" : [ "obj-21", 0 ]
@@ -3071,13 +3068,7 @@
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 1,
-								"numouts" : 2,
-								"connections" : [ 									{
-										"in" : 0,
-										"out" : 0,
-										"gain" : 1.0
-									}
- ]
+								"numouts" : 4
 							}
 
 						}
@@ -3137,14 +3128,13 @@
 					"numinlets" : 1,
 					"numins" : 1,
 					"numoutlets" : 2,
-					"numouts" : 2,
 					"outcolormap" : "none",
-					"outlabels" : [ "1", "2" ],
+					"outlabels" : [ "1", "2", "3", "4" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.139760281642339, 396.325857325578113, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 32.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Crosspatch-CP"
 				}
@@ -3844,7 +3834,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.139760281642339, 260.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 32.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

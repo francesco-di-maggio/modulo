@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.poll.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 24.824253082275391, 149.0, 70.0, 57.5 ],
+					"varname" : "mo.poll",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-17",
 					"maxclass" : "flonum",
@@ -196,7 +218,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.824253082275391, 238.388694517314434, 214.0, 87.0 ],
-					"varname" : "mo.scale",
+					"varname" : "mo.slide",
 					"viewvisibility" : 1
 				}
 
@@ -245,6 +267,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 34.5, 114.0, 34.324253082275391, 114.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -369,6 +398,8 @@
 			"obj-1::obj-74::obj-68" : [ "live.numbox[15]", "live.numbox", 0 ],
 			"obj-1::obj-74::obj-8" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-1::obj-9" : [ "live.numbox[63]", "live.numbox", 0 ],
+			"obj-2::obj-13" : [ "live.numbox[78]", "live.numbox", 0 ],
+			"obj-2::obj-21" : [ "live.text[89]", "live.text", 0 ],
 			"obj-3::obj-11" : [ "live.text[54]", "live.text", 0 ],
 			"obj-3::obj-52" : [ "live.numbox[64]", "live.numbox", 0 ],
 			"obj-4::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
@@ -475,6 +506,10 @@
 ,
 				"obj-1::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.numbox[27]"
+				}
+,
+				"obj-1::obj-4" : 				{
+					"parameter_range" : [ 0.0, 500.0 ]
 				}
 ,
 				"obj-1::obj-40::obj-21" : 				{
@@ -697,6 +732,10 @@
 					"parameter_longname" : "live.numbox[77]"
 				}
 ,
+				"obj-1::obj-6" : 				{
+					"parameter_range" : [ 0.0, 500.0 ]
+				}
+,
 				"obj-1::obj-74::obj-21" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
@@ -719,6 +758,10 @@
 ,
 				"obj-1::obj-9" : 				{
 					"parameter_longname" : "live.numbox[63]"
+				}
+,
+				"obj-2::obj-13" : 				{
+					"parameter_longname" : "live.numbox[78]"
 				}
 ,
 				"obj-3::obj-11" : 				{
@@ -886,6 +929,13 @@
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.poll.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

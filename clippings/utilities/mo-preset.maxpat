@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -52,7 +52,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
-					"pattrstorage" : "p-untitled",
+					"pattrstorage" : "untitled",
 					"presentation" : 1,
 					"presentation_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
 					"saved_attribute_attributes" : 					{
@@ -78,14 +78,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 138.0, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 228 ],
+						"client_rect" : [ 0, 100, 354, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "p-untitled"
+					"varname" : "untitled"
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patching_rect" : [ 0.0, 0.0, 214.0, 124.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 214.0, 124.0 ],
@@ -162,17 +162,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-3" : [ "live.text[60]", "live.text", 0 ],
 			"obj-1::obj-43" : [ "live.text[56]", "live.text", 0 ],
 			"obj-1::obj-46" : [ "live.text[58]", "live.text", 0 ],
 			"obj-1::obj-48" : [ "live.text[59]", "live.text", 0 ],
@@ -182,12 +173,26 @@
 			"obj-1::obj-55" : [ "live.text[61]", "live.text", 0 ],
 			"obj-1::obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"obj-1::obj-64" : [ "live.text[57]", "live.text", 0 ],
-			"obj-1::obj-78" : [ "live.text[2]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-43" : 				{
+					"parameter_longname" : "live.text[56]"
+				}
+,
+				"obj-1::obj-46" : 				{
+					"parameter_longname" : "live.text[58]"
+				}
+,
+				"obj-1::obj-64" : 				{
+					"parameter_longname" : "live.text[57]"
 				}
 
 			}

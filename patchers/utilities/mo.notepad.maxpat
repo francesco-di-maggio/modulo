@@ -192,13 +192,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-39",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 307.0, 212.0, 23.0 ],
-									"text" : ";\rtoggle 1"
+									"text" : "\"> type here\""
 								}
 
 							}
@@ -505,9 +504,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.860643649101007, 313.525856395133815, 251.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.14285671710968, 70.093906720050654, 182.0, 181.606174598566213 ],
+					"presentation_rect" : [ 15.14285671710968, 70.093906720050654, 183.0, 182.606174598566213 ],
 					"rounded" : 0.0,
-					"text" : "; toggle 1",
+					"text" : "> type here",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
 					"varname" : "notepad-"
@@ -590,7 +589,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 328.1877336576174, 313.525856395133815, 131.693199520390976, 38.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 199.339669197688949, 192.99261078321473 ],
+					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 200.339669197688949, 193.99261078321473 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

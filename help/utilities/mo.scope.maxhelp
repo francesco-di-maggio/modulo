@@ -115,7 +115,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.824253082275391, 172.571484486689315, 142.0, 28.0 ],
+					"patching_rect" : [ 28.824253082275391, 172.571484486689315, 70.0, 28.0 ],
 					"varname" : "mo.~2list",
 					"viewvisibility" : 1
 				}
@@ -243,6 +243,17 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-11" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-5::obj-52" : 				{
+					"parameter_longname" : "live.numbox[11]"
 				}
 
 			}

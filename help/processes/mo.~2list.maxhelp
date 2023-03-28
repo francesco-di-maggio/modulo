@@ -85,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.83221094686894, 145.701583866844373, 156.0, 25.0 ],
+					"patching_rect" : [ 170.83221094686894, 145.701583866844373, 156.0, 25.0 ],
 					"text" : "change number of chans"
 				}
 
@@ -105,7 +105,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 216.33221094686894, 148.5, 20.0, 20.0 ],
+					"patching_rect" : [ 144.33221094686894, 148.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -124,7 +124,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.005170665681362, 148.0, 50.0, 23.0 ]
+					"patching_rect" : [ 80.005170665681362, 148.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.005170665681362, 183.0, 57.0, 23.0 ],
+					"patching_rect" : [ 80.005170665681362, 183.0, 57.0, 23.0 ],
 					"text" : "chans $1"
 				}
 
@@ -219,7 +219,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.824253082275391, 228.0, 142.0, 28.0 ],
+					"patching_rect" : [ 28.824253082275391, 228.0, 70.0, 28.0 ],
 					"varname" : "mo.~2list",
 					"viewvisibility" : 1
 				}
@@ -276,6 +276,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@rate", 20 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -316,7 +317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 161.505170665681362, 207.0, 161.324253082275391, 207.0 ],
+					"midpoints" : [ 89.505170665681362, 207.0, 89.324253082275391, 207.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -324,7 +325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 161.505170665681362, 174.0, 161.505170665681362, 174.0 ],
+					"midpoints" : [ 89.505170665681362, 174.0, 89.505170665681362, 174.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -346,6 +347,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-52" : 				{
+					"parameter_longname" : "live.numbox[11]"
 				}
 
 			}

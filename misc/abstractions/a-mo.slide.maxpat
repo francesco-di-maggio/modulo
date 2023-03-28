@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -264,14 +264,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 571.666666666666629, 309.922932942708371, 202.0, 22.0 ],
+					"patching_rect" : [ 571.666666666666629, 309.922932942708371, 208.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 5 ],
+						"initial" : [ 10 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr down @bindto down- @initial 5",
+					"text" : "pattr down @bindto down- @initial 10",
 					"varname" : "down"
 				}
 
@@ -286,14 +286,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 571.666666666666629, 271.294433593749943, 171.0, 22.0 ],
+					"patching_rect" : [ 571.666666666666629, 271.294433593749943, 178.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 5 ],
+						"initial" : [ 10 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr up @bindto up- @initial 5",
+					"text" : "pattr up @bindto up- @initial 10",
 					"varname" : "up"
 				}
 

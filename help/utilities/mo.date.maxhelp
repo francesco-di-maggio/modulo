@@ -139,7 +139,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.0, 206.0, 142.0, 28.0 ],
+					"patching_rect" : [ 148.0, 206.0, 70.0, 28.0 ],
 					"varname" : "mo.nth",
 					"viewvisibility" : 1
 				}
@@ -153,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.520341842710593, 241.0, 79.0, 23.0 ],
-					"text" : "14 15 40"
+					"text" : "20 51 16"
 				}
 
 			}
@@ -189,7 +189,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 206.0, 79.0, 23.0 ],
-					"text" : "3 24 2023"
+					"text" : "3 28 2023"
 				}
 
 			}

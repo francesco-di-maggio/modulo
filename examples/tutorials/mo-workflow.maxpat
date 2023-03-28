@@ -1409,6 +1409,7 @@
 			"obj-1::obj-24::obj-123::obj-66" : [ "live.numbox[15]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-123::obj-68" : [ "live.numbox[16]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-123::obj-72" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-1::obj-24::obj-14" : [ "live.numbox[51]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-16" : [ "live.text[98]", "live.text", 0 ],
 			"obj-1::obj-24::obj-1::obj-35" : [ "live.text[158]", "live.text", 0 ],
 			"obj-1::obj-24::obj-1::obj-66" : [ "live.numbox[248]", "live.numbox", 0 ],
@@ -1469,8 +1470,6 @@
 			"obj-1::obj-24::obj-74::obj-66" : [ "live.numbox[224]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-74::obj-68" : [ "live.numbox[253]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-74::obj-72" : [ "live.numbox[247]", "live.numbox", 0 ],
-			"obj-1::obj-24::obj-82" : [ "live.text[52]", "live.text", 0 ],
-			"obj-1::obj-24::obj-85" : [ "live.numbox[125]", "live.numbox", 0 ],
 			"obj-1::obj-7::obj-111" : [ "live.dial[18]", "detune", 0 ],
 			"obj-1::obj-7::obj-112" : [ "live.dial[19]", "decay", 0 ],
 			"obj-1::obj-7::obj-113" : [ "live.dial[20]", "attack", 0 ],
@@ -1531,6 +1530,7 @@
 			"obj-2::obj-2::obj-123::obj-66" : [ "live.numbox[150]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-123::obj-68" : [ "live.numbox[148]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-123::obj-72" : [ "live.numbox[131]", "live.numbox", 0 ],
+			"obj-2::obj-2::obj-14" : [ "live.numbox[18]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-16" : [ "live.text[31]", "live.text", 0 ],
 			"obj-2::obj-2::obj-1::obj-35" : [ "live.text[141]", "live.text", 0 ],
 			"obj-2::obj-2::obj-1::obj-66" : [ "live.numbox[154]", "live.numbox", 0 ],
@@ -1586,13 +1586,11 @@
 			"obj-2::obj-2::obj-50::obj-72" : [ "live.numbox[176]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-59" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-66" : [ "live.numbox[21]", "live.numbox", 0 ],
-			"obj-2::obj-2::obj-68" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-2::obj-2::obj-68" : [ "live.numbox[23]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-74::obj-35" : [ "live.text[139]", "live.text", 0 ],
 			"obj-2::obj-2::obj-74::obj-66" : [ "live.numbox[132]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-74::obj-68" : [ "live.numbox[149]", "live.numbox", 0 ],
 			"obj-2::obj-2::obj-74::obj-72" : [ "live.numbox[151]", "live.numbox", 0 ],
-			"obj-2::obj-2::obj-82" : [ "live.text[30]", "live.text", 0 ],
-			"obj-2::obj-2::obj-85" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-111" : [ "live.dial[12]", "detune", 0 ],
 			"obj-2::obj-3::obj-112" : [ "live.dial[4]", "decay", 0 ],
 			"obj-2::obj-3::obj-113" : [ "live.dial[5]", "attack", 0 ],
@@ -1999,6 +1997,10 @@
 					"parameter_longname" : "live.numbox[272]"
 				}
 ,
+				"obj-1::obj-24::obj-59" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
 				"obj-1::obj-24::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[90]"
 				}
@@ -2247,6 +2249,10 @@
 					"parameter_longname" : "live.numbox[131]"
 				}
 ,
+				"obj-2::obj-2::obj-14" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+,
 				"obj-2::obj-2::obj-16" : 				{
 					"parameter_longname" : "live.text[31]"
 				}
@@ -2468,7 +2474,7 @@
 				}
 ,
 				"obj-2::obj-2::obj-68" : 				{
-					"parameter_longname" : "live.numbox[18]"
+					"parameter_longname" : "live.numbox[23]"
 				}
 ,
 				"obj-2::obj-2::obj-74::obj-35" : 				{
@@ -2485,14 +2491,6 @@
 ,
 				"obj-2::obj-2::obj-74::obj-72" : 				{
 					"parameter_longname" : "live.numbox[151]"
-				}
-,
-				"obj-2::obj-2::obj-82" : 				{
-					"parameter_longname" : "live.text[30]"
-				}
-,
-				"obj-2::obj-2::obj-85" : 				{
-					"parameter_longname" : "live.numbox[19]"
 				}
 ,
 				"obj-2::obj-3::obj-111" : 				{
@@ -2567,15 +2565,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../../misc/abs",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../../misc/abs",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

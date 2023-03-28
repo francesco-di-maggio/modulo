@@ -420,7 +420,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.rand~", "mo.onepole~", "mo.crosspatch~" ],
+					"subscribe" : [ "mo.onepole~", "mo.crosspatch~", "mo.rand~" ],
 					"text" : "pattrstorage p-sonification @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-sonification"
 				}
@@ -657,6 +657,14 @@
 					"parameter_longname" : "live.numbox[37]"
 				}
 ,
+				"obj-6::obj-59" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-7::obj-10" : 				{
+					"parameter_longname" : "live.numbox[52]"
+				}
+,
 				"obj-7::obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -848,15 +856,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../misc/abs",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -869,42 +877,42 @@
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
-				"patcherrelativepath" : "../patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
-				"patcherrelativepath" : "../patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-sonification.json",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
-				"patcherrelativepath" : "../misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -917,14 +925,14 @@
 , 			{
 				"name" : "speaker-off.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-on.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
