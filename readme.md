@@ -19,3 +19,11 @@ If not, you can [download the latest release here](https://github.com/francesco-
 ## How it works
 
 Open the Overview Patch (modulo-main/extras/%/overview.maxpat).
+
+## Externals
+
+This repository uses external Max Packages. Some can be found in the Max ```Package Manager```, or download here:
+* [CNMAT](https://cnmat.berkeley.edu/downloads)
+* [Ease](https://github.com/Cycling74/ease)
+* [Fluid Corpus Manipulation](https://www.flucoma.org/download/?fbclid=IwAR2UcQAQCX5s7WIXaNRTHIBnId3jb6lqKM3j9j3rsLpQgUVT8SKxmDf3RNg)
+* [Myo for Max](https://github.com/JulesFrancoise/myo-for-max)
