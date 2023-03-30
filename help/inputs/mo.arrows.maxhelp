@@ -130,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.0, 219.847115516662598, 48.0, 23.0 ],
-					"text" : "right"
+					"text" : "down"
 				}
 
 			}

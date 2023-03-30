@@ -164,10 +164,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 74.489049971103668, 474.001276284456253, 78.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.804893493936421, 39.489995495694359, 41.0, 215.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "slider-",
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "slider-",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
