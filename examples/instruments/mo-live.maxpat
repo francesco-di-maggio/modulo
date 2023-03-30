@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 456.0, 485.0 ],
+		"rect" : [ 34.0, 100.0, 530.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 22.824253082275391, 505.0, 214.0, 262.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.824253082275391, 15.0, 214.0, 263.0 ],
+					"presentation_rect" : [ 301.824253082275391, 15.0, 214.0, 263.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}
@@ -133,6 +133,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.824253082275391, 326.587790975968062, 70.0, 57.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 229.824253082275391, 15.0, 70.0, 57.5 ],
 					"varname" : "mo.line",
 					"viewvisibility" : 1
 				}
@@ -178,6 +180,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.824253082275391, 415.793895487984059, 70.0, 57.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 229.824253082275391, 220.5, 70.0, 57.5 ],
 					"varname" : "mo.speedlim",
 					"viewvisibility" : 1
 				}
@@ -528,7 +532,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.speedlim", "mo.line", "mo.2midi", "mo.ctlouts" ],
+					"subscribe" : [ "mo.2midi", "mo.ctlouts", "mo.speedlim", "mo.line" ],
 					"text" : "pattrstorage p-live @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-live"
 				}

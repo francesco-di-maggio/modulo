@@ -57,10 +57,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.333333333333428, 117.267661435184777, 104.0, 25.0 ],
+					"patching_rect" : [ 283.333333333333428, 117.267661435184777, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.333333333333428, 52.267661435184777, 104.0, 25.0 ],
-					"text" : "click, and drag"
+					"presentation_rect" : [ 482.333333333333428, 245.267661435184777, 138.0, 25.0 ],
+					"text" : "click, and drag xypad"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 258.833333333333371, 119.767661435184777, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.833333333333371, 54.767661435184777, 20.0, 20.0 ],
+					"presentation_rect" : [ 457.833333333333371, 247.767661435184777, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -570,7 +570,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.theremini~", "mo.2max", "mo.scale", "mo.sends", "mo.regress" ],
+					"subscribe" : [ "mo.scale", "mo.sends", "mo.regress", "mo.theremini~", "mo.2max" ],
 					"text" : "pattrstorage p-theremini @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-theremini"
 				}
