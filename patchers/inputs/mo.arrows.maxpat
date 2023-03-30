@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -190,7 +190,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[188]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -291,7 +291,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 161.587909718879473, 516.990021225398777, 28.666666666666686, 24.571428571428555 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.913043260574341, 35.0, 24.927673444151885, 21.366577237844439 ],
+					"presentation_rect" : [ 21.913043260574341, 35.0, 24.927673444151885, 21.366577237844439 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
@@ -320,7 +320,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 191.254576385546159, 516.990021225398777, 28.666666666666629, 24.571428571428442 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.913043260574341, 61.156749040754377, 24.927673444151822, 21.366577237844325 ],
+					"presentation_rect" : [ 21.913043260574341, 61.156749040754377, 24.927673444151822, 21.366577237844325 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
@@ -351,7 +351,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.921243052212787, 516.990021225398777, 28.666666666666629, 24.571428571428442 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.941817391424877, 48.011821419866607, 24.927673444151822, 21.366577237844325 ],
+					"presentation_rect" : [ 38.941817391424877, 48.011821419866607, 24.927673444151822, 21.366577237844325 ],
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -380,7 +380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.254576385546102, 516.990021225398777, 28.666666666666686, 24.571428571428555 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 48.011821419866607, 24.927673444151885, 21.366577237844439 ],
+					"presentation_rect" : [ 5.0, 48.011821419866607, 24.927673444151885, 21.366577237844439 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{

@@ -25,5 +25,6 @@ Open the Overview Patch (modulo-main/extras/%/overview.maxpat).
 This repository uses external Max Packages. Some can be found in the Max ```Package Manager```, or download here:
 * [CNMAT](https://cnmat.berkeley.edu/downloads)
 * [Ease](https://github.com/Cycling74/ease)
-* [Fluid Corpus Manipulation](https://www.flucoma.org/download/)
+* [Fluid Corpus Manipulation](https://www.flucoma.org/download)
 * [Myo for Max](https://github.com/JulesFrancoise/myo-for-max)
+* [MuBu for Max](https://forum.ircam.fr/projects/detail/mubu)
