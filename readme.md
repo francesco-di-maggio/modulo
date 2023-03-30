@@ -26,5 +26,5 @@ This repository uses external Max Packages. Some can be found in the Max ```Pack
 * [CNMAT](https://cnmat.berkeley.edu/downloads)
 * [Ease](https://github.com/Cycling74/ease)
 * [Fluid Corpus Manipulation](https://www.flucoma.org/download)
-* [Myo for Max](https://github.com/JulesFrancoise/myo-for-max)
 * [MuBu for Max](https://forum.ircam.fr/projects/detail/mubu)
+* [Myo for Max](https://github.com/JulesFrancoise/myo-for-max)
