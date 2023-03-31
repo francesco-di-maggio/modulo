@@ -41,18 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 376.5, 399.0, 56.0, 23.0 ],
-					"text" : "zl.filter 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -563,7 +551,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[16]",
+							"parameter_longname" : "Show Particle Settings[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -644,7 +632,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"spacing" : 3,
 					"varname" : "slider-"
 				}
@@ -860,7 +848,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[105]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -868,9 +856,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "9",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "1",
+					"texton" : "9",
 					"varname" : "mute-"
 				}
 
@@ -1047,14 +1035,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 386.0, 501.0, 360.0, 501.0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 67.166666666666657, 444.0, 34.666666666666664, 444.0 ],
 					"order" : 1,
@@ -1121,8 +1101,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 386.0, 390.0, 386.0, 390.0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 386.0, 390.0, 386.0, 390.0, 386.0, 501.0, 360.0, 501.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 

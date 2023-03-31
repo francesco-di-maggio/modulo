@@ -51,11 +51,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.odd.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"varname" : "mo.odd",
 					"viewvisibility" : 1
 				}
 
@@ -63,10 +64,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-46" : [ "live.text[24]", "live.text", 0 ],
 			"obj-1::obj-5" : [ "live.text[88]", "live.text", 0 ],
+			"obj-1::obj-60" : [ "live.button[2]", "live.button", 0 ],
 			"obj-1::obj-71" : [ "live.text[95]", "live.text[12]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -82,8 +83,16 @@
 					"parameter_longname" : "live.text[19]"
 				}
 ,
+				"obj-1::obj-46" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
 				"obj-1::obj-5" : 				{
 					"parameter_longname" : "live.text[88]"
+				}
+,
+				"obj-1::obj-71" : 				{
+					"parameter_longname" : "live.text[95]"
 				}
 
 			}
@@ -99,15 +108,15 @@
 			}
 , 			{
 				"name" : "mo.odd.maxpat",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "odd.txt",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
