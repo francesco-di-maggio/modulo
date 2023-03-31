@@ -71,14 +71,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.883814082275393, 175.071484486689315, 55.0, 23.0 ],
-					"text" : "mode $1"
+					"patching_rect" : [ 223.883814082275393, 175.071484486689315, 67.0, 23.0 ],
+					"text" : "polarity $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
+					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -248,6 +248,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-32" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-5::obj-11" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
@@ -276,8 +280,8 @@
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}

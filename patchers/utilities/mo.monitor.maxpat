@@ -409,7 +409,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 28.0, 141.999999999999915, 95.0, 22.0 ],
-									"text" : "pak 7 35.5 199 f"
+									"text" : "pak 7 35.5 200 f"
 								}
 
 							}
@@ -501,7 +501,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 63.860643649101007, 68.5, 30.0, 30.0 ]
 				}
 
@@ -596,11 +596,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 63.860643649101007, 418.525856395133815, 252.0, 140.0 ],
+					"patching_rect" : [ 63.860643649101007, 418.525856395133815, 254.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.588996887207031, 35.5, 193.822006225585938, 16.0 ],
+					"presentation_rect" : [ 7.0, 35.5, 200.0, 16.0 ],
 					"rounded" : 0.0,
-					"text" : "output-1 0.706052",
+					"text" : "9 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
 					"varname" : "notepad-"
@@ -683,7 +683,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 380.1877336576174, 418.525856395133815, 131.693199520390976, 38.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 35.5, 199.0, 16.0 ],
+					"presentation_rect" : [ 7.0, 35.5, 200.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
