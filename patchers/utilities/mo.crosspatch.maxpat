@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -574,7 +574,7 @@
 				"box" : 				{
 					"comment" : "(message) in, out, clear",
 					"id" : "obj-25",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -660,18 +660,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 767.938304592120062, 308.155843734741211, 60.0, 23.0 ],
-					"text" : "zl.change"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -692,14 +680,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 883.66774369174982, 352.311687469482422, 294.0, 22.0 ],
+					"patching_rect" : [ 883.66774369174982, 352.311687469482422, 298.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr outs @bindto outs- @initial 1 @default_priority 1",
+					"text" : "pattr outs @bindto outs- @initial 1 @default_priority -1",
 					"varname" : "outs"
 				}
 
@@ -712,14 +700,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 853.139760281642339, 417.292756315187148, 178.0, 23.0 ],
+					"patching_rect" : [ 853.139760281642339, 417.292756315187148, 292.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr ins @bindto ins- @initial 1",
+					"text" : "pattr ins @bindto ins- @initial 1 @default_priority -1",
 					"varname" : "ins"
 				}
 
@@ -2271,7 +2259,7 @@
 				"box" : 				{
 					"comment" : "(list) routed",
 					"id" : "obj-54",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2372,7 +2360,7 @@
 				"box" : 				{
 					"comment" : "(list) to route",
 					"id" : "obj-41",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3160,8 +3148,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 778.73700587843598, 141.0, 777.438304592120062, 141.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 778.73700587843598, 339.0, 893.16774369174982, 339.0 ],
 					"source" : [ "obj-34", 1 ]
 				}
 
@@ -3356,14 +3344,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 893.16774369174982, 375.0, 837.0, 375.0, 837.0, 303.0, 818.438304592120062, 303.0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 442.639760281642339, 234.0, 442.639760281642339, 234.0 ],
 					"source" : [ "obj-61", 2 ]
@@ -3529,15 +3509,32 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 777.438304592120062, 348.0, 893.16774369174982, 348.0 ],
-					"source" : [ "obj-8", 0 ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

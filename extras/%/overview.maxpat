@@ -53,7 +53,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -195,7 +195,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -337,7 +337,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 7,
-																	"num_lines_presentation" : 8,
+																	"num_lines_presentation" : 9,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -361,9 +361,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-blocks", "mo-controllerism", "mo.many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-recording", "mo-regression", "mo-workflow" ],
+																			"parameter_enum" : [ "mo-blocks", "mo-classification", "mo-controllerism", "mo-many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-recording", "mo-regression", "mo-workflow" ],
 																			"parameter_longname" : "live.menu[5]",
-																			"parameter_mmax" : 7,
+																			"parameter_mmax" : 8,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1862,7 +1862,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are ideas for instruments that deal with either direct mapping, and machine learning algorithms, such as regression.",
+													"text" : "These are simple tutorials that show how to perform various tasks, such as recording, combining blocks, and mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 

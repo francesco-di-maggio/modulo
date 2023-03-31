@@ -1830,7 +1830,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.000000999999955, 74.147058823529505, 151.0, 22.0 ],
-									"text" : "predictpoint 1002_features"
+									"text" : "predictpoint #0_features"
 								}
 
 							}
@@ -3574,7 +3574,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 55.000008119467793, 253.0, 50.0, 22.0 ],
-													"text" : "1"
+													"text" : "20"
 												}
 
 											}

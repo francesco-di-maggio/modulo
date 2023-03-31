@@ -271,12 +271,19 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "p-many2one.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 670.886411435185096, 507.0, 23.0 ],
+					"priority" : 					{
+						"mo.crosspatch::ins" : -1,
+						"mo.crosspatch::outs" : -1,
+						"mo.crosspatch::crosspatch" : 1
+					}
+,
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 1057, 100, 1440, 462 ],
 						"parameter_enable" : 0,
@@ -284,6 +291,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
+					"subscribe" : [ "mo.crosspatch" ],
 					"text" : "pattrstorage p-many2one @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-many2one"
 				}
@@ -423,13 +431,18 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-1::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-4::obj-7" : [ "live.text[4]", "live.text", 0 ],
+			"obj-6::obj-3" : [ "slider-[2]", "slider-", 0 ],
 			"obj-6::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-7::obj-3" : [ "slider-[3]", "slider-", 0 ],
 			"obj-7::obj-7" : [ "live.text[6]", "live.text", 0 ],
+			"obj-9::obj-3" : [ "slider-[4]", "slider-", 0 ],
 			"obj-9::obj-7" : [ "live.text[7]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -492,6 +505,13 @@
 				"name" : "mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-many2one.json",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

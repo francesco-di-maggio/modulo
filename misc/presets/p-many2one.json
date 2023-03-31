@@ -1,0 +1,37 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-many2one",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.crosspatch::ins" : [ 4.0 ],
+					"mo.crosspatch::outs" : [ 1.0 ],
+					"mo.crosspatch::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 4,
+								"numouts" : 1,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 0.505
+									}
+, 									{
+										"in" : 3,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

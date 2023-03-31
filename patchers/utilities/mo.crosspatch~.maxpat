@@ -1415,7 +1415,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-32",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1439,7 +1439,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) routed",
 					"id" : "obj-70",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1487,7 +1487,7 @@
 				"box" : 				{
 					"comment" : "(message) in, out, clear",
 					"id" : "obj-25",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1593,14 +1593,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 883.66774369174982, 352.311687469482422, 294.0, 22.0 ],
+					"patching_rect" : [ 883.66774369174982, 352.311687469482422, 190.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr outs @bindto outs- @initial 1 @default_priority 1",
+					"text" : "pattr outs @bindto outs- @initial 1",
 					"varname" : "outs"
 				}
 
@@ -3185,7 +3185,7 @@
 				"box" : 				{
 					"comment" : "(list) to route",
 					"id" : "obj-41",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4066,6 +4066,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

@@ -704,7 +704,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"midpoints" : [ 684.138164833188057, 183.0, 684.138164833188057, 183.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -713,7 +713,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 684.138164833188057, 330.0, 938.138164833188057, 330.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -952,15 +952,15 @@
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
