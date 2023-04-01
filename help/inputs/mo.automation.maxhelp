@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 724.824253082275391, 281.0, 36.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "write"
 				}
 
@@ -71,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 574.824253082275391, 281.0, 91.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "selection $1 $2"
 				}
 
@@ -99,7 +97,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 502.824253082275391, 281.0, 57.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "speed $1"
 				}
 
@@ -124,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 428.824253082275391, 281.0, 56.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "touch $1"
 				}
 
@@ -149,7 +145,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.824253082275391, 281.0, 61.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "record $1"
 				}
 
@@ -161,8 +156,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 366.824253082275391, 240.0, 24.0, 24.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 366.824253082275391, 240.0, 24.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "toggle",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "toggle",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "toggle"
 				}
 
 			}
@@ -198,7 +207,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 284.824253082275391, 281.0, 73.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "playback $1"
 				}
 
@@ -569,6 +577,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17" : [ "toggle", "toggle", 0 ],
 			"obj-1::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-1::obj-107::obj-35" : [ "live.text[5]", "live.text", 0 ],
 			"obj-1::obj-123::obj-20" : [ "Show Particle Settings[16]", "live.text", 0 ],
@@ -682,6 +691,14 @@
 ,
 				"obj-1::obj-107::obj-35" : 				{
 					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[16]"
+				}
+,
+				"obj-1::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[105]"
 				}
 ,
 				"obj-1::obj-1::obj-20" : 				{

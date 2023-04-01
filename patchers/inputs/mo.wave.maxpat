@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -99,8 +99,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 570.24668335114643, 459.871972364382145, 37.0, 15.0 ],
+					"pictures" : [ "middle.svg", "middle.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.052083970863421, 66.0, 15.119153309613466, 15.0 ],
+					"presentation_rect" : [ 104.614431577502657, 66.0, 15.119153309613466, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -126,6 +127,7 @@
 ,
 					"text" : "M",
 					"texton" : "M",
+					"usepicture" : 1,
 					"varname" : "live.text[5]"
 				}
 
@@ -142,6 +144,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 470.237005878435866, 459.871972364382145, 37.0, 15.0 ],
+					"pictures" : [ "high.svg", "high.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.176779184141893, 66.0, 15.119153309613466, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -169,6 +172,7 @@
 ,
 					"text" : "H",
 					"texton" : "H",
+					"usepicture" : 1,
 					"varname" : "live.text[6]"
 				}
 
@@ -185,8 +189,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 670.25636082385688, 459.871972364382145, 37.0, 15.0 ],
+					"pictures" : [ "low.svg", "low.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.614431577502657, 66.0, 15.119153309613466, 15.0 ],
+					"presentation_rect" : [ 120.83892141538756, 66.0, 15.119153309613466, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -212,6 +217,7 @@
 ,
 					"text" : "L",
 					"texton" : "L",
+					"usepicture" : 1,
 					"varname" : "live.text[7]"
 				}
 
@@ -761,7 +767,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[95]",
+							"parameter_longname" : "live.text[32]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[12]",
 							"parameter_type" : 2
@@ -818,7 +824,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[52]",
+							"parameter_longname" : "live.text[46]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -870,7 +876,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[62]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -927,7 +933,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[26]",
+							"parameter_longname" : "live.text[18]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[12]",
 							"parameter_type" : 2
