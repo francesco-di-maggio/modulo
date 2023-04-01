@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -115,34 +115,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 352.962967038154602, 330.0, 285.0, 23.0 ],
+					"patching_rect" : [ 352.962967038154602, 330.0, 267.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.5 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Sensitivity @bindto Sensitivity-NB @initial 0.5",
-					"varname" : "Sensitivity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 352.962967038154602, 283.0, 230.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Chans @bindto Chans-NB @initial 1",
-					"varname" : "Chans"
+					"text" : "pattr sensitivity @bindto sensitivity- @initial 0.5",
+					"varname" : "sensitivity"
 				}
 
 			}
@@ -171,7 +152,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 120.285429396231621, 364.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 36.371792723306498, 36.570085406303406, 15.0 ],
+					"presentation_rect" : [ 6.5, 36.371792723306498, 47.5, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -186,6 +167,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_initial" : [ 0.5 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -195,7 +178,7 @@
 
 					}
 ,
-					"varname" : "Sensitivity-NB"
+					"varname" : "sensitivity-"
 				}
 
 			}
@@ -284,7 +267,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[49]",
+							"parameter_longname" : "live.numbox[73]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -329,7 +312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 22.872310342721619, 186.0, 43.0, 23.0 ],
+					"patching_rect" : [ 22.872310342721619, 223.0, 43.0, 23.0 ],
 					"text" : "zl.sum"
 				}
 
@@ -398,7 +381,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 32.372310342721619, 210.0, 32.372310342721619, 210.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
