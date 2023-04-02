@@ -192,7 +192,7 @@
 
 					}
 ,
-					"patching_rect" : [ 382.0, 277.0, 35.0, 23.0 ],
+					"patching_rect" : [ 421.5, 288.288468363758057, 35.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -335,7 +335,7 @@
 
 					}
 ,
-					"patching_rect" : [ 588.5, 282.165828999999974, 59.0, 23.0 ],
+					"patching_rect" : [ 628.0, 288.45429736375803, 59.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -376,7 +376,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -3511,7 +3511,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 382.0, 246.665829000000031, 70.0, 20.0 ],
+					"patching_rect" : [ 421.5, 244.954297363758087, 95.523560225963593, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 427.5, 265.894408999999996, 114.0, 72.0 ],
 					"rounded" : 10.0,
@@ -3542,8 +3542,8 @@
 
 					}
 ,
-					"text" : "demo",
-					"texton" : "demo",
+					"text" : "tutorial",
+					"texton" : "tutorial",
 					"varname" : "live.tab[2]"
 				}
 
@@ -3566,7 +3566,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 392.0, 246.0, 214.0, 318.0 ],
+						"rect" : [ 392.0, 246.0, 224.0, 318.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3601,7 +3601,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 67.333333333332121, 159.0, 55.0, 23.0 ],
+									"patching_rect" : [ 71.333333333332121, 159.0, 55.0, 23.0 ],
 									"text" : "zl.slice 1"
 								}
 
@@ -3609,7 +3609,7 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"demo" : "demo"
+										"tutorial" : "modulo.tutorial"
 									}
 ,
 									"id" : "obj-4",
@@ -3617,14 +3617,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 10.0, 114.0, 190.0, 23.0 ],
+									"patching_rect" : [ 10.0, 114.0, 200.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "dict mo-demo-patches @embed 1"
+									"text" : "dict mo-tutorial-patches @embed 1"
 								}
 
 							}
@@ -3661,7 +3661,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 103.333333333332121, 272.0, 30.0, 30.0 ]
+									"patching_rect" : [ 107.333333333332121, 272.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3692,7 +3692,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
-									"midpoints" : [ 76.5, 138.0, 76.833333333332121, 138.0 ],
+									"midpoints" : [ 79.833333333333343, 138.0, 80.833333333332121, 138.0 ],
 									"source" : [ "obj-4", 1 ]
 								}
 
@@ -3714,7 +3714,7 @@
 
 					}
 ,
-					"patching_rect" : [ 433.0, 277.0, 48.0, 23.0 ],
+					"patching_rect" : [ 497.5, 288.288468363758057, 58.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -3737,7 +3737,7 @@
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p demo"
+					"text" : "p tutorial"
 				}
 
 			}
@@ -3748,7 +3748,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 301.0, 115.0, 23.0 ],
+					"patching_rect" : [ 497.5, 312.288468363758057, 115.0, 23.0 ],
 					"text" : "prepend loadunique"
 				}
 
@@ -3760,7 +3760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 325.0, 54.0, 23.0 ],
+					"patching_rect" : [ 497.5, 336.288468363758057, 54.0, 23.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -3929,7 +3929,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 588.750000000000114, 246.665829000000031, 51.0, 29.0 ],
+					"patching_rect" : [ 628.0, 244.954297363758087, 51.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 610.73809526860714, 135.038199247394118, 157.5, 26.0 ]
 				}
@@ -3947,7 +3947,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 391.5, 303.0, 378.0, 303.0, 378.0, 243.0, 391.5, 243.0 ],
+					"midpoints" : [ 431.0, 312.0, 408.0, 312.0, 408.0, 240.0, 431.0, 240.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3963,6 +3963,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 637.5, 276.0, 637.5, 276.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3970,7 +3971,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 442.5, 324.834170999999969, 442.5, 324.834170999999969 ],
+					"midpoints" : [ 507.0, 336.0, 507.0, 336.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -3978,7 +3979,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 442.5, 300.834170999999969, 442.5, 300.834170999999969 ],
+					"midpoints" : [ 507.0, 312.0, 507.0, 312.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -3986,6 +3987,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 431.0, 276.0, 431.0, 276.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -3993,7 +3995,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 442.5, 267.0, 442.5, 267.0 ],
+					"midpoints" : [ 507.523560225963593, 276.0, 507.0, 276.0 ],
 					"source" : [ "obj-39", 1 ]
 				}
 
@@ -4022,14 +4024,7 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Packages/%",
-				"patcherrelativepath" : "../..",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
