@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 497.999999999999943, 118.0, 67.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "polarity $1"
 				}
 

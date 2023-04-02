@@ -112,8 +112,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 922.5, 10.0, 89.0, 22.0 ],
-									"text" : "loadmess set 0"
+									"patching_rect" : [ 922.5, 10.0, 70.0, 22.0 ],
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -346,7 +346,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 5,
-																	"num_lines_presentation" : 6,
+																	"num_lines_presentation" : 7,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -370,9 +370,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-fm", "mo-granulator", "mo-live", "mo-oddot", "mo-sonification", "mo-theremini" ],
+																			"parameter_enum" : [ "mo-fm", "mo-granulator", "mo-live", "mo-oddot", "mo-sonification", "mo-theremini", "mo-watch" ],
 																			"parameter_longname" : "live.menu[6]",
-																			"parameter_mmax" : 5,
+																			"parameter_mmax" : 6,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -582,7 +582,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -820.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1451,7 +1451,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
+													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -2303,8 +2303,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.5, 10.0, 89.0, 22.0 ],
-									"text" : "loadmess set 0"
+									"patching_rect" : [ 15.5, 10.0, 70.0, 22.0 ],
+									"text" : "loadmess 0"
 								}
 
 							}

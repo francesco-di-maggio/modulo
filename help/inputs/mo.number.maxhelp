@@ -210,6 +210,13 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-37" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -70,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.000000000000028, 506.0, 169.0, 23.0 ],
-					"text" : "0.145077"
+					"text" : "0.090198"
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.000000000000028, 333.0, 169.0, 23.0 ],
-					"text" : "/output-1 0.242637"
+					"text" : "/max/output-1 0.090198"
 				}
 
 			}
@@ -191,6 +191,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 229.963155612349539, 198.0, 229.500000000000028, 198.0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 229.963155612349539, 204.0, 249.0, 204.0, 249.0, 366.0, 229.500000000000028, 366.0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -295,6 +305,14 @@
 					"parameter_longname" : "live.text[37]"
 				}
 ,
+				"obj-13::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-13::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-13::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
@@ -303,12 +321,24 @@
 					"parameter_longname" : "live.text[51]"
 				}
 ,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-13::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
 ,
 				"obj-13::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-13::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-13::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-13::obj-40::obj-20" : 				{
@@ -399,6 +429,10 @@
 					"parameter_longname" : "live.text[67]"
 				}
 ,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-13::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[2]"
 				}
@@ -409,6 +443,10 @@
 ,
 				"obj-1::obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[39]"
 				}
 ,
 				"obj-1::obj-1::obj-2" : 				{
@@ -465,6 +503,10 @@
 ,
 				"obj-1::obj-50::obj-2" : 				{
 					"parameter_longname" : "live.text[72]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
 				}
 ,
 				"obj-1::obj-74::obj-2" : 				{
@@ -549,6 +591,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "a-mo.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -608,12 +654,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

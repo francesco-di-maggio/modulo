@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 76.000000000000028, 452.0, 169.0, 23.0 ],
-					"text" : "0.663369"
+					"text" : "0.279167"
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 76.000000000000028, 275.0, 169.0, 23.0 ],
-					"text" : "output-1 0.663369"
+					"text" : "output-1 0.279167"
 				}
 
 			}
@@ -331,12 +331,24 @@
 					"parameter_longname" : "live.text[70]"
 				}
 ,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-13::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
 ,
 				"obj-13::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-13::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-13::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-13::obj-40::obj-20" : 				{
@@ -427,6 +439,10 @@
 					"parameter_longname" : "live.text[67]"
 				}
 ,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-13::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[2]"
 				}
@@ -437,6 +453,10 @@
 ,
 				"obj-1::obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[39]"
 				}
 ,
 				"obj-1::obj-1::obj-2" : 				{
@@ -493,6 +513,10 @@
 ,
 				"obj-1::obj-50::obj-2" : 				{
 					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
 				}
 ,
 				"obj-1::obj-74::obj-2" : 				{
@@ -780,12 +804,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
