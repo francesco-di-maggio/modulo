@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -267,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 445.249999642372245, 141.0, 23.0 ],
-					"text" : "udpsend 127.0.0.1 8888"
+					"text" : "udpsend 127.0.0.1 8001"
 				}
 
 			}

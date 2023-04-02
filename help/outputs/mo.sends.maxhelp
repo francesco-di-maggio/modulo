@@ -453,6 +453,10 @@
 					"parameter_longname" : "live.text[17]"
 				}
 ,
+				"obj-2::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-2::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[18]"
 				}
@@ -461,12 +465,24 @@
 					"parameter_longname" : "live.text[18]"
 				}
 ,
+				"obj-2::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-2::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[19]"
 				}
 ,
 				"obj-2::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-2::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-2::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-2::obj-40::obj-20" : 				{
@@ -557,6 +573,10 @@
 					"parameter_longname" : "live.text[89]"
 				}
 ,
+				"obj-2::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-2::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[11]"
 				}
@@ -569,8 +589,16 @@
 					"parameter_longname" : "live.text[31]"
 				}
 ,
+				"obj-3::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
 				"obj-3::obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-3::obj-35" : 				{
+					"parameter_longname" : "live.text[70]"
 				}
 ,
 				"obj-3::obj-36::obj-2" : 				{
@@ -619,6 +647,10 @@
 ,
 				"obj-3::obj-50::obj-2" : 				{
 					"parameter_longname" : "live.text[56]"
+				}
+,
+				"obj-3::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
 				}
 ,
 				"obj-3::obj-74::obj-2" : 				{
@@ -779,6 +811,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "a-mo.route.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -845,12 +881,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

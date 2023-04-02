@@ -74,14 +74,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 738.858322477340835, 191.597854212275706, 232.0, 23.0 ],
+					"patching_rect" : [ 738.858322477340835, 191.597854212275706, 224.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "max" ],
+						"initial" : [ " " ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr device @bindto device- @initial max",
+					"text" : "pattr device @bindto device- @initial \" \"",
 					"varname" : "device"
 				}
 
@@ -107,7 +107,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 38.404552429914474, 45.6368547976017, 75.108852723240602, 16.0 ],
 					"rounded" : 0.0,
-					"text" : "max",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -211,7 +210,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[73]",
+							"parameter_longname" : "live.text[70]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

@@ -699,10 +699,10 @@
 									"id" : "obj-54",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 219.333333333333371, 262.099999964237213, 23.0, 23.0 ],
-									"text" : "t 1"
+									"numoutlets" : 2,
+									"outlettype" : [ "int", " " ],
+									"patching_rect" : [ 219.333333333333371, 262.099999964237213, 40.0, 23.0 ],
+									"text" : "t 1 \" \""
 								}
 
 							}
@@ -941,6 +941,14 @@
 									"destination" : [ "obj-55", 0 ],
 									"midpoints" : [ 276.833333333333371, 297.0, 228.833333333333371, 297.0 ],
 									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"midpoints" : [ 249.833333333333371, 297.0, 344.0, 297.0 ],
+									"source" : [ "obj-54", 1 ]
 								}
 
 							}
@@ -1396,7 +1404,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

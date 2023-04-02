@@ -18,7 +18,7 @@ If not, you can [download the latest release here](https://github.com/francesco-
 
 ## How it works
 
-Open the Overview Patch (modulo-main/extras/%/overview.maxpat).
+Open the Overview Patch (modulo-main/extras/%/modulo.overview.maxpat).
 
 ## Externals
 
