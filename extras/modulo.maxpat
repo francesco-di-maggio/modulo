@@ -3609,7 +3609,7 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"tutorial" : "modulo.tutorial"
+										"tutorial" : "mo-tutorial"
 									}
 ,
 									"id" : "obj-4",

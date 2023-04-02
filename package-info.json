@@ -1,6 +1,6 @@
 {
     "author" : "Francesco Di Maggio",
-    "description" : "A toolkit for sound-gesture interaction design.",
+    "description" : "A Toolkit for Digital Musical Instrument Design.",
     "homepatcher" : "modulo.maxpat",
     "max_version_min" : "7.1", "max_version_max" : "none",
     "name" : "modulo",
