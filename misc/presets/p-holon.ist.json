@@ -1,11 +1,10 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-watch",
+		"name" : "p-holon.ist",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"mo.line::Time" : [ 20.0 ],
 					"mo.udpreceive::port" : [ 8888.0 ],
 					"mo.route::voices" : [ 3.0 ],
 					"mo.route::mode" : [ 1.0 ],
@@ -20,7 +19,9 @@
 					"mo.route[1]::mode" : [ 1.0 ],
 					"mo.route[1]::device" : [ "/watch" ],
 					"mo.route[1]::[1]::message" : [ "/heart" ],
-					"mo.route[1]::[1]::mute" : [ 0.0 ]
+					"mo.route[1]::[1]::mute" : [ 0.0 ],
+					"mo.line::Time" : [ 20.0 ],
+					"mo.speedlim::rate" : [ 50.0 ]
 				}
 
 			}
