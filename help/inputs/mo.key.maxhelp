@@ -193,7 +193,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "keys.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -206,7 +206,7 @@
 			}
 , 			{
 				"name" : "mo.key.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

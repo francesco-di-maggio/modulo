@@ -67,10 +67,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 317.0, 27.0, 58.088406562805176, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.209603255230064, 5.0, 16.358113862834188, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "1200", "2400", "4800", "9600", "19200", "38400", "115200" ],
+							"parameter_initial" : [ 6 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "baud-",
+							"parameter_mmax" : 6,
+							"parameter_shortname" : "baud-",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "baud-"
 				}
@@ -286,6 +299,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-11" : [ "baud-", "baud-", 0 ],
 			"obj-4::obj-1" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-153" : [ "live.text[140]", "live.text", 0 ],
 			"obj-4::obj-40" : [ "live.button[1]", "live.button", 0 ],
@@ -309,7 +323,7 @@
 			}
 , 			{
 				"name" : "mo.serialin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

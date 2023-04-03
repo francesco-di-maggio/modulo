@@ -199,6 +199,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 22.5, 214.0, 134.0 ],
+					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
 
@@ -657,6 +658,18 @@
 					"parameter_longname" : "live.text[5]"
 				}
 ,
+				"obj-5::obj-123::obj-15" : 				{
+					"parameter_longname" : "live.text[69]"
+				}
+,
+				"obj-5::obj-123::obj-18" : 				{
+					"parameter_longname" : "live.text[108]"
+				}
+,
+				"obj-5::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[93]"
+				}
+,
 				"obj-5::obj-1::obj-15" : 				{
 					"parameter_longname" : "live.text[8]"
 				}
@@ -801,6 +814,10 @@
 					"parameter_longname" : "live.text[42]"
 				}
 ,
+				"obj-5::obj-5" : 				{
+					"parameter_longname" : "live.text[116]"
+				}
+,
 				"obj-5::obj-50::obj-15" : 				{
 					"parameter_longname" : "live.text[43]"
 				}
@@ -832,42 +849,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.noteout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.noteouts.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pads.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

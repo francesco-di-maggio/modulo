@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -46,15 +46,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 527.0, 252.0, 214.0, 23.0 ],
+					"patching_rect" : [ 605.916666666666629, 186.272348374128342, 194.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Loop @bindto Loop-TX @initial 1",
-					"varname" : "Loop"
+					"text" : "pattr loop @bindto loop- @initial 1",
+					"varname" : "loop"
 				}
 
 			}
@@ -99,7 +99,7 @@
 					"texton" : "loop",
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Loop-TX"
+					"varname" : "loop-"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"allowreorder" : 2,
 					"basictuning" : 440,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"clipheight" : 191.052631616592294,
+					"clipheight" : 46.013157904148073,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
@@ -223,6 +223,42 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "brushes.aif",
+								"filename" : "brushes.aif",
+								"filekind" : "audiofile",
+								"id" : "u904005008",
+								"selection" : [ 0.347222222222222, 0.666666666666667 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "duduk.aif",
+								"filename" : "duduk.aif",
+								"filekind" : "audiofile",
+								"id" : "u532005078",
+								"selection" : [ 0.402777777777778, 0.638888888888889 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "Piano_C3.wav",
+								"filename" : "Piano_C3.wav",
+								"filekind" : "audiofile",
+								"id" : "u386006149",
+								"selection" : [ 0.569444444444444, 0.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
 								}
 
 							}
@@ -241,7 +277,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "multichannelsignal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 192.052631616592294 ],
+					"patching_rect" : [ 203.0, 186.272348374128342, 193.0, 188.052631616592294 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
 					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 199.339669197688949, 192.665018792674005 ],
@@ -277,7 +313,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 585.0, 27.872348517179489, 30.0, 30.0 ]
 				}
 
@@ -310,11 +346,11 @@
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 545.25, 100.772348374128455, 67.0, 23.0 ],
-					"text" : "route mute"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 545.25, 100.772348374128455, 110.0, 23.0 ],
+					"text" : "route int mute loop"
 				}
 
 			}
@@ -499,9 +535,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 554.75, 171.0, 44.5, 171.0 ],
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-25", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 554.75, 171.0, 212.5, 171.0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 585.083333333333371, 171.0, 44.5, 171.0 ],
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
@@ -540,7 +591,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 212.5, 378.0, 212.5, 378.0 ],
+					"midpoints" : [ 212.5, 381.0, 212.5, 381.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

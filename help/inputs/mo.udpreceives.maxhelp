@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 23.000000000000028, 449.239787310361976, 202.0, 23.0 ],
+					"text" : "/dev/output-4 0.456052"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 23.000000000000028, 393.239787310361976, 99.0, 23.0 ],
+					"text" : "udpreceive 8001"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -284,6 +308,14 @@
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 467.755791574060595, 132.0, 369.5, 132.0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"midpoints" : [ 32.500000000000028, 435.0, 215.500000000000028, 435.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -770,6 +802,10 @@
 					"parameter_longname" : "live.numbox[1]"
 				}
 ,
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[63]"
+				}
+,
 				"obj-1::obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text[128]"
 				}
@@ -876,6 +912,10 @@
 ,
 				"obj-1::obj-50::obj-39" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
 				}
 ,
 				"obj-1::obj-74::obj-2" : 				{
@@ -1105,35 +1145,35 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.udpreceive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.udpsend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -1146,21 +1186,21 @@
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.udpreceives.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.udpsends.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1

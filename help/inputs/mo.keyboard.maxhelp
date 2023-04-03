@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.0, 25.0, 35.0, 23.0 ],
+					"presentation_linecount" : 2,
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "number",
 					"maximum" : 72,
@@ -123,7 +136,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.keyboard.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 24.0, 88.0, 210.561927691102028, 175.137611627578735 ],
@@ -134,6 +147,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"midpoints" : [ 225.5, 75.0, 225.061927691102028, 75.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 33.5, 50.0, 33.5, 50.0 ],
@@ -178,14 +199,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.keyboard.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

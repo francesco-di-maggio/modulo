@@ -46,9 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.214285714285722, 350.0, 115.0, 66.0 ],
-					"presentation_linecount" : 4,
-					"text" : "\"0.2528 0.3688\" \"0.5000 0.5650\" \"0.5000 0.5000\" \"0.5000 0.5000\""
+					"patching_rect" : [ 137.0, 350.0, 101.0, 66.0 ],
+					"text" : "\"0.2442 0.8476\" \"0.3110 0.7660\" \"0.1846 0.3538\" \"0.0453 0.6706\""
 				}
 
 			}
@@ -59,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.0, 270.0, 56.0, 23.0 ],
+					"patching_rect" : [ 24.0, 270.0, 214.0, 23.0 ],
 					"text" : "route list"
 				}
 
@@ -67,14 +66,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 350.0, 115.0, 52.0 ],
-					"presentation_linecount" : 3,
-					"text" : "0.1551 0.6008 0.4115 0.6924 0.5 0.5 0.5 0.5"
+					"patching_rect" : [ 24.0, 350.0, 93.0, 66.0 ],
+					"text" : "0.2467 0.4054 0.3138 0.3138 0.4604 0.4787 0.4543 0.4543"
 				}
 
 			}
@@ -489,7 +487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 33.5, 336.0, 129.5, 336.0 ],
+					"midpoints" : [ 33.5, 336.0, 107.5, 336.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -497,7 +495,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 70.5, 336.0, 263.714285714285722, 336.0 ],
+					"midpoints" : [ 228.5, 336.0, 228.5, 336.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -703,21 +701,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.rslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -730,7 +728,7 @@
 			}
 , 			{
 				"name" : "mo.rsliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

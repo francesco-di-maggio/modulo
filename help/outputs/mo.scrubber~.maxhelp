@@ -41,6 +41,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.ezdac~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 694.0, 512.8125, 70.0, 87.0 ],
+					"varname" : "mo.ezdac~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -253,7 +274,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1267.677037000000382, 83.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -302,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.016400318181695, 118.0, 89.0, 25.0 ],
+					"patching_rect" : [ 326.016400318181695, 119.0, 89.0, 25.0 ],
 					"text" : "load sample"
 				}
 
@@ -323,7 +344,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 300.301654863636486, 121.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -478,7 +499,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.016400318181695, 544.312500000000114, 74.0, 25.0 ],
+					"patching_rect" : [ 801.016400318181695, 557.812500000000114, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -497,7 +518,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 709.301654863636486, 547.312500000000114, 20.0, 20.0 ],
+					"patching_rect" : [ 773.301654863636486, 560.312500000000114, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -522,16 +543,6 @@
 					"patching_rect" : [ 387.0, 512.8125, 214.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 649.301654863636486, 529.812500000000114, 53.0, 53.0 ]
 				}
 
 			}
@@ -808,7 +819,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-16::obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-16::obj-5" : [ "live.tab", "live.tab", 0 ],
 			"obj-16::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-38::obj-10" : [ "live.numbox[57]", "live.dial[12]", 0 ],
 			"obj-38::obj-102" : [ "live.text[4]", "live.text", 0 ],
@@ -824,7 +836,7 @@
 			"obj-39::obj-141" : [ "live.text[211]", "live.text", 0 ],
 			"obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
-			"obj-9::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-9::obj-45" : [ "live.gain~[3]", "volume", 0 ],
 			"obj-9::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -836,6 +848,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]",
+					"parameter_shortname" : "volume"
+				}
+,
+				"obj-16::obj-5" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.tab",
+					"parameter_modmode" : 0,
+					"parameter_range" : [ "—", "dup", "stereo" ],
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 9
+				}
+,
 				"obj-38::obj-10" : 				{
 					"parameter_longname" : "live.numbox[57]"
 				}
@@ -877,6 +903,10 @@
 				"obj-38::obj-9" : 				{
 					"parameter_initial_enable" : 0
 				}
+,
+				"obj-9::obj-45" : 				{
+					"parameter_longname" : "live.gain~[3]"
+				}
 
 			}
 ,
@@ -891,77 +921,84 @@
 			}
 , 			{
 				"name" : "mic-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mic-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.adc~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.ezdac~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scrubber~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1

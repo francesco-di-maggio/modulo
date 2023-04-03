@@ -53,7 +53,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-4",
-					"items" : [ "0: Off (0-127)", ",", "1: Float (-1 to 1)", ",", "2: 14-bit Fixed (-8192 to 8191)" ],
+					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit Fixed (-8192 to 8191)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -71,7 +71,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
@@ -83,7 +83,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 56.209603255230064, 8.0, 17.358113862834188, 13.376782789826393 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
 				}
 
 			}
@@ -138,7 +145,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -638,7 +645,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[140]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

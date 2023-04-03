@@ -468,6 +468,10 @@
 					"parameter_longname" : "live.text[86]"
 				}
 ,
+				"obj-12::obj-123::obj-1" : 				{
+					"parameter_longname" : "live.text[213]"
+				}
+,
 				"obj-12::obj-153" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[71]",
@@ -1027,35 +1031,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.receive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -1068,21 +1072,21 @@
 			}
 , 			{
 				"name" : "mo.receives.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sends.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

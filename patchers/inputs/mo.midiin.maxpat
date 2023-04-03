@@ -43,7 +43,7 @@
 				"box" : 				{
 					"comment" : "raw MIDI",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "midievent message",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -67,7 +67,7 @@
 				"box" : 				{
 					"comment" : "MIDI channel",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -79,7 +79,7 @@
 				"box" : 				{
 					"comment" : "pitchbend (0-127)",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -91,7 +91,7 @@
 				"box" : 				{
 					"comment" : "aftertouch",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -103,7 +103,7 @@
 				"box" : 				{
 					"comment" : "program change",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -115,7 +115,7 @@
 				"box" : 				{
 					"comment" : "controller change (list: controller number-value)",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -127,7 +127,7 @@
 				"box" : 				{
 					"comment" : "poly key pressure (list: key-value)",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -139,7 +139,7 @@
 				"box" : 				{
 					"comment" : "note (list: pitch-velocity)",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -161,7 +161,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-4",
-					"items" : [ "0: Off (0-127)", ",", "1: Float (-1 to 1)", ",", "2: 14-bit Fixed (-8192 to 8191)" ],
+					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit Fixed (-8192 to 8191)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -179,7 +179,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
@@ -191,7 +191,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 77.209603255230064, 8.0, 17.358113862834188, 13.376782789826393 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
 				}
 
 			}
@@ -246,7 +253,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -421,7 +428,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -593,7 +600,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[140]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -924,35 +931,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[3]", "live.text", 0 ],
-			"obj-153" : [ "live.text[4]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

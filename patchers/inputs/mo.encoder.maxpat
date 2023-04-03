@@ -711,14 +711,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 468.989049971103668, 370.5, 236.0, 23.0 ],
+					"patching_rect" : [ 468.989049971103668, 370.5, 243.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ 64 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr encoder @bindto encoder- @initial 0",
+					"text" : "pattr encoder @bindto encoder- @initial 64",
 					"varname" : "encoder"
 				}
 

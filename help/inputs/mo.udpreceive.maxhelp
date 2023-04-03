@@ -69,8 +69,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 314.0, 165.0, 50.0, 23.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 314.0, 165.0, 50.0, 23.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 8001 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number",
+							"parameter_shortname" : "number",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"varname" : "number"
 				}
 
 			}
@@ -195,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 314.0, 355.297012329101562, 142.0, 23.0 ],
-					"text" : "/output-1 1."
+					"text" : "/output-1 0.007621"
 				}
 
 			}
@@ -354,6 +367,7 @@
 			"obj-2::obj-50::obj-2" : [ "live.text[49]", "live.text", 0 ],
 			"obj-2::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
 			"obj-2::obj-74::obj-2" : [ "live.text[26]", "live.text", 0 ],
+			"obj-6" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -380,6 +394,14 @@
 					"parameter_longname" : "live.text[6]"
 				}
 ,
+				"obj-13::obj-123::obj-28" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
+				"obj-13::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-13::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
@@ -392,6 +414,10 @@
 					"parameter_longname" : "live.text[4]"
 				}
 ,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-13::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
@@ -402,6 +428,14 @@
 ,
 				"obj-13::obj-36::obj-35" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-13::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-13::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-13::obj-40::obj-20" : 				{
@@ -536,6 +570,10 @@
 					"parameter_longname" : "live.text[42]"
 				}
 ,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-13::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[2]"
 				}
@@ -623,28 +661,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -657,28 +695,28 @@
 			}
 , 			{
 				"name" : "mo.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.udpreceive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.udpsend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1

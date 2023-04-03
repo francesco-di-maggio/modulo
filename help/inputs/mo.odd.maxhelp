@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 404.0, 526.0 ],
+		"rect" : [ 34.0, 100.0, 405.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -145,7 +145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.728078566655654, 23.0, 121.0, 23.0 ],
+					"patching_rect" : [ 167.0, 23.0, 121.0, 23.0 ],
 					"text" : "\"ODD Pro Bluetooth\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -170,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 72.0, 47.0, 23.0 ],
+					"patching_rect" : [ 167.0, 71.0, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -277,7 +277,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 226.5, 108.0, 32.5, 108.0 ],
+					"midpoints" : [ 176.5, 108.0, 32.5, 108.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -293,7 +293,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 166.228078566655654, 57.0, 105.228078566655597, 57.0 ],
+					"midpoints" : [ 176.5, 57.0, 105.228078566655597, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -347,12 +347,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-20::obj-35" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-20::obj-7" : 				{
 					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-30::obj-52" : 				{
+					"parameter_longname" : "live.numbox[11]"
 				}
 ,
 				"obj-5::obj-153" : 				{
@@ -388,28 +396,28 @@
 			}
 , 			{
 				"name" : "mo.odd.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "odd.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1

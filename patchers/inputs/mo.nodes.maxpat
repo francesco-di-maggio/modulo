@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -95,7 +95,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.806426948309081, 274.54613277936005, 225.0, 23.0 ],
-					"restore" : [ 0.1008, 0.7428, 0.34476, 1, 0.9235, 0.0815, 0.25948, 1, 0.4414, 0.0401, 0.35884, 1, 0.3439, 0.2469, 0.45044, 1 ],
+					"restore" : [ 0.4812, 0.7236, 0.18524, 1, 0.3748, 0.8138, 0.45252, 1, 0.2183, 0.3625, 0.1496, 1, 0.6314, 0.1159, 0.11644, 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -161,8 +161,7 @@
 					"patching_rect" : [ 185.649866671211385, 189.695019802407899, 37.0, 15.0 ],
 					"pictures" : [ "random.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.410766780376434, 45.0, 37.0, 15.0 ],
-					"remapsvgcolors" : 1,
+					"presentation_rect" : [ 125.675538547296355, 7.371792723306498, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -194,11 +193,9 @@
 
 					}
 ,
-					"text" : "play",
+					"text" : "rand",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "stop",
-					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "randomizer-"
 				}
 
@@ -1153,8 +1150,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 87.3754673152348, 190.695019802407899, 37.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 45.0, 37.0, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1460,7 +1455,7 @@
 					"maxclass" : "nodes",
 					"nodenumber" : 4,
 					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.34476, 0.25948, 0.35884, 0.45044 ],
+					"nsize" : [ 0.18524, 0.45252, 0.1496, 0.11644 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -1469,8 +1464,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.944008178968261, 64.959666330119575, 199.102512662690629, 192.324950887227743 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.1008, 0.9235, 0.4414, 0.3439 ],
-					"yplace" : [ 0.7428, 0.0815, 0.0401, 0.2469 ]
+					"xplace" : [ 0.4812, 0.3748, 0.2183, 0.6314 ],
+					"yplace" : [ 0.7236, 0.8138, 0.3625, 0.1159 ]
 				}
 
 			}

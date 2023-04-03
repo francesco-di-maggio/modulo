@@ -166,13 +166,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 421.0, 70.0, 37.0 ],
-					"text" : "0.690196 0.792693"
+					"patching_rect" : [ 24.0, 421.0, 70.0, 23.0 ],
+					"text" : "0.72 0.91"
 				}
 
 			}
@@ -299,7 +298,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.rslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

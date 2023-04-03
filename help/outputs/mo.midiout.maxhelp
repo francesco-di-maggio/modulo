@@ -51,7 +51,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 10.5,
 					"id" : "obj-22",
-					"items" : [ "0: Off (0-127)", ",", "1: Float (-1 to 1)", ",", "2: 14-bit Fixed (-8192 to 8191)" ],
+					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit Fixed (-8192 to 8191)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -227,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.000000000000057, 88.0, 47.0, 23.0 ],
+					"patching_rect" : [ 425.0, 88.0, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -249,7 +249,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0, 40.0, 80.0, 23.0 ],
+					"patching_rect" : [ 425.0, 40.0, 80.0, 23.0 ],
 					"text" : "\"from Max 1\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -478,7 +478,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 427.5, 74.0, 363.499999999999943, 74.0 ],
+					"midpoints" : [ 434.5, 74.0, 363.499999999999943, 74.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -526,7 +526,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 6 ],
-					"midpoints" : [ 455.500000000000057, 212.0, 156.5, 212.0 ],
+					"midpoints" : [ 434.5, 212.0, 156.5, 212.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -584,21 +584,21 @@
 			}
 , 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.midiout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

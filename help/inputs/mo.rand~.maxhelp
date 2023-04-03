@@ -45,6 +45,27 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.ezdac~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 254.0, 452.0, 70.0, 87.0 ],
+					"varname" : "mo.ezdac~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-15",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -143,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.83221094686894, 394.000000000000057, 74.0, 25.0 ],
+					"patching_rect" : [ 365.83221094686894, 482.999999999999943, 74.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.041666666666629, 318.633830717592389, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -165,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.33221094686894, 396.500000000000057, 20.0, 20.0 ],
+					"patching_rect" : [ 338.33221094686894, 485.499999999999943, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 568.541666666666629, 321.133830717592389, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -175,18 +196,6 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 264.498877613535569, 380.0, 53.0, 53.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 504.666666666666629, 304.633830717592389, 53.0, 53.0 ]
 				}
 
 			}
@@ -394,15 +403,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.ezdac~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.meter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

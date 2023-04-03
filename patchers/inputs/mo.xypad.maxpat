@@ -313,8 +313,8 @@
 
 					}
 ,
-					"text" : "mouse",
-					"texton" : "mouse",
+					"text" : "screen",
+					"texton" : "screen",
 					"varname" : "mode-"
 				}
 

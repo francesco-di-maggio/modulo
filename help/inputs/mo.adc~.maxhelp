@@ -142,7 +142,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
 			"obj-1::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -153,26 +153,33 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mic-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mic-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.adc~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

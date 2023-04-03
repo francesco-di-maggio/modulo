@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 785.0, 542.0 ],
+		"rect" : [ 34.0, 100.0, 863.0, 542.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.824253082275391, 281.0, 36.0, 23.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-5",
@@ -612,6 +624,14 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 784.324253082275391, 315.0, 157.324253082275391, 315.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-17" : [ "toggle", "toggle", 0 ],
@@ -959,7 +979,7 @@
 				}
 ,
 				"obj-1::obj-74::obj-35" : 				{
-					"parameter_longname" : "live.text[4]"
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-2::obj-14" : 				{

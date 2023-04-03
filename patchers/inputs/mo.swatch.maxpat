@@ -66,7 +66,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.997470080143228, 0.028922249723247, 0.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
@@ -400,7 +400,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[13]",
+							"parameter_longname" : "live.numbox[8]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -421,7 +421,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.0, 74.626276284456253, 30.0, 30.0 ]
 				}
 
@@ -588,8 +588,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"midpoints" : [ 42.5, 174.0, 18.0, 174.0, 18.0, 435.0, 42.5, 435.0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 

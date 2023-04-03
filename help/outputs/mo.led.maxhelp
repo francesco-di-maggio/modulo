@@ -89,8 +89,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.led.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 24.0, 235.0, 70.0, 87.0 ],
 					"varname" : "mo.led",
 					"viewvisibility" : 1
@@ -162,21 +163,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbyw.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1

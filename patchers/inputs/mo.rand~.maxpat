@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1212,7 +1212,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"activetextcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"annotation" : "",
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-38",
@@ -1256,8 +1255,7 @@
 
 					}
 ,
-					"usepicture" : 1,
-					"usesvgviewbox" : 1,
+					"text" : "rand",
 					"varname" : "live.text"
 				}
 

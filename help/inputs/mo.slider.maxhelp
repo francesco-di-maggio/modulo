@@ -58,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.255791574060538, 77.0, 67.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "polarity $1"
 				}
 
@@ -297,7 +296,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

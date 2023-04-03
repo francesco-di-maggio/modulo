@@ -376,7 +376,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -905,7 +905,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -947,6 +947,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 56.0, 95.0, 54.0, 22.0 ],
+													"text" : "deferlow"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"bgmode" : 0,
 													"border" : 0,
@@ -1440,7 +1452,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 55.5, 95.0, 70.0, 22.0 ],
+													"patching_rect" : [ 55.5, 125.0, 70.0, 22.0 ],
 													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
@@ -1471,7 +1483,13 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
-													"midpoints" : [ 65.5, 90.0, 65.0, 90.0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
 													"source" : [ "obj-5", 1 ]
 												}
 
@@ -1682,15 +1700,14 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
+													"patching_rect" : [ 20.0, 258.0, 460.0, 22.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Interface with external devices, MID, OSC and sound synthesis modules.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 

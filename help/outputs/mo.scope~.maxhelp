@@ -110,7 +110,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@rate", 50 ],
+					"args" : [ 4, "@rate", 50 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -168,15 +168,15 @@
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}

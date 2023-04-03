@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.589124907393852, 70.0, 35.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "clear"
 				}
 
@@ -59,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 394.0, 26.0, 136.0, 23.0 ],
-					"presentation_linecount" : 4,
 					"text" : "ONE TWO THREE FOUR"
 				}
 
@@ -162,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 414.0, 70.148589610397437, 23.0 ],
-					"text" : "2"
+					"text" : "4"
 				}
 
 			}
@@ -280,15 +278,22 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.tab.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

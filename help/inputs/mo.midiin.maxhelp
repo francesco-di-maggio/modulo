@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.0, 235.0, 93.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "control change\n(number, value)"
 				}
 
@@ -212,7 +211,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 10.5,
 					"id" : "obj-22",
-					"items" : [ "0: Off (0-127)", ",", "1: Float (-1 to 1)", ",", "2: 14-bit Fixed (-8192 to 8191)" ],
+					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit Fixed (-8192 to 8191)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -509,6 +508,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-153" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-4::obj-1" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[1]",
@@ -538,28 +545,28 @@
 			}
 , 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.midiin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.midiout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

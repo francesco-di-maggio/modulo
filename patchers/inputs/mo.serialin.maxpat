@@ -46,14 +46,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 761.204837719599254, 289.0, 148.0, 23.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 761.204837719599254, 289.0, 201.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 6 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr baud @bindto baud-",
+					"text" : "pattr baud @bindto baud- @initial 6",
 					"varname" : "baud"
 				}
 
