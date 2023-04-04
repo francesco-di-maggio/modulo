@@ -54,18 +54,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 23.140615909090684, 57.148506164550781, 68.0, 23.0 ],
-					"text" : "mc.*~ 0.25"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -128,8 +116,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 23.140615909090684, 24.0, 290.0, 23.0 ],
-					"text" : "mc.cycle~ @chans 4 @initialvalues 110 220 440 880"
+					"patching_rect" : [ 23.140615909090684, 24.0, 242.0, 23.0 ],
+					"text" : "mc.cycle~ @chans 2 @initialvalues 110 440"
 				}
 
 			}
@@ -200,7 +188,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "@dB", -20 ],
+					"args" : [ "@dB", -20 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -223,14 +211,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 32.640615909090684, 81.0, 32.640615909090684, 81.0 ],
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 428.998877613535569, 99.0, 428.998877613535569, 99.0 ],
 					"source" : [ "obj-13", 0 ]
@@ -239,8 +219,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 32.640615909090684, 48.0, 32.640615909090684, 48.0 ],
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 32.640615909090684, 48.0, 32.640615909090684, 48.0, 32.640615909090684, 81.0, 32.640615909090684, 81.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -304,7 +284,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-1::obj-5" : [ "live.text[183]", "live.tab", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-6" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
@@ -317,8 +297,8 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-5" : 				{
-					"parameter_longname" : "live.text[183]"
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
 				}
 
 			}

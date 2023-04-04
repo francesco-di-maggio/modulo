@@ -61,7 +61,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.83221094686894, 192.047930985689163, 80.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "setvalue 1 $1"
 				}
 
@@ -133,6 +132,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -350,7 +350,7 @@
 ,
 				"obj-2::obj-36" : 				{
 					"parameter_longname" : "live.numbox[2]",
-					"parameter_range" : [ -70.0, 6.0 ],
+					"parameter_range" : [ -70.0, 18.0 ],
 					"parameter_unitstyle" : 4
 				}
 
@@ -367,29 +367,23 @@
 			}
 , 			{
 				"name" : "mo.gain~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.meter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -79,7 +79,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "live.dial[20]"
+					"varname" : "octave-"
 				}
 
 			}
@@ -3011,7 +3011,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "live.dial[8]"
+					"varname" : "semitone-"
 				}
 
 			}
@@ -3039,7 +3039,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "live.dial[9]"
+					"varname" : "detune-"
 				}
 
 			}
@@ -3050,15 +3050,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 787.385228862365125, 1055.436599800000067, 171.0, 23.0 ],
-					"restore" : [ "theremini" ],
+					"patching_rect" : [ 787.385228862365125, 1055.436599800000067, 224.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ " " ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Name @bindto Name-TX",
-					"varname" : "Name"
+					"text" : "pattr device @bindto device- @initial \" \"",
+					"varname" : "device"
 				}
 
 			}
@@ -3928,6 +3928,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "live.text",
@@ -3941,6 +3942,10 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_active_automation"
 						}
 ,
 						"bordercolor" : 						{
@@ -3959,7 +3964,7 @@
 ,
 					"text" : "mute",
 					"texton" : "mute",
-					"varname" : "Mute-LD"
+					"varname" : "mute-"
 				}
 
 			}
@@ -4052,15 +4057,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 709.385228862365125, 1122.478866600000174, 323.0, 23.0 ],
+					"patching_rect" : [ 709.385228862365125, 1122.478866600000174, 305.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr PlayStop @bindto PlayStop-TG @initial 0 @invisible 1",
-					"varname" : "PlayStop"
+					"text" : "pattr playstop @bindto playstop- @initial 0 @invisible 1",
+					"varname" : "playstop"
 				}
 
 			}
@@ -4071,15 +4076,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 747.885228862365125, 1089.610310933333494, 218.0, 23.0 ],
+					"patching_rect" : [ 747.885228862365125, 1089.610310933333494, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Mute @bindto Mute-LD @initial 0",
-					"varname" : "Mute"
+					"text" : "pattr mute @bindto mute- @initial 0",
+					"varname" : "mute"
 				}
 
 			}
@@ -4102,15 +4107,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 385.468562195698325, 1055.436599800000067, 223.0, 23.0 ],
+					"patching_rect" : [ 385.468562195698325, 1055.436599800000067, 204.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.5 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Gain @bindto Gain-NB @initial 0.5",
-					"varname" : "Gain"
+					"text" : "pattr gain @bindto gain- @initial 0.5",
+					"varname" : "gain"
 				}
 
 			}
@@ -4171,10 +4176,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 232.610452665740922, 8.194141161509847, 108.149765342473984, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "theremini",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "Name-TX"
+					"varname" : "device-"
 				}
 
 			}
@@ -4185,15 +4189,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.468562195698325, 1088.957733200000121, 247.0, 23.0 ],
+					"patching_rect" : [ 351.468562195698325, 1088.957733200000121, 227.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 4.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Vibrato @bindto Vibrato-NB @initial 4.",
-					"varname" : "Vibrato"
+					"text" : "pattr vibrato @bindto vibrato- @initial 4.",
+					"varname" : "vibrato"
 				}
 
 			}
@@ -4204,15 +4208,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 317.968562195698439, 1122.478866600000174, 243.0, 23.0 ],
+					"patching_rect" : [ 317.968562195698439, 1122.478866600000174, 222.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 4.0 ],
+						"initial" : [ 2.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Timbre @bindto Timbre-NB @initial 4.",
-					"varname" : "Timbre"
+					"text" : "pattr timbre @bindto timbre- @initial 2.",
+					"varname" : "timbre"
 				}
 
 			}
@@ -4223,15 +4227,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 284.022798042028455, 1156.000000000000227, 254.0, 23.0 ],
+					"patching_rect" : [ 284.022798042028455, 1156.000000000000227, 235.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 440 ],
+						"initial" : [ 220 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Carrier @bindto Carrier-NB @initial 440",
-					"varname" : "Carrier"
+					"text" : "pattr carrier @bindto carrier- @initial 220",
+					"varname" : "carrier"
 				}
 
 			}
@@ -4709,7 +4713,7 @@
 
 					}
 ,
-					"varname" : "Gain-NB"
+					"varname" : "gain-"
 				}
 
 			}
@@ -4739,7 +4743,7 @@
 					"presentation_rect" : [ 6.5, 35.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 440 ],
+							"parameter_initial" : [ 220 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[7]",
 							"parameter_mmax" : 2640.0,
@@ -4751,7 +4755,7 @@
 
 					}
 ,
-					"varname" : "Carrier-NB"
+					"varname" : "carrier-"
 				}
 
 			}
@@ -4779,7 +4783,7 @@
 
 					}
 ,
-					"varname" : "Vibrato-NB"
+					"varname" : "vibrato-"
 				}
 
 			}
@@ -4808,7 +4812,7 @@
 
 					}
 ,
-					"varname" : "Timbre-NB"
+					"varname" : "timbre-"
 				}
 
 			}
@@ -5105,7 +5109,7 @@
 					"texton" : "stop",
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "PlayStop-TG"
+					"varname" : "playstop-"
 				}
 
 			}

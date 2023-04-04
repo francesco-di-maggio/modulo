@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 660.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 661.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -327,8 +327,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 982.5, 92.238028012216091, 86.0, 23.0 ],
-					"text" : "read duduk.aif"
+					"patching_rect" : [ 982.5, 92.238028012216091, 95.0, 23.0 ],
+					"text" : "read brushes.aif"
 				}
 
 			}
@@ -507,10 +507,10 @@
 					"patching_rect" : [ 814.375, 613.037196587664766, 395.0, 23.0 ],
 					"priority" : 					{
 						"mo.buffer~::Folder" : -1,
-						"mo.sliders::[1]::slider" : 1,
-						"mo.sliders::[2]::slider" : 1,
-						"mo.sliders::[3]::slider" : 1,
-						"mo.sliders::[4]::slider" : 1
+						"mo.sliders::[1]::polarity" : 1,
+						"mo.sliders::[2]::polarity" : 1,
+						"mo.sliders::[3]::polarity" : 1,
+						"mo.sliders::[4]::polarity" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -804,7 +804,7 @@
 			"obj-31::obj-56" : [ "live.numbox[61]", "live.numbox", 0 ],
 			"obj-31::obj-74::obj-1" : [ "live.text[153]", "live.text", 0 ],
 			"obj-40::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-40::obj-5" : [ "live.text[183]", "live.tab", 0 ],
+			"obj-40::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-40::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-4::obj-107::obj-1" : [ "live.text[197]", "live.text", 0 ],
 			"obj-4::obj-123::obj-1" : [ "live.text[195]", "live.text", 0 ],
@@ -889,6 +889,7 @@
 			"obj-8::obj-61" : [ "length-", "length-", 0 ],
 			"obj-8::obj-9" : [ "live.numbox[10]", "live.dial[12]", 0 ],
 			"obj-9::obj-45" : [ "live.gain~[3]", "volume", 0 ],
+			"obj-9::obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-9::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1686,6 +1687,10 @@
 ,
 				"obj-9::obj-45" : 				{
 					"parameter_longname" : "live.gain~[3]"
+				}
+,
+				"obj-9::obj-56" : 				{
+					"parameter_longname" : "live.numbox[1]"
 				}
 
 			}

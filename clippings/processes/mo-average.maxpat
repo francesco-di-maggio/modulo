@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
 					"varname" : "mo.average",
 					"viewvisibility" : 1
 				}
@@ -75,12 +75,19 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-8" : 				{
+					"parameter_longname" : "live.numbox[49]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.average.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1

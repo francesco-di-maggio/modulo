@@ -143,6 +143,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -156,6 +157,10 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-45" : 				{
 					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
 				}
 
 			}

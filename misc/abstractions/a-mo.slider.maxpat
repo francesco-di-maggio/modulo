@@ -46,14 +46,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 689.666666666666629, 360.0, 230.0, 23.0 ],
+					"patching_rect" : [ 689.666666666666629, 360.0, 339.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr polarity @bindto polarity- @initial 0",
+					"text" : "pattr polarity @bindto polarity- @initial 0 @default_priority 1",
 					"varname" : "polarity"
 				}
 
@@ -137,18 +137,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 336.5, 313.0, 33.0, 23.0 ],
 					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 690.166666666666629, 185.5, 47.0, 23.0 ],
-					"text" : "change"
 				}
 
 			}
@@ -673,14 +661,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 689.666666666666629, 319.0, 319.0, 23.0 ],
+					"patching_rect" : [ 689.666666666666629, 319.0, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.0 ],
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr slider @bindto slider- @initial 0. @default_priority 1",
+					"text" : "pattr slider @bindto slider- @initial 0",
 					"varname" : "slider"
 				}
 
@@ -692,14 +680,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 689.666666666666629, 276.0, 149.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 689.666666666666629, 276.0, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mute @bindto mute-",
+					"text" : "pattr mute @bindto mute- @initial 0",
 					"varname" : "mute"
 				}
 
@@ -1144,14 +1132,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 699.666666666666629, 210.0, 699.166666666666629, 210.0 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 360.0, 339.0, 360.0, 339.0 ],
 					"source" : [ "obj-18", 1 ]
@@ -1358,8 +1338,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 699.366666666666561, 165.0, 699.666666666666629, 165.0 ],
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 699.366666666666561, 165.0, 699.666666666666629, 165.0, 699.666666666666629, 210.0, 699.166666666666629, 210.0 ],
 					"source" : [ "obj-6", 4 ]
 				}
 

@@ -905,7 +905,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -410.0, 0.0 ],
+									"offset" : [ -1230.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -947,18 +947,6 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 56.0, 95.0, 54.0, 22.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"bgmode" : 0,
 													"border" : 0,
@@ -1452,7 +1440,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 55.5, 125.0, 70.0, 22.0 ],
+													"patching_rect" : [ 56.0, 104.0, 70.0, 22.0 ],
 													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
@@ -1483,13 +1471,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
-													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
+													"midpoints" : [ 65.5, 90.0, 65.5, 90.0 ],
 													"source" : [ "obj-5", 1 ]
 												}
 
@@ -1497,6 +1479,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-8", 0 ],
+													"midpoints" : [ 29.5, 90.0, 29.5, 90.0 ],
 													"source" : [ "obj-5", 0 ]
 												}
 
@@ -1504,6 +1487,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
+													"midpoints" : [ 29.5, 444.0, 29.5, 444.0 ],
 													"source" : [ "obj-8", 0 ]
 												}
 
@@ -1700,14 +1684,15 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
+													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 20.0, 258.0, 460.0, 22.0 ],
+													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Interface with external devices, MID, OSC and sound synthesis modules.",
+													"text" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3915,7 +3900,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 26.158536583185196, 193.662162184715271, 752.0, 53.0 ],
-					"text" : "“modulo\" is a comprehensive toolkit designed for quick prototypation of musical interfaces. It includes a variety of modules, including inputs, outputs, signal processes, synths, and utilities, specifically designed to aid the process of instrument making. Modules can be dragged and dropped into a Max patch, and are based on a user-freindly, modular and multichannel architecture."
+					"text" : "“modulo\" is a comprehensive toolkit designed for quick prototypation of musical interfaces. It includes a variety of modules, including inputs, outputs, signal processes, synths, and utilities, specifically designed to aid the process of instrument making. Modules can be dragged and dropped into a Max patch, and are based on a user-friendly, modular and multichannel architecture."
 				}
 
 			}

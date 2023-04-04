@@ -66,7 +66,7 @@
 					"patching_rect" : [ 344.586089999999956, 475.409647284456241, 160.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 44.371792723306498, 413.0, 66.0 ],
-					"setminmax" : [ 0.0, 8855.691609977324333 ],
+					"setminmax" : [ 0.0, 9317.346938775510353 ],
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 0.8 ],
 					"spacing" : 3,
@@ -4157,7 +4157,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 696.0, 175.0, 521.0, 754.0 ],
+						"rect" : [ 696.0, 175.0, 517.0, 754.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4185,7 +4185,6 @@
 						"style" : "",
 						"subpatcher_template" : "%",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-94",
@@ -4253,7 +4252,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 213.0, 484.0, 61.0, 23.0 ],
+									"patching_rect" : [ 213.0, 484.0, 63.0, 23.0 ],
 									"text" : "mc.pack~"
 								}
 
@@ -4625,7 +4624,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 1 ],
-									"midpoints" : [ 266.5, 465.0, 264.5, 465.0 ],
+									"midpoints" : [ 266.5, 465.0, 266.5, 465.0 ],
 									"source" : [ "obj-12", 1 ]
 								}
 
