@@ -709,7 +709,7 @@
 			"obj-19::obj-38" : [ "live.text[226]", "live.text", 0 ],
 			"obj-19::obj-4" : [ "live.text[151]", "live.text", 0 ],
 			"obj-19::obj-40::obj-20" : [ "Show Particle Settings[94]", "live.text", 0 ],
-			"obj-19::obj-40::obj-35" : [ "live.text[233]", "live.text", 0 ],
+			"obj-19::obj-40::obj-35" : [ "live.text[140]", "live.text", 0 ],
 			"obj-19::obj-41::obj-20" : [ "Show Particle Settings[95]", "live.text", 0 ],
 			"obj-19::obj-41::obj-35" : [ "live.text[219]", "live.text", 0 ],
 			"obj-19::obj-42::obj-20" : [ "Show Particle Settings[96]", "live.text", 0 ],
@@ -787,7 +787,7 @@
 			"obj-24::obj-74::obj-35" : [ "live.text[120]", "live.text", 0 ],
 			"obj-31::obj-107::obj-1" : [ "live.text[184]", "live.text", 0 ],
 			"obj-31::obj-123::obj-1" : [ "live.text[152]", "live.text", 0 ],
-			"obj-31::obj-153" : [ "live.text[140]", "live.text", 0 ],
+			"obj-31::obj-153" : [ "live.text[154]", "live.text", 0 ],
 			"obj-31::obj-1::obj-1" : [ "live.text[214]", "live.text", 0 ],
 			"obj-31::obj-36::obj-1" : [ "live.text[185]", "live.text", 0 ],
 			"obj-31::obj-40::obj-1" : [ "live.text[215]", "live.text", 0 ],
@@ -827,6 +827,7 @@
 			"obj-5::obj-125" : [ "live.numbox[60]", "live.dial[12]", 0 ],
 			"obj-5::obj-138" : [ "live.numbox[58]", "live.dial[12]", 0 ],
 			"obj-5::obj-141" : [ "live.text[211]", "live.text", 0 ],
+			"obj-5::obj-21" : [ "live.text[233]", "live.text", 0 ],
 			"obj-5::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-33" : [ "live.text[72]", "live.text", 0 ],
 			"obj-7::obj-107::obj-15" : [ "live.text[76]", "live.text", 0 ],
@@ -1026,7 +1027,7 @@
 				}
 ,
 				"obj-19::obj-40::obj-35" : 				{
-					"parameter_longname" : "live.text[233]"
+					"parameter_longname" : "live.text[140]"
 				}
 ,
 				"obj-19::obj-41::obj-20" : 				{
@@ -1338,7 +1339,7 @@
 				}
 ,
 				"obj-31::obj-153" : 				{
-					"parameter_longname" : "live.text[140]"
+					"parameter_longname" : "live.text[154]"
 				}
 ,
 				"obj-31::obj-1::obj-1" : 				{
@@ -1471,6 +1472,14 @@
 ,
 				"obj-5::obj-141" : 				{
 					"parameter_longname" : "live.text[211]"
+				}
+,
+				"obj-5::obj-23" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-5::obj-33" : 				{
+					"parameter_longname" : "live.text[72]"
 				}
 ,
 				"obj-7::obj-107::obj-15" : 				{
@@ -1731,13 +1740,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
