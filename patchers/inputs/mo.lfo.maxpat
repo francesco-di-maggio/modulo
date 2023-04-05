@@ -634,7 +634,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -693,7 +693,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1696,6 +1696,7 @@
 						"style" : "",
 						"subpatcher_template" : "%",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
@@ -2600,6 +2601,107 @@
 							}
 , 							{
 								"box" : 								{
+									"coll_data" : 									{
+										"count" : 24,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ 30 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ 40 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ 60 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ 80 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ 120 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ 160 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ 240 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ 320 ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ 360 ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ 480 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 600 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 640 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 720 ]
+											}
+, 											{
+												"key" : 13,
+												"value" : [ 960 ]
+											}
+, 											{
+												"key" : 14,
+												"value" : [ 1440 ]
+											}
+, 											{
+												"key" : 15,
+												"value" : [ 1920 ]
+											}
+, 											{
+												"key" : 16,
+												"value" : [ 2880 ]
+											}
+, 											{
+												"key" : 17,
+												"value" : [ 3840 ]
+											}
+, 											{
+												"key" : 18,
+												"value" : [ 5760 ]
+											}
+, 											{
+												"key" : 19,
+												"value" : [ 7680 ]
+											}
+, 											{
+												"key" : 20,
+												"value" : [ 11520 ]
+											}
+, 											{
+												"key" : 21,
+												"value" : [ 15360 ]
+											}
+, 											{
+												"key" : 22,
+												"value" : [ 30720 ]
+											}
+, 											{
+												"key" : 23,
+												"value" : [ 61440 ]
+											}
+ ]
+									}
+,
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2607,7 +2709,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 410.5, 87.5, 70.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0,
+										"embed" : 1,
 										"precision" : 6
 									}
 ,
@@ -3337,7 +3439,6 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4158,7 +4259,6 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -4763,7 +4863,6 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -6570,6 +6669,90 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "Jitter", "live.numbox", 0 ],
+			"obj-120" : [ "offset-", "live.numbox", 0 ],
+			"obj-140" : [ "Phase", "live.numbox", 0 ],
+			"obj-20" : [ "waveform-", "waveform-", 0 ],
+			"obj-21" : [ "live.text[38]", "live.text", 0 ],
+			"obj-26" : [ "live.text[66]", "live.text", 0 ],
+			"obj-36" : [ "Hold[1]", "live.text", 0 ],
+			"obj-4" : [ "live.text[182]", "live.text", 0 ],
+			"obj-55" : [ "Hold", "live.text", 0 ],
+			"obj-58" : [ "rate-", "rate", 0 ],
+			"obj-69" : [ "Smooth", "live.numbox", 0 ],
+			"obj-89" : [ "frate-", "rate", 0 ],
+			"obj-94" : [ "retrigger-", "retrigger-", 0 ],
+			"obj-99" : [ "depth-", "depth", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "rate-", "frate-", "depth-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "down.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rate.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "up.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "updown.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"toolbarexclusions" : [ "grid", "traceenable", "savefavorite", "objectpriority", "autolockunselected" ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],

@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -125,6 +125,31 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 5,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ 0.986252, 0.007236, 0.027423, 1.0 ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ 0.131302, 0.999697, 0.023594, 1.0 ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ 0.000066, 0.001801, 0.998229, 1.0 ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ 0.999993, 0.999963, 0.041015, 1.0 ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ 0.999995, 1.0, 1.0, 1.0 ]
+							}
+ ]
+					}
+,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -132,7 +157,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 118.0, 191.75, 81.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0,
+						"embed" : 1,
 						"precision" : 6
 					}
 ,
@@ -218,7 +243,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -243,7 +268,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -502,6 +527,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "rgbyw.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

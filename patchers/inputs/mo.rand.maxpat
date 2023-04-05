@@ -1337,7 +1337,6 @@
 						"style" : "",
 						"subpatcher_template" : "%",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1651,7 +1650,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[14]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3605,7 +3604,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[13]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -3657,7 +3656,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3735,7 +3734,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-24",
-					"items" : [ "all", ",", 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6 ],
+					"items" : [ "all", ",", 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3815,7 +3814,7 @@
 					"rounded" : 0.0,
 					"spacing_y" : 0.0,
 					"tabcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6" ]
+					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ]
 				}
 
 			}

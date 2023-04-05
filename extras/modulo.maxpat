@@ -376,7 +376,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -454,7 +454,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -905,7 +905,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -1230.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1692,7 +1692,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages.",
+													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -2039,7 +2039,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are ideas for instruments that deal with either direct mapping, and machine learning algorithms, such as regression.",
+													"text" : "These are simple tutorials that show how to perform various tasks, such as recording, combining blocks, and mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 

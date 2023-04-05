@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -53,6 +53,23 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 3,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ 32 ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ 27 ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ 13 ]
+							}
+ ]
+					}
+,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -60,7 +77,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 299.0, 291.0, 72.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0,
+						"embed" : 1,
 						"precision" : 6
 					}
 ,
@@ -115,7 +132,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -280,9 +297,9 @@
 
 					}
 ,
-					"text" : "3: return",
+					"text" : "spacebar",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "3: return",
+					"texton" : "spacebar",
 					"varname" : "live.text"
 				}
 
@@ -363,7 +380,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -653,6 +670,42 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-15" : [ "live.text[32]", "live.text", 0 ],
+			"obj-8" : [ "live.text[188]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "keys.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
