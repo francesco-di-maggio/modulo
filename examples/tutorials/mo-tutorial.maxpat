@@ -285,10 +285,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 0, 100, 354, 948 ],
+										"client_rect" : [ 854, 172, 1208, 300 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 970, 165, 1725, 1005 ]
 									}
 ,
 									"subscribe" : [ "mo.theremini~", "mo.scale", "mo.sliders" ],
@@ -587,7 +587,7 @@
 
 					}
 ,
-					"patching_rect" : [ 41.0, 39.0, 63.0, 23.0 ],
+					"patching_rect" : [ 41.0, 39.0, 98.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -609,7 +609,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p modules",
+					"text" : "p \"as bpatchers\"",
 					"varname" : "modules"
 				}
 
@@ -800,10 +800,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 0, 100, 354, 948 ],
+										"client_rect" : [ 854, 172, 1208, 300 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 970, 165, 1725, 1005 ]
 									}
 ,
 									"subscribe" : [ "mo.scale", "mo.sliders" ],
@@ -1399,7 +1399,7 @@
 
 					}
 ,
-					"patching_rect" : [ 41.0, 78.0, 58.0, 23.0 ],
+					"patching_rect" : [ 41.0, 78.0, 83.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -1421,7 +1421,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p objects",
+					"text" : "p \"as objects\"",
 					"varname" : "objects"
 				}
 
@@ -1551,21 +1551,21 @@
 			"obj-1::obj-24::obj-74::obj-68" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-24::obj-74::obj-72" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-7::obj-111" : [ "live.dial[20]", "detune", 0 ],
-			"obj-1::obj-7::obj-112" : [ "live.dial[14]", "decay", 0 ],
-			"obj-1::obj-7::obj-113" : [ "live.dial[15]", "attack", 0 ],
-			"obj-1::obj-7::obj-114" : [ "live.dial[16]", "sustain", 0 ],
-			"obj-1::obj-7::obj-118" : [ "live.dial[21]", "carrier", 0 ],
-			"obj-1::obj-7::obj-12" : [ "live.text[103]", "live.text", 0 ],
+			"obj-1::obj-7::obj-112" : [ "live.dial[13]", "decay", 0 ],
+			"obj-1::obj-7::obj-113" : [ "live.dial[14]", "attack", 0 ],
+			"obj-1::obj-7::obj-114" : [ "live.dial[15]", "sustain", 0 ],
+			"obj-1::obj-7::obj-118" : [ "live.dial[16]", "carrier", 0 ],
+			"obj-1::obj-7::obj-12" : [ "live.text[93]", "live.text", 0 ],
 			"obj-1::obj-7::obj-22" : [ "live.dial[18]", "timbre", 0 ],
-			"obj-1::obj-7::obj-24" : [ "live.dial[13]", "release", 0 ],
+			"obj-1::obj-7::obj-24" : [ "live.dial[9]", "release", 0 ],
 			"obj-1::obj-7::obj-25" : [ "live.dial[19]", "semitone", 0 ],
 			"obj-1::obj-7::obj-27" : [ "live.dial[17]", "vibrato", 0 ],
-			"obj-1::obj-7::obj-34" : [ "live.text[95]", "live.text", 0 ],
-			"obj-1::obj-7::obj-37" : [ "live.text[105]", "octave", 0 ],
-			"obj-1::obj-7::obj-4" : [ "live.dial[9]", "gain", 0 ],
-			"obj-1::obj-7::obj-42" : [ "live.text[104]", "live.text", 0 ],
+			"obj-1::obj-7::obj-34" : [ "live.text[92]", "live.text", 0 ],
+			"obj-1::obj-7::obj-37" : [ "live.text[91]", "octave", 0 ],
+			"obj-1::obj-7::obj-4" : [ "live.dial[21]", "gain", 0 ],
+			"obj-1::obj-7::obj-42" : [ "live.text[111]", "live.text", 0 ],
 			"obj-1::obj-8::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-1::obj-8::obj-5" : [ "live.text[183]", "live.tab", 0 ],
+			"obj-1::obj-8::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-8::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-28" : [ "live.text[65]", "live.text", 0 ],
@@ -1703,7 +1703,7 @@
 			"obj-2::obj-3::obj-4" : [ "live.dial[1]", "gain", 0 ],
 			"obj-2::obj-3::obj-42" : [ "live.text[185]", "live.text", 0 ],
 			"obj-2::obj-4::obj-45" : [ "live.gain~[3]", "volume", 0 ],
-			"obj-2::obj-4::obj-5" : [ "live.text[186]", "live.tab", 0 ],
+			"obj-2::obj-4::obj-56" : [ "live.numbox[194]", "live.numbox", 0 ],
 			"obj-2::obj-4::obj-7" : [ "live.text[32]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -2204,23 +2204,23 @@
 				}
 ,
 				"obj-1::obj-7::obj-112" : 				{
-					"parameter_longname" : "live.dial[14]"
+					"parameter_longname" : "live.dial[13]"
 				}
 ,
 				"obj-1::obj-7::obj-113" : 				{
-					"parameter_longname" : "live.dial[15]"
+					"parameter_longname" : "live.dial[14]"
 				}
 ,
 				"obj-1::obj-7::obj-114" : 				{
-					"parameter_longname" : "live.dial[16]"
+					"parameter_longname" : "live.dial[15]"
 				}
 ,
 				"obj-1::obj-7::obj-118" : 				{
-					"parameter_longname" : "live.dial[21]"
+					"parameter_longname" : "live.dial[16]"
 				}
 ,
 				"obj-1::obj-7::obj-12" : 				{
-					"parameter_longname" : "live.text[103]"
+					"parameter_longname" : "live.text[93]"
 				}
 ,
 				"obj-1::obj-7::obj-22" : 				{
@@ -2228,7 +2228,7 @@
 				}
 ,
 				"obj-1::obj-7::obj-24" : 				{
-					"parameter_longname" : "live.dial[13]"
+					"parameter_longname" : "live.dial[9]"
 				}
 ,
 				"obj-1::obj-7::obj-25" : 				{
@@ -2240,19 +2240,19 @@
 				}
 ,
 				"obj-1::obj-7::obj-34" : 				{
-					"parameter_longname" : "live.text[95]"
+					"parameter_longname" : "live.text[92]"
 				}
 ,
 				"obj-1::obj-7::obj-37" : 				{
-					"parameter_longname" : "live.text[105]"
+					"parameter_longname" : "live.text[91]"
 				}
 ,
 				"obj-1::obj-7::obj-4" : 				{
-					"parameter_longname" : "live.dial[9]"
+					"parameter_longname" : "live.dial[21]"
 				}
 ,
 				"obj-1::obj-7::obj-42" : 				{
-					"parameter_longname" : "live.text[104]"
+					"parameter_longname" : "live.text[111]"
 				}
 ,
 				"obj-2::obj-1::obj-107::obj-20" : 				{
@@ -2801,8 +2801,8 @@
 					"parameter_longname" : "live.gain~[3]"
 				}
 ,
-				"obj-2::obj-4::obj-5" : 				{
-					"parameter_longname" : "live.text[186]"
+				"obj-2::obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[194]"
 				}
 ,
 				"obj-2::obj-4::obj-7" : 				{
@@ -2826,13 +2826,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
