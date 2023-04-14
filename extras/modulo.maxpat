@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -230,7 +230,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -382,7 +382,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -461,7 +461,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -516,7 +516,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -912,7 +912,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -967,7 +967,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1535,7 +1535,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1882,7 +1882,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2247,7 +2247,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2603,7 +2603,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2966,7 +2966,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3544,8 +3544,8 @@
 
 					}
 ,
-					"text" : "tutorial",
-					"texton" : "tutorial",
+					"text" : "workflow",
+					"texton" : "workflow",
 					"varname" : "live.tab[2]"
 				}
 
@@ -3562,13 +3562,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 392.0, 246.0, 224.0, 318.0 ],
+						"rect" : [ 392.0, 246.0, 239.0, 318.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3603,7 +3603,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 71.333333333332121, 159.0, 55.0, 23.0 ],
+									"patching_rect" : [ 73.333333333332121, 159.0, 55.0, 23.0 ],
 									"text" : "zl.slice 1"
 								}
 
@@ -3611,7 +3611,7 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"tutorial" : "mo-tutorial"
+										"workflow" : "mo-workflow"
 									}
 ,
 									"id" : "obj-4",
@@ -3619,14 +3619,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 10.0, 114.0, 200.0, 23.0 ],
+									"patching_rect" : [ 10.0, 114.0, 209.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "dict mo-tutorial-patches @embed 1"
+									"text" : "dict mo-workflow-patches @embed 1"
 								}
 
 							}
@@ -3663,7 +3663,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 107.333333333332121, 272.0, 30.0, 30.0 ]
+									"patching_rect" : [ 109.333333333332121, 272.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3694,7 +3694,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
-									"midpoints" : [ 79.833333333333343, 138.0, 80.833333333332121, 138.0 ],
+									"midpoints" : [ 82.833333333333343, 138.0, 82.833333333332121, 138.0 ],
 									"source" : [ "obj-4", 1 ]
 								}
 
@@ -3716,7 +3716,7 @@
 
 					}
 ,
-					"patching_rect" : [ 497.5, 288.288468363758057, 58.0, 23.0 ],
+					"patching_rect" : [ 497.5, 288.288468363758057, 67.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"editing_bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -3739,7 +3739,7 @@
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p tutorial"
+					"text" : "p workflow"
 				}
 
 			}
