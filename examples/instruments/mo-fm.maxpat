@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -343,9 +343,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 31.0, 329.421279736415215, 214.0, 265.0 ],
+					"patching_rect" : [ 31.0, 329.421280000000024, 214.0, 197.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.166666666666742, 16.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 235.166666666666742, 16.5, 214.0, 197.0 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -542,7 +542,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.fm~", "mo.scale", "mo.sends", "mo.2max", "mo.regress" ],
+					"subscribe" : [ "mo.scale", "mo.sends", "mo.2max", "mo.regress", "mo.fm~" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}
@@ -795,7 +795,7 @@
 			"obj-19::obj-93" : [ "live.text[11]", "live.text", 0 ],
 			"obj-19::obj-99" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-1::obj-5" : [ "live.text[183]", "live.tab", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-111" : [ "live.dial[21]", "detune", 0 ],
 			"obj-2::obj-112" : [ "live.dial[23]", "decay", 0 ],
@@ -1497,13 +1497,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

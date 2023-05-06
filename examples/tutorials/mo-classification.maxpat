@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 410.0, 701.0 ],
+		"rect" : [ 34.0, 100.0, 410.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -173,9 +173,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.5, 678.489895233677771, 117.0, 25.0 ],
+					"patching_rect" : [ 317.5, 663.489895233677771, 117.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 617.486411435185119, 117.0, 25.0 ],
+					"presentation_rect" : [ 272.5, 549.486411435185119, 117.0, 25.0 ],
 					"text" : "set target output"
 				}
 
@@ -195,9 +195,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 289.0, 680.989895233677771, 20.0, 20.0 ],
+					"patching_rect" : [ 289.0, 665.989895233677771, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.0, 619.986411435185119, 20.0, 20.0 ],
+					"presentation_rect" : [ 244.0, 551.986411435185119, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -267,9 +267,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 622.989895233677657, 214.0, 136.0 ],
+					"patching_rect" : [ 31.0, 607.989895233677657, 214.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 550.5, 214.0, 136.0 ],
+					"presentation_rect" : [ 16.0, 482.5, 214.0, 136.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -292,9 +292,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 344.421279736415215, 214.0, 265.0 ],
+					"patching_rect" : [ 31.0, 344.421280000000024, 214.0, 197.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 283.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 16.0, 283.5, 214.0, 197.0 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -328,7 +328,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 40.5, 759.0, 18.0, 759.0, 18.0, 330.0, 138.0, 330.0 ],
+					"midpoints" : [ 40.5, 744.0, 18.0, 744.0, 18.0, 330.0, 138.0, 330.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -336,7 +336,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 40.5, 612.0, 40.5, 612.0 ],
+					"midpoints" : [ 40.5, 543.0, 40.5, 543.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -389,13 +389,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.dataset~.mxo",
 				"type" : "iLaX"
 			}
@@ -419,29 +412,23 @@
 			}
 , 			{
 				"name" : "mo.classify.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
