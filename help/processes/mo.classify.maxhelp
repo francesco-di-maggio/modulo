@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 456.0, 793.0 ],
+		"rect" : [ 34.0, 100.0, 456.0, 717.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 628.5, 214.0, 136.0 ],
+					"patching_rect" : [ 27.0, 553.5, 214.0, 136.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -157,7 +157,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -172,7 +171,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 327.5, 214.0, 265.0 ],
+					"patching_rect" : [ 27.0, 327.5, 214.0, 197.0 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -182,7 +181,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 395.259775898989915, 257.0, 395.259775898989915, 257.0 ],
+					"midpoints" : [ 395.259775898989915, 258.0, 395.259775898989915, 258.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -190,7 +189,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 36.5, 293.0, 36.5, 293.0 ],
+					"midpoints" : [ 36.5, 294.0, 36.5, 294.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -198,7 +197,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 333.843024313131252, 314.0, 231.5, 314.0 ],
+					"midpoints" : [ 333.843024313131252, 312.0, 231.5, 312.0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -206,7 +205,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 280.42627272727259, 314.0, 231.5, 314.0 ],
+					"midpoints" : [ 280.42627272727259, 312.0, 231.5, 312.0 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -214,7 +213,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 36.5, 764.0, 12.0, 764.0, 12.0, 314.0, 134.0, 314.0 ],
+					"midpoints" : [ 36.5, 690.0, 12.0, 690.0, 12.0, 312.0, 134.0, 312.0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -222,7 +221,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"midpoints" : [ 333.506071969697132, 257.0, 333.843024313131252, 257.0 ],
+					"midpoints" : [ 333.506071969697132, 258.0, 333.843024313131252, 258.0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -230,7 +229,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
-					"midpoints" : [ 280.42627272727259, 257.0, 280.42627272727259, 257.0 ],
+					"midpoints" : [ 280.42627272727259, 258.0, 280.42627272727259, 258.0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -238,7 +237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 36.5, 593.0, 36.5, 593.0 ],
+					"midpoints" : [ 36.5, 525.0, 36.5, 525.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -246,7 +245,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 395.259775898989915, 314.0, 231.5, 314.0 ],
+					"midpoints" : [ 395.259775898989915, 312.0, 231.5, 312.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -291,13 +290,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.dataset~.mxo",
 				"type" : "iLaX"
 			}
@@ -321,29 +313,23 @@
 			}
 , 			{
 				"name" : "mo.classify.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

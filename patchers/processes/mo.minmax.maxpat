@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -66,7 +66,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 309.75, 21.0, 30.0, 30.0 ]
 				}
 
@@ -596,7 +596,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 428.75, 452.0, 30.0, 119.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ -99999.0, 99999.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.847058823529412, 0.0, 0.0, 1.0 ]
 				}
@@ -613,7 +613,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 299.75, 452.0, 30.0, 119.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ -99999.0, 99999.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}

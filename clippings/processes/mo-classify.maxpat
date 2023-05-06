@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 196.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,8 +54,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "list" ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 265.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 197.0 ],
 					"varname" : "mo.classify",
 					"viewvisibility" : 1
 				}
@@ -102,11 +102,11 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "fluid.buf2list.mxo",
+				"name" : "fluid.dataset~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.dataset~.mxo",
+				"name" : "fluid.labelset~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -119,7 +119,7 @@
 			}
 , 			{
 				"name" : "mo.classify.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1

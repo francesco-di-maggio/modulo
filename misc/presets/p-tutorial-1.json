@@ -12,10 +12,10 @@
 					"mo.sliders::[1]::slider" : [ 0.0 ],
 					"mo.sliders::[1]::polarity" : [ 0.0 ],
 					"mo.sliders::[2]::mute" : [ 0.0 ],
-					"mo.sliders::[2]::slider" : [ 0.163369186413077 ],
+					"mo.sliders::[2]::slider" : [ 0.151174064461858 ],
 					"mo.sliders::[2]::polarity" : [ 0.0 ],
 					"mo.sliders::[3]::mute" : [ 0.0 ],
-					"mo.sliders::[3]::slider" : [ 0.60849113763259 ],
+					"mo.sliders::[3]::slider" : [ 0.60239357665698 ],
 					"mo.sliders::[3]::polarity" : [ 0.0 ],
 					"mo.sliders::[4]::mute" : [ 0.0 ],
 					"mo.sliders::[4]::slider" : [ 1.0 ],
@@ -42,11 +42,14 @@
 					"mo.scale::[4]::curve" : [ 1.0 ],
 					"mo.scale::[4]::mute" : [ 0.0 ],
 					"mo.theremini~::carrier" : [ 110.0 ],
-					"mo.theremini~::timbre" : [ 2.470322677717697 ],
-					"mo.theremini~::vibrato" : [ 4.867929101060717 ],
+					"mo.theremini~::timbre" : [ 2.360566580156721 ],
+					"mo.theremini~::vibrato" : [ 4.819148613255839 ],
 					"mo.theremini~::gain" : [ 1.0 ],
 					"mo.theremini~::mute" : [ 0.0 ],
-					"mo.theremini~::device" : [ "" ]
+					"mo.theremini~::device" : [ "" ],
+					"mo.dac~::gain" : [ -12.0 ],
+					"mo.dac~::mute" : [ 0.0 ],
+					"mo.dac~::chans" : [ 2.0 ]
 				}
 
 			}

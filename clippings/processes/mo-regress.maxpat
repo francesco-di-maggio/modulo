@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 265.0 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 197.0 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -91,6 +91,13 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-21" : 				{
+					"parameter_longname" : "live.text"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -112,7 +119,7 @@
 			}
 , 			{
 				"name" : "mo.regress.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
