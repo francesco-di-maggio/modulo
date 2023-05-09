@@ -22,6 +22,6 @@ Open the Overview Patch (modulo-main/extras/modulo.maxpat).
 
 ## Externals
 
-Some modules require external dependencies. These are available in the Max ```Package Manager```, or can be downloaded here:
+External dependencies are available in the ```Package Manager```, or can be downloaded here:
 
 * [Fluid Corpus Manipulation](https://www.flucoma.org/download) (```mo.classify```, ```mo.regress```)
