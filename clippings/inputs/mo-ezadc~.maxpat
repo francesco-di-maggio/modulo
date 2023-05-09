@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,44 +50,21 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pitch~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
+					"name" : "mo.ezadc~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
-					"varname" : "mo.pitch~",
+					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-			"obj-1::obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-28" : 				{
-					"parameter_longname" : "live.numbox[10]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "mo.pitch~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"name" : "mo.ezadc~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}

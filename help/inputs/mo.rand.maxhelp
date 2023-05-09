@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -365,6 +365,7 @@
 			"obj-1::obj-15" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-16" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-1::obj-3" : [ "live.text[44]", "live.text", 0 ],
+			"obj-1::obj-32" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-4" : [ "live.numbox[4]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
 			"obj-1::obj-6.1::obj-14" : [ "live.text[3]", "live.text", 0 ],
@@ -406,6 +407,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-11::obj-11" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-11::obj-52" : 				{
+					"parameter_longname" : "live.numbox[37]"
+				}
+,
 				"obj-1::obj-11" : 				{
 					"parameter_initial" : 1,
 					"parameter_longname" : "live.numbox[17]",
@@ -421,6 +430,10 @@
 					"parameter_unitstyle" : 10
 				}
 ,
+				"obj-1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
 				"obj-1::obj-16" : 				{
 					"parameter_initial" : 80,
 					"parameter_invisible" : 0,
@@ -429,6 +442,10 @@
 					"parameter_range" : [ 0, 100 ],
 					"parameter_type" : 1,
 					"parameter_unitstyle" : 5
+				}
+,
+				"obj-1::obj-4" : 				{
+					"parameter_longname" : "live.numbox[4]"
 				}
 ,
 				"obj-1::obj-56" : 				{
@@ -566,25 +583,10 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.rand.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.chooser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
-				"patcherrelativepath" : "../../../ease/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ease.xfade.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "lock.svg",
@@ -594,28 +596,28 @@
 			}
 , 			{
 				"name" : "mo.rand.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1

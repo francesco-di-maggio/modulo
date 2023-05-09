@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -157,7 +157,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -253,18 +253,55 @@
 											}
 , 											{
 												"box" : 												{
+													"coll_data" : 													{
+														"count" : 8,
+														"data" : [ 															{
+																"key" : 1,
+																"value" : [ 1.0, 1.0, 1.0, 1.0 ]
+															}
+, 															{
+																"key" : 2,
+																"value" : [ 0.413017, 0.461222, 0.686239, 1.0 ]
+															}
+, 															{
+																"key" : 3,
+																"value" : [ 0.262336, 0.31476, 0.880277, 1.0 ]
+															}
+, 															{
+																"key" : 4,
+																"value" : [ 0.474022, 0.734528, 0.065769, 1.0 ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ 0.526282, 0.802345, 0.358062, 1.0 ]
+															}
+, 															{
+																"key" : 6,
+																"value" : [ 0.665824, 0.0, 0.740225, 1.0 ]
+															}
+, 															{
+																"key" : 7,
+																"value" : [ 0.84513, 0.156766, 0.116734, 1.0 ]
+															}
+, 															{
+																"key" : 8,
+																"value" : [ 0.058596, 0.37664, 0.430143, 1.0 ]
+															}
+ ]
+													}
+,
 													"id" : "obj-7",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 50.0, 224.0, 63.0, 23.0 ],
+													"patching_rect" : [ 50.0, 224.0, 81.0, 23.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 0,
+														"embed" : 1,
 														"precision" : 6
 													}
 ,
-													"text" : "coll colors"
+													"text" : "coll colors.txt"
 												}
 
 											}
@@ -876,7 +913,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

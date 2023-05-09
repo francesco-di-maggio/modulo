@@ -905,7 +905,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -820.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1122,7 +1122,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 13,
-																	"num_lines_presentation" : 13,
+																	"num_lines_presentation" : 12,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -1146,9 +1146,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.classify", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pitch~", "mo.poll", "mo.regress", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
+																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.classify", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.poll", "mo.regress", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
 																			"parameter_longname" : "live.menu[12]",
-																			"parameter_mmax" : 24,
+																			"parameter_mmax" : 23,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1267,9 +1267,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.automation", "mo.buffer~", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.automation", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
-																			"parameter_mmax" : 37,
+																			"parameter_mmax" : 38,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1692,7 +1692,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3040,7 +3040,7 @@
 												"box" : 												{
 													"data" : 													{
 														"inputs" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
-														"outputs" : "Interface with external devices, MID, OSC and sound synthesis modules.",
+														"outputs" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
 														"processes" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
 														"utilities" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages."
 													}

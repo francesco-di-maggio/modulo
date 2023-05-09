@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -526,7 +526,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 84.5, 377.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 37.371792723306498, 37.633496850728989, 15.0 ],
+					"presentation_rect" : [ 6.5, 37.371792723306498, 54.867057532072067, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

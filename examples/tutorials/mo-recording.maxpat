@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -146,7 +146,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
+					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -171,70 +171,70 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.5,
+					"fontsize" : 12.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.03631428773383, 233.555714004845527, 30.0, 18.0 ],
+					"patching_rect" : [ 629.03631428773383, 233.555714004845527, 36.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.822356049034852, 296.519363973841678, 30.0, 18.0 ],
+					"presentation_rect" : [ 537.822356049034852, 296.519363973841678, 36.0, 21.0 ],
 					"text" : "write"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.5,
+					"fontsize" : 12.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 563.03631428773383, 233.555714004845527, 28.0, 18.0 ],
+					"patching_rect" : [ 563.03631428773383, 233.555714004845527, 33.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.822356049034852, 261.509681986920782, 28.0, 18.0 ],
+					"presentation_rect" : [ 537.822356049034852, 261.509681986920782, 33.0, 21.0 ],
 					"text" : "read"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.5,
+					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.723750598339848, 233.555714004845527, 27.0, 18.0 ],
+					"patching_rect" : [ 495.723750598339848, 233.555714004845527, 32.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.822356049034852, 226.5, 27.0, 18.0 ],
+					"presentation_rect" : [ 537.822356049034852, 226.5, 32.0, 21.0 ],
 					"text" : "loop"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.5,
+					"fontsize" : 12.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 401.567468753642856, 233.555714004845527, 46.0, 18.0 ],
+					"patching_rect" : [ 401.567468753642856, 233.555714004845527, 56.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.822356049034852, 191.49031801307919, 46.0, 18.0 ],
+					"presentation_rect" : [ 537.822356049034852, 191.49031801307919, 56.0, 21.0 ],
 					"text" : "playback"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.5,
+					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.411186908945865, 233.555714004845527, 22.0, 18.0 ],
+					"patching_rect" : [ 342.411186908945865, 233.555714004845527, 26.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.822356049034852, 156.480636026158351, 22.0, 18.0 ],
+					"presentation_rect" : [ 537.822356049034852, 155.480636026158351, 26.0, 21.0 ],
 					"text" : "rec"
 				}
 
@@ -291,15 +291,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-45",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 728.067468753642856, 224.138577976436522, 149.0, 39.0 ],
+					"patching_rect" : [ 730.067468753642856, 233.555714004845527, 149.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 639.94748342782259, 145.980636026158351, 149.0, 39.0 ],
-					"text" : "control both recorders \nat the same time",
+					"presentation_rect" : [ 639.94748342782259, 153.480636026158351, 149.0, 25.0 ],
+					"text" : "control both recorders ",
 					"textjustification" : 1
 				}
 
@@ -460,7 +458,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
+					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -599,7 +597,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.098750598339848, 205.39996745961696, 368.25, 107.367693975567818 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.636395178735256, 138.480636026158351, 99.35503314435482, 194.038727947683299 ],
+					"presentation_rect" : [ 495.636395178735256, 138.480636026158351, 106.35503314435482, 194.038727947683327 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -912,7 +910,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -931,69 +929,63 @@
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.record.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.record~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.~2list.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
