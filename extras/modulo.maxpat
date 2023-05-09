@@ -376,7 +376,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1146,9 +1146,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.bayesian", "mo.calibrate", "mo.classify", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pitch~", "mo.poll", "mo.regress", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
+																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.classify", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pitch~", "mo.poll", "mo.regress", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
 																			"parameter_longname" : "live.menu[12]",
-																			"parameter_mmax" : 25,
+																			"parameter_mmax" : 24,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1267,9 +1267,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.automation", "mo.buffer~", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.myo", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.automation", "mo.buffer~", "mo.dial", "mo.encoder", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
-																			"parameter_mmax" : 38,
+																			"parameter_mmax" : 37,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9

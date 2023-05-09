@@ -1,3 +1,9 @@
 .DS_Store
-collections/
-snippets/
+
+mo-myo.maxpat
+mo.myo.maxpat
+mo.myo.maxhelp
+
+mo-bayesian.maxpat
+mo.bayesian.maxpat
+mo.bayesian.maxhelp

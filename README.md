@@ -22,9 +22,8 @@ Open the Overview Patch (modulo-main/extras/modulo.maxpat).
 
 ## Externals
 
-This repository uses external Max Packages. Some can be found in the Max ```Package Manager```, or download here:
-* [CNMAT](https://cnmat.berkeley.edu/downloads)
-* [Ease](https://github.com/Cycling74/ease)
-* [Fluid Corpus Manipulation](https://www.flucoma.org/download)
-* [MuBu for Max](https://forum.ircam.fr/projects/detail/mubu)
-* [Myo for Max](https://github.com/JulesFrancoise/myo-for-max)
+Some modules require external dependencies. All dependencies are available in the Max ```Package Manager```, or can be downloaded here:
+
+* [CNMAT](https://cnmat.berkeley.edu/downloads) ```mo.route```
+* [Ease](https://github.com/Cycling74/ease) ```mo.rand, mo.line```
+* [Fluid Corpus Manipulation](https://www.flucoma.org/download) ```mo.classify, mo.regress```
