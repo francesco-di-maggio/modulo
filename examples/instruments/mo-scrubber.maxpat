@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -104,13 +104,15 @@
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"id" : "obj-1",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1196.70833333333303, 422.511545710265636, 102.0, 25.0 ],
+					"patching_rect" : [ 1196.70833333333303, 422.511545710265636, 102.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.70833333333303, 768.0090486779809, 102.0, 25.0 ],
-					"text" : "start playback"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 279.70833333333303, 761.0090486779809, 115.0, 39.0 ],
+					"text" : "1. start playback\n2. unmute dac~"
 				}
 
 			}

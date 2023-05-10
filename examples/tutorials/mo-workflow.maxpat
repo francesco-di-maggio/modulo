@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 975.0, 718.0 ],
+						"rect" : [ 0.0, 26.0, 975.0, 718.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -125,12 +125,15 @@
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 0,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-17",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.25, 440.756250000000023, 313.0, 93.0 ],
+									"patching_rect" : [ 43.0, 440.756250000000023, 315.0, 112.0 ],
 									"text" : "Navigate:\n1. Documents > Max 8 > Packages > modulo > clippings.\n2. Choose a category.\n3 .Drag & Drop a module on an unlocked patcher window.\n\n(4.) Drag & Drop on any module to replace module."
 								}
 
@@ -223,32 +226,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
-									"hint" : "",
-									"id" : "obj-25",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 9.0, 440.756250000000023, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "2",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
-								}
-
-							}
  ],
 						"lines" : [  ],
 						"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
@@ -310,7 +287,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 975.0, 718.0 ],
+						"rect" : [ 34.0, 126.0, 975.0, 718.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -341,39 +318,16 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-17",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 202.25, 74.508648152010721, 411.0, 35.0 ],
+									"patching_rect" : [ 204.25, 42.508648152010721, 428.0, 39.0 ],
 									"text" : "Right-click anywhere in an unlocked patcher window: Paste From > modulo. \nChoose a category. Select a module."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
-									"hint" : "",
-									"id" : "obj-35",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 202.25, 46.508648152010721, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "1",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
 								}
 
 							}
@@ -3047,13 +3001,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Screenshot 2023-05-09 at 19.10.43.png",
-				"bootpath" : "~/.Trash",
-				"patcherrelativepath" : "../../../../../../.Trash",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",

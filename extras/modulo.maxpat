@@ -376,7 +376,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -905,7 +905,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -820.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1692,7 +1692,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
+													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 

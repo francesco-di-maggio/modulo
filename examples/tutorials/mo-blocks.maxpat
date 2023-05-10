@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -253,7 +253,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.keyboard.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 303.459072227510774, 192.285335555672646, 214.0, 176.0 ],
@@ -414,14 +414,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 153.0, 25.0 ],
+					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 121.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1265.679270314881023, 98.779222232898945, 93.0, 39.0 ],
-					"text" : "save preset: SHIFT-click",
+					"presentation_rect" : [ 1275.679270314881023, 98.719729999999998, 83.0, 39.0 ],
+					"text" : "save/recall\n preset",
 					"textjustification" : 1
 				}
 
@@ -488,7 +489,7 @@
 					"patching_rect" : [ 15.485723542877949, 550.646813333333284, 53.0, 30.0 ],
 					"pattrstorage" : "p-blocks",
 					"presentation" : 1,
-					"presentation_rect" : [ 1178.679270314881251, 103.219729999999998, 53.0, 30.0 ]
+					"presentation_rect" : [ 1183.679270314881251, 103.219729999999998, 53.0, 30.0 ]
 				}
 
 			}
@@ -509,7 +510,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 74.485723542877949, 555.646813333333284, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1237.679270314881023, 108.219729999999998, 20.0, 20.0 ],
+					"presentation_rect" : [ 1242.679270314881023, 108.219729999999998, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -951,8 +952,28 @@
 					"parameter_longname" : "live.numbox[20]"
 				}
 ,
+				"obj-22::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[105]"
+				}
+,
+				"obj-22::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[124]"
+				}
+,
+				"obj-22::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[70]"
+				}
+,
+				"obj-22::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
 				"obj-22::obj-14" : 				{
 					"parameter_longname" : "live.numbox[66]"
+				}
+,
+				"obj-22::obj-16" : 				{
+					"parameter_longname" : "live.text[98]"
 				}
 ,
 				"obj-22::obj-1::obj-35" : 				{
@@ -1167,6 +1188,14 @@
 					"parameter_longname" : "live.numbox[53]"
 				}
 ,
+				"obj-22::obj-66" : 				{
+					"parameter_longname" : "live.numbox[64]"
+				}
+,
+				"obj-22::obj-68" : 				{
+					"parameter_longname" : "live.numbox[65]"
+				}
+,
 				"obj-22::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[20]"
 				}
@@ -1242,37 +1271,23 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "keys.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1283,161 +1298,154 @@
 			}
 , 			{
 				"name" : "mo.crosspatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.encoder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.fm~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/synths",
-				"patcherrelativepath" : "../../patchers/synths",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.key+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.key.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.keyboard.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.noteout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.number.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.tab.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.udpreceive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.~2list.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-blocks.json",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rgbyw.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
