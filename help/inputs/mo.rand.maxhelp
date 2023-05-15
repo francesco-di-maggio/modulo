@@ -431,7 +431,8 @@
 				}
 ,
 				"obj-1::obj-15" : 				{
-					"parameter_longname" : "live.numbox[3]"
+					"parameter_longname" : "live.numbox[3]",
+					"parameter_range" : [ 20.0, 60000.0 ]
 				}
 ,
 				"obj-1::obj-16" : 				{
@@ -458,6 +459,11 @@
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-1::obj-6.1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[5]",
+					"parameter_range" : [ 0.0, 60000.0 ]
 				}
 ,
 				"obj-1::obj-6.1::obj-27" : 				{
