@@ -437,6 +437,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -570,7 +571,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.scale", "mo.sends", "mo.2max", "mo.regress", "mo.theremini~" ],
+					"subscribe" : [ "mo.sends", "mo.scale", "mo.2max", "mo.regress", "mo.theremini~" ],
 					"text" : "pattrstorage p-theremini @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-theremini"
 				}

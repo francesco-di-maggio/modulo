@@ -414,15 +414,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-13",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 121.0, 39.0 ],
+					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 121.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1275.679270314881023, 98.719729999999998, 83.0, 39.0 ],
-					"text" : "save/recall\n preset",
+					"presentation_rect" : [ 1271.679270314881023, 189.719729999999998, 90.0, 25.0 ],
+					"text" : "save / recall",
 					"textjustification" : 1
 				}
 
@@ -489,7 +487,7 @@
 					"patching_rect" : [ 15.485723542877949, 550.646813333333284, 53.0, 30.0 ],
 					"pattrstorage" : "p-blocks",
 					"presentation" : 1,
-					"presentation_rect" : [ 1183.679270314881251, 103.219729999999998, 53.0, 30.0 ]
+					"presentation_rect" : [ 1179.679270314881251, 103.219729999999998, 53.0, 197.000000000000028 ]
 				}
 
 			}
@@ -510,7 +508,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 74.485723542877949, 555.646813333333284, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1242.679270314881023, 108.219729999999998, 20.0, 20.0 ],
+					"presentation_rect" : [ 1244.679270314881023, 192.219729999999998, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

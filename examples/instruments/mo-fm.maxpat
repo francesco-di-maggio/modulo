@@ -127,7 +127,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 281.5, 111.881249999999739, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 489.833333333333258, 250.466676507559328, 138.0, 25.0 ],
+					"presentation_rect" : [ 270.833333333333258, 246.466676507559328, 138.0, 25.0 ],
 					"text" : "click, and drag xypad"
 				}
 
@@ -149,7 +149,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.0, 114.381249999999739, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 464.333333333333258, 251.966676507559328, 20.0, 20.0 ],
+					"presentation_rect" : [ 245.333333333333258, 247.966676507559328, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -353,6 +353,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -542,7 +543,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.scale", "mo.sends", "mo.2max", "mo.regress", "mo.fm~" ],
+					"subscribe" : [ "mo.fm~", "mo.sends", "mo.scale", "mo.2max", "mo.regress" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}

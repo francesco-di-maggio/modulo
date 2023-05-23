@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 449.0, 492.0 ],
+		"rect" : [ 34.0, 100.0, 395.0, 492.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -78,13 +78,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.985723542877963, 17.654124945402145, 164.0, 25.0 ],
+					"patching_rect" : [ 267.985723542877963, 17.654124945402145, 164.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 267.985723542877963, 17.654124945402145, 164.0, 25.0 ],
-					"text" : "turn on random generator"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 271.985723542877963, 70.154124945402145, 79.0, 39.0 ],
+					"text" : "turn on \ngenerator"
 				}
 
 			}
@@ -105,9 +107,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 241.985723542877963, 21.654124945402145, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.985723542877963, 21.654124945402145, 20.0, 20.0 ],
+					"presentation_rect" : [ 242.985723542877963, 79.654124945402145, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -358,118 +360,8 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1053.852622449398041, 357.263915684322114, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 346.985723542877963, 68.154124945402145, 85.0, 25.0 ],
-					"text" : "load preset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1044.852622449398041, 265.836832350988857, 36.0, 23.0 ],
-					"text" : "write"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.852622449398041, 265.836832350988857, 65.0, 23.0 ],
-					"text" : "writeagain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autorestore" : "p-controllerism.json",
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.852622449398041, 314.836832350988857, 417.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 100, 1440, 462 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage p-controllerism @savemode 3 @autorestore 1 @changemode 1",
-					"varname" : "p-controllerism"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubblesize" : 20,
-					"id" : "obj-33",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 965.852622449398041, 356.263915684322114, 53.0, 30.0 ],
-					"pattrstorage" : "p-controllerism",
-					"presentation" : 1,
-					"presentation_rect" : [ 258.985723542877963, 67.154124945402145, 53.0, 29.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"hint" : "",
-					"id" : "obj-32",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1027.852622449398041, 361.263915684322114, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 320.985723542877963, 72.154124945402145, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "1",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 1054.352622449398041, 300.0, 975.352622449398041, 300.0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 27.985723542877949, 105.0, 27.985723542877949, 105.0, 27.985723542877949, 159.0, 27.985723542877949, 159.0, 27.985723542877949, 210.0, 27.985723542877949, 210.0 ],
@@ -570,14 +462,6 @@
 					"destination" : [ "obj-88", 0 ],
 					"midpoints" : [ 243.985723542877963, 303.0, 243.985723542877963, 303.0 ],
 					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 975.352622449398041, 291.0, 975.352622449398041, 291.0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1028,21 +912,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ease.chooser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
-				"patcherrelativepath" : "../../../ease/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ease.xfade.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -1101,13 +970,6 @@
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-controllerism.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

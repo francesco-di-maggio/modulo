@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -98,8 +98,8 @@
 					"patching_rect" : [ 287.813911750912666, 46.397732439416473, 139.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 272.813911750912666, 12.397732439416473, 139.0, 39.0 ],
-					"text" : "1. adjust parameters \n2. unmute simulator"
+					"presentation_rect" : [ 272.813911750912666, 57.397732439416473, 139.0, 39.0 ],
+					"text" : "1. adjust parameters \n2. turn on simulator"
 				}
 
 			}
@@ -120,9 +120,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 261.813911750912666, 55.897732439416473, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.813911750912666, 21.897732439416473, 20.0, 20.0 ],
+					"presentation_rect" : [ 246.813911750912666, 66.897732439416473, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "3",
+					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -193,7 +193,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 272.813911750912666, 161.267661435184777, 142.0, 39.0 ],
-					"text" : "1. set to Direct\n2. set to LFP (800 Hz)"
+					"text" : "1. set to Direct, or\n2. set to LFP (800 Hz)"
 				}
 
 			}
@@ -216,7 +216,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 246.813911750912666, 170.767661435184777, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "4",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -251,6 +251,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -420,7 +421,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.onepole~", "mo.crosspatch~", "mo.rand~" ],
+					"subscribe" : [ "mo.rand~", "mo.crosspatch~", "mo.onepole~" ],
 					"text" : "pattrstorage p-sonification @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-sonification"
 				}
@@ -576,16 +577,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-23::obj-1" : [ "live.text[11]", "live.text", 0 ],
 			"obj-23::obj-37" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-23::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-6::obj-153" : [ "live.text[19]", "live.text", 0 ],
-			"obj-6::obj-36" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-6::obj-34" : [ "live.text[185]", "live.text", 0 ],
 			"obj-6::obj-38" : [ "live.text[34]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
-			"obj-6::obj-59" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-6::obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-6::obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
 			"obj-7::obj-10" : [ "live.numbox[52]", "live.numbox", 0 ],
@@ -657,8 +658,16 @@
 					"parameter_longname" : "live.numbox[37]"
 				}
 ,
-				"obj-6::obj-59" : 				{
-					"parameter_longname" : "live.numbox[6]"
+				"obj-6::obj-34" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[185]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-6::obj-71" : 				{
+					"parameter_range" : [ 0.0, 1000.0 ]
 				}
 ,
 				"obj-7::obj-10" : 				{
@@ -856,14 +865,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -876,62 +885,70 @@
 			}
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-sonification.json",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1

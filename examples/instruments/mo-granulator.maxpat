@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -446,6 +446,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -606,7 +607,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.crosspatch", "mo.sends[1]", "mo.2max", "mo.scale", "mo.sends", "mo.pad" ],
+					"subscribe" : [ "mo.crosspatch", "mo.sends", "mo.pad", "mo.sends[1]", "mo.scale", "mo.2max" ],
 					"text" : "pattrstorage p-granulator @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-granulator"
 				}
