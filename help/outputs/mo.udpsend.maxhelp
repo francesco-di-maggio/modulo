@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.0, 497.0, 70.0, 23.0 ],
-					"text" : "0.437759"
+					"text" : "0."
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 424.0, 167.0, 23.0 ],
-					"text" : "/output-1 0.437759"
+					"text" : "/output-1 0."
 				}
 
 			}
@@ -136,11 +136,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 224.0, 460.28762636333704, 122.0, 23.0 ],
-					"text" : "OSC-route /output-1"
+					"patching_rect" : [ 224.0, 460.28762636333704, 93.0, 23.0 ],
+					"text" : "route /output-1"
 				}
 
 			}
@@ -392,6 +392,14 @@
 					"parameter_longname" : "live.text[34]"
 				}
 ,
+				"obj-13::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-13::obj-123::obj-28" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
 				"obj-13::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
@@ -588,6 +596,10 @@
 					"parameter_longname" : "live.text[22]"
 				}
 ,
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[70]"
+				}
+,
 				"obj-1::obj-36::obj-2" : 				{
 					"parameter_longname" : "live.text[23]"
 				}
@@ -646,10 +658,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "a-mo.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -661,13 +669,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

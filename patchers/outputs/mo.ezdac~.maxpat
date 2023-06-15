@@ -43,7 +43,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"color" : [ 0.298039215686275, 0.749019607843137, 0.980392156862745, 1.0 ],
-					"elementcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
@@ -62,7 +62,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.842786306142557, 76.0, 30.0, 30.0 ]
 				}
 

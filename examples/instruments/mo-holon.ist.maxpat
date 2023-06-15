@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -80,7 +80,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -95,7 +94,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.0, 244.991666666666333, 214.0, 265.0 ],
+					"patching_rect" : [ 34.0, 455.991666666666333, 214.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 417.0, 214.0, 265.0 ],
 					"varname" : "mo.scope",
@@ -120,7 +119,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 244.991666666666333, 214.0, 198.0 ],
+					"patching_rect" : [ 34.0, 242.495833333333167, 214.0, 198.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 217.0, 214.0, 198.0 ],
 					"varname" : "mo.sliders",
@@ -179,21 +178,13 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 295.885702821115501, 126.091666666666356, 393.0, 23.0 ],
 					"priority" : 					{
-						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[1]::polarity" : 1,
-						"mo.sliders::[2]::slider" : 1,
 						"mo.sliders::[2]::polarity" : 1,
-						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[3]::polarity" : 1,
-						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[4]::polarity" : 1,
-						"mo.sliders::[5]::slider" : 1,
 						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::slider" : 1,
 						"mo.sliders::[6]::polarity" : 1,
-						"mo.sliders::[7]::slider" : 1,
 						"mo.sliders::[7]::polarity" : 1,
-						"mo.sliders::[8]::slider" : 1,
 						"mo.sliders::[8]::polarity" : 1
 					}
 ,
@@ -250,7 +241,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 43.5, 230.0, 43.5, 230.0 ],
-					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -258,9 +248,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 43.5, 230.0, 259.5, 230.0 ],
-					"order" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -523,6 +511,10 @@
 ,
 				"obj-3::obj-123::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[16]"
+				}
+,
+				"obj-3::obj-123::obj-28" : 				{
+					"parameter_longname" : "live.text[62]"
 				}
 ,
 				"obj-3::obj-123::obj-35" : 				{

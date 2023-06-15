@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -210,6 +210,14 @@
 					"parameter_longname" : "live.text[7]"
 				}
 ,
+				"obj-2::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-2::obj-123::obj-28" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
 				"obj-2::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
@@ -411,13 +419,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
@@ -477,20 +478,6 @@
 				"name" : "unlock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.between.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

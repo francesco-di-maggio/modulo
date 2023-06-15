@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -230,7 +230,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -376,13 +376,13 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -461,7 +461,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -516,7 +516,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -596,7 +596,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 7,
-																	"num_lines_presentation" : 8,
+																	"num_lines_presentation" : 6,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -620,9 +620,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-blocks", "mo-classification", "mo-controllerism", "mo-many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-recording", "mo-regression" ],
+																			"parameter_enum" : [ "mo-blocks", "mo-controllerism", "mo-many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-recording" ],
 																			"parameter_longname" : "live.menu[5]",
-																			"parameter_mmax" : 7,
+																			"parameter_mmax" : 5,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -693,7 +693,7 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-fm", "mo-granulator", "mo-holon.ist", "mo-live", "mo-oddot", "mo-scrubber", "mo-sonification", "mo-theremini" ],
+																			"parameter_enum" : [ "mo-daw", "mo-fm", "mo-granulator", "mo-holon.ist", "mo-oddot", "mo-scrubber", "mo-sonification", "mo-theremini" ],
 																			"parameter_longname" : "live.menu[6]",
 																			"parameter_mmax" : 7,
 																			"parameter_shortname" : "live.menu",
@@ -912,7 +912,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -967,7 +967,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1122,7 +1122,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 13,
-																	"num_lines_presentation" : 12,
+																	"num_lines_presentation" : 11,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -1146,9 +1146,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.classify", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.poll", "mo.regress", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
+																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
 																			"parameter_longname" : "live.menu[12]",
-																			"parameter_mmax" : 23,
+																			"parameter_mmax" : 21,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1535,7 +1535,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1882,7 +1882,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2039,7 +2039,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are simple tutorials that show how to perform various tasks, such as recording, combining blocks, and mapping.",
+													"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -2247,7 +2247,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2320,8 +2320,8 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : "These are ideas for instruments that deal with either direct mapping, and machine learning algorithms, such as regression.",
-														"tutorials" : "These are simple tutorials that show how to perform various tasks, such as recording, combining blocks, and mapping."
+														"instruments" : "These are ideas of instruments using different types of input and direct mapping.",
+														"tutorials" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping."
 													}
 ,
 													"id" : "obj-80",
@@ -2603,7 +2603,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2966,7 +2966,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3041,8 +3041,8 @@
 													"data" : 													{
 														"inputs" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 														"outputs" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
-														"processes" : "Process gesture input data, such as filters, smoothing algorithms, and machine learning algorithms.",
-														"utilities" : "Handle auxilary functions, such as routing and visualizing audio and events, prepend and route messages."
+														"processes" : "Process control signals through filters, averaging and smoothing algorithms.",
+														"utilities" : "Handle auxilary functions, such as mapping and visualizing signals and control data"
 													}
 ,
 													"id" : "obj-80",
@@ -3562,7 +3562,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

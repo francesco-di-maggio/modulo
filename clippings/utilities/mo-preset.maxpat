@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -52,7 +52,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
-					"pattrstorage" : "untitled",
+					"pattrstorage" : "p-blocks",
 					"presentation" : 1,
 					"presentation_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
 					"saved_attribute_attributes" : 					{
@@ -70,6 +70,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "p-blocks.json",
 					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -78,14 +79,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 138.0, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 0, 100, 354, 228 ],
+						"client_rect" : [ 249, 100, 603, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 249, 100, 700, 228 ]
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "untitled"
+					"varname" : "p-blocks"
 				}
 
 			}
@@ -191,6 +192,22 @@
 					"parameter_longname" : "live.text[58]"
 				}
 ,
+				"obj-1::obj-48" : 				{
+					"parameter_longname" : "live.text[59]"
+				}
+,
+				"obj-1::obj-50" : 				{
+					"parameter_longname" : "live.text[55]"
+				}
+,
+				"obj-1::obj-53" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
+				"obj-1::obj-55" : 				{
+					"parameter_longname" : "live.text[61]"
+				}
+,
 				"obj-1::obj-64" : 				{
 					"parameter_longname" : "live.text[57]"
 				}
@@ -211,6 +228,13 @@
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-blocks.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

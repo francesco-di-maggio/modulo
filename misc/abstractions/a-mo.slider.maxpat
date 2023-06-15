@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -115,7 +115,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[62]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -147,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.166666666666664, 740.0, 52.0, 23.0 ],
+					"patching_rect" : [ 25.166666666666664, 665.0, 52.0, 23.0 ],
 					"text" : "gate 1 1"
 				}
 
@@ -326,7 +326,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -677,7 +677,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[1]",
+							"parameter_longname" : "Show Particle Settings[25]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -758,7 +758,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"slidercolor" : [ 0.84513, 0.156766, 0.116734, 1.0 ],
 					"spacing" : 3,
 					"varname" : "slider-"
 				}
@@ -808,7 +808,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.166666666666664, 782.738878038194343, 30.0, 30.0 ]
+					"patching_rect" : [ 25.166666666666664, 752.738878038194343, 30.0, 30.0 ]
 				}
 
 			}
@@ -824,7 +824,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -962,7 +962,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[63]",
+							"parameter_longname" : "live.text[31]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -970,9 +970,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "7",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "1",
+					"texton" : "7",
 					"varname" : "mute-"
 				}
 
@@ -1144,7 +1144,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 34.666666666666664, 765.0, 34.666666666666664, 765.0 ],
+					"midpoints" : [ 34.666666666666664, 690.0, 34.666666666666664, 690.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1253,7 +1253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 564.966666666666583, 285.0, 564.966666666666583, 285.0 ],
+					"midpoints" : [ 564.966666666666583, 276.0, 564.966666666666583, 276.0 ],
 					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1376,7 +1376,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 699.366666666666561, 165.0, 699.666666666666629, 165.0, 699.666666666666629, 210.0, 699.166666666666629, 210.0 ],
+					"midpoints" : [ 699.366666666666561, 165.0, 699.166666666666629, 165.0 ],
 					"source" : [ "obj-6", 4 ]
 				}
 
@@ -1392,7 +1392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 654.566666666666606, 546.0, 360.0, 546.0 ],
+					"midpoints" : [ 654.566666666666606, 501.0, 336.0, 501.0, 336.0, 555.0, 360.0, 555.0 ],
 					"source" : [ "obj-6", 3 ]
 				}
 
@@ -1423,8 +1423,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 154.166666666666657, 726.0, 67.666666666666657, 726.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 154.166666666666657, 738.0, 34.666666666666664, 738.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

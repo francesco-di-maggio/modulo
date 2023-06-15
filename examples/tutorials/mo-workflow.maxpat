@@ -800,8 +800,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 607.21875, 69.0, 23.0 ],
-									"text" : "UTILITIES",
+									"patching_rect" : [ 25.0, 607.21875, 63.0, 23.0 ],
+									"text" : "OUTPUT",
 									"underline" : 1
 								}
 
@@ -813,8 +813,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 207.682643661896407, 93.0, 23.0 ],
-									"text" : "PROCESSING",
+									"patching_rect" : [ 25.0, 207.682643661896407, 136.0, 23.0 ],
+									"text" : "CONTROL PROCESS",
 									"underline" : 1
 								}
 
@@ -1187,8 +1187,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 607.21875, 69.0, 23.0 ],
-									"text" : "UTILITIES",
+									"patching_rect" : [ 25.0, 607.21875, 63.0, 23.0 ],
+									"text" : "OUTPUT",
 									"underline" : 1
 								}
 
@@ -1225,8 +1225,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 207.682643661896407, 93.0, 23.0 ],
-									"text" : "PROCESSING",
+									"patching_rect" : [ 25.0, 207.682643661896407, 136.0, 23.0 ],
+									"text" : "CONTROL PROCESS",
 									"underline" : 1
 								}
 

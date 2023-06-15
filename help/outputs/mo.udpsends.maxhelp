@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 599.0, 517.0 ],
+		"rect" : [ 34.0, 100.0, 532.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 530.0, 136.5, 50.0, 23.0 ]
+					"patching_rect" : [ 389.0, 136.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -290,8 +290,18 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 398.5, 177.0, 275.5, 177.0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 539.5, 177.0, 228.5, 177.0 ],
+					"midpoints" : [ 398.5, 177.0, 228.5, 177.0 ],
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -660,6 +670,14 @@
 					"parameter_longname" : "live.text[23]"
 				}
 ,
+				"obj-2::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-2::obj-123::obj-28" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
 				"obj-2::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
@@ -904,6 +922,10 @@
 					"parameter_longname" : "live.text[102]"
 				}
 ,
+				"obj-3::obj-4" : 				{
+					"parameter_longname" : "live.text[116]"
+				}
+,
 				"obj-3::obj-40::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[37]"
 				}
@@ -1122,10 +1144,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1144,13 +1162,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
