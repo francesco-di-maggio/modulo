@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 252.0, 280.0 ],
+		"rect" : [ 34.0, 100.0, 472.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,8 +37,93 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "%",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.255791574060538, 165.0, 141.0, 25.0 ],
+					"text" : "floating points: 0. - 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 331.255791574060538, 203.0, 117.0, 39.0 ],
+					"text" : "give it a name\n\" \" = delete name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.255791574060538, 210.5, 92.0, 25.0 ],
+					"text" : "mute output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 216.0, 22.0 ],
+					"text" : "Map this object to a MIDI controller.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 90.0, 23.0 ],
+					"text" : "A dial object."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 179.0, 71.0 ],
+					"text" : "mo.dial"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-8",
@@ -49,53 +134,31 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 25.0, 43.0, 23.0 ]
+					"patching_rect" : [ 41.0, 166.0, 70.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"gradient" : 1,
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.255791574060538, 25.0, 29.5, 23.0 ],
-					"text" : "\" \"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 291.255791574060538, 211.0, 29.5, 23.0 ],
+					"text" : "\" \""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"gradient" : 1,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.255791574060538, 25.0, 44.0, 23.0 ],
-					"text" : "DELAY",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 234.255791574060538, 211.0, 44.0, 23.0 ],
+					"text" : "DELAY"
 				}
 
 			}
@@ -106,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.255791574060538, 73.0, 60.0, 23.0 ],
+					"patching_rect" : [ 234.255791574060538, 259.0, 60.0, 23.0 ],
 					"text" : "device $1"
 				}
 
@@ -116,11 +179,13 @@
 					"format" : 6,
 					"id" : "obj-9",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 234.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 420.0, 70.0, 23.0 ]
 				}
 
 			}
@@ -132,7 +197,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.0, 25.0, 24.0, 24.0 ]
+					"patching_rect" : [ 92.0, 211.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -143,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 73.0, 53.0, 23.0 ],
+					"patching_rect" : [ 92.0, 259.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -164,7 +229,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 124.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 310.0, 70.0, 87.0 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -174,7 +239,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 37.5, 212.0, 37.5, 212.0 ],
+					"midpoints" : [ 50.5, 398.0, 50.5, 398.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -182,7 +247,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 212.755791574060538, 59.0, 155.755791574060538, 59.0 ],
+					"midpoints" : [ 300.755791574060538, 245.0, 243.755791574060538, 245.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -190,7 +255,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 155.755791574060538, 110.0, 88.5, 110.0 ],
+					"midpoints" : [ 243.755791574060538, 296.0, 101.5, 296.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -198,7 +263,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 88.5, 98.0, 88.5, 98.0 ],
+					"midpoints" : [ 101.5, 284.0, 101.5, 284.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -206,7 +271,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 155.755791574060538, 50.0, 155.755791574060538, 50.0 ],
+					"midpoints" : [ 243.755791574060538, 236.0, 243.755791574060538, 236.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -214,7 +279,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 88.5, 50.0, 88.5, 50.0 ],
+					"midpoints" : [ 101.5, 236.0, 101.5, 236.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -222,7 +287,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 37.5, 50.0, 37.5, 50.0 ],
+					"midpoints" : [ 50.5, 191.0, 50.5, 191.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -245,7 +310,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

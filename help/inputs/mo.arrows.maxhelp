@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 180.0, 353.0 ],
+		"rect" : [ 34.0, 100.0, 294.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,8 +37,64 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "%",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 165.0, 92.0, 25.0 ],
+					"text" : "mute output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 271.0, 22.0 ],
+					"text" : "Use your keyboard's arrows to trigger events.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 235.0, 23.0 ],
+					"text" : "A computer keyboard arrows object."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 259.0, 71.0 ],
+					"text" : "mo.arrows"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "button",
@@ -46,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.0, 308.0, 24.0, 24.0 ]
+					"patching_rect" : [ 128.0, 421.515926122665405, 24.0, 24.0 ]
 				}
 
 			}
@@ -58,7 +114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 80.0, 308.0, 24.0, 24.0 ]
+					"patching_rect" : [ 99.0, 421.515926122665405, 24.0, 24.0 ]
 				}
 
 			}
@@ -70,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 51.0, 308.0, 24.0, 24.0 ]
+					"patching_rect" : [ 70.0, 421.515926122665405, 24.0, 24.0 ]
 				}
 
 			}
@@ -82,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 308.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 421.515926122665405, 24.0, 24.0 ]
 				}
 
 			}
@@ -93,7 +149,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 22.0, 259.0, 135.0, 23.0 ],
+					"patching_rect" : [ 41.0, 372.515926122665405, 135.0, 23.0 ],
 					"text" : "route left right up down"
 				}
 
@@ -106,7 +162,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 21.484073877334595, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 165.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -117,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 69.891713380813599, 53.0, 23.0 ],
+					"patching_rect" : [ 41.0, 213.407639503479004, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -129,8 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 219.847115516662598, 48.0, 23.0 ],
-					"text" : "up"
+					"patching_rect" : [ 197.0, 372.515926122665405, 48.0, 23.0 ]
 				}
 
 			}
@@ -150,7 +205,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 107.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 250.515926122665405, 70.0, 87.0 ],
 					"varname" : "mo.key",
 					"viewvisibility" : 1
 				}
@@ -160,7 +215,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 31.5, 205.0, 147.5, 205.0 ],
+					"midpoints" : [ 50.5, 357.0, 235.5, 357.0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -169,6 +224,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 50.5, 339.0, 50.5, 339.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -177,6 +233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 50.5, 237.0, 50.5, 237.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -184,6 +241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -191,6 +249,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 50.5, 396.0, 50.5, 396.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -198,6 +257,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 79.5, 396.0, 79.5, 396.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -205,6 +265,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 108.5, 396.0, 108.5, 396.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -212,6 +273,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 137.5, 396.0, 137.5, 396.0 ],
 					"source" : [ "obj-8", 3 ]
 				}
 
@@ -246,7 +308,7 @@
 			}
 , 			{
 				"name" : "mo.arrows.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1

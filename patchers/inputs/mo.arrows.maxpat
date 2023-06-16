@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -280,7 +280,7 @@
 , 			{
 				"box" : 				{
 					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"downarrow" : 0,
 					"id" : "obj-38",
 					"leftarrow" : 0,
@@ -291,7 +291,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 161.587909718879473, 516.990021225398777, 28.666666666666686, 24.571428571428555 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.913043260574341, 33.0, 24.927673444151885, 21.366577237844439 ],
+					"presentation_rect" : [ 22.536163277924061, 34.0, 24.927673444151885, 21.366577237844439 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
@@ -310,7 +310,7 @@
 , 			{
 				"box" : 				{
 					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-33",
 					"leftarrow" : 0,
 					"maxclass" : "live.arrows",
@@ -320,7 +320,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 191.254576385546159, 516.990021225398777, 28.666666666666629, 24.571428571428442 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.913043260574341, 61.156749040754377, 24.927673444151822, 21.366577237844325 ],
+					"presentation_rect" : [ 22.536163277924061, 59.734265893697895, 24.927673444151822, 21.366577237844325 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
@@ -340,7 +340,7 @@
 , 			{
 				"box" : 				{
 					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"downarrow" : 0,
 					"id" : "obj-31",
 					"leftarrow" : 0,
@@ -351,7 +351,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.921243052212787, 516.990021225398777, 28.666666666666629, 24.571428571428442 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.941817391424877, 47.011821419866607, 24.927673444151822, 21.366577237844325 ],
+					"presentation_rect" : [ 38.972120497136814, 47.011821419866607, 24.927673444151822, 21.366577237844325 ],
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -370,7 +370,7 @@
 , 			{
 				"box" : 				{
 					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"downarrow" : 0,
 					"id" : "obj-15",
 					"maxclass" : "live.arrows",
@@ -380,7 +380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.254576385546102, 516.990021225398777, 28.666666666666686, 24.571428571428555 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 47.011821419866607, 24.927673444151885, 21.366577237844439 ],
+					"presentation_rect" : [ 6.0, 47.011821419866607, 24.927673444151885, 21.366577237844439 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
@@ -431,6 +431,25 @@
 					"presentation_rect" : [ 3.0, 4.0, 45.0, 21.0 ],
 					"text" : "arrows",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.432843089103699, 90.000005125999451, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 33.0, 58.926789194345474, 49.100843131542206 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}

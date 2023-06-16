@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 199.0, 181.0 ],
+		"rect" : [ 34.0, 100.0, 406.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,15 +37,85 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "%",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-7",
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 178.501122386464431, 238.5, 121.0, 23.0 ],
+					"text" : "expr random(0\\, 100)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 149.501122386464431, 166.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 24.0, 95.0, 21.0 ],
-					"text" : "|| SHIFT + enter"
+					"patching_rect" : [ 183.001122386464431, 158.5, 197.0, 39.0 ],
+					"presentation_linecount" : 2,
+					"text" : "generate some random numbers\non the Max console"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 265.0, 22.0 ],
+					"text" : "Press SHIFT+Enter to clear the Max console.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 157.0, 23.0 ],
+					"text" : "Clear your Max console."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 278.0, 71.0 ],
+					"text" : "mo.console"
 				}
 
 			}
@@ -55,8 +125,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 134.0, 35.0, 23.0 ],
-					"text" : "print"
+					"patching_rect" : [ 178.501122386464431, 275.5, 92.0, 23.0 ],
+					"text" : "print @popup 1"
 				}
 
 			}
@@ -67,20 +137,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 116.0, 95.5, 40.0, 23.0 ],
-					"text" : "uzi 8"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 116.0, 61.0, 58.0, 23.0 ],
-					"text" : "loadbang"
+					"patching_rect" : [ 149.501122386464431, 204.0, 48.0, 23.0 ],
+					"text" : "uzi 100"
 				}
 
 			}
@@ -91,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.498877613535569, 23.0, 35.0, 23.0 ],
+					"patching_rect" : [ 41.0, 166.0, 35.0, 23.0 ],
 					"text" : "clear"
 				}
 
@@ -111,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 22.498877613535569, 61.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 204.0, 70.0, 57.5 ],
 					"varname" : "mo.adstatus",
 					"viewvisibility" : 1
 				}
@@ -121,13 +179,23 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-1", 0 ]
+					"midpoints" : [ 159.001122386464431, 192.0, 159.001122386464431, 192.0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 188.001122386464431, 264.0, 188.001122386464431, 264.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 188.001122386464431, 228.0, 188.001122386464431, 228.0 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -135,6 +203,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -156,7 +225,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.console.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1

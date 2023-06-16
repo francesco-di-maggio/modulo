@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 437.283333333333303, 132.0, 35.0, 23.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "message",
@@ -196,11 +208,11 @@
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 322.083333333333314, 92.394333000000017, 84.0, 23.0 ],
-					"text" : "route mute dB"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 322.083333333333314, 92.394333000000017, 163.0, 23.0 ],
+					"text" : "route mute dB int onoff open"
 				}
 
 			}
@@ -369,6 +381,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 446.783333333333303, 186.0, 203.653199976682799, 186.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 370.653199976682799, 78.0, 331.583333333333314, 78.0 ],
 					"source" : [ "obj-16", 0 ]
@@ -377,9 +397,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 446.783333333333303, 117.0, 446.783333333333303, 117.0 ],
+					"source" : [ "obj-20", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 417.983333333333348, 186.0, 203.653199976682799, 186.0 ],
+					"source" : [ "obj-20", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 364.083333333333314, 435.0, 35.653199976682799, 435.0 ],
+					"midpoints" : [ 360.383333333333326, 435.0, 35.653199976682799, 435.0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 389.18333333333328, 339.0, 249.085018158500986, 339.0 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}
