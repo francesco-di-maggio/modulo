@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -215,11 +215,11 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "chiko.aiff",
-								"filename" : "chiko.aiff",
+								"absolutepath" : "drumLoop.aif",
+								"filename" : "drumLoop.aif",
 								"filekind" : "audiofile",
-								"id" : "u263006641",
-								"selection" : [ 0.0, 0.450980392156863 ],
+								"id" : "u992007610",
+								"selection" : [ 0.444444444444444, 0.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -251,11 +251,10 @@
 
 							}
 , 							{
-								"absolutepath" : "Piano_C3.wav",
-								"filename" : "Piano_C3.wav",
+								"absolutepath" : "sho0630.aif",
+								"filename" : "sho0630.aif",
 								"filekind" : "audiofile",
-								"id" : "u386006149",
-								"selection" : [ 0.569444444444444, 0.0 ],
+								"id" : "u229003654",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -290,16 +289,11 @@
 						"selectioncolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
 
 					}
 ,
 					"selectioncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"showname" : 0,
-					"textcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"timestretch" : [ 0 ],
 					"waveformdisplay" : 0
 				}

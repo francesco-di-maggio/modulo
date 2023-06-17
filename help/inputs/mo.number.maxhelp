@@ -50,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.5, 210.5, 84.0, 68.0 ],
-					"presentation_linecount" : 4,
 					"text" : "set type:\n1 = integer\n2 = midi\n3 = float"
 				}
 
@@ -95,12 +94,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-30",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 208.0, 38.0 ],
-					"text" : "Display and output a number.\nNumbers can be int, float, or MIDI.",
+					"patching_rect" : [ 9.0, 102.0, 208.0, 22.0 ],
+					"text" : "Numbers can be int, float, or MIDI.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -113,8 +111,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 116.0, 23.0 ],
-					"text" : "A number object."
+					"patching_rect" : [ 9.0, 83.0, 190.0, 23.0 ],
+					"text" : "Display and output a number."
 				}
 
 			}

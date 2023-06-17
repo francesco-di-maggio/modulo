@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.5, 205.0, 95.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mute output "
 				}
 
@@ -61,7 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 448.0, 103.0, 23.0 ]
+					"patching_rect" : [ 80.0, 448.0, 103.0, 23.0 ],
+					"text" : "0 0 0 0 0 1 0 0 0"
 				}
 
 			}

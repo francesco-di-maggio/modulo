@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 405.0, 526.0 ],
+		"rect" : [ 34.0, 100.0, 659.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,67 +41,207 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 378.255791574060595, 204.0, 175.0, 25.0 ],
+					"text" : "turn hypersensitivity on/off "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 196.228078566655597, 480.0, 64.0, 21.0 ],
+					"presentation_linecount" : 6,
+					"text" : "gyroscope"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 135.228078566655597, 480.0, 21.0, 21.0 ],
+					"text" : "cc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 56.5, 480.0, 33.0, 21.0 ],
+					"text" : "note"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-30",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.scope.maxpat",
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 239.0, 214.0, 265.0 ],
-					"varname" : "mo.scope",
-					"viewvisibility" : 1
+					"patching_rect" : [ 188.228078566655597, 455.0, 80.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-20",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"id" : "obj-29",
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 239.0, 70.0, 265.0 ],
-					"varname" : "mo.slider[1]",
-					"viewvisibility" : 1
+					"patching_rect" : [ 113.728078566655597, 455.0, 64.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"id" : "obj-27",
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 239.0, 70.0, 265.0 ],
-					"varname" : "mo.slider",
-					"viewvisibility" : 1
+					"patching_rect" : [ 41.0, 455.0, 64.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"hint" : "",
+					"id" : "obj-10",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 385.0, 167.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"hint" : "",
+					"id" : "obj-8",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 196.228078566655597, 331.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 411.255791574060595, 165.0, 222.0, 25.0 ],
+					"text" : "refresh MIDI ports, and set Wave \"X\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 222.483870140716192, 322.0, 236.0, 39.0 ],
+					"presentation_linecount" : 2,
+					"text" : "click \"setup\" to open Audio Midi Setup, locate and connect Bluetooth device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 365.0, 38.0 ],
+					"presentation_linecount" : 4,
+					"text" : "Switch between the main functionalities of the ball.\nFirst outlet are notes, second cc values, third gyroscope data.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 194.0, 23.0 ],
+					"text" : "An interface for the Odd. ball."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 215.0, 71.0 ],
+					"text" : "mo.odd"
 				}
 
 			}
@@ -113,7 +253,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 301.0, 23.0, 24.0, 24.0 ]
+					"patching_rect" : [ 344.0, 204.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -124,31 +264,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.0, 72.0, 56.0, 23.0 ],
+					"patching_rect" : [ 344.0, 253.0, 56.0, 23.0 ],
 					"text" : "hyper $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"gradient" : 1,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 23.0, 121.0, 23.0 ],
-					"text" : "\"ODD Pro Bluetooth\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 176.0, 166.0, 121.0, 23.0 ],
+					"text" : "\"ODD Pro Bluetooth\""
 				}
 
 			}
@@ -160,7 +289,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 95.728078566655654, 22.0, 50.0, 23.0 ]
+					"patching_rect" : [ 113.728078566655654, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -171,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 71.0, 47.0, 23.0 ],
+					"patching_rect" : [ 321.0, 166.0, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -179,12 +308,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.728078566655597, 71.0, 49.0, 23.0 ],
-					"text" : "port $1"
+					"patching_rect" : [ 113.728078566655597, 215.0, 79.0, 23.0 ],
+					"text" : "prepend port"
 				}
 
 			}
@@ -196,7 +325,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 22.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -207,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 71.0, 53.0, 23.0 ],
+					"patching_rect" : [ 41.0, 215.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -228,7 +357,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 23.0, 123.0, 142.0, 87.0 ],
+					"patching_rect" : [ 41.0, 327.0, 142.0, 87.0 ],
 					"varname" : "mo.odd",
 					"viewvisibility" : 1
 				}
@@ -238,7 +367,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 32.5, 96.0, 32.5, 96.0 ],
+					"midpoints" : [ 50.5, 240.0, 50.5, 240.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -246,7 +375,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 32.5, 48.0, 32.5, 48.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -254,7 +383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 310.5, 48.0, 310.5, 48.0 ],
+					"midpoints" : [ 353.5, 231.0, 353.5, 231.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -262,7 +391,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 310.5, 108.0, 32.5, 108.0 ],
+					"midpoints" : [ 353.5, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -270,7 +399,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 105.228078566655597, 108.0, 32.5, 108.0 ],
+					"midpoints" : [ 123.228078566655597, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -278,7 +407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 176.5, 108.0, 32.5, 108.0 ],
+					"midpoints" : [ 330.5, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -286,7 +415,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 105.228078566655654, 48.0, 105.228078566655597, 48.0 ],
+					"midpoints" : [ 123.228078566655654, 192.0, 123.228078566655597, 192.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -294,45 +423,37 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 176.5, 57.0, 105.228078566655597, 57.0 ],
+					"midpoints" : [ 185.5, 201.0, 123.228078566655597, 201.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 32.5, 213.0, 32.5, 213.0 ],
+					"destination" : [ "obj-27", 1 ],
+					"midpoints" : [ 50.5, 441.0, 95.5, 441.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 94.0, 225.0, 104.5, 225.0 ],
+					"destination" : [ "obj-29", 1 ],
+					"midpoints" : [ 112.0, 441.0, 168.228078566655597, 441.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 155.5, 225.0, 176.5, 225.0 ],
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 173.5, 441.0, 258.728078566655597, 441.0 ],
 					"source" : [ "obj-5", 2 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
-			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
-			"obj-1::obj-7" : [ "live.text[1]", "live.text", 0 ],
-			"obj-20::obj-3" : [ "slider-[1]", "slider-", 0 ],
-			"obj-20::obj-35" : [ "live.text[2]", "live.text", 0 ],
-			"obj-20::obj-7" : [ "live.text[3]", "live.text", 0 ],
-			"obj-30::obj-11" : [ "live.text[15]", "live.text", 0 ],
-			"obj-30::obj-52" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-5::obj-153" : [ "live.text[48]", "live.text", 0 ],
 			"obj-5::obj-46" : [ "live.text[53]", "live.text", 0 ],
 			"obj-5::obj-5" : [ "live.text[27]", "live.text", 0 ],
@@ -348,26 +469,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-7" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-20::obj-35" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-20::obj-7" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-30::obj-11" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-30::obj-52" : 				{
-					"parameter_longname" : "live.numbox[11]"
-				}
-,
 				"obj-5::obj-153" : 				{
 					"parameter_longname" : "live.text[48]"
 				}
@@ -401,20 +502,6 @@
 			}
 , 			{
 				"name" : "mo.odd.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 461.0, 530.0 ],
+		"rect" : [ 34.0, 100.0, 473.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,13 +41,67 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 228.859384090909316, 158.0, 125.0, 39.0 ],
+					"text" : "play/stop by index \n(0 stops playback)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 284.0, 22.0 ],
+					"text" : "Playback, loop and select section of sound files.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 109.0, 23.0 ],
+					"text" : "Play sound files."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 299.0, 71.0 ],
+					"text" : "mo.playlist~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 87.140615909090684, 21.0, 24.0, 24.0 ]
+					"patching_rect" : [ 104.0, 166.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -58,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.140615909090684, 63.0, 49.0, 23.0 ],
+					"patching_rect" : [ 104.0, 208.0, 49.0, 23.0 ],
 					"text" : "loop $1"
 				}
 
@@ -70,8 +124,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.333333333333371, 19.5, 73.0, 25.0 ],
-					"text" : "playback"
+					"patching_rect" : [ 292.192717424242687, 207.5, 131.0, 25.0 ],
+					"text" : "start/stop playback"
 				}
 
 			}
@@ -90,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 247.833333333333371, 22.0, 20.0, 20.0 ],
+					"patching_rect" : [ 264.692717424242687, 210.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -109,7 +163,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 212.0, 20.0, 24.0, 24.0 ]
+					"patching_rect" : [ 228.859384090909316, 208.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -121,7 +175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.0, 21.0, 50.0, 23.0 ]
+					"patching_rect" : [ 168.859384090909316, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -132,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.333333333333371, 445.5, 74.0, 25.0 ],
+					"patching_rect" : [ 381.192717424242687, 633.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -152,7 +206,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 336.833333333333371, 448.0, 20.0, 20.0 ],
+					"patching_rect" : [ 353.692717424242687, 636.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -166,10 +220,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
+					"local" : 1,
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 431.500000000000057, 53.0, 53.0 ]
+					"patching_rect" : [ 286.859384090909316, 619.5, 53.0, 53.0 ]
 				}
 
 			}
@@ -181,7 +236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 24.140615909090684, 21.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -192,7 +247,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.140615909090684, 63.0, 53.0, 23.0 ],
+					"patching_rect" : [ 41.0, 208.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -212,7 +267,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 24.140615909090684, 414.297012329101562, 214.0, 87.0 ],
+					"patching_rect" : [ 41.0, 602.297012329101562, 214.0, 87.0 ],
 					"varname" : "mo.dac~[1]",
 					"viewvisibility" : 1
 				}
@@ -234,7 +289,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 24.140615909090684, 113.0, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 301.0, 214.0, 265.0 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -244,7 +299,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 96.640615909090684, 48.0, 96.640615909090684, 48.0 ],
+					"midpoints" : [ 113.5, 192.0, 113.5, 192.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -252,7 +307,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 33.640615909090684, 87.0, 33.640615909090684, 87.0 ],
+					"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -260,7 +315,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 161.5, 99.0, 33.640615909090684, 99.0 ],
+					"midpoints" : [ 178.359384090909316, 288.0, 50.5, 288.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -268,7 +323,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 33.640615909090684, 48.0, 33.640615909090684, 48.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -276,7 +331,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 96.640615909090684, 99.0, 33.640615909090684, 99.0 ],
+					"midpoints" : [ 113.5, 288.0, 50.5, 288.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -284,7 +339,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 33.640615909090684, 381.0, 33.640615909090684, 381.0 ],
+					"midpoints" : [ 50.5, 567.0, 50.5, 567.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -292,7 +347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 221.5, 99.0, 33.640615909090684, 99.0 ],
+					"midpoints" : [ 238.359384090909316, 288.0, 50.5, 288.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -318,22 +373,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Piano_C3.wav",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/media/audio samples",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/media/audio samples",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "brushes.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chiko.aiff",
-				"bootpath" : "~/Documents/Max 8/Packages/ataumyoperf/media",
-				"patcherrelativepath" : "../../../ataumyoperf/media",
+				"name" : "drumLoop.aif",
+				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -368,6 +415,12 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sho0630.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
