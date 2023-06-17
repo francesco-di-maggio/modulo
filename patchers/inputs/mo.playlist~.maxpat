@@ -219,7 +219,6 @@
 								"filename" : "drumLoop.aif",
 								"filekind" : "audiofile",
 								"id" : "u992007610",
-								"selection" : [ 0.444444444444444, 0.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -255,9 +254,9 @@
 								"filename" : "sho0630.aif",
 								"filekind" : "audiofile",
 								"id" : "u229003654",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}

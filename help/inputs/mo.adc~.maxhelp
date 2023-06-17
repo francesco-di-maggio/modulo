@@ -94,13 +94,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.0, 165.0, 89.0, 24.0 ],
+					"patching_rect" : [ 74.0, 165.0, 92.0, 25.0 ],
 					"text" : "mute output"
 				}
 
@@ -108,13 +108,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 204.0, 163.0, 24.0 ],
+					"patching_rect" : [ 192.0, 204.0, 164.0, 25.0 ],
 					"text" : "set volume in dB (-70, +6)"
 				}
 
@@ -122,13 +122,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 244.0, 131.0, 24.0 ],
+					"patching_rect" : [ 230.0, 244.0, 131.0, 25.0 ],
 					"text" : "number of channels"
 				}
 
@@ -136,13 +136,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.0, 329.0, 123.0, 24.0 ],
+					"patching_rect" : [ 346.0, 329.0, 123.0, 25.0 ],
 					"text" : "open Audio Status"
 				}
 
@@ -150,13 +150,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 290.0, 123.0, 24.0 ],
+					"patching_rect" : [ 288.0, 290.0, 127.0, 25.0 ],
 					"text" : "start/stop all audio"
 				}
 
@@ -186,35 +186,35 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.140615909090684, 330.0, 52.0, 22.0 ],
+					"patching_rect" : [ 230.140615909090684, 330.0, 55.0, 23.0 ],
 					"text" : "onoff $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.0, 330.0, 35.0, 22.0 ],
+					"patching_rect" : [ 303.0, 330.0, 35.0, 23.0 ],
 					"text" : "open"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "number",
@@ -222,7 +222,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 171.0, 245.0, 52.0, 22.0 ],
+					"patching_rect" : [ 171.0, 245.0, 54.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 2 ],
@@ -282,7 +282,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"format" : 6,
 					"id" : "obj-8",
@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 108.140615909090684, 205.0, 54.0, 22.0 ]
+					"patching_rect" : [ 108.140615909090684, 205.0, 54.0, 23.0 ]
 				}
 
 			}
@@ -311,28 +311,28 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.140615909090684, 245.0, 40.0, 22.0 ],
+					"patching_rect" : [ 108.140615909090684, 245.0, 40.0, 23.0 ],
 					"text" : "dB $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.140615909090684, 205.0, 52.0, 22.0 ],
+					"patching_rect" : [ 41.140615909090684, 205.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
