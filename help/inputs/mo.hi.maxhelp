@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 508.0, 294.0 ],
+		"rect" : [ 34.0, 100.0, 523.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,26 +36,59 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.monitor.maxpat",
+					"id" : "obj-14",
+					"maxclass" : "message",
 					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 92.740740740740762, 344.0, 90.259259259259295, 23.0 ],
+					"text" : "11 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 25.0, 215.0, 214.0, 57.5 ],
-					"varname" : "mo.monitor",
-					"viewvisibility" : 1
+					"patching_rect" : [ 9.0, 102.0, 483.0, 22.0 ],
+					"text" : "Provides input from human-interface device interfaces (Trackpad, Gamepad, etc.)",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 198.0, 23.0 ],
+					"text" : "Human-interface device input."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 139.0, 71.0 ],
+					"text" : "mo.hi"
 				}
 
 			}
@@ -68,8 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0, 20.3754593282938, 74.0, 25.0 ],
-					"text" : "set name"
+					"patching_rect" : [ 434.0, 164.0, 71.0, 25.0 ],
+					"text" : "set port "
 				}
 
 			}
@@ -87,7 +120,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.0, 22.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 407.0, 166.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -96,36 +129,25 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"gradient" : 1,
 					"id" : "obj-26",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 21.3754593282938, 210.0, 23.0 ],
-					"text" : "\"Apple Internal Keyboard / Trackpad\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 185.0, 165.0, 210.0, 23.0 ],
+					"text" : "\"Apple Internal Keyboard / Trackpad\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 73.0, 60.0, 23.0 ],
-					"text" : "device $1"
+					"patching_rect" : [ 185.0, 206.0, 91.0, 23.0 ],
+					"text" : "prepend device"
 				}
 
 			}
@@ -136,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.999999999999943, 73.0, 53.0, 23.0 ],
+					"patching_rect" : [ 40.999999999999943, 206.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -149,7 +171,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 25.0, 32.0, 24.0, 24.0 ],
+					"patching_rect" : [ 41.0, 165.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -174,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.740740740740691, 73.0, 47.0, 23.0 ],
+					"patching_rect" : [ 109.740740740740705, 206.0, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -195,7 +217,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 25.000000000000028, 125.999999999999886, 142.0, 57.5 ],
+					"patching_rect" : [ 41.000000000000028, 258.999999999999886, 142.0, 57.5 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -205,7 +227,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 34.499999999999943, 99.0, 34.500000000000028, 99.0 ],
+					"midpoints" : [ 50.499999999999943, 231.0, 50.500000000000028, 231.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -213,15 +235,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 34.5, 57.0, 34.499999999999943, 57.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.499999999999943, 192.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 34.500000000000028, 186.0, 34.5, 186.0 ],
+					"destination" : [ "obj-14", 1 ],
+					"midpoints" : [ 50.500000000000028, 330.0, 173.500000000000057, 330.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -229,7 +251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 178.5, 45.0, 178.5, 45.0 ],
+					"midpoints" : [ 194.5, 189.0, 194.5, 189.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -237,7 +259,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 178.5, 111.0, 34.500000000000028, 111.0 ],
+					"midpoints" : [ 194.5, 243.0, 50.500000000000028, 243.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -245,7 +267,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 103.240740740740691, 111.0, 34.500000000000028, 111.0 ],
+					"midpoints" : [ 119.240740740740705, 243.0, 50.500000000000028, 243.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -256,8 +278,6 @@
 			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-13::obj-153" : [ "live.text[62]", "live.text", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],
-			"obj-1::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-1::obj-4" : [ "live.text[116]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -271,13 +291,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -285,15 +298,8 @@
 			}
 , 			{
 				"name" : "mo.hi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.monitor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -306,19 +312,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

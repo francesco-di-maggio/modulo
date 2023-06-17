@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -298,7 +299,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-3::obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-3::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-3::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-7::obj-33" : [ "live.text[72]", "live.text", 0 ],
 			"obj-7::obj-42" : [ "live.text[8]", "live.text", 0 ],
@@ -393,19 +395,8 @@
 		"autosave" : 0,
 		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority", "traceenable", "patchernavmenu", "autolockunselected" ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }
