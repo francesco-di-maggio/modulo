@@ -1474,7 +1474,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -1230.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1856,9 +1856,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.automation", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
-																			"parameter_mmax" : 38,
+																			"parameter_mmax" : 37,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2281,7 +2281,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Handle auxilary functions, such as mapping and visualizing signals and control data",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3037,7 +3037,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
+									"activebgoncolor" : [ 0.322, 0.749, 0.906, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 16.0,
@@ -3763,7 +3763,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
+									"activebgoncolor" : [ 0.322, 0.749, 0.906, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 16.0,
@@ -4102,7 +4102,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"fontsize" : 22.0,
@@ -4122,7 +4122,7 @@
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_value_bar"
+							"expression" : ""
 						}
 ,
 						"bordercolor" : 						{
@@ -4167,7 +4167,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 392.0, 246.0, 239.0, 318.0 ],
+						"rect" : [ 392.0, 246.0, 240.0, 318.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4369,7 +4369,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-					"activebgoncolor" : [ 0.32156862745098, 0.749019607843137, 0.905882352941176, 1.0 ],
+					"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
 					"bgoncolor" : [ 0.537, 0.831, 0.945, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
@@ -4555,7 +4555,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.45092, 0.15712, 0.17636, 0.46276, 0.26908, 0.34104 ],
+					"nsize" : [ 0.40952, 0.43424, 0.2972, 0.24104, 0.28292, 0.38492 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4566,8 +4566,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 813.0, 766.0 ],
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.1818, 0.6382, 0.5896, 0.7657, 0.9459, 0.1938 ],
-					"yplace" : [ 0.743, 0.74, 0.141, 0.2216, 0.8379, 0.0576 ]
+					"xplace" : [ 0.6956, 0.2748, 0.819, 0.1771, 0.7782, 0.3882 ],
+					"yplace" : [ 0.1708, 0.9227, 0.1394, 0.1027, 0.7087, 0.5472 ]
 				}
 
 			}

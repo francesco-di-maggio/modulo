@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -109,12 +109,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 274.0, 437.161721392228117, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mute @bindto mute- @initial 1",
+					"text" : "pattr mute @bindto mute- @initial 0",
 					"varname" : "mute"
 				}
 

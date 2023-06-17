@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 176.0 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
 					"varname" : "mo.record~",
 					"viewvisibility" : 1
 				}
@@ -85,8 +85,32 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-141" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-52" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.text[145]"
+				}
+,
 				"obj-1::obj-85" : 				{
 					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-88" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-1::obj-92" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 
 			}
@@ -96,7 +120,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -115,28 +139,28 @@
 			}
 , 			{
 				"name" : "mo.record~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1

@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 438.0, 548.0 ],
+						"rect" : [ 0.0, 26.0, 438.0, 548.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -428,7 +428,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 438.0, 548.0 ],
+						"rect" : [ 34.0, 126.0, 438.0, 548.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -487,8 +487,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 293.890492372269819, 331.5, 99.0, 25.0 ],
-									"text" : "type message"
+									"patching_rect" : [ 293.890492372269819, 331.5, 108.0, 25.0 ],
+									"text" : "type a message"
 								}
 
 							}
@@ -558,12 +558,12 @@
 								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 13.0,
+									"fontsize" : 12.0,
 									"id" : "obj-25",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.529780500000015, 163.5, 110.0, 26.0 ],
+									"patching_rect" : [ 110.529780500000015, 163.5, 104.0, 25.0 ],
 									"text" : "clear message "
 								}
 
