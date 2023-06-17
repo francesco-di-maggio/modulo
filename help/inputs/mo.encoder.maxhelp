@@ -177,12 +177,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.511583148121076, 350.0, 60.0, 23.0 ],
-					"text" : "device $1"
+					"patching_rect" : [ 315.511583148121076, 350.0, 91.0, 23.0 ],
+					"text" : "prepend device"
 				}
 
 			}

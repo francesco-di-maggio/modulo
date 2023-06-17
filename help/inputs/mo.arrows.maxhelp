@@ -185,7 +185,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 372.515926122665405, 48.0, 23.0 ]
+					"patching_rect" : [ 197.0, 372.515926122665405, 48.0, 23.0 ],
+					"text" : "down"
 				}
 
 			}
@@ -280,6 +281,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-13" : [ "live.button[2]", "live.button", 0 ],
+			"obj-1::obj-14" : [ "live.button[5]", "live.button", 0 ],
+			"obj-1::obj-16" : [ "live.button[3]", "live.button", 0 ],
+			"obj-1::obj-7" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -291,6 +296,22 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.button[2]"
+				}
+,
+				"obj-1::obj-14" : 				{
+					"parameter_longname" : "live.button[5]"
+				}
+,
+				"obj-1::obj-16" : 				{
+					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.button[1]"
+				}
+,
 				"obj-1::obj-8" : 				{
 					"parameter_longname" : "live.text[188]"
 				}

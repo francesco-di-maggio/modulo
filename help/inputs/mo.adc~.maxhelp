@@ -189,8 +189,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 408.0, 22.0 ],
-					"text" : "Output a multichannel signal with audio from hardware input devices.",
+					"patching_rect" : [ 9.0, 102.0, 376.0, 22.0 ],
+					"text" : "Output multichannel audio signals from hardware input devices.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -204,7 +204,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 83.0, 326.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "A multichannel \"audio-to-digital converter\" object."
 				}
 

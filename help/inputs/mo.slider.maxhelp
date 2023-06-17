@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 559.0, 728.0 ],
+		"rect" : [ 34.0, 100.0, 554.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -180,12 +180,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.255791574060538, 259.0, 60.0, 23.0 ],
-					"text" : "device $1"
+					"patching_rect" : [ 234.255791574060538, 259.0, 91.0, 23.0 ],
+					"text" : "prepend device"
 				}
 
 			}

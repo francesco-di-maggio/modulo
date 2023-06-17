@@ -1474,7 +1474,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -1230.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -2281,7 +2281,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Handle auxilary functions, such as mapping and visualizing signals and control data",
+													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4555,7 +4555,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.40952, 0.43424, 0.2972, 0.24104, 0.28292, 0.38492 ],
+					"nsize" : [ 0.14916, 0.23016, 0.38044, 0.49124, 0.18364, 0.20056 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4566,8 +4566,8 @@
 					"presentation_rect" : [ 0.0, 0.0, 813.0, 766.0 ],
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.6956, 0.2748, 0.819, 0.1771, 0.7782, 0.3882 ],
-					"yplace" : [ 0.1708, 0.9227, 0.1394, 0.1027, 0.7087, 0.5472 ]
+					"xplace" : [ 0.8874, 0.0018, 0.8898, 0.5274, 0.5619, 0.9619 ],
+					"yplace" : [ 0.3855, 0.4191, 0.4892, 0.3359, 0.1454, 0.4445 ]
 				}
 
 			}
