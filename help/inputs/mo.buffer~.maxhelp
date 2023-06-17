@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 601.0, 771.0 ],
+		"rect" : [ 34.0, 100.0, 601.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 601.0, 745.0 ],
+						"rect" : [ 0.0, 26.0, 601.0, 740.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -327,7 +327,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 387.487767530303017, 659.937500000000114, 74.0, 25.0 ],
+									"patching_rect" : [ 387.487767530303017, 654.937500000000114, 74.0, 25.0 ],
 									"text" : "start dsp"
 								}
 
@@ -347,7 +347,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 358.773022075757808, 662.937500000000114, 20.0, 20.0 ],
+									"patching_rect" : [ 358.773022075757808, 657.937500000000114, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -374,7 +374,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 41.0, 628.437500000000114, 214.0, 87.0 ],
+									"patching_rect" : [ 41.0, 623.437500000000114, 214.0, 87.0 ],
 									"varname" : "bbdmi.dac~",
 									"viewvisibility" : 1
 								}
@@ -387,7 +387,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 293.773022075757808, 645.437500000000114, 53.0, 53.0 ]
+									"patching_rect" : [ 293.773022075757808, 640.437500000000114, 53.0, 53.0 ]
 								}
 
 							}
@@ -407,7 +407,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 41.0, 338.218750000000057, 214.0, 265.0 ],
+									"patching_rect" : [ 41.0, 333.218750000000057, 214.0, 265.0 ],
 									"varname" : "bbdmi.buffer~",
 									"viewvisibility" : 1
 								}
@@ -417,7 +417,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 391.273022075757808, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 391.273022075757808, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -425,7 +425,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 542.362640151515052, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 542.362640151515052, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -449,7 +449,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 285.5, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 285.5, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -457,7 +457,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 50.5, 606.0, 50.5, 606.0 ],
+									"midpoints" : [ 50.5, 600.0, 50.5, 600.0 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -465,7 +465,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 332.398149454545774, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 332.398149454545774, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -548,7 +548,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 601.0, 745.0 ],
+						"rect" : [ 34.0, 126.0, 601.0, 740.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -867,7 +867,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 387.487767530303017, 659.937500000000114, 74.0, 25.0 ],
+									"patching_rect" : [ 387.487767530303017, 654.937500000000114, 74.0, 25.0 ],
 									"text" : "start dsp"
 								}
 
@@ -887,7 +887,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 358.773022075757808, 662.937500000000114, 20.0, 20.0 ],
+									"patching_rect" : [ 358.773022075757808, 657.937500000000114, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -914,7 +914,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 41.0, 628.437500000000114, 214.0, 87.0 ],
+									"patching_rect" : [ 41.0, 623.437500000000114, 214.0, 87.0 ],
 									"varname" : "bbdmi.dac~",
 									"viewvisibility" : 1
 								}
@@ -927,7 +927,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 293.773022075757808, 645.437500000000114, 53.0, 53.0 ]
+									"patching_rect" : [ 293.773022075757808, 640.437500000000114, 53.0, 53.0 ]
 								}
 
 							}
@@ -947,7 +947,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 41.0, 338.218750000000057, 214.0, 265.0 ],
+									"patching_rect" : [ 41.0, 333.218750000000057, 214.0, 265.0 ],
 									"varname" : "bbdmi.buffer~",
 									"viewvisibility" : 1
 								}
@@ -957,7 +957,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 541.987767530303017, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 541.987767530303017, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -965,7 +965,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 421.898149454545774, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 421.898149454545774, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -981,7 +981,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 50.5, 606.0, 50.5, 606.0 ],
+									"midpoints" : [ 50.5, 600.0, 50.5, 600.0 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -997,7 +997,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 290.273022075757808, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 290.273022075757808, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1005,7 +1005,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 363.022767318181877, 324.0, 245.5, 324.0 ],
+									"midpoints" : [ 363.022767318181877, 318.0, 245.5, 318.0 ],
 									"source" : [ "obj-58", 0 ]
 								}
 

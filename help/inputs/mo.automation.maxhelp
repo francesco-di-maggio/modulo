@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 659.0, 749.0 ],
+		"rect" : [ 34.0, 100.0, 664.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 659.0, 723.0 ],
+						"rect" : [ 34.0, 126.0, 664.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -391,11 +391,11 @@
 									"maxclass" : "multislider",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 40.824253082275391, 527.0, 94.0, 164.0 ],
-									"size" : 8,
+									"setstyle" : 1,
+									"size" : 4,
 									"spacing" : 2
 								}
 
@@ -408,11 +408,11 @@
 									"maxclass" : "multislider",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 165.0, 94.0, 164.0 ],
-									"size" : 8,
+									"setstyle" : 1,
+									"size" : 4,
 									"spacing" : 2
 								}
 
@@ -711,7 +711,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 659.0, 723.0 ],
+						"rect" : [ 0.0, 26.0, 664.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -869,11 +869,11 @@
 									"maxclass" : "multislider",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 40.824253082275391, 527.0, 94.0, 164.0 ],
-									"size" : 8,
+									"setstyle" : 1,
+									"size" : 4,
 									"spacing" : 2
 								}
 
@@ -886,11 +886,11 @@
 									"maxclass" : "multislider",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 165.0, 94.0, 164.0 ],
-									"size" : 8,
+									"setstyle" : 1,
+									"size" : 4,
 									"spacing" : 2
 								}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -626,14 +626,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 0 ],
-					"midpoints" : [ 430.333333333333314, 582.0, 207.0, 582.0 ],
-					"source" : [ "obj-27", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 371.666666666666629, 315.0, 388.5, 315.0 ],
 					"source" : [ "obj-27", 2 ]
@@ -661,6 +653,14 @@
 					"destination" : [ "obj-56", 0 ],
 					"midpoints" : [ 401.0, 273.0, 149.0, 273.0 ],
 					"source" : [ "obj-27", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"midpoints" : [ 430.333333333333314, 480.0, 344.0, 480.0 ],
+					"source" : [ "obj-27", 4 ]
 				}
 
 			}
