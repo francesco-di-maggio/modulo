@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,18 +42,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-18",
-					"index" : 2,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 761.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-11",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -66,7 +54,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.997470080143228, 0.028922249723247, 0.0, 1.0 ],
+					"bgcolor" : [ 0.48616483105419, 0.385746544198604, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
@@ -74,7 +62,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 693.0, 98.0, 98.0 ],
+					"patching_rect" : [ 172.0, 693.0, 98.0, 98.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -627,18 +615,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 181.5, 624.0, 181.5, 624.0 ],
-					"order" : 1,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 181.5, 678.0, 313.5, 678.0 ],
-					"order" : 0,
+					"midpoints" : [ 181.5, 678.0, 181.5, 678.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 

@@ -162,21 +162,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_initial" : [ 1 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "toggle",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "toggle",
-							"parameter_type" : 2
-						}
-
-					}
-,
 					"varname" : "toggle[2]"
 				}
 
@@ -353,7 +340,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15" : [ "toggle", "toggle", 0 ],
 			"obj-4::obj-153" : [ "live.text[75]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
