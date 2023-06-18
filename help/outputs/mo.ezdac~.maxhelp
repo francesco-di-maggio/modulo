@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 450.0, 511.0 ],
+		"rect" : [ 34.0, 100.0, 489.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -86,17 +86,16 @@
 					"maxclass" : "mc.live.gain~",
 					"numinlets" : 1,
 					"numoutlets" : 4,
+					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 41.0, 238.0, 48.0, 136.0 ],
+					"patching_rect" : [ 41.0, 238.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -20 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "gain~",
+							"parameter_shortname" : "output gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -154,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 281.0, 206.0, 25.0 ],
+					"patching_rect" : [ 266.0, 287.0, 206.0, 25.0 ],
 					"text" : "turn on/off local audio processing"
 				}
 
@@ -167,7 +166,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.0, 281.0, 24.0, 24.0 ]
+					"patching_rect" : [ 232.0, 287.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -178,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 332.0, 50.0, 23.0 ],
+					"patching_rect" : [ 232.0, 338.0, 50.0, 23.0 ],
 					"text" : "local $1"
 				}
 
@@ -192,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 238.0, 92.0, 25.0 ],
+					"patching_rect" : [ 232.0, 244.0, 92.0, 25.0 ],
 					"text" : "mute output"
 				}
 
@@ -246,7 +245,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 155.0, 238.0, 24.0, 24.0 ]
+					"patching_rect" : [ 199.0, 244.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -274,7 +273,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 197.5, 306.0, 197.5, 306.0 ],
+					"midpoints" : [ 241.5, 312.0, 241.5, 312.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -298,7 +297,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 164.5, 381.0, 101.5, 381.0 ],
+					"midpoints" : [ 208.5, 381.0, 101.5, 381.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -306,7 +305,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 197.5, 381.0, 101.5, 381.0 ],
+					"midpoints" : [ 241.5, 381.0, 101.5, 381.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -314,7 +313,7 @@
  ],
 		"parameters" : 		{
 			"obj-2::obj-35" : [ "live.text[1]", "live.text", 0 ],
-			"obj-5" : [ "mc.live.gain~", "gain~", 0 ],
+			"obj-5" : [ "mc.live.gain~", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -343,19 +342,8 @@
  ],
 		"autosave" : 0,
 		"toolbarexclusions" : [ "objectpriority", "grid", "savefavorite", "autolockunselected", "traceenable", "patchernavmenu", "keymap", "transport", "midimap" ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,13 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad+.maxpat",
+					"name" : "mo.pinch.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
-					"varname" : "mo.pad+",
 					"viewvisibility" : 1
 				}
 
@@ -79,13 +78,36 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-103" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-1::obj-126" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
+				"obj-1::obj-51" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-1::obj-74" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-1::obj-75" : 				{
+					"parameter_longname" : "live.text[50]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.pad+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.pinch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}

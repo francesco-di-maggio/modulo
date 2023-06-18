@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -897,9 +897,11 @@
 			"obj-38::obj-171" : [ "live.numbox[59]", "live.dial[12]", 0 ],
 			"obj-38::obj-19" : [ "live.numbox[56]", "live.dial[12]", 0 ],
 			"obj-38::obj-88" : [ "live.text[139]", "live.text", 0 ],
+			"obj-39::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-39::obj-125" : [ "live.numbox[60]", "live.dial[12]", 0 ],
 			"obj-39::obj-138" : [ "live.numbox[58]", "live.dial[12]", 0 ],
 			"obj-39::obj-141" : [ "live.text[211]", "live.text", 0 ],
+			"obj-39::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
 			"obj-9::obj-45" : [ "live.gain~[3]", "volume", 0 ],
@@ -915,6 +917,34 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-38::obj-163" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-38::obj-88" : 				{
+					"parameter_longname" : "live.text[139]"
+				}
+,
+				"obj-39::obj-125" : 				{
+					"parameter_longname" : "live.numbox[60]"
+				}
+,
+				"obj-39::obj-138" : 				{
+					"parameter_longname" : "live.numbox[58]"
+				}
+,
+				"obj-39::obj-141" : 				{
+					"parameter_longname" : "live.text[211]"
+				}
+,
+				"obj-39::obj-23" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-39::obj-33" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
 				"obj-9::obj-45" : 				{
 					"parameter_longname" : "live.gain~[3]"
 				}
@@ -933,6 +963,19 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "load.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -964,8 +1007,8 @@
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1021,19 +1064,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

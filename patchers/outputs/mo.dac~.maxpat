@@ -182,8 +182,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 327.083333333333258, 159.788666000000035, 118.0, 23.0 ],
-					"text" : "route mute dB chans"
+					"patching_rect" : [ 327.083333333333258, 159.788666000000035, 101.0, 23.0 ],
+					"text" : "route mute dB int"
 				}
 
 			}
@@ -396,17 +396,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 402.583333333333258, 296.0, 283.5, 296.0 ],
-					"source" : [ "obj-20", 2 ]
+					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 363.916666666666572, 380.0, 48.653199976682799, 380.0 ],
+					"source" : [ "obj-20", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 369.583333333333258, 380.0, 48.653199976682799, 380.0 ],
-					"source" : [ "obj-20", 1 ]
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 391.249999999999886, 210.0, 283.5, 210.0 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

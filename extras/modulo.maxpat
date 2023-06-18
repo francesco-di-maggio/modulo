@@ -1239,7 +1239,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 537.0, 671.0, 140.0, 23.0 ],
+									"patching_rect" : [ 336.0, 661.833335876464844, 140.0, 23.0 ],
 									"text" : "send live.tab rounded 10"
 								}
 
@@ -1709,7 +1709,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -820.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1932,7 +1932,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 11,
-																	"num_lines_presentation" : 11,
+																	"num_lines_presentation" : 12,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -1960,9 +1960,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
+																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pinch", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
 																			"parameter_longname" : "live.menu[12]",
-																			"parameter_mmax" : 21,
+																			"parameter_mmax" : 23,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2063,7 +2063,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 13,
-																	"num_lines_presentation" : 13,
+																	"num_lines_presentation" : 12,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -2091,9 +2091,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.key+", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pad+", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
-																			"parameter_mmax" : 37,
+																			"parameter_mmax" : 35,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2493,7 +2493,7 @@
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Process control signals through filters, averaging and smoothing algorithms.",
+													"text" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -2611,7 +2611,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 235.0, 671.0, 282.0, 23.0 ],
+									"patching_rect" : [ 194.0, 629.833335876464844, 282.0, 23.0 ],
 									"text" : "send live.tab activebgoncolor 0.322 0.749 0.906 1."
 								}
 
@@ -2622,7 +2622,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 235.0, 720.0, 127.0, 23.0 ],
+									"patching_rect" : [ 194.0, 698.687179666767179, 127.0, 23.0 ],
 									"text" : "universal @descend 1"
 								}
 
@@ -4062,7 +4062,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 546.5, 705.0, 244.5, 705.0 ],
+									"midpoints" : [ 345.5, 687.0, 204.0, 687.0, 204.0, 693.0, 203.5, 693.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -4070,7 +4070,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 244.5, 696.0, 244.5, 696.0 ],
+									"midpoints" : [ 203.5, 654.0, 203.5, 654.0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -4724,7 +4724,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.14176, 0.1368, 0.35848, 0.42036, 0.2958, 0.46968 ],
+					"nsize" : [ 0.21232, 0.32504, 0.14532, 0.44696, 0.1158, 0.49764 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4742,8 +4742,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.2484, 0.6838, 0.6014, 0.545, 0.1874, 0.9787 ],
-					"yplace" : [ 0.7542, 0.4036, 0.9238, 0.5453, 0.7345, 0.1977 ]
+					"xplace" : [ 0.4863, 0.6754, 0.9055, 0.1614, 0.4132, 0.4034 ],
+					"yplace" : [ 0.0714, 0.7908, 0.6723, 0.6128, 0.666, 0.0452 ]
 				}
 
 			}

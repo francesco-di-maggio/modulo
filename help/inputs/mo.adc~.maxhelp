@@ -247,8 +247,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 469.0, 22.0 ],
-					"text" : "Output audio signals from hardware input devices with a dedicated gain control.",
+					"patching_rect" : [ 9.0, 102.0, 400.0, 22.0 ],
+					"text" : "Output audio signals from hardware input devices, and control gain.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -261,8 +261,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 382.0, 23.0 ],
-					"text" : "A multichannel \"audio-to-digital converter\" and gain object."
+					"patching_rect" : [ 9.0, 83.0, 188.0, 23.0 ],
+					"text" : "Audio input and gain control."
 				}
 
 			}

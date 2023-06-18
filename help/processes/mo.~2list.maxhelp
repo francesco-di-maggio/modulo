@@ -93,13 +93,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 345.0, 70.0, 66.0 ],
-					"text" : "-0.373199 0.408362 0.770109 0.422733"
+					"patching_rect" : [ 41.0, 345.0, 70.0, 23.0 ],
+					"text" : "0."
 				}
 
 			}

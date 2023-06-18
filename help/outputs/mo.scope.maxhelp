@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -233,41 +234,6 @@
 			"obj-1::obj-6.1::obj-33" : [ "live.text[29]", "live.text", 0 ],
 			"obj-1::obj-6.1::obj-35" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-1::obj-6.1::obj-38" : [ "live.numbox[23]", "live.text", 0 ],
-			"obj-1::obj-6.2::obj-14" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-6.2::obj-15" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-1::obj-6.2::obj-27" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-1::obj-6.2::obj-32" : [ "live.numbox[19]", "live.text", 0 ],
-			"obj-1::obj-6.2::obj-33" : [ "live.text[17]", "live.text", 0 ],
-			"obj-1::obj-6.2::obj-35" : [ "live.numbox[13]", "live.numbox", 0 ],
-			"obj-1::obj-6.2::obj-38" : [ "live.numbox[12]", "live.text", 0 ],
-			"obj-1::obj-6.3::obj-14" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-6.3::obj-15" : [ "live.numbox[16]", "live.numbox", 0 ],
-			"obj-1::obj-6.3::obj-27" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-1::obj-6.3::obj-32" : [ "live.numbox[20]", "live.text", 0 ],
-			"obj-1::obj-6.3::obj-33" : [ "live.text[18]", "live.text", 0 ],
-			"obj-1::obj-6.3::obj-35" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-1::obj-6.3::obj-38" : [ "live.numbox[24]", "live.text", 0 ],
-			"obj-1::obj-6.4::obj-14" : [ "live.text[30]", "live.text", 0 ],
-			"obj-1::obj-6.4::obj-15" : [ "live.numbox[27]", "live.numbox", 0 ],
-			"obj-1::obj-6.4::obj-27" : [ "live.numbox[26]", "live.numbox", 0 ],
-			"obj-1::obj-6.4::obj-32" : [ "live.numbox[25]", "live.text", 0 ],
-			"obj-1::obj-6.4::obj-33" : [ "live.text[4]", "live.text", 0 ],
-			"obj-1::obj-6.4::obj-35" : [ "live.numbox[28]", "live.numbox", 0 ],
-			"obj-1::obj-6.4::obj-38" : [ "live.numbox[21]", "live.text", 0 ],
-			"obj-1::obj-6.5::obj-14" : [ "live.numbox[30]", "live.text", 0 ],
-			"obj-1::obj-6.5::obj-15" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-1::obj-6.5::obj-27" : [ "live.numbox[33]", "live.numbox", 0 ],
-			"obj-1::obj-6.5::obj-32" : [ "live.numbox[29]", "live.text", 0 ],
-			"obj-1::obj-6.5::obj-33" : [ "live.text[5]", "live.text", 0 ],
-			"obj-1::obj-6.5::obj-35" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-1::obj-6.5::obj-38" : [ "live.numbox[31]", "live.text", 0 ],
-			"obj-1::obj-6.6::obj-14" : [ "live.numbox[38]", "live.text", 0 ],
-			"obj-1::obj-6.6::obj-15" : [ "live.numbox[36]", "live.numbox", 0 ],
-			"obj-1::obj-6.6::obj-27" : [ "live.numbox[35]", "live.numbox", 0 ],
-			"obj-1::obj-6.6::obj-32" : [ "live.numbox[39]", "live.text", 0 ],
-			"obj-1::obj-6.6::obj-33" : [ "live.text[31]", "live.text", 0 ],
-			"obj-1::obj-6.6::obj-35" : [ "live.numbox[37]", "live.numbox", 0 ],
-			"obj-1::obj-6.6::obj-38" : [ "live.numbox[40]", "live.text", 0 ],
 			"obj-5::obj-11" : [ "live.text[15]", "live.text", 0 ],
 			"obj-5::obj-52" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-9" : [ "toggle", "toggle", 0 ],
@@ -305,146 +271,6 @@
 					"parameter_longname" : "live.text[29]"
 				}
 ,
-				"obj-1::obj-6.2::obj-14" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-1::obj-6.2::obj-15" : 				{
-					"parameter_longname" : "live.numbox[14]"
-				}
-,
-				"obj-1::obj-6.2::obj-27" : 				{
-					"parameter_longname" : "live.numbox[7]"
-				}
-,
-				"obj-1::obj-6.2::obj-32" : 				{
-					"parameter_longname" : "live.numbox[19]"
-				}
-,
-				"obj-1::obj-6.2::obj-33" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-1::obj-6.2::obj-35" : 				{
-					"parameter_longname" : "live.numbox[13]"
-				}
-,
-				"obj-1::obj-6.2::obj-38" : 				{
-					"parameter_longname" : "live.numbox[12]"
-				}
-,
-				"obj-1::obj-6.3::obj-14" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-1::obj-6.3::obj-15" : 				{
-					"parameter_longname" : "live.numbox[16]"
-				}
-,
-				"obj-1::obj-6.3::obj-27" : 				{
-					"parameter_longname" : "live.numbox[8]"
-				}
-,
-				"obj-1::obj-6.3::obj-32" : 				{
-					"parameter_longname" : "live.numbox[20]"
-				}
-,
-				"obj-1::obj-6.3::obj-33" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-1::obj-6.3::obj-35" : 				{
-					"parameter_longname" : "live.numbox[15]"
-				}
-,
-				"obj-1::obj-6.3::obj-38" : 				{
-					"parameter_longname" : "live.numbox[24]"
-				}
-,
-				"obj-1::obj-6.4::obj-14" : 				{
-					"parameter_longname" : "live.text[30]"
-				}
-,
-				"obj-1::obj-6.4::obj-15" : 				{
-					"parameter_longname" : "live.numbox[27]"
-				}
-,
-				"obj-1::obj-6.4::obj-27" : 				{
-					"parameter_longname" : "live.numbox[26]"
-				}
-,
-				"obj-1::obj-6.4::obj-32" : 				{
-					"parameter_longname" : "live.numbox[25]"
-				}
-,
-				"obj-1::obj-6.4::obj-33" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-1::obj-6.4::obj-35" : 				{
-					"parameter_longname" : "live.numbox[28]"
-				}
-,
-				"obj-1::obj-6.4::obj-38" : 				{
-					"parameter_longname" : "live.numbox[21]"
-				}
-,
-				"obj-1::obj-6.5::obj-14" : 				{
-					"parameter_longname" : "live.numbox[30]"
-				}
-,
-				"obj-1::obj-6.5::obj-15" : 				{
-					"parameter_longname" : "live.numbox[32]"
-				}
-,
-				"obj-1::obj-6.5::obj-27" : 				{
-					"parameter_longname" : "live.numbox[33]"
-				}
-,
-				"obj-1::obj-6.5::obj-32" : 				{
-					"parameter_longname" : "live.numbox[29]"
-				}
-,
-				"obj-1::obj-6.5::obj-33" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-1::obj-6.5::obj-35" : 				{
-					"parameter_longname" : "live.numbox[34]"
-				}
-,
-				"obj-1::obj-6.5::obj-38" : 				{
-					"parameter_longname" : "live.numbox[31]"
-				}
-,
-				"obj-1::obj-6.6::obj-14" : 				{
-					"parameter_longname" : "live.numbox[38]"
-				}
-,
-				"obj-1::obj-6.6::obj-15" : 				{
-					"parameter_longname" : "live.numbox[36]"
-				}
-,
-				"obj-1::obj-6.6::obj-27" : 				{
-					"parameter_longname" : "live.numbox[35]"
-				}
-,
-				"obj-1::obj-6.6::obj-32" : 				{
-					"parameter_longname" : "live.numbox[39]"
-				}
-,
-				"obj-1::obj-6.6::obj-33" : 				{
-					"parameter_longname" : "live.text[31]"
-				}
-,
-				"obj-1::obj-6.6::obj-35" : 				{
-					"parameter_longname" : "live.numbox[37]"
-				}
-,
-				"obj-1::obj-6.6::obj-38" : 				{
-					"parameter_longname" : "live.numbox[40]"
-				}
-,
 				"obj-5::obj-11" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
@@ -464,21 +290,6 @@
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.chooser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
-				"patcherrelativepath" : "../../../ease/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ease.xfade.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "lock.svg",
@@ -523,19 +334,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

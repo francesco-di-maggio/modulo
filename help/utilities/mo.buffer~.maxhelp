@@ -588,7 +588,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 416.612894909090983, 636.109375, 74.0, 25.0 ],
+									"patching_rect" : [ 416.612894909090983, 631.109375, 74.0, 25.0 ],
 									"text" : "start dsp"
 								}
 
@@ -608,7 +608,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 387.898149454545774, 639.109375, 20.0, 20.0 ],
+									"patching_rect" : [ 387.898149454545774, 634.109375, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -622,11 +622,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
+									"maxclass" : "mc.ezdac~",
+									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.898149454545774, 621.609375, 53.0, 53.0 ]
+									"patching_rect" : [ 321.898149454545774, 621.609375, 45.0, 45.0 ]
 								}
 
 							}
@@ -1199,8 +1198,8 @@
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

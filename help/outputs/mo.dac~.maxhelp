@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 497.0, 277.0 ],
+		"rect" : [ 34.0, 100.0, 596.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,9 +36,171 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 421.358261704444885, 305.0, 152.0, 25.0 ],
+					"text" : "set number of channels "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 362.358261704444885, 266.0, 164.0, 25.0 ],
+					"text" : "set volume in dB (-70, +6)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 273.358261704444885, 226.0, 95.0, 25.0 ],
+					"text" : "mute output "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 259.0, 176.5, 102.0, 25.0 ],
+					"text" : "start playback"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"hint" : "",
+					"id" : "obj-16",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 229.0, 179.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 48.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "jongly.aif",
+								"filename" : "jongly.aif",
+								"filekind" : "audiofile",
+								"id" : "u734003374",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-19",
+					"maxclass" : "mc.playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "multichannelsignal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.0, 165.0, 171.0, 48.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ],
+					"waveformdisplay" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 13.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 102.0, 315.0, 22.0 ],
+					"text" : "Send multichannel audio signals to hardware devices.",
+					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 83.0, 198.0, 23.0 ],
+					"text" : "Audio output and gain control."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 54.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 9.0, 214.0, 71.0 ],
+					"text" : "mo.dac~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
@@ -47,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.713623068080778, 199.797012329101562, 74.0, 25.0 ],
+					"patching_rect" : [ 398.073007158990094, 469.797012329101562, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -67,7 +229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 344.998877613535569, 202.797012329101562, 20.0, 20.0 ],
+					"patching_rect" : [ 369.358261704444885, 472.797012329101562, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -81,37 +243,10 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 279.998877613535569, 185.297012329101562, 53.0, 53.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "number",
-					"maximum" : 3,
-					"minimum" : 1,
+					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 419.498877613535569, 75.0, 50.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.498877613535569, 115.0, 55.0, 23.0 ],
-					"text" : "mode $1"
+					"numoutlets" : 0,
+					"patching_rect" : [ 303.358261704444885, 460.297012329101562, 45.0, 45.0 ]
 				}
 
 			}
@@ -123,31 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 349.498877613535569, 75.0, 50.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.498877613535569, 115.0, 57.0, 23.0 ],
-					"text" : "chans $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 23.140615909090684, 24.0, 242.0, 23.0 ],
-					"text" : "mc.cycle~ @chans 2 @initialvalues 110 440"
+					"patching_rect" : [ 362.358261704444885, 306.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -162,7 +273,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 286.498877613535569, 75.0, 50.0, 23.0 ]
+					"patching_rect" : [ 304.358261704444885, 266.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -173,21 +284,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 220.358261704444885, 75.0, 24.0, 24.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_initial" : [ 1.0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "toggle",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "toggle",
-							"parameter_type" : 2
-						}
-
-					}
-,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 238.217645795354201, 226.0, 24.0, 24.0 ],
 					"varname" : "toggle"
 				}
 
@@ -199,7 +297,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.498877613535569, 115.0, 40.0, 23.0 ],
+					"patching_rect" : [ 304.358261704444885, 306.0, 40.0, 23.0 ],
 					"text" : "dB $1"
 				}
 
@@ -211,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.498877613535569, 115.0, 53.0, 23.0 ],
+					"patching_rect" : [ 238.358261704444885, 266.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -232,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 23.140615909090684, 168.297012329101562, 216.0, 87.0 ],
+					"patching_rect" : [ 41.0, 439.297012329101562, 216.0, 87.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -241,24 +339,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 428.998877613535569, 99.0, 428.998877613535569, 99.0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 32.640615909090684, 48.0, 32.640615909090684, 48.0, 32.640615909090684, 81.0, 32.640615909090684, 81.0 ],
-					"source" : [ "obj-2", 0 ]
+					"midpoints" : [ 50.5, 216.0, 50.5, 216.0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 229.998877613535569, 141.0, 229.640615909090684, 141.0 ],
+					"midpoints" : [ 247.858261704444885, 291.0, 247.5, 291.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -266,15 +356,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 295.998877613535569, 153.0, 229.640615909090684, 153.0 ],
+					"midpoints" : [ 313.858261704444885, 426.0, 247.5, 426.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 358.998877613535569, 99.0, 358.998877613535569, 99.0 ],
+					"destination" : [ "obj-1", 1 ],
+					"midpoints" : [ 371.858261704444885, 426.0, 247.5, 426.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -282,32 +372,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 229.858261704444885, 102.0, 229.998877613535569, 102.0 ],
+					"midpoints" : [ 247.717645795354201, 252.0, 247.858261704444885, 252.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 358.998877613535569, 153.0, 229.640615909090684, 153.0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 295.998877613535569, 99.0, 295.998877613535569, 99.0 ],
+					"midpoints" : [ 313.858261704444885, 291.0, 313.858261704444885, 291.0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 428.998877613535569, 153.0, 229.640615909090684, 153.0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -316,7 +390,6 @@
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-6" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -337,6 +410,12 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "jongly.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.dac~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
@@ -360,19 +439,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

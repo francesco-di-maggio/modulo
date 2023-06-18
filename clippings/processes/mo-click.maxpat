@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -50,13 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.key+.maxpat",
+					"name" : "mo.click.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
-					"varname" : "mo.key+",
 					"viewvisibility" : 1
 				}
 
@@ -82,9 +81,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.key+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.click.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}

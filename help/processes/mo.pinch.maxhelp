@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 346.0, 393.0 ],
+		"rect" : [ 34.0, 100.0, 346.0, 385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 337.0, 50.0, 23.0 ],
+					"text" : "0 0 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "toggle",
@@ -101,8 +113,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 219.0, 71.0 ],
-					"text" : "mo.pad+"
+					"patching_rect" : [ 9.0, 9.0, 229.0, 71.0 ],
+					"text" : "mo.pinch"
 				}
 
 			}
@@ -141,42 +153,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 163.89082807236872, 339.702987670898438, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 102.94541403618436, 339.702987670898438, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 339.702987670898438, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-14",
 					"maxclass" : "flonum",
@@ -201,13 +177,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad+.maxpat",
+					"name" : "mo.pinch.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 220.0, 142.0, 87.0 ],
-					"varname" : "mo.key+",
+					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
 
@@ -258,24 +234,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 173.5, 309.0, 173.39082807236872, 309.0 ],
-					"source" : [ "obj-17", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 112.0, 309.0, 112.44541403618436, 309.0 ],
-					"source" : [ "obj-17", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 50.5, 309.0, 50.5, 309.0 ],
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 50.5, 324.0, 81.5, 324.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -309,9 +269,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.pad+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.pinch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}

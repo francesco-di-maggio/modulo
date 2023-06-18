@@ -342,8 +342,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 202.480686187744141, 68.0, 25.0 ],
-					"text" : "set time"
+					"patching_rect" : [ 176.0, 202.480686187744141, 127.0, 25.0 ],
+					"text" : "set debounce time "
 				}
 
 			}

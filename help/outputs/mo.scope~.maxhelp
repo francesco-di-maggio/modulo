@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "<none>",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -142,10 +143,9 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
-			"obj-1::obj-36" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-1::obj-34" : [ "live.text[185]", "live.text", 0 ],
 			"obj-1::obj-38" : [ "live.text[34]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
-			"obj-1::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-1::obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -181,8 +181,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -195,19 +203,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }
