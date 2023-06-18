@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 28.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 28.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 28.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 28.0 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
 					"varname" : "mo.steer",
 					"viewvisibility" : 1
 				}
@@ -79,7 +79,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.steer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1

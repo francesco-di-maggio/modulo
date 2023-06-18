@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -64,14 +64,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-30",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0, 410.662493303418159, 39.0, 29.0 ],
+					"patching_rect" : [ 313.0, 410.662493303418159, 39.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.53719088435173, 37.032712210782847, 58.0, 18.0 ],
-					"text" : "window size"
+					"presentation_rect" : [ 51.53719088435173, 37.032712210782847, 80.0, 18.0 ],
+					"text" : "window size (ms)"
 				}
 
 			}
@@ -173,8 +173,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 612.551895529031754, 155.0, 145.0, 23.0 ],
-					"text" : "route chans winsize clock"
+					"patching_rect" : [ 612.551895529031754, 155.0, 126.0, 23.0 ],
+					"text" : "route int winsize clock"
 				}
 
 			}
@@ -206,7 +206,7 @@
 				"box" : 				{
 					"comment" : "(message) winsize, clock",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -219,7 +219,7 @@
 				"box" : 				{
 					"comment" : "(list) averaged",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -267,11 +267,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to average",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 50.0, 75.0, 30.0, 30.0 ]
 				}
 
@@ -282,13 +282,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.75, 465.412493303418159, 31.0, 18.0 ],
+					"patching_rect" : [ 303.75, 465.412493303418159, 31.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.53719088435173, 62.145552624830088, 31.0, 18.0 ],
-					"text" : "clock"
+					"presentation_rect" : [ 51.53719088435173, 62.145552624830088, 53.0, 18.0 ],
+					"text" : "clock (ms)"
 				}
 
 			}
@@ -334,7 +335,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[52]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -771,7 +772,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 664.051895529031754, 273.0, 253.5, 273.0 ],
+					"midpoints" : [ 657.718562195698382, 273.0, 253.5, 273.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -787,7 +788,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 706.051895529031754, 450.0, 262.5, 450.0 ],
+					"midpoints" : [ 693.385228862365125, 450.0, 262.5, 450.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -801,24 +802,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{

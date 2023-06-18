@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.ezdac~.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 694.0, 512.8125, 70.0, 87.0 ],
@@ -262,7 +262,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-10",
 					"ignoreclick" : 1,
@@ -332,7 +332,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-6",
 					"ignoreclick" : 1,
@@ -508,7 +508,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-18",
 					"ignoreclick" : 1,
@@ -820,7 +820,7 @@
  ],
 		"parameters" : 		{
 			"obj-16::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-16::obj-5" : [ "live.tab", "live.tab", 0 ],
+			"obj-16::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-16::obj-7" : [ "live.text", "live.text", 0 ],
 			"obj-38::obj-10" : [ "live.numbox[57]", "live.dial[12]", 0 ],
 			"obj-38::obj-102" : [ "live.text[4]", "live.text", 0 ],
@@ -831,12 +831,16 @@
 			"obj-38::obj-49" : [ "live.numbox[7]", "live.dial[12]", 0 ],
 			"obj-38::obj-61" : [ "length-", "length-", 0 ],
 			"obj-38::obj-9" : [ "live.numbox[10]", "live.dial[12]", 0 ],
+			"obj-39::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-39::obj-125" : [ "live.numbox[60]", "live.dial[12]", 0 ],
 			"obj-39::obj-138" : [ "live.numbox[58]", "live.dial[12]", 0 ],
 			"obj-39::obj-141" : [ "live.text[211]", "live.text", 0 ],
+			"obj-39::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
+			"obj-5::obj-35" : [ "live.text[1]", "live.text", 0 ],
 			"obj-9::obj-45" : [ "live.gain~[3]", "volume", 0 ],
+			"obj-9::obj-56" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-9::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -851,15 +855,6 @@
 				"obj-16::obj-45" : 				{
 					"parameter_longname" : "live.gain~[2]",
 					"parameter_shortname" : "volume"
-				}
-,
-				"obj-16::obj-5" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.tab",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "—", "dup", "stereo" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 9
 				}
 ,
 				"obj-38::obj-10" : 				{
@@ -904,8 +899,32 @@
 					"parameter_initial_enable" : 0
 				}
 ,
+				"obj-39::obj-125" : 				{
+					"parameter_longname" : "live.numbox[60]"
+				}
+,
+				"obj-39::obj-138" : 				{
+					"parameter_longname" : "live.numbox[58]"
+				}
+,
+				"obj-39::obj-141" : 				{
+					"parameter_longname" : "live.text[211]"
+				}
+,
+				"obj-39::obj-23" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-39::obj-33" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
 				"obj-9::obj-45" : 				{
 					"parameter_longname" : "live.gain~[3]"
+				}
+,
+				"obj-9::obj-56" : 				{
+					"parameter_longname" : "live.numbox[3]"
 				}
 
 			}
@@ -914,6 +933,19 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "clear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "load.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "loop.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",

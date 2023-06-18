@@ -897,20 +897,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 280.600555196969708, 166.0, 50.0, 23.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_initial" : [ 4000 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "number",
-											"parameter_shortname" : "number",
-											"parameter_type" : 3
-										}
-
-									}
-,
 									"varname" : "number"
 								}
 
@@ -1110,7 +1098,6 @@
 			"obj-26::obj-39::obj-21" : [ "live.text[233]", "live.text", 0 ],
 			"obj-26::obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-26::obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
-			"obj-26::obj-67" : [ "number", "number", 0 ],
 			"obj-26::obj-8" : [ "mc.live.gain~", "input gain~", 0 ],
 			"obj-29::obj-39::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-29::obj-39::obj-125" : [ "live.numbox[2]", "live.dial[12]", 0 ],

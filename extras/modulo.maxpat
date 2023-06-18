@@ -1709,7 +1709,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -820.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -2486,15 +2486,14 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
+													"patching_rect" : [ 20.0, 258.0, 460.0, 22.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Process control signals through filters, averaging and smoothing algorithms.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4725,7 +4724,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.2682, 0.28268, 0.4768, 0.3184, 0.28844, 0.42284 ],
+					"nsize" : [ 0.14176, 0.1368, 0.35848, 0.42036, 0.2958, 0.46968 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4743,8 +4742,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7606, 0.1936, 0.2815, 0.0164, 0.5917, 0.5378 ],
-					"yplace" : [ 0.3588, 0.757, 0.0095, 0.6937, 0.6312, 0.6581 ]
+					"xplace" : [ 0.2484, 0.6838, 0.6014, 0.545, 0.1874, 0.9787 ],
+					"yplace" : [ 0.7542, 0.4036, 0.9238, 0.5453, 0.7345, 0.1977 ]
 				}
 
 			}

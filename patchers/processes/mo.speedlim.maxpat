@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 277.653199976682799, 202.0, 62.0, 23.0 ],
-					"text" : "route rate"
+					"patching_rect" : [ 277.653199976682799, 202.0, 54.0, 23.0 ],
+					"text" : "route int"
 				}
 
 			}
@@ -152,7 +152,7 @@
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 2
 						}
 
 					}

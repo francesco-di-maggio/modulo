@@ -61,8 +61,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 152.0, 22.0 ],
-					"text" : "Keep track of the tempo.",
+					"patching_rect" : [ 9.0, 102.0, 213.0, 22.0 ],
+					"text" : "Keep track of the Global Transport.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -244,6 +244,7 @@
 			}
  ],
 		"autosave" : 0,
+		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority" ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

@@ -111,8 +111,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 406.0, 38.0 ],
-					"text" : "Numbers can be int, float, or MIDI. \nThe module will automatically adapt to the number of input numbers.",
+					"patching_rect" : [ 9.0, 102.0, 358.0, 38.0 ],
+					"text" : "Numbers can be int, float, or MIDI. \nThe module will automatically adapt to the number of voices.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

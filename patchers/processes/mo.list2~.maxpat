@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 28.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 28.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 298.306426948308967, 231.626276284456253, 71.0, 23.0 ],
-					"text" : "route chans"
+					"patching_rect" : [ 298.306426948308967, 231.626276284456253, 54.0, 23.0 ],
+					"text" : "route int"
 				}
 
 			}

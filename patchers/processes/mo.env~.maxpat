@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "%",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 268.0, 729.0, 72.0, 23.0 ],
+					"text" : "mc.makelist"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-23",
@@ -319,8 +331,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 612.551895529031754, 135.0, 159.0, 23.0 ],
-					"text" : "route chans sensitivity clock"
+					"patching_rect" : [ 612.551895529031754, 135.0, 142.0, 23.0 ],
+					"text" : "route int sensitivity clock"
 				}
 
 			}
@@ -937,7 +949,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 668.718562195698382, 357.0, 94.0, 357.0 ],
+					"midpoints" : [ 663.051895529031754, 357.0, 94.0, 357.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -953,7 +965,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 715.385228862365125, 543.0, 262.5, 543.0 ],
+					"midpoints" : [ 704.051895529031754, 543.0, 262.5, 543.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 

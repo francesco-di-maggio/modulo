@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 473.0, 713.0 ],
+		"rect" : [ 34.0, 100.0, 444.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,46 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 662.0, 54.0, 23.0 ],
+					"text" : "mc.dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"lastchannelcount" : 2,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 41.0, 591.609375, 136.0, 47.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -20 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "mc.live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "output gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "bbdmi.dac~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-16",
@@ -101,7 +141,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 104.0, 166.0, 24.0, 24.0 ]
+					"patching_rect" : [ 108.0, 166.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -112,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 208.0, 49.0, 23.0 ],
+					"patching_rect" : [ 108.0, 208.0, 49.0, 23.0 ],
 					"text" : "loop $1"
 				}
 
@@ -186,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.192717424242687, 633.5, 74.0, 25.0 ],
+					"patching_rect" : [ 323.192717424242687, 646.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -206,7 +246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 353.692717424242687, 636.0, 20.0, 20.0 ],
+					"patching_rect" : [ 295.692717424242687, 648.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -224,7 +264,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.859384090909316, 619.5, 53.0, 53.0 ]
+					"patching_rect" : [ 228.859384090909316, 632.0, 53.0, 53.0 ]
 				}
 
 			}
@@ -259,27 +299,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-3",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.dac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 602.297012329101562, 214.0, 87.0 ],
-					"varname" : "mo.dac~[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -299,7 +318,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 113.5, 192.0, 113.5, 192.0 ],
+					"midpoints" : [ 117.5, 192.0, 117.5, 192.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -309,6 +328,13 @@
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -331,7 +357,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 113.5, 288.0, 50.5, 288.0 ],
+					"midpoints" : [ 117.5, 288.0, 50.5, 288.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -339,7 +365,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 50.5, 567.0, 50.5, 567.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -354,9 +379,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-3::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
-			"obj-3::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-3" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"obj-7::obj-33" : [ "live.text[72]", "live.text", 0 ],
 			"obj-7::obj-42" : [ "live.text[8]", "live.text", 0 ],
 			"obj-7::obj-7" : [ "live.text[2]", "live.text", 0 ],
@@ -394,13 +417,6 @@
 				"name" : "loop.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

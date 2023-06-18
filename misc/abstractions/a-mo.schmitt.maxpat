@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -312,8 +312,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 111.666666666666657, 593.0, 88.5, 23.0 ],
-					"text" : "> 1."
+					"patching_rect" : [ 111.666666666666657, 593.0, 88.0, 23.0 ],
+					"text" : ">= 1."
 				}
 
 			}
@@ -426,7 +426,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 111.666666666666657, 403.761121961805657, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.532039719402761, 0.171622324734926, 115.0, 15.0 ],
+					"presentation_rect" : [ 39.532039719402761, 0.171622324734926, 113.0, 15.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
@@ -500,7 +500,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -520,7 +520,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -649,7 +649,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -686,7 +686,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -878,7 +878,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
-					"midpoints" : [ 190.166666666666657, 534.0, 190.666666666666657, 534.0 ],
+					"midpoints" : [ 190.166666666666657, 534.0, 190.166666666666657, 534.0 ],
 					"order" : 0,
 					"source" : [ "obj-270", 0 ]
 				}
@@ -1085,24 +1085,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-17" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-35" : [ "live.text[40]", "live.text", 0 ],
-			"obj-39" : [ "live.text[1]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
