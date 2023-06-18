@@ -84,8 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 407.0, 38.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Control data are huw, saturation, and lightness.\nSend control data either as list (first inlet) or message (second inlet).",
+					"text" : "Control data are hue, saturation, and lightness.\nSend control data either as list (first inlet) or message (second inlet).",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -113,7 +112,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 9.0, 265.0, 71.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mo.swatch"
 				}
 
@@ -145,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 580.0, 151.0, 23.0 ],
-					"text" : "0. 0.678107 0.916979 1."
+					"text" : "1. 0. 0. 1."
 				}
 
 			}

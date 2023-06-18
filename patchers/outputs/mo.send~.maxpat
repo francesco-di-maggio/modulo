@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -117,8 +117,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 296.0, 163.0, 190.0, 23.0 ],
-					"text" : "route device chans mute"
+					"patching_rect" : [ 296.0, 163.0, 189.0, 23.0 ],
+					"text" : "route device int mute"
 				}
 
 			}
@@ -290,7 +290,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -344,7 +344,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.125821217894554, 36.371792723306498, 127.874178782105446, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "my-send~",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -390,7 +389,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[60]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -543,7 +542,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-153", 0 ],
-					"midpoints" : [ 419.5, 207.0, 42.5, 207.0 ],
+					"midpoints" : [ 418.833333333333314, 207.0, 42.5, 207.0 ],
 					"source" : [ "obj-6", 2 ]
 				}
 
@@ -551,7 +550,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 362.5, 189.0, 362.5, 189.0 ],
+					"midpoints" : [ 362.166666666666629, 189.0, 362.5, 189.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 

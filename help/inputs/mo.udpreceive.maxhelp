@@ -118,8 +118,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 349.0, 22.0 ],
-					"text" : "Grab from a udpsend object sharing the same port number.",
+					"patching_rect" : [ 9.0, 102.0, 303.0, 22.0 ],
+					"text" : "Grab from a udpsend object sharing the same port.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

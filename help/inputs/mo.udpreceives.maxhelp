@@ -442,8 +442,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 458.0, 22.0 ],
-					"text" : "Grab for a send or forward object sharing the same device and message name.",
+					"patching_rect" : [ 9.0, 102.0, 292.0, 22.0 ],
+					"text" : "Grab for a udpsend object sharing the same port.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -456,8 +456,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 301.0, 23.0 ],
-					"text" : "Receive a list of messages without patch cords."
+					"patching_rect" : [ 9.0, 83.0, 269.0, 23.0 ],
+					"text" : "Receive a list of messages over a network."
 				}
 
 			}

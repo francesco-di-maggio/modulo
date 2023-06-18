@@ -2013,9 +2013,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.fm~", "mo.granulator~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.panel", "mo.send", "mo.send~", "mo.sends", "mo.serialout", "mo.scope", "mo.scope~", "mo.scrubber~", "mo.spectroscope~", "mo.theremini~", "mo.udpsend", "mo.udpsends" ],
+																			"parameter_enum" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.fm~", "mo.granulator~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.panel", "mo.send", "mo.send~", "mo.sends", "mo.scope", "mo.scope~", "mo.scrubber~", "mo.spectroscope~", "mo.theremini~", "mo.udpsend", "mo.udpsends" ],
 																			"parameter_longname" : "live.menu[11]",
-																			"parameter_mmax" : 23,
+																			"parameter_mmax" : 22,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2091,7 +2091,7 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serial", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
 																			"parameter_mmax" : 35,
 																			"parameter_shortname" : "live.menu",
@@ -4724,7 +4724,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.21232, 0.32504, 0.14532, 0.44696, 0.1158, 0.49764 ],
+					"nsize" : [ 0.31488, 0.3682, 0.4546, 0.11708, 0.43472, 0.21536 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4742,8 +4742,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.4863, 0.6754, 0.9055, 0.1614, 0.4132, 0.4034 ],
-					"yplace" : [ 0.0714, 0.7908, 0.6723, 0.6128, 0.666, 0.0452 ]
+					"xplace" : [ 0.4272, 0.1432, 0.3008, 0.0139, 0.9534, 0.6773 ],
+					"yplace" : [ 0.4305, 0.2441, 0.081, 0.6732, 0.1102, 0.2803 ]
 				}
 
 			}
