@@ -41,13 +41,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 369.083333333333258, 251.751276284456253, 198.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr local @bindto local- @initial 0",
+					"varname" : "local"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "(message) mute, dB",
 					"id" : "obj-3",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.842786306142557, 71.0, 30.0, 30.0 ]
 				}
 
@@ -81,7 +100,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -91,7 +110,7 @@
 ,
 					"text" : "L",
 					"texton" : "L",
-					"varname" : "polarity-"
+					"varname" : "local-"
 				}
 
 			}
@@ -115,7 +134,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.153199976682799, 30.0, 30.0, 30.0 ]
 				}
 
@@ -160,21 +179,15 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"color" : [ 0.298039215686275, 0.749019607843137, 0.980392156862745, 1.0 ],
-					"elementcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
+					"local" : 1,
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.842786306142557, 232.501276284456253, 61.5, 61.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 30.198500698025782, 54.173292025280716, 54.173292025280716 ],
-					"saved_attribute_attributes" : 					{
-						"elementcolor" : 						{
-							"expression" : "themecolor.live_active_automation"
-						}
-
-					}
-
+					"presentation_rect" : [ 7.5, 30.198500698025782, 54.173292025280716, 54.173292025280716 ]
 				}
 
 			}
