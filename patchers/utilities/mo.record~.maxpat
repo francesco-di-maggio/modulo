@@ -146,7 +146,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1032.0, 249.0, 36.0, 29.0 ],
+					"patching_rect" : [ 1032.0, 249.0, 38.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.17437758304672, 49.665967787735298, 50.0, 18.0 ],
 					"text" : "length (s)",
@@ -180,7 +180,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 60000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[5]",
 							"parameter_mmax" : 6000000.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -678,7 +678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
 					"patching_rect" : [ 983.0, 724.457984536886215, 174.0, 22.0 ],
-					"text" : "mcs.play~ recording 2 @loop 1",
+					"text" : "mcs.play~ recording 1 @loop 1",
 					"varname" : "play"
 				}
 
@@ -726,7 +726,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1127,7 +1127,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1221,6 +1221,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[7]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -1271,7 +1273,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

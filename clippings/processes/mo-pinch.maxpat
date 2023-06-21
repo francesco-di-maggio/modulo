@@ -56,6 +56,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
 

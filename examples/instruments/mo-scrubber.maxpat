@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -108,10 +108,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 662.70833333333303, 471.408813155761891, 115.0, 39.0 ],
+					"patching_rect" : [ 812.70833333333303, 471.408813155761891, 115.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 279.70833333333303, 761.0090486779809, 115.0, 39.0 ],
+					"presentation_rect" : [ 279.70833333333303, 782.0090486779809, 115.0, 39.0 ],
 					"text" : "1. start playback\n2. unmute dac~"
 				}
 
@@ -121,7 +121,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-18",
 					"ignoreclick" : 1,
@@ -131,9 +131,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 786.83333333333303, 480.908813155761891, 20.0, 20.0 ],
+					"patching_rect" : [ 936.83333333333303, 480.908813155761891, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 402.83333333333303, 770.5090486779809, 20.0, 20.0 ],
+					"presentation_rect" : [ 402.83333333333303, 791.5090486779809, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -180,7 +180,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.scrubber~.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
@@ -380,7 +380,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
@@ -478,7 +478,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-35",
 					"ignoreclick" : 1,
@@ -1721,8 +1721,8 @@
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1818,19 +1818,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

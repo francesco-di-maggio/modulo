@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -66,15 +66,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.885702821115501, 38.06666666666672, 344.0, 64.0 ],
+					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 344.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 251.885702821115501, 16.0, 344.0, 64.0 ],
-					"text" : "NOTE:\n\nThis patch uses \"holon.ist\" iOS App to retrieve iPhone sensors. \nVisit: https://holon.ist"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 251.885702821115501, 16.0, 344.0, 50.0 ],
+					"text" : "NOTE:\nThis patch uses \"holon.ist\" iOS App to retrieve iPhone sensors. \nVisit: https://holon.ist"
 				}
 
 			}
@@ -205,7 +205,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-9",
 					"ignoreclick" : 1,
@@ -290,6 +290,7 @@
 			"obj-2::obj-74::obj-2" : [ "live.text[68]", "live.text", 0 ],
 			"obj-2::obj-74::obj-39" : [ "live.numbox[105]", "live.numbox", 0 ],
 			"obj-30::obj-11" : [ "live.text[79]", "live.text", 0 ],
+			"obj-30::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-30::obj-52" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-3::obj-107::obj-20" : [ "Show Particle Settings[30]", "live.text", 0 ],
 			"obj-3::obj-107::obj-28" : [ "live.text[2]", "live.text", 0 ],
@@ -711,10 +712,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -777,19 +774,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

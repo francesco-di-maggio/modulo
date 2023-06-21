@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -95,7 +95,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-9",
 					"ignoreclick" : 1,
@@ -648,8 +648,28 @@
 					"parameter_longname" : "live.text[5]"
 				}
 ,
+				"obj-2::obj-6.1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-2::obj-6.1::obj-27" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+,
+				"obj-2::obj-6.1::obj-32" : 				{
+					"parameter_longname" : "live.numbox[22]"
+				}
+,
 				"obj-2::obj-6.1::obj-33" : 				{
 					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-2::obj-6.1::obj-35" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-2::obj-6.1::obj-38" : 				{
+					"parameter_longname" : "live.numbox[23]"
 				}
 ,
 				"obj-2::obj-6.2::obj-14" : 				{
@@ -997,19 +1017,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

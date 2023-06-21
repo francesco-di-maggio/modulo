@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -279,16 +279,16 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 670.886411435185096, 507.0, 23.0 ],
 					"priority" : 					{
+						"mo.crosspatch::crosspatch" : 1,
 						"mo.crosspatch::ins" : -1,
-						"mo.crosspatch::outs" : -1,
-						"mo.crosspatch::crosspatch" : 1
+						"mo.crosspatch::outs" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 100, 1440, 462 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"subscribe" : [ "mo.crosspatch" ],
@@ -317,7 +317,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-32",
 					"ignoreclick" : 1,
@@ -432,18 +432,23 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
+			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
-			"obj-4::obj-7" : [ "live.text[4]", "live.text", 0 ],
+			"obj-4::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-4::obj-7" : [ "live.text[5]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[2]", "slider-", 0 ],
-			"obj-6::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-6::obj-35" : [ "live.text[7]", "live.text", 0 ],
+			"obj-6::obj-7" : [ "live.text[6]", "live.text", 0 ],
 			"obj-7::obj-3" : [ "slider-[3]", "slider-", 0 ],
-			"obj-7::obj-7" : [ "live.text[6]", "live.text", 0 ],
+			"obj-7::obj-35" : [ "live.text[8]", "live.text", 0 ],
+			"obj-7::obj-7" : [ "live.text[9]", "live.text", 0 ],
 			"obj-9::obj-3" : [ "slider-[4]", "slider-", 0 ],
-			"obj-9::obj-7" : [ "live.text[7]", "live.text", 0 ],
+			"obj-9::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-9::obj-7" : [ "live.text[11]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -454,6 +459,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-2::obj-1" : 				{
 					"parameter_longname" : "live.text[3]"
 				}
@@ -466,20 +475,36 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
-				"obj-4::obj-7" : 				{
+				"obj-4::obj-35" : 				{
 					"parameter_longname" : "live.text[4]"
 				}
 ,
-				"obj-6::obj-7" : 				{
+				"obj-4::obj-7" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
 ,
-				"obj-7::obj-7" : 				{
+				"obj-6::obj-35" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-6::obj-7" : 				{
 					"parameter_longname" : "live.text[6]"
 				}
 ,
+				"obj-7::obj-35" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-7::obj-7" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-9::obj-35" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
 				"obj-9::obj-7" : 				{
-					"parameter_longname" : "live.text[7]"
+					"parameter_longname" : "live.text[11]"
 				}
 
 			}
@@ -489,47 +514,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-many2one.json",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

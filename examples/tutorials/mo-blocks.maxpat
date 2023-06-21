@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -110,7 +110,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.fm~.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
@@ -180,7 +180,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pad+.maxpat",
+					"name" : "mo.pinch.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -188,7 +188,7 @@
 					"patching_rect" : [ 375.459072227510774, 14.154124945402145, 142.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.459072227510774, 14.154124945402145, 142.0, 87.0 ],
-					"varname" : "mo.pad+",
+					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
 
@@ -204,15 +204,15 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.key+.maxpat",
+					"name" : "mo.click.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.459072227510774, 103.219730250537395, 142.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.459072227510774, 103.219730250537395, 142.0, 87.0 ],
-					"varname" : "mo.key+",
+					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
 
@@ -417,7 +417,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 121.0, 25.0 ],
+					"patching_rect" : [ 102.485723542877949, 553.206305566232231, 90.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1271.679270314881023, 189.719729999999998, 90.0, 25.0 ],
 					"text" : "save / recall",
@@ -459,9 +459,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.485723542877949, 461.219730000000027, 381.0, 23.0 ],
 					"priority" : 					{
+						"mo.crosspatch::crosspatch" : 1,
 						"mo.crosspatch::ins" : -1,
-						"mo.crosspatch::outs" : -1,
-						"mo.crosspatch::crosspatch" : 1
+						"mo.crosspatch::outs" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -496,7 +496,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-32",
 					"ignoreclick" : 1,
@@ -739,14 +739,14 @@
 			"obj-17::obj-39" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-17::obj-8" : [ "live.text[28]", "live.text", 0 ],
 			"obj-18::obj-126" : [ "live.text[62]", "live.text", 0 ],
-			"obj-18::obj-51" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-18::obj-74" : [ "live.text[15]", "live.text", 0 ],
+			"obj-18::obj-51" : [ "live.numbox[68]", "live.numbox", 0 ],
+			"obj-18::obj-74" : [ "live.text[42]", "live.text", 0 ],
 			"obj-18::obj-75" : [ "live.text[50]", "live.text", 0 ],
 			"obj-18::obj-78" : [ "live.text[58]", "live.text", 0 ],
-			"obj-19::obj-103" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-19::obj-103" : [ "live.numbox[54]", "live.numbox", 0 ],
 			"obj-19::obj-126" : [ "live.text[16]", "live.text", 0 ],
-			"obj-19::obj-16" : [ "live.text[23]", "live.text", 0 ],
-			"obj-19::obj-51" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-19::obj-16" : [ "live.text[41]", "live.text", 0 ],
+			"obj-19::obj-51" : [ "live.numbox[67]", "live.numbox", 0 ],
 			"obj-19::obj-74" : [ "live.text[17]", "live.text", 0 ],
 			"obj-19::obj-75" : [ "live.text[18]", "live.text", 0 ],
 			"obj-1::obj-37" : [ "live.text[13]", "live.text", 0 ],
@@ -866,6 +866,10 @@
 					"parameter_longname" : "live.text[412]"
 				}
 ,
+				"obj-15::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-15::obj-37" : 				{
 					"parameter_longname" : "live.text[4]"
 				}
@@ -895,35 +899,23 @@
 				}
 ,
 				"obj-18::obj-51" : 				{
-					"parameter_longname" : "live.numbox[5]"
+					"parameter_longname" : "live.numbox[68]"
 				}
 ,
 				"obj-18::obj-74" : 				{
-					"parameter_longname" : "live.text[15]"
+					"parameter_longname" : "live.text[42]"
 				}
 ,
 				"obj-19::obj-103" : 				{
-					"parameter_longname" : "live.numbox[9]"
-				}
-,
-				"obj-19::obj-126" : 				{
-					"parameter_longname" : "live.text[16]"
+					"parameter_longname" : "live.numbox[54]"
 				}
 ,
 				"obj-19::obj-16" : 				{
-					"parameter_longname" : "live.text[23]"
+					"parameter_longname" : "live.text[41]"
 				}
 ,
 				"obj-19::obj-51" : 				{
-					"parameter_longname" : "live.numbox[10]"
-				}
-,
-				"obj-19::obj-74" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-19::obj-75" : 				{
-					"parameter_longname" : "live.text[18]"
+					"parameter_longname" : "live.numbox[67]"
 				}
 ,
 				"obj-1::obj-37" : 				{
@@ -1295,6 +1287,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.click.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.crosspatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
@@ -1319,13 +1318,6 @@
 				"name" : "mo.fm~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.key+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1365,16 +1357,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pad+.maxpat",
+				"name" : "mo.pad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.pinch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
+				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1442,6 +1434,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
@@ -1456,19 +1462,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }
