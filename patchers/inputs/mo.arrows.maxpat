@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -62,7 +62,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -260,7 +260,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 135.254576385546102, 225.0, 50.5, 23.0 ],
+					"patching_rect" : [ 134.754576385546159, 172.0, 50.5, 23.0 ],
 					"text" : "key"
 				}
 
@@ -269,7 +269,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -445,7 +445,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.432843089103699, 90.000005125999451, 128.0, 128.0 ],
+					"patching_rect" : [ 247.0, 567.000005125999451, 127.392995983362198, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 33.0, 58.926789194345474, 49.100843131542206 ],
 					"proportion" : 0.5,
@@ -661,7 +661,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 144.754576385546102, 249.0, 144.5, 249.0 ],
+					"midpoints" : [ 144.254576385546159, 249.0, 144.5, 249.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -837,6 +837,38 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "live.button[2]", "live.button", 0 ],
+			"obj-14" : [ "live.button[5]", "live.button", 0 ],
+			"obj-16" : [ "live.button[3]", "live.button", 0 ],
+			"obj-7" : [ "live.button[1]", "live.button", 0 ],
+			"obj-8" : [ "live.text[188]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

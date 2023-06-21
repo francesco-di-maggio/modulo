@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -69,7 +69,6 @@
 			"obj-1::obj-21" : [ "live.text[14]", "live.text", 0 ],
 			"obj-1::obj-3" : [ "live.text[4]", "live.text", 0 ],
 			"obj-1::obj-37" : [ "live.text[6]", "live.text", 0 ],
-			"obj-1::obj-43" : [ "live.numbox[60]", "live.dial[12]", 0 ],
 			"obj-1::obj-44" : [ "live.numbox[3]", "live.dial[12]", 0 ],
 			"obj-1::obj-45" : [ "live.text[5]", "live.text", 0 ],
 			"obj-1::obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
@@ -83,6 +82,45 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-1::obj-21" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-3" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-1::obj-44" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-1::obj-85" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-88" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-1::obj-92" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 
 			}
@@ -138,19 +176,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

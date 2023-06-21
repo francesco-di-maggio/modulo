@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -71,6 +71,7 @@
 			"obj-1::obj-123::obj-66" : [ "live.numbox[420]", "live.numbox", 0 ],
 			"obj-1::obj-123::obj-68" : [ "live.numbox[549]", "live.numbox", 0 ],
 			"obj-1::obj-123::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
+			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-1::obj-35" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-1::obj-66" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-1::obj-1::obj-68" : [ "live.numbox[9]", "live.numbox", 0 ],
@@ -391,33 +392,34 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.noteout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../../misc/abs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.noteouts.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

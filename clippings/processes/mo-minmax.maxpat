@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -51,11 +51,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.minmax.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numinlets" : 2,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
+					"varname" : "mo.minmax",
 					"viewvisibility" : 1
 				}
 
@@ -73,31 +74,27 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-37" : 				{
+					"parameter_longname" : "live.text[71]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.minmax.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

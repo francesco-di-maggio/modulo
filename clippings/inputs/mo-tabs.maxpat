@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -89,6 +89,10 @@
 				"obj-1::obj-56" : 				{
 					"parameter_longname" : "live.numbox[49]"
 				}
+,
+				"obj-1::obj-59" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
 
 			}
 ,
@@ -96,13 +100,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "color.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -110,15 +107,9 @@
 			}
 , 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -129,19 +120,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

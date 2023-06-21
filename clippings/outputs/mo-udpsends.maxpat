@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -65,6 +65,7 @@
 		"parameters" : 		{
 			"obj-1::obj-107::obj-1" : [ "live.text[14]", "live.text", 0 ],
 			"obj-1::obj-123::obj-1" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-153" : [ "live.text[28]", "live.text", 0 ],
 			"obj-1::obj-1::obj-1" : [ "live.text[15]", "live.text", 0 ],
 			"obj-1::obj-36::obj-1" : [ "live.text[16]", "live.text", 0 ],
 			"obj-1::obj-40::obj-1" : [ "live.text[17]", "live.text", 0 ],
@@ -93,6 +94,14 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-107::obj-1" : 				{
 					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-123::obj-1" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[28]"
 				}
 ,
 				"obj-1::obj-1::obj-1" : 				{
@@ -162,33 +171,34 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.udpsend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/abs",
-				"patcherrelativepath" : "../../misc/abs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.udpsends.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

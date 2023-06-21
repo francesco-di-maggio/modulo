@@ -19,12 +19,3 @@ If not, you can [download the latest release here](https://github.com/francesco-
 ## How it works
 
 Open the Overview Patch (modulo-main/extras/modulo.maxpat).
-
-## Externals
-
-The following modules require external dependencies:
-* ```mo.classify```, ```mo.regress```
-
-All dependencies are available in the Max ```Package Manager``` (Max > File > Show Package Manager):
-
-* [Fluid Corpus Manipulation](https://www.flucoma.org/download)

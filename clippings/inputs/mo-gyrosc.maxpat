@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -51,7 +51,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.gyrosc.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
@@ -73,18 +73,14 @@
 			"obj-1::obj-116" : [ "live.text[20]", "live.text", 0 ],
 			"obj-1::obj-117" : [ "live.text[33]", "live.text", 0 ],
 			"obj-1::obj-119" : [ "number", "number", 0 ],
-			"obj-1::obj-12" : [ "live.text[8]", "live.text", 0 ],
+			"obj-1::obj-12" : [ "live.text[8]", "live.text[12]", 0 ],
 			"obj-1::obj-14" : [ "live.button", "live.button", 0 ],
-			"obj-1::obj-15" : [ "live.text[17]", "live.text", 0 ],
+			"obj-1::obj-15" : [ "live.text[17]", "live.text[12]", 0 ],
 			"obj-1::obj-153" : [ "live.text[38]", "live.text", 0 ],
-			"obj-1::obj-18" : [ "live.text[14]", "live.text", 0 ],
-			"obj-1::obj-34" : [ "live.text[12]", "live.text[12]", 0 ],
-			"obj-1::obj-5" : [ "live.text[24]", "live.text[12]", 0 ],
-			"obj-1::obj-59" : [ "live.text[13]", "live.text[12]", 0 ],
-			"obj-1::obj-6" : [ "live.text[25]", "live.text[12]", 0 ],
-			"obj-1::obj-62" : [ "live.text[32]", "live.text[12]", 0 ],
-			"obj-1::obj-64" : [ "live.text[26]", "live.text[12]", 0 ],
-			"obj-1::obj-7" : [ "live.text[19]", "live.text[12]", 0 ],
+			"obj-1::obj-18" : [ "live.text[14]", "live.text[12]", 0 ],
+			"obj-1::obj-22" : [ "live.text[22]", "live.text[12]", 0 ],
+			"obj-1::obj-23" : [ "live.text[4]", "live.text[12]", 0 ],
+			"obj-1::obj-28" : [ "live.text[43]", "live.text[12]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -95,12 +91,48 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-109" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-1::obj-112" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-1::obj-113" : 				{
+					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-1::obj-115" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-1::obj-117" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
 				"obj-1::obj-14" : 				{
 					"parameter_longname" : "live.button"
 				}
 ,
 				"obj-1::obj-15" : 				{
 					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-1::obj-18" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-23" : 				{
+					"parameter_longname" : "live.text[4]"
 				}
 
 			}
@@ -113,27 +145,28 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.gyrosc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

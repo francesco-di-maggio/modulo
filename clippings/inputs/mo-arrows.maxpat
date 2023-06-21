@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -51,11 +51,12 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.arrows.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
+					"varname" : "mo.arrows",
 					"viewvisibility" : 1
 				}
 
@@ -63,6 +64,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-13" : [ "live.button[2]", "live.button", 0 ],
+			"obj-1::obj-14" : [ "live.button[5]", "live.button", 0 ],
+			"obj-1::obj-16" : [ "live.button[3]", "live.button", 0 ],
+			"obj-1::obj-7" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -84,7 +89,7 @@
 			}
 , 			{
 				"name" : "mo.arrows.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
@@ -97,19 +102,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

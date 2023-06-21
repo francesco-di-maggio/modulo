@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -52,8 +52,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.lfo.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
 					"varname" : "mo.lfo",
 					"viewvisibility" : 1
@@ -67,7 +68,9 @@
 			"obj-1::obj-120" : [ "offset-", "live.numbox", 0 ],
 			"obj-1::obj-140" : [ "Phase", "live.numbox", 0 ],
 			"obj-1::obj-20" : [ "waveform-", "waveform-", 0 ],
-			"obj-1::obj-26" : [ "mode-", "mode", 0 ],
+			"obj-1::obj-21" : [ "live.text[38]", "live.text", 0 ],
+			"obj-1::obj-26" : [ "mode-", "live.text", 0 ],
+			"obj-1::obj-36" : [ "Hold[1]", "live.text", 0 ],
 			"obj-1::obj-4" : [ "live.text[116]", "live.text", 0 ],
 			"obj-1::obj-55" : [ "Hold", "live.text", 0 ],
 			"obj-1::obj-58" : [ "rate-", "rate", 0 ],
@@ -101,16 +104,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.lfo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.lfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -132,8 +136,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -151,19 +156,8 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

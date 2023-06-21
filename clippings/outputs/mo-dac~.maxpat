@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -63,7 +63,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-45" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -79,40 +80,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
 				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

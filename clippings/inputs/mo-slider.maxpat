@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 266.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -64,7 +64,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "live.text[28]", "live.text", 0 ],
+			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
+			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-7" : [ "live.text[80]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -74,38 +76,20 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[28]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

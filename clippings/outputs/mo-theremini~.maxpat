@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -51,7 +51,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.theremini~.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
@@ -87,45 +87,105 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-111" : 				{
+					"parameter_longname" : "live.dial[21]"
+				}
+,
+				"obj-1::obj-112" : 				{
+					"parameter_longname" : "live.dial[23]"
+				}
+,
+				"obj-1::obj-113" : 				{
+					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-1::obj-114" : 				{
+					"parameter_longname" : "live.dial[24]"
+				}
+,
+				"obj-1::obj-118" : 				{
+					"parameter_longname" : "live.dial[19]"
+				}
+,
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-22" : 				{
+					"parameter_longname" : "live.dial[18]"
+				}
+,
+				"obj-1::obj-24" : 				{
+					"parameter_longname" : "live.dial[25]"
+				}
+,
+				"obj-1::obj-25" : 				{
+					"parameter_longname" : "live.dial[13]"
+				}
+,
+				"obj-1::obj-27" : 				{
+					"parameter_longname" : "live.dial[10]"
+				}
+,
+				"obj-1::obj-34" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-37" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-1::obj-4" : 				{
+					"parameter_longname" : "live.dial[20]"
+				}
+,
+				"obj-1::obj-42" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.theremini~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/synths",
-				"patcherrelativepath" : "../../patchers/synths",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

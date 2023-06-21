@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -302,11 +302,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 27.872348517179489, 30.0, 30.0 ]
 				}
 
@@ -315,7 +315,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -622,19 +622,84 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
+		"parameters" : 		{
+			"obj-33" : [ "live.text[72]", "live.text", 0 ],
+			"obj-42" : [ "live.text[8]", "live.text", 0 ],
+			"obj-7" : [ "live.text[2]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "brushes.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drumLoop.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "duduk.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loop.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sho0630.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

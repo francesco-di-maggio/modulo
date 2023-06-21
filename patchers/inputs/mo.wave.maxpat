@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -570,7 +570,7 @@
 				"box" : 				{
 					"comment" : "(list) up, middle, down, tap",
 					"id" : "obj-48",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -656,7 +656,7 @@
 				"box" : 				{
 					"comment" : "(list) pitch, roll, yaw, vibrato",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -998,14 +998,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.707160452425228, 184.957205790011585, 80.0, 32.0 ],
+					"patching_rect" : [ 242.707160452425228, 184.957205790011585, 95.0, 37.0 ],
 					"text" : ";\rdsp driver setup"
 				}
 
@@ -1581,19 +1581,68 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
+		"parameters" : 		{
+			"obj-14" : [ "live.button", "live.button", 0 ],
+			"obj-153" : [ "live.text[36]", "live.text", 0 ],
+			"obj-157" : [ "live.text[49]", "live.text[12]", 0 ],
+			"obj-18" : [ "live.text[95]", "live.text[12]", 0 ],
+			"obj-19" : [ "live.text[111]", "live.text[12]", 0 ],
+			"obj-2" : [ "live.text[48]", "live.text", 0 ],
+			"obj-21" : [ "live.text[28]", "live.text[12]", 0 ],
+			"obj-24" : [ "live.text[52]", "live.text", 0 ],
+			"obj-28" : [ "live.text[27]", "live.text[12]", 0 ],
+			"obj-3" : [ "live.text[55]", "live.text[12]", 0 ],
+			"obj-4" : [ "live.text[37]", "live.text[12]", 0 ],
+			"obj-5" : [ "live.text[112]", "live.text[12]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "high.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "low.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middle.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

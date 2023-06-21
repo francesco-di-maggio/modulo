@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -63,15 +63,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-125" : [ "live.text[45]", "live.text[12]", 0 ],
 			"obj-1::obj-14" : [ "live.button", "live.button", 0 ],
-			"obj-1::obj-15" : [ "live.text[17]", "live.text[12]", 0 ],
 			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-157" : [ "live.text[32]", "live.text[12]", 0 ],
+			"obj-1::obj-18" : [ "live.text[95]", "live.text[12]", 0 ],
+			"obj-1::obj-19" : [ "live.text[111]", "live.text[12]", 0 ],
 			"obj-1::obj-2" : [ "live.text[24]", "live.text", 0 ],
+			"obj-1::obj-21" : [ "live.text[28]", "live.text[12]", 0 ],
 			"obj-1::obj-24" : [ "live.text[46]", "live.text", 0 ],
 			"obj-1::obj-28" : [ "live.text[18]", "live.text[12]", 0 ],
-			"obj-1::obj-32" : [ "live.text[44]", "live.text[12]", 0 ],
+			"obj-1::obj-3" : [ "live.text[55]", "live.text[12]", 0 ],
+			"obj-1::obj-4" : [ "live.text[37]", "live.text[12]", 0 ],
+			"obj-1::obj-5" : [ "live.text[112]", "live.text[12]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -81,31 +84,76 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-157" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-1::obj-2" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-1::obj-24" : 				{
+					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-1::obj-28" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "high.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "low.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "middle.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.wave.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

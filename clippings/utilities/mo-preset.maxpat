@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -52,7 +52,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
-					"pattrstorage" : "p-blocks",
 					"presentation" : 1,
 					"presentation_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
 					"saved_attribute_attributes" : 					{
@@ -86,7 +85,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "p-blocks"
+					"varname" : "u243011809"
 				}
 
 			}
@@ -244,19 +243,8 @@
 				"boxes" : [ "obj-4", "obj-1", "obj-59", "obj-2", "obj-42" ]
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

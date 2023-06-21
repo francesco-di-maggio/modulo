@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -65,6 +65,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-52" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -75,31 +76,43 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-11" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-52" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
+				"patcherrelativepath" : "../../patchers/outputs",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -98,7 +98,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -152,6 +152,8 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -164,28 +166,28 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.912280082702637, 295.710526943206787, 40.0, 23.0 ],
+					"patching_rect" : [ 64.912280082702637, 295.710526943206787, 38.0, 23.0 ],
 					"text" : "poll 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.912280082702637, 295.710526943206787, 47.0, 23.0 ],
+					"patching_rect" : [ 106.912280082702637, 295.710526943206787, 45.0, 23.0 ],
 					"text" : "poll 10"
 				}
 
@@ -428,7 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 35.0, 21.0 ],
+					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 19.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 4.0, 19.0, 21.0 ],
 					"text" : "hi",
@@ -600,19 +602,38 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
+		"parameters" : 		{
+			"obj-14" : [ "live.button", "live.button", 0 ],
+			"obj-153" : [ "live.text[62]", "live.text", 0 ],
+			"obj-2" : [ "live.text[24]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

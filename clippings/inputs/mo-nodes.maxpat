@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 236.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -67,7 +67,6 @@
 			"obj-1::obj-38" : [ "live.text[64]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-9" : [ "multislider[3]", "multislider[2]", 0 ],
-			"obj-1::obj-92" : [ "live.text[63]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -89,82 +88,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.chooser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
-				"patcherrelativepath" : "../../../ease/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ease.xfade.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mo.nodes.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/%/patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/%/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.between.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
-		}
-
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }
