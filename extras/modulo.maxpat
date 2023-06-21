@@ -1086,7 +1086,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -902.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1152,7 +1152,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -410.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1895,9 +1895,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.fm~", "mo.granulator~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.panel", "mo.send", "mo.send~", "mo.sends", "mo.scope", "mo.scope~", "mo.scrubber~", "mo.spectroscope~", "mo.theremini~", "mo.udpsend", "mo.udpsends" ],
+																			"parameter_enum" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.fm~", "mo.granulator~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.panel", "mo.send", "mo.send~", "mo.sends", "mo.scope", "mo.scope~", "mo.scrubber~", "mo.serialout", "mo.spectroscope~", "mo.theremini~", "mo.udpsend", "mo.udpsends" ],
 																			"parameter_longname" : "live.menu[11]",
-																			"parameter_mmax" : 22,
+																			"parameter_mmax" : 23,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -2675,9 +2675,9 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 3,
-													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
-													"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
+													"presentation_linecount" : 2,
+													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
+													"text" : "These are ideas of instruments using different types of input and direct mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4446,7 +4446,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.34044, 0.4834, 0.24964, 0.46024, 0.46316, 0.25088 ],
+					"nsize" : [ 0.11332, 0.47236, 0.10532, 0.44388, 0.10132, 0.2928 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4464,8 +4464,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7548, 0.0179, 0.0602, 0.0705, 0.1077, 0.8792 ],
-					"yplace" : [ 0.3267, 0.2412, 0.0377, 0.5804, 0.6745, 0.1979 ]
+					"xplace" : [ 0.5086, 0.4465, 0.985, 0.6765, 0.6205, 0.5503 ],
+					"yplace" : [ 0.5665, 0.6025, 0.2431, 0.6184, 0.246, 0.3318 ]
 				}
 
 			}
