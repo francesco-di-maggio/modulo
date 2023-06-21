@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "<none>",
+		"subpatcher_template" : "",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -60,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 196.228078566655597, 480.0, 64.0, 21.0 ],
-					"presentation_linecount" : 6,
 					"text" : "gyroscope"
 				}
 
@@ -125,7 +124,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-10",
 					"ignoreclick" : 1,
@@ -151,7 +150,7 @@
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-8",
 					"ignoreclick" : 1,
@@ -197,7 +196,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 222.483870140716192, 322.0, 236.0, 39.0 ],
-					"presentation_linecount" : 2,
 					"text" : "click \"setup\" to open Audio Midi Setup, locate and connect Bluetooth device"
 				}
 
@@ -212,7 +210,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 365.0, 38.0 ],
-					"presentation_linecount" : 4,
 					"text" : "Switch between the main functionalities of the ball.\nFirst outlet are notes, second cc values, third gyroscope data.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}

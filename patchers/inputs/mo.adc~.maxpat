@@ -181,12 +181,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 239.585018158500986, 449.626276284456253, 205.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -70 ],
+						"initial" : [ -20 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr gain @bindto gain- @initial -70",
+					"text" : "pattr gain @bindto gain- @initial -20",
 					"varname" : "gain"
 				}
 

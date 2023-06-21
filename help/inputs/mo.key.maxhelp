@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 396.0, 465.0 ],
+		"rect" : [ 34.0, 100.0, 362.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,14 +36,15 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "<none>",
+		"subpatcher_template" : "",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontface" : 1,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-35",
 					"ignoreclick" : 1,
@@ -70,9 +71,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 184.5, 164.0, 68.0 ],
-					"presentation_linecount" : 6,
-					"text" : "Switch key, and press key:\n1 = spacebar\n2 = esc\n3 = return"
+					"patching_rect" : [ 206.0, 184.5, 145.0, 68.0 ],
+					"text" : "Switch key, and press: \n1 = spacebar\n2 = esc\n3 = return"
 				}
 
 			}
@@ -99,7 +99,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 308.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Use spacebar, esc and return keys to trigger events.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
@@ -114,7 +113,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 83.0, 174.0, 23.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Report keyboard pressure."
 				}
 
@@ -135,6 +133,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-6",
 					"maxclass" : "number",
 					"maximum" : 3,
@@ -143,12 +142,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 207.0, 50.0, 23.0 ]
+					"patching_rect" : [ 121.0, 207.0, 52.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -173,12 +173,13 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 207.0, 53.0, 23.0 ],
+					"patching_rect" : [ 41.0, 207.0, 55.0, 23.0 ],
 					"text" : "mute $1"
 				}
 

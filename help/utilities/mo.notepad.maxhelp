@@ -84,7 +84,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "<none>",
+						"subpatcher_template" : "",
 						"showontab" : 1,
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
@@ -130,12 +130,12 @@
 								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 13.0,
+									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 101.529780500000015, 164.0, 57.0, 26.0 ],
+									"patching_rect" : [ 101.529780500000015, 164.0, 55.0, 25.0 ],
 									"text" : "bang "
 								}
 
@@ -433,7 +433,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "<none>",
+						"subpatcher_template" : "",
 						"showontab" : 1,
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,

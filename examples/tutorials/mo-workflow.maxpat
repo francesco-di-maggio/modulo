@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "<none>",
+		"subpatcher_template" : "",
 		"showontab" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -82,7 +82,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "<none>",
+						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
@@ -90,7 +90,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
@@ -131,7 +131,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
@@ -171,7 +171,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-35",
 									"ignoreclick" : 1,
@@ -272,7 +272,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "<none>",
+						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
@@ -293,7 +293,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-8",
 									"ignoreclick" : 1,
@@ -352,7 +352,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-35",
 									"ignoreclick" : 1,
@@ -390,7 +390,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-25",
 									"ignoreclick" : 1,
@@ -511,7 +511,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mo.theremini~.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
@@ -751,7 +751,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "<none>",
+						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
@@ -771,7 +771,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-1",
 									"ignoreclick" : 1,
@@ -821,7 +821,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-25",
 									"ignoreclick" : 1,
@@ -901,7 +901,7 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 9.5,
+									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-35",
 									"ignoreclick" : 1,
@@ -1255,7 +1255,7 @@
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 293.75, 451.365287323792813, 86.0, 23.0 ],
@@ -1310,41 +1310,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"midpoints" : [ 539.25, 438.0, 370.25, 438.0 ],
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"midpoints" : [ 609.25, 438.0, 370.25, 438.0 ],
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"midpoints" : [ 750.25, 438.0, 370.25, 438.0 ],
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"midpoints" : [ 303.25, 255.0, 303.25, 255.0 ],
 									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"midpoints" : [ 678.25, 438.0, 370.25, 438.0 ],
-									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -1409,14 +1377,6 @@
 									"destination" : [ "obj-39", 0 ],
 									"midpoints" : [ 448.25, 576.0, 448.25, 576.0 ],
 									"source" : [ "obj-44", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"midpoints" : [ 370.25, 426.0, 370.25, 426.0 ],
-									"source" : [ "obj-45", 0 ]
 								}
 
 							}

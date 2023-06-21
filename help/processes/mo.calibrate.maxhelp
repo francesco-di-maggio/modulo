@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "<none>",
+		"subpatcher_template" : "",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -84,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 552.5, 367.0, 129.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set maximum input "
 				}
 
@@ -113,7 +112,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 393.5, 284.0, 191.0, 25.0 ],
-					"presentation_linecount" : 3,
 					"text" : "start/stop dynamic calibration "
 				}
 
@@ -142,7 +140,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.5, 204.0, 119.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "number of voices "
 				}
 
@@ -169,7 +166,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.0, 165.0, 112.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "generate values "
 				}
 
@@ -211,7 +207,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 9.0, 306.0, 71.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mo.calibrate"
 				}
 
@@ -232,7 +227,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-19",
 					"ignoreclick" : 1,
@@ -364,7 +359,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
+					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-35",
 					"ignoreclick" : 1,
