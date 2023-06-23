@@ -1,9 +1,10 @@
 ![modulo logo](icon.png "the modulo logo")
 
 # modulo
+A Toolkit for Digital Musical Instrument Design. 
 
 ## About 
-A Toolkit for Digital Musical Instrument Design. 
+A toolkit designed for quick prototyping of musical interfaces. It includes a variety of modules, including inputs, outputs, signal and control processes, synths, and utilities, specifically made to aid the process of instrument design. Modules are based on a user-friendly, modular and multichannel architecture.
 
 ## Installation
 

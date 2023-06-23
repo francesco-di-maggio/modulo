@@ -1,6 +1,6 @@
 {
     "author" : "Francesco Di Maggio",
-    "description" : "A toolkit designed for quick prototyping of musical interfaces. It includes a variety of modules, including inputs, outputs, signal processes, synths, and utilities, specifically made to aid the process of instrument design. Modules can be dragged and dropped into an unlocked Max patch, and are based on a user-friendly, modular and multichannel architecture.",
+    "description" : "A toolkit designed for quick prototyping of musical interfaces. It includes a variety of modules, including inputs, outputs, signal and control processes, synths, and utilities, specifically made to aid the process of instrument design. Modules are based on a user-friendly, modular and multichannel architecture.",
     "homepatcher" : "modulo.maxpat",
     "max_version_min" : "7.1", "max_version_max" : "none",
     "name" : "modulo",
