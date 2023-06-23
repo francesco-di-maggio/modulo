@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-4",
-					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit Fixed (-8192 to 8191)" ],
+					"items" : [ "Off (0-127)", ",", "Float (-1 to 1)", ",", "14-bit (-8192-8191)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -61,7 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 102.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.209603255230064, 5.0, 16.358113862834188, 20.0 ],
+					"presentation_rect" : [ 56.951741551595802, 5.0, 111.27268863495371, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "hires-"
@@ -81,7 +81,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 102.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.209603255230064, 8.0, 17.358113862834188, 13.376782789826393 ],
+					"presentation_rect" : [ 54.951741551595802, 8.0, 112.27268863495371, 13.376782789826393 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 704.90126629102781, 203.126276284456253, 62.0, 16.0 ],
+					"patching_rect" : [ 704.90126629102781, 248.849999785423279, 54.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 36.132189824653828, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -244,6 +244,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 552.329837719599254, 248.849999785423279, 42.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 169.0, 35.148713290168011, 42.0, 18.0 ],
 					"text" : "channel",
 					"textjustification" : 1
 				}
@@ -261,7 +263,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 500.996504386265769, 250.349999785423279, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.567717118064252, 7.0, 21.0, 15.0 ],
+					"presentation_rect" : [ 146.578952235976544, 36.132189824653828, 21.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -405,7 +407,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -454,7 +456,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-49",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2", ",", "SLMIXUSB Port 1", ",", "SLMIXUSB Port 2", ",", "SLMIXUSB Port 3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -462,7 +464,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 774.5, 554.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.113787166514193, 34.148713290168011, 110.886212833485814, 20.0 ],
+					"presentation_rect" : [ 24.113787166514193, 34.148713290168011, 119.182823129258367, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -482,7 +484,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 774.5, 554.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.220876268782412, 37.132189824653828, 113.851509757600041, 13.3767827898264 ],
+					"presentation_rect" : [ 22.220876268782412, 37.132189824653828, 122.148120053372594, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -492,7 +494,7 @@
 				"box" : 				{
 					"comment" : "pitch bend (0-127)",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -505,7 +507,7 @@
 				"box" : 				{
 					"comment" : "aftertouch",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -518,7 +520,7 @@
 				"box" : 				{
 					"comment" : "program change",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -531,7 +533,7 @@
 				"box" : 				{
 					"comment" : "controller change (list: controller number-value)",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -544,7 +546,7 @@
 				"box" : 				{
 					"comment" : "poly key pressure (list: key-value)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -557,7 +559,7 @@
 				"box" : 				{
 					"comment" : "note-onoff (list: pitch-velocity)",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -633,7 +635,7 @@
 					"patching_rect" : [ 44.0, 280.849999785423392, 44.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.905875280499458, 7.0, 37.094124719500542, 15.0 ],
+					"presentation_rect" : [ 170.905875280499458, 7.0, 37.094124719500542, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -683,7 +685,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.842786306142557, 38.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -988,36 +990,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"obj-153" : [ "live.text[140]", "live.text", 0 ],
-			"obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

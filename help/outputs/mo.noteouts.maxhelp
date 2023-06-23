@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.707317113876343, 164.5, 138.0, 25.0 ],
+					"patching_rect" : [ 417.707317113876343, 164.5, 138.0, 25.0 ],
 					"text" : "set output MIDI port "
 				}
 
@@ -130,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.707317113876343, 167.0, 20.0, 20.0 ],
+					"patching_rect" : [ 390.707317113876343, 167.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]

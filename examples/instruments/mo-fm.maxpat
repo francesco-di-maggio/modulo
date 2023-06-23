@@ -385,7 +385,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.regress", "mo.fm~", "mo.scale", "mo.2max", "mo.sends" ],
+					"subscribe" : [ "mo.regress", "mo.sends", "mo.scale", "mo.2max", "mo.fm~" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}
@@ -1281,13 +1281,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

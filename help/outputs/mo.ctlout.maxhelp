@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 542.0, 550.0 ],
+		"rect" : [ 34.0, 100.0, 555.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.707317113876343, 294.0, 138.0, 25.0 ],
+					"patching_rect" : [ 397.707317113876343, 294.0, 138.0, 25.0 ],
 					"text" : "set output MIDI port "
 				}
 
@@ -148,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.707317113876343, 296.5, 20.0, 20.0 ],
+					"patching_rect" : [ 370.707317113876343, 296.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -215,8 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 296.0, 66.0, 23.0 ],
-					"text" : "\"to Max 1\""
+					"patching_rect" : [ 279.0, 296.0, 80.0, 23.0 ],
+					"text" : "\"from Max 1\""
 				}
 
 			}

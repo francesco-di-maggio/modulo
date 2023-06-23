@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 176.0 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 265.0 ],
 					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}
@@ -63,11 +63,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-25" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-27" : [ "semitone", "semitone", 0 ],
 			"obj-1::obj-37" : [ "live.text[33]", "live.numbox", 0 ],
 			"obj-1::obj-39" : [ "live.numbox[140]", "live.numbox", 0 ],
-			"obj-1::obj-5" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-1::obj-46" : [ "live.text[44]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.text[145]", "live.text", 0 ],
+			"obj-1::obj-72" : [ "live.numbox[36]", "live.numbox", 0 ],
+			"obj-1::obj-75" : [ "Cutoff-DL", "octave", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -81,6 +84,10 @@
 				"obj-1::obj-37" : 				{
 					"parameter_longname" : "live.text[33]"
 				}
+,
+				"obj-1::obj-75" : 				{
+					"parameter_longname" : "Cutoff-DL"
+				}
 
 			}
 ,
@@ -88,9 +95,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -99,6 +105,12 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],

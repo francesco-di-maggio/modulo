@@ -72,7 +72,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 666.541666666666629, 544.099402105612285, 128.0, 23.0 ],
-					"restore" : [ 2.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -138,7 +138,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-11",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2", ",", "SLMIXUSB Port 1", ",", "SLMIXUSB Port 2", ",", "SLMIXUSB Port 3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -225,7 +225,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "live.numbox[550]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -264,7 +264,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[12]",
+							"parameter_longname" : "live.numbox[420]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -302,7 +302,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
-							"parameter_longname" : "live.numbox[11]",
+							"parameter_longname" : "live.numbox[549]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -433,11 +433,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-36",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 43.666666666666629, 386.074551579209242, 42.0, 23.0 ],
-					"text" : "* 127."
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 44.166666666666629, 280.074551579209242, 114.0, 23.0 ],
+					"text" : "expr int($f1 * 127.)"
 				}
 
 			}
@@ -506,7 +506,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[52]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -514,9 +514,9 @@
 
 					}
 ,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "2",
+					"texton" : "1",
 					"varname" : "mute-"
 				}
 
@@ -553,7 +553,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -594,7 +594,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -754,7 +754,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 53.166666666666629, 258.0, 53.166666666666629, 258.0 ],
+					"midpoints" : [ 53.166666666666629, 258.0, 53.666666666666629, 258.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -794,7 +794,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"midpoints" : [ 53.166666666666629, 411.0, 53.666666666666629, 411.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -864,25 +863,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-35" : [ "live.text[52]", "live.text", 0 ],
-			"obj-66" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-68" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-72" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

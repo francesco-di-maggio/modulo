@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 57.5 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 57.5 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -64,24 +64,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-15" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-19" : [ "live.text[3]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-1" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 
 			}
