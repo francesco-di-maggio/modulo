@@ -23,8 +23,8 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 3,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -166,12 +166,12 @@
 				"box" : 				{
 					"comment" : "(message) mute, dB, chans",
 					"id" : "obj-16",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.153199976682799, 82.394333000000017, 30.0, 30.0 ]
+					"patching_rect" : [ 380.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
 			}
@@ -182,7 +182,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 327.083333333333258, 159.788666000000035, 101.0, 23.0 ],
+					"patching_rect" : [ 328.083333333333258, 159.788666000000035, 101.0, 23.0 ],
 					"text" : "route mute dB int"
 				}
 
@@ -238,11 +238,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-35",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
@@ -389,7 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 388.653199976682799, 146.0, 336.583333333333258, 146.0 ],
+					"midpoints" : [ 389.653199976682799, 146.0, 337.583333333333258, 146.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -397,7 +397,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 363.916666666666572, 380.0, 48.653199976682799, 380.0 ],
+					"midpoints" : [ 364.916666666666572, 380.0, 48.653199976682799, 380.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -405,7 +405,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 391.249999999999886, 210.0, 283.5, 210.0 ],
+					"midpoints" : [ 392.249999999999886, 210.0, 283.5, 210.0 ],
 					"source" : [ "obj-20", 2 ]
 				}
 
@@ -413,7 +413,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 336.583333333333258, 209.0, 48.653199976682799, 209.0 ],
+					"midpoints" : [ 337.583333333333258, 209.0, 48.653199976682799, 209.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -421,7 +421,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 337.5, 134.0, 336.583333333333258, 134.0 ],
+					"midpoints" : [ 337.5, 134.0, 337.583333333333258, 134.0 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -490,19 +490,40 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
+		"parameters" : 		{
+			"obj-45" : [ "live.gain~[2]", "volume", 0 ],
+			"obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-7" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "speaker-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "speaker-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

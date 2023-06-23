@@ -295,7 +295,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 485.885702821115501, 536.0, 100.0, 29.0 ],
-					"pattrstorage" : "p-live",
+					"pattrstorage" : "p-daw",
 					"presentation" : 1,
 					"presentation_rect" : [ 248.824253082275391, 323.500000000000057, 53.397435694932938, 29.0 ]
 				}
@@ -303,13 +303,13 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-live.json",
+					"autorestore" : "p-daw.json",
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.885702821115501, 492.024999999999636, 470.0, 23.0 ],
+					"patching_rect" : [ 485.885702821115501, 492.024999999999636, 474.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -317,9 +317,9 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.speedlim", "mo.ctlouts", "mo.line", "mo.2midi" ],
-					"text" : "pattrstorage p-live @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
-					"varname" : "p-live"
+					"subscribe" : [ "mo.speedlim", "mo.line", "mo.ctlouts" ],
+					"text" : "pattrstorage p-daw @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
+					"varname" : "p-daw"
 				}
 
 			}
@@ -1062,13 +1062,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -1110,7 +1103,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-live.json",
+				"name" : "p-daw.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

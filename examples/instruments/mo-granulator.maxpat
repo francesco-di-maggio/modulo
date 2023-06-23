@@ -595,9 +595,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.375, 470.037196587664766, 508.0, 23.0 ],
 					"priority" : 					{
+						"mo.crosspatch::crosspatch" : 1,
 						"mo.crosspatch::ins" : -1,
-						"mo.crosspatch::outs" : -1,
-						"mo.crosspatch::crosspatch" : 1
+						"mo.crosspatch::outs" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -607,7 +607,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.sends[1]", "mo.pad", "mo.scale", "mo.crosspatch", "mo.2max", "mo.sends" ],
+					"subscribe" : [ "mo.scale", "mo.sends", "mo.2max", "mo.crosspatch", "mo.pad", "mo.sends[1]" ],
 					"text" : "pattrstorage p-granulator @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-granulator"
 				}
@@ -2255,13 +2255,6 @@
 			}
 , 			{
 				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dice.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",

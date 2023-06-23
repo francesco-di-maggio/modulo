@@ -23,8 +23,8 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 3,
@@ -37,16 +37,17 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "%",
+		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 622.583333333333371, 155.363906459258089, 29.5, 23.0 ],
+					"patching_rect" : [ 622.583333333333371, 155.363906459258089, 30.0, 23.0 ],
 					"text" : "- 1"
 				}
 
@@ -110,11 +111,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 590.0, 54.449999928474455, 30.0, 30.0 ]
 				}
 
@@ -167,18 +168,20 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 623.25, 236.574979633092823, 29.5, 23.0 ],
+					"patching_rect" : [ 623.25, 236.574979633092823, 30.0, 23.0 ],
 					"text" : "+ 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -198,6 +201,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -217,6 +221,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -238,7 +243,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -248,6 +253,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -284,49 +290,49 @@
 
 					}
 ,
-					"setfilter" : [ 0, 1, 1, 0, 0, 1000.0, 1.0, 0.879000008106232, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 9, 1, 0, 0, 16000.0, 1.0, 0.75, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1074.25, 207.377813133092843, 41.0, 22.0 ],
+					"patching_rect" : [ 1074.25, 207.377813133092843, 42.0, 23.0 ],
 					"text" : "set $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1009.821428571428442, 207.377813133092843, 41.0, 22.0 ],
+					"patching_rect" : [ 1009.821428571428442, 207.377813133092843, 42.0, 23.0 ],
 					"text" : "set $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.39285714285711, 207.377813133092843, 41.0, 22.0 ],
+					"patching_rect" : [ 945.39285714285711, 207.377813133092843, 42.0, 23.0 ],
 					"text" : "set $1"
 				}
 
@@ -339,9 +345,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1074.25, 245.277826401086884, 27.0, 48.0 ],
+					"patching_rect" : [ 1074.25, 245.277826401086884, 28.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 289.730237871408463, 36.843438953161183, 52.020007610321045, 48.0 ],
+					"presentation_rect" : [ 289.730237871408463, 36.843438953161183, 53.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 3.333,
@@ -368,9 +374,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1009.821428571428442, 245.277826401086884, 27.0, 48.0 ],
+					"patching_rect" : [ 1009.821428571428442, 245.277826401086884, 28.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.553767591714859, 36.843438953161183, 43.176470279693604, 48.0 ],
+					"presentation_rect" : [ 244.553767591714859, 36.843438953161183, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 3.333,
@@ -397,9 +403,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 945.39285714285711, 245.277826401086884, 27.0, 48.0 ],
+					"patching_rect" : [ 945.39285714285711, 245.277826401086884, 28.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.377297312021255, 36.843438953161183, 43.176470279693604, 48.0 ],
+					"presentation_rect" : [ 199.377297312021255, 36.843438953161183, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 3.333,
@@ -421,6 +427,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-147",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -433,6 +440,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -445,6 +453,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
@@ -483,17 +492,18 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-29",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 207.0, 61.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -513,12 +523,13 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 40.0, 612.324979990720635, 29.5, 23.0 ],
+					"patching_rect" : [ 40.0, 612.324979990720635, 30.0, 23.0 ],
 					"text" : "+ 1"
 				}
 
@@ -568,6 +579,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -894,19 +906,28 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
+		"parameters" : 		{
+			"obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-7" : [ "live.dial[7]", "live.text", 0 ],
+			"obj-72" : [ "Q-DL", "bandwidth", 0 ],
+			"obj-74" : [ "Cutoff-DL[1]", "gain", 0 ],
+			"obj-75" : [ "Cutoff-DL", "cutoff", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_surface_bg"
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

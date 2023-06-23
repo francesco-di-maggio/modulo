@@ -88,6 +88,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"arrows" : 2,
+									"border" : 2.0,
+									"id" : "obj-9",
+									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 13.0, 83.5, 10.0, 541.71875 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
@@ -101,7 +121,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.25, 60.008648152010721, 20.0, 20.0 ],
+									"patching_rect" : [ 25.0, 78.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -122,7 +142,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.25, 43.008648152010721, 269.0, 54.0 ],
+									"patching_rect" : [ 55.0, 61.5, 269.0, 54.0 ],
 									"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.lfo)."
 								}
 
@@ -142,7 +162,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.25, 224.756250000000023, 20.0, 20.0 ],
+									"patching_rect" : [ 25.0, 318.247601847989301, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -162,7 +182,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.25, 200.756250000000023, 377.0, 68.0 ],
+									"patching_rect" : [ 55.0, 294.247601847989301, 377.0, 68.0 ],
 									"text" : "1. Navigate: Documents > Max 8 > Packages > modulo > clippings.\n2. Choose a category.\n3 .Drag & Drop a module on an unlocked patcher window.\n4. Drag & Drop a module on an existing module to replace it."
 								}
 
@@ -182,7 +202,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.25, 135.382449076005344, 20.0, 20.0 ],
+									"patching_rect" : [ 25.0, 198.873800923994622, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -203,7 +223,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.25, 118.382449076005372, 395.0, 54.0 ],
+									"patching_rect" : [ 55.0, 181.873800923994651, 395.0, 54.0 ],
 									"text" : "1. Unlock the patcher window.\n2. Right-click anywhere in the patcher window: Paste From > modulo. \n3. Choose a category. Select a module."
 								}
 
@@ -434,7 +454,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 559.25, 174.988970895608304, 222.0, 37.0 ],
+									"patching_rect" : [ 559.25, 174.988970895608304, 223.0, 37.0 ],
 									"priority" : 									{
 										"mo.sliders::[1]::polarity" : 1,
 										"mo.sliders::[2]::polarity" : 1,
@@ -600,8 +620,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 207.682643661896407, 136.0, 23.0 ],
-									"text" : "CONTROL PROCESS",
+									"patching_rect" : [ 25.0, 207.682643661896407, 70.0, 23.0 ],
+									"text" : "MAPPING",
 									"underline" : 1
 								}
 
@@ -638,7 +658,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 232.682643661896407, 312.0, 21.0 ],
+									"patching_rect" : [ 25.0, 232.682643661896407, 246.0, 21.0 ],
 									"text" : " • Scale values to adapt to sound parameters"
 								}
 
@@ -991,8 +1011,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 207.682643661896407, 136.0, 23.0 ],
-									"text" : "CONTROL PROCESS",
+									"patching_rect" : [ 25.0, 207.682643661896407, 70.0, 23.0 ],
+									"text" : "MAPPING",
 									"underline" : 1
 								}
 
@@ -2865,13 +2885,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

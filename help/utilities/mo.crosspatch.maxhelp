@@ -51,6 +51,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 172.0, 61.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
 					"spacing" : 2
@@ -171,6 +172,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 455.499999999999886, 172.0, 61.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
 					"spacing" : 2,
