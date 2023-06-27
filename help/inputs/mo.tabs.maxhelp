@@ -41,6 +41,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 516.0, 50.0, 23.0 ],
+					"text" : "0 0 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -50,18 +63,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 327.0, 251.777777045965195, 95.0, 25.0 ],
 					"text" : "mute output "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 509.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -364,8 +365,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 50.5, 483.0, 50.5, 483.0 ],
+					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 50.5, 501.0, 81.5, 501.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

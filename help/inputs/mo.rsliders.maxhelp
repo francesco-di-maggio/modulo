@@ -195,6 +195,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -220,6 +221,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -627,6 +629,10 @@
 					"parameter_longname" : "live.text[2]"
 				}
 ,
+				"obj-11::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[16]"
+				}
+,
 				"obj-11::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
@@ -765,13 +771,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{

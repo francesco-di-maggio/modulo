@@ -194,13 +194,13 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 454.0, 60.173431724309921, 23.0 ],
-					"text" : "1 1 0 0"
+					"patching_rect" : [ 41.0, 454.0, 60.173431724309921, 23.0 ]
 				}
 
 			}

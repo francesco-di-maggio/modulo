@@ -101,6 +101,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-50",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -223,6 +224,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -234,6 +236,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -442,11 +445,23 @@
 		"parameters" : 		{
 			"obj-4::obj-15" : [ "live.text[2]", "live.text", 0 ],
 			"obj-4::obj-19" : [ "live.text[3]", "live.text", 0 ],
+			"obj-4::obj-72" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-4::obj-15" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-4::obj-19" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 
 			}

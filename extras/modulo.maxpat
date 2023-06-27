@@ -1523,7 +1523,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ -410.0, 0.0 ],
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1905,7 +1905,7 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serial", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
+																			"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.buffer~", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.gyrosc", "mo.hi", "mo.key", "mo.keyboard", "mo.lfo", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.odd", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rslider", "mo.rsliders", "mo.serialin", "mo.slider", "mo.sliders", "mo.swatch", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.wave", "mo.xypad" ],
 																			"parameter_longname" : "live.menu[10]",
 																			"parameter_mmax" : 35,
 																			"parameter_shortname" : "live.menu",
@@ -2300,14 +2300,15 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
+													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 20.0, 258.0, 460.0, 22.0 ],
+													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
+													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4377,7 +4378,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.10364, 0.49812, 0.13716, 0.19872, 0.152, 0.47916 ],
+					"nsize" : [ 0.38436, 0.33188, 0.13404, 0.304, 0.14496, 0.35904 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4395,8 +4396,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.916, 0.4159, 0.4245, 0.8129, 0.1379, 0.3767 ],
-					"yplace" : [ 0.8813, 0.8183, 0.2102, 0.7079, 0.722, 0.5234 ]
+					"xplace" : [ 0.5595, 0.0, 0.7228, 0.4429, 0.8811, 0.2353 ],
+					"yplace" : [ 0.4316, 0.4139, 0.7667, 0.4396, 0.0239, 0.6311 ]
 				}
 
 			}

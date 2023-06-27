@@ -227,12 +227,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 570.0, 70.148589610397437, 23.0 ],
-					"text" : "1"
+					"maxclass" : "number",
+					"maximum" : 16,
+					"minimum" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.0, 570.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -293,8 +295,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 50.5, 555.0, 101.648589610397437, 555.0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -343,13 +344,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.tab.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",

@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 620.0, 632.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 632.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -633,7 +633,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 632.0 ],
+						"rect" : [ 34.0, 126.0, 620.0, 632.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -992,21 +992,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_initial" : [ 1 ],
-											"parameter_initial_enable" : 1,
-											"parameter_longname" : "toggle",
-											"parameter_mmax" : 1,
-											"parameter_shortname" : "toggle",
-											"parameter_type" : 2
-										}
-
-									}
-,
 									"varname" : "toggle"
 								}
 
@@ -1200,7 +1187,6 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "toggle", "toggle", 0 ],
 			"obj-1::obj-13::obj-10" : [ "Jitter", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-120" : [ "offset-", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-140" : [ "Phase", "live.numbox", 0 ],

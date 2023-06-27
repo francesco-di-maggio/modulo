@@ -43,7 +43,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -75,14 +75,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 557.333333333333371, 281.0, 254.0, 23.0 ],
+					"patching_rect" : [ 557.333333333333371, 281.0, 191.0, 23.0 ],
+					"restore" : [ 0.5 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.5 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr lightness @bindto lightness- @initial 0.5",
+					"text" : "pattr lightness @bindto lightness-",
 					"varname" : "lightness"
 				}
 
@@ -94,14 +94,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 507.666666666666629, 318.0, 262.0, 23.0 ],
+					"patching_rect" : [ 507.666666666666629, 318.0, 209.0, 23.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr saturation- @bindto saturation- @initial 1",
+					"text" : "pattr saturation- @bindto saturation-",
 					"varname" : "saturation-[1]"
 				}
 
@@ -296,7 +296,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -312,14 +312,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 458.0, 355.0, 187.0, 23.0 ],
+					"patching_rect" : [ 458.0, 355.0, 134.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr hue @bindto hue- @initial 0",
+					"text" : "pattr hue @bindto hue-",
 					"varname" : "hue"
 				}
 
@@ -405,7 +405,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) to route",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -640,25 +640,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-2" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-87" : [ "swatch[4]", "swatch", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

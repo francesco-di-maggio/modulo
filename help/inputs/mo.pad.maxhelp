@@ -185,8 +185,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.255791574060538, 150.5, 65.0, 25.0 ],
-					"text" : "trigger "
+					"patching_rect" : [ 133.255791574060538, 150.5, 111.0, 25.0 ],
+					"text" : "turn pad on/off "
 				}
 
 			}

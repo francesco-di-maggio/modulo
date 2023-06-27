@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -94,7 +94,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.176119639476042, 760.5, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.898296998039314, 241.930181072991218, 42.0, 18.0 ],
+					"presentation_rect" : [ 168.898296998039314, 241.930181072991218, 42.0, 18.0 ],
 					"text" : "channel"
 				}
 
@@ -130,7 +130,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 147.842786306142557, 761.5, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.80552536357979, 243.430181072991218, 21.0, 15.0 ],
+					"presentation_rect" : [ 146.80552536357979, 243.430181072991218, 21.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -198,7 +198,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 950.90126629102781, 202.850896841581516, 56.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.5, 243.430181072991218, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 5.5, 243.430181072991218, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1085,7 +1085,7 @@
 					"patching_rect" : [ 307.0, 682.5, 123.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 29.406333163380623, 240.930181072991218, 110.90475694835186, 20.0 ],
+					"presentation_rect" : [ 23.406333163380623, 240.930181072991218, 122.249661371837306, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -1095,7 +1095,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-43",
@@ -1105,9 +1105,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.0, 682.5, 123.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.406333163380623, 244.430181072991218, 110.90475694835186, 13.530068526665389 ],
+					"presentation_rect" : [ 23.406333163380623, 244.430181072991218, 122.249661371837306, 13.530068526665389 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
 				}
 
 			}

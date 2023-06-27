@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -128,7 +128,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-14",
@@ -140,14 +140,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 54.951741551595802, 8.0, 112.27268863495371, 13.376782789826393 ],
 					"proportion" : 0.5,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -227,7 +220,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 771.5, 555.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.113787166514193, 34.148713290168018, 119.182823129258367, 20.0 ],
+					"presentation_rect" : [ 25.113787166514193, 34.148713290168018, 119.182823129258367, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -237,7 +230,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-18",
@@ -247,9 +240,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 771.5, 555.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.220876268782412, 37.132189824653835, 122.148120053372594, 13.3767827898264 ],
+					"presentation_rect" : [ 23.220876268782412, 37.132189824653835, 122.148120053372594, 13.3767827898264 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
 				}
 
 			}

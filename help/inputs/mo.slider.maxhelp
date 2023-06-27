@@ -41,16 +41,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"linecount" : 3,
-					"maxclass" : "comment",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-35",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 378.255791574060595, 256.0, 151.0, 54.0 ],
-					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 98.0, 167.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
@@ -65,6 +71,21 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 123.255791574060538, 165.0, 141.0, 25.0 ],
 					"text" : "floating points: 0. - 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 378.255791574060595, 256.0, 151.0, 54.0 ],
+					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
 				}
 
 			}
@@ -143,13 +164,11 @@
 					"format" : 6,
 					"id" : "obj-12",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 166.0, 70.0, 23.0 ]
+					"patching_rect" : [ 41.0, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -246,7 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 674.0, 70.0, 23.0 ]
+					"patching_rect" : [ 41.0, 674.0, 50.0, 23.0 ]
 				}
 
 			}

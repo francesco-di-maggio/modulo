@@ -41,6 +41,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-14",
 					"maxclass" : "message",
 					"numinlets" : 2,
