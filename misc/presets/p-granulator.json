@@ -5,62 +5,6 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"mo.crosspatch::ins" : [ 9.0 ],
-					"mo.crosspatch::outs" : [ 9.0 ],
-					"mo.crosspatch::crosspatch" : [ 						{
-							"data" : 							{
-								"numins" : 9,
-								"numouts" : 9,
-								"connections" : [ 									{
-										"in" : 0,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 1,
-										"out" : 1,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 2,
-										"out" : 2,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 3,
-										"out" : 3,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 4,
-										"out" : 4,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 5,
-										"out" : 5,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 6,
-										"out" : 6,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 7,
-										"out" : 7,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 8,
-										"out" : 8,
-										"gain" : 1.0
-									}
- ]
-							}
-
-						}
- ],
 					"mo.scale::voices" : [ 9.0 ],
 					"mo.scale::min" : [ 0.0 ],
 					"mo.scale::max" : [ 1.0 ],

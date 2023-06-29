@@ -1018,7 +1018,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1523,7 +1523,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -2300,15 +2300,14 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 13.0,
 													"id" : "obj-90",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
+													"patching_rect" : [ 20.0, 258.0, 460.0, 22.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
 													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "Capture and manipulate gesture input data, such as motion sensors, pads, sliders and keyboards.",
+													"text" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4378,7 +4377,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.38436, 0.33188, 0.13404, 0.304, 0.14496, 0.35904 ],
+					"nsize" : [ 0.26388, 0.1992, 0.247, 0.42036, 0.28952, 0.16844 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4396,8 +4395,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.5595, 0.0, 0.7228, 0.4429, 0.8811, 0.2353 ],
-					"yplace" : [ 0.4316, 0.4139, 0.7667, 0.4396, 0.0239, 0.6311 ]
+					"xplace" : [ 0.7515, 0.6493, 0.0603, 0.2908, 0.0029, 0.5413 ],
+					"yplace" : [ 0.2732, 0.7739, 0.4813, 0.8539, 0.5573, 0.8848 ]
 				}
 
 			}

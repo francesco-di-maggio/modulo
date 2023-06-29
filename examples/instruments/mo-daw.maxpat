@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 764.0, 590.0 ],
+		"rect" : [ 34.0, 100.0, 631.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 440.426817387342453, 201.601393409073353, 107.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 478.324253082275391, 249.0, 140.0, 25.0 ],
+					"text" : "MIDI map controllers "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-39",
@@ -90,7 +105,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 261.426817387342453, 46.101393409073353, 119.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.426817387342453, 47.5, 119.0, 25.0 ],
+					"presentation_rect" : [ 266.426817387342453, 48.5, 119.0, 25.0 ],
 					"text" : "select MIDI input "
 				}
 
@@ -125,21 +140,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-35",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 412.426817387342453, 39.601393409073353, 119.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 405.426817387342453, 121.25, 140.0, 25.0 ],
-					"text" : "MIDI map controllers "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -155,7 +155,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 380.426817387342453, 49.101393409073353, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.426817387342453, 124.75, 20.0, 20.0 ],
+					"presentation_rect" : [ 452.426817387342453, 251.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -183,7 +183,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 470.0, 238.0, 142.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.926817387342453, 91.0, 142.0, 57.5 ],
+					"presentation_rect" : [ 303.824253082275391, 232.75, 142.0, 57.5 ],
 					"varname" : "mo.map",
 					"viewvisibility" : 1
 				}
@@ -221,9 +221,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 430.101393409073353, 119.0, 39.0 ],
+					"patching_rect" : [ 293.0, 430.101393409073353, 107.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.426817387342453, 418.601393409073353, 127.0, 25.0 ],
+					"presentation_rect" : [ 478.324253082275391, 418.601393409073353, 127.0, 25.0 ],
 					"text" : "select MIDI output "
 				}
 
@@ -245,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 262.0, 439.601393409073353, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.426817387342453, 421.101393409073353, 20.0, 20.0 ],
+					"presentation_rect" : [ 452.324253082275391, 421.101393409073353, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -258,16 +258,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-5",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 764.061449738840111, 199.0, 289.0, 93.0 ],
+					"patching_rect" : [ 764.061449738840111, 199.0, 301.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 488.426817387342453, 16.5, 259.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n1. Open your favourite DAW (e.g Ableton Live).\n2. Select MIDI input for your keyboard.\n3. Select MIDI output for notes.\n4. Select MIDI output for control changes.\n5. Map your control parameters."
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 303.824253082275391, 91.0, 287.0, 107.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Open your preferred DAW (e.g Ableton Live).\n2. (Otional) Select MIDI input for keyboard.\n3. Select MIDI output for keyboard (notes).\n4. Select MIDI output for sliders (control changes).\n5. (Optional) MIDI map sliders to a MIDI device."
 				}
 
 			}
@@ -289,7 +290,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 483.0, 620.0, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.926817387342453, 373.5, 214.0, 199.0 ],
+					"presentation_rect" : [ 231.824253082275391, 373.5, 214.0, 199.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}
@@ -312,8 +313,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 483.0, 434.333333333333314, 70.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 231.926817387342453, 373.5, 70.0, 57.5 ],
 					"varname" : "mo.line",
 					"viewvisibility" : 1
 				}
@@ -359,8 +358,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 483.0, 527.166666666666629, 70.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 303.926817387342453, 373.5, 70.0, 57.5 ],
 					"varname" : "mo.speedlim",
 					"viewvisibility" : 1
 				}

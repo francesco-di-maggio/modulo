@@ -41,13 +41,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
+					"dontreplace" : 1,
+					"id" : "obj-18",
+					"maxclass" : "message",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 206.0, 478.481951141798959, 38.0, 23.0 ],
-					"text" : "zl.reg"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 206.0, 478.481951141798959, 124.833333333333371, 23.0 ],
+					"text" : "mode"
 				}
 
 			}
@@ -930,7 +931,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 38.973149760419801, -0.058990031480789, 168.31823694681043, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "output-15",
+					"text" : "mode",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -987,7 +988,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[146]",
+							"parameter_longname" : "live.text[221]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -995,9 +996,9 @@
 
 					}
 ,
-					"text" : "15",
+					"text" : "2",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "15",
+					"texton" : "2",
 					"varname" : "mute-"
 				}
 
@@ -1050,7 +1051,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 420.666666666666629, 262.694444444444343, 146.0, 23.0 ],
-					"restore" : [ "output-15" ],
+					"restore" : [ "mode" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1104,7 +1105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1143,7 +1144,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1213,14 +1214,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-101", 1 ],
-					"midpoints" : [ 215.5, 504.0, 215.5, 504.0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 215.5, 720.0, 34.166666666666629, 720.0 ],
 					"source" : [ "obj-115", 0 ]
@@ -1250,6 +1243,14 @@
 					"destination" : [ "obj-26", 0 ],
 					"midpoints" : [ 215.5, 234.0, 215.5, 234.0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 1 ],
+					"midpoints" : [ 215.5, 504.0, 215.5, 504.0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1337,8 +1338,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-18", 1 ],
+					"midpoints" : [ 215.5, 465.0, 321.333333333333371, 465.0 ],
+					"order" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 215.5, 336.0, 215.5, 336.0 ],
+					"order" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1369,17 +1380,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 428.166666666666629, 465.0, 215.5, 465.0 ],
-					"source" : [ "obj-51", 0 ]
+					"destination" : [ "obj-115", 2 ],
+					"midpoints" : [ 450.166666666666629, 624.0, 236.5, 624.0 ],
+					"source" : [ "obj-51", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-115", 2 ],
-					"midpoints" : [ 450.166666666666629, 624.0, 236.5, 624.0 ],
-					"source" : [ "obj-51", 2 ]
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 428.166666666666629, 465.0, 215.5, 465.0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -1393,7 +1404,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 380.166666666666629, 465.0, 215.5, 465.0 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -1490,22 +1501,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[146]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
