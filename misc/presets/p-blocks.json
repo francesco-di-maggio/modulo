@@ -39,7 +39,6 @@
 					"mo.key::key" : [ 0 ],
 					"mo.xypad::xypad" : [ 91, 101 ],
 					"mo.xypad::mode" : [ 0.0 ],
-					"mo.keyboard::keyboard" : [ 60, 2 ],
 					"mo.udpreceive::port" : [ 8001.0 ],
 					"mo.~2list::Chans" : [ 1.0 ],
 					"mo.noteout::port" : [ 1 ],
@@ -78,7 +77,15 @@
 					"mo.scale::[1]::min" : [ 0.0 ],
 					"mo.scale::[1]::max" : [ 1.0 ],
 					"mo.scale::[1]::curve" : [ 1.0 ],
-					"mo.scale::[1]::mute" : [ 0.0 ]
+					"mo.scale::[1]::mute" : [ 0.0 ],
+					"mo.gain~::chans" : [ 1.0 ],
+					"mo.gain~::mute" : [ 0.0 ],
+					"mo.gain~::dB" : [ -70.0 ],
+					"mo.gain~::gain" : [ 0 ],
+					"mo.schmitt::[1]::thresh" : [ 0.7 ],
+					"mo.schmitt::[1]::mute" : [ 0.0 ],
+					"mo.schmitt::voices" : [ 1.0 ],
+					"mo.schmitt::thresh" : [ 0.7 ]
 				}
 
 			}
@@ -120,7 +127,6 @@
 					"mo.key::key" : [ 0 ],
 					"mo.xypad::xypad" : [ 121, 120 ],
 					"mo.xypad::mode" : [ 0.0 ],
-					"mo.keyboard::keyboard" : [ 63, 9, 72, 2 ],
 					"mo.udpreceive::port" : [ 8001.0 ],
 					"mo.~2list::Chans" : [ 1.0 ],
 					"mo.noteout::port" : [ 1 ],
@@ -153,7 +159,15 @@
 					"mo.scale::[1]::min" : [ -33.0 ],
 					"mo.scale::[1]::max" : [ 2003.0 ],
 					"mo.scale::[1]::curve" : [ 1.0 ],
-					"mo.scale::[1]::mute" : [ 0.0 ]
+					"mo.scale::[1]::mute" : [ 0.0 ],
+					"mo.gain~::chans" : [ 1.0 ],
+					"mo.gain~::mute" : [ 0.0 ],
+					"mo.gain~::dB" : [ -70.0 ],
+					"mo.gain~::gain" : [ 85 ],
+					"mo.schmitt::[1]::thresh" : [ 0.377982263309541 ],
+					"mo.schmitt::[1]::mute" : [ 0.0 ],
+					"mo.schmitt::voices" : [ 1.0 ],
+					"mo.schmitt::thresh" : [ 0.7 ]
 				}
 
 			}

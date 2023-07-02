@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.list2~.maxpat",
+					"name" : "mo.snapshot~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 28.0 ],
-					"varname" : "mo.list2~",
+					"varname" : "mo.snapshot~",
 					"viewvisibility" : 1
 				}
 
@@ -64,7 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-32" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -74,11 +74,18 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-32" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.list2~.maxpat",
+				"name" : "mo.snapshot~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",

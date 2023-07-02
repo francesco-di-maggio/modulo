@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 28.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 28.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -185,8 +185,6 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 125.5, 294.051943330534755, 45.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 44.059405922889709, 6.0, 21.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -271,8 +269,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 39.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 4.0, 39.0, 21.0 ],
-					"text" : "list2~",
+					"presentation_rect" : [ 3.0, 4.0, 31.0, 21.0 ],
+					"text" : "sig~",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

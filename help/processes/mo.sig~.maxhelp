@@ -367,8 +367,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 232.0, 71.0 ],
-					"text" : "mo.list2~"
+					"patching_rect" : [ 9.0, 9.0, 196.0, 71.0 ],
+					"text" : "mo.sig~"
 				}
 
 			}
@@ -434,13 +434,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.list2~.maxpat",
+					"name" : "mo.sig~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 41.0, 288.0, 70.0, 28.0 ],
-					"varname" : "mo.~2list",
+					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
 
@@ -449,7 +449,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 101.680917583405972, 276.0, 101.5, 276.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -491,7 +490,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.list2~.maxpat",
+				"name" : "mo.sig~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",

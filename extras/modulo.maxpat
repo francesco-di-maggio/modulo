@@ -1084,7 +1084,7 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ -410.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
@@ -1227,7 +1227,7 @@
 																	"livemode" : 1,
 																	"maxclass" : "live.tab",
 																	"num_lines_patching" : 6,
-																	"num_lines_presentation" : 6,
+																	"num_lines_presentation" : 8,
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "float" ],
@@ -1255,9 +1255,9 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo-blocks", "mo-controllerism", "mo-many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-recording" ],
+																			"parameter_enum" : [ "mo-blocks", "mo-many2one", "mo-nanoKONTROL2", "mo-one2many", "mo-randomizer", "mo-recorder", "mo-visualizer", "mo-workflow" ],
 																			"parameter_longname" : "live.menu[5]",
-																			"parameter_mmax" : 5,
+																			"parameter_mmax" : 7,
 																			"parameter_shortname" : "live.menu",
 																			"parameter_type" : 2,
 																			"parameter_unitstyle" : 9
@@ -1774,7 +1774,7 @@
 																		}
 ,
 																		"valueof" : 																		{
-																			"parameter_enum" : [ "mo.~2list", "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.list2~", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pinch", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.slide", "mo.smooth", "mo.speedlim", "mo.steer", "mo.sum" ],
+																			"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pinch", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 																			"parameter_longname" : "live.menu[12]",
 																			"parameter_mmax" : 23,
 																			"parameter_shortname" : "live.menu",
@@ -2606,9 +2606,9 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "These are ideas of instruments using different types of input and direct mapping.",
+													"presentation_linecount" : 3,
+													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
+													"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -4377,7 +4377,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.26388, 0.1992, 0.247, 0.42036, 0.28952, 0.16844 ],
+					"nsize" : [ 0.19376, 0.34924, 0.4334, 0.34624, 0.47032, 0.33784 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -4395,8 +4395,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7515, 0.6493, 0.0603, 0.2908, 0.0029, 0.5413 ],
-					"yplace" : [ 0.2732, 0.7739, 0.4813, 0.8539, 0.5573, 0.8848 ]
+					"xplace" : [ 0.557, 0.7602, 0.852, 0.962, 0.0695, 0.1521 ],
+					"yplace" : [ 0.1484, 0.5393, 0.9006, 0.213, 0.2316, 0.9666 ]
 				}
 
 			}
@@ -4478,7 +4478,7 @@
 			"obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-28" : [ "live.menu", "live.menu", 0 ],
 			"obj-39" : [ "live.text[53]", "live.text", 0 ],
-			"obj-47::obj-11::obj-13" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-47::obj-11::obj-13" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-47::obj-25::obj-11" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-47::obj-25::obj-12" : [ "live.text[27]", "live.text", 0 ],
 			"obj-47::obj-25::obj-13" : [ "live.numbox[1]", "live.text", 0 ],

@@ -78,15 +78,14 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-7",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.985723542877963, 17.654124945402145, 79.0, 39.0 ],
+					"patching_rect" : [ 268.985723542877963, 24.654124945402145, 185.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 271.985723542877963, 70.154124945402145, 79.0, 39.0 ],
-					"text" : "turn on \ngenerator"
+					"presentation_rect" : [ 270.985723542877963, 70.154124945402145, 115.0, 39.0 ],
+					"text" : "turn random generator on/off"
 				}
 
 			}

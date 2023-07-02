@@ -279,9 +279,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 160.767661435184777, 507.0, 23.0 ],
 					"priority" : 					{
-						"mo.crosspatch::crosspatch" : 1,
 						"mo.crosspatch::ins" : -1,
-						"mo.crosspatch::outs" : -1
+						"mo.crosspatch::outs" : -1,
+						"mo.crosspatch::crosspatch" : 1
 					}
 ,
 					"saved_object_attributes" : 					{

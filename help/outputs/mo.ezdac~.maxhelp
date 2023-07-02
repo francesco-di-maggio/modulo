@@ -192,8 +192,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.0, 244.0, 92.0, 25.0 ],
-					"text" : "mute output"
+					"patching_rect" : [ 232.0, 244.0, 84.0, 25.0 ],
+					"text" : "DSP on/off"
 				}
 
 			}

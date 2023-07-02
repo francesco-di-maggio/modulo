@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 704.0, 300.0 ],
+		"rect" : [ 34.0, 100.0, 701.0, 297.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -279,9 +279,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 670.886411435185096, 507.0, 23.0 ],
 					"priority" : 					{
-						"mo.crosspatch::crosspatch" : 1,
 						"mo.crosspatch::ins" : -1,
-						"mo.crosspatch::outs" : -1
+						"mo.crosspatch::outs" : -1,
+						"mo.crosspatch::crosspatch" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -368,7 +368,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 45.324253082275391, 522.0, 45.324253082275391, 522.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -459,6 +458,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-1::obj-7" : 				{
 					"parameter_longname" : "live.text[2]"
 				}

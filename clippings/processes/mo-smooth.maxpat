@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,9 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-122" : [ "number[1]", "number[1]", 0 ],
 			"obj-1::obj-13" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-1::obj-16" : [ "number[3]", "number[1]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

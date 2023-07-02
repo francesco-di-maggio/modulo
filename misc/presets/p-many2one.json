@@ -14,12 +14,12 @@
 								"connections" : [ 									{
 										"in" : 0,
 										"out" : 0,
-										"gain" : 0.505
+										"gain" : 1.0
 									}
 , 									{
 										"in" : 3,
 										"out" : 0,
-										"gain" : 1.0
+										"gain" : 0.505
 									}
  ]
 							}

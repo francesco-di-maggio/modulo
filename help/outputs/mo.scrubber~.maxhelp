@@ -234,7 +234,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 70.0, 167.5, 19.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -850,6 +850,7 @@
 			"obj-59::obj-21" : [ "live.text[9]", "live.text", 0 ],
 			"obj-59::obj-23" : [ "live.text[10]", "live.text", 0 ],
 			"obj-59::obj-33" : [ "live.text[11]", "live.text", 0 ],
+			"obj-59::obj-53" : [ "live.text[40]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -906,19 +907,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "load.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",

@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.~2list.maxpat",
+					"name" : "mo.sig~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 28.0 ],
-					"varname" : "mo.~2list",
+					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
 
@@ -64,7 +64,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-32" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -78,7 +78,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.~2list.maxpat",
+				"name" : "mo.sig~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
 				"patcherrelativepath" : "../../patchers/processes",
 				"type" : "JSON",

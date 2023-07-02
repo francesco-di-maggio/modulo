@@ -132,11 +132,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1286.237050461173567, 165.0, 74.0, 25.0 ],
-					"text" : "start dsp"
+					"patching_rect" : [ 1286.237050461173567, 158.0, 63.0, 39.0 ],
+					"text" : "load sample"
 				}
 
 			}
@@ -157,7 +158,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1259.086742127840125, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -233,7 +234,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 70.0, 167.5, 19.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -954,6 +955,7 @@
 			"obj-39::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
+			"obj-39::obj-53" : [ "live.text[40]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -992,6 +994,10 @@
 					"parameter_longname" : "live.text[139]"
 				}
 ,
+				"obj-39::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-39::obj-125" : 				{
 					"parameter_longname" : "live.numbox[60]"
 				}
@@ -1002,6 +1008,10 @@
 ,
 				"obj-39::obj-141" : 				{
 					"parameter_longname" : "live.text[211]"
+				}
+,
+				"obj-39::obj-21" : 				{
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-39::obj-23" : 				{
@@ -1022,19 +1032,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "load.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
