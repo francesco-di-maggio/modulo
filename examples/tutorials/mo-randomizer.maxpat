@@ -322,7 +322,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -330,7 +330,7 @@
 					"patching_rect" : [ 378.485723542877963, 219.154124945402145, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.485723542877949, 210.154124945402145, 70.0, 265.0 ],
-					"varname" : "mo.rslider[1]",
+					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
 
@@ -380,7 +380,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 387.985723542877963, 153.0, 387.985723542877963, 153.0 ],
 					"source" : [ "obj-22", 5 ]
 				}
 
@@ -895,6 +894,18 @@
 					"parameter_longname" : "live.numbox[59]"
 				}
 ,
+				"obj-36::obj-2" : 				{
+					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-36::obj-37" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-36::obj-6" : 				{
+					"parameter_longname" : "live.text[92]"
+				}
+,
 				"obj-3::obj-6" : 				{
 					"parameter_longname" : "live.text[8]"
 				}
@@ -980,7 +991,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",

@@ -89,15 +89,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 867.0, 158.0, 207.0, 23.0 ],
+					"patching_rect" : [ 867.0, 158.0, 230.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mode @bindto mode- @initial 0",
-					"varname" : "mode"
+					"text" : "pattr polarity @bindto polarity- @initial 0",
+					"varname" : "polarity"
 				}
 
 			}
@@ -334,7 +334,7 @@
 					}
 ,
 					"text" : "U",
-					"varname" : "mode-"
+					"varname" : "polarity-"
 				}
 
 			}

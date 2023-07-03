@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 286.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.minmax.maxpat",
+					"name" : "mo.hslider.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
-					"varname" : "mo.minmax",
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 0.0, 286.0, 87.0 ],
+					"varname" : "mo.hslider",
 					"viewvisibility" : 1
 				}
 
@@ -64,11 +64,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-16" : [ "live.text[98]", "live.text", 0 ],
-			"obj-1::obj-37" : [ "live.text[71]", "live.text", 0 ],
-			"obj-1::obj-66" : [ "live.numbox[64]", "live.numbox", 0 ],
-			"obj-1::obj-68" : [ "live.numbox[65]", "live.numbox", 0 ],
-			"obj-1::obj-8" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
+			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-7" : [ "live.text[80]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -79,8 +77,12 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-37" : 				{
-					"parameter_longname" : "live.text[71]"
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text[80]"
 				}
 
 			}
@@ -89,9 +91,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.minmax.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"name" : "mo.hslider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}

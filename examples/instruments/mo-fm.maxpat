@@ -55,11 +55,11 @@
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-10",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.166666666666742, 245.5, 85.0, 98.0 ],
+					"patching_rect" : [ 53.5, 682.989895233677657, 171.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 40.666666666666742, 226.5, 171.0, 54.0 ],
@@ -83,7 +83,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.11886337647843, 196.856455599544006, 20.0, 20.0 ],
+					"patching_rect" : [ 129.11886337647843, 650.856455599544006, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 116.166666666666742, 197.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -444,7 +444,7 @@
 						"storage_rect" : [ 249, 100, 700, 228 ]
 					}
 ,
-					"subscribe" : [ "mo.fm~", "mo.sends", "mo.sliders", "mo.scale" ],
+					"subscribe" : [ "mo.sliders", "mo.fm~", "mo.scale", "mo.sends" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}

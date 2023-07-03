@@ -47,8 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.740740740740762, 344.0, 90.259259259259295, 23.0 ],
-					"text" : "8 1"
+					"patching_rect" : [ 41.000000000000028, 345.0, 142.0, 23.0 ]
 				}
 
 			}
@@ -171,21 +170,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 24.0, 24.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_initial" : [ 1 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "toggle",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "toggle",
-							"parameter_type" : 2
-						}
-
-					}
-,
 					"varname" : "toggle"
 				}
 
@@ -244,7 +230,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 50.500000000000028, 330.0, 173.500000000000057, 330.0 ],
+					"midpoints" : [ 50.500000000000028, 330.0, 173.500000000000028, 330.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -275,7 +261,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "toggle", "toggle", 0 ],
 			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-13::obj-153" : [ "live.text[62]", "live.text", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],

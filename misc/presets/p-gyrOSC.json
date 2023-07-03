@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-gyrOSC",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.hi::port" : [ 8001.0 ],
+					"mo.vslider::slider" : [ 0.999996066093445 ],
+					"mo.vslider::mute" : [ 0.0 ],
+					"mo.vslider::polarity" : [ 1.0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.slider[2]::slider" : [ 0.002147449413314 ],
+					"mo.slider[2]::mute" : [ 0.0 ],
+					"mo.slider[2]::polarity" : [ 1.0 ],
+					"mo.slider[3]::slider" : [ 0.00165913940873 ],
+					"mo.slider[3]::mute" : [ 0.0 ],
+					"mo.slider[3]::polarity" : [ 1.0 ],
+					"mo.slider[1]::slider" : [ -0.000582674052566 ],
+					"mo.slider[1]::mute" : [ 0.0 ],
+					"mo.slider[1]::polarity" : [ 1.0 ],
+					"mo.send::send" : [ "quaternion" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 0.0 ],
+					"mo.pad[1]::mute" : [ 0.0 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 0.0 ],
+					"mo.pad[2]::mute" : [ 0.0 ],
+					"mo.pad[3]::mode" : [ 0.0 ],
+					"mo.pad[3]::pad" : [ 0.0 ],
+					"mo.pad[3]::mute" : [ 0.0 ],
+					"mo.send[1]::send" : [ "buttons" ],
+					"mo.send[1]::mute" : [ 0.0 ],
+					"mo.pad[4]::mode" : [ 0.0 ],
+					"mo.pad[4]::pad" : [ 0.0 ],
+					"mo.pad[4]::mute" : [ 0.0 ],
+					"mo.pad[5]::mode" : [ 0.0 ],
+					"mo.pad[5]::pad" : [ 0.0 ],
+					"mo.pad[5]::mute" : [ 0.0 ],
+					"mo.pad[6]::mode" : [ 0.0 ],
+					"mo.pad[6]::pad" : [ 0.0 ],
+					"mo.pad[6]::mute" : [ 0.0 ],
+					"mo.pad[7]::mode" : [ 0.0 ],
+					"mo.pad[7]::pad" : [ 0.0 ],
+					"mo.pad[7]::mute" : [ 0.0 ],
+					"mo.pad[8]::mode" : [ 0.0 ],
+					"mo.pad[8]::pad" : [ 0.0 ],
+					"mo.pad[8]::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

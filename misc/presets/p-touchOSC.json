@@ -1,0 +1,72 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-touchOSC",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.hi::port" : [ 8001.0 ],
+					"mo.vslider::slider" : [ 0.0 ],
+					"mo.vslider::mute" : [ 0.0 ],
+					"mo.vslider::polarity" : [ 0.0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.slider[2]::slider" : [ 0.0 ],
+					"mo.slider[2]::mute" : [ 0.0 ],
+					"mo.slider[2]::polarity" : [ 0.0 ],
+					"mo.slider[3]::slider" : [ 0.0 ],
+					"mo.slider[3]::mute" : [ 0.0 ],
+					"mo.slider[3]::polarity" : [ 0.0 ],
+					"mo.slider[1]::slider" : [ 0.0 ],
+					"mo.slider[1]::mute" : [ 0.0 ],
+					"mo.slider[1]::polarity" : [ 0.0 ],
+					"mo.send::send" : [ "faders" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.route::voices" : [ 5.0 ],
+					"mo.route::mode" : [ 1.0 ],
+					"mo.route::device" : [ "/1" ],
+					"mo.route::[1]::message" : [ "/fader1" ],
+					"mo.route::[1]::mute" : [ 0.0 ],
+					"mo.route::[2]::message" : [ "/fader2" ],
+					"mo.route::[2]::mute" : [ 0.0 ],
+					"mo.route::[3]::message" : [ "/fader3" ],
+					"mo.route::[3]::mute" : [ 0.0 ],
+					"mo.route::[4]::message" : [ "/fader4" ],
+					"mo.route::[4]::mute" : [ 0.0 ],
+					"mo.route::[5]::message" : [ "/fader5" ],
+					"mo.route::[5]::mute" : [ 0.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 0.0 ],
+					"mo.pad[1]::mute" : [ 0.0 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 0.0 ],
+					"mo.pad[2]::mute" : [ 0.0 ],
+					"mo.pad[3]::mode" : [ 0.0 ],
+					"mo.pad[3]::pad" : [ 0.0 ],
+					"mo.pad[3]::mute" : [ 0.0 ],
+					"mo.send[1]::send" : [ "toggles" ],
+					"mo.send[1]::mute" : [ 0.0 ],
+					"mo.hslider[1]::slider" : [ 0.0 ],
+					"mo.hslider[1]::mute" : [ 0.0 ],
+					"mo.hslider[1]::polarity" : [ 0.0 ],
+					"mo.route[3]::voices" : [ 4.0 ],
+					"mo.route[3]::mode" : [ 1.0 ],
+					"mo.route[3]::device" : [ "/1" ],
+					"mo.route[3]::[1]::message" : [ "/toggle1" ],
+					"mo.route[3]::[1]::mute" : [ 0.0 ],
+					"mo.route[3]::[2]::message" : [ "/toggle2" ],
+					"mo.route[3]::[2]::mute" : [ 0.0 ],
+					"mo.route[3]::[3]::message" : [ "/toggle3" ],
+					"mo.route[3]::[3]::mute" : [ 0.0 ],
+					"mo.route[3]::[4]::message" : [ "/toggle4" ],
+					"mo.route[3]::[4]::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

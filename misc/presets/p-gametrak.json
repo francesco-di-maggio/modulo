@@ -1,0 +1,79 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-gametrak",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.hi::device" : [ "Game-Trak V1.3" ],
+					"mo.hi::mute" : [ 0.0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.minmax::calibrate" : [ 0.0 ],
+					"mo.minmax::min" : [ 40.0 ],
+					"mo.minmax::max" : [ 4000.0 ],
+					"mo.minmax::polarity" : [ 0.0 ],
+					"mo.minmax::invert" : [ 0.0 ],
+					"mo.minmax[1]::calibrate" : [ 0.0 ],
+					"mo.minmax[1]::min" : [ 40.0 ],
+					"mo.minmax[1]::max" : [ 4000.0 ],
+					"mo.minmax[1]::polarity" : [ 0.0 ],
+					"mo.minmax[1]::invert" : [ 0.0 ],
+					"mo.minmax[2]::calibrate" : [ 0.0 ],
+					"mo.minmax[2]::min" : [ 4000.0 ],
+					"mo.minmax[2]::max" : [ 3000.0 ],
+					"mo.minmax[2]::polarity" : [ 0.0 ],
+					"mo.minmax[2]::invert" : [ 1.0 ],
+					"mo.minmax[5]::calibrate" : [ 0.0 ],
+					"mo.minmax[5]::min" : [ 4000.0 ],
+					"mo.minmax[5]::max" : [ 3000.0 ],
+					"mo.minmax[5]::polarity" : [ 0.0 ],
+					"mo.minmax[5]::invert" : [ 1.0 ],
+					"mo.minmax[4]::calibrate" : [ 0.0 ],
+					"mo.minmax[4]::min" : [ 40.0 ],
+					"mo.minmax[4]::max" : [ 4000.0 ],
+					"mo.minmax[4]::polarity" : [ 0.0 ],
+					"mo.minmax[4]::invert" : [ 0.0 ],
+					"mo.minmax[3]::calibrate" : [ 0.0 ],
+					"mo.minmax[3]::min" : [ 40.0 ],
+					"mo.minmax[3]::max" : [ 4000.0 ],
+					"mo.minmax[3]::polarity" : [ 0.0 ],
+					"mo.minmax[3]::invert" : [ 0.0 ],
+					"mo.smooth::Amount" : [ 0.25 ],
+					"mo.smooth[1]::Amount" : [ 0.25 ],
+					"mo.smooth[2]::Amount" : [ 0.25 ],
+					"mo.smooth[3]::Amount" : [ 0.25 ],
+					"mo.smooth[4]::Amount" : [ 0.25 ],
+					"mo.smooth[5]::Amount" : [ 0.25 ],
+					"mo.send::send" : [ "axes" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.slider::polarity" : [ 0.0 ],
+					"mo.slider::slider" : [ 1.0 ],
+					"mo.slider::mute" : [ 0.0 ],
+					"mo.slider[1]::polarity" : [ 0.0 ],
+					"mo.slider[1]::mute" : [ 0.0 ],
+					"mo.slider[1]::slider" : [ 0.515865476781516 ],
+					"mo.slider[3]::polarity" : [ 0.0 ],
+					"mo.slider[3]::slider" : [ 0.259943123047724 ],
+					"mo.slider[3]::mute" : [ 0.0 ],
+					"mo.slider[2]::slider" : [ 0.0 ],
+					"mo.slider[2]::mute" : [ 0.0 ],
+					"mo.slider[2]::polarity" : [ 0.0 ],
+					"mo.slider[4]::polarity" : [ 0.0 ],
+					"mo.slider[4]::mute" : [ 0.0 ],
+					"mo.slider[4]::slider" : [ 0.003221441078446 ],
+					"mo.slider[5]::mute" : [ 0.0 ],
+					"mo.slider[5]::slider" : [ 0.0 ],
+					"mo.slider[5]::polarity" : [ 0.0 ],
+					"mo.send[1]::send" : [ "toggle" ],
+					"mo.send[1]::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

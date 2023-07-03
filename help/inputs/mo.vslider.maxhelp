@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.255791574060595, 256.0, 151.0, 54.0 ],
+					"patching_rect" : [ 378.255791574060538, 244.0, 151.0, 54.0 ],
 					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
 				}
 
@@ -140,8 +140,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 102.0, 23.0 ],
-					"text" : "A slider object."
+					"patching_rect" : [ 9.0, 83.0, 152.0, 23.0 ],
+					"text" : "A vertical slider object."
 				}
 
 			}
@@ -154,8 +154,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 228.0, 71.0 ],
-					"text" : "mo.slider"
+					"patching_rect" : [ 9.0, 9.0, 251.0, 71.0 ],
+					"text" : "mo.vslider"
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 343.255791574060595, 271.0, 24.0, 24.0 ]
+					"patching_rect" : [ 343.255791574060538, 259.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -280,13 +280,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 379.0, 70.0, 265.0 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
 
@@ -351,7 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 352.755791574060595, 297.0, 352.755791574060595, 297.0 ],
+					"midpoints" : [ 352.755791574060538, 297.0, 352.755791574060595, 297.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -379,6 +379,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-5::obj-7" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[1]",
@@ -393,7 +397,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",

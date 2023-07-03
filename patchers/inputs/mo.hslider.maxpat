@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 266.0 ],
+		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 167.653199976682799, 161.127552568912506, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.985257112979639, 7.0, 20.0, 15.0 ],
+					"presentation_rect" : [ 262.804893493936447, 7.0, 16.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -135,7 +135,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -163,7 +163,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 370.0, 298.001276284456253, 78.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.680297577426614, 42.489995495694359, 54.081419310943673, 16.776920566861513 ],
+					"presentation_rect" : [ 115.264183838464646, 48.601535212263599, 54.081419310943673, 16.776920566861513 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -187,7 +187,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[5]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -272,14 +272,15 @@
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 74.489049971103668, 474.001276284456253, 78.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.804893493936421, 39.489995495694359, 41.0, 215.0 ],
+					"presentation_rect" : [ 15.804893493936449, 37.489995495694359, 253.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slider-[1]",
+							"parameter_longname" : "slider-",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "slider-",
 							"parameter_type" : 0
@@ -406,7 +407,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.489049971103668, 470.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.862807029531183, 35.489995495694359, 45.102345793398996, 223.0 ],
+					"presentation_rect" : [ 11.862807029531183, 35.489995495694359, 261.519687502536044, 45.802577495574951 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -421,7 +422,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.842786306142557, 38.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 70.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 286.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -441,10 +442,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 38.0, 21.0 ],
+					"patching_rect" : [ 13.842786306142557, 14.126276284456253, 44.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 4.0, 38.0, 21.0 ],
-					"text" : "slider",
+					"presentation_rect" : [ 3.0, 4.0, 44.0, 21.0 ],
+					"text" : "hslider",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -487,6 +488,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 423.166666666666686, 174.0, 423.166666666666686, 174.0 ],
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -494,7 +496,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 379.833333333333314, 240.0, 379.5, 240.0 ],
+					"midpoints" : [ 379.833333333333314, 174.0, 379.5, 174.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 

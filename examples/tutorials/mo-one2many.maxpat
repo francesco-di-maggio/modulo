@@ -61,7 +61,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -85,7 +85,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -109,7 +109,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -133,7 +133,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -182,7 +182,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.slider.maxpat",
+					"name" : "mo.vslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -352,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 262.5, 145.0, 183.5, 145.0 ],
+					"midpoints" : [ 262.5, 147.0, 183.5, 147.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -392,7 +392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 427.5, 97.0, 427.5, 97.0 ],
+					"midpoints" : [ 427.5, 96.0, 427.5, 96.0 ],
 					"source" : [ "obj-121", 0 ]
 				}
 
@@ -400,7 +400,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-121", 1 ],
-					"midpoints" : [ 560.5, 64.0, 560.5, 64.0 ],
+					"midpoints" : [ 560.5, 63.0, 560.5, 63.0 ],
 					"source" : [ "obj-136", 0 ]
 				}
 
@@ -408,7 +408,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 45.324253082275391, 471.0, 45.324253082275391, 471.0 ],
+					"midpoints" : [ 45.324253082275391, 468.0, 45.324253082275391, 468.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -416,7 +416,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 183.5, 130.0, 183.5, 130.0 ],
+					"midpoints" : [ 183.5, 132.0, 183.5, 132.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -424,7 +424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 427.5, 145.0, 183.5, 145.0 ],
+					"midpoints" : [ 427.5, 147.0, 183.5, 147.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -459,6 +459,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-1::obj-7" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -527,7 +531,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.slider.maxpat",
+				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
