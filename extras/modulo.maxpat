@@ -1018,7 +1018,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -902.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1128,6 +1128,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-5",
@@ -1159,8 +1160,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 34.0, 178.0, 57.0, 23.0 ],
-													"text" : "pack i 10"
+													"patching_rect" : [ 17.0, 177.0, 50.0, 23.0 ],
+													"text" : "pack i 0"
 												}
 
 											}
@@ -1207,7 +1208,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 34.0, 215.0, 41.0, 23.0 ],
+													"patching_rect" : [ 17.0, 214.0, 41.0, 23.0 ],
 													"text" : "line 0."
 												}
 
@@ -1264,7 +1265,7 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"midpoints" : [ 113.5, 165.0, 26.5, 165.0 ],
 													"source" : [ "obj-1", 0 ]
 												}
@@ -1272,7 +1273,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"midpoints" : [ 70.5, 165.0, 26.5, 165.0 ],
 													"source" : [ "obj-12", 0 ]
 												}
@@ -1280,7 +1281,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"midpoints" : [ 26.5, 147.0, 26.5, 147.0 ],
 													"source" : [ "obj-13", 0 ]
 												}
@@ -1295,9 +1296,16 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"midpoints" : [ 157.0, 165.0, 26.5, 165.0 ],
 													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -1338,7 +1346,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"midpoints" : [ 200.5, 165.0, 26.5, 165.0 ],
 													"source" : [ "obj-5", 0 ]
 												}
@@ -1348,6 +1356,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -1992,8 +2007,8 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 12,
-									"num_lines_presentation" : 12,
+									"num_lines_patching" : 7,
+									"num_lines_presentation" : 7,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2021,9 +2036,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "DAW", "FM Synthesis", "Gametrak", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Scrubber", "Sonification", "Theremini", "TouchOSC" ],
+											"parameter_enum" : [ "Building Blocks", "Many to One", "One to Many", "Randomizer", "Recorder", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 11,
+											"parameter_mmax" : 6,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2564,9 +2579,9 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 20.0, 258.0, 460.0, 38.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 0.0, 0.0, 340.0, 38.0 ],
-													"text" : "These are ideas of instruments using different types of input and direct mapping.",
+													"presentation_linecount" : 3,
+													"presentation_rect" : [ 0.0, 0.0, 340.0, 53.0 ],
+													"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -3854,7 +3869,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.12932, 0.18072, 0.33152, 0.12972, 0.47132, 0.45508 ],
+					"nsize" : [ 0.1466, 0.17508, 0.1424, 0.43652, 0.35064, 0.26008 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3872,8 +3887,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7611, 0.1106, 0.7663, 0.7221, 0.0189, 0.5083 ],
-					"yplace" : [ 0.2234, 0.8406, 0.7869, 0.189, 0.8746, 0.0829 ]
+					"xplace" : [ 0.4956, 0.1821, 0.7981, 0.3092, 0.0157, 0.9936 ],
+					"yplace" : [ 0.9819, 0.7459, 0.4806, 0.7468, 0.7128, 0.7483 ]
 				}
 
 			}

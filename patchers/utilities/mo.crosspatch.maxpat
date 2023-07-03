@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -85,7 +85,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -357,7 +356,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[34]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -541,7 +540,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 244.236999999999966, 84.0, 50.0, 22.0 ]
+									"patching_rect" : [ 244.236999999999966, 84.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -553,7 +552,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 31.5, 84.0, 50.0, 22.0 ]
+									"patching_rect" : [ 31.5, 84.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -2031,7 +2030,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[12]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -2058,7 +2057,7 @@
 					"patching_rect" : [ 575.070339211769351, 752.325857325578113, 312.0, 22.0 ],
 					"restore" : [ 						{
 							"data" : 							{
-								"numins" : 4,
+								"numins" : 1,
 								"numouts" : 1,
 								"connections" : [ 									{
 										"in" : 0,
@@ -2119,12 +2118,13 @@
 					"gainstyle" : 1,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : [ "1", "2", "3", "4" ],
+					"inlabels" : "1",
 					"labelheight" : 15.0,
 					"labelwidth" : 25.0,
-					"linecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
+					"numins" : 1,
 					"numoutlets" : 2,
 					"numouts" : 1,
 					"outcolormap" : "none",
@@ -2133,7 +2133,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.139760281642339, 396.325857325578113, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 16.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "crosspatch-"
 				}
@@ -2226,7 +2226,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[13]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -2527,7 +2527,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.139760281642339, 260.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 65.5, 199.0, 64.0 ],
+					"presentation_rect" : [ 7.0, 65.5, 199.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
