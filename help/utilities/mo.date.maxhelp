@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 383.0, 79.0, 23.0 ],
-					"text" : "14 31 45"
+					"text" : "17 23 33"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 348.0, 79.0, 23.0 ],
-					"text" : "6 21 2023"
+					"text" : "7 4 2023"
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list", "list" ],
 					"patching_rect" : [ 41.0, 253.0, 142.0, 57.5 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.date",
 					"viewvisibility" : 1
 				}
 

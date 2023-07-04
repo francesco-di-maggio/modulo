@@ -506,6 +506,22 @@
 					"parameter_longname" : "live.numbox[86]"
 				}
 ,
+				"obj-11::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-11::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-11::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-11::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
 				"obj-11::obj-1::obj-35" : 				{
 					"parameter_longname" : "live.text[78]"
 				}
@@ -718,6 +734,10 @@
 					"parameter_longname" : "live.numbox[101]"
 				}
 ,
+				"obj-11::obj-72" : 				{
+					"parameter_longname" : "live.numbox[550]"
+				}
+,
 				"obj-11::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[61]"
 				}
@@ -754,8 +774,8 @@
 			}
 , 			{
 				"name" : "mo.ctlouts.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}

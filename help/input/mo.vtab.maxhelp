@@ -103,8 +103,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 89.0, 23.0 ],
-					"text" : "A tab object."
+					"patching_rect" : [ 9.0, 83.0, 139.0, 23.0 ],
+					"text" : "A vertical tab object."
 				}
 
 			}
@@ -117,8 +117,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 175.0, 71.0 ],
-					"text" : "mo.tab"
+					"patching_rect" : [ 9.0, 9.0, 201.0, 71.0 ],
+					"text" : "mo.vtab"
 				}
 
 			}
@@ -249,13 +249,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.tab.maxpat",
+					"name" : "mo.vtab.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 277.0, 70.0, 265.0 ],
-					"varname" : "mo.pads",
+					"varname" : "mo.vtab",
 					"viewvisibility" : 1
 				}
 
@@ -296,6 +296,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 50.5, 543.0, 50.5, 543.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -303,7 +304,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 101.5, 237.0, 101.5, 237.0 ],
+					"midpoints" : [ 101.5, 240.0, 101.5, 240.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -311,7 +312,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 280.363041635797913, 190.0, 280.363041635797913, 190.0 ],
+					"midpoints" : [ 280.363041635797913, 192.0, 280.363041635797913, 192.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -319,7 +320,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 342.499999999999943, 202.0, 280.363041635797913, 202.0 ],
+					"midpoints" : [ 342.499999999999943, 201.0, 280.363041635797913, 201.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -344,9 +345,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.tab.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.vtab.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

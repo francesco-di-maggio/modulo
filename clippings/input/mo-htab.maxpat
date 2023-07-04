@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 286.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.tab.maxpat",
+					"name" : "mo.htab.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 265.0 ],
-					"varname" : "mo.tab",
+					"patching_rect" : [ 0.0, 0.0, 286.0, 87.0 ],
+					"varname" : "mo.htab",
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +67,7 @@
 			"obj-1::obj-38" : [ "live.text[461]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[547]", "live.numbox", 0 ],
 			"obj-1::obj-59" : [ "live.text[458]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[28]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[460]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -77,27 +77,13 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[28]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.tab.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.htab.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
