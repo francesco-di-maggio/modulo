@@ -41,13 +41,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 337.0, 50.0, 23.0 ],
-					"text" : "0 0 1"
+					"text" : "0 0 0"
 				}
 
 			}
@@ -265,13 +266,28 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-17::obj-103" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-17::obj-16" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-17::obj-51" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.pinch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

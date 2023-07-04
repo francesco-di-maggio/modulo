@@ -1,0 +1,46 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-wave",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.hi::port" : [ 0 ],
+					"mo.hi::mute[1]" : [ 0.0 ],
+					"mo.vslider::slider" : [ 0.434837188352067 ],
+					"mo.vslider::mute" : [ 0.0 ],
+					"mo.vslider::polarity" : [ 1.0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.slider[2]::slider" : [ 0.0 ],
+					"mo.slider[2]::mute" : [ 0.0 ],
+					"mo.slider[2]::polarity" : [ 1.0 ],
+					"mo.slider[1]::slider" : [ 0.565069746491602 ],
+					"mo.slider[1]::mute" : [ 0.0 ],
+					"mo.slider[1]::polarity" : [ 1.0 ],
+					"mo.send::send" : [ "motion" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 0.0 ],
+					"mo.pad[1]::mute" : [ 0.0 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 0.0 ],
+					"mo.pad[2]::mute" : [ 0.0 ],
+					"mo.send[1]::send" : [ "buttons" ],
+					"mo.send[1]::mute" : [ 0.0 ],
+					"mo.pad[3]::mode" : [ 1.0 ],
+					"mo.pad[3]::pad" : [ 0.0 ],
+					"mo.pad[3]::mute" : [ 0.0 ],
+					"mo.slider[3]::slider" : [ 0.355767420910206 ],
+					"mo.slider[3]::mute" : [ 0.0 ],
+					"mo.slider[3]::polarity" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

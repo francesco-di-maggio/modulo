@@ -543,7 +543,7 @@
 			"obj-1::obj-50::obj-35" : [ "live.text[69]", "live.text", 0 ],
 			"obj-1::obj-50::obj-66" : [ "live.numbox[48]", "live.numbox", 0 ],
 			"obj-1::obj-50::obj-68" : [ "live.numbox[49]", "live.numbox", 0 ],
-			"obj-1::obj-50::obj-72" : [ "live.numbox[47]", "live.numbox", 0 ],
+			"obj-1::obj-50::obj-72" : [ "live.numbox[55]", "live.numbox", 0 ],
 			"obj-1::obj-59" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-66" : [ "live.numbox[64]", "live.numbox", 0 ],
 			"obj-1::obj-68" : [ "live.numbox[65]", "live.numbox", 0 ],
@@ -806,7 +806,7 @@
 				}
 ,
 				"obj-1::obj-50::obj-72" : 				{
-					"parameter_longname" : "live.numbox[47]"
+					"parameter_longname" : "live.numbox[55]"
 				}
 ,
 				"obj-1::obj-59" : 				{

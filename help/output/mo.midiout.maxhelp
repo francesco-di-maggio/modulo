@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 681.0, 544.0 ],
+		"rect" : [ 34.0, 100.0, 750.0, 584.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,34 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 615.707317113876343, 444.5, 118.0, 39.0 ],
+					"presentation_linecount" : 3,
+					"text" : "open \nAudio MIDI Setup"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.707317113876343, 452.5, 38.0, 23.0 ],
+					"text" : "setup"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "comment",
@@ -536,7 +564,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 464.5, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 509.5, 214.0, 57.5 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -596,7 +624,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 6 ],
-					"midpoints" : [ 550.207317113876343, 450.0, 245.5, 450.0 ],
+					"midpoints" : [ 550.207317113876343, 495.0, 245.5, 495.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -612,7 +640,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 6 ],
-					"midpoints" : [ 470.49536840650444, 450.0, 245.5, 450.0 ],
+					"midpoints" : [ 470.49536840650444, 495.0, 245.5, 495.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -628,7 +656,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 6 ],
-					"midpoints" : [ 407.5, 450.0, 245.5, 450.0 ],
+					"midpoints" : [ 407.5, 495.0, 245.5, 495.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -644,7 +672,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 6 ],
-					"midpoints" : [ 340.5, 450.0, 245.5, 450.0 ],
+					"midpoints" : [ 340.5, 495.0, 245.5, 495.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -668,7 +696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 6 ],
-					"midpoints" : [ 245.499999999999943, 450.0, 245.5, 450.0 ],
+					"midpoints" : [ 245.499999999999943, 288.0, 245.5, 288.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -678,6 +706,14 @@
 					"destination" : [ "obj-36", 0 ],
 					"midpoints" : [ 407.5, 288.0, 407.5, 288.0 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 6 ],
+					"midpoints" : [ 580.207317113876343, 495.0, 245.5, 495.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -709,12 +745,29 @@
 		"parameters" : 		{
 			"obj-43::obj-1" : [ "live.text[1]", "live.text", 0 ],
 			"obj-43::obj-153" : [ "live.text[140]", "live.text", 0 ],
+			"obj-43::obj-36" : [ "live.text[52]", "live.text", 0 ],
+			"obj-43::obj-41" : [ "live.button[1]", "live.button", 0 ],
 			"obj-43::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-43::obj-36" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[52]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-41" : 				{
+					"parameter_longname" : "live.button[1]"
 				}
 
 			}

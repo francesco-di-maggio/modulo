@@ -1,0 +1,56 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-leds",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.led::color" : [ 0 ],
+					"mo.led::led" : [ 0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.number::mode" : [ 0 ],
+					"mo.number::number" : [ 200 ],
+					"mo.number::mute" : [ 0.0 ],
+					"mo.led[1]::color" : [ 1 ],
+					"mo.led[1]::led" : [ 0 ],
+					"mo.pad[1]::mode" : [ 0.0 ],
+					"mo.pad[1]::pad" : [ 0.0 ],
+					"mo.pad[1]::mute" : [ 0.0 ],
+					"mo.number[1]::mode" : [ 0 ],
+					"mo.number[1]::number" : [ 400 ],
+					"mo.number[1]::mute" : [ 0.0 ],
+					"mo.led[2]::color" : [ 2 ],
+					"mo.led[2]::led" : [ 0 ],
+					"mo.pad[2]::mode" : [ 0.0 ],
+					"mo.pad[2]::pad" : [ 0.0 ],
+					"mo.pad[2]::mute" : [ 0.0 ],
+					"mo.number[2]::mode" : [ 0 ],
+					"mo.number[2]::number" : [ 600 ],
+					"mo.number[2]::mute" : [ 0.0 ],
+					"mo.led[3]::color" : [ 3 ],
+					"mo.led[3]::led" : [ 0 ],
+					"mo.pad[3]::mode" : [ 0.0 ],
+					"mo.pad[3]::pad" : [ 0.0 ],
+					"mo.pad[3]::mute" : [ 0.0 ],
+					"mo.number[3]::mode" : [ 0 ],
+					"mo.number[3]::number" : [ 800 ],
+					"mo.number[3]::mute" : [ 0.0 ],
+					"mo.led[4]::color" : [ 4 ],
+					"mo.led[4]::led" : [ 0 ],
+					"mo.pad[4]::mode" : [ 0.0 ],
+					"mo.pad[4]::pad" : [ 0.0 ],
+					"mo.pad[4]::mute" : [ 0.0 ],
+					"mo.number[4]::mode" : [ 0 ],
+					"mo.number[4]::number" : [ 1000 ],
+					"mo.number[4]::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

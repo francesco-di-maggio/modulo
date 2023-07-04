@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.rslider.maxpat",
+					"name" : "mo.vrslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 265.0 ],
-					"varname" : "mo.rslider",
+					"varname" : "mo.vrslider",
 					"viewvisibility" : 1
 				}
 
@@ -85,7 +85,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.rslider.maxpat",
+				"name" : "mo.vrslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
 				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
