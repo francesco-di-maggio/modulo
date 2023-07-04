@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,38 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 96.0, 759.980920269071476, 67.0, 23.0 ],
+					"text" : "route bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 253.0, 140.0, 221.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ " " ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr buffer @bindto buffer- @initial \" \"",
+					"varname" : "buffer[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
@@ -123,7 +155,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[39]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -185,7 +217,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[81]",
+							"parameter_longname" : "live.text[233]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -444,10 +476,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.107140948880442, 154.321028203892467, 99.67861711978918, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "drumloop.aif",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "Buf-TX"
+					"varname" : "buffer-"
 				}
 
 			}
@@ -598,7 +629,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-105",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -858,7 +888,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "granulator-buf",
+					"buffername" : "0-buf",
 					"chanoffset" : 2,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
@@ -1140,7 +1170,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 959.948104470968246, 14.0, 30.0, 30.0 ]
 				}
 
@@ -1226,7 +1256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 64.5, 55.0, 23.0 ],
+					"patching_rect" : [ 159.75, 65.5, 55.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1263,7 +1293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 126.0, 40.0, 58.0, 23.0 ],
+					"patching_rect" : [ 159.75, 41.0, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1407,7 +1437,6 @@
 									"hint" : "MAIN PATH NAME",
 									"id" : "obj-44",
 									"ignoreclick" : 1,
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1438,7 +1467,6 @@
 									"hint" : "NEEDS A BANG",
 									"id" : "obj-81",
 									"ignoreclick" : 1,
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1575,7 +1603,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 126.0, 89.0, 51.0, 22.0 ],
+					"patching_rect" : [ 159.75, 90.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1629,15 +1657,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 311.0, 90.0, 294.0, 23.0 ],
+					"patching_rect" : [ 311.0, 90.0, 272.0, 23.0 ],
 					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Folder @bindto Folder-UM @default_priority -1",
-					"varname" : "Folder"
+					"text" : "pattr folder @bindto folder- @default_priority -1",
+					"varname" : "folder"
 				}
 
 			}
@@ -1792,6 +1820,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 1,
 					"autopopulate" : 1,
 					"bgcolor" : [ 0.701957941055298, 0.701978802680969, 0.701966941356659, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -1816,7 +1845,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.107140948880442, 135.062851072478054, 100.209121108055172, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "Folder-UM"
+					"textjustification" : 1,
+					"varname" : "folder-"
 				}
 
 			}
@@ -1851,7 +1881,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[22]",
+							"parameter_longname" : "live.text[72]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1920,7 +1950,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1981,7 +2011,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "granulator-buf",
+					"buffername" : "0-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,
@@ -2678,6 +2708,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 153.5, 783.0, 201.0, 783.0, 201.0, 384.0, 225.25, 384.0 ],
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"midpoints" : [ 209.75, 300.0, 209.5, 300.0 ],
 					"source" : [ "obj-20", 1 ]
@@ -2891,7 +2929,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 135.5, 90.0, 135.5, 90.0 ],
+					"midpoints" : [ 169.25, 90.0, 169.25, 90.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -3023,7 +3061,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 135.5, 219.0, 169.25, 219.0 ],
+					"midpoints" : [ 169.25, 114.0, 169.25, 114.0 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -3192,8 +3230,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 105.5, 756.0, 201.0, 756.0, 201.0, 384.0, 225.25, 384.0 ],
+					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 105.5, 747.0, 105.5, 747.0 ],
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -3313,7 +3351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"midpoints" : [ 135.5, 66.0, 135.5, 66.0 ],
+					"midpoints" : [ 169.25, 66.0, 169.25, 66.0 ],
 					"source" : [ "obj-85", 0 ]
 				}
 

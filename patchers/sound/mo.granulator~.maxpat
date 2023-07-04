@@ -209,19 +209,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.136435894454948, 403.75, 68.0, 23.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1662,7 +1649,7 @@
 				"box" : 				{
 					"comment" : "(list) mode, playpos, stretch, randpos, playstop, graindur. transp, aleaoct, quant, panrand, gain",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2273,7 +2260,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 229.859530855927858, 487.0, 80.0, 23.0 ],
+					"patching_rect" : [ 114.567652423892412, 487.0, 80.0, 23.0 ],
 					"text" : "r #1-setrndm"
 				}
 
@@ -2367,19 +2354,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 611.128500591856778, 59.0, 75.0, 23.0 ],
 					"text" : "r #1-gbuffer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.274002835580021, 487.0, 72.0, 23.0 ],
-					"text" : "loadmess 5."
 				}
 
 			}
@@ -3271,7 +3245,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) stereo output",
 					"id" : "obj-208",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3839,14 +3813,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 28.842786306142557, 1236.259496789370587, 169.0, 23.0 ],
-					"restore" : [ 1.0 ],
+					"patching_rect" : [ 28.842786306142557, 1236.259496789370587, 222.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Mode @bindto Mode-TG",
+					"text" : "pattr Mode @bindto Mode-TG @initial 1",
 					"varname" : "Mode"
 				}
 
@@ -4800,7 +4774,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "live.numbox[143]",
 							"parameter_mmax" : 6000.0,
 							"parameter_mmin" : -6000.0,
 							"parameter_shortname" : "live.dial[12]",
@@ -4966,7 +4940,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[54]",
+							"parameter_longname" : "live.numbox[111]",
 							"parameter_mmax" : 3.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -8701,7 +8675,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-169", 0 ],
-					"midpoints" : [ 239.359530855927858, 522.0, 124.067652423892412, 522.0 ],
+					"midpoints" : [ 124.067652423892412, 522.0, 124.067652423892412, 522.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -8835,14 +8809,6 @@
 					"destination" : [ "obj-87", 0 ],
 					"midpoints" : [ 362.059717121294227, 354.0, 362.059717121294227, 354.0 ],
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-169", 0 ],
-					"midpoints" : [ 124.774002835580021, 513.0, 124.067652423892412, 513.0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -9051,14 +9017,6 @@
 					"destination" : [ "obj-84", 0 ],
 					"midpoints" : [ 71.20521936501747, 966.0, 71.20521936501747, 966.0 ],
 					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-163", 0 ],
-					"midpoints" : [ 102.636435894454948, 429.0, 102.636435894454948, 429.0 ],
-					"source" : [ "obj-77", 0 ]
 				}
 
 			}
@@ -9284,67 +9242,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.numbox[57]", "live.dial[12]", 0 ],
-			"obj-135" : [ "live.text[192]", "live.text", 0 ],
-			"obj-152" : [ "live.text[193]", "live.text", 0 ],
-			"obj-155" : [ "live.numbox[6]", "live.dial[12]", 0 ],
-			"obj-161" : [ "live.numbox[71]", "live.dial[12]", 0 ],
-			"obj-163" : [ "live.text[218]", "live.text", 0 ],
-			"obj-166" : [ "live.numbox[54]", "live.dial[12]", 0 ],
-			"obj-167" : [ "live.numbox[61]", "live.dial[12]", 0 ],
-			"obj-168" : [ "live.dial[12]", "live.dial[12]", 0 ],
-			"obj-169" : [ "live.numbox[55]", "live.dial[12]", 0 ],
-			"obj-171" : [ "live.numbox[59]", "live.dial[12]", 0 ],
-			"obj-19" : [ "live.numbox[56]", "live.dial[12]", 0 ],
-			"obj-88" : [ "live.text[219]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.gran~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

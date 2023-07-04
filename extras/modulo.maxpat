@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1159,7 +1159,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
+									"text" : "Produce or process real-time audio using different sound synthesis algorithms.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2195,7 +2195,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 8,
-									"num_lines_presentation" : 8,
+									"num_lines_presentation" : 6,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2223,9 +2223,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.theremini~" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 31,
+											"parameter_mmax" : 5,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3450,7 +3450,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.1668, 0.10248, 0.2076, 0.42716, 0.32772, 0.13152 ],
+					"nsize" : [ 0.34908, 0.44304, 0.19224, 0.38048, 0.48108, 0.2672 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3468,8 +3468,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7962, 0.0499, 0.2008, 0.7564, 0.2098, 0.3565 ],
-					"yplace" : [ 0.623, 0.6381, 0.9309, 0.6338, 0.5832, 0.0928 ]
+					"xplace" : [ 0.8559, 0.4031, 0.9457, 0.1888, 0.702, 0.8221 ],
+					"yplace" : [ 0.6615, 0.1025, 0.6242, 0.3688, 0.8795, 0.8039 ]
 				}
 
 			}
