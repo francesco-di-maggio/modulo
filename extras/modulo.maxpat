@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 66.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -52,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 700.0, 229.954297363758087, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 21.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 25.158536583185196, 25.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -726,7 +726,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 610.0, 229.954297363758087, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 530.841463416814804, 134.0, 168.658536583185196, 26.0 ],
+					"presentation_rect" : [ 530.841463416814804, 137.0, 168.658536583185196, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1141,7 +1141,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 787.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 147.0, 675.285714268684387, 22.0 ],
+									"presentation_rect" : [ 738.285714268684387, 143.0, 675.285714268684387, 22.0 ],
 									"text" : "These are ideas of instruments using different types of input and direct mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1158,8 +1158,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 147.0, 675.285714268684387, 22.0 ],
-									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
+									"presentation_rect" : [ 8.0, 143.0, 675.285714268684387, 22.0 ],
+									"text" : "Handle auxilary functions, such as mapping and visualizing signals and control data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2150,7 +2150,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 984.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 184.0, 677.834098268684784, 175.834170999999969 ],
+									"presentation_rect" : [ 738.285714268684387, 180.0, 677.834098268684784, 175.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2203,7 +2203,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 242.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 184.0, 677.834098268684784, 175.834170999999969 ],
+									"presentation_rect" : [ 8.0, 180.0, 677.834098268684784, 175.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2223,9 +2223,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tab", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.audiotester", "mo.buffer~", "mo.console", "mo.cpu", "mo.crosspatch", "mo.crosspatch~", "mo.cue", "mo.date", "mo.gain~", "mo.lfo~", "mo.map", "mo.matrix", "mo.matrix~", "mo.monitor", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.swatch", "mo.timer" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 31,
+											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2271,7 +2271,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1222.0, 85.0, 5.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 170.0, 675.285714268684387, 6.0 ],
+									"presentation_rect" : [ 738.285714268684387, 166.0, 675.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2568,7 +2568,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 480.0, 85.0, 5.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 170.0, 675.285714268684387, 6.0 ],
+									"presentation_rect" : [ 8.0, 166.0, 675.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3002,7 +3002,7 @@
 ,
 					"patching_rect" : [ 6.5, 347.165829000000031, 775.5, 407.855344999999943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.5, 349.021173999999974, 699.0, 369.0 ],
+					"presentation_rect" : [ 16.5, 351.021173999999974, 699.0, 369.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3018,7 +3018,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.5, 207.0, 775.5, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.158536583185196, 254.665829000000031, 674.341463416814804, 12.99633318471524 ],
+					"presentation_rect" : [ 28.158536583185196, 257.665829000000031, 671.341463416814804, 12.99633318471524 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -3039,7 +3039,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.5, 117.0, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 640.5, 162.0, 59.0, 26.0 ],
+					"presentation_rect" : [ 640.5, 165.0, 59.0, 26.0 ],
 					"text" : "(2023)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3060,7 +3060,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 391.5, 229.954297363758087, 109.523560225963593, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.5, 272.894408999999996, 116.0, 72.0 ],
+					"presentation_rect" : [ 583.5, 274.894408999999996, 116.0, 72.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3310,7 +3310,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 6.5, 229.954297363758087, 345.0, 60.211531636241943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.158536583185196, 272.894408999999996, 558.341463416814804, 72.0 ],
+					"presentation_rect" : [ 25.158536583185196, 274.894408999999996, 558.341463416814804, 72.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3360,7 +3360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.5, 75.0, 468.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 94.0, 468.0, 33.0 ],
+					"presentation_rect" : [ 207.5, 98.0, 468.0, 33.0 ],
 					"text" : "A Toolkit for Digital Musical Instrument Design.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3376,7 +3376,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.5, 117.0, 87.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 441.841463416814804, 134.0, 87.0, 26.0 ],
+					"presentation_rect" : [ 441.841463416814804, 137.0, 87.0, 26.0 ],
 					"text" : "Created by",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3392,7 +3392,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.5, 13.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 29.411127424189658, 173.0, 67.0 ],
+					"presentation_rect" : [ 207.5, 33.411127424189658, 173.0, 67.0 ],
 					"text" : "modulo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"underline" : 1
@@ -3413,7 +3413,7 @@
 					"patching_rect" : [ 6.5, 6.0, 140.947477794268991, 140.947477794268991 ],
 					"pic" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/icon.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 21.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 25.158536583185196, 25.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -3430,13 +3430,14 @@
 					"patching_rect" : [ 6.5, 158.0, 604.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 25.158536583185196, 198.662162184715271, 674.341463416814804, 57.0 ],
+					"presentation_rect" : [ 25.158536583185196, 200.662162184715271, 674.341463416814804, 57.0 ],
 					"text" : "A toolkit for quick prototyping of digitial musical interfaces. It includes a variety of modules specifically designed to aid the process of instrument design. Modules are based on a user-friendly, modular and multichannel architecture, and can be assembled and customized in a variety of ways."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"candycane" : 8,
 					"displayknob" : 1,
@@ -3449,7 +3450,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.27652, 0.33296, 0.45064, 0.44296, 0.10608, 0.10504 ],
+					"nsize" : [ 0.34944, 0.19772, 0.18204, 0.25648, 0.33524, 0.3302 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3467,8 +3468,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.0991, 0.3962, 0.2274, 0.5839, 0.0061, 0.8853 ],
-					"yplace" : [ 0.6875, 0.2594, 0.6449, 0.945, 0.9147, 0.8574 ]
+					"xplace" : [ 0.5391, 0.8553, 0.4915, 0.9831, 0.6663, 0.5826 ],
+					"yplace" : [ 0.9837, 0.9022, 0.7862, 0.6022, 0.2573, 0.7137 ]
 				}
 
 			}
