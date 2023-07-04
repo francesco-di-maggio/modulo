@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.0, 478.481951141798959, 124.833333333333371, 23.0 ],
-					"text" : "mode"
+					"text" : "pitch"
 				}
 
 			}
@@ -931,7 +931,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 38.973149760419801, -0.058990031480789, 168.31823694681043, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "mode",
+					"text" : "pitch",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -988,7 +988,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[221]",
+							"parameter_longname" : "live.text[122]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -996,9 +996,9 @@
 
 					}
 ,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "2",
+					"texton" : "1",
 					"varname" : "mute-"
 				}
 
@@ -1031,8 +1031,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.156862745098039, 0.8, 0.549019607843137, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1051,7 +1049,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 420.666666666666629, 262.694444444444343, 146.0, 23.0 ],
-					"restore" : [ "mode" ],
+					"restore" : [ "pitch" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

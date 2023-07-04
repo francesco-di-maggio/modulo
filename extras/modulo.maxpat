@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 66.0, 730.0, 730.0 ],
+		"rect" : [ 34.0, 100.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 2,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -62,7 +62,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -169,7 +169,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 131.0, 241.665829000000031, 95.0, 23.0 ],
 									"text" : "mo.smooth 0.99",
 									"varname" : "mo.smooth"
@@ -1159,7 +1159,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Produce or process real-time audio using different sound synthesis algorithms.",
+									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2134,7 +2134,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.322, 0.749, 0.906, 1.0 ],
+									"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 13.0,
@@ -2158,7 +2158,7 @@
 										}
 ,
 										"activebgoncolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_value_bar"
 										}
 ,
 										"bordercolor" : 										{
@@ -2187,7 +2187,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.322, 0.749, 0.906, 1.0 ],
+									"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 13.0,
@@ -2195,7 +2195,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 8,
-									"num_lines_presentation" : 6,
+									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2211,7 +2211,7 @@
 										}
 ,
 										"activebgoncolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_value_bar"
 										}
 ,
 										"bordercolor" : 										{
@@ -2223,9 +2223,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.theremini~" ],
+											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 5,
+											"parameter_mmax" : 31,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2483,7 +2483,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.32156862745098, 0.749019607843137, 0.905882352941176, 1.0 ],
+									"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 16.0,
@@ -2508,7 +2508,7 @@
 										}
 ,
 										"activebgoncolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_value_bar"
 										}
 ,
 										"bordercolor" : 										{
@@ -2783,7 +2783,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-									"activebgoncolor" : [ 0.32156862745098, 0.749019607843137, 0.905882352941176, 1.0 ],
+									"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 									"fontsize" : 16.0,
@@ -2808,7 +2808,7 @@
 										}
 ,
 										"activebgoncolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_value_bar"
 										}
 ,
 										"bordercolor" : 										{
@@ -3048,7 +3048,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"fontsize" : 22.0,
@@ -3068,7 +3068,7 @@
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_bar"
 						}
 ,
 						"bordercolor" : 						{
@@ -3293,7 +3293,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.890196078431372, 0.890196078431372, 0.890196078431372, 0.0 ],
-					"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bgoncolor" : [ 0.537, 0.831, 0.945, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
@@ -3318,7 +3318,7 @@
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_bar"
 						}
 ,
 						"bgoncolor" : 						{
@@ -3450,7 +3450,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.45096, 0.3656, 0.18004, 0.22656, 0.4178, 0.11736 ],
+					"nsize" : [ 0.1668, 0.10248, 0.2076, 0.42716, 0.32772, 0.13152 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3468,8 +3468,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.285, 0.9351, 0.7737, 0.6245, 0.6238, 0.1675 ],
-					"yplace" : [ 0.9952, 0.6538, 0.9821, 0.0575, 0.4116, 0.7635 ]
+					"xplace" : [ 0.7962, 0.0499, 0.2008, 0.7564, 0.2098, 0.3565 ],
+					"yplace" : [ 0.623, 0.6381, 0.9309, 0.6338, 0.5832, 0.0928 ]
 				}
 
 			}
@@ -3551,7 +3551,7 @@
 			"obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-28" : [ "live.menu", "live.menu", 0 ],
 			"obj-39" : [ "live.text[53]", "live.text", 0 ],
-			"obj-47::obj-11::obj-13" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-47::obj-11::obj-13" : [ "live.numbox[18]", "live.numbox", 0 ],
 			"obj-47::obj-25::obj-11" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-47::obj-25::obj-12" : [ "live.text[27]", "live.text", 0 ],
 			"obj-47::obj-25::obj-13" : [ "live.numbox[1]", "live.text", 0 ],
