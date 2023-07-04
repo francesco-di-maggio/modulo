@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.lfo.maxpat",
+					"name" : "mo.lfo~.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
-					"varname" : "mo.lfo",
+					"varname" : "mo.lfo~",
 					"viewvisibility" : 1
 				}
 
@@ -104,9 +104,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.lfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.lfo~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

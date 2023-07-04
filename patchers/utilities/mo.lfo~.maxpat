@@ -52,7 +52,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 160.0, 762.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.360100671648979, 7.0, 15.714714705944061, 15.0 ],
+					"presentation_rect" : [ 96.242805942893028, 7.0, 15.714714705944061, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -612,7 +612,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -657,7 +657,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -742,13 +742,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.842786306142557, 17.126276284456253, 22.0, 21.0 ],
+					"patching_rect" : [ 30.842786306142557, 17.126276284456253, 22.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 4.0, 22.0, 21.0 ],
-					"text" : "lfo"
+					"presentation_rect" : [ 3.0, 4.0, 29.0, 21.0 ],
+					"text" : "lfo~"
 				}
 
 			}
@@ -788,7 +789,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[116]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3330,6 +3331,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4106,6 +4108,7 @@
 													"fontname" : "Ableton Sans Medium",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -4644,6 +4647,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -6413,85 +6417,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "Jitter", "live.numbox", 0 ],
-			"obj-120" : [ "offset-", "live.numbox", 0 ],
-			"obj-140" : [ "Phase", "live.numbox", 0 ],
-			"obj-20" : [ "waveform-", "waveform-", 0 ],
-			"obj-21" : [ "live.text[38]", "live.text", 0 ],
-			"obj-26" : [ "mode-", "live.text", 0 ],
-			"obj-36" : [ "Hold[1]", "live.text", 0 ],
-			"obj-4" : [ "live.text[1]", "live.text", 0 ],
-			"obj-55" : [ "Hold", "live.text", 0 ],
-			"obj-58" : [ "rate-", "rate", 0 ],
-			"obj-69" : [ "Smooth", "live.numbox", 0 ],
-			"obj-89" : [ "frate-", "rate", 0 ],
-			"obj-94" : [ "retrigger-", "retrigger-", 0 ],
-			"obj-99" : [ "depth-", "depth", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "rate-", "frate-", "depth-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "down.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"toolbarexclusions" : [ "grid", "traceenable", "savefavorite", "objectpriority", "autolockunselected" ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
