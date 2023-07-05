@@ -4,8 +4,7 @@
 A Toolkit for Digital Musical Instrument Design. 
 
 ## About 
-`Meet **modulo**, a toolkit for tinkering digital musical instruments. Designed to make the music-making process as seamless as possible, modulo is like a Lego set for your musical ideas. With an array of different modules, you can mix and match, customize, and build your own ideal musical tools. Each module is designed with simplicity and versatility in mind, fitting neatly into a user-friendly, modular and multichannel system.
-`
+> Meet **modulo**, a creative toolkit for tinkering digital musical instruments. Designed to make the music-making process as seamless as possible, modulo is like a Lego set for your musical ideas. With an array of different modules, you can mix and match, customise, and build your own ideal musical tools. Each module is designed with simplicity and versatility in mind, fitting neatly into a user-friendly system that is both modular and multichannel.
 
 ## Installation
 
