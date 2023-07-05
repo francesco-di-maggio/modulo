@@ -40,6 +40,49 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 128.959072227510774, 67.0, 85.0, 54.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 128.959072227510774, 67.0, 132.0, 25.0 ],
+					"text" : "turn blinking on/off "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-6",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 102.959072227510774, 70.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 102.959072227510774, 70.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -311,7 +354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 491.427083333333258, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.959072227510774, 67.0, 85.0, 25.0 ],
+					"presentation_rect" : [ 189.959072227510774, 142.0, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -360,7 +403,7 @@
 					"patching_rect" : [ 664.0, 490.427083333333258, 53.0, 30.0 ],
 					"pattrstorage" : "p-leds",
 					"presentation" : 1,
-					"presentation_rect" : [ 102.959072227510774, 66.0, 53.0, 29.0 ]
+					"presentation_rect" : [ 102.959072227510774, 141.0, 53.0, 29.0 ]
 				}
 
 			}
@@ -381,7 +424,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 723.0, 495.427083333333258, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.959072227510774, 70.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 163.959072227510774, 145.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

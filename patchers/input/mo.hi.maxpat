@@ -41,18 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 359.298247337341309, 257.017541408538818, 31.0, 23.0 ],
-					"text" : "t b s"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
 					"index" : 1,
@@ -256,7 +244,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "Game-Trak V1.3", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3" ],
+					"items" : [ "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -465,8 +453,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 368.798247337341309, 207.0, 368.798247337341309, 207.0 ],
+					"destination" : [ "obj-209", 0 ],
+					"midpoints" : [ 368.798247337341309, 369.0, 236.924428086697844, 369.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -582,22 +570,6 @@
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 487.806426948308967, 96.0, 487.806426948308967, 96.0 ],
 					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 368.798247337341309, 297.0, 196.464911460876465, 297.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-209", 0 ],
-					"midpoints" : [ 380.798247337341309, 369.0, 236.924428086697844, 369.0 ],
-					"source" : [ "obj-5", 1 ]
 				}
 
 			}

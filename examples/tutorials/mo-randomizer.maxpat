@@ -61,7 +61,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.rslider.maxpat",
+					"name" : "mo.vrslider.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -69,7 +69,7 @@
 					"patching_rect" : [ 450.485723542877963, 219.154124945402145, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.485723542877949, 210.154124945402145, 70.0, 265.0 ],
-					"varname" : "mo.rslider",
+					"varname" : "mo.vrslider",
 					"viewvisibility" : 1
 				}
 
@@ -475,7 +475,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 459.985723542877963, 198.0, 459.985723542877963, 198.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -569,14 +568,13 @@
 			"obj-36::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-36::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-36::obj-6" : [ "live.text[92]", "live.text", 0 ],
-			"obj-3::obj-6" : [ "live.text[8]", "live.text", 0 ],
+			"obj-3::obj-6" : [ "live.text[25]", "live.text", 0 ],
 			"obj-55::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-55::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-61::obj-37" : [ "live.text[15]", "live.text", 0 ],
 			"obj-61::obj-65" : [ "encoder-", "encoder-", 0 ],
 			"obj-78::obj-18" : [ "live.text[7]", "live.text", 0 ],
-			"obj-78::obj-51" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-78::obj-52" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-78::obj-20" : [ "live.text[8]", "live.text", 0 ],
 			"obj-88::obj-2" : [ "live.text[4]", "live.text", 0 ],
 			"obj-88::obj-37" : [ "live.text[3]", "live.text", 0 ],
 			"obj-88::obj-6" : [ "live.text[18]", "live.text", 0 ],
@@ -907,7 +905,7 @@
 				}
 ,
 				"obj-3::obj-6" : 				{
-					"parameter_longname" : "live.text[8]"
+					"parameter_longname" : "live.text[25]"
 				}
 ,
 				"obj-61::obj-37" : 				{
@@ -916,6 +914,10 @@
 ,
 				"obj-78::obj-18" : 				{
 					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-78::obj-20" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-88::obj-2" : 				{
@@ -950,57 +952,57 @@
 			}
 , 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.encoder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.number.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.rslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.vrslider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.vslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.xypad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

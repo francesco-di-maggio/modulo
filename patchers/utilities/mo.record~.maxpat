@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -691,14 +691,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
-					"patching_rect" : [ 983.0, 724.457984536886215, 174.0, 23.0 ],
+					"patching_rect" : [ 983.0, 724.457984536886215, 174.0, 22.0 ],
 					"text" : "mcs.play~ recording 1 @loop 1",
 					"varname" : "play"
 				}
@@ -1358,7 +1358,6 @@
 ,
 					"text" : "clear",
 					"texton" : "clear",
-					"usepicture" : 1,
 					"usesvgviewbox" : 1,
 					"varname" : "live.text"
 				}

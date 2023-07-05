@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 470.0, 707.0 ],
+		"rect" : [ 34.0, 100.0, 470.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 662.0, 54.0, 23.0 ],
+					"patching_rect" : [ 41.0, 649.0, 54.0, 23.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -337,6 +337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 50.5, 633.0, 50.5, 633.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -368,6 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 50.5, 567.0, 50.5, 567.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -424,8 +426,8 @@
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

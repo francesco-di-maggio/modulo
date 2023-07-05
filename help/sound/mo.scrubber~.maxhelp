@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1426.0, 699.0 ],
+		"rect" : [ 34.0, 100.0, 1426.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 311.176527484848521, 613.053420379757767, 48.0, 48.0 ]
+					"patching_rect" : [ 292.192717424242687, 582.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -55,11 +55,11 @@
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
-					"id" : "obj-2",
+					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.89127293939373, 624.053420379757767, 74.0, 25.0 ],
+					"patching_rect" : [ 379.907462878787896, 593.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -71,7 +71,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 10.0,
 					"hint" : "",
-					"id" : "obj-18",
+					"id" : "obj-2",
 					"ignoreclick" : 1,
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 370.176527484848521, 627.053420379757767, 20.0, 20.0 ],
+					"patching_rect" : [ 351.192717424242687, 596.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -87,6 +87,47 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 649.0, 54.0, 23.0 ],
+					"text" : "mc.dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"lastchannelcount" : 2,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 41.0, 596.0, 136.0, 36.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -20 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "mc.live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "output gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "bbdmi.dac~"
 				}
 
 			}
@@ -309,28 +350,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 24.0, 24.0 ],
 					"varname" : "toggle[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "@dB", -20 ],
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-23",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.dac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.140615909090684, 588.553420379757767, 216.0, 87.0 ],
-					"varname" : "mo.dac~",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -711,6 +730,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 50.5, 633.0, 50.5, 633.0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"midpoints" : [ 541.732252878788131, 192.0, 541.732252878788131, 192.0 ],
 					"source" : [ "obj-40", 0 ]
@@ -815,8 +842,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 50.5, 549.0, 50.640615909090684, 549.0 ],
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 50.5, 549.0, 50.5, 549.0 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -831,9 +858,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23::obj-45" : [ "live.gain~[4]", "volume", 0 ],
-			"obj-23::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-23::obj-7" : [ "live.text[15]", "live.text", 0 ],
+			"obj-4" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"obj-57::obj-10" : [ "live.numbox[57]", "live.dial[12]", 0 ],
 			"obj-57::obj-102" : [ "live.text[4]", "live.text", 0 ],
 			"obj-57::obj-135" : [ "live.text[192]", "live.text", 0 ],
@@ -861,18 +886,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-23::obj-45" : 				{
-					"parameter_longname" : "live.gain~[4]"
-				}
-,
-				"obj-23::obj-56" : 				{
-					"parameter_longname" : "live.numbox[8]"
-				}
-,
-				"obj-23::obj-7" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
 				"obj-59::obj-12" : 				{
 					"parameter_longname" : "live.text[8]"
 				}
@@ -926,16 +939,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.scrubber~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -948,20 +954,6 @@
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",

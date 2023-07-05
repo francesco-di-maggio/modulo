@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 491.0, 697.0 ],
+		"rect" : [ 34.0, 100.0, 485.0, 618.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,41 +116,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-18",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 656.0, 652.0, 142.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 532.071428571428555, 142.0, 57.5 ],
-					"varname" : "mo.send[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.0, 617.0, 235.0, 23.0 ],
-					"text" : "join 4 @triggers -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -241,41 +206,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-11",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 39.0, 652.0, 142.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 532.071428571428555, 142.0, 57.5 ],
-					"varname" : "mo.send",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 617.0, 307.0, 23.0 ],
-					"text" : "join 5 @triggers -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -307,15 +237,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 188.350694444444457, 394.0, 79.0 ],
+					"patching_rect" : [ 1022.0, 188.350694444444457, 394.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 14.0, 602.0, 394.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load the Simple Mk3 preset.\n2. Set UPD host and port on the app to reflect your computer settings.\n3. (Optional) Send data to a sound device."
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 14.0, 542.0, 394.0, 64.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load the Simple Mk3 preset.\n2. Set UPD host and port on the app to reflect your computer settings."
 				}
 
 			}
@@ -602,62 +532,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 737.5, 429.0, 737.5, 429.0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 665.5, 429.0, 665.5, 429.0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 2 ],
-					"midpoints" : [ 809.5, 429.0, 809.5, 429.0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 3 ],
-					"midpoints" : [ 881.5, 429.0, 881.5, 429.0 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 665.5, 642.0, 665.5, 642.0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 48.5, 642.0, 48.5, 642.0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 4 ],
-					"midpoints" : [ 336.5, 429.0, 336.5, 429.0 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"midpoints" : [ 336.5, 333.0, 336.5, 333.0 ],
 					"source" : [ "obj-24", 4 ]
@@ -689,13 +563,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -733,30 +600,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 3 ],
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 48.5, 291.0, 48.5, 291.0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -789,7 +635,6 @@
 			"obj-10::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-10::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-10::obj-6" : [ "live.text[92]", "live.text", 0 ],
-			"obj-11::obj-153" : [ "live.text[140]", "live.text", 0 ],
 			"obj-15::obj-2" : [ "live.text[94]", "live.text", 0 ],
 			"obj-15::obj-37" : [ "live.text[96]", "live.text", 0 ],
 			"obj-15::obj-6" : [ "live.text[95]", "live.text", 0 ],
@@ -799,7 +644,6 @@
 			"obj-17::obj-2" : [ "live.text[61]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[62]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[63]", "live.text", 0 ],
-			"obj-18::obj-153" : [ "live.text[6]", "live.text", 0 ],
 			"obj-1::obj-14" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-39" : [ "live.numbox[74]", "live.numbox", 0 ],
 			"obj-1::obj-8" : [ "live.text[123]", "live.text", 0 ],
@@ -912,10 +756,6 @@
 					"parameter_longname" : "live.text[63]"
 				}
 ,
-				"obj-18::obj-153" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
 				"obj-23::obj-35" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[7]",
@@ -925,7 +765,11 @@
 				}
 ,
 				"obj-23::obj-7" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[10]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-25::obj-35" : 				{
@@ -1112,15 +956,15 @@
 			}
 , 			{
 				"name" : "mo.hslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1132,23 +976,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.udpreceive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.vslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

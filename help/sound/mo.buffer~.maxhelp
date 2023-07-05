@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 589.0, 766.0 ],
+		"rect" : [ 34.0, 100.0, 589.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 589.0, 740.0 ],
+						"rect" : [ 0.0, 26.0, 589.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -145,7 +145,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.0, 692.0, 54.0, 23.0 ],
+									"patching_rect" : [ 41.0, 680.109375, 54.0, 23.0 ],
 									"text" : "mc.dac~"
 								}
 
@@ -552,7 +552,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 589.0, 740.0 ],
+						"rect" : [ 34.0, 126.0, 589.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -639,7 +639,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.0, 692.0, 54.0, 23.0 ],
+									"patching_rect" : [ 41.0, 680.0, 54.0, 23.0 ],
 									"text" : "mc.dac~"
 								}
 
@@ -985,6 +985,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
+									"midpoints" : [ 50.5, 666.0, 50.5, 666.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -1032,7 +1033,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 245.273022075757808, 318.0, 245.5, 318.0 ],
+									"midpoints" : [ 245.273022075757808, 228.0, 245.5, 228.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1056,7 +1057,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"midpoints" : [ 50.5, 252.0, 50.5, 252.0 ],
+									"midpoints" : [ 50.5, 243.0, 50.5, 243.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1103,14 +1104,16 @@
 			"obj-26::obj-39::obj-21" : [ "live.text[233]", "live.text", 0 ],
 			"obj-26::obj-39::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-26::obj-39::obj-33" : [ "live.text[72]", "live.text", 0 ],
+			"obj-26::obj-39::obj-53" : [ "live.text[40]", "live.text", 0 ],
 			"obj-26::obj-8" : [ "mc.live.gain~", "input gain~", 0 ],
 			"obj-29::obj-39::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-29::obj-39::obj-125" : [ "live.numbox[2]", "live.dial[12]", 0 ],
 			"obj-29::obj-39::obj-138" : [ "live.numbox[3]", "live.dial[12]", 0 ],
 			"obj-29::obj-39::obj-141" : [ "live.text[7]", "live.text", 0 ],
-			"obj-29::obj-39::obj-21" : [ "live.text[5]", "live.text", 0 ],
+			"obj-29::obj-39::obj-21" : [ "live.text[8]", "live.text", 0 ],
 			"obj-29::obj-39::obj-23" : [ "live.text[4]", "live.text", 0 ],
 			"obj-29::obj-39::obj-33" : [ "live.text[6]", "live.text", 0 ],
+			"obj-29::obj-39::obj-53" : [ "live.text[5]", "live.text", 0 ],
 			"obj-29::obj-5" : [ "mc.live.gain~[3]", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1167,7 +1170,7 @@
 				}
 ,
 				"obj-29::obj-39::obj-21" : 				{
-					"parameter_longname" : "live.text[5]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-29::obj-39::obj-23" : 				{
@@ -1177,6 +1180,10 @@
 				"obj-29::obj-39::obj-33" : 				{
 					"parameter_longname" : "live.text[6]"
 				}
+,
+				"obj-29::obj-39::obj-53" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
 
 			}
 ,
@@ -1184,19 +1191,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "load.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "loop.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",

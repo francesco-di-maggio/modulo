@@ -41,12 +41,12 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-7",
+					"id" : "obj-2",
 					"local" : 1,
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.259259259259238, 604.499999999999886, 48.0, 48.0 ]
+					"patching_rect" : [ 292.192717424242687, 582.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -55,11 +55,11 @@
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
-					"id" : "obj-2",
+					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.974004713804447, 615.499999999999886, 74.0, 25.0 ],
+					"patching_rect" : [ 379.907462878787896, 593.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -71,7 +71,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 10.0,
 					"hint" : "",
-					"id" : "obj-9",
+					"id" : "obj-40",
 					"ignoreclick" : 1,
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 368.259259259259238, 618.499999999999886, 20.0, 20.0 ],
+					"patching_rect" : [ 351.192717424242687, 596.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -87,6 +87,47 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 649.0, 54.0, 23.0 ],
+					"text" : "mc.dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"lastchannelcount" : 2,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 41.0, 596.0, 136.0, 36.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -20 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "mc.live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "output gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "bbdmi.dac~"
 				}
 
 			}
@@ -492,28 +533,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"args" : [ "@dB", -20 ],
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-63",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.dac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.140615909090684, 582.0, 216.0, 87.0 ],
-					"varname" : "mo.dac~",
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -557,7 +576,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -631,6 +650,14 @@
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 582.777063656249993, 279.0, 50.640615909090684, 279.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"midpoints" : [ 50.5, 633.0, 50.5, 633.0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -715,9 +742,7 @@
 			"obj-16::obj-4" : [ "live.dial[29]", "live.dial[20]", 0 ],
 			"obj-16::obj-42" : [ "live.text[21]", "live.text", 0 ],
 			"obj-16::obj-7" : [ "live.dial[7]", "live.dial[7]", 0 ],
-			"obj-63::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-63::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
-			"obj-63::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-3" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -738,16 +763,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.fm~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}

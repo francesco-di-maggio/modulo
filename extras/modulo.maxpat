@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 730.0, 730.0 ],
+		"rect" : [ 0.0, 66.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 3,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1095,6 +1095,54 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 806.0, 201.19023685714285, 42.0, 23.0 ],
+									"text" : "set $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 787.5, 155.595118428571425, 37.5, 23.0 ],
+									"text" : "t i 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 64.0, 201.19023685714285, 42.0, 23.0 ],
+									"text" : "set $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 45.5, 155.595118428571425, 37.5, 23.0 ],
+									"text" : "t i 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "message",
@@ -1159,7 +1207,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Produce or process real-time audio using different sound synthesis algorithms.",
+									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1463,7 +1511,7 @@
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 513.5, 85.0, 43.0, 23.0 ],
+									"patching_rect" : [ 1327.5, 85.0, 43.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1486,7 +1534,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 513.5, 110.0, 70.0, 23.0 ],
+									"patching_rect" : [ 1327.5, 110.0, 70.0, 23.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1501,7 +1549,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 513.5, 33.0, 30.0, 30.0 ]
+									"patching_rect" : [ 1327.5, 33.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1593,7 +1641,7 @@
 													"data" : 													{
 														"input" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"output" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.send", "mo.send~", "mo.sends", "mo.scope", "mo.scope~", "mo.serialout", "mo.spectroscope~", "mo.udpsend", "mo.udpsends", "mo.xbendout", "mo.xbendouts" ],
-														"sound" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.theremini~" ],
+														"sound" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.scrumbler~", "mo.theremini~" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pinch", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 														"utilities" : [ "mo.adstatus", "mo.audiotester", "mo.console", "mo.cpu", "mo.crosspatch", "mo.crosspatch~", "mo.cue", "mo.date", "mo.gain~", "mo.lfo~", "mo.map", "mo.matrix", "mo.matrix~", "mo.monitor", "mo.mouse", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.swatch", "mo.timer" ]
 													}
@@ -1802,8 +1850,8 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Sonification", "Theremini", "TouchOSC" ],
-														"tutorials" : [ "Blinking LEDs", "Building Blocks", "Many To One", "One To Many", "Randomizer", "Recorder", "Talk To DAW", "Visualizer", "Workflow" ]
+														"instruments" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Theremini", "TouchOSC" ],
+														"tutorials" : [ "Blinker", "Building Blocks", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2036,8 +2084,8 @@
 														"TouchOSC" : [ "mo-touchOSC" ],
 														"Blinking LEDs" : [ "mo-leds" ],
 														"Building Blocks" : [ "mo-blocks" ],
-														"Many to One" : [ "mo-many2one" ],
-														"One to Many" : [ "mo-one2many" ],
+														"Many To One" : [ "mo-many2one" ],
+														"One To Many" : [ "mo-one2many" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
 														"Talk To DAW" : "mo-DAW",
@@ -2141,8 +2189,8 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 6,
-									"num_lines_presentation" : 6,
+									"num_lines_patching" : 10,
+									"num_lines_presentation" : 10,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2150,7 +2198,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 984.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 166.0, 661.834098268684784, 175.834170999999969 ],
+									"presentation_rect" : [ 738.285714268684387, 166.0, 661.834098268684784, 172.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2170,9 +2218,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Sonification", "Theremini", "TouchOSC" ],
+											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Theremini", "TouchOSC" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 10,
+											"parameter_mmax" : 9,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2195,7 +2243,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 8,
-									"num_lines_presentation" : 6,
+									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2203,7 +2251,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 242.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 166.0, 661.834098268684784, 175.834170999999969 ],
+									"presentation_rect" : [ 8.0, 166.0, 661.834098268684784, 172.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2223,9 +2271,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.theremini~" ],
+											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 5,
+											"parameter_mmax" : 31,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2269,7 +2317,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1222.0, 85.0, 5.0, 48.0 ],
+									"patching_rect" : [ 781.0, 632.0, 5.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 152.0, 659.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
@@ -2411,7 +2459,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 26.0, 25.0, 30.0, 30.0 ]
 												}
 
@@ -2566,7 +2614,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 480.0, 85.0, 5.0, 48.0 ],
+									"patching_rect" : [ 37.0, 632.0, 6.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 152.0, 659.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
@@ -2711,7 +2759,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 26.0, 25.0, 30.0, 30.0 ]
 												}
 
@@ -2838,7 +2886,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 523.0, 66.0, 523.0, 66.0 ],
+									"midpoints" : [ 1337.0, 66.0, 1337.0, 66.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -2870,8 +2918,24 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 523.0, 111.0, 523.0, 111.0 ],
+									"midpoints" : [ 1337.0, 111.0, 1337.0, 111.0 ],
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"midpoints" : [ 73.5, 240.0, 252.0, 240.0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"midpoints" : [ 815.5, 240.0, 994.0, 240.0 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -2888,6 +2952,22 @@
 									"destination" : [ "obj-34", 1 ],
 									"midpoints" : [ 294.0, 180.0, 294.0, 180.0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"midpoints" : [ 815.5, 180.0, 815.5, 180.0 ],
+									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"midpoints" : [ 797.0, 180.0, 797.0, 180.0 ],
+									"source" : [ "obj-20", 0 ]
 								}
 
 							}
@@ -2949,9 +3029,25 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-45", 0 ],
+									"destination" : [ "obj-20", 0 ],
 									"midpoints" : [ 797.0, 135.0, 797.0, 135.0 ],
 									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"midpoints" : [ 73.5, 180.0, 73.5, 180.0 ],
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-97", 0 ],
+									"midpoints" : [ 55.0, 180.0, 55.0, 180.0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -2965,7 +3061,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-97", 0 ],
+									"destination" : [ "obj-5", 0 ],
 									"midpoints" : [ 55.0, 135.0, 55.0, 135.0 ],
 									"source" : [ "obj-75", 0 ]
 								}
@@ -3450,7 +3546,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.34908, 0.44304, 0.19224, 0.38048, 0.48108, 0.2672 ],
+					"nsize" : [ 0.48592, 0.23824, 0.29916, 0.43444, 0.20208, 0.215 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3468,8 +3564,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.8559, 0.4031, 0.9457, 0.1888, 0.702, 0.8221 ],
-					"yplace" : [ 0.6615, 0.1025, 0.6242, 0.3688, 0.8795, 0.8039 ]
+					"xplace" : [ 0.1222, 0.1462, 0.4643, 0.9957, 0.7612, 0.681 ],
+					"yplace" : [ 0.2035, 0.2364, 0.6763, 0.8527, 0.2783, 0.7625 ]
 				}
 
 			}
