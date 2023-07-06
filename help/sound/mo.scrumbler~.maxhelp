@@ -41,13 +41,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "button",
-					"numinlets" : 1,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1159.759021218750149, 165.0, 24.0, 24.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1117.759021218750149, 215.935986729959382, 33.0, 23.0 ],
+					"text" : "read"
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1193.759021218750149, 166.0, 51.0, 23.0 ],
+					"patching_rect" : [ 1159.759021218750149, 165.0, 51.0, 23.0 ],
 					"text" : "brushes"
 				}
 
@@ -461,8 +461,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 571.0, 38.0 ],
-					"text" : "Control the device with either a list of normalized input values (0. - 1.), or with specific messages.\nParameters: 1. carrier, 2. harmonicity, 3. ratio, 4. rate, 5. depth, 6. gain.",
+					"patching_rect" : [ 9.0, 102.0, 811.0, 38.0 ],
+					"text" : "Control the device with either a list of normalized input values (0. - 1.), or with specific messages.\nParameters: 1. pitch (list), 2. volume (list), 3. duration (list), 4. stutter (list), 5. speed, 6. probability duration, 7. propability stutter, 8 gain.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -662,6 +662,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 1127.259021218750149, 264.0, 50.640615909090684, 264.0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 418.708765687499977, 264.0, 50.640615909090684, 264.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -806,16 +814,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 1203.259021218750149, 201.0, 1169.259021218750149, 201.0 ],
+					"midpoints" : [ 1169.259021218750149, 201.0, 1169.259021218750149, 201.0 ],
 					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 1169.259021218750149, 192.0, 1169.259021218750149, 192.0 ],
-					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -837,18 +837,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-100" : [ "live.text[10]", "live.text", 0 ],
 			"obj-16::obj-117" : [ "live.text[185]", "live.text", 0 ],
 			"obj-16::obj-12" : [ "live.text[29]", "live.text", 0 ],
 			"obj-16::obj-131" : [ "live.numbox[7]", "live.dial[12]", 0 ],
-			"obj-16::obj-15" : [ "live.text[52]", "live.text", 0 ],
+			"obj-16::obj-15" : [ "live.text[9]", "live.text", 0 ],
 			"obj-16::obj-2" : [ "live.dial[8]", "probability", 0 ],
 			"obj-16::obj-27" : [ "live.dial[28]", "probability", 0 ],
 			"obj-16::obj-34" : [ "live.text[7]", "live.text", 0 ],
 			"obj-16::obj-4" : [ "live.dial[29]", "gain", 0 ],
 			"obj-16::obj-54" : [ "live.grid", "live.grid[4]", 0 ],
 			"obj-16::obj-78" : [ "live.text[8]", "live.text", 0 ],
-			"obj-16::obj-92" : [ "live.text[9]", "live.text", 0 ],
 			"obj-3" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -859,10 +857,28 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-16::obj-15" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[9]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.scrum~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -893,62 +909,6 @@
 				"name" : "unlock.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.between.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.block~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/sampling macros",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/sampling macros",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.choose.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.kpan~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/spat and audio routers",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/spat and audio routers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.multibang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/time and triggers",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/time and triggers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.p-block~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/sampling macros",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/sampling macros",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.pi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/math and numbers",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/math and numbers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Virtual Sound Macros/externals/random generators",
-				"patcherrelativepath" : "../../../Virtual Sound Macros/externals/random generators",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
