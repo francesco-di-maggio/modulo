@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -81,7 +81,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_longname" : "live.text[25]",
+							"parameter_longname" : "live.text[102]",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "octave",
@@ -3003,7 +3003,6 @@
 						"digest" : "",
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"tags" : "",
@@ -3981,7 +3980,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 75.0, 613.299986302852631, 44.0, 15.0 ],
-					"pictures" : [ "unlock.svg", "lock.svg" ],
+					"pictures" : [ "speaker-on.svg", "speaker-off.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.925426864479505, 8.194141161509847, 40.501457810401917, 15.0 ],
 					"remapsvgcolors" : 1,
@@ -4000,7 +3999,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[27]",
+							"parameter_longname" : "live.text[100]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4065,7 +4064,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[26]",
+							"parameter_longname" : "live.text[101]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4225,6 +4224,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 232.610452665740922, 8.194141161509847, 109.0, 16.0 ],
 					"rounded" : 0.0,
+					"text" : "theremini",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -4627,7 +4627,7 @@
 				"box" : 				{
 					"comment" : "(list) carrier, harmonicity, ratio, rate, depth, gain",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4781,7 +4781,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) stereo output",
 					"id" : "obj-208",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5795,61 +5795,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-111" : [ "live.dial[12]", "detune", 0 ],
-			"obj-112" : [ "live.dial[4]", "decay", 0 ],
-			"obj-113" : [ "live.dial[5]", "attack", 0 ],
-			"obj-114" : [ "live.dial[6]", "sustain", 0 ],
-			"obj-118" : [ "live.dial[7]", "carrier", 0 ],
-			"obj-12" : [ "live.text[27]", "live.text", 0 ],
-			"obj-22" : [ "live.dial[11]", "timbre", 0 ],
-			"obj-24" : [ "live.dial[3]", "release", 0 ],
-			"obj-25" : [ "live.dial[2]", "semitone", 0 ],
-			"obj-27" : [ "live.dial[8]", "vibrato", 0 ],
-			"obj-34" : [ "live.text[26]", "live.text", 0 ],
-			"obj-37" : [ "live.text[25]", "octave", 0 ],
-			"obj-4" : [ "live.dial[1]", "gain", 0 ],
-			"obj-42" : [ "live.text[185]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

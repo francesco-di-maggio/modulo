@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1207,7 +1207,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
+									"text" : "Produce or process real-time audio using different sound synthesis algorithms.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1850,7 +1850,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Theremini", "TouchOSC" ],
+														"instruments" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Scrumbler", "Theremini", "TouchOSC" ],
 														"tutorials" : [ "Blinker", "Building Blocks", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Visualizer", "Workflow" ]
 													}
 ,
@@ -2079,6 +2079,7 @@
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
 														"Odd." : [ "mo-oddot" ],
 														"Scrubber" : [ "mo-scrubber" ],
+														"Scrumbler" : [ "mo-scrumbler" ],
 														"Sonification" : [ "mo-sonification" ],
 														"Theremini" : [ "mo-theremini" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
@@ -2189,8 +2190,8 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 10,
-									"num_lines_presentation" : 10,
+									"num_lines_patching" : 6,
+									"num_lines_presentation" : 6,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2218,9 +2219,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Theremini", "TouchOSC" ],
+											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Scrumbler", "Theremini", "TouchOSC" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 9,
+											"parameter_mmax" : 10,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2243,7 +2244,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 8,
-									"num_lines_presentation" : 8,
+									"num_lines_presentation" : 7,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2271,9 +2272,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.scrumbler~", "mo.theremini~" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 31,
+											"parameter_mmax" : 6,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3546,7 +3547,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.19452, 0.19608, 0.20544, 0.28628, 0.33712, 0.1946 ],
+					"nsize" : [ 0.24832, 0.10448, 0.29888, 0.41952, 0.26216, 0.1228 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3564,8 +3565,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.3243, 0.5712, 0.9299, 0.2172, 0.9655, 0.7953 ],
-					"yplace" : [ 0.9075, 0.8422, 0.6009, 0.2501, 0.0578, 0.8662 ]
+					"xplace" : [ 0.8879, 0.1224, 0.0791, 0.868, 0.6429, 0.4864 ],
+					"yplace" : [ 0.8775, 0.0294, 0.5608, 0.5817, 0.5035, 0.0913 ]
 				}
 
 			}

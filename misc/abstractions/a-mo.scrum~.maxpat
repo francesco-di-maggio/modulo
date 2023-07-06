@@ -221,7 +221,6 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 86.0, 55.0, 85.0, 23.0 ],
-													"presentation_linecount" : 2,
 													"text" : "route int float"
 												}
 
@@ -236,7 +235,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 86.0, 159.0, 116.0, 23.0 ],
-													"presentation_linecount" : 2,
 													"text" : "expr $f1*atan(1)*4."
 												}
 
@@ -979,7 +977,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.5, 21.0, 230.0, 50.0 ],
-									"presentation_linecount" : 3,
 									"text" : "reverse mode:\n1: play from cue to (cue - dur)\n0: play from (cue + dur) to cue (default 0)"
 								}
 
