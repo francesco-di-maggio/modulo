@@ -1,21 +1,25 @@
-{
-    "name" : "modulo",
+{	
+	"name" : "modulo",
 	"displayname" : "",
-    "author" : "Francesco Di Maggio",
-    "description" : "Meet modulo, a toolkit for tinkering digital musical instruments. Designed to make the music-making process as seamless as possible, modulo is like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your ideal musical tool. Each module is designed with simplicity and versatility in mind, fitting neatly into a user-friendly system that's as multichannel as it is modular.",
-    "homepatcher" : "modulo.maxpat",
-    "max_version_min" : "7.1", "max_version_max" : "none",
-    "os" : {
-        "macintosh" : {
-            "platform" : [ "ia32", "x64" ],
-            "min_version" : "none"
-        },
-        "windows" : {
-            "platform" : [ "ia32", "x64" ],
-            "min_version" : "none"
-        }
-    },
-    "tags" : [ ],
-    "version" : "1.0",
-    "website" : "https://francescodimaggio.nl/"
+	"version" : "0.2.0",
+	"author" : "Francesco Di Maggio",
+	"description" : "A toolkit for tinkering digital musical instruments, designed as a Lego set for your musical ideas.",
+	"tags" : [ "digital musical instruments", "design", "lego", "mapping", "user-friendly", "modular", "multichannel" ],
+	"website" : "https://francescodimaggio.nl"
+	"extensible" : 1,
+	"extends" : "",
+	"max_version_min" : "7.1", 
+	"max_version_max" : "none",
+	"os" : {
+		"macintosh" : {
+			"min_version" : "none",
+			"platform" : [ "x64", "aarch64" ]
+		},
+		"windows" : {
+			"min_version" : "none",
+			"platform" : [ "x64" ]
+		}
+	},
+	"homepatcher" : "modulo.maxpat",
+	"forcerestart" : 1
 }
