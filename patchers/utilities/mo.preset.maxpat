@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 124.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 124.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -212,7 +212,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -316,7 +316,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -807,7 +807,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1118,7 +1117,6 @@
 ,
 					"text" : "clear",
 					"texton" : "clear",
-					"usepicture" : 1,
 					"usesvgviewbox" : 1,
 					"varname" : "textbutton[3]"
 				}
@@ -1754,37 +1752,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-43" : [ "live.text[109]", "live.text", 0 ],
-			"obj-46" : [ "live.text[90]", "live.text", 0 ],
-			"obj-48" : [ "live.text[59]", "live.text", 0 ],
-			"obj-50" : [ "live.text[55]", "live.text", 0 ],
-			"obj-52" : [ "live.numbox[8]", "live.text", 0 ],
-			"obj-53" : [ "live.text[62]", "live.text", 0 ],
-			"obj-55" : [ "live.text[61]", "live.text", 0 ],
-			"obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
-			"obj-64" : [ "live.text[110]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

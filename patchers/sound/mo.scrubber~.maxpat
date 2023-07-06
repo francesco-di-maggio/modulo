@@ -105,7 +105,7 @@
 					"patching_rect" : [ 344.586089999999956, 475.409647284456241, 160.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 44.371792723306498, 413.0, 66.0 ],
-					"setminmax" : [ 0.0, 9317.346938775510353 ],
+					"setminmax" : [ 0.0, 3478.458049886621211 ],
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"spacing" : 3,
@@ -2448,7 +2448,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 240.335484325948755, 7.371792723306498, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "scrubber",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -2844,14 +2843,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 366.297331760687939, 1345.73009107382677, 274.0, 23.0 ],
+					"patching_rect" : [ 366.297331760687939, 1345.73009107382677, 267.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.5 ],
+						"initial" : [ 0.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr probability @bindto probability- @initial 0.5",
+					"text" : "pattr probability @bindto probability- @initial 0.",
 					"varname" : "probability"
 				}
 
@@ -6245,7 +6244,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "scrubber-buf",
+					"buffername" : "0-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,
@@ -6268,7 +6267,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "scrubber-buf",
+					"buffername" : "0-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,

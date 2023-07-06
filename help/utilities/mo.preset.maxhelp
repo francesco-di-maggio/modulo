@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -304,7 +304,6 @@
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "p-preset.json",
 									"hidden" : 1,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
@@ -494,7 +493,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
+						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -776,7 +775,6 @@
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "p-preset.json",
 									"hidden" : 1,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
@@ -1039,23 +1037,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-preset.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

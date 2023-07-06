@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -155,7 +155,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -217,7 +217,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[233]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -410,7 +410,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 802.0, 61.0, 23.0 ],
+					"patching_rect" : [ 398.0, 802.0, 61.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 113.371792723306498, 61.0, 23.0 ],
 					"text" : "LENGTH"
@@ -476,6 +476,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.107140948880442, 154.321028203892467, 99.67861711978918, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "drumLoop.aif",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "buffer-"
@@ -1726,7 +1727,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 771.461840538143065, 168.0, 23.0 ],
+					"patching_rect" : [ 398.0, 771.461840538143065, 168.0, 23.0 ],
 					"text" : "s #1-samplength"
 				}
 
@@ -1841,7 +1842,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.75, 278.499999999999943, 100.0, 20.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/examples/instruments/media/",
+					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/help/sound/media/",
 					"presentation" : 1,
 					"presentation_rect" : [ 107.107140948880442, 135.062851072478054, 100.209121108055172, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1881,7 +1882,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[72]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1950,7 +1951,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2039,7 +2040,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.5, 723.886042538143101, 36.0, 18.0 ],
+					"patching_rect" : [ 448.5, 723.886042538143101, 36.0, 18.0 ],
 					"text" : "length",
 					"textjustification" : 1
 				}
@@ -2056,7 +2057,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 395.0, 724.886042538143101, 44.0, 15.0 ],
+					"patching_rect" : [ 398.0, 724.886042538143101, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 138.096000150966404, 54.310088664293289, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2069,7 +2070,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[60]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 600000.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -2160,7 +2161,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[58]",
+							"parameter_longname" : "live.numbox[11]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -2225,7 +2226,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[211]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2542,7 +2543,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
-					"midpoints" : [ 404.5, 741.0, 404.5, 741.0 ],
+					"midpoints" : [ 407.5, 741.0, 407.5, 741.0 ],
 					"order" : 1,
 					"source" : [ "obj-125", 0 ]
 				}
@@ -2551,7 +2552,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 404.5, 756.0, 578.0, 756.0 ],
+					"midpoints" : [ 407.5, 756.0, 578.0, 756.0 ],
 					"order" : 0,
 					"source" : [ "obj-125", 0 ]
 				}
@@ -2693,7 +2694,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 578.0, 708.0, 405.0, 708.0, 405.0, 720.0, 404.5, 720.0 ],
+					"midpoints" : [ 578.0, 708.0, 408.0, 708.0, 408.0, 720.0, 407.5, 720.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2765,7 +2766,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 795.0, 303.0, 555.0, 303.0, 555.0, 708.0, 405.0, 708.0, 405.0, 720.0, 404.5, 720.0 ],
+					"midpoints" : [ 795.0, 303.0, 555.0, 303.0, 555.0, 708.0, 408.0, 708.0, 408.0, 720.0, 407.5, 720.0 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -2993,7 +2994,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 252.25, 711.0, 404.5, 711.0 ],
+					"midpoints" : [ 252.25, 711.0, 407.5, 711.0 ],
 					"source" : [ "obj-57", 1 ]
 				}
 
@@ -3001,7 +3002,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 241.25, 711.0, 404.5, 711.0 ],
+					"midpoints" : [ 241.25, 711.0, 407.5, 711.0 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -3159,7 +3160,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 1261.166666666666742, 543.0, 525.0, 543.0, 525.0, 708.0, 405.0, 708.0, 405.0, 720.0, 404.5, 720.0 ],
+					"midpoints" : [ 1261.166666666666742, 543.0, 525.0, 543.0, 525.0, 708.0, 408.0, 708.0, 408.0, 720.0, 407.5, 720.0 ],
 					"source" : [ "obj-70", 2 ]
 				}
 
@@ -3326,7 +3327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 407.5, 720.0, 404.5, 720.0 ],
+					"midpoints" : [ 407.5, 702.0, 407.5, 702.0 ],
 					"source" : [ "obj-80", 6 ]
 				}
 

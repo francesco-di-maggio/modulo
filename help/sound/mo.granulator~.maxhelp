@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1373.0, 689.0 ],
+		"rect" : [ 34.0, 100.0, 1372.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -162,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 218.0, 33.0, 23.0 ],
+					"patching_rect" : [ 1267.237050461173567, 217.935986729959382, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -173,11 +173,10 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1286.237050461173567, 158.0, 63.0, 39.0 ],
+					"patching_rect" : [ 1267.237050461173567, 165.0, 89.0, 25.0 ],
 					"text" : "load sample"
 				}
 
@@ -197,7 +196,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1259.086742127840125, 167.5, 20.0, 20.0 ],
+					"patching_rect" : [ 1240.086742127840125, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -360,8 +359,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1170.122653703597962, 166.0, 80.0, 23.0 ],
-					"text" : "drumLoop.aif"
+					"patching_rect" : [ 1170.122653703597962, 166.0, 63.0, 23.0 ],
+					"text" : "drumLoop"
 				}
 
 			}
@@ -372,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1170.122653703597962, 197.0, 73.0, 23.0 ],
+					"patching_rect" : [ 1170.122653703597962, 217.935986729959382, 73.0, 23.0 ],
 					"text" : "prepend file"
 				}
 
@@ -768,7 +767,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 156.5, 267.0, 50.5, 267.0 ],
+					"midpoints" : [ 1276.737050461173567, 267.0, 50.5, 267.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1061,8 +1060,8 @@
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}

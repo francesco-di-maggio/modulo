@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1426.0, 690.0 ],
+		"rect" : [ 34.0, 100.0, 1415.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -162,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1169.290924242423898, 217.935986729959382, 33.0, 23.0 ],
+					"patching_rect" : [ 1312.237050461173567, 217.935986729959382, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -173,11 +173,10 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1348.237050461173567, 158.0, 63.0, 39.0 ],
+					"patching_rect" : [ 1312.237050461173567, 166.0, 89.0, 25.0 ],
 					"text" : "load sample"
 				}
 
@@ -197,7 +196,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1319.086742127840125, 167.5, 20.0, 20.0 ],
+					"patching_rect" : [ 1287.086742127840125, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -217,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1141.290924242424126, 164.0, 76.0, 25.0 ],
+					"patching_rect" : [ 1124.290924242424126, 164.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -229,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1101.259021218750149, 165.0, 29.5, 23.0 ],
+					"patching_rect" : [ 1084.259021218750149, 165.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -241,8 +240,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1004.759021218750149, 166.0, 85.0, 23.0 ],
-					"text" : "my-granulator"
+					"patching_rect" : [ 1004.759021218750149, 166.0, 65.0, 23.0 ],
+					"text" : "granulator"
 				}
 
 			}
@@ -360,8 +359,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1230.122653703597962, 166.0, 80.0, 23.0 ],
-					"text" : "drumLoop.aif"
+					"patching_rect" : [ 1213.122653703597962, 166.0, 63.0, 23.0 ],
+					"text" : "drumLoop"
 				}
 
 			}
@@ -372,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1230.122653703597962, 197.0, 73.0, 23.0 ],
+					"patching_rect" : [ 1213.122653703597962, 217.935986729959382, 73.0, 23.0 ],
 					"text" : "prepend file"
 				}
 
@@ -601,7 +600,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 902.59293939393865, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 917.59293939393865, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -612,7 +611,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 902.815840969697092, 218.0, 48.0, 23.0 ],
+					"patching_rect" : [ 917.815840969697092, 218.0, 48.0, 23.0 ],
 					"text" : "gain $1"
 				}
 
@@ -649,7 +648,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 1178.790924242423898, 267.0, 50.5, 267.0 ],
+					"midpoints" : [ 1321.737050461173567, 267.0, 50.5, 267.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -673,7 +672,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 1110.759021218750149, 204.0, 1014.259021218750149, 204.0 ],
+					"midpoints" : [ 1093.759021218750149, 204.0, 1014.259021218750149, 204.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -803,7 +802,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 1239.622653703597962, 192.0, 1239.622653703597962, 192.0 ],
+					"midpoints" : [ 1222.622653703597962, 192.0, 1222.622653703597962, 192.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -811,7 +810,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 1 ],
-					"midpoints" : [ 1239.622653703597962, 267.0, 1014.427291757576313, 267.0 ],
+					"midpoints" : [ 1222.622653703597962, 267.0, 1014.427291757576313, 267.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -835,7 +834,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 912.315840969697092, 267.0, 50.5, 267.0 ],
+					"midpoints" : [ 927.315840969697092, 267.0, 50.5, 267.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -851,7 +850,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 912.09293939393865, 192.0, 912.315840969697092, 192.0 ],
+					"midpoints" : [ 927.09293939393865, 192.0, 927.315840969697092, 192.0 ],
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -933,8 +932,8 @@
 			}
 , 			{
 				"name" : "mo.buffer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
