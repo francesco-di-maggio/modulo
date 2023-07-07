@@ -262,7 +262,7 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
-			"obj-13::obj-153" : [ "live.text[62]", "live.text", 0 ],
+			"obj-13::obj-153" : [ "live.text[188]", "live.text", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -273,26 +273,25 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-13::obj-153" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[188]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.hi.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

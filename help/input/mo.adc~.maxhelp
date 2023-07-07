@@ -440,6 +440,14 @@
 				"obj-1::obj-56" : 				{
 					"parameter_longname" : "live.numbox[50]"
 				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[212]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
 
 			}
 ,
@@ -447,6 +455,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "mic-off.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mic-on.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.adc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
