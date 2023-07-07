@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 516.0, 50.0, 23.0 ],
-					"text" : "0 0 0 0"
+					"text" : "1 0 0 0"
 				}
 
 			}
@@ -75,8 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 165.0, 103.0, 25.0 ],
-					"text" : "set tab names "
+					"patching_rect" : [ 499.0, 165.0, 82.0, 25.0 ],
+					"text" : "set names "
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.999999999999943, 291.777777045965195, 33.0, 23.0 ],
+					"patching_rect" : [ 560.0, 291.777777045965195, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -318,7 +318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 398.499999999999943, 330.0, 245.5, 330.0 ],
+					"midpoints" : [ 569.5, 330.0, 245.5, 330.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -399,22 +399,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

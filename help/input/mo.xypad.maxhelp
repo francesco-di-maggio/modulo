@@ -86,7 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.0, 588.0, 146.0, 23.0 ],
-					"text" : "0. 1."
+					"text" : "0. 0."
 				}
 
 			}
@@ -299,6 +299,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-5::obj-10" : [ "live.text[19]", "live.text", 0 ],
 			"obj-5::obj-18" : [ "live.text[6]", "live.text", 0 ],
 			"obj-5::obj-20" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{

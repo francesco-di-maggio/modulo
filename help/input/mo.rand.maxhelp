@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 752.0, 689.0 ],
+		"rect" : [ 34.0, 100.0, 754.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 649.640615909090684, 480.047930985689163, 90.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "target voice"
 				}
 
@@ -74,8 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 646.0, 76.0, 23.0 ],
-					"text" : "0.685891"
+					"patching_rect" : [ 41.0, 646.0, 76.0, 23.0 ]
 				}
 
 			}
@@ -653,6 +651,10 @@
 					"parameter_unitstyle" : 1
 				}
 ,
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
 				"obj-1::obj-14" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[2]",
@@ -742,15 +744,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.rand.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -765,12 +761,6 @@
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

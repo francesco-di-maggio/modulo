@@ -197,13 +197,11 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.0, 574.0, 103.0, 37.0 ],
-					"text" : "\"0.1015 0.8784\" \"0.4264 0.6798\""
+					"patching_rect" : [ 152.0, 574.0, 103.0, 23.0 ]
 				}
 
 			}
@@ -228,7 +226,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 540.0, 180.0, 23.0 ],
-					"text" : "0.1385 0.2018 0.0629 0.8637"
+					"text" : "0.5743 0.9835 0.2656 0.9609"
 				}
 
 			}
@@ -261,8 +259,6 @@
 					"format" : 6,
 					"id" : "obj-23",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -276,8 +272,6 @@
 					"format" : 6,
 					"id" : "obj-24",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
 					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -371,7 +365,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.890828072369004, 297.0, 33.0, 23.0 ],
+					"patching_rect" : [ 575.890828072369004, 297.0, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -416,8 +410,6 @@
 					"format" : 6,
 					"id" : "obj-4",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -431,8 +423,6 @@
 					"format" : 6,
 					"id" : "obj-2",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
 					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -526,7 +516,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 600.390828072369004, 339.0, 245.5, 339.0 ],
+					"midpoints" : [ 585.390828072369004, 339.0, 245.5, 339.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -774,22 +764,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.rsliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

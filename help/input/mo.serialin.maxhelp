@@ -231,7 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 209.5, 47.0, 23.0 ],
+					"patching_rect" : [ 110.0, 209.5, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -307,7 +307,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 121.5, 339.0, 50.499999999999943, 339.0 ],
+					"midpoints" : [ 119.5, 339.0, 50.499999999999943, 339.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -371,8 +371,8 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-153" : [ "live.text[140]", "live.text", 0 ],
 			"obj-4::obj-40" : [ "live.button[1]", "live.button", 0 ],
+			"obj-4::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -382,33 +382,14 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-4::obj-153" : 				{
-					"parameter_longname" : "live.text[140]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.serialin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

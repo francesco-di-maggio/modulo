@@ -479,8 +479,8 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-15" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-19" : [ "live.text[3]", "live.text", 0 ],
 			"obj-4::obj-36" : [ "live.text[52]", "live.text", 0 ],
+			"obj-4::obj-4" : [ "live.text[19]", "live.text", 0 ],
 			"obj-4::obj-41" : [ "live.button[1]", "live.button", 0 ],
 			"obj-4::obj-72" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -496,10 +496,6 @@
 				"obj-4::obj-15" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
-,
-				"obj-4::obj-19" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
 
 			}
 ,
@@ -507,22 +503,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.midiin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

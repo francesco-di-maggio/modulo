@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 472.0, 464.0 ],
+		"rect" : [ 34.0, 100.0, 417.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,12 +80,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.255791574060538, 203.0, 117.0, 39.0 ],
-					"text" : "give it a name\n\" \" = delete name"
+					"patching_rect" : [ 328.255791574060538, 210.0, 76.0, 25.0 ],
+					"text" : "set name "
 				}
 
 			}
@@ -314,6 +313,7 @@
 		"parameters" : 		{
 			"obj-1::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -328,8 +328,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

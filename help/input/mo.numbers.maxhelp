@@ -289,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.5, 363.0, 33.0, 23.0 ],
+					"patching_rect" : [ 515.5, 363.0, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -399,7 +399,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 521.0, 402.0, 245.5, 402.0 ],
+					"midpoints" : [ 525.0, 402.0, 245.5, 402.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -444,7 +444,6 @@
 			"obj-13::obj-123::obj-35" : [ "live.text[105]", "live.text", 0 ],
 			"obj-13::obj-1::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-13::obj-1::obj-35" : [ "live.text[3]", "live.text", 0 ],
-			"obj-13::obj-22" : [ "live.text[116]", "live.text", 0 ],
 			"obj-13::obj-23" : [ "live.text[18]", "live.text", 0 ],
 			"obj-13::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-13::obj-36::obj-20" : [ "Show Particle Settings[4]", "live.text", 0 ],
@@ -472,6 +471,7 @@
 			"obj-13::obj-50::obj-20" : [ "Show Particle Settings[18]", "live.text", 0 ],
 			"obj-13::obj-50::obj-35" : [ "live.text[15]", "live.text", 0 ],
 			"obj-13::obj-59" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-13::obj-6" : [ "live.text[20]", "live.text", 0 ],
 			"obj-13::obj-74::obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
 			"obj-13::obj-74::obj-35" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4" : [ "number", "number", 0 ],
@@ -491,6 +491,10 @@
 ,
 				"obj-13::obj-107::obj-35" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-13::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[16]"
 				}
 ,
 				"obj-13::obj-1::obj-20" : 				{
@@ -618,29 +622,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dice.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.numbers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

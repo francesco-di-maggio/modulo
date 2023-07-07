@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 421.0, 512.0 ],
+		"rect" : [ 34.0, 100.0, 569.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.255791574060538, 255.0, 76.0, 25.0 ],
+					"patching_rect" : [ 475.255791574060538, 213.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -62,7 +62,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.255791574060538, 207.0, 95.0, 25.0 ],
+					"patching_rect" : [ 338.255791574060538, 165.0, 95.0, 25.0 ],
 					"text" : "mute output "
 				}
 
@@ -97,8 +97,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.255791574060538, 165.0, 195.0, 25.0 ],
-					"text" : "minimum and maximum (0. / 1.)"
+					"patching_rect" : [ 181.255791574060538, 165.0, 95.0, 25.0 ],
+					"text" : "range values "
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.755791574060595, 256.0, 29.5, 23.0 ],
+					"patching_rect" : [ 436.755791574060595, 214.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -163,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.755791574060538, 256.0, 48.0, 23.0 ],
+					"patching_rect" : [ 379.755791574060538, 214.0, 48.0, 23.0 ],
 					"text" : "RANGE"
 				}
 
@@ -203,7 +203,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 207.0, 24.0, 24.0 ]
+					"patching_rect" : [ 308.0, 165.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 256.0, 53.0, 23.0 ],
+					"patching_rect" : [ 308.0, 214.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -226,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.755791574060538, 305.0, 91.0, 23.0 ],
+					"patching_rect" : [ 379.755791574060538, 263.0, 91.0, 23.0 ],
 					"text" : "prepend device"
 				}
 
@@ -256,7 +256,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 469.0, 135.0, 23.0 ],
-					"text" : "0.147016 0.759664"
+					"text" : "0. 0."
 				}
 
 			}
@@ -286,7 +286,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 237.255791574060538, 342.0, 317.5, 342.0 ],
+					"midpoints" : [ 389.255791574060538, 342.0, 317.5, 342.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -310,7 +310,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 165.5, 342.0, 317.5, 342.0 ],
+					"midpoints" : [ 317.5, 342.0, 317.5, 342.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -334,7 +334,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 294.255791574060595, 291.0, 237.255791574060538, 291.0 ],
+					"midpoints" : [ 446.255791574060595, 249.0, 389.255791574060538, 249.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -342,7 +342,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 165.5, 234.0, 165.5, 234.0 ],
+					"midpoints" : [ 317.5, 192.0, 317.5, 192.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -350,13 +350,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 237.255791574060538, 282.0, 237.255791574060538, 282.0 ],
+					"midpoints" : [ 389.255791574060538, 240.0, 389.255791574060538, 240.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-5::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"obj-5::obj-7" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -372,8 +373,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.hrslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

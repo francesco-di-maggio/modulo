@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 566.0, 561.0 ],
+		"rect" : [ 34.0, 100.0, 509.0, 561.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,12 +80,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.511583148121076, 292.0, 117.0, 39.0 ],
-					"text" : "give it a name\n\" \" = delete name"
+					"patching_rect" : [ 398.511583148121076, 299.0, 76.0, 25.0 ],
+					"text" : "set name "
 				}
 
 			}
@@ -96,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 372.511583148121076, 300.0, 29.5, 23.0 ],
+					"patching_rect" : [ 361.511583148121076, 300.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -318,7 +317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 382.011583148121076, 336.0, 325.011583148121076, 336.0 ],
+					"midpoints" : [ 371.011583148121076, 336.0, 325.011583148121076, 336.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -365,6 +364,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-12" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-1::obj-65" : [ "encoder-", "encoder-", 0 ],
 			"parameterbanks" : 			{
@@ -392,8 +392,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.encoder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

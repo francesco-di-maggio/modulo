@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 554.0, 719.0 ],
+		"rect" : [ 34.0, 100.0, 548.0, 700.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -84,8 +84,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.255791574060538, 244.0, 151.0, 54.0 ],
-					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
+					"patching_rect" : [ 378.255791574060538, 244.0, 152.0, 54.0 ],
+					"text" : "Set slider output range:\n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
 				}
 
 			}
@@ -95,12 +95,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.255791574060538, 203.0, 117.0, 39.0 ],
-					"text" : "give it a name\n\" \" = delete name"
+					"patching_rect" : [ 343.255791574060538, 210.0, 76.0, 25.0 ],
+					"text" : "set name "
 				}
 
 			}
@@ -251,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.255791574060595, 320.0, 67.0, 23.0 ],
+					"patching_rect" : [ 343.255791574060595, 306.0, 67.0, 23.0 ],
 					"text" : "polarity $1"
 				}
 
@@ -265,7 +264,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 674.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 659.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -285,7 +284,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 379.0, 70.0, 265.0 ],
+					"patching_rect" : [ 41.0, 364.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -295,7 +294,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 352.755791574060595, 366.0, 101.5, 366.0 ],
+					"midpoints" : [ 352.755791574060595, 351.0, 101.5, 351.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -327,7 +326,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 243.755791574060538, 366.0, 101.5, 366.0 ],
+					"midpoints" : [ 243.755791574060538, 351.0, 101.5, 351.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -351,7 +350,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 352.755791574060538, 297.0, 352.755791574060595, 297.0 ],
+					"midpoints" : [ 352.755791574060538, 285.0, 352.755791574060595, 285.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -359,15 +358,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 50.5, 645.0, 50.5, 645.0 ],
+					"midpoints" : [ 50.5, 630.0, 50.5, 630.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-5::obj-21" : [ "live.text[19]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-", "slider-", 0 ],
-			"obj-5::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-5::obj-35" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-7" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -380,7 +380,7 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-5::obj-35" : 				{
-					"parameter_longname" : "live.text[19]"
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-5::obj-7" : 				{
@@ -398,8 +398,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.vslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -173,7 +173,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 572.0, 79.0, 148.0, 23.0 ],
-									"text" : "/my-receives/output-4 $1"
+									"text" : "/udpreceives/output-4 $1"
 								}
 
 							}
@@ -186,7 +186,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 388.0, 79.0, 148.0, 23.0 ],
-									"text" : "/my-receives/output-3 $1"
+									"text" : "/udpreceives/output-3 $1"
 								}
 
 							}
@@ -225,7 +225,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.0, 79.0, 148.0, 23.0 ],
-									"text" : "/my-receives/output-2 $1"
+									"text" : "/udpreceives/output-2 $1"
 								}
 
 							}
@@ -238,7 +238,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.0, 79.0, 148.0, 23.0 ],
-									"text" : "/my-receives/output-1 $1"
+									"text" : "/udpreceives/output-1 $1"
 								}
 
 							}
@@ -356,7 +356,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p prepend output-x"
+					"text" : "p /udpreceives/output-x"
 				}
 
 			}
@@ -509,7 +509,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 278.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -528,7 +528,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 272.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 251.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -542,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.255791574060595, 204.3754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 212.255791574060595, 204.3754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -555,7 +555,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.0, 204.3754593282938, 78.0, 23.0 ],
-					"text" : "/my-receives"
+					"text" : "/udpreceives"
 				}
 
 			}
@@ -621,7 +621,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 239.755791574060595, 243.0, 132.5, 243.0 ],
+					"midpoints" : [ 221.755791574060595, 243.0, 132.5, 243.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -684,11 +684,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-10" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-107::obj-2" : [ "live.text[15]", "live.text", 0 ],
 			"obj-1::obj-107::obj-39" : [ "live.numbox[84]", "live.numbox", 0 ],
 			"obj-1::obj-123::obj-2" : [ "live.text[25]", "live.text", 0 ],
 			"obj-1::obj-123::obj-39" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-1::obj-153" : [ "live.text[63]", "live.text", 0 ],
 			"obj-1::obj-1::obj-2" : [ "live.text[128]", "live.text", 0 ],
 			"obj-1::obj-1::obj-39" : [ "live.numbox[83]", "live.numbox", 0 ],
 			"obj-1::obj-36::obj-2" : [ "live.text[129]", "live.text", 0 ],
@@ -743,10 +743,6 @@
 ,
 				"obj-1::obj-123::obj-39" : 				{
 					"parameter_longname" : "live.numbox[1]"
-				}
-,
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[63]"
 				}
 ,
 				"obj-1::obj-1::obj-2" : 				{
@@ -882,22 +878,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.udpreceives.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

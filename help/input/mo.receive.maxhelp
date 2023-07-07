@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 253.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 226.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -222,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.255791574060595, 204.3754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 184.255791574060595, 204.3754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -234,8 +234,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.0, 204.3754593282938, 67.0, 23.0 ],
-					"text" : "my-receive"
+					"patching_rect" : [ 123.0, 204.3754593282938, 47.0, 23.0 ],
+					"text" : "receive"
 				}
 
 			}
@@ -257,8 +257,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 404.0, 96.0, 23.0 ],
-					"text" : "send my-receive"
+					"patching_rect" : [ 242.0, 404.0, 75.0, 23.0 ],
+					"text" : "send receive"
 				}
 
 			}
@@ -318,7 +318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 209.755791574060595, 241.0, 132.5, 241.0 ],
+					"midpoints" : [ 193.755791574060595, 241.0, 132.5, 241.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -340,7 +340,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-153" : [ "live.text[75]", "live.text", 0 ],
+			"obj-4::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -350,33 +350,14 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-4::obj-153" : 				{
-					"parameter_longname" : "live.text[75]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.receive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

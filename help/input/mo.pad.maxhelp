@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 503.0, 531.0 ],
+		"rect" : [ 34.0, 100.0, 503.0, 523.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,12 +45,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.255791574060538, 203.0, 117.0, 39.0 ],
-					"text" : "give it a name\n\" \" = delete name"
+					"patching_rect" : [ 325.255791574060538, 210.0, 76.0, 25.0 ],
+					"text" : "set name "
 				}
 
 			}
@@ -75,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.255791574060538, 211.0, 29.5, 23.0 ],
+					"patching_rect" : [ 286.255791574060538, 211.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -294,7 +293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 41.0, 359.0, 70.0, 87.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
@@ -329,7 +328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 300.755791574060538, 246.0, 243.755791574060538, 246.0 ],
+					"midpoints" : [ 295.755791574060538, 246.0, 243.755791574060538, 246.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -385,6 +384,7 @@
  ],
 		"parameters" : 		{
 			"obj-5::obj-2" : [ "live.text[90]", "live.text", 0 ],
+			"obj-5::obj-22" : [ "live.text[19]", "live.text", 0 ],
 			"obj-5::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-5::obj-6" : [ "live.text[92]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -396,13 +396,28 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-5::obj-2" : 				{
+					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-5::obj-37" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
+,
+				"obj-5::obj-6" : 				{
+					"parameter_longname" : "live.text[92]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

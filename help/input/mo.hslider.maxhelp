@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 554.0, 531.0 ],
+		"rect" : [ 34.0, 100.0, 685.0, 511.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.255791574060538, 244.0, 151.0, 54.0 ],
+					"patching_rect" : [ 520.255791574060595, 246.0, 151.0, 54.0 ],
 					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
 				}
 
@@ -99,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.255791574060538, 203.0, 117.0, 39.0 ],
+					"patching_rect" : [ 485.255791574060595, 205.0, 117.0, 39.0 ],
 					"text" : "give it a name\n\" \" = delete name"
 				}
 
@@ -113,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.255791574060538, 210.5, 92.0, 25.0 ],
+					"patching_rect" : [ 339.255791574060538, 164.5, 92.0, 25.0 ],
 					"text" : "mute output"
 				}
 
@@ -179,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.255791574060538, 211.0, 29.5, 23.0 ],
+					"patching_rect" : [ 445.255791574060595, 213.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.255791574060538, 211.0, 55.0, 23.0 ],
+					"patching_rect" : [ 376.255791574060538, 213.0, 55.0, 23.0 ],
 					"text" : "MASTER"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.255791574060538, 259.0, 91.0, 23.0 ],
+					"patching_rect" : [ 376.255791574060538, 261.0, 91.0, 23.0 ],
 					"text" : "prepend device"
 				}
 
@@ -216,7 +216,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 211.0, 24.0, 24.0 ]
+					"patching_rect" : [ 308.0, 165.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 259.0, 53.0, 23.0 ],
+					"patching_rect" : [ 308.0, 213.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -240,7 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 343.255791574060538, 259.0, 24.0, 24.0 ]
+					"patching_rect" : [ 485.255791574060595, 261.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.255791574060595, 320.0, 67.0, 23.0 ],
+					"patching_rect" : [ 485.255791574060595, 310.0, 67.0, 23.0 ],
 					"text" : "polarity $1"
 				}
 
@@ -265,7 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 487.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 472.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 379.0, 286.0, 87.0 ],
+					"patching_rect" : [ 41.0, 364.0, 286.0, 87.0 ],
 					"varname" : "mo.hslider",
 					"viewvisibility" : 1
 				}
@@ -295,7 +295,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 352.755791574060595, 366.0, 317.5, 366.0 ],
+					"midpoints" : [ 494.755791574060595, 351.0, 317.5, 351.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -311,7 +311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 312.755791574060538, 246.0, 243.755791574060538, 246.0 ],
+					"midpoints" : [ 454.755791574060595, 246.0, 385.755791574060538, 246.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -319,7 +319,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 243.755791574060538, 237.0, 243.755791574060538, 237.0 ],
+					"midpoints" : [ 385.755791574060538, 237.0, 385.755791574060538, 237.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -327,7 +327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 243.755791574060538, 366.0, 317.5, 366.0 ],
+					"midpoints" : [ 385.755791574060538, 351.0, 317.5, 351.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -335,7 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 101.5, 237.0, 101.5, 237.0 ],
+					"midpoints" : [ 317.5, 192.0, 317.5, 192.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -343,7 +343,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 101.5, 366.0, 317.5, 366.0 ],
+					"midpoints" : [ 317.5, 237.0, 317.5, 237.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -351,7 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 352.755791574060538, 297.0, 352.755791574060595, 297.0 ],
+					"midpoints" : [ 494.755791574060595, 288.0, 494.755791574060595, 288.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -359,13 +359,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 50.5, 468.0, 50.5, 468.0 ],
+					"midpoints" : [ 50.5, 453.0, 50.5, 453.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-5::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[19]", "live.text", 0 ],
 			"obj-5::obj-7" : [ "live.text[1]", "live.text", 0 ],
@@ -379,6 +380,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-19" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-5::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
@@ -398,8 +403,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.hslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

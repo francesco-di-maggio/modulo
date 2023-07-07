@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 654.0, 568.0 ],
+		"rect" : [ 34.0, 100.0, 654.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,13 +43,12 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-25",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 507.0, 122.0, 37.0 ],
-					"text" : "0.552326 0.424419 0.424419 0.424419"
+					"patching_rect" : [ 41.0, 507.0, 245.0, 23.0 ],
+					"text" : "0.354651 0.476744 0.494186 0.494186"
 				}
 
 			}
@@ -239,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 598.945414036184502, 285.0, 33.0, 23.0 ],
+					"patching_rect" : [ 583.945414036184502, 285.0, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -258,7 +257,7 @@
 					"patching_rect" : [ 41.0, 166.0, 172.0, 61.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 6,
+					"size" : 4,
 					"spacing" : 2
 				}
 
@@ -306,7 +305,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
-					"midpoints" : [ 50.5, 492.0, 153.5, 492.0 ],
+					"midpoints" : [ 50.5, 492.0, 276.5, 492.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -322,7 +321,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 608.445414036184502, 321.0, 245.5, 321.0 ],
+					"midpoints" : [ 593.445414036184502, 321.0, 245.5, 321.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -652,22 +651,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.sliders.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

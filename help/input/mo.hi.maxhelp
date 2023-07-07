@@ -183,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.740740740740705, 165.0, 47.0, 23.0 ],
+					"patching_rect" : [ 116.740740740740705, 206.0, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -254,7 +254,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 136.240740740740705, 243.0, 50.500000000000028, 243.0 ],
+					"midpoints" : [ 126.240740740740705, 243.0, 50.500000000000028, 243.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -262,24 +262,13 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
-			"obj-13::obj-153" : [ "live.text[188]", "live.text", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],
+			"obj-13::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-13::obj-153" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[188]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
 				}
 
 			}

@@ -129,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 434.136958364201973, 215.0, 36.0, 23.0 ],
+					"patching_rect" : [ 439.0, 215.0, 36.0, 23.0 ],
 					"text" : "reset"
 				}
 
@@ -288,7 +288,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 443.636958364201973, 264.0, 101.5, 264.0 ],
+					"midpoints" : [ 448.5, 264.0, 101.5, 264.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -337,6 +337,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-6" : 				{
+					"parameter_longname" : "live.text[460]"
 				}
 
 			}
