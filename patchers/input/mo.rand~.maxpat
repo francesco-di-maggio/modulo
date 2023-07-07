@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1051.0, 815.568848319484573, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
@@ -1454,8 +1466,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"midpoints" : [ 1060.5, 495.0, 472.0, 495.0 ],
+					"order" : 1,
 					"source" : [ "obj-86", 0 ]
 				}
 

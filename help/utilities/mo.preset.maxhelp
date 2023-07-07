@@ -90,13 +90,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 133.5, 210.499999999999943, 33.0, 23.0 ],
+									"text" : "read"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 243.5, 210.499999999999943, 146.0, 25.0 ],
+									"patching_rect" : [ 240.0, 210.499999999999943, 146.0, 25.0 ],
 									"text" : "interpolate preset 1-2 "
 								}
 
@@ -112,7 +124,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 185.0, 210.499999999999943, 50.0, 23.0 ]
+									"patching_rect" : [ 181.5, 210.499999999999943, 50.0, 23.0 ]
 								}
 
 							}
@@ -123,7 +135,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 254.499999999999943, 74.0, 23.0 ],
+									"patching_rect" : [ 181.5, 254.499999999999943, 74.0, 23.0 ],
 									"text" : "recall 1 2 $1"
 								}
 
@@ -205,6 +217,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 37.524543499999965, 514.785720999999967, 34.0, 173.0 ],
 									"setstyle" : 1,
+									"spacing" : 2,
 									"varname" : "myslider"
 								}
 
@@ -304,6 +317,7 @@
 							}
 , 							{
 								"box" : 								{
+									"autorestore" : "p-preset.json",
 									"hidden" : 1,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
@@ -319,7 +333,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "u139008017"
+									"varname" : "u722002482"
 								}
 
 							}
@@ -421,7 +435,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"midpoints" : [ 50.5, 188.500000000000057, 50.5, 188.500000000000057 ],
+									"midpoints" : [ 50.5, 189.0, 50.5, 189.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -429,6 +443,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
+									"midpoints" : [ 191.0, 234.0, 191.0, 234.0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -436,7 +451,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 50.5, 297.0, 50.5, 297.0 ],
+									"midpoints" : [ 143.0, 297.0, 50.5, 297.0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -444,7 +467,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 194.5, 297.0, 50.5, 297.0 ],
+									"midpoints" : [ 191.0, 297.0, 50.5, 297.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -528,12 +551,11 @@
 									"bubble" : 1,
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 289.5, 244.499999999999943, 101.0, 39.0 ],
-									"text" : "store and \nrecall settings"
+									"patching_rect" : [ 262.0, 251.499999999999943, 102.0, 25.0 ],
+									"text" : "store a preset "
 								}
 
 							}
@@ -552,24 +574,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 245.0, 252.499999999999943, 33.0, 23.0 ],
-									"text" : "read"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-34",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.5, 252.499999999999943, 36.0, 23.0 ],
+									"patching_rect" : [ 219.0, 252.499999999999943, 36.0, 23.0 ],
 									"text" : "write"
 								}
 
@@ -581,8 +591,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 165.0, 58.0, 23.0 ],
-									"text" : "mypreset"
+									"patching_rect" : [ 41.0, 165.0, 43.0, 23.0 ],
+									"text" : "preset"
 								}
 
 							}
@@ -662,8 +672,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 148.5, 163.0, 131.0, 25.0 ],
-									"text" : "set the preset name"
+									"patching_rect" : [ 133.5, 163.0, 76.0, 25.0 ],
+									"text" : "set name "
 								}
 
 							}
@@ -728,7 +738,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.306746999999973, 165.0, 29.5, 23.0 ],
+									"patching_rect" : [ 95.306746999999973, 165.0, 29.5, 23.0 ],
 									"text" : "\" \""
 								}
 
@@ -900,7 +910,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 119.806746999999973, 204.0, 50.5, 204.0 ],
+									"midpoints" : [ 104.806746999999973, 204.0, 50.5, 204.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -916,16 +926,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 205.0, 297.0, 50.5, 297.0 ],
+									"midpoints" : [ 228.5, 297.0, 50.5, 297.0 ],
 									"source" : [ "obj-34", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 254.5, 297.0, 50.5, 297.0 ],
-									"source" : [ "obj-35", 0 ]
 								}
 
 							}
@@ -967,6 +969,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-13::obj-1::obj-1" : [ "live.text[19]", "live.text", 0 ],
 			"obj-13::obj-1::obj-43" : [ "live.text[109]", "live.text", 0 ],
 			"obj-13::obj-1::obj-46" : [ "live.text[90]", "live.text", 0 ],
 			"obj-13::obj-1::obj-48" : [ "live.text[59]", "live.text", 0 ],
@@ -976,12 +979,13 @@
 			"obj-13::obj-1::obj-55" : [ "live.text[61]", "live.text", 0 ],
 			"obj-13::obj-1::obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"obj-13::obj-1::obj-64" : [ "live.text[110]", "live.text", 0 ],
+			"obj-14::obj-1::obj-1" : [ "live.text[5]", "live.text", 0 ],
 			"obj-14::obj-1::obj-43" : [ "live.text[6]", "live.text", 0 ],
 			"obj-14::obj-1::obj-46" : [ "live.text[2]", "live.text", 0 ],
 			"obj-14::obj-1::obj-48" : [ "live.text[3]", "live.text", 0 ],
 			"obj-14::obj-1::obj-50" : [ "live.text[4]", "live.text", 0 ],
 			"obj-14::obj-1::obj-52" : [ "live.numbox[9]", "live.text", 0 ],
-			"obj-14::obj-1::obj-53" : [ "live.text[5]", "live.text", 0 ],
+			"obj-14::obj-1::obj-53" : [ "live.text[8]", "live.text", 0 ],
 			"obj-14::obj-1::obj-55" : [ "live.text[1]", "live.text", 0 ],
 			"obj-14::obj-1::obj-62" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-14::obj-1::obj-64" : [ "live.text[7]", "live.text", 0 ],
@@ -995,6 +999,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-14::obj-1::obj-1" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-14::obj-1::obj-43" : 				{
 					"parameter_longname" : "live.text[6]"
 				}
@@ -1016,7 +1024,7 @@
 				}
 ,
 				"obj-14::obj-1::obj-53" : 				{
-					"parameter_longname" : "live.text[5]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-14::obj-1::obj-55" : 				{
@@ -1040,6 +1048,13 @@
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-preset.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

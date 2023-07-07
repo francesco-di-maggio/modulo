@@ -389,6 +389,7 @@
 			"obj-12::obj-35" : [ "live.text[36]", "live.text", 0 ],
 			"obj-12::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-12::obj-88" : [ "live.text[91]", "live.text", 0 ],
+			"obj-12::obj-9" : [ "live.text[5]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

@@ -231,9 +231,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.crosspatch~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 272.499999999999886, 214.0, 137.0 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
@@ -339,6 +339,7 @@
  ],
 		"parameters" : 		{
 			"obj-19::obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-19::obj-3" : [ "live.text[9]", "live.text", 0 ],
 			"obj-19::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-19::obj-39" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -351,6 +352,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-19::obj-1" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-19::obj-37" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
 				"obj-19::obj-39" : 				{
 					"parameter_longname" : "live.numbox[3]"
 				}
@@ -361,13 +370,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.crosspatch~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",

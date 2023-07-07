@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 165.0, 127.0, 23.0 ],
-					"text" : "mc.cycle~ 1 @chans 2"
+					"text" : "mc.cycle~ 1 @chans 1"
 				}
 
 			}
@@ -242,9 +242,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.matrix~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 272.499999999999886, 214.0, 265.0 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
@@ -362,11 +362,31 @@
 			"obj-19::obj-37" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-19::obj-39" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-19::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-19::obj-9" : [ "live.text[22]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-19::obj-1" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-19::obj-37" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
+				"obj-19::obj-39" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-19::obj-4" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 
 			}

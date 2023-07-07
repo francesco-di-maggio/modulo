@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 70.0, 28.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 28.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 28.0 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -62,7 +62,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-47" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-1::obj-9" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.498877613535569, 201.0, 52.0, 23.0 ],
+					"patching_rect" : [ 41.498877613535569, 206.0, 52.0, 23.0 ],
 					"text" : "open $1"
 				}
 
@@ -159,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.498877613535569, 239.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.498877613535569, 246.0, 70.0, 57.5 ],
 					"varname" : "mo.adstatus",
 					"viewvisibility" : 1
 				}
@@ -182,6 +182,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-1" : [ "live.text[19]", "live.text", 0 ],
 			"obj-2::obj-317::obj-218" : [ "live.text[4]", "live.text[33]", 0 ],
 			"obj-2::obj-317::obj-219" : [ "live.text[3]", "live.text[33]", 0 ],
 			"obj-2::obj-7" : [ "live.dial[7]", "live.text", 0 ],

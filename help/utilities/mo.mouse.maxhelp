@@ -64,7 +64,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 254.707317113876343, 237.0, 203.0, 39.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set the 0,0 point from which to measure the mouse location"
 				}
 
@@ -76,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.0, 478.0, 67.0, 21.0 ],
-					"presentation_linecount" : 3,
 					"text" : "moviement"
 				}
 
@@ -148,7 +146,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 204.0, 55.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mode $1"
 				}
 
@@ -161,7 +158,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 249.707317113876343, 284.0, 36.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "reset"
 				}
 
@@ -277,7 +273,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 477.0, 118.0, 23.0 ],
-					"text" : "0.215608 0.577393"
+					"text" : "0.613095 0.411405"
 				}
 
 			}
@@ -370,9 +366,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-4::obj-45" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-53" : [ "live.text[295]", "live.text", 0 ],
+			"obj-4::obj-9" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -386,22 +382,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.mouse.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

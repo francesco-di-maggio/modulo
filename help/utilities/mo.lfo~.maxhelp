@@ -89,6 +89,35 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "mc.number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "multichannelsignal", "float", "int" ],
+									"patching_rect" : [ 40.999999999999943, 575.5, 56.0, 35.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-15",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 236.277777777777828, 575.5, 50.0, 23.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"local" : 1,
 									"maxclass" : "ezdac~",
@@ -336,19 +365,6 @@
 							}
 , 							{
 								"box" : 								{
-									"format" : 6,
-									"id" : "obj-15",
-									"maxclass" : "flonum",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 40.999999999999943, 582.5, 50.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -449,21 +465,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_initial" : [ 1 ],
-											"parameter_initial_enable" : 1,
-											"parameter_longname" : "toggle[1]",
-											"parameter_mmax" : 1,
-											"parameter_shortname" : "toggle",
-											"parameter_type" : 2
-										}
-
-									}
-,
 									"varname" : "toggle"
 								}
 
@@ -479,13 +482,13 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "mo.lfo.maxpat",
+									"name" : "mo.lfo~.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 1,
+									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
+									"outlettype" : [ "multichannelsignal", "" ],
 									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 87.0 ],
-									"varname" : "mo.sliders",
+									"varname" : "mo.lfo~",
 									"viewvisibility" : 1
 								}
 
@@ -510,7 +513,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 50.499999999999943, 564.0, 50.499999999999943, 564.0 ],
+									"midpoints" : [ 245.499999999999943, 552.0, 245.777777777777828, 552.0 ],
+									"source" : [ "obj-13", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"midpoints" : [ 50.499999999999943, 552.0, 50.499999999999943, 552.0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -518,7 +529,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"midpoints" : [ 282.277777777777771, 312.0, 282.722222222222342, 312.0 ],
+									"midpoints" : [ 282.277777777777771, 315.0, 282.722222222222342, 315.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -664,6 +675,22 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "mc.number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "multichannelsignal", "float", "int" ],
+									"patching_rect" : [ 40.999999999999943, 575.5, 56.0, 35.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"local" : 1,
 									"maxclass" : "ezdac~",
@@ -776,7 +803,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 40.999999999999943, 582.5, 50.0, 23.0 ]
+									"patching_rect" : [ 236.277777777777828, 575.5, 50.0, 23.0 ]
 								}
 
 							}
@@ -844,8 +871,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 102.0, 268.0, 22.0 ],
-									"text" : "Generate an LFO controlling each parameter.",
+									"patching_rect" : [ 9.0, 102.0, 355.0, 22.0 ],
+									"text" : "Output audio signal from the left outlet, data from the right.",
 									"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 								}
 
@@ -858,8 +885,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 83.0, 218.0, 23.0 ],
-									"text" : "A low-frequency oscillator object."
+									"patching_rect" : [ 9.0, 83.0, 266.0, 23.0 ],
+									"text" : "A Low-Frequency Oscillator (LFO) object."
 								}
 
 							}
@@ -1047,13 +1074,13 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "mo.lfo.maxpat",
+									"name" : "mo.lfo~.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 1,
+									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
+									"outlettype" : [ "multichannelsignal", "" ],
 									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 87.0 ],
-									"varname" : "mo.sliders",
+									"varname" : "mo.lfo~",
 									"viewvisibility" : 1
 								}
 
@@ -1086,7 +1113,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 50.499999999999943, 564.0, 50.499999999999943, 564.0 ],
+									"midpoints" : [ 245.499999999999943, 552.0, 245.777777777777828, 552.0 ],
+									"source" : [ "obj-13", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -1189,6 +1223,7 @@
 		"parameters" : 		{
 			"obj-1::obj-13::obj-10" : [ "Jitter", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-120" : [ "offset-", "live.numbox", 0 ],
+			"obj-1::obj-13::obj-13" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-13::obj-140" : [ "Phase", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-20" : [ "waveform-", "waveform-", 0 ],
 			"obj-1::obj-13::obj-21" : [ "live.text[38]", "live.text", 0 ],
@@ -1201,15 +1236,15 @@
 			"obj-1::obj-13::obj-89" : [ "frate-", "rate", 0 ],
 			"obj-1::obj-13::obj-94" : [ "retrigger-", "retrigger-", 0 ],
 			"obj-1::obj-13::obj-99" : [ "depth-", "depth", 0 ],
-			"obj-3::obj-11" : [ "toggle[1]", "toggle", 0 ],
 			"obj-3::obj-13::obj-10" : [ "Jitter[1]", "live.numbox", 0 ],
 			"obj-3::obj-13::obj-120" : [ "offset-[1]", "live.numbox", 0 ],
+			"obj-3::obj-13::obj-13" : [ "live.text[3]", "live.text", 0 ],
 			"obj-3::obj-13::obj-140" : [ "Phase[1]", "live.numbox", 0 ],
 			"obj-3::obj-13::obj-20" : [ "waveform-[1]", "waveform-", 0 ],
-			"obj-3::obj-13::obj-21" : [ "live.text[3]", "live.text", 0 ],
+			"obj-3::obj-13::obj-21" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-13::obj-26" : [ "mode-[1]", "live.text", 0 ],
 			"obj-3::obj-13::obj-36" : [ "Hold[2]", "live.text", 0 ],
-			"obj-3::obj-13::obj-4" : [ "live.text[2]", "live.text", 0 ],
+			"obj-3::obj-13::obj-4" : [ "live.text[4]", "live.text", 0 ],
 			"obj-3::obj-13::obj-55" : [ "Hold[3]", "live.text", 0 ],
 			"obj-3::obj-13::obj-58" : [ "rate-[1]", "rate", 0 ],
 			"obj-3::obj-13::obj-69" : [ "Smooth[1]", "live.numbox", 0 ],
@@ -1226,12 +1261,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-13::obj-4" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-3::obj-13::obj-10" : 				{
 					"parameter_longname" : "Jitter[1]"
 				}
 ,
 				"obj-3::obj-13::obj-120" : 				{
 					"parameter_longname" : "offset-[1]"
+				}
+,
+				"obj-3::obj-13::obj-13" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-3::obj-13::obj-140" : 				{
@@ -1243,7 +1286,7 @@
 				}
 ,
 				"obj-3::obj-13::obj-21" : 				{
-					"parameter_longname" : "live.text[3]"
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-3::obj-13::obj-26" : 				{
@@ -1255,7 +1298,7 @@
 				}
 ,
 				"obj-3::obj-13::obj-4" : 				{
-					"parameter_longname" : "live.text[2]"
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-3::obj-13::obj-55" : 				{
@@ -1294,9 +1337,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.lfo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "mo.lfo~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

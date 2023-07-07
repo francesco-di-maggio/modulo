@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 585.0, 240.0, 23.0 ],
-					"text" : "bgcolor 0.517825 0.875876 0.867418 1."
+					"text" : "bgcolor 1. 0. 0. 1."
 				}
 
 			}
@@ -319,6 +319,7 @@
  ],
 		"parameters" : 		{
 			"obj-19::obj-1" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-19::obj-11" : [ "live.text[19]", "live.text", 0 ],
 			"obj-19::obj-2" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-19::obj-52" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-19::obj-87" : [ "swatch[1]", "swatch", 0 ],
@@ -336,8 +337,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.panel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

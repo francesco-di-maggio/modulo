@@ -349,9 +349,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-153" : [ "live.text[1]", "live.text", 0 ],
 			"obj-2::obj-36" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[37]", "live.numbox", 0 ],
+			"obj-2::obj-6" : [ "live.text[14]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -362,18 +362,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-153" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[1]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
 				"obj-2::obj-36" : 				{
 					"parameter_longname" : "live.numbox[2]",
 					"parameter_range" : [ -70.0, 18.0 ],
 					"parameter_unitstyle" : 4
+				}
+,
+				"obj-2::obj-37" : 				{
+					"parameter_longname" : "live.numbox[37]"
 				}
 
 			}
@@ -382,22 +378,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.gain~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

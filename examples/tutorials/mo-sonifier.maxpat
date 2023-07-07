@@ -76,9 +76,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.crosspatch~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 37.638164833188057, 280.205587485046351, 214.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.638164833188057, 211.397732439416473, 214.0, 105.0 ],
@@ -412,7 +412,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 497.0, 222.767661435184777, 514.0, 23.0 ],
 					"priority" : 					{
-						"mo.crosspatch~::Crosspatch" : 1
+						"mo.crosspatch~::ins" : -1,
+						"mo.crosspatch~::outs" : -1,
+						"mo.crosspatch~::crosspatch~[1]" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -422,7 +424,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.rand~", "mo.crosspatch~", "mo.onepole~" ],
+					"subscribe" : [ "mo.rand~", "mo.onepole~", "mo.crosspatch~" ],
 					"text" : "pattrstorage p-sonification @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-sonification"
 				}
@@ -539,7 +541,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 242.138164833188057, 141.0, 242.138164833188057, 141.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -581,11 +582,13 @@
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-23::obj-1" : [ "live.text[11]", "live.text", 0 ],
+			"obj-23::obj-1" : [ "live.text[12]", "live.text", 0 ],
+			"obj-23::obj-3" : [ "live.text[11]", "live.text", 0 ],
 			"obj-23::obj-37" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-23::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-29::obj-153" : [ "live.text[24]", "live.text", 0 ],
-			"obj-6::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-29::obj-10" : [ "live.text[36]", "live.text", 0 ],
+			"obj-29::obj-6" : [ "live.text[24]", "live.text", 0 ],
+			"obj-6::obj-1" : [ "live.text[19]", "live.text", 0 ],
 			"obj-6::obj-34" : [ "live.text[185]", "live.text", 0 ],
 			"obj-6::obj-38" : [ "live.text[34]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
@@ -652,7 +655,15 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
 				"obj-23::obj-1" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-23::obj-3" : 				{
 					"parameter_longname" : "live.text[11]"
 				}
 ,
@@ -664,7 +675,7 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
-				"obj-29::obj-153" : 				{
+				"obj-29::obj-6" : 				{
 					"parameter_longname" : "live.text[24]"
 				}
 ,
@@ -881,12 +892,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.crosspatch~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
@@ -936,29 +941,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

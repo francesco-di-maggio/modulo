@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 491.0, 354.0 ],
+		"rect" : [ 34.0, 100.0, 481.0, 354.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 165.0, 70.0, 28.0 ],
+					"patching_rect" : [ 41.0, 165.0, 70.0, 87.0 ],
 					"varname" : "mo.latch",
 					"viewvisibility" : 1
 				}
@@ -184,7 +184,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-47" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-2::obj-9" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

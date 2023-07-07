@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 652.0, 721.0 ],
+						"rect" : [ 34.0, 126.0, 652.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -395,6 +395,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 40.824253082275391, 527.0, 94.0, 164.0 ],
 									"setstyle" : 1,
+									"signed" : 1,
 									"size" : 4,
 									"spacing" : 2
 								}
@@ -412,6 +413,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 165.0, 94.0, 164.0 ],
 									"setstyle" : 1,
+									"signed" : 1,
 									"size" : 4,
 									"spacing" : 2
 								}
@@ -689,7 +691,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 652.0, 721.0 ],
+						"rect" : [ 0.0, 26.0, 652.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -851,6 +853,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 40.824253082275391, 527.0, 94.0, 164.0 ],
 									"setstyle" : 1,
+									"signed" : 1,
 									"size" : 4,
 									"spacing" : 2
 								}
@@ -868,6 +871,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 41.0, 165.0, 94.0, 164.0 ],
 									"setstyle" : 1,
+									"signed" : 1,
 									"size" : 4,
 									"spacing" : 2
 								}
@@ -1019,21 +1023,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 445.0, 264.0, 24.0, 24.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_initial" : [ 1 ],
-											"parameter_initial_enable" : 1,
-											"parameter_longname" : "toggle",
-											"parameter_mmax" : 1,
-											"parameter_shortname" : "toggle",
-											"parameter_type" : 2
-										}
-
-									}
-,
 									"varname" : "toggle"
 								}
 
@@ -1183,20 +1174,21 @@
 		"parameters" : 		{
 			"obj-1::obj-2::obj-13" : [ "live.text[16]", "live.text", 0 ],
 			"obj-1::obj-2::obj-14" : [ "live.button[4]", "live.button", 0 ],
-			"obj-1::obj-2::obj-21" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-2::obj-2" : [ "live.text[6]", "live.text", 0 ],
+			"obj-1::obj-2::obj-21" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-2::obj-3" : [ "live.text[17]", "live.text", 0 ],
-			"obj-1::obj-2::obj-37" : [ "live.text[6]", "live.text", 0 ],
+			"obj-1::obj-2::obj-37" : [ "live.text[9]", "live.text", 0 ],
 			"obj-1::obj-2::obj-44" : [ "live.numbox[8]", "live.dial[12]", 0 ],
 			"obj-1::obj-2::obj-45" : [ "live.text[18]", "live.text", 0 ],
 			"obj-1::obj-2::obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-1::obj-2::obj-6" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-2::obj-60" : [ "live.button[3]", "live.button", 0 ],
 			"obj-1::obj-2::obj-85" : [ "live.text[8]", "live.text", 0 ],
-			"obj-1::obj-2::obj-88" : [ "live.text[15]", "live.text", 0 ],
+			"obj-1::obj-2::obj-9" : [ "live.text[7]", "live.text", 0 ],
 			"obj-1::obj-2::obj-92" : [ "live.text[12]", "live.text", 0 ],
-			"obj-38::obj-17" : [ "toggle", "toggle", 0 ],
 			"obj-38::obj-3::obj-13" : [ "live.text[13]", "live.text", 0 ],
 			"obj-38::obj-3::obj-14" : [ "live.button[5]", "live.button", 0 ],
+			"obj-38::obj-3::obj-2" : [ "live.text[92]", "live.text", 0 ],
 			"obj-38::obj-3::obj-21" : [ "live.text[1]", "live.text", 0 ],
 			"obj-38::obj-3::obj-3" : [ "live.text[4]", "live.text", 0 ],
 			"obj-38::obj-3::obj-37" : [ "live.text[11]", "live.text", 0 ],
@@ -1206,7 +1198,7 @@
 			"obj-38::obj-3::obj-6" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-38::obj-3::obj-60" : [ "live.button[6]", "live.button", 0 ],
 			"obj-38::obj-3::obj-85" : [ "live.text[14]", "live.text", 0 ],
-			"obj-38::obj-3::obj-88" : [ "live.text[91]", "live.text", 0 ],
+			"obj-38::obj-3::obj-9" : [ "live.text[65]", "live.text", 0 ],
 			"obj-38::obj-3::obj-92" : [ "live.text[2]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1226,8 +1218,12 @@
 					"parameter_longname" : "live.button[4]"
 				}
 ,
+				"obj-1::obj-2::obj-2" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
 				"obj-1::obj-2::obj-21" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-1::obj-2::obj-3" : 				{
@@ -1235,7 +1231,7 @@
 				}
 ,
 				"obj-1::obj-2::obj-37" : 				{
-					"parameter_longname" : "live.text[6]"
+					"parameter_longname" : "live.text[9]"
 				}
 ,
 				"obj-1::obj-2::obj-44" : 				{
@@ -1262,8 +1258,8 @@
 					"parameter_longname" : "live.text[8]"
 				}
 ,
-				"obj-1::obj-2::obj-88" : 				{
-					"parameter_longname" : "live.text[15]"
+				"obj-1::obj-2::obj-9" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-1::obj-2::obj-92" : 				{
@@ -1320,10 +1316,6 @@
 					"parameter_longname" : "live.text[14]"
 				}
 ,
-				"obj-38::obj-3::obj-88" : 				{
-					"parameter_longname" : "live.text[91]"
-				}
-,
 				"obj-38::obj-3::obj-92" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -1334,12 +1326,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "loop.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -1370,12 +1356,6 @@
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

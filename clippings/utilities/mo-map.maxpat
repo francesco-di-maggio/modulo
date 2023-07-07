@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 57.5 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 57.5 ],
 					"varname" : "mo.map",
 					"viewvisibility" : 1
 				}
@@ -63,16 +63,40 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-153" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-39" : [ "live.text[12]", "live.text", 0 ],
 			"obj-1::obj-5" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[9]", "live.text", 0 ],
 			"obj-1::obj-85" : [ "live.text[11]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-39" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-1::obj-5" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-1::obj-85" : 				{
+					"parameter_longname" : "live.text[11]"
 				}
 
 			}

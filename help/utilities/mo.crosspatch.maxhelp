@@ -263,6 +263,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-2" : [ "live.text[8]", "live.text", 0 ],
 			"obj-1::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -278,13 +279,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.crosspatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 411.0, 563.0 ],
+		"rect" : [ 34.0, 100.0, 411.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,25 +41,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 133.25, 474.5, 56.0, 23.0 ],
-					"text" : "del 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.25, 517.0, 24.0, 24.0 ]
+					"patching_rect" : [ 133.25, 474.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -135,8 +123,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.280237540602684, 164.0, 87.0, 25.0 ],
-					"text" : "trigger cue "
+					"patching_rect" : [ 252.280237540602684, 164.0, 77.0, 25.0 ],
+					"text" : "bang cue "
 				}
 
 			}
@@ -222,12 +210,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "button",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.719762459397316, 164.0, 46.0, 23.0 ],
-					"text" : "trigger"
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 222.719762459397316, 164.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -316,14 +304,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 142.75, 498.0, 142.75, 498.0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 50.5, 414.0, 50.5, 414.0 ],
 					"source" : [ "obj-15", 0 ]
@@ -364,7 +344,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 142.75, 456.0, 142.75, 456.0 ],
 					"source" : [ "obj-6", 3 ]
 				}
@@ -388,11 +368,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-159" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-166" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-56" : [ "live.text[145]", "live.text", 0 ],
 			"obj-1::obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"obj-1::obj-70" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -406,22 +386,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.cue.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

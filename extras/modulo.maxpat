@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1184,10 +1184,11 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 787.5, 632.0, 610.0, 22.0 ],
+									"patching_rect" : [ 787.5, 632.0, 474.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
 									"text" : "These are ideas of instruments using different types of input and direct mapping.",
@@ -2070,26 +2071,25 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"FM Synthesis" : [ "mo-FM" ],
+														"FM Synthesis" : [ "mo-fm" ],
 														"Gametrak" : [ "mo-gametrak" ],
 														"Genki Wave" : [ "mo-wave" ],
 														"Granular Synthesis" : [ "mo-granulator" ],
 														"GyrOSC" : [ "mo-gyrOSC" ],
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
-														"Odd." : [ "mo-oddot" ],
 														"Scrubber" : [ "mo-scrubber" ],
 														"Scrumbler" : [ "mo-scrumbler" ],
-														"Sonification" : [ "mo-sonification" ],
 														"Theremini" : [ "mo-theremini" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
-														"Blinking LEDs" : [ "mo-leds" ],
+														"Blinker" : [ "mo-blinker" ],
 														"Building Blocks" : [ "mo-blocks" ],
 														"Many To One" : [ "mo-many2one" ],
+														"Max To DAW" : "mo-max2daw",
 														"One To Many" : [ "mo-one2many" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
-														"Talk To DAW" : "mo-DAW",
+														"Sonifier" : [ "mo-sonifier" ],
 														"Visualizer" : [ "mo-visualizer" ],
 														"Workflow" : [ "mo-workflow" ]
 													}
@@ -3115,7 +3115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.5, 252.0, 657.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.158536583185196, 266.665829000000031, 655.341463416814804, 12.99633318471524 ],
+					"presentation_rect" : [ 36.158536583185196, 265.665829000000031, 655.341463416814804, 12.99633318471524 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -3450,15 +3450,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 22.0,
+					"fontsize" : 20.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.5, 90.0, 468.0, 33.0 ],
+					"patching_rect" : [ 173.5, 90.0, 426.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.5, 106.0, 468.0, 33.0 ],
-					"text" : "A Toolkit for Digital Musical Instrument Design.",
+					"presentation_rect" : [ 215.5, 106.0, 458.0, 30.0 ],
+					"text" : "A Toolkit for Tinkering Digital Musical Instruments.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -3520,15 +3521,15 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-27",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 173.0, 660.0, 69.0 ],
+					"patching_rect" : [ 21.5, 173.0, 662.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 33.158536583185196, 199.662162184715271, 660.0, 69.0 ],
-					"text" : "Meet modulo, a toolkit for tinkering digital musical instruments. Designed to make the music-making process as seamless as possible, modulo is like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your ideal musical tool. Each module is designed with simplicity and versatility in mind, fitting neatly into a user-friendly system that's as multichannel as it is modular."
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 33.158536583185196, 213.662162184715271, 658.341463416814804, 53.0 ],
+					"text" : "You can think of it like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your own musical tools. Each module is designed with simplicity and versatility in mind, fitting neatly into a multichannel system that's as modular as it is user-friendly."
 				}
 
 			}
@@ -3547,7 +3548,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.30772, 0.12588, 0.10596, 0.48112, 0.20344, 0.18784 ],
+					"nsize" : [ 0.1444, 0.31768, 0.3838, 0.44432, 0.294, 0.29288 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3565,8 +3566,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7176, 0.5704, 0.3914, 0.5606, 0.2876, 0.3871 ],
-					"yplace" : [ 0.33, 0.6074, 0.1669, 0.2832, 0.3121, 0.7509 ]
+					"xplace" : [ 0.5075, 0.4841, 0.1324, 0.0063, 0.791, 0.9015 ],
+					"yplace" : [ 0.7325, 0.8515, 0.9187, 0.1251, 0.9949, 0.2774 ]
 				}
 
 			}
