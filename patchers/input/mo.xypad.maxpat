@@ -399,14 +399,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 667.666666666666629, 377.131578922271672, 221.0, 23.0 ],
+					"patching_rect" : [ 667.666666666666629, 377.131578922271672, 158.0, 23.0 ],
+					"restore" : [ 0, 0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0, 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr xypad @bindto xypad- @initial 0 0",
+					"text" : "pattr xypad @bindto xypad-",
 					"varname" : "xypad"
 				}
 

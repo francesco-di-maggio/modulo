@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -799,26 +799,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(int) chans",
-					"id" : "obj-8",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1051.0, 815.568848319484573, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 61.0, 30.0, 30.0 ]
+					"patching_rect" : [ 380.442643090089064, 61.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -826,7 +814,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) random output",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1100,7 +1088,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.842786306142557, 38.126276284456253, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 260.0, 54.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1133,7 +1121,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 380.5, 117.0, 323.5, 117.0 ],
+					"midpoints" : [ 389.942643090089064, 117.0, 323.5, 117.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1468,56 +1456,11 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"midpoints" : [ 1060.5, 495.0, 472.0, 495.0 ],
-					"order" : 1,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 1060.5, 366.0, 1060.5, 366.0 ],
-					"order" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[19]", "live.text", 0 ],
-			"obj-34" : [ "live.text[185]", "live.text", 0 ],
-			"obj-38" : [ "live.text[34]", "live.text", 0 ],
-			"obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
-			"obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

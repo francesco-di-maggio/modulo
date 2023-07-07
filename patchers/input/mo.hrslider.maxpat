@@ -214,6 +214,7 @@
 					"maxclass" : "rslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"orientation" : 1,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 90.489049971103668, 464.001276284456253, 78.0, 78.0 ],
@@ -250,14 +251,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 343.0, 318.5, 226.0, 23.0 ],
+					"patching_rect" : [ 343.0, 318.5, 163.0, 23.0 ],
+					"restore" : [ 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0, 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr rslider @bindto rslider- @initial 0 0",
+					"text" : "pattr rslider @bindto rslider-",
 					"varname" : "rslider"
 				}
 

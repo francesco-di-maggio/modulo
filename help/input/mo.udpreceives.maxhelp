@@ -412,7 +412,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 481.0, 172.0, 61.0 ],
+					"patching_rect" : [ 41.0, 484.630106344819069, 173.0, 57.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,

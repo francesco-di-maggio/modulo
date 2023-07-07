@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 84.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 3,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -181,7 +181,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 89.489049971103668, 313.148757964372635, 63.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.386394882247629, 57.251437890878321, 58.728131174000879, 22.0 ],
+					"presentation_rect" : [ 7.0, 57.251437890878321, 56.188362382847629, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -211,7 +211,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.17266845703125, 135.227182269096375, 49.707317113876343, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.987878195681368, 31.148713290168011, 45.493846662342548, 21.0 ],
+					"presentation_rect" : [ 11.987878195681368, 31.148713290168011, 45.493846662342548, 21.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "mode-"
@@ -231,7 +231,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.17266845703125, 135.227182269096375, 50.707317113876343, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.094967297949587, 35.132189824653828, 48.459143586456776, 13.3767827898264 ],
+					"presentation_rect" : [ 10.094967297949587, 35.132189824653828, 48.459143586456776, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -279,7 +279,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -454,7 +454,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.489049971103668, 308.148757964372635, 68.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.386394882247629, 52.875986050833262, 58.728131174000879, 28.060828468447937 ],
+					"presentation_rect" : [ 7.0, 52.875986050833262, 56.188362382847629, 28.060828468447937 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -661,7 +661,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37" : [ "live.text[12]", "live.text", 0 ],
+			"obj-37" : [ "live.text[13]", "live.text", 0 ],
 			"obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

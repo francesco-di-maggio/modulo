@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 431.0, 418.0 ],
+		"rect" : [ 34.0, 100.0, 431.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 165.0, 95.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mute output "
 				}
 
@@ -95,7 +94,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 372.297012329101562, 141.0, 23.0 ],
+					"patching_rect" : [ 242.0, 357.297012329101562, 141.0, 23.0 ],
 					"text" : "udpsend 127.0.0.1 8001"
 				}
 
@@ -281,7 +280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 372.297012329101562, 81.0, 23.0 ]
+					"patching_rect" : [ 41.0, 357.297012329101562, 81.0, 23.0 ]
 				}
 
 			}
@@ -289,7 +288,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 50.5, 357.0, 112.5, 357.0 ],
+					"midpoints" : [ 50.5, 342.0, 112.5, 342.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 

@@ -302,6 +302,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-37" : [ "live.text[13]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -323,8 +324,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.number.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1207,7 +1207,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Produce or process real-time audio using different sound synthesis algorithms.",
+									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2244,7 +2244,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 8,
-									"num_lines_presentation" : 7,
+									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2272,9 +2272,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.scrumbler~", "mo.theremini~" ],
+											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 6,
+											"parameter_mmax" : 31,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3547,7 +3547,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.24832, 0.10448, 0.29888, 0.41952, 0.26216, 0.1228 ],
+					"nsize" : [ 0.1424, 0.36796, 0.29556, 0.1302, 0.14156, 0.40148 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3565,8 +3565,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.8879, 0.1224, 0.0791, 0.868, 0.6429, 0.4864 ],
-					"yplace" : [ 0.8775, 0.0294, 0.5608, 0.5817, 0.5035, 0.0913 ]
+					"xplace" : [ 0.9358, 0.2447, 0.734, 0.9458, 0.3119, 0.7049 ],
+					"yplace" : [ 0.205, 0.4029, 0.1624, 0.9228, 0.3906, 0.1507 ]
 				}
 
 			}
@@ -3687,6 +3687,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-47::obj-25::obj-12" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
 				"obj-47::obj-25::obj-6.2::obj-14" : 				{
 					"parameter_longname" : "live.text[11]"
 				}
@@ -3735,12 +3739,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
@@ -3765,12 +3763,6 @@
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

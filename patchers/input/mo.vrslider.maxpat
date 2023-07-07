@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 266.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -250,14 +250,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 342.0, 476.5, 226.0, 23.0 ],
+					"patching_rect" : [ 342.0, 476.5, 163.0, 23.0 ],
+					"restore" : [ 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0, 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr rslider @bindto rslider- @initial 0 0",
+					"text" : "pattr rslider @bindto rslider-",
 					"varname" : "rslider"
 				}
 
