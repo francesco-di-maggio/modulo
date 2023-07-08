@@ -98,7 +98,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.653199976682799, 493.383902229301611, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.447160348296165, 46.356161594390869, 45.0, 18.0 ],
+					"presentation_rect" : [ 26.447160348296165, 38.356161594390869, 45.0, 18.0 ],
 					"text" : "message"
 				}
 
@@ -1592,7 +1592,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[12]",
+							"parameter_longname" : "live.numbox[19]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",

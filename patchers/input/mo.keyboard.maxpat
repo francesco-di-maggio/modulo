@@ -85,7 +85,7 @@
 					"presentation_rect" : [ 24.406333163380623, 186.430181072991218, 121.435931136716192, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "device-[1]"
+					"varname" : "port-"
 				}
 
 			}
@@ -154,7 +154,7 @@
 					"presentation_rect" : [ 80.562715778242762, 1.5, 88.435931136716192, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "device-"
+					"varname" : "mode-"
 				}
 
 			}

@@ -1062,7 +1062,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 265.00349561373389, 320.869429976851961, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.992017491514162, -0.058990031480789, 167.095917194832509, 15.0 ],
+					"presentation_rect" : [ 27.992017491514162, -0.058990031480789, 181.095917194832509, 15.0 ],
 					"rounded" : 0.0,
 					"text" : "output-1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1234,7 +1234,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 51.666666666666657, 320.869429976851961, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 28.566096901893616, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.841263920068741, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1258,7 +1258,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[39]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

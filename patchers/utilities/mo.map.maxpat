@@ -256,7 +256,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 228.33837890625, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 29.0, 100.098320528864861, 23.059077908166728 ],
+					"presentation_rect" : [ 4.0, 28.0, 101.098320528864861, 26.059077908166728 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -393,7 +393,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 101.0, 228.33837890625, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.215774714946747, 29.0, 100.098320528864861, 23.059077908166728 ],
+					"presentation_rect" : [ 109.215774714946747, 28.0, 101.098320528864861, 26.059077908166728 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

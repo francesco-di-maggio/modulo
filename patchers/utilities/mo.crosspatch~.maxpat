@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 1318.0, 781.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -612,8 +612,8 @@
 													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 28.0, 141.999999999999915, 97.0, 23.0 ],
-													"text" : "pak 7 66.5 199 f"
+													"patching_rect" : [ 28.0, 141.999999999999915, 86.0, 23.0 ],
+													"text" : "pak 5 66 204 f"
 												}
 
 											}
@@ -646,7 +646,7 @@
 										"lines" : [ 											{
 												"patchline" : 												{
 													"destination" : [ "obj-36", 3 ],
-													"midpoints" : [ 115.5, 126.0, 115.5, 126.0 ],
+													"midpoints" : [ 115.5, 126.0, 104.5, 126.0 ],
 													"source" : [ "obj-34", 0 ]
 												}
 
@@ -1637,7 +1637,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 447.139760281642339, 351.325857325578113, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 66.0, 199.0, 16.0 ],
+					"presentation_rect" : [ 7.0, 66.5, 199.0, 16.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "crosspatch~-"
 				}
@@ -1943,7 +1943,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 402.139760281642339, 215.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 66.0, 199.0, 16.0 ],
+					"presentation_rect" : [ 7.0, 66.5, 199.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -62,7 +62,7 @@
 					"patching_rect" : [ 658.996504386265997, 552.342105031013602, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 22.454500113671628, 37.148713290168011, 125.124452122304916, 20.0 ],
+					"presentation_rect" : [ 22.454500113671628, 36.148713290168011, 125.124452122304916, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -82,7 +82,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 657.996504386265997, 551.342105031013602, 101.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.454500113671628, 39.904060288740361, 125.124452122304916, 13.420286163687706 ],
+					"presentation_rect" : [ 22.454500113671628, 38.904060288740361, 125.124452122304916, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -279,7 +279,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 445.329837719599254, 777.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.0, 38.148713290168011, 42.0, 18.0 ],
+					"presentation_rect" : [ 170.0, 37.148713290168011, 42.0, 18.0 ],
 					"text" : "channel",
 					"textjustification" : 1
 				}
@@ -297,7 +297,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 393.996504386265769, 778.5, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.578952235976544, 39.132189824653828, 21.0, 15.0 ],
+					"presentation_rect" : [ 149.578952235976544, 38.132189824653828, 21.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -389,7 +389,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 695.90126629102781, 255.924482601293221, 56.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 39.132189824653835, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 4.0, 38.132189824653835, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

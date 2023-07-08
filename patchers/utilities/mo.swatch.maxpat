@@ -99,7 +99,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[74]",
+							"parameter_longname" : "live.text[75]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -360,7 +360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.0, 389.0, 98.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.072399175405735, 202.339669197688949, 194.954149276848 ],
+					"presentation_rect" : [ 4.675538547296355, 65.072399175405735, 204.339669197688949, 194.954149276848 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -532,7 +532,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 34.0, 389.0, 241.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.072399175405735, 202.339669197688949, 194.954149276848 ],
+					"presentation_rect" : [ 4.675538547296355, 65.072399175405735, 204.339669197688949, 194.954149276848 ],
 					"saturation" : 0.992125984251969,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{

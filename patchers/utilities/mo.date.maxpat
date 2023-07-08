@@ -251,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.0, 554.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 12 : 2 : 993",
+					"text" : "0 : 34 : 53 : 318",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -305,9 +305,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.5, 554.5, 96.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.797253370285034, 37.371792723306498, 60.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 76.797253370285034, 37.371792723306498, 60.202746629714966, 15.369636952877045 ],
 					"rounded" : 0.0,
-					"text" : "12 : 31 : 25",
+					"text" : "18 : 44 : 30",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
