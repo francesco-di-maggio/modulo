@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -193,9 +193,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 287.375, 173.365994102462309, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.622526669502008, 4.0, 76.362730443477631, 15.0 ],
+					"presentation_rect" : [ 86.622526669502008, 4.0, 100.362730443477631, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "fm",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"

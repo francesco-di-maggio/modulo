@@ -148,7 +148,6 @@
 					"format" : 6,
 					"id" : "obj-8",
 					"maxclass" : "flonum",
-					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -311,7 +310,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -319,6 +317,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 
 			}

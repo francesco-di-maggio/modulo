@@ -368,6 +368,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-3" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-5::obj-6" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[414]",

@@ -444,7 +444,7 @@
 						"storage_rect" : [ 249, 100, 700, 228 ]
 					}
 ,
-					"subscribe" : [ "mo.scale", "mo.fm~", "mo.sliders", "mo.sends" ],
+					"subscribe" : [ "mo.sends", "mo.scale", "mo.fm~", "mo.sliders" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}

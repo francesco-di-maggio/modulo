@@ -76,7 +76,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "live.text[263]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -251,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.0, 554.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 34 : 53 : 318",
+					"text" : "0 : 37 : 44 : 29",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -305,9 +305,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.5, 554.5, 96.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.797253370285034, 37.371792723306498, 60.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 76.797253370285034, 38.371792723306498, 60.202746629714966, 15.369636952877045 ],
 					"rounded" : 0.0,
-					"text" : "18 : 44 : 30",
+					"text" : "19 : 30 : 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
@@ -417,7 +417,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.0, 554.5, 96.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 37.371792723306498, 70.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 4.5, 38.371792723306498, 70.202746629714966, 15.369636952877045 ],
 					"rounded" : 0.0,
 					"text" : "8 / 7 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],

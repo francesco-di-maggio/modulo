@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -587,7 +587,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 432.739049971103668, 271.998723715543747, 78.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.601090141160896, 40.602391441234431, 49.898909858839104, 16.776920566861513 ],
+					"presentation_rect" : [ 9.603530048128015, 39.602391441234431, 50.896469951871985, 16.776920566861513 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -611,7 +611,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[414]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

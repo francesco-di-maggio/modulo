@@ -377,6 +377,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-1::obj-37" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[414]",

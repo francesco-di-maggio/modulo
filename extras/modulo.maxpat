@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -2191,7 +2191,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 6,
-									"num_lines_presentation" : 10,
+									"num_lines_presentation" : 6,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -3548,7 +3548,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.20472, 0.32316, 0.36044, 0.13116, 0.189, 0.40208 ],
+					"nsize" : [ 0.15088, 0.32588, 0.33488, 0.10212, 0.15828, 0.49948 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3566,8 +3566,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.3007, 0.0834, 0.4544, 0.9218, 0.2497, 0.5699 ],
-					"yplace" : [ 0.8022, 0.5871, 0.5755, 0.424, 0.6051, 0.5812 ]
+					"xplace" : [ 0.1044, 0.846, 0.7164, 0.7745, 0.8073, 0.5715 ],
+					"yplace" : [ 0.7809, 0.6964, 0.6572, 0.8681, 0.1707, 0.5789 ]
 				}
 
 			}
@@ -3693,8 +3693,36 @@
 					"parameter_longname" : "live.numbox[18]"
 				}
 ,
+				"obj-47::obj-25::obj-11" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-47::obj-25::obj-12" : 				{
 					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-47::obj-25::obj-13" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-47::obj-25::obj-14" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-47::obj-25::obj-16" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
+				"obj-47::obj-25::obj-3" : 				{
+					"parameter_longname" : "live.text[44]"
+				}
+,
+				"obj-47::obj-25::obj-32" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-47::obj-25::obj-56" : 				{
+					"parameter_longname" : "live.numbox[51]"
 				}
 ,
 				"obj-47::obj-25::obj-6.2::obj-14" : 				{

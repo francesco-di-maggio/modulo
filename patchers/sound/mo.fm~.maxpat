@@ -111,7 +111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 823.440784417920781, 961.915466400000014, 164.0, 23.0 ],
-					"restore" : [ "fm" ],
+					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3781,9 +3781,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 544.051895529031754, 648.73012338822366, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.111910476142782, 4.0, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 284.111910476142782, 4.0, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "fm",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"

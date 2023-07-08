@@ -199,7 +199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.666666666666742, 82.027777777777828, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.166666666666742, 45.356455599544006, 79.0, 25.0 ],
+					"presentation_rect" : [ 192.166666666666742, 47.356455599544006, 79.0, 25.0 ],
 					"text" : "set device",
 					"textjustification" : 1
 				}
@@ -222,7 +222,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 191.666666666666742, 84.527777777777828, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.11886337647843, 47.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 168.11886337647843, 49.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -582,6 +582,10 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[58]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-4::obj-107::obj-15" : 				{

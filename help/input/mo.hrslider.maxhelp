@@ -363,6 +363,17 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-5::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-5::obj-7" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
