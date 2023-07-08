@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[120]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -280,9 +280,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 125.285429396231621, 273.999999642372245, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 38.371792723306498, 132.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 37.371792723306498, 132.0, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "hello",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "receive-"

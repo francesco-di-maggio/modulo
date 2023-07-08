@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"patching_rect" : [ 0.0, 0.0, 142.0, 57.5 ],
 					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
@@ -65,6 +65,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-126" : [ "live.text[62]", "live.text", 0 ],
+			"obj-1::obj-16" : [ "live.text[412]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-74" : [ "live.text[33]", "live.text", 0 ],
 			"obj-1::obj-75" : [ "live.text[50]", "live.text", 0 ],
@@ -78,13 +79,36 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-126" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
+				"obj-1::obj-51" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-1::obj-74" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-1::obj-75" : 				{
+					"parameter_longname" : "live.text[50]"
+				}
+,
+				"obj-1::obj-78" : 				{
+					"parameter_longname" : "live.text[58]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.click.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

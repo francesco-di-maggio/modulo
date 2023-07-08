@@ -52,6 +52,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
+					"pattrstorage" : "untitled",
 					"presentation" : 1,
 					"presentation_rect" : [ 24.799580332073219, 127.301372442394495, 164.400839335853561, 44.39725511521101 ],
 					"saved_attribute_attributes" : 					{
@@ -85,7 +86,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u243011809"
+					"varname" : "untitled"
 				}
 
 			}
@@ -164,6 +165,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-1" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-43" : [ "live.text[56]", "live.text", 0 ],
 			"obj-1::obj-46" : [ "live.text[58]", "live.text", 0 ],
 			"obj-1::obj-48" : [ "live.text[59]", "live.text", 0 ],
@@ -217,13 +219,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",

@@ -85,8 +85,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 588.0, 146.0, 23.0 ],
-					"text" : "0. 0."
+					"patching_rect" : [ 41.0, 590.0, 129.0, 23.0 ],
+					"text" : "0.669291 0.897638"
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 287.5, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 291.5, 214.0, 265.0 ],
 					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
@@ -237,7 +237,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 305.5, 282.0, 245.5, 282.0 ],
+					"midpoints" : [ 305.5, 276.0, 245.5, 276.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -253,6 +253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 305.5, 231.0, 305.5, 231.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -268,7 +269,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 50.5, 573.0, 245.5, 573.0 ],
+					"midpoints" : [ 50.5, 576.0, 160.5, 576.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -312,6 +313,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-10" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-5::obj-18" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[6]",

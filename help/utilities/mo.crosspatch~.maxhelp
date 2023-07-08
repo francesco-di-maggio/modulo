@@ -108,8 +108,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 165.0, 72.0, 23.0 ],
-					"text" : "mc.cycle~ 1"
+					"patching_rect" : [ 41.0, 165.0, 127.0, 23.0 ],
+					"text" : "mc.cycle~ 1 @chans 4"
 				}
 
 			}
@@ -219,7 +219,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 4 ],
+					"args" : [ 4, 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -354,6 +354,10 @@
 			"parameter_overrides" : 			{
 				"obj-19::obj-1" : 				{
 					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-19::obj-3" : 				{
+					"parameter_longname" : "live.text[9]"
 				}
 ,
 				"obj-19::obj-37" : 				{

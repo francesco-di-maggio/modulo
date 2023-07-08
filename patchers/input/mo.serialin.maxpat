@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[189]",
+							"parameter_longname" : "live.text[175]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -456,19 +456,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 117.0, 235.0, 64.0, 23.0 ],
 					"text" : "qmetro 10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-36",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 535.707317113876343, 390.0, 119.0, 21.0 ],
-					"text" : "list of available ports"
 				}
 
 			}
@@ -929,7 +916,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 405.0, 324.0, 86.0, 23.0 ],
+					"patching_rect" : [ 405.0, 324.0, 75.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -940,7 +927,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p serial_select"
+					"text" : "p fill_umenu"
 				}
 
 			}
@@ -953,20 +940,6 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 117.0, 452.0, 92.0, 23.0 ],
 					"text" : "serial a 115200"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 453.0, 180.0, 21.0 ],
-					"text" : "connects at a baud rate of 9600"
 				}
 
 			}
@@ -1009,7 +982,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[190]",
+							"parameter_longname" : "live.text[174]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1349,7 +1322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
-					"midpoints" : [ 469.853658556938171, 420.0, 390.0, 420.0, 390.0, 309.0, 481.5, 309.0 ],
+					"midpoints" : [ 469.853658556938171, 420.0, 390.0, 420.0, 390.0, 309.0, 470.5, 309.0 ],
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -1365,7 +1338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 481.5, 375.0, 126.5, 375.0 ],
+					"midpoints" : [ 470.5, 375.0, 126.5, 375.0 ],
 					"source" : [ "obj-64", 1 ]
 				}
 

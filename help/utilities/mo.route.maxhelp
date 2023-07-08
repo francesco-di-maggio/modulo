@@ -326,6 +326,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-22",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -548,6 +549,10 @@
 ,
 				"obj-23::obj-74::obj-2" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-23::obj-9" : 				{
+					"parameter_longname" : "live.text[117]"
 				}
 
 			}

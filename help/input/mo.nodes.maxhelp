@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 434.0, 731.0 ],
+		"rect" : [ 34.0, 100.0, 434.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 654.0, 214.0, 23.0 ],
+					"text" : "0. 0.691044 0. 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
@@ -170,25 +182,6 @@
 			}
 , 			{
 				"box" : 				{
-					"candycane" : 8,
-					"contdata" : 1,
-					"id" : "obj-12",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 652.0, 172.0, 61.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 1,
-					"size" : 6,
-					"spacing" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -308,8 +301,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 50.5, 621.0, 50.5, 621.0 ],
+					"destination" : [ "obj-9", 1 ],
+					"midpoints" : [ 50.5, 639.0, 245.5, 639.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -366,6 +359,21 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-13::obj-13" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
+				}
+,
+				"obj-13::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 
 			}

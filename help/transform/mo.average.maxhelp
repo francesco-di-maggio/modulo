@@ -114,6 +114,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 171.0, 34.0 ],
 					"setstyle" : 1,
+					"signed" : 1,
 					"size" : 2,
 					"spacing" : 2
 				}

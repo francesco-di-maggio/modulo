@@ -234,7 +234,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 570.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 568.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -342,6 +342,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-38" : 				{
+					"parameter_longname" : "live.text[461]"
+				}
+,
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[547]"
+				}
+,
+				"obj-5::obj-59" : 				{
+					"parameter_longname" : "live.text[458]"
+				}
+,
 				"obj-5::obj-6" : 				{
 					"parameter_longname" : "live.text[460]"
 				}

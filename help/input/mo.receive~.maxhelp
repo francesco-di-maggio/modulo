@@ -453,6 +453,17 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-4::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -47,8 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 516.0, 50.0, 23.0 ],
-					"text" : "1 0 0 0"
+					"patching_rect" : [ 41.0, 506.0, 55.0, 23.0 ],
+					"text" : "0 1 0 0"
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 345.982588656246662, 214.0, 137.0 ],
+					"patching_rect" : [ 41.0, 345.982588656246662, 214.0, 135.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -366,7 +366,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 501.0, 81.5, 501.0 ],
+					"midpoints" : [ 50.5, 492.0, 86.5, 492.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -391,6 +391,25 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-38" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-5::obj-4" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-5::obj-59" : 				{
+					"parameter_longname" : "live.text[21]"
 				}
 
 			}

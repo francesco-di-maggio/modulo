@@ -339,7 +339,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.140615909090684, 400.297012329101562, 214.0, 87.0 ],
+					"patching_rect" : [ 41.140615909090684, 400.297012329101562, 286.0, 87.0 ],
 					"varname" : "mo.adc~",
 					"viewvisibility" : 1
 				}
@@ -420,9 +420,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1::obj-11" : [ "live.text[665]", "live.text", 0 ],
+			"obj-1::obj-2" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
-			"obj-1::obj-7" : [ "live.text[212]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -432,43 +433,10 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-45" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-1::obj-56" : 				{
-					"parameter_longname" : "live.numbox[50]"
-				}
-,
-				"obj-1::obj-7" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[212]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mic-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mic-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.adc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",

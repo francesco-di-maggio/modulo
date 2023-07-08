@@ -661,7 +661,6 @@
 													"appearance" : 1,
 													"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-													"fontsize" : 10.0,
 													"id" : "obj-11",
 													"maxclass" : "live.text",
 													"numinlets" : 1,
@@ -671,7 +670,7 @@
 													"patching_rect" : [ 285.0, 563.5, 60.0, 15.0 ],
 													"pictures" : [ "unlock.svg", "lock.svg" ],
 													"presentation" : 1,
-													"presentation_rect" : [ 7.0, 7.0, 61.423625133890937, 15.0 ],
+													"presentation_rect" : [ 4.0, 4.0, 61.423625133890937, 15.0 ],
 													"remapsvgcolors" : 1,
 													"saved_attribute_attributes" : 													{
 														"activebgcolor" : 														{
@@ -1070,7 +1069,7 @@
 													"parameter_enable" : 1,
 													"patching_rect" : [ 353.051895529031754, 481.0, 44.0, 15.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 6.675538547296355, 44.264996101030192, 54.748086586594582, 15.0 ],
+													"presentation_rect" : [ 3.675538547296355, 42.264996101030192, 54.748086586594582, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"activebgcolor" : 														{
 															"expression" : ""
@@ -1110,7 +1109,6 @@
 													"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 													"appearance" : 1,
 													"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : 10.0,
 													"id" : "obj-22",
 													"maxclass" : "live.text",
 													"mode" : 0,
@@ -1120,7 +1118,7 @@
 													"parameter_enable" : 1,
 													"patching_rect" : [ 301.0, 481.0, 44.0, 15.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 63.423625133890937, 44.264996101030192, 46.001353085041046, 15.0 ],
+													"presentation_rect" : [ 60.423625133890937, 42.264996101030192, 46.001353085041046, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"activebgcolor" : 														{
 															"expression" : ""
@@ -1185,9 +1183,9 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 63.860643649101007, 313.525856395133815, 251.0, 140.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 15.14285671710968, 70.093906720050654, 183.0, 182.606174598566213 ],
+													"presentation_rect" : [ 13.14285671710968, 70.093906720050654, 187.0, 184.606174598566213 ],
 													"rounded" : 0.0,
-													"text" : "Hello, World!",
+													"text" : "Hello , World!",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"valuemode" : 1,
 													"varname" : "notepad-"
@@ -1221,7 +1219,7 @@
 													"patching_rect" : [ 63.860643649101007, 237.626275569200516, 44.0, 15.0 ],
 													"pictures" : [ "clear.svg", "clear.svg" ],
 													"presentation" : 1,
-													"presentation_rect" : [ 163.015207744985332, 44.264996101030192, 44.0, 15.0 ],
+													"presentation_rect" : [ 163.015207744985332, 42.264996101030192, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"activebgcolor" : 														{
 															"expression" : ""
@@ -1269,7 +1267,7 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 328.1877336576174, 313.525856395133815, 23.693199520390976, 140.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 200.339669197688949, 193.99261078321473 ],
+													"presentation_rect" : [ 4.675538547296355, 65.033937669039005, 204.339669197688949, 195.99261078321473 ],
 													"proportion" : 0.5,
 													"rounded" : 0
 												}
@@ -1284,7 +1282,7 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 568.051895529031754, 30.126276284456253, 150.442643090089064, 5.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
+													"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 													"saved_attribute_attributes" : 													{
 														"linecolor" : 														{
 															"expression" : ""

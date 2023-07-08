@@ -536,6 +536,10 @@
 					"parameter_longname" : "live.text[13]"
 				}
 ,
+				"obj-39::obj-33" : 				{
+					"parameter_longname" : "live.numbox[24]"
+				}
+,
 				"obj-39::obj-39" : 				{
 					"parameter_longname" : "live.text[12]"
 				}
@@ -554,6 +558,10 @@
 ,
 				"obj-39::obj-85" : 				{
 					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-39::obj-9" : 				{
+					"parameter_longname" : "live.text[94]"
 				}
 ,
 				"obj-39::obj-92" : 				{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 377.0, 385.0 ],
+		"rect" : [ 34.0, 100.0, 377.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 337.0, 50.0, 23.0 ],
+					"patching_rect" : [ 41.0, 307.0, 50.0, 23.0 ],
 					"text" : "0 0 0"
 				}
 
@@ -171,7 +171,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 220.0, 142.0, 87.0 ],
+					"patching_rect" : [ 41.0, 220.0, 142.0, 57.5 ],
 					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
@@ -225,7 +225,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 50.5, 324.0, 81.5, 324.0 ],
+					"midpoints" : [ 50.5, 294.0, 81.5, 294.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -240,45 +240,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-103" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-17::obj-126" : [ "live.text[16]", "live.text", 0 ],
-			"obj-17::obj-16" : [ "live.text[1]", "live.text", 0 ],
-			"obj-17::obj-4" : [ "live.text[78]", "live.text", 0 ],
-			"obj-17::obj-51" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-17::obj-74" : [ "live.text[17]", "live.text", 0 ],
-			"obj-17::obj-75" : [ "live.text[18]", "live.text", 0 ],
+			"obj-17::obj-103" : [ "live.numbox[185]", "live.numbox", 0 ],
+			"obj-17::obj-126" : [ "live.text[477]", "live.text", 0 ],
+			"obj-17::obj-16" : [ "live.text[480]", "live.text", 0 ],
+			"obj-17::obj-4" : [ "live.text[449]", "live.text", 0 ],
+			"obj-17::obj-51" : [ "live.numbox[186]", "live.numbox", 0 ],
+			"obj-17::obj-74" : [ "live.text[478]", "live.text", 0 ],
+			"obj-17::obj-75" : [ "live.text[479]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-17::obj-103" : 				{
-					"parameter_longname" : "live.numbox[5]"
-				}
-,
-				"obj-17::obj-126" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-17::obj-16" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-17::obj-51" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-17::obj-74" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-17::obj-75" : 				{
-					"parameter_longname" : "live.text[18]"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
+		"rect" : [ 768.0, 66.0, 710.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -552,7 +552,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -866,7 +866,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.860643649101007, 418.525856395133815, 255.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 35.5, 204.0, 16.0 ],
+					"presentation_rect" : [ 4.805642783641815, 36.5, 205.583071649074554, 16.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"valuemode" : 1,
@@ -921,7 +921,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[23]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -949,7 +949,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 380.1877336576174, 418.525856395133815, 131.693199520390976, 38.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 36.0, 204.0, 16.0 ],
+					"presentation_rect" : [ 4.805642783641815, 37.0, 205.583071649074554, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

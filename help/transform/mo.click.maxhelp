@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 362.0, 447.0 ],
+		"rect" : [ 34.0, 100.0, 362.0, 410.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 400.0, 68.0, 23.0 ],
+					"patching_rect" : [ 41.0, 370.0, 68.0, 23.0 ],
 					"text" : "0 0 0"
 				}
 
@@ -408,7 +408,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 280.0, 142.0, 87.0 ],
+					"patching_rect" : [ 41.0, 280.0, 142.0, 57.5 ],
 					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
@@ -418,7 +418,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 50.5, 387.0, 99.5, 387.0 ],
+					"midpoints" : [ 50.5, 357.0, 99.5, 357.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -457,12 +457,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-126" : [ "live.text[62]", "live.text", 0 ],
-			"obj-1::obj-16" : [ "live.text[90]", "live.text", 0 ],
-			"obj-1::obj-51" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-1::obj-74" : [ "live.text[33]", "live.text", 0 ],
-			"obj-1::obj-75" : [ "live.text[50]", "live.text", 0 ],
-			"obj-1::obj-78" : [ "live.text[58]", "live.text", 0 ],
+			"obj-1::obj-126" : [ "live.text[410]", "live.text", 0 ],
+			"obj-1::obj-16" : [ "live.text[412]", "live.text", 0 ],
+			"obj-1::obj-51" : [ "live.numbox[158]", "live.numbox", 0 ],
+			"obj-1::obj-74" : [ "live.text[427]", "live.text", 0 ],
+			"obj-1::obj-75" : [ "live.text[413]", "live.text", 0 ],
+			"obj-1::obj-78" : [ "live.text[411]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

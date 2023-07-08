@@ -399,6 +399,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-21" : [ "live.text[24]", "live.text", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-2::obj-4" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -410,17 +411,21 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-2::obj-4" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.monitor.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
 				"patcherrelativepath" : "../../patchers/utilities",

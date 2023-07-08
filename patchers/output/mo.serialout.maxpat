@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[605]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -93,7 +93,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -454,19 +454,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-36",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 535.707317113876343, 390.0, 119.0, 21.0 ],
-					"text" : "list of available ports"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
 					"activebgoncolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -494,7 +481,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[1]",
+							"parameter_longname" : "live.button[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -922,7 +909,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 405.0, 324.0, 86.0, 23.0 ],
+					"patching_rect" : [ 405.0, 324.0, 75.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -933,7 +920,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p serial_select"
+					"text" : "p fill_umenu"
 				}
 
 			}
@@ -947,20 +934,6 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 117.0, 452.0, 92.0, 23.0 ],
 					"text" : "serial a 115200"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 453.0, 180.0, 21.0 ],
-					"text" : "connects at a baud rate of 9600"
 				}
 
 			}
@@ -1003,7 +976,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[604]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1103,7 +1076,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1344,7 +1317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
-					"midpoints" : [ 469.853658556938171, 420.0, 390.0, 420.0, 390.0, 309.0, 481.5, 309.0 ],
+					"midpoints" : [ 469.853658556938171, 420.0, 390.0, 420.0, 390.0, 309.0, 470.5, 309.0 ],
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -1370,7 +1343,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 481.5, 375.0, 126.5, 375.0 ],
+					"midpoints" : [ 470.5, 375.0, 126.5, 375.0 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
@@ -1424,24 +1397,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"obj-40" : [ "live.button[1]", "live.button", 0 ],
-			"obj-6" : [ "live.text[19]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

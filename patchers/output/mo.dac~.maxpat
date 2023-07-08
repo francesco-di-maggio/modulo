@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,55 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"id" : "obj-8",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 188.153199976682799, 404.086984881197452, 48.0, 15.472915806517562 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 214.0, 4.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[666]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "open",
+					"texton" : "♩",
+					"varname" : "mode-[2]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
@@ -121,7 +170,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 274.0, 224.80283350000002, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.944059491157532, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 262.944059491157532, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -140,7 +189,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[50]",
+							"parameter_longname" : "live.numbox[348]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -296,7 +345,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
@@ -316,7 +365,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 39.153199976682799, 393.823442784456233, 137.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 39.064706464179835, 209.0, 36.0 ],
+					"presentation_rect" : [ 4.5, 39.064706464179835, 278.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -332,7 +381,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[2]",
+							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "volume",
@@ -357,7 +406,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 273.948104470968246, 75.394333000000017, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 286.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -470,6 +519,14 @@
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 48.653199976682799, 240.0, 48.653199976682799, 240.0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 226.653199976682799, 459.0, 48.653199976682799, 459.0 ],
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}

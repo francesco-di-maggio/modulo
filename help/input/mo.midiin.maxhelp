@@ -121,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.25, 486.0, 55.0, 21.0 ],
+					"patching_rect" : [ 190.25, 477.0, 55.0, 21.0 ],
 					"text" : "raw data"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 485.0, 50.0, 23.0 ]
+					"patching_rect" : [ 113.0, 476.0, 70.0, 23.0 ]
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
-					"patching_rect" : [ 41.0, 404.5, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 404.5, 142.0, 57.0 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -439,7 +439,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
-					"midpoints" : [ 245.5, 465.0, 245.5, 465.0 ],
+					"midpoints" : [ 173.5, 462.0, 173.5, 462.0 ],
 					"source" : [ "obj-4", 8 ]
 				}
 
@@ -455,7 +455,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 99.25, 510.0, 173.5, 510.0 ],
+					"midpoints" : [ 81.25, 510.0, 173.5, 510.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -478,23 +478,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-15" : [ "live.text[2]", "live.text", 0 ],
+			"obj-4::obj-15" : [ "live.text[17]", "live.text", 0 ],
 			"obj-4::obj-36" : [ "live.text[52]", "live.text", 0 ],
-			"obj-4::obj-4" : [ "live.text[19]", "live.text", 0 ],
-			"obj-4::obj-41" : [ "live.button[1]", "live.button", 0 ],
-			"obj-4::obj-72" : [ "live.numbox[37]", "live.numbox", 0 ],
+			"obj-4::obj-4" : [ "live.text[16]", "live.text", 0 ],
+			"obj-4::obj-41" : [ "live.button[6]", "live.button", 0 ],
+			"obj-4::obj-72" : [ "live.numbox[70]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-4::obj-15" : 				{
-					"parameter_longname" : "live.text[2]"
 				}
 
 			}

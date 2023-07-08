@@ -181,8 +181,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 580.0, 151.0, 23.0 ],
-					"text" : "1. 0. 0. 1."
+					"patching_rect" : [ 41.0, 580.0, 214.0, 23.0 ],
+					"text" : "0.996063 0.003937 0.003937 1."
 				}
 
 			}
@@ -341,7 +341,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 567.0, 182.5, 567.0 ],
+					"midpoints" : [ 50.5, 567.0, 245.5, 567.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -382,6 +382,7 @@
 		"parameters" : 		{
 			"obj-5::obj-1" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-5::obj-2" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-5::obj-3" : [ "live.text[75]", "live.text", 0 ],
 			"obj-5::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-5::obj-87" : [ "swatch[4]", "swatch", 0 ],
 			"parameterbanks" : 			{
@@ -394,6 +395,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-1" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
 				"obj-5::obj-52" : 				{
 					"parameter_longname" : "live.numbox[8]"
 				}
@@ -405,8 +410,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.swatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
+				"patcherrelativepath" : "../../patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

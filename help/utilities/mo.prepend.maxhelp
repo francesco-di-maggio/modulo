@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 374.218947186410105, 317.6245406717062, 78.0, 54.0 ],
-					"presentation_linecount" : 3,
 					"text" : "set mode:\n0 = max \n1 = osc"
 				}
 
@@ -294,6 +293,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-3",
 					"maxclass" : "message",
 					"numinlets" : 2,

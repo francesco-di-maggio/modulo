@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"patching_rect" : [ 0.0, 0.0, 142.0, 57.5 ],
 					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
@@ -67,6 +67,7 @@
 			"obj-1::obj-103" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-1::obj-126" : [ "live.text[62]", "live.text", 0 ],
 			"obj-1::obj-16" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[449]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-74" : [ "live.text[33]", "live.text", 0 ],
 			"obj-1::obj-75" : [ "live.text[50]", "live.text", 0 ],
@@ -111,8 +112,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.pinch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

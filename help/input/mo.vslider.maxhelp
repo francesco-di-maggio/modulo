@@ -264,7 +264,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 659.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 652.0, 50.0, 23.0 ]
 				}
 
 			}
