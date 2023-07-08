@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 58.0, 70.0, 266.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 266.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[41]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -817,7 +817,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[458]",
+							"parameter_longname" : "live.text[46]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -868,7 +868,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 516.894056615856812, 53.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.862807029531183, 37.031305446697438, 39.102345793398996, 218.561819672584534 ],
+					"presentation_rect" : [ 7.862807029531183, 29.031305446697438, 54.102345793398996, 228.561819672584534 ],
 					"rounded" : 0.0,
 					"spacing_x" : 2.0,
 					"spacing_y" : 6.0,
@@ -1132,7 +1132,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[461]",
+							"parameter_longname" : "live.text[45]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1258,7 +1258,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[547]",
+							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1334,7 +1334,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.0, 516.894056615856812, 56.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.862807029531183, 35.489995495694359, 45.102345793398996, 223.0 ],
+					"presentation_rect" : [ 4.862807029531183, 27.489995495694359, 60.102345793398996, 233.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1720,10 +1720,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-38" : [ "live.text[461]", "live.text", 0 ],
-			"obj-56" : [ "live.numbox[547]", "live.numbox", 0 ],
-			"obj-59" : [ "live.text[458]", "live.text", 0 ],
-			"obj-6" : [ "live.text[19]", "live.text", 0 ],
+			"obj-38" : [ "live.text[45]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-59" : [ "live.text[46]", "live.text", 0 ],
+			"obj-6" : [ "live.text[41]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

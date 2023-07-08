@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 204.0, 1004.0, 641.0 ],
+		"rect" : [ 34.0, 100.0, 1004.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1291,7 +1291,6 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-119::obj-21" : [ "dial%[2]", "dial-", 0 ],
 			"obj-119::obj-37" : [ "live.text[1]", "live.text", 0 ],
 			"obj-119::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"obj-15::obj-2" : [ "live.text[90]", "live.text", 0 ],
@@ -1322,7 +1321,6 @@
 			"obj-46::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-46::obj-35" : [ "live.text[11]", "live.text", 0 ],
 			"obj-46::obj-7" : [ "live.text[12]", "live.text", 0 ],
-			"obj-47::obj-21" : [ "dial%[3]", "dial-", 0 ],
 			"obj-47::obj-37" : [ "live.text[6]", "live.text", 0 ],
 			"obj-47::obj-6" : [ "live.text[9]", "live.text", 0 ],
 			"obj-48::obj-2" : [ "live.text[39]", "live.text", 0 ],
@@ -1341,7 +1339,6 @@
 			"obj-51::obj-3" : [ "slider-[3]", "slider-", 0 ],
 			"obj-51::obj-35" : [ "live.text[56]", "live.text", 0 ],
 			"obj-51::obj-7" : [ "live.text[55]", "live.text", 0 ],
-			"obj-52::obj-21" : [ "dial%[5]", "dial-", 0 ],
 			"obj-52::obj-37" : [ "live.text[37]", "live.text", 0 ],
 			"obj-52::obj-6" : [ "live.text[38]", "live.text", 0 ],
 			"obj-53::obj-2" : [ "live.text[28]", "live.text", 0 ],
@@ -1360,7 +1357,6 @@
 			"obj-56::obj-3" : [ "slider-[2]", "slider-", 0 ],
 			"obj-56::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-56::obj-7" : [ "live.text[21]", "live.text", 0 ],
-			"obj-57::obj-21" : [ "dial%[4]", "dial-", 0 ],
 			"obj-57::obj-37" : [ "live.text[16]", "live.text", 0 ],
 			"obj-57::obj-6" : [ "live.text[15]", "live.text", 0 ],
 			"obj-58::obj-2" : [ "live.text[136]", "live.text", 0 ],
@@ -1379,7 +1375,6 @@
 			"obj-61::obj-3" : [ "slider-[7]", "slider-", 0 ],
 			"obj-61::obj-35" : [ "live.text[122]", "live.text", 0 ],
 			"obj-61::obj-7" : [ "live.text[124]", "live.text", 0 ],
-			"obj-62::obj-21" : [ "dial%[9]", "dial-", 0 ],
 			"obj-62::obj-37" : [ "live.text[121]", "live.text", 0 ],
 			"obj-62::obj-6" : [ "live.text[120]", "live.text", 0 ],
 			"obj-63::obj-2" : [ "live.text[119]", "live.text", 0 ],
@@ -1398,7 +1393,6 @@
 			"obj-66::obj-3" : [ "slider-[6]", "slider-", 0 ],
 			"obj-66::obj-35" : [ "live.text[107]", "live.text", 0 ],
 			"obj-66::obj-7" : [ "live.text[105]", "live.text", 0 ],
-			"obj-67::obj-21" : [ "dial%[8]", "dial-", 0 ],
 			"obj-67::obj-37" : [ "live.text[103]", "live.text", 0 ],
 			"obj-67::obj-6" : [ "live.text[104]", "live.text", 0 ],
 			"obj-68::obj-2" : [ "live.text[100]", "live.text", 0 ],
@@ -1417,7 +1411,6 @@
 			"obj-71::obj-3" : [ "slider-[5]", "slider-", 0 ],
 			"obj-71::obj-35" : [ "live.text[73]", "live.text", 0 ],
 			"obj-71::obj-7" : [ "live.text[93]", "live.text", 0 ],
-			"obj-72::obj-21" : [ "dial%[7]", "dial-", 0 ],
 			"obj-72::obj-37" : [ "live.text[71]", "live.text", 0 ],
 			"obj-72::obj-6" : [ "live.text[72]", "live.text", 0 ],
 			"obj-73::obj-2" : [ "live.text[68]", "live.text", 0 ],
@@ -1436,7 +1429,6 @@
 			"obj-76::obj-3" : [ "slider-[4]", "slider-", 0 ],
 			"obj-76::obj-35" : [ "live.text[41]", "live.text", 0 ],
 			"obj-76::obj-7" : [ "live.text[66]", "live.text", 0 ],
-			"obj-77::obj-21" : [ "dial%[6]", "dial-", 0 ],
 			"obj-77::obj-37" : [ "live.text[65]", "live.text", 0 ],
 			"obj-77::obj-6" : [ "live.text[40]", "live.text", 0 ],
 			"obj-78::obj-2" : [ "live.text[153]", "live.text", 0 ],
@@ -1500,6 +1492,10 @@
 			"parameter_overrides" : 			{
 				"obj-119::obj-37" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-119::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-15::obj-2" : 				{
@@ -2204,6 +2200,10 @@
 ,
 				"obj-89::obj-3" : 				{
 					"parameter_longname" : "live.text[181]"
+				}
+,
+				"obj-90::obj-21" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-90::obj-35" : 				{

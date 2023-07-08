@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1191,7 +1191,7 @@
 									"patching_rect" : [ 787.5, 632.0, 474.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
+									"text" : "These are ideas of instruments using different types of input and direct mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2219,9 +2219,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Building Blocks", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Scrumbler", "Theremini", "TouchOSC" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 9,
+											"parameter_mmax" : 10,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3548,7 +3548,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.17008, 0.46528, 0.47092, 0.25388, 0.11648, 0.2244 ],
+					"nsize" : [ 0.20472, 0.32316, 0.36044, 0.13116, 0.189, 0.40208 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3566,8 +3566,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.2686, 0.524, 0.8964, 0.386, 0.8689, 0.8692 ],
-					"yplace" : [ 0.551, 0.1553, 0.8188, 0.7548, 0.0223, 0.5095 ]
+					"xplace" : [ 0.3007, 0.0834, 0.4544, 0.9218, 0.2497, 0.5699 ],
+					"yplace" : [ 0.8022, 0.5871, 0.5755, 0.424, 0.6051, 0.5812 ]
 				}
 
 			}
