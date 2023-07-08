@@ -1305,6 +1305,14 @@
 					"parameter_longname" : "live.text[154]"
 				}
 ,
+				"obj-40::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-40::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
+				}
+,
 				"obj-40::obj-7" : 				{
 					"parameter_longname" : "live.text"
 				}

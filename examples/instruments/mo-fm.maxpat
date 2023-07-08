@@ -973,6 +973,14 @@
 					"parameter_longname" : "live.text[1]"
 				}
 ,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[50]"
+				}
+,
 				"obj-1::obj-7" : 				{
 					"parameter_longname" : "live.text"
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 515.0, 100.0, 963.0, 848.0 ],
+		"rect" : [ 515.0, 100.0, 215.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -117,7 +117,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 231.066666666666606, 495.738878038194287, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.723319356222902, -0.058990031480789, 38.997489109635367, 15.0 ],
+					"presentation_rect" : [ 64.273319356222871, -0.058990031480789, 38.997489109635367, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -134,7 +134,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[95]",
+							"parameter_longname" : "live.numbox[52]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -160,7 +160,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 134.866666666666674, 495.738878038194287, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.271150125642578, -0.058990031480789, 38.997489109635346, 15.0 ],
+					"presentation_rect" : [ 24.671150125642566, -0.058990031480789, 38.997489109635346, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -175,7 +175,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[94]",
+							"parameter_longname" : "live.numbox[53]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -524,7 +524,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.166666666666742, 495.738878038194287, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 184.079827047963903, -0.058990031480789, 26.730159401893616, 15.0 ],
+					"presentation_rect" : [ 183.079827047963875, -0.058990031480789, 26.730159401893616, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -541,7 +541,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[96]",
+							"parameter_longname" : "live.numbox[14]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -580,7 +580,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 423.466666666666413, 495.738878038194287, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.627657817383579, -0.058990031480789, 38.997489109635353, 15.0 ],
+					"presentation_rect" : [ 143.477657817383545, -0.058990031480789, 38.997489109635353, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -597,7 +597,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[93]",
+							"parameter_longname" : "live.numbox[124]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -623,7 +623,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 327.266666666666481, 495.738878038194287, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.175488586803226, -0.058990031480789, 38.997489109635382, 15.0 ],
+					"presentation_rect" : [ 103.875488586803201, -0.058990031480789, 38.997489109635382, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -638,7 +638,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[97]",
+							"parameter_longname" : "live.numbox[70]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -815,7 +815,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 38.666666666666657, 145.0, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 19.841263920068741, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.841263920068741, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

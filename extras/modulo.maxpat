@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 730.0, 730.0 ],
+		"rect" : [ 0.0, 66.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1191,7 +1191,7 @@
 									"patching_rect" : [ 787.5, 632.0, 474.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "These are ideas of instruments using different types of input and direct mapping.",
+									"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2191,7 +2191,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 6,
-									"num_lines_presentation" : 6,
+									"num_lines_presentation" : 10,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2219,9 +2219,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Scrumbler", "Theremini", "TouchOSC" ],
+											"parameter_enum" : [ "Blinker", "Building Blocks", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 10,
+											"parameter_mmax" : 9,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3548,7 +3548,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.12732, 0.4122, 0.34832, 0.3064, 0.22052, 0.3548 ],
+					"nsize" : [ 0.17008, 0.46528, 0.47092, 0.25388, 0.11648, 0.2244 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3566,8 +3566,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.2836, 0.7779, 0.7898, 0.1841, 0.5741, 0.6393 ],
-					"yplace" : [ 0.889, 0.1835, 0.3238, 0.833, 0.3038, 0.3349 ]
+					"xplace" : [ 0.2686, 0.524, 0.8964, 0.386, 0.8689, 0.8692 ],
+					"yplace" : [ 0.551, 0.1553, 0.8188, 0.7548, 0.0223, 0.5095 ]
 				}
 
 			}
