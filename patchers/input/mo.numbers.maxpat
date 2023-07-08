@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 58.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -23,8 +23,8 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 3,
@@ -45,7 +45,6 @@
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-6",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -55,7 +54,7 @@
 					"patching_rect" : [ 410.403213474154427, 81.626276284456253, 65.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 67.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 60.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -99,7 +98,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 228.0, 501.0, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.233876362522409, 46.026862103492022, 41.0, 18.0 ],
+					"presentation_rect" : [ 90.233876362522409, 39.026862103492022, 41.0, 18.0 ],
 					"text" : "number"
 				}
 
@@ -130,7 +129,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 268.0, 81.626276284456253, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.056790673732507, 7.0, 14.900888606905937, 15.0 ],
+					"presentation_rect" : [ 136.056790673732507, 4.0, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -199,7 +198,7 @@
 					"patching_rect" : [ 338.701606737077213, 81.626276284456253, 43.0, 15.0 ],
 					"pictures" : [ "random.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.056790673732507, 7.0, 36.928466439247131, 15.164421729743481 ],
+					"presentation_rect" : [ 153.056790673732507, 4.0, 36.928466439247131, 15.164421729743481 ],
 					"rounded" : 100.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -255,7 +254,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 481.17266845703125, 79.626276284456253, 49.707317113876343, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.554844521065519, 44.026862103492022, 45.493846662342548, 21.0 ],
+					"presentation_rect" : [ 40.554844521065519, 37.026862103492022, 45.493846662342548, 21.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mode-"
 				}
@@ -274,7 +273,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 481.17266845703125, 79.626276284456253, 50.707317113876343, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.661933623333738, 48.010338637977839, 48.459143586456776, 13.3767827898264 ],
+					"presentation_rect" : [ 38.661933623333738, 41.010338637977839, 48.459143586456776, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -1135,7 +1134,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 551.806426948308854, 81.626276284456253, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.985257112979639, 7.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.985257112979639, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2049,7 +2048,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 769.806426948308854, 16.601844755165075, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

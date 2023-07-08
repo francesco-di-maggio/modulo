@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -70,7 +70,6 @@
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -80,7 +79,7 @@
 					"patching_rect" : [ 48.995986282825356, 569.871854180447599, 70.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 74.428353288282409, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 74.428353288282409, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -406,7 +405,6 @@
 					"fontsize" : 9.5,
 					"htabcolor" : [ 0.0, 0.0, 0.0, 0.1 ],
 					"id" : "obj-36",
-					"ignoreclick" : 1,
 					"margin" : 0,
 					"maxclass" : "tab",
 					"multiline" : 0,
@@ -416,7 +414,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 668.649213254451638, 396.871854180447542, 250.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.970369406003783, 75.876862204313511, 199.228842750191689, 93.251134873266381 ],
+					"presentation_rect" : [ 4.970369406003783, 75.876862204313511, 203.228842750191689, 95.251134873266381 ],
 					"rounded" : 0.0,
 					"spacing_x" : 1.0,
 					"spacing_y" : 1.0,
@@ -566,7 +564,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 288.995986282825356, 313.498130464903795, 140.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 35.967933078178248, 200.0, 30.0 ],
+					"presentation_rect" : [ 6.675538547296355, 35.967933078178248, 203.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -641,7 +639,7 @@
 					"patching_rect" : [ 288.842786306142557, 179.871854180447542, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.852959153429765, 7.0, 43.537560316397105, 15.0 ],
+					"presentation_rect" : [ 144.852959153429765, 4.0, 43.537560316397105, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -691,7 +689,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 604.842786306142557, 82.871854180447542, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.015207744985275, 7.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.015207744985275, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -892,7 +890,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 529.842786306142557, 30.871854180447542, 51.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.514170067800251, 7.0, 37.714100810471109, 15.0 ],
+					"presentation_rect" : [ 104.514170067800251, 4.0, 37.714100810471109, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -931,7 +929,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.863783858219676, 57.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -955,7 +953,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.149213254451638, 424.371854180447599, 197.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 75.559601432323689, 200.339669197688949, 93.568395645256203 ],
+					"presentation_rect" : [ 4.675538547296355, 75.559601432323689, 204.339669197688949, 95.568395645256203 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

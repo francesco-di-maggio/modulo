@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -57,7 +57,6 @@
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-3",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -67,7 +66,7 @@
 					"patching_rect" : [ 233.0, 43.0, 36.0, 16.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 35.470227875818267, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 35.470227875818267, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -149,7 +148,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 58.0, 241.75, 68.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.324427030955718, 5.473036915063858, 20.041760437190533, 20.0 ],
+					"presentation_rect" : [ 47.324427030955718, 2.473036915063858, 20.041760437190533, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "color-"
@@ -169,7 +168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 58.0, 241.75, 69.707317113876343, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.068772159491942, 7.983476534485817, 16.784136585891247, 13.3767827898264 ],
+					"presentation_rect" : [ 49.068772159491942, 4.983476534485817, 16.784136585891247, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -394,7 +393,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 531.0, 36.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 70.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 70.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -432,7 +431,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"oncolor" : [ 0.131302, 0.999697, 0.023594, 1.0 ],
+					"oncolor" : [ 0.986252, 0.007236, 0.027423, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 232.538977009388248, 463.001276284456253, 78.0, 78.0 ],

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
+		"rect" : [ 0.0, 63.0, 1318.0, 781.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -46,7 +46,6 @@
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -56,7 +55,7 @@
 					"patching_rect" : [ 55.0, 132.0, 60.0, 15.077813419194996 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 56.890125960111618, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 56.890125960111618, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -647,7 +646,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 12.0,
 									"id" : "obj-219",
 									"maxclass" : "live.text",
 									"mode" : 0,
@@ -676,7 +674,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 12.0,
 									"id" : "obj-218",
 									"maxclass" : "live.text",
 									"mode" : 0,
@@ -1095,7 +1092,7 @@
 									"patching_rect" : [ 941.5, 555.0, 92.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 144.0, 141.0, 23.0 ],
-									"text" : "11 Function calls",
+									"text" : "83 Function calls",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1120,7 +1117,7 @@
 									"patching_rect" : [ 796.5, 555.0, 84.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 124.0, 137.0, 23.0 ],
-									"text" : "35 Signals used",
+									"text" : "41 Signals used",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2132,7 +2129,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 137.0, 132.077813419194996, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 36.0, 56.890125960111618, 15.0 ],
+					"presentation_rect" : [ 4.0, 29.0, 62.384166352946124, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2171,7 +2168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.25, 25.842577278614044, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 70.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 70.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

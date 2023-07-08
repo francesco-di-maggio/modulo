@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -46,7 +46,6 @@
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -56,7 +55,7 @@
 					"patching_rect" : [ 143.0, 252.0, 54.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 42.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 42.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -77,7 +76,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -109,7 +108,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -121,7 +120,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -210,7 +209,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -252,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.0, 554.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 37 : 8 : 444",
+					"text" : "0 : 12 : 2 : 993",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -306,9 +305,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.5, 554.5, 96.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.797253370285034, 36.371792723306498, 57.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 77.797253370285034, 37.371792723306498, 60.202746629714966, 15.369636952877045 ],
 					"rounded" : 0.0,
-					"text" : "21 : 39 : 14",
+					"text" : "12 : 31 : 25",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
@@ -418,9 +417,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.0, 554.5, 96.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 36.371792723306498, 68.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 4.5, 37.371792723306498, 70.202746629714966, 15.369636952877045 ],
 					"rounded" : 0.0,
-					"text" : "7 / 7 / 2023",
+					"text" : "8 / 7 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"
@@ -436,7 +435,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 357.664669811725616, 20.203592836856842, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 142.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -621,22 +620,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-9" : [ "live.text[19]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

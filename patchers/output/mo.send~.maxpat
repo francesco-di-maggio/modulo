@@ -55,7 +55,7 @@
 					"patching_rect" : [ 33.0, 262.349999785423392, 54.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 49.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 49.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -341,7 +341,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 353.0, 292.499999642372245, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.903999477624893, 7.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 118.903999477624893, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -430,7 +430,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.0, 83.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 142.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

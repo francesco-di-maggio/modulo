@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 58.0, 142.0, 57.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -23,8 +23,8 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 3,
@@ -45,7 +45,6 @@
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -55,7 +54,7 @@
 					"patching_rect" : [ 47.092786306142557, 248.799999713897819, 75.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 75.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 70.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -116,7 +115,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 106.0, 524.0, 22.392995983362198, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.659307911992073, 8.734104052186012, 12.037416845560074, 11.531791895627975 ],
+					"presentation_rect" : [ 124.659307911992073, 5.734104052186012, 12.037416845560074, 11.531791895627975 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -156,7 +155,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 164.0, 248.799999713897819, 49.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.463317939684572, 35.871436963493636, 39.0, 15.0 ],
+					"presentation_rect" : [ 97.463317939684572, 35.871436963493636, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -213,7 +212,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 88.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 142.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -237,7 +236,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.0, 248.799999713897819, 49.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.463317939684572, 35.871436963493636, 41.356916382908821, 15.065377555787563 ],
+					"presentation_rect" : [ 96.463317939684572, 35.871436963493636, 41.356916382908821, 15.065377555787563 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

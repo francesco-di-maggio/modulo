@@ -45,7 +45,6 @@
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-5",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -55,7 +54,7 @@
 					"patching_rect" : [ 55.0, 20.0, 74.0, 13.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 69.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 69.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -99,7 +98,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 400.5, 204.79362338753333, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.19321417121941, 30.0, 39.0, 18.0 ],
+					"presentation_rect" : [ 24.19321417121941, 25.0, 39.0, 18.0 ],
 					"text" : "refresh",
 					"textjustification" : 1
 				}
@@ -114,7 +113,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 151.75, 679.194245569825739, 27.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.189659446943949, 30.0, 27.0, 18.0 ],
+					"presentation_rect" : [ 102.189659446943949, 25.0, 27.0, 18.0 ],
 					"text" : "port",
 					"textjustification" : 1
 				}
@@ -185,7 +184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 381.522581140200259, 275.732832530353051, 115.704837719599482, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.83926936018959, 46.199406911500773, 131.700780173508747, 20.0 ],
+					"presentation_rect" : [ 49.83926936018959, 41.199406911500773, 131.700780173508747, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -205,7 +204,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.522581140200259, 275.732832530353051, 115.704837719599482, 19.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.258301819674074, 49.449875940450511, 128.807926678958466, 13.530068526665389 ],
+					"presentation_rect" : [ 53.258301819674074, 44.449875940450511, 128.807926678958466, 13.530068526665389 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -246,7 +245,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.392595127224922, 679.194245569825739, 22.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 183.90338773826727, 30.0, 22.0, 18.0 ],
+					"presentation_rect" : [ 183.90338773826727, 25.0, 22.0, 18.0 ],
 					"text" : "CH",
 					"textjustification" : 1
 				}
@@ -703,7 +702,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 288.375, 278.232832530353051, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 183.90338773826727, 48.449875940450511, 24.0103358139595, 15.0 ],
+					"presentation_rect" : [ 183.90338773826727, 43.449875940450511, 24.0103358139595, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1988,7 +1987,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 383.5, 207.057165484274549, 19.0, 15.736457903258781 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.450261084517962, 47.871792723306498, 16.485906173402896, 15.0 ],
+					"presentation_rect" : [ 35.450261084517962, 42.871792723306498, 16.485906173402896, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2507,7 +2506,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 571.375, 278.232832530353051, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.985257112979639, 7.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.985257112979639, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2549,7 +2548,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 774.7545314192771, 48.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

@@ -168,7 +168,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 165.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 165.0, 70.0, 57.5 ],
 					"varname" : "mo.latch",
 					"viewvisibility" : 1
 				}

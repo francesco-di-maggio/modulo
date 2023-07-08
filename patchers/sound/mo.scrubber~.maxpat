@@ -45,7 +45,6 @@
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -55,7 +54,7 @@
 					"patching_rect" : [ 219.51169328366268, 645.0, 68.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 7.0, 70.202705264091492, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 70.202705264091492, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -2021,7 +2020,6 @@
 					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : 18.0,
 					"id" : "obj-163",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -2497,7 +2495,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 554.51169328366268, 1021.294274534456122, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.335484325948755, 7.371792723306498, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 281.335484325948755, 4.371792723306498, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -2867,7 +2865,7 @@
 				"box" : 				{
 					"comment" : "(list) mode, playpos, stretch, randpos, playstop, graindur. transp, aleaoct, quant, panrand, gain",
 					"id" : "obj-72",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3049,7 +3047,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 447.559717121294284, 1117.470594284456183, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 384.143937796120213, 7.371792723306498, 39.0, 15.0 ],
+					"presentation_rect" : [ 387.143937796120213, 4.371792723306498, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3664,7 +3662,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6342,7 +6340,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 336.636435894454962, 805.842577278614044, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 430.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 430.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -7241,6 +7239,51 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "live.numbox[1]", "live.dial[12]", 0 ],
+			"obj-102" : [ "live.text[4]", "live.text", 0 ],
+			"obj-136" : [ "live.text[25]", "live.text", 0 ],
+			"obj-163" : [ "live.text[6]", "live.text", 0 ],
+			"obj-48" : [ "live.numbox[141]", "live.dial[12]", 0 ],
+			"obj-49" : [ "live.numbox[7]", "live.dial[12]", 0 ],
+			"obj-61" : [ "length-", "length-", 0 ],
+			"obj-8" : [ "live.text[26]", "live.text", 0 ],
+			"obj-9" : [ "live.numbox[10]", "live.dial[12]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
