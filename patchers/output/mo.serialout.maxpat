@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -952,7 +952,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 718.90126629102781, 218.126276284456253, 46.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 36.132189824653828, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 4.0, 39.132189824653828, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1130,7 +1130,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 405.0, 390.0, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.947631977238451, 34.148713290168011, 111.052368022761556, 20.0 ],
+					"presentation_rect" : [ 23.947631977238451, 37.148713290168011, 112.052368022761556, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "port-"
 				}
@@ -1149,7 +1149,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 390.0, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.05472107950667, 37.132189824653828, 114.017664946875783, 13.3767827898264 ],
+					"presentation_rect" : [ 22.05472107950667, 40.132189824653828, 115.017664946875783, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1387.0, 848.0 ],
+		"rect" : [ 34.0, 90.0, 956.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 1387.0, 822.0 ],
+						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -734,7 +734,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1387.0, 822.0 ],
+						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1325,7 +1325,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1387.0, 822.0 ],
+						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1542,7 +1542,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1387.0, 822.0 ],
+						"rect" : [ 34.0, 116.0, 956.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2051,7 +2051,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1387.0, 822.0 ],
+						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3173,7 +3173,7 @@
 			"obj-2::obj-10::obj-107::obj-68" : [ "live.numbox[360]", "live.numbox", 0 ],
 			"obj-2::obj-10::obj-107::obj-72" : [ "live.numbox[358]", "live.numbox", 0 ],
 			"obj-2::obj-10::obj-12" : [ "live.text[579]", "live.text", 0 ],
-			"obj-2::obj-10::obj-123::obj-35" : [ "live.text[563]", "live.text", 0 ],
+			"obj-2::obj-10::obj-123::obj-35" : [ "live.text[678]", "live.text", 0 ],
 			"obj-2::obj-10::obj-123::obj-66" : [ "live.numbox[352]", "live.numbox", 0 ],
 			"obj-2::obj-10::obj-123::obj-68" : [ "live.numbox[353]", "live.numbox", 0 ],
 			"obj-2::obj-10::obj-123::obj-72" : [ "live.numbox[354]", "live.numbox", 0 ],
@@ -3271,7 +3271,7 @@
 			"obj-2::obj-18::obj-6" : [ "live.text[608]", "live.text", 0 ],
 			"obj-2::obj-19::obj-107::obj-1" : [ "live.text[611]", "live.text", 0 ],
 			"obj-2::obj-19::obj-12" : [ "live.text[625]", "live.text", 0 ],
-			"obj-2::obj-19::obj-123::obj-1" : [ "live.text[609]", "live.text", 0 ],
+			"obj-2::obj-19::obj-123::obj-1" : [ "live.text[743]", "live.text", 0 ],
 			"obj-2::obj-19::obj-1::obj-1" : [ "live.text[612]", "live.text", 0 ],
 			"obj-2::obj-19::obj-36::obj-1" : [ "live.text[613]", "live.text", 0 ],
 			"obj-2::obj-19::obj-40::obj-1" : [ "live.text[614]", "live.text", 0 ],
@@ -3289,15 +3289,16 @@
 			"obj-2::obj-19::obj-74::obj-1" : [ "live.text[610]", "live.text", 0 ],
 			"obj-2::obj-19::obj-95" : [ "number[162]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-1" : [ "live.text[535]", "live.text", 0 ],
+			"obj-2::obj-1::obj-45" : [ "live.text[680]", "live.text", 0 ],
 			"obj-2::obj-1::obj-64" : [ "live.numbox[300]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
 			"obj-2::obj-20::obj-45" : [ "live.text[626]", "live.text", 0 ],
 			"obj-2::obj-20::obj-6" : [ "live.text[627]", "live.text", 0 ],
-			"obj-2::obj-20::obj-64" : [ "live.numbox[389]", "live.numbox", 0 ],
+			"obj-2::obj-20::obj-64" : [ "live.numbox[424]", "live.numbox", 0 ],
 			"obj-2::obj-21::obj-107::obj-35" : [ "live.text[633]", "live.text", 0 ],
 			"obj-2::obj-21::obj-107::obj-45" : [ "live.text[632]", "live.text", 0 ],
 			"obj-2::obj-21::obj-107::obj-72" : [ "live.numbox[392]", "live.numbox", 0 ],
-			"obj-2::obj-21::obj-123::obj-35" : [ "live.text[629]", "live.text", 0 ],
+			"obj-2::obj-21::obj-123::obj-35" : [ "live.text[727]", "live.text", 0 ],
 			"obj-2::obj-21::obj-123::obj-45" : [ "live.text[628]", "live.text", 0 ],
 			"obj-2::obj-21::obj-123::obj-72" : [ "live.numbox[390]", "live.numbox", 0 ],
 			"obj-2::obj-21::obj-1::obj-35" : [ "live.text[635]", "live.text", 0 ],
@@ -3429,7 +3430,8 @@
 			"obj-2::obj-8::obj-41" : [ "live.button[10]", "live.button", 0 ],
 			"obj-2::obj-8::obj-72" : [ "live.numbox[349]", "live.numbox", 0 ],
 			"obj-2::obj-9::obj-1" : [ "live.text[562]", "live.text", 0 ],
-			"obj-2::obj-9::obj-64" : [ "live.numbox[351]", "live.numbox", 0 ],
+			"obj-2::obj-9::obj-45" : [ "live.text[679]", "live.text", 0 ],
+			"obj-2::obj-9::obj-64" : [ "live.numbox[423]", "live.numbox", 0 ],
 			"obj-2::obj-9::obj-72" : [ "live.numbox[350]", "live.numbox", 0 ],
 			"obj-3::obj-1::obj-12" : [ "live.text[262]", "live.text", 0 ],
 			"obj-3::obj-1::obj-125" : [ "live.numbox[8]", "live.dial[12]", 0 ],
@@ -3520,7 +3522,7 @@
 			"obj-4::obj-12::obj-107::obj-2" : [ "live.text[442]", "live.text", 0 ],
 			"obj-4::obj-12::obj-107::obj-37" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-4::obj-12::obj-107::obj-68" : [ "live.numbox[138]", "live.numbox", 0 ],
-			"obj-4::obj-12::obj-123::obj-2" : [ "live.text[440]", "live.text", 0 ],
+			"obj-4::obj-12::obj-123::obj-2" : [ "live.text[682]", "live.text", 0 ],
 			"obj-4::obj-12::obj-123::obj-37" : [ "live.tab", "live.tab", 0 ],
 			"obj-4::obj-12::obj-123::obj-68" : [ "live.numbox[169]", "live.numbox", 0 ],
 			"obj-4::obj-12::obj-1::obj-2" : [ "live.text[443]", "live.text", 0 ],
@@ -3689,7 +3691,7 @@
 			"obj-4::obj-17::obj-107::obj-35" : [ "live.text[503]", "live.text", 0 ],
 			"obj-4::obj-17::obj-107::obj-39" : [ "live.text[504]", "live.text", 0 ],
 			"obj-4::obj-17::obj-123::obj-17" : [ "live.numbox[274]", "live.numbox", 0 ],
-			"obj-4::obj-17::obj-123::obj-35" : [ "live.text[500]", "live.text", 0 ],
+			"obj-4::obj-17::obj-123::obj-35" : [ "live.text[683]", "live.text", 0 ],
 			"obj-4::obj-17::obj-123::obj-39" : [ "live.text[499]", "live.text", 0 ],
 			"obj-4::obj-17::obj-1::obj-17" : [ "live.numbox[277]", "live.numbox", 0 ],
 			"obj-4::obj-17::obj-1::obj-35" : [ "live.text[506]", "live.text", 0 ],
@@ -3764,7 +3766,7 @@
 			"obj-4::obj-2::obj-107::obj-66" : [ "live.numbox[131]", "live.numbox", 0 ],
 			"obj-4::obj-2::obj-107::obj-68" : [ "live.numbox[130]", "live.numbox", 0 ],
 			"obj-4::obj-2::obj-107::obj-82" : [ "live.text[463]", "live.text", 0 ],
-			"obj-4::obj-2::obj-123::obj-35" : [ "live.text[418]", "live.text", 0 ],
+			"obj-4::obj-2::obj-123::obj-35" : [ "live.text[681]", "live.text", 0 ],
 			"obj-4::obj-2::obj-123::obj-53" : [ "live.numbox[125]", "live.numbox", 0 ],
 			"obj-4::obj-2::obj-123::obj-66" : [ "live.numbox[124]", "live.numbox", 0 ],
 			"obj-4::obj-2::obj-123::obj-68" : [ "live.numbox[126]", "live.numbox", 0 ],
@@ -5076,6 +5078,14 @@
 					"parameter_longname" : "live.text[3]"
 				}
 ,
+				"obj-1::obj-5::obj-3" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-5::obj-35" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
 				"obj-1::obj-7::obj-6" : 				{
 					"parameter_longname" : "live.text[9]"
 				}
@@ -5117,7 +5127,11 @@
 				}
 ,
 				"obj-2::obj-10::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[563]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[678]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-2::obj-10::obj-123::obj-66" : 				{
@@ -5505,7 +5519,11 @@
 				}
 ,
 				"obj-2::obj-19::obj-123::obj-1" : 				{
-					"parameter_longname" : "live.text[609]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[743]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-2::obj-19::obj-1::obj-1" : 				{
@@ -5572,6 +5590,14 @@
 					"parameter_longname" : "live.text[535]"
 				}
 ,
+				"obj-2::obj-1::obj-45" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[680]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-2::obj-1::obj-64" : 				{
 					"parameter_longname" : "live.numbox[300]"
 				}
@@ -5585,7 +5611,7 @@
 				}
 ,
 				"obj-2::obj-20::obj-64" : 				{
-					"parameter_longname" : "live.numbox[389]"
+					"parameter_longname" : "live.numbox[424]"
 				}
 ,
 				"obj-2::obj-21::obj-107::obj-35" : 				{
@@ -5601,7 +5627,11 @@
 				}
 ,
 				"obj-2::obj-21::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[629]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[727]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-2::obj-21::obj-123::obj-45" : 				{
@@ -6088,8 +6118,17 @@
 					"parameter_longname" : "live.text[562]"
 				}
 ,
+				"obj-2::obj-9::obj-45" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[679]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-2::obj-9::obj-64" : 				{
-					"parameter_longname" : "live.numbox[351]"
+					"parameter_longname" : "live.numbox[423]",
+					"parameter_unitstyle" : 8
 				}
 ,
 				"obj-2::obj-9::obj-72" : 				{
@@ -6341,7 +6380,11 @@
 				}
 ,
 				"obj-4::obj-12::obj-123::obj-2" : 				{
-					"parameter_longname" : "live.text[440]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[682]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-4::obj-12::obj-123::obj-68" : 				{
@@ -6969,7 +7012,11 @@
 				}
 ,
 				"obj-4::obj-17::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[500]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[683]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-4::obj-17::obj-123::obj-39" : 				{
@@ -7269,7 +7316,11 @@
 				}
 ,
 				"obj-4::obj-2::obj-123::obj-35" : 				{
-					"parameter_longname" : "live.text[418]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[681]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-4::obj-2::obj-123::obj-53" : 				{
@@ -8337,8 +8388,8 @@
 			}
 , 			{
 				"name" : "mo.adstatus.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8351,8 +8402,8 @@
 			}
 , 			{
 				"name" : "mo.audiotester.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8386,29 +8437,29 @@
 			}
 , 			{
 				"name" : "mo.console.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.cpu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.crosspatch~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8428,8 +8479,8 @@
 			}
 , 			{
 				"name" : "mo.cue.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8442,8 +8493,8 @@
 			}
 , 			{
 				"name" : "mo.date.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8505,8 +8556,8 @@
 			}
 , 			{
 				"name" : "mo.gain~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8589,8 +8640,8 @@
 			}
 , 			{
 				"name" : "mo.lfo~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8603,22 +8654,22 @@
 			}
 , 			{
 				"name" : "mo.map.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.matrix.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.matrix~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8652,15 +8703,15 @@
 			}
 , 			{
 				"name" : "mo.monitor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.mouse.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8687,8 +8738,8 @@
 			}
 , 			{
 				"name" : "mo.notepad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8736,8 +8787,8 @@
 			}
 , 			{
 				"name" : "mo.panel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8764,15 +8815,15 @@
 			}
 , 			{
 				"name" : "mo.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.preset.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8813,15 +8864,15 @@
 			}
 , 			{
 				"name" : "mo.record.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.record~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8834,8 +8885,8 @@
 			}
 , 			{
 				"name" : "mo.route.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8988,8 +9039,8 @@
 			}
 , 			{
 				"name" : "mo.swatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9009,8 +9060,8 @@
 			}
 , 			{
 				"name" : "mo.timer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -53,7 +53,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
-					"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -62,7 +62,7 @@
 					"patching_rect" : [ 774.5, 521.342105031013602, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 22.454500113671628, 36.148713290168011, 116.428799697015762, 20.0 ],
+					"presentation_rect" : [ 22.454500113671628, 37.148713290168011, 115.428799697015762, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -82,7 +82,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 773.5, 520.342105031013602, 101.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.454500113671628, 38.904060288740361, 116.428799697015762, 13.420286163687706 ],
+					"presentation_rect" : [ 22.454500113671628, 39.904060288740361, 115.428799697015762, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -153,7 +153,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 102.285429396231621, 520.342105031013602, 22.392995983362198, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.248351648449898, 5.922495447099209, 12.037416845560074, 11.531791895627975 ],
+					"presentation_rect" : [ 66.248351648449898, 5.922495447099209, 12.037416845560074, 11.531791895627975 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -196,7 +196,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1228.204837719599254, 207.126276284456253, 51.726473801069744, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.113000654965106, 4.0, 17.73973374685697, 15.0 ],
+					"presentation_rect" : [ 80.113000654965106, 4.0, 17.73973374685697, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -212,7 +212,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[663]",
+							"parameter_longname" : "live.text[559]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -235,7 +235,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 552.329837719599254, 200.626276284456253, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.613000654965106, 21.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 85.613000654965106, 22.0, 42.0, 18.0 ],
 					"text" : "channel",
 					"textjustification" : 1
 				}
@@ -254,7 +254,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 501.0, 201.626276284456253, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.113000654965106, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 97.113000654965106, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -273,7 +273,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[423]",
+							"parameter_longname" : "live.numbox[349]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -309,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 103.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.113000654965106, 2.0, 17.246713347993108, 20.0 ],
+					"presentation_rect" : [ 121.113000654965106, 2.0, 17.246713347993108, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "hires-"
@@ -329,7 +329,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 103.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.113000654965106, 5.0, 18.246713347993108, 13.376782789826393 ],
+					"presentation_rect" : [ 119.113000654965106, 5.0, 18.246713347993108, 13.376782789826393 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -350,7 +350,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 701.90126629102781, 200.626276284456253, 56.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.132189824653835, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 4.0, 39.132189824653835, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 685.0, 590.0 ],
+		"rect" : [ 34.0, 100.0, 685.0, 581.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -145,11 +145,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 295.0, 299.0, 79.0 ],
+					"patching_rect" : [ 433.0, 295.0, 264.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 19.166666666666742, 494.5, 299.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Turn on the fm~ synthesizer.\n2. Use the sliders to control the sound parameters.\n3. (Optional) Set different scaling factors (min/max)."
+					"presentation_rect" : [ 19.166666666666742, 471.5, 264.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Turn on the fm~ synthesizer.\n2. Use sliders to control the sound parameters.\n3. (Optional) Set different scaling factors."
 				}
 
 			}
@@ -169,9 +169,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 657.0, 716.30748558486016, 70.0, 87.0 ],
+					"patching_rect" : [ 793.0, 716.30748558486016, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 595.166666666666742, 486.5, 70.0, 87.0 ],
+					"presentation_rect" : [ 595.166666666666742, 471.5, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -334,7 +334,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -348,9 +347,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 433.0, 716.30748558486016, 214.0, 87.0 ],
+					"patching_rect" : [ 433.0, 716.30748558486016, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.166666666666742, 486.5, 214.0, 87.0 ],
+					"presentation_rect" : [ 307.166666666666742, 471.5, 286.0, 87.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -438,13 +437,13 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 249, 100, 603, 228 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 249, 100, 700, 228 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.sends", "mo.scale", "mo.fm~", "mo.sliders" ],
+					"subscribe" : [ "mo.scale", "mo.sliders", "mo.sends", "mo.fm~" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}
@@ -616,9 +615,10 @@
 			"obj-18::obj-74::obj-35" : [ "live.text[93]", "live.text", 0 ],
 			"obj-18::obj-74::obj-8" : [ "live.text[1]", "live.text", 0 ],
 			"obj-18::obj-74::obj-9" : [ "slider-[3]", "slider-[2]", 0 ],
-			"obj-1::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[4]", "volume", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[666]", "live.text", 0 ],
 			"obj-2::obj-111" : [ "live.dial[21]", "detune", 0 ],
 			"obj-2::obj-112" : [ "live.dial[23]", "decay", 0 ],
 			"obj-2::obj-113" : [ "live.dial", "attack", 0 ],
@@ -971,18 +971,6 @@
 ,
 				"obj-18::obj-74::obj-8" : 				{
 					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-1::obj-45" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-1::obj-56" : 				{
-					"parameter_longname" : "live.numbox[50]"
-				}
-,
-				"obj-1::obj-7" : 				{
-					"parameter_longname" : "live.text"
 				}
 ,
 				"obj-2::obj-12" : 				{

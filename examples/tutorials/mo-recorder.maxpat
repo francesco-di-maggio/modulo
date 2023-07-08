@@ -884,6 +884,10 @@
 					"parameter_longname" : "live.text[11]"
 				}
 ,
+				"obj-26::obj-9" : 				{
+					"parameter_longname" : "live.text[94]"
+				}
+,
 				"obj-26::obj-92" : 				{
 					"parameter_longname" : "live.text[10]"
 				}
@@ -990,15 +994,15 @@
 			}
 , 			{
 				"name" : "mo.record.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.record~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

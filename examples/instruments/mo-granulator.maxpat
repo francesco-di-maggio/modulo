@@ -88,15 +88,15 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-22",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 872.375, 597.726974681019783, 476.0, 107.0 ],
+					"patching_rect" : [ 872.375, 597.726974681019783, 483.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 18.875, 632.21658106893301, 546.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Load the preset.\n2. Load sample, or drag your own of the waveform object. \n2. Use the sliders to control the sound parameters, and the pads to turn playback and mode on/off.\n3. (Optional) Set different scaling factors (min/max)."
+					"presentation_rect" : [ 18.875, 632.21658106893301, 483.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Load the preset.\n2. Load sample, or drag your own of the waveform object. \n2. Use sliders to control sound parameters, and pads to turn playback and mode on/off.\n3. (Optional) Set different scaling factors."
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1232.375, 440.408813155761891, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 810.875, 638.21658106893301, 70.0, 87.0 ],
+					"presentation_rect" : [ 810.875, 623.21658106893301, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -297,7 +297,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mute", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -311,9 +310,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 872.375, 440.408813155761891, 214.0, 87.0 ],
+					"patching_rect" : [ 872.375, 440.408813155761891, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 594.875, 638.21658106893301, 214.0, 87.0 ],
+					"presentation_rect" : [ 522.875, 623.21658106893301, 286.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
 				}
@@ -411,10 +410,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage p-granulator @savemode 3 @autorestore 1 @changemode 1",
@@ -613,9 +612,10 @@
 			"obj-3::obj-74::obj-72" : [ "live.numbox[78]", "live.numbox", 0 ],
 			"obj-3::obj-74::obj-9" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-3::obj-8" : [ "live.text[109]", "live.text", 0 ],
-			"obj-40::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-40::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-40::obj-45" : [ "live.gain~[4]", "volume", 0 ],
+			"obj-40::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-40::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-40::obj-8" : [ "live.text[666]", "live.text", 0 ],
 			"obj-4::obj-107::obj-1" : [ "live.text[197]", "live.text", 0 ],
 			"obj-4::obj-123::obj-1" : [ "live.text[195]", "live.text", 0 ],
 			"obj-4::obj-1::obj-1" : [ "live.text[198]", "live.text", 0 ],
@@ -1277,18 +1277,6 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
-				"obj-40::obj-45" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-40::obj-56" : 				{
-					"parameter_longname" : "live.numbox[50]"
-				}
-,
-				"obj-40::obj-7" : 				{
-					"parameter_longname" : "live.text"
-				}
-,
 				"obj-4::obj-107::obj-1" : 				{
 					"parameter_longname" : "live.text[197]"
 				}
@@ -1813,6 +1801,10 @@
 					"parameter_longname" : "live.text[137]"
 				}
 ,
+				"obj-8::obj-10" : 				{
+					"parameter_longname" : "live.numbox[57]"
+				}
+,
 				"obj-8::obj-152" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[54]",
@@ -1825,16 +1817,45 @@
 					"parameter_longname" : "live.numbox[143]"
 				}
 ,
+				"obj-8::obj-161" : 				{
+					"parameter_longname" : "live.numbox[71]"
+				}
+,
+				"obj-8::obj-163" : 				{
+					"parameter_longname" : "live.text[218]"
+				}
+,
 				"obj-8::obj-166" : 				{
 					"parameter_longname" : "live.numbox[111]"
 				}
 ,
+				"obj-8::obj-167" : 				{
+					"parameter_longname" : "live.numbox[61]"
+				}
+,
+				"obj-8::obj-168" : 				{
+					"parameter_longname" : "live.dial[12]"
+				}
+,
 				"obj-8::obj-169" : 				{
+					"parameter_longname" : "live.numbox[55]",
 					"parameter_range" : [ 5.0, 600000.0 ]
+				}
+,
+				"obj-8::obj-171" : 				{
+					"parameter_longname" : "live.numbox[59]"
+				}
+,
+				"obj-8::obj-19" : 				{
+					"parameter_longname" : "live.numbox[56]"
 				}
 ,
 				"obj-8::obj-5" : 				{
 					"parameter_longname" : "live.text[47]"
+				}
+,
+				"obj-8::obj-88" : 				{
+					"parameter_longname" : "live.text[219]"
 				}
 
 			}

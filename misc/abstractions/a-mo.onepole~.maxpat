@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 296.0, 100.0, 1182.0, 848.0 ],
+		"rect" : [ 34.0, 90.0, 956.0, 541.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -94,7 +94,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 124.0, 220.761121961805657, 129.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.225206084628894, -0.058990031480789, 131.14857724907381, 15.326095938682556 ],
+					"presentation_rect" : [ 26.225206084628894, -0.058990031480789, 132.14857724907381, 15.326095938682556 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -330,7 +330,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 348.0, 303.738878038194343, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.693511231346747, -0.058990031480789, 50.0, 15.0 ],
+					"presentation_rect" : [ 159.693511231346747, -0.058990031480789, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -348,7 +348,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[70]",
+							"parameter_longname" : "live.numbox[169]",
 							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -398,9 +398,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 24.666666666666657, 128.869429976851961, 44.0, 15.0 ],
+					"patching_rect" : [ 24.666666666666657, 128.869429976851961, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.841263920068741, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -424,7 +424,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[103]",
+							"parameter_longname" : "live.text[682]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

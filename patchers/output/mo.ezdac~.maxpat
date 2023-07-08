@@ -53,7 +53,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 214.083333333333258, 229.378190711140633, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.860380793396871, 34.0, 14.900888606905937, 15.0 ],
+					"presentation_rect" : [ 50.860380793396871, 26.0, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -73,7 +73,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[52]",
+							"parameter_longname" : "live.text[554]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -147,7 +147,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[51]",
+							"parameter_longname" : "live.text[555]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -257,7 +257,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"color" : [ 0.298039215686275, 0.749019607843137, 0.980392156862745, 1.0 ],
+					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "mc.ezdac~",
@@ -265,7 +265,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.842786306142557, 337.501276284456253, 61.5, 61.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 30.198500698025782, 54.173292025280716, 54.173292025280716 ]
+					"presentation_rect" : [ 5.634959508364041, 25.0, 60.226373607699315, 60.226373607699315 ],
+					"saved_attribute_attributes" : 					{
+						"color" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
 				}
 
 			}
@@ -292,6 +299,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
+					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -300,9 +308,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.842786306142557, 337.501276284456253, 62.0, 61.5 ],
+					"patching_rect" : [ 94.342786306142557, 337.501276284456253, 65.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.301499301974218, 35.0, 45.768794119358063, 45.570293421332281 ],
+					"presentation_rect" : [ 4.634959508364041, 27.120293850485723, 60.106079757213585, 55.106079757213593 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

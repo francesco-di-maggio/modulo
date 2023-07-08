@@ -100,7 +100,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[65]",
+							"parameter_longname" : "live.text[434]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -305,7 +305,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 276.872310342721619, 327.0, 47.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 38.371792723306498, 60.0, 15.0 ],
+					"presentation_rect" : [ 3.5, 38.371792723306498, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -322,7 +322,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 200 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[75]",
+							"parameter_longname" : "live.numbox[164]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,

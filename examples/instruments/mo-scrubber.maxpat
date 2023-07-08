@@ -54,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1232.375, 440.408813155761891, 70.0, 87.0 ],
+					"patching_rect" : [ 1340.375, 481.985231117407579, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 583.875, 652.21658106893301, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
@@ -108,51 +108,6 @@
 					"presentation_rect" : [ 7.875, 113.238028012216091, 214.0, 118.0 ],
 					"varname" : "mo.rsliders",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 3,
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 815.70833333333303, 512.985231117407579, 115.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 208.70833333333303, 680.511545710265636, 115.0, 39.0 ],
-					"text" : "1. start playback\n2. unmute dac~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-18",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 939.83333333333303, 522.485231117407579, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 331.83333333333303, 690.011545710265636, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "2",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -317,9 +272,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 980.375, 481.985231117407579, 214.0, 87.0 ],
+					"patching_rect" : [ 980.375, 481.985231117407579, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.875, 652.21658106893301, 214.0, 87.0 ],
+					"presentation_rect" : [ 295.875, 652.21658106893301, 286.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
 				}
@@ -412,10 +367,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage p-scrubber @savemode 3 @autorestore 1 @changemode 1",
@@ -633,9 +588,10 @@
 			"obj-31::obj-50::obj-1" : [ "live.text[241]", "live.text", 0 ],
 			"obj-31::obj-56" : [ "live.numbox[61]", "live.numbox", 0 ],
 			"obj-31::obj-74::obj-1" : [ "live.text[154]", "live.text", 0 ],
-			"obj-40::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-40::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-40::obj-45" : [ "live.gain~[4]", "volume", 0 ],
+			"obj-40::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-40::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-40::obj-8" : [ "live.text[666]", "live.text", 0 ],
 			"obj-4::obj-107::obj-1" : [ "live.text[197]", "live.text", 0 ],
 			"obj-4::obj-123::obj-1" : [ "live.text[195]", "live.text", 0 ],
 			"obj-4::obj-1::obj-1" : [ "live.text[198]", "live.text", 0 ],
@@ -1029,6 +985,14 @@
 					"parameter_longname" : "live.text[160]"
 				}
 ,
+				"obj-23::obj-10" : 				{
+					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-23::obj-7" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
 				"obj-24::obj-107::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
@@ -1303,18 +1267,6 @@
 ,
 				"obj-31::obj-74::obj-1" : 				{
 					"parameter_longname" : "live.text[154]"
-				}
-,
-				"obj-40::obj-45" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-40::obj-56" : 				{
-					"parameter_longname" : "live.numbox[50]"
-				}
-,
-				"obj-40::obj-7" : 				{
-					"parameter_longname" : "live.text"
 				}
 ,
 				"obj-4::obj-107::obj-1" : 				{
@@ -1637,8 +1589,16 @@
 					"parameter_unitstyle" : 10
 				}
 ,
+				"obj-8::obj-163" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
 				"obj-8::obj-48" : 				{
 					"parameter_longname" : "live.numbox[141]"
+				}
+,
+				"obj-8::obj-49" : 				{
+					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-8::obj-8" : 				{
