@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[279]",
+							"parameter_longname" : "live.text[282]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -156,7 +156,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1022.0, 602.894332999999961, 18.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.392887208967409, 4.194141161509847, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 326.392887208967409, 4.194141161509847, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -200,7 +200,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[29]",
+							"parameter_longname" : "live.text[279]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -908,7 +908,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.2 ],
-							"parameter_longname" : "live.numbox[7]",
+							"parameter_longname" : "live.numbox[82]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -1013,7 +1013,6 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-112",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1302,7 +1301,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "live.text[280]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1353,7 +1352,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[283]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1468,7 +1467,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[143]",
+							"parameter_longname" : "live.text[281]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1792,7 +1791,7 @@
 					"presentation_rect" : [ 171.25, 128.074071685473115, 46.792874625534353, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[28]",
+							"parameter_longname" : "live.dial[32]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "probability",
 							"parameter_type" : 0,
@@ -2618,7 +2617,6 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3783,7 +3781,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 753.909038386174643, 2019.46480342258883, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.912978012218673, 4.194141161509847, 39.0, 15.0 ],
+					"presentation_rect" : [ 282.912978012218673, 4.194141161509847, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3807,7 +3805,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[278]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3952,7 +3950,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 254.051895529031754, 1527.299986302852631, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.368159608651126, 4.194141161509847, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 326.368159608651126, 4.194141161509847, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
@@ -5016,7 +5014,7 @@
 					"presentation_rect" : [ 171.25, 82.074071685473115, 49.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[29]",
+							"parameter_longname" : "live.dial[31]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,

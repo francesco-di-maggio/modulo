@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[152]",
+							"parameter_longname" : "live.text[269]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -163,7 +163,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_longname" : "live.text[103]",
+							"parameter_longname" : "live.text[267]",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "octave",
@@ -3434,7 +3434,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[150]",
+							"parameter_longname" : "live.text[270]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3586,7 +3586,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.022798042028455, 722.968613760349285, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.626282487168453, 4.0, 39.0, 15.0 ],
+					"presentation_rect" : [ 282.626282487168453, 4.0, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3610,7 +3610,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[17]",
+							"parameter_longname" : "live.text[268]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3781,7 +3781,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 544.051895529031754, 648.73012338822366, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 284.111910476142782, 4.0, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 326.111910476142782, 4.0, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 1318.0, 781.0 ],
+		"rect" : [ 0.0, 58.0, 70.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -76,7 +76,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[291]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -659,7 +659,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[3]",
+											"parameter_longname" : "live.text[289]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text[33]",
 											"parameter_type" : 2
@@ -687,7 +687,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[4]",
+											"parameter_longname" : "live.text[290]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text[33]",
 											"parameter_type" : 2
@@ -1092,7 +1092,7 @@
 									"patching_rect" : [ 941.5, 555.0, 92.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 144.0, 141.0, 23.0 ],
-									"text" : "83 Function calls",
+									"text" : "453 Function calls",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1117,7 +1117,7 @@
 									"patching_rect" : [ 796.5, 555.0, 84.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 124.0, 137.0, 23.0 ],
-									"text" : "41 Signals used",
+									"text" : "73 Signals used",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2145,7 +2145,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.dial[7]",
+							"parameter_longname" : "live.dial[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

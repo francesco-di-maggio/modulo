@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1644,7 +1644,7 @@
 														"output" : [ "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.ezdac~", "mo.gridmeter~", "mo.led", "mo.meter~", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.send", "mo.send~", "mo.sends", "mo.scope", "mo.scope~", "mo.serialout", "mo.spectroscope~", "mo.udpsend", "mo.udpsends", "mo.xbendout", "mo.xbendouts" ],
 														"sound" : [ "mo.buffer~", "mo.fm~", "mo.granulator~", "mo.playlist~", "mo.scrubber~", "mo.scrumbler~", "mo.theremini~" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.eq~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.nth", "mo.onepole~", "mo.pinch", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
-														"utilities" : [ "mo.adstatus", "mo.audiotester", "mo.console", "mo.cpu", "mo.crosspatch", "mo.crosspatch~", "mo.cue", "mo.date", "mo.gain~", "mo.lfo~", "mo.map", "mo.matrix", "mo.matrix~", "mo.monitor", "mo.mouse", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.swatch", "mo.timer" ]
+														"utility" : [ "mo.adstatus", "mo.audiotester", "mo.console", "mo.cpu", "mo.crosspatch", "mo.crosspatch~", "mo.cue", "mo.date", "mo.gain~", "mo.lfo~", "mo.map", "mo.matrix", "mo.matrix~", "mo.monitor", "mo.mouse", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.swatch", "mo.timer" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2869,7 +2869,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "input", "output", "sound", "transform", "utilities" ],
+											"parameter_enum" : [ "input", "output", "sound", "transform", "utility" ],
 											"parameter_longname" : "live.menu[25]",
 											"parameter_mmax" : 4,
 											"parameter_shortname" : "live.menu",
@@ -3548,7 +3548,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.15088, 0.32588, 0.33488, 0.10212, 0.15828, 0.49948 ],
+					"nsize" : [ 0.41432, 0.1632, 0.39912, 0.16596, 0.34288, 0.257 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3566,8 +3566,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.1044, 0.846, 0.7164, 0.7745, 0.8073, 0.5715 ],
-					"yplace" : [ 0.7809, 0.6964, 0.6572, 0.8681, 0.1707, 0.5789 ]
+					"xplace" : [ 0.5518, 0.9431, 0.5626, 0.8034, 0.3355, 0.087 ],
+					"yplace" : [ 0.8616, 0.552, 0.0745, 0.3132, 0.7122, 0.5738 ]
 				}
 
 			}

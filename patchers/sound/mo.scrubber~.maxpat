@@ -135,7 +135,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[129]",
+							"parameter_longname" : "live.text[277]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -215,7 +215,7 @@
 					"patching_rect" : [ 344.586089999999956, 475.409647284456241, 160.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.5, 44.371792723306498, 418.0, 66.0 ],
-					"setminmax" : [ 0.0, 9317.346938775510353 ],
+					"setminmax" : [ 0.0, 4000.0 ],
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"spacing" : 3,
@@ -1992,7 +1992,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[57]",
+							"parameter_longname" : "live.numbox[81]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -2044,7 +2044,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[161]",
+							"parameter_longname" : "live.text[275]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2107,7 +2107,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1.0 ],
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[276]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2555,9 +2555,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 554.51169328366268, 1021.294274534456122, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.335484325948755, 4.371792723306498, 99.522462437044851, 15.0 ],
+					"presentation_rect" : [ 326.335484325948755, 4.371792723306498, 99.522462437044851, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "scrubber",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -3108,7 +3107,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 447.559717121294284, 1117.470594284456183, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.143937796120213, 4.371792723306498, 39.0, 15.0 ],
+					"presentation_rect" : [ 283.143937796120213, 4.371792723306498, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3219,7 +3218,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -3898,7 +3896,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[7]",
+							"parameter_longname" : "live.numbox[112]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -4147,7 +4145,6 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-6",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4252,7 +4249,6 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-14",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -6311,7 +6307,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "scrubber-buf",
+					"buffername" : "0-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,
@@ -6334,7 +6330,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.196078431372549, 0.0 ],
-					"buffername" : "scrubber-buf",
+					"buffername" : "0-buf",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"grid" : 100.0,
