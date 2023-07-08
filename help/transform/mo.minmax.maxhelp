@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 433.0, 518.0 ],
+		"rect" : [ 34.0, 100.0, 433.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 474.0, 102.0, 21.0 ],
+					"patching_rect" : [ 99.0, 504.0, 102.0, 21.0 ],
 					"text" : "calibrated output"
 				}
 
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 435.0, 60.0, 21.0 ],
+					"patching_rect" : [ 224.0, 465.0, 60.0, 21.0 ],
 					"text" : "min - max"
 				}
 
@@ -108,7 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.140616000000001, 473.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.140616000000001, 503.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.140616000000001, 340.666666666666629, 70.0, 57.5 ],
+					"patching_rect" : [ 41.140616000000001, 340.666666666666629, 70.0, 87.0 ],
 					"varname" : "mo.calibrate",
 					"viewvisibility" : 1
 				}
@@ -230,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 434.0, 118.0, 23.0 ],
-					"text" : "-24.6 23.8"
+					"patching_rect" : [ 97.0, 464.0, 118.0, 23.0 ],
+					"text" : "99999. -99999."
 				}
 
 			}
@@ -286,7 +286,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
-					"midpoints" : [ 101.640615999999994, 420.0, 205.5, 420.0 ],
+					"midpoints" : [ 101.640615999999994, 450.0, 205.5, 450.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -294,7 +294,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 50.640616000000001, 399.0, 50.640616000000001, 399.0 ],
+					"midpoints" : [ 50.640616000000001, 429.0, 50.640616000000001, 429.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -318,7 +318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 50.5, 267.0, 50.640616000000001, 267.0 ],
+					"midpoints" : [ 50.5, 189.0, 50.640616000000001, 189.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -333,7 +333,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21::obj-37" : [ "live.text[26]", "live.text", 0 ],
+			"obj-21::obj-13" : [ "live.text[66]", "live.text", 0 ],
+			"obj-21::obj-16" : [ "live.text[34]", "live.text", 0 ],
+			"obj-21::obj-18" : [ "live.text[37]", "live.text", 0 ],
+			"obj-21::obj-37" : [ "live.text[35]", "live.text", 0 ],
+			"obj-21::obj-66" : [ "live.numbox[44]", "live.numbox", 0 ],
+			"obj-21::obj-68" : [ "live.numbox[45]", "live.numbox", 0 ],
+			"obj-21::obj-8" : [ "live.numbox[91]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -343,24 +349,13 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-21::obj-37" : 				{
-					"parameter_invisible" : 2,
-					"parameter_longname" : "live.text[26]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.minmax.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

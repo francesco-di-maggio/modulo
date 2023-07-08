@@ -248,6 +248,7 @@
  ],
 		"parameters" : 		{
 			"obj-16::obj-13" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-16::obj-9" : [ "live.text[138]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -259,6 +260,7 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-16::obj-13" : 				{
+					"parameter_longname" : "live.numbox[6]",
 					"parameter_unitstyle" : 2
 				}
 
@@ -269,8 +271,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.speedlim.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

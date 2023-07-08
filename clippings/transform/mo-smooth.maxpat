@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 57.5 ],
 					"varname" : "mo.smooth",
 					"viewvisibility" : 1
@@ -65,6 +65,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-13" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-15" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -86,8 +87,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.smooth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

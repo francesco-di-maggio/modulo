@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 346.0, 385.0 ],
+		"rect" : [ 34.0, 100.0, 377.0, 385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -142,18 +142,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 224.826568275690079, 243.0, 91.0, 64.0 ],
-					"text" : "NOTE:\n0.00 - 0.32 = 1\n0.33 - 0.65 = 2 \n0.66 - 1.00 = 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-14",
 					"maxclass" : "flonum",
@@ -195,11 +183,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.826568275690079, 165.5, 73.0, 25.0 ],
-					"text" : "set value"
+					"patching_rect" : [ 251.826568275690079, 144.0, 108.0, 68.0 ],
+					"text" : "set value:\n0.00 - 0.32 = 1\n0.33 - 0.65 = 2 \n0.66 - 1.00 = 3"
 				}
 
 			}
@@ -254,6 +243,7 @@
 			"obj-17::obj-103" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-17::obj-126" : [ "live.text[16]", "live.text", 0 ],
 			"obj-17::obj-16" : [ "live.text[1]", "live.text", 0 ],
+			"obj-17::obj-4" : [ "live.text[78]", "live.text", 0 ],
 			"obj-17::obj-51" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-17::obj-74" : [ "live.text[17]", "live.text", 0 ],
 			"obj-17::obj-75" : [ "live.text[18]", "live.text", 0 ],
@@ -271,12 +261,24 @@
 					"parameter_longname" : "live.numbox[5]"
 				}
 ,
+				"obj-17::obj-126" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
 				"obj-17::obj-16" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
 ,
 				"obj-17::obj-51" : 				{
 					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-17::obj-74" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-17::obj-75" : 				{
+					"parameter_longname" : "live.text[18]"
 				}
 
 			}

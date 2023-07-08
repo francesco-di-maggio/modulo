@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 379.0, 484.0 ],
+		"rect" : [ 34.0, 100.0, 379.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,10 +50,9 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 165.0, 172.0, 61.0 ],
+					"patching_rect" : [ 41.0, 165.0, 172.0, 23.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
 					"spacing" : 2
 				}
 
@@ -143,7 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 255.0, 67.0, 25.0 ],
+					"patching_rect" : [ 180.0, 210.0, 67.0, 25.0 ],
 					"text" : "set rate"
 				}
 
@@ -162,7 +161,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.0, 257.5, 20.0, 20.0 ],
+					"patching_rect" : [ 153.0, 212.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -178,7 +177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.255791574060595, 256.0, 50.0, 23.0 ],
+					"patching_rect" : [ 92.255791574060595, 211.0, 50.0, 23.0 ],
 					"varname" : "number"
 				}
 
@@ -199,7 +198,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 303.451566703617459, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 258.451566703617459, 70.0, 57.5 ],
 					"varname" : "mo.line",
 					"viewvisibility" : 1
 				}
@@ -216,12 +215,11 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 397.999999999999886, 172.0, 61.0 ],
+					"patching_rect" : [ 41.0, 337.999999999999886, 172.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.000000000000028, 314.999999999999886, 172.0, 61.0 ],
+					"presentation_rect" : [ 21.000000000000028, 314.999999999999886, 172.0, 23.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
 					"spacing" : 2,
 					"varname" : "mo.sliders[1]"
 				}
@@ -231,7 +229,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 50.5, 228.0, 50.5, 228.0 ],
+					"midpoints" : [ 50.5, 189.0, 50.5, 189.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -239,7 +237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 101.755791574060595, 282.0, 101.5, 282.0 ],
+					"midpoints" : [ 101.755791574060595, 237.0, 101.5, 237.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -247,7 +245,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 50.5, 363.0, 50.5, 363.0 ],
+					"midpoints" : [ 50.5, 318.0, 50.5, 318.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -255,7 +253,7 @@
  ],
 		"parameters" : 		{
 			"obj-5::obj-13" : [ "live.numbox[77]", "live.numbox", 0 ],
-			"obj-5::obj-21" : [ "live.text[89]", "live.text", 0 ],
+			"obj-5::obj-9" : [ "live.text[82]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -265,26 +263,21 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-5::obj-13" : 				{
+					"parameter_longname" : "live.numbox[77]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.poll.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

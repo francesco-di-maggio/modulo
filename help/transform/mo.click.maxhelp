@@ -129,7 +129,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 87.0, 92.0, 23.0, 22.0 ],
+									"patching_rect" : [ 87.0, 92.0, 23.0, 23.0 ],
 									"text" : "t 0"
 								}
 
@@ -141,7 +141,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 23.0, 92.0, 23.0, 22.0 ],
+									"patching_rect" : [ 23.0, 92.0, 23.0, 23.0 ],
 									"text" : "t 1"
 								}
 
@@ -153,7 +153,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 87.0, 62.0, 41.0, 22.0 ],
+									"patching_rect" : [ 87.0, 62.0, 41.0, 23.0 ],
 									"text" : "sel 32"
 								}
 
@@ -165,7 +165,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 23.0, 62.0, 41.0, 22.0 ],
+									"patching_rect" : [ 23.0, 62.0, 41.0, 23.0 ],
 									"text" : "sel 32"
 								}
 
@@ -177,7 +177,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 87.0, 21.0, 50.5, 22.0 ],
+									"patching_rect" : [ 87.0, 21.0, 50.5, 23.0 ],
 									"text" : "keyup"
 								}
 
@@ -189,7 +189,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 23.0, 21.0, 50.5, 22.0 ],
+									"patching_rect" : [ 23.0, 21.0, 50.5, 23.0 ],
 									"text" : "key"
 								}
 
@@ -356,12 +356,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 303.0, 99.0, 64.0 ],
-					"text" : "NOTE:\n•   = click\n•• = double-click\n— = hold"
+					"patching_rect" : [ 221.0, 288.0, 99.0, 79.0 ],
+					"text" : "NOTE:\n\n•   = click\n•• = double-click\n— = hold"
 				}
 
 			}
@@ -409,6 +409,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 280.0, 142.0, 87.0 ],
+					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
 
@@ -457,6 +458,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-126" : [ "live.text[62]", "live.text", 0 ],
+			"obj-1::obj-16" : [ "live.text[90]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-74" : [ "live.text[33]", "live.text", 0 ],
 			"obj-1::obj-75" : [ "live.text[50]", "live.text", 0 ],
@@ -475,8 +477,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.click.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

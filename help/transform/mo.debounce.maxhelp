@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 412.0, 402.0 ],
+		"rect" : [ 34.0, 100.0, 412.0, 395.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -412,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 40.783437728881836, 253.689380136132229, 70.0, 57.5 ],
 					"varname" : "mo.debounce",
 					"viewvisibility" : 1
@@ -452,8 +452,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-14" : [ "live.button[2]", "live.button", 0 ],
 			"obj-5::obj-5" : [ "live.dial[1]", "live.dial[20]", 0 ],
+			"obj-5::obj-9" : [ "live.text[64]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -468,8 +468,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.debounce.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

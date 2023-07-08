@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 398.0, 485.0 ],
+		"rect" : [ 34.0, 100.0, 403.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,18 +40,6 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 255.333333333333371, 339.0, 117.0, 122.0 ],
-					"text" : "NOTE:\nPossibile conditions:\n1 = ==\n2 = != \n3 = >\n4 = >=\n5 = <\n6 = <="
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
@@ -92,11 +80,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.333333333333371, 247.5, 98.0, 25.0 ],
-					"text" : "set condition "
+					"patching_rect" : [ 284.5, 204.0, 99.0, 111.0 ],
+					"text" : "set condition:\n1 = ==\n2 = != \n3 = >\n4 = >=\n5 = <\n6 = <="
 				}
 
 			}
@@ -218,7 +207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 437.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 452.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -238,7 +227,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 339.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 339.0, 70.0, 87.0 ],
 					"varname" : "mo.if",
 					"viewvisibility" : 1
 				}
@@ -307,7 +296,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 204.833333333333371, 274.0, 204.833333333333314, 274.0 ],
+					"midpoints" : [ 204.833333333333371, 273.0, 204.833333333333314, 273.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -315,7 +304,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 50.5, 399.0, 50.5, 399.0 ],
+					"midpoints" : [ 50.5, 429.0, 50.5, 429.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -323,7 +312,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 273.0, 50.5, 273.0 ],
+					"midpoints" : [ 50.5, 189.0, 50.5, 189.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -331,7 +320,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 101.5, 232.0, 101.5, 232.0 ],
+					"midpoints" : [ 101.5, 231.0, 101.5, 231.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -339,14 +328,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 101.5, 324.0, 101.5, 324.0 ],
+					"midpoints" : [ 101.5, 273.0, 101.5, 273.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-39" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-2::obj-10" : [ "live.text[44]", "live.text", 0 ],
+			"obj-2::obj-39" : [ "live.numbox[74]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -361,8 +351,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.if.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -580,6 +580,7 @@
 			"obj-1::obj-50::obj-68" : [ "live.numbox[75]", "live.numbox", 0 ],
 			"obj-1::obj-50::obj-82" : [ "live.text[73]", "live.text", 0 ],
 			"obj-1::obj-59" : [ "live.numbox[48]", "live.numbox", 0 ],
+			"obj-1::obj-6" : [ "live.text[31]", "live.text", 0 ],
 			"obj-1::obj-66" : [ "live.numbox[64]", "live.numbox", 0 ],
 			"obj-1::obj-68" : [ "live.numbox[65]", "live.numbox", 0 ],
 			"obj-1::obj-74::obj-35" : [ "live.text[2]", "live.text", 0 ],
@@ -931,8 +932,8 @@
 			}
 , 			{
 				"name" : "mo.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

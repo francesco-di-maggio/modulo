@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -208,7 +208,7 @@
 				"box" : 				{
 					"comment" : "(mc.~ list) signal",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -237,12 +237,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 254.585018158500986, 434.626276284456253, 205.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -20 ],
+						"initial" : [ -70 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr gain @bindto gain- @initial -20",
+					"text" : "pattr gain @bindto gain- @initial -70",
 					"varname" : "gain"
 				}
 
@@ -251,7 +251,7 @@
 				"box" : 				{
 					"comment" : "(message) mute, dB",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -493,24 +493,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-2" : [ "live.text[19]", "live.text", 0 ],
-			"obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

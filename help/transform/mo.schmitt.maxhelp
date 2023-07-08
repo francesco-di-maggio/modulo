@@ -346,6 +346,7 @@
 			"obj-16::obj-74::obj-17" : [ "live.numbox[39]", "live.numbox", 0 ],
 			"obj-16::obj-74::obj-35" : [ "live.text[135]", "live.text", 0 ],
 			"obj-16::obj-74::obj-39" : [ "live.text[145]", "live.text", 0 ],
+			"obj-16::obj-9" : [ "live.text[131]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -378,6 +379,10 @@
 ,
 				"obj-16::obj-1::obj-39" : 				{
 					"parameter_longname" : "live.text[136]"
+				}
+,
+				"obj-16::obj-31" : 				{
+					"parameter_longname" : "live.numbox[75]"
 				}
 ,
 				"obj-16::obj-36::obj-17" : 				{
@@ -524,6 +529,10 @@
 					"parameter_longname" : "live.text[65]"
 				}
 ,
+				"obj-16::obj-59" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
 				"obj-16::obj-74::obj-17" : 				{
 					"parameter_longname" : "live.numbox[39]"
 				}
@@ -550,8 +559,8 @@
 			}
 , 			{
 				"name" : "mo.schmitt.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -606,6 +606,7 @@
 		"parameters" : 		{
 			"obj-21" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"obj-5::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-5::obj-6" : [ "live.text[43]", "live.text", 0 ],
 			"obj-5::obj-7" : [ "live.dial[7]", "live.text", 0 ],
 			"obj-5::obj-72" : [ "Q-DL", "bandwidth", 0 ],
 			"obj-5::obj-74" : [ "Cutoff-DL[1]", "gain", 0 ],
@@ -620,6 +621,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-5::obj-72" : 				{
 					"parameter_shortname" : "bandwidth"
 				}
@@ -637,8 +642,8 @@
 			}
 , 			{
 				"name" : "mo.eq~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

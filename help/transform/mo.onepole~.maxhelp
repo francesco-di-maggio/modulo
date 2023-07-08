@@ -99,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.398149454545774, 242.499999999999886, 135.0, 25.0 ],
+					"patching_rect" : [ 419.398149454545774, 242.499999999999886, 135.0, 25.0 ],
 					"text" : "set cutoff frequency"
 				}
 
@@ -307,7 +307,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 357.674624531260179, 243.499999999999886, 50.0, 23.0 ]
+					"patching_rect" : [ 358.674624531260179, 243.499999999999886, 50.0, 23.0 ]
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.674624531260179, 284.999999999999773, 59.0, 23.0 ],
+					"patching_rect" : [ 358.674624531260179, 284.999999999999773, 59.0, 23.0 ],
 					"text" : "cutoff $1"
 				}
 
@@ -347,7 +347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 367.174624531260179, 267.0, 367.174624531260179, 267.0 ],
+					"midpoints" : [ 368.174624531260179, 267.0, 368.174624531260179, 267.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -387,7 +387,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 367.174624531260179, 327.0, 245.5, 327.0 ],
+					"midpoints" : [ 368.174624531260179, 327.0, 245.5, 327.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -453,6 +453,7 @@
 			"obj-12::obj-74::obj-2" : [ "live.text[6]", "live.text", 0 ],
 			"obj-12::obj-74::obj-37" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-12::obj-74::obj-68" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-12::obj-9" : [ "live.text[76]", "live.text", 0 ],
 			"obj-16" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -666,8 +667,8 @@
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

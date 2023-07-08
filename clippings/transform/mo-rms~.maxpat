@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
 					"varname" : "mo.rms~",
 					"viewvisibility" : 1
 				}
@@ -67,6 +67,7 @@
 			"obj-1::obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-1::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-4" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -88,8 +89,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.rms~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

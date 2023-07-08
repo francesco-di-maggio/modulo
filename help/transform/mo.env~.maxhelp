@@ -144,12 +144,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 485.5, 70.0, 23.0 ],
-					"text" : "0.687245"
+					"patching_rect" : [ 41.0, 484.0, 70.0, 37.0 ],
+					"text" : "0.722909 0.43071"
 				}
 
 			}
@@ -242,7 +243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 209.0, 115.0, 23.0 ],
-					"text" : "mc.rand~ @chans 1"
+					"text" : "mc.rand~ @chans 2"
 				}
 
 			}
@@ -350,6 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -372,6 +374,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-12" : [ "live.text[53]", "live.text", 0 ],
 			"obj-2::obj-13" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-2::obj-28" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-2::obj-34" : [ "live.numbox[4]", "live.numbox", 0 ],
@@ -384,13 +387,28 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-13" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-2::obj-28" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-2::obj-34" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.env~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -477,6 +477,7 @@
  ],
 		"parameters" : 		{
 			"obj-17::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-17::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -491,8 +492,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.sig~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
