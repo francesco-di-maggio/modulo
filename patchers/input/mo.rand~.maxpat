@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 58.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -43,7 +43,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -146,7 +146,7 @@
 					"patching_rect" : [ 314.0, 186.999999999999886, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 40.064706464179835, 47.184876441955566, 40.031497906080403 ],
+					"presentation_rect" : [ 3.5, 34.064706464179835, 50.244737782587066, 49.031497906080403 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -812,7 +812,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -825,7 +825,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) random output",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1012,7 +1012,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 338.153199976682799, 257.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.659310558396896, 4.0, 37.213215372007767, 15.0 ],
+					"presentation_rect" : [ 151.659310558396896, 4.0, 37.213215372007767, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1059,7 +1059,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 760.0, 188.499999999999886, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.872525930404635, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 190.872525930404635, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1481,41 +1481,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[19]", "live.text", 0 ],
-			"obj-34" : [ "live.text[185]", "live.text", 0 ],
-			"obj-38" : [ "live.text[34]", "live.text", 0 ],
-			"obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
-			"obj-66" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-71" : [ "live.numbox[33]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

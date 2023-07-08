@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -174,7 +174,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -196,7 +196,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 135.842786306142557, 212.784898685636449, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 66.134303470023951, 198.0, 191.0 ],
+					"presentation_rect" : [ 4.5, 66.134303470023951, 203.0, 193.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
@@ -220,7 +220,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) routed",
 					"id" : "obj-70",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -232,11 +232,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to route",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 199.806426948308967, 40.0, 30.0, 30.0 ]
 				}
 
@@ -254,7 +254,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.842786306142557, 212.784898685636449, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 200.339669197688949, 193.99261078321473 ],
+					"presentation_rect" : [ 3.675538547296355, 65.033937669039005, 205.339669197688949, 195.99261078321473 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -356,22 +356,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6" : [ "live.text[19]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

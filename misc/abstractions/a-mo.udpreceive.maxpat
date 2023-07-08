@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 546.0, 97.0, 772.0, 747.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -58,9 +58,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.666666666666657, 469.5, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.973149760419801, -0.058990031480789, 168.31823694681043, 15.0 ],
+					"presentation_rect" : [ 26.019407941753343, -0.058990031480789, 183.271978765476888, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "output-1",
+					"text" : "/output-1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "message-"
 				}
@@ -618,9 +618,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 37.003495613733918, 288.869429976851961, 59.0, 15.0 ],
+					"patching_rect" : [ 37.003495613733918, 288.869429976851961, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 28.566096901893616, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -644,7 +644,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[74]",
+							"parameter_longname" : "live.text[43]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

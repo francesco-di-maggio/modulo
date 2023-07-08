@@ -259,7 +259,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 42.078603833188055, 450.0, 270.21906922212537, 450.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -268,7 +268,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 42.078603833188055, 297.0, 42.078603833188055, 297.0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -293,14 +293,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-153" : [ "live.text[23]", "live.text", 0 ],
-			"obj-1::obj-153" : [ "live.text[21]", "live.text", 0 ],
-			"obj-2::obj-153" : [ "live.text[26]", "live.text", 0 ],
-			"obj-3::obj-153" : [ "live.text[28]", "live.text", 0 ],
+			"obj-15::obj-10" : [ "live.text[21]", "live.text", 0 ],
+			"obj-15::obj-6" : [ "live.text[22]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
+			"obj-2::obj-6" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-3" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-35" : [ "live.text[36]", "live.text", 0 ],
+			"obj-5::obj-3" : [ "live.text[3]", "live.text", 0 ],
 			"obj-5::obj-33" : [ "live.text[72]", "live.text", 0 ],
 			"obj-5::obj-42" : [ "live.text[8]", "live.text", 0 ],
-			"obj-5::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -311,20 +312,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-15::obj-153" : 				{
-					"parameter_longname" : "live.text[23]"
+				"obj-2::obj-6" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 ,
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[21]"
+				"obj-3::obj-3" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
-				"obj-2::obj-153" : 				{
-					"parameter_longname" : "live.text[26]"
-				}
-,
-				"obj-3::obj-153" : 				{
-					"parameter_longname" : "live.text[28]"
+				"obj-5::obj-3" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 
 			}
@@ -351,12 +348,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "loop.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
@@ -364,36 +355,36 @@
 			}
 , 			{
 				"name" : "mo.gridmeter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.meter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
+				"patcherrelativepath" : "../../patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.spectroscope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
+				"patcherrelativepath" : "../../patchers/output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -411,29 +402,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

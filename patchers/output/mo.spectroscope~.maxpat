@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -160,7 +160,7 @@
 				"box" : 				{
 					"comment" : "(message) chans, polarity, rand, invisible",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -276,7 +276,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 179.842786306142557, 465.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.675538547296355, 66.033937669039005, 198.0, 191.0 ],
+					"presentation_rect" : [ 5.675538547296355, 66.033937669039005, 202.0, 193.0 ],
 					"saved_attribute_attributes" : 					{
 						"fgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -292,7 +292,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) routed",
 					"id" : "obj-70",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -304,11 +304,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to route",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 221.806426948308967, 55.498130464903795, 30.0, 30.0 ]
 				}
 
@@ -326,7 +326,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 179.842786306142557, 465.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 200.339669197688949, 193.99261078321473 ],
+					"presentation_rect" : [ 4.675538547296355, 65.033937669039005, 204.339669197688949, 195.99261078321473 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -451,23 +451,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-3" : [ "live.text[19]", "live.text", 0 ],
-			"obj-35" : [ "live.text[36]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

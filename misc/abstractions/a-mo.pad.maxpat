@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 97.0, 1284.0, 747.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -241,9 +241,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 52.166666666666629, 179.25, 59.0, 15.0 ],
+					"patching_rect" : [ 52.166666666666629, 179.25, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 28.566096901893616, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -267,7 +267,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[57]",
+							"parameter_longname" : "live.text[154]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -275,9 +275,9 @@
 
 					}
 ,
-					"text" : "4",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "4",
+					"texton" : "1",
 					"varname" : "Mute-TX"
 				}
 
@@ -311,18 +311,17 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 0.474022, 0.734528, 0.065769, 1.0 ],
+					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "live.text",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 51.666666666666629, 499.25, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.62991090871887, -0.058990031480789, 152.07980515062809, 15.0 ],
+					"presentation_rect" : [ 41.62991090871887, -0.058990031480789, 168.355346204260798, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -350,7 +349,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[50]",
+							"parameter_longname" : "live.text[75]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -358,9 +357,9 @@
 
 					}
 ,
-					"text" : "4",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "4",
+					"texton" : "1",
 					"varname" : "pad-"
 				}
 
@@ -416,7 +415,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -439,7 +437,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 461.666666666666629, 179.25, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.260162644167707, -0.058990031480789, 16.900888606905937, 15.0 ],
+					"presentation_rect" : [ 25.260162644167707, -0.058990031480789, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -463,7 +461,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[77]",
+							"parameter_longname" : "live.text[74]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

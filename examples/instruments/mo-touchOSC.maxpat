@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 485.0, 618.0 ],
+		"rect" : [ 34.0, 100.0, 375.0, 618.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 872.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 443.071428571428555, 70.0, 87.0 ],
@@ -148,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 800.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.0, 443.071428571428555, 70.0, 87.0 ],
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 728.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 86.0, 443.071428571428555, 70.0, 87.0 ],
@@ -221,7 +221,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1079.666666666666742, 143.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 363.666666666666742, 49.307379284060289, 20.0, 20.0 ],
+					"presentation_rect" : [ 228.166666666666742, 543.022352255944838, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -241,11 +241,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 188.350694444444457, 394.0, 64.0 ],
+					"patching_rect" : [ 1022.0, 188.350694444444457, 347.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 14.0, 542.0, 394.0, 64.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load the Simple Mk3 preset.\n2. Set UPD host and port on the app to reflect your computer settings."
+					"presentation_rect" : [ 14.0, 542.0, 347.0, 64.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load Simple Mk3 preset.\n2. Set host/port on the app to reflect your computer settings."
 				}
 
 			}
@@ -258,8 +258,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.666666666666742, 82.027777777777828, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.166666666666742, 45.356455599544006, 79.0, 25.0 ],
-					"text" : "set device",
+					"presentation_rect" : [ 186.166666666666742, 45.356455599544006, 71.0, 25.0 ],
+					"text" : "set port ",
 					"textjustification" : 1
 				}
 
@@ -301,7 +301,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1105.5, 141.0, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 389.5, 45.356455599544006, 85.0, 25.0 ],
+					"presentation_rect" : [ 254.0, 539.071428571428555, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -329,7 +329,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1022.0, 73.0, 401.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 249, 100, 603, 228 ],
+						"client_rect" : [ 249, 100, 603, 855 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 249, 100, 700, 228 ]
@@ -351,7 +351,7 @@
 					"patching_rect" : [ 1022.0, 138.0, 53.0, 30.0 ],
 					"pattrstorage" : "p-touchOSC",
 					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 43.356455599544006, 53.0, 29.0 ]
+					"presentation_rect" : [ 166.5, 537.071428571428555, 53.0, 29.0 ]
 				}
 
 			}
@@ -442,7 +442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 656.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 443.071428571428555, 70.0, 87.0 ],
@@ -633,29 +633,37 @@
  ],
 		"parameters" : 		{
 			"obj-10::obj-2" : [ "live.text[90]", "live.text", 0 ],
+			"obj-10::obj-22" : [ "live.text[51]", "live.text", 0 ],
 			"obj-10::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-10::obj-6" : [ "live.text[92]", "live.text", 0 ],
 			"obj-15::obj-2" : [ "live.text[94]", "live.text", 0 ],
+			"obj-15::obj-22" : [ "live.text[175]", "live.text", 0 ],
 			"obj-15::obj-37" : [ "live.text[96]", "live.text", 0 ],
 			"obj-15::obj-6" : [ "live.text[95]", "live.text", 0 ],
 			"obj-16::obj-2" : [ "live.text[58]", "live.text", 0 ],
+			"obj-16::obj-22" : [ "live.text[52]", "live.text", 0 ],
 			"obj-16::obj-37" : [ "live.text[60]", "live.text", 0 ],
 			"obj-16::obj-6" : [ "live.text[59]", "live.text", 0 ],
 			"obj-17::obj-2" : [ "live.text[61]", "live.text", 0 ],
+			"obj-17::obj-22" : [ "live.text[10]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[62]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[63]", "live.text", 0 ],
 			"obj-1::obj-14" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-39" : [ "live.numbox[74]", "live.numbox", 0 ],
-			"obj-1::obj-8" : [ "live.text[123]", "live.text", 0 ],
+			"obj-1::obj-7" : [ "live.text[19]", "live.text", 0 ],
+			"obj-23::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-23::obj-3" : [ "slider-[11]", "slider-", 0 ],
-			"obj-23::obj-35" : [ "live.text[7]", "live.text", 0 ],
-			"obj-23::obj-7" : [ "live.text[10]", "live.text", 0 ],
+			"obj-23::obj-35" : [ "live.text[53]", "live.text", 0 ],
+			"obj-23::obj-7" : [ "live.text[54]", "live.text", 0 ],
+			"obj-25::obj-21" : [ "live.text[8]", "live.text", 0 ],
 			"obj-25::obj-3" : [ "slider-[6]", "slider-", 0 ],
 			"obj-25::obj-35" : [ "live.text[23]", "live.text", 0 ],
 			"obj-25::obj-7" : [ "live.text[24]", "live.text", 0 ],
+			"obj-27::obj-21" : [ "live.text[9]", "live.text", 0 ],
 			"obj-27::obj-3" : [ "slider-[7]", "slider-", 0 ],
 			"obj-27::obj-35" : [ "live.text[25]", "live.text", 0 ],
 			"obj-27::obj-7" : [ "live.text[26]", "live.text", 0 ],
+			"obj-28::obj-21" : [ "live.text[1]", "live.text", 0 ],
 			"obj-28::obj-3" : [ "slider-[5]", "slider-", 0 ],
 			"obj-28::obj-35" : [ "live.text[21]", "live.text", 0 ],
 			"obj-28::obj-7" : [ "live.text[22]", "live.text", 0 ],
@@ -677,6 +685,8 @@
 			"obj-3::obj-50::obj-2" : [ "live.text[50]", "live.text", 0 ],
 			"obj-3::obj-56" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-3::obj-74::obj-2" : [ "live.text[40]", "live.text", 0 ],
+			"obj-3::obj-9" : [ "live.text[32]", "live.text", 0 ],
+			"obj-4::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[4]", "live.text", 0 ],
 			"obj-4::obj-7" : [ "live.text[5]", "live.text", 0 ],
@@ -698,6 +708,7 @@
 			"obj-78::obj-50::obj-2" : [ "live.text[162]", "live.text", 0 ],
 			"obj-78::obj-56" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-78::obj-74::obj-2" : [ "live.text[113]", "live.text", 0 ],
+			"obj-78::obj-9" : [ "live.text[55]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -710,6 +721,10 @@
 			"parameter_overrides" : 			{
 				"obj-10::obj-2" : 				{
 					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-10::obj-22" : 				{
+					"parameter_longname" : "live.text[51]"
 				}
 ,
 				"obj-10::obj-37" : 				{
@@ -736,6 +751,10 @@
 					"parameter_longname" : "live.text[58]"
 				}
 ,
+				"obj-16::obj-22" : 				{
+					"parameter_longname" : "live.text[52]"
+				}
+,
 				"obj-16::obj-37" : 				{
 					"parameter_longname" : "live.text[60]"
 				}
@@ -748,6 +767,10 @@
 					"parameter_longname" : "live.text[61]"
 				}
 ,
+				"obj-17::obj-22" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
 				"obj-17::obj-37" : 				{
 					"parameter_longname" : "live.text[62]"
 				}
@@ -758,7 +781,7 @@
 ,
 				"obj-23::obj-35" : 				{
 					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[7]",
+					"parameter_longname" : "live.text[53]",
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
@@ -766,10 +789,14 @@
 ,
 				"obj-23::obj-7" : 				{
 					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[10]",
+					"parameter_longname" : "live.text[54]",
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-25::obj-21" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-25::obj-35" : 				{
@@ -780,12 +807,20 @@
 					"parameter_longname" : "live.text[24]"
 				}
 ,
+				"obj-27::obj-21" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
 				"obj-27::obj-35" : 				{
 					"parameter_longname" : "live.text[25]"
 				}
 ,
 				"obj-27::obj-7" : 				{
 					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-28::obj-21" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 ,
 				"obj-28::obj-35" : 				{
@@ -864,6 +899,14 @@
 					"parameter_longname" : "live.text[40]"
 				}
 ,
+				"obj-4::obj-35" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-4::obj-7" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-78::obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[151]"
 				}
@@ -935,6 +978,10 @@
 				"obj-78::obj-74::obj-2" : 				{
 					"parameter_longname" : "live.text[113]"
 				}
+,
+				"obj-78::obj-9" : 				{
+					"parameter_longname" : "live.text[55]"
+				}
 
 			}
 ,
@@ -946,12 +993,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -994,12 +1035,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

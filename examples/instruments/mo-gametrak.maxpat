@@ -53,7 +53,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 471.0, 187.149305555555543, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
@@ -440,13 +440,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-153" : [ "live.text[140]", "live.text", 0 ],
+			"obj-11::obj-10" : [ "live.text[1]", "live.text", 0 ],
 			"obj-17::obj-2" : [ "live.text[57]", "live.text", 0 ],
+			"obj-17::obj-22" : [ "live.text[59]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[111]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[58]", "live.text", 0 ],
 			"obj-1::obj-14" : [ "live.button", "live.button", 0 ],
-			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
 			"obj-1::obj-2" : [ "live.text[24]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"obj-4::obj-107::obj-15" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-4::obj-107::obj-35" : [ "live.text[41]", "live.text", 0 ],
 			"obj-4::obj-107::obj-66" : [ "live.numbox[33]", "live.numbox", 0 ],
@@ -467,15 +468,14 @@
 			"obj-4::obj-1::obj-68" : [ "live.numbox[26]", "live.numbox", 0 ],
 			"obj-4::obj-1::obj-72" : [ "live.numbox[25]", "live.numbox", 0 ],
 			"obj-4::obj-1::obj-9" : [ "live.numbox[36]", "live.numbox", 0 ],
-			"obj-4::obj-33" : [ "live.text[80]", "live.text", 0 ],
 			"obj-4::obj-36::obj-15" : [ "live.numbox[38]", "live.numbox", 0 ],
-			"obj-4::obj-36::obj-35" : [ "live.text[1]", "live.text", 0 ],
+			"obj-4::obj-36::obj-35" : [ "live.text[2]", "live.text", 0 ],
 			"obj-4::obj-36::obj-66" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-4::obj-36::obj-68" : [ "live.numbox[41]", "live.numbox", 0 ],
 			"obj-4::obj-36::obj-72" : [ "live.numbox[40]", "live.numbox", 0 ],
 			"obj-4::obj-36::obj-9" : [ "live.numbox[39]", "live.numbox", 0 ],
 			"obj-4::obj-40::obj-15" : [ "live.numbox[45]", "live.numbox", 0 ],
-			"obj-4::obj-40::obj-35" : [ "live.text[2]", "live.text", 0 ],
+			"obj-4::obj-40::obj-35" : [ "live.text[3]", "live.text", 0 ],
 			"obj-4::obj-40::obj-66" : [ "live.numbox[44]", "live.numbox", 0 ],
 			"obj-4::obj-40::obj-68" : [ "live.numbox[43]", "live.numbox", 0 ],
 			"obj-4::obj-40::obj-72" : [ "live.numbox[46]", "live.numbox", 0 ],
@@ -551,7 +551,9 @@
 			"obj-4::obj-74::obj-68" : [ "live.numbox[31]", "live.numbox", 0 ],
 			"obj-4::obj-74::obj-72" : [ "live.numbox[29]", "live.numbox", 0 ],
 			"obj-4::obj-74::obj-9" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-4::obj-8" : [ "live.text[109]", "live.text", 0 ],
 			"obj-9::obj-13" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-9::obj-15" : [ "live.text[136]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -562,8 +564,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-11::obj-10" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-17::obj-2" : 				{
 					"parameter_longname" : "live.text[57]"
+				}
+,
+				"obj-17::obj-22" : 				{
+					"parameter_longname" : "live.text[59]"
 				}
 ,
 				"obj-17::obj-37" : 				{
@@ -572,10 +582,6 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[58]"
-				}
-,
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-4::obj-107::obj-15" : 				{
@@ -630,6 +636,10 @@
 					"parameter_longname" : "live.numbox[104]"
 				}
 ,
+				"obj-4::obj-16" : 				{
+					"parameter_longname" : "live.text[98]"
+				}
+,
 				"obj-4::obj-1::obj-15" : 				{
 					"parameter_longname" : "live.numbox[35]"
 				}
@@ -659,7 +669,7 @@
 				}
 ,
 				"obj-4::obj-36::obj-35" : 				{
-					"parameter_longname" : "live.text[1]"
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-4::obj-36::obj-66" : 				{
@@ -683,7 +693,7 @@
 				}
 ,
 				"obj-4::obj-40::obj-35" : 				{
-					"parameter_longname" : "live.text[2]"
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-4::obj-40::obj-66" : 				{
@@ -1003,12 +1013,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.hi.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1048,12 +1052,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

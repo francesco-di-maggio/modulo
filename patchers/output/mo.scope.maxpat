@@ -75,7 +75,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -410,7 +410,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -464,7 +464,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 296.404713997244585, 306.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.038122892379761, 3.064706464179835, 14.900888606905937, 15.0 ],
+					"presentation_rect" : [ 174.038122892379761, 4.064706464179835, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -484,7 +484,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[15]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -751,7 +751,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 199.0, 306.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 3.064706464179835, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.0, 4.064706464179835, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -770,7 +770,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[11]",
+							"parameter_longname" : "live.numbox[12]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -815,8 +815,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.842786306142557, 401.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.34537314614083, 66.134303470023951, 198.0, 192.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"presentation_rect" : [ 6.34537314614083, 66.134303470023951, 202.0, 194.0 ],
 					"setstyle" : 3,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -826,7 +825,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) routed",
 					"id" : "obj-70",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -838,7 +837,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) to route",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -860,7 +859,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.842786306142557, 401.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 65.033937669039005, 200.339669197688949, 193.99261078321473 ],
+					"presentation_rect" : [ 4.675538547296355, 65.033937669039005, 204.339669197688949, 195.99261078321473 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1061,24 +1060,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "live.text[15]", "live.text", 0 ],
-			"obj-18" : [ "live.text[19]", "live.text", 0 ],
-			"obj-52" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 97.0, 1284.0, 747.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -60,7 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.0, 478.481951141798959, 124.833333333333371, 23.0 ],
-					"text" : "playstop"
+					"text" : "output-1"
 				}
 
 			}
@@ -941,9 +941,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 206.0, 277.5, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.973149760419801, -0.058990031480789, 168.31823694681043, 15.0 ],
+					"presentation_rect" : [ 26.284978388602212, -0.058990031480789, 182.876102859919371, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "playstop",
+					"text" : "output-1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -974,9 +974,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 57.666666666666657, 181.0, 59.0, 15.0 ],
+					"patching_rect" : [ 57.666666666666657, 181.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 28.566096901893616, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1000,7 +1000,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[213]",
+							"parameter_longname" : "live.text[220]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1061,7 +1061,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 420.666666666666629, 262.694444444444343, 146.0, 23.0 ],
-					"restore" : [ "playstop" ],
+					"restore" : [ "output-1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

@@ -418,13 +418,13 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 100, 619, 948 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"subscribe" : [ "mo.rand~", "mo.onepole~", "mo.crosspatch~" ],
+					"subscribe" : [ "mo.crosspatch~", "mo.rand~", "mo.onepole~" ],
 					"text" : "pattrstorage p-sonification @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-sonification"
 				}
@@ -598,7 +598,7 @@
 			"obj-7::obj-107::obj-2" : [ "live.text[2]", "live.text", 0 ],
 			"obj-7::obj-107::obj-37" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-7::obj-107::obj-68" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-7::obj-123::obj-2" : [ "live.text[39]", "live.text", 0 ],
+			"obj-7::obj-123::obj-2" : [ "live.text[103]", "live.text", 0 ],
 			"obj-7::obj-123::obj-37" : [ "live.tab", "live.tab", 0 ],
 			"obj-7::obj-123::obj-68" : [ "live.numbox[70]", "live.numbox", 0 ],
 			"obj-7::obj-1::obj-2" : [ "live.text[3]", "live.text", 0 ],
@@ -645,6 +645,7 @@
 			"obj-7::obj-74::obj-2" : [ "live.text[1]", "live.text", 0 ],
 			"obj-7::obj-74::obj-37" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-7::obj-74::obj-68" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-7::obj-9" : [ "live.text[76]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -673,6 +674,10 @@
 ,
 				"obj-23::obj-39" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-29::obj-10" : 				{
+					"parameter_longname" : "live.text[36]"
 				}
 ,
 				"obj-29::obj-6" : 				{
@@ -705,6 +710,14 @@
 ,
 				"obj-7::obj-107::obj-68" : 				{
 					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-7::obj-123::obj-2" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[103]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-7::obj-1::obj-2" : 				{

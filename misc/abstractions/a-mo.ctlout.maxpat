@@ -138,7 +138,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-11",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2", ",", "SLMIXUSB Port 1", ",", "SLMIXUSB Port 2", ",", "SLMIXUSB Port 3" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -146,7 +146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 484.836828947067147, 622.5, 115.704837719599482, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.83926936018959, -2.251393780112267, 106.700780173508761, 20.0 ],
+					"presentation_rect" : [ 86.83926936018959, -2.251393780112267, 121.700780173508761, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -166,7 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 484.836828947067147, 622.5, 115.704837719599482, 19.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.25830181967406, 0.999075248837471, 103.807926678958481, 13.530068526665389 ],
+					"presentation_rect" : [ 91.25830181967406, 0.999075248837471, 118.807926678958481, 13.530068526665389 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -210,7 +210,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 327.666666666666629, 625.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.965058900898384, -0.058990031480789, 24.066971482833537, 15.0 ],
+					"presentation_rect" : [ 63.965058900898384, -0.058990031480789, 24.066971482833537, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -249,7 +249,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.666666666666657, 548.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.017574422464627, -0.058990031480789, 36.72121304249162, 15.0 ],
+					"presentation_rect" : [ 25.017574422464627, -0.058990031480789, 36.72121304249162, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -480,9 +480,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 43.666666666666629, 156.0, 59.0, 15.0 ],
+					"patching_rect" : [ 43.666666666666629, 156.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.225206084628866, -0.058990031480789, 28.566096901893616, 15.0 ],
+					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -506,7 +506,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[15]",
+							"parameter_longname" : "live.text[86]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
