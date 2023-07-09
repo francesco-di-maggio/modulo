@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 470.0, 541.0 ],
+		"rect" : [ 34.0, 100.0, 483.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 254.0, 214.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 87.571428571428584, 214.0, 135.21875 ],
+					"presentation_rect" : [ 20.0, 94.571428571428584, 214.0, 135.21875 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -106,7 +106,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 254.0, 214.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 87.571428571428584, 214.0, 135.21875 ],
+					"presentation_rect" : [ 251.0, 94.571428571428584, 214.0, 135.21875 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -178,7 +178,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 39.0, 404.0, 214.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 232.5, 214.0, 135.21875 ],
+					"presentation_rect" : [ 20.0, 239.5, 214.0, 135.21875 ],
 					"varname" : "mo.sends",
 					"viewvisibility" : 1
 				}
@@ -202,7 +202,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 415.0, 404.0, 214.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 232.5, 214.0, 135.21875 ],
+					"presentation_rect" : [ 251.0, 239.5, 214.0, 135.21875 ],
 					"varname" : "mo.sends[1]",
 					"viewvisibility" : 1
 				}
@@ -225,7 +225,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1079.666666666666742, 143.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.166666666666742, 394.307379284060289, 20.0, 20.0 ],
+					"presentation_rect" : [ 126.166666666666742, 401.307379284060289, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -248,7 +248,7 @@
 					"patching_rect" : [ 1022.0, 188.350694444444457, 342.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 14.0, 437.5, 368.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 444.5, 368.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open the Software app, and load the a preset.\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring.\n4. (Optional) Send data to a sound device."
 				}
 
@@ -262,7 +262,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 294.666666666666742, 88.0, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.047803290188313, 44.356455599544006, 79.0, 25.0 ],
+					"presentation_rect" : [ 275.047803290188313, 51.356455599544006, 79.0, 25.0 ],
 					"text" : "set device",
 					"textjustification" : 1
 				}
@@ -285,7 +285,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 266.666666666666742, 90.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 46.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 251.0, 53.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -305,7 +305,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1105.5, 141.0, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 390.356455599544006, 85.0, 25.0 ],
+					"presentation_rect" : [ 152.0, 397.356455599544006, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -362,7 +362,7 @@
 					"patching_rect" : [ 1022.0, 138.0, 53.0, 30.0 ],
 					"pattrstorage" : "p-wave",
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5, 388.356455599544006, 53.0, 29.0 ]
+					"presentation_rect" : [ 60.5, 395.356455599544006, 53.0, 29.0 ]
 				}
 
 			}
@@ -396,7 +396,7 @@
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
 					"patching_rect" : [ 39.0, 55.75, 142.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 13.071428571428584, 142.0, 57.0 ],
+					"presentation_rect" : [ 20.0, 20.071428571428584, 142.0, 57.0 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -1339,6 +1339,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

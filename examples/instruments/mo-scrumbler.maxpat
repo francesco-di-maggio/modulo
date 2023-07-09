@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold Regular",
+					"id" : "obj-12",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 888.0, 447.0, 295.0, 93.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 514.75, 629.195134125649929, 295.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Load preset.\n2. (Optional) Load a new buffer.\n3. Turn on the scrumbler~ synthesizer.\n4. Use sliders and pads to control sound parameters."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -56,7 +73,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 891.5, 180.21658106893301, 213.875, 134.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 670.625, 23.238028012216091, 213.875, 134.978553056716919 ],
+					"presentation_rect" : [ 670.625, 22.238028012216091, 213.875, 134.978553056716919 ],
 					"varname" : "mo.sends[2]",
 					"viewvisibility" : 1
 				}
@@ -81,7 +98,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 891.5, 28.238028012216091, 213.875, 134.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.75, 23.238028012216091, 213.875, 134.978553056716919 ],
+					"presentation_rect" : [ 454.75, 22.238028012216091, 213.875, 134.978553056716919 ],
 					"varname" : "mo.sliders[4]",
 					"viewvisibility" : 1
 				}
@@ -154,7 +171,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 675.625, 28.238028012216091, 213.875, 198.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 670.75, 160.238028012216091, 213.875, 198.978553056716919 ],
+					"presentation_rect" : [ 670.75, 159.238028012216091, 213.875, 198.978553056716919 ],
 					"varname" : "mo.sliders[2]",
 					"viewvisibility" : 1
 				}
@@ -179,7 +196,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 459.75, 28.238028012216091, 213.875, 198.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.75, 160.238028012216091, 213.875, 198.978553056716919 ],
+					"presentation_rect" : [ 454.75, 159.238028012216091, 213.875, 198.978553056716919 ],
 					"varname" : "mo.sliders[3]",
 					"viewvisibility" : 1
 				}
@@ -204,7 +221,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 243.875, 28.238028012216091, 213.875, 198.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.875, 160.21658106893301, 213.875, 198.978553056716919 ],
+					"presentation_rect" : [ 238.875, 159.21658106893301, 213.875, 198.978553056716919 ],
 					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
@@ -227,7 +244,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 760.115978781249851, 350.435986729959382, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.5, 597.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 610.875, 529.5, 19.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -249,7 +266,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 787.115978781249851, 347.935986729959382, 89.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.5, 595.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 637.875, 527.0, 89.0, 25.0 ],
 					"text" : "load sample"
 				}
 
@@ -263,7 +280,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 717.115978781249851, 348.935986729959382, 33.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.25, 596.0, 33.0, 23.0 ],
+					"presentation_rect" : [ 560.625, 528.0, 33.0, 23.0 ],
 					"text" : "read"
 				}
 
@@ -286,7 +303,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 387.875, 696.985231117407579, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 382.875, 628.195134125649929, 70.0, 87.0 ],
+					"presentation_rect" : [ 382.875, 627.195134125649929, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -310,7 +327,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1107.375, 180.21658106893301, 214.0, 134.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.875, 23.238028012216091, 214.0, 134.978553056716919 ],
+					"presentation_rect" : [ 238.875, 22.238028012216091, 214.0, 134.978553056716919 ],
 					"varname" : "mo.sends[1]",
 					"viewvisibility" : 1
 				}
@@ -334,7 +351,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 27.875, 407.185382166221075, 430.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.875, 361.195134125649929, 430.0, 265.0 ],
+					"presentation_rect" : [ 22.875, 360.195134125649929, 430.0, 265.0 ],
 					"varname" : "mo.scrumbler~",
 					"viewvisibility" : 1
 				}
@@ -359,7 +376,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.875, 28.238028012216091, 213.875, 198.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.875, 160.21658106893301, 213.875, 198.978553056716919 ],
+					"presentation_rect" : [ 22.875, 159.21658106893301, 213.875, 198.978553056716919 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -384,7 +401,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.375, 28.238028012216091, 214.0, 134.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.875, 23.238028012216091, 214.0, 134.978553056716919 ],
+					"presentation_rect" : [ 22.875, 22.238028012216091, 214.0, 134.978553056716919 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -407,7 +424,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 27.875, 696.985231117407579, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.875, 628.195134125649929, 286.0, 87.0 ],
+					"presentation_rect" : [ 94.875, 627.195134125649929, 286.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
 				}
@@ -422,7 +439,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 989.0, 651.985231117407579, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 575.0, 672.069497436178608, 85.0, 25.0 ],
+					"presentation_rect" : [ 638.375, 561.069497436178608, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -444,7 +461,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 961.5, 654.485231117407579, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.5, 674.569497436178608, 20.0, 20.0 ],
+					"presentation_rect" : [ 610.875, 563.569497436178608, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -478,7 +495,7 @@
 					"patching_rect" : [ 891.5, 649.985231117407579, 52.5, 29.0 ],
 					"pattrstorage" : "p-scrumbler",
 					"presentation" : 1,
-					"presentation_rect" : [ 477.75, 670.069497436178608, 52.5, 29.0 ]
+					"presentation_rect" : [ 541.125, 559.069497436178608, 52.5, 29.0 ]
 				}
 
 			}
@@ -2625,6 +2642,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

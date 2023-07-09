@@ -113,7 +113,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 490.666666666666742, 232.116666666665992, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.333333333333485, 433.450923684516283, 20.0, 20.0 ],
+					"presentation_rect" : [ 96.333333333333485, 433.450923684516283, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -148,7 +148,7 @@
 					"patching_rect" : [ 433.0, 295.0, 264.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 19.166666666666742, 471.5, 264.0, 79.0 ],
+					"presentation_rect" : [ 19.166666666666742, 473.5, 264.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Turn on the fm~ synthesizer.\n2. Use sliders to control the sound parameters.\n3. (Optional) Set different scaling factors."
 				}
 
@@ -364,7 +364,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.5, 230.116666666665992, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.166666666666742, 429.5, 85.0, 25.0 ],
+					"presentation_rect" : [ 122.166666666666742, 429.5, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -443,7 +443,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"subscribe" : [ "mo.scale", "mo.sliders", "mo.sends", "mo.fm~" ],
+					"subscribe" : [ "mo.scale", "mo.sliders", "mo.fm~", "mo.sends" ],
 					"text" : "pattrstorage p-fm @savemode 3 @autorestore 1 @changemode 1 @subscribemode 1",
 					"varname" : "p-fm"
 				}
@@ -460,7 +460,7 @@
 					"patching_rect" : [ 433.0, 227.116666666665992, 53.0, 30.0 ],
 					"pattrstorage" : "p-fm",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.666666666666742, 427.5, 53.0, 29.0 ]
+					"presentation_rect" : [ 34.666666666666742, 427.5, 53.0, 29.0 ]
 				}
 
 			}
@@ -1539,6 +1539,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

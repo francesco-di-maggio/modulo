@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 612.0, 697.0 ],
+		"rect" : [ 34.0, 100.0, 628.0, 448.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,10 +46,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 872.375, 597.726974681019783, 476.0, 107.0 ],
+					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 353.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 249.885702821115501, 16.0, 353.0, 107.0 ],
+					"presentation_rect" : [ 257.885702821115501, 26.0, 353.0, 107.0 ],
 					"text" : "INSTRUCTIONS:\n\nThis patch uses \"holon.ist\" iOS App to retrieve iPhone sensors. \nVisit: https://holon.ist\n\n1. Load preset.\n2. Load iPhone preset from Holon.ist app."
 				}
 
@@ -73,32 +73,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 28.0, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 16.0, 214.0, 199.0 ],
+					"presentation_rect" : [ 24.0, 24.0, 214.0, 199.0 ],
 					"varname" : "mo.udpreceives",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-30",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.scope.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 455.991666666666333, 214.0, 265.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 417.0, 214.0, 265.0 ],
-					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
 
@@ -122,7 +98,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 242.495833333333167, 214.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 217.0, 214.0, 198.0 ],
+					"presentation_rect" : [ 24.0, 225.0, 214.0, 198.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -137,7 +113,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.385702821115501, 173.06666666666672, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.885702821115501, 151.5, 85.0, 25.0 ],
+					"presentation_rect" : [ 351.885702821115501, 159.5, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -165,7 +141,7 @@
 					"patching_rect" : [ 295.885702821115501, 170.06666666666672, 100.0, 29.0 ],
 					"pattrstorage" : "p-holon.ist",
 					"presentation" : 1,
-					"presentation_rect" : [ 249.885702821115501, 149.0, 53.397435694932938, 29.0 ]
+					"presentation_rect" : [ 257.885702821115501, 157.0, 53.397435694932938, 29.0 ]
 				}
 
 			}
@@ -190,10 +166,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage p-holon.ist @savemode 3 @autorestore 1 @changemode 1",
@@ -218,7 +194,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 402.552369487782016, 174.56666666666672, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.885702821115501, 153.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 320.885702821115501, 161.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -243,13 +219,6 @@
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 43.5, 230.0, 43.5, 230.0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -290,9 +259,6 @@
 			"obj-2::obj-56" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"obj-2::obj-74::obj-2" : [ "live.text[68]", "live.text", 0 ],
 			"obj-2::obj-74::obj-39" : [ "live.numbox[105]", "live.numbox", 0 ],
-			"obj-30::obj-11" : [ "live.text[79]", "live.text", 0 ],
-			"obj-30::obj-18" : [ "live.text[19]", "live.text", 0 ],
-			"obj-30::obj-52" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-3::obj-107::obj-20" : [ "Show Particle Settings[30]", "live.text", 0 ],
 			"obj-3::obj-107::obj-35" : [ "live.text[30]", "live.text", 0 ],
 			"obj-3::obj-107::obj-8" : [ "live.text[2]", "live.text", 0 ],
@@ -411,6 +377,10 @@
 					"parameter_longname" : "live.numbox[108]"
 				}
 ,
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "live.numbox[74]"
+				}
+,
 				"obj-2::obj-40::obj-2" : 				{
 					"parameter_longname" : "live.text[109]"
 				}
@@ -509,18 +479,6 @@
 ,
 				"obj-2::obj-74::obj-39" : 				{
 					"parameter_longname" : "live.numbox[105]"
-				}
-,
-				"obj-30::obj-11" : 				{
-					"parameter_longname" : "live.text[79]"
-				}
-,
-				"obj-30::obj-18" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-30::obj-52" : 				{
-					"parameter_longname" : "live.numbox[37]"
 				}
 ,
 				"obj-3::obj-107::obj-20" : 				{
@@ -747,9 +705,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

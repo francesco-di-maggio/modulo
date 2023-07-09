@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 661.0, 747.0 ],
+		"rect" : [ 34.0, 100.0, 692.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold Regular",
+					"id" : "obj-12",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 980.375, 28.238028012216091, 276.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 22.875, 668.21658106893301, 276.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Load preset.\n3. Turn on the scrubber~ synthesizer.\n4. Use sliders/rsliders/pads to control the sound."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 1 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -56,7 +73,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1340.375, 481.985231117407579, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.875, 652.21658106893301, 70.0, 87.0 ],
+					"presentation_rect" : [ 598.875, 666.21658106893301, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -80,7 +97,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 504.0625, 192.185382166221046, 214.0, 118.88589309645522 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.875, 113.238028012216091, 214.0, 118.88589309645522 ],
+					"presentation_rect" : [ 238.875, 127.238028012216091, 214.0, 118.88589309645522 ],
 					"varname" : "mo.sends[2]",
 					"viewvisibility" : 1
 				}
@@ -105,7 +122,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.0625, 28.238028012216091, 214.0, 118.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.875, 113.238028012216091, 214.0, 118.0 ],
+					"presentation_rect" : [ 22.875, 127.238028012216091, 214.0, 118.0 ],
 					"varname" : "mo.rsliders",
 					"viewvisibility" : 1
 				}
@@ -129,7 +146,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 265.90625, 192.185382166221046, 214.0, 103.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.875, 8.238028012216091, 214.0, 103.0 ],
+					"presentation_rect" : [ 238.875, 22.238028012216091, 214.0, 103.0 ],
 					"varname" : "mo.sends[1]",
 					"viewvisibility" : 1
 				}
@@ -153,7 +170,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 980.375, 192.185382166221046, 430.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.875, 385.21658106893301, 430.0, 265.0 ],
+					"presentation_rect" : [ 238.875, 399.21658106893301, 430.0, 265.0 ],
 					"varname" : "mo.scrubber~",
 					"viewvisibility" : 1
 				}
@@ -178,7 +195,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.875, 28.238028012216091, 213.875, 135.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.875, 233.238028012216091, 213.875, 134.978553056716919 ],
+					"presentation_rect" : [ 22.875, 247.238028012216091, 213.875, 134.978553056716919 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -203,7 +220,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.90625, 28.238028012216091, 214.0, 103.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.875, 8.238028012216091, 214.0, 103.0 ],
+					"presentation_rect" : [ 22.875, 22.238028012216091, 214.0, 103.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -227,7 +244,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 742.21875, 192.185382166221046, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.875, 385.21658106893301, 214.0, 265.0 ],
+					"presentation_rect" : [ 22.875, 399.21658106893301, 214.0, 265.0 ],
 					"varname" : "mo.buffer~",
 					"viewvisibility" : 1
 				}
@@ -251,7 +268,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 27.875, 194.163935222937909, 213.875, 135.978553056716891 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.875, 233.238028012216091, 213.875, 134.978553056716919 ],
+					"presentation_rect" : [ 238.875, 247.238028012216091, 213.875, 134.978553056716919 ],
 					"varname" : "mo.sends",
 					"viewvisibility" : 1
 				}
@@ -274,7 +291,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 980.375, 481.985231117407579, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.875, 652.21658106893301, 286.0, 87.0 ],
+					"presentation_rect" : [ 310.875, 666.21658106893301, 286.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
 				}
@@ -289,7 +306,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 914.875, 704.174328835024767, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 341.069497436178608, 85.0, 25.0 ],
+					"presentation_rect" : [ 570.0, 355.069497436178608, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -311,7 +328,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 887.375, 706.674328835024767, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 527.5, 343.569497436178608, 20.0, 20.0 ],
+					"presentation_rect" : [ 542.5, 357.569497436178608, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -345,7 +362,7 @@
 					"patching_rect" : [ 817.375, 702.174328835024767, 52.5, 29.0 ],
 					"pattrstorage" : "p-scrubber",
 					"presentation" : 1,
-					"presentation_rect" : [ 457.5, 339.21658106893301, 52.5, 29.0 ]
+					"presentation_rect" : [ 472.5, 353.21658106893301, 52.5, 29.0 ]
 				}
 
 			}
@@ -1698,6 +1715,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

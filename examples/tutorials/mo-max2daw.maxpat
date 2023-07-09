@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 631.0, 411.0 ],
+		"rect" : [ 34.0, 100.0, 650.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 802.0, 659.101393409073353, 127.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 337.426817387342453, 154.601393409073353, 127.0, 25.0 ],
+					"presentation_rect" : [ 347.426817387342453, 162.601393409073353, 127.0, 25.0 ],
 					"text" : "select MIDI output "
 				}
 
@@ -69,7 +69,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 772.0, 661.601393409073353, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.426817387342453, 157.101393409073353, 20.0, 20.0 ],
+					"presentation_rect" : [ 323.426817387342453, 165.101393409073353, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -89,7 +89,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.426817387342453, 63.101393409073353, 119.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.426817387342453, 50.5, 119.0, 25.0 ],
+					"presentation_rect" : [ 201.426817387342453, 58.5, 119.0, 25.0 ],
 					"text" : "select MIDI input "
 				}
 
@@ -111,7 +111,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 188.426817387342453, 66.601393409073353, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.426817387342453, 53.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 173.426817387342453, 61.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -140,7 +140,7 @@
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
 					"patching_rect" : [ 35.0, 31.0, 142.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.824253082275391, 16.5, 142.0, 57.0 ],
+					"presentation_rect" : [ 25.824253082275391, 24.5, 142.0, 57.0 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -155,7 +155,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.0, 262.731939924259962, 127.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 482.324253082275391, 234.101393409073353, 127.0, 25.0 ],
+					"presentation_rect" : [ 492.324253082275391, 242.101393409073353, 127.0, 25.0 ],
 					"text" : "select MIDI output "
 				}
 
@@ -177,7 +177,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 333.0, 265.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 456.324253082275391, 237.601393409073353, 20.0, 20.0 ],
+					"presentation_rect" : [ 466.324253082275391, 245.601393409073353, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -199,7 +199,7 @@
 					"patching_rect" : [ 543.0, 31.0, 287.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 330.324253082275391, 16.5, 287.0, 93.0 ],
+					"presentation_rect" : [ 340.324253082275391, 24.5, 287.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open your preferred DAW (e.g Ableton Live).\n2. (Otional) Select MIDI input for keyboard.\n3. Select MIDI output for keyboard (notes).\n4. Select MIDI output for sliders (control changes)."
 				}
 
@@ -222,7 +222,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 543.0, 620.0, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.824253082275391, 195.0, 214.0, 199.0 ],
+					"presentation_rect" : [ 241.824253082275391, 203.0, 214.0, 199.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}
@@ -267,7 +267,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 35.0, 199.0, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.824253082275391, 91.0, 286.0, 87.0 ],
+					"presentation_rect" : [ 25.824253082275391, 99.0, 286.0, 87.0 ],
 					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}
@@ -314,7 +314,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 543.0, 199.0, 214.0, 200.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.824253082275391, 195.0, 214.0, 199.0 ],
+					"presentation_rect" : [ 25.824253082275391, 203.0, 214.0, 199.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -1069,6 +1069,13 @@
 				"name" : "mo.midiin.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

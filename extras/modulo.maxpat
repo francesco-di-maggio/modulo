@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1208,7 +1208,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Capture, arrange and manipulate input data, such as motion sensors, pads, sliders and keyboards.",
+									"text" : "Handle auxilary functions, such as mapping and visualizing signals and control data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1852,7 +1852,7 @@
 												"box" : 												{
 													"data" : 													{
 														"instruments" : [ "FM Synthesis", "Gametrak", "Genki Wave", "Granular Synthesis", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Scrubber", "Scrumbler", "Theremini", "TouchOSC" ],
-														"tutorials" : [ "Blinker", "Building Blocks", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Visualizer", "Workflow" ]
+														"tutorials" : [ "Blinker", "Legos", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2083,7 +2083,7 @@
 														"Theremini" : [ "mo-theremini" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
 														"Blinker" : [ "mo-blinker" ],
-														"Building Blocks" : [ "mo-blocks" ],
+														"Legos" : [ "mo-legos" ],
 														"Many To One" : [ "mo-many2one" ],
 														"Max To DAW" : "mo-max2daw",
 														"One To Many" : [ "mo-one2many" ],
@@ -2091,6 +2091,7 @@
 														"Recorder" : [ "mo-recorder" ],
 														"Sonifier" : [ "mo-sonifier" ],
 														"Visualizer" : [ "mo-visualizer" ],
+														"Trigger Events" : [ "mo-cues" ],
 														"Workflow" : [ "mo-workflow" ]
 													}
 ,
@@ -2272,9 +2273,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.arrows", "mo.dial", "mo.encoder", "mo.ezadc~", "mo.hi", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.midiin", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rand~", "mo.receive", "mo.receive~", "mo.receives", "mo.rsliders", "mo.serialin", "mo.sliders", "mo.tabs", "mo.udpreceive", "mo.udpreceives", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.audiotester", "mo.console", "mo.cpu", "mo.crosspatch", "mo.crosspatch~", "mo.cue", "mo.date", "mo.gain~", "mo.lfo~", "mo.map", "mo.matrix", "mo.matrix~", "mo.monitor", "mo.mouse", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.swatch", "mo.timer" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 31,
+											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3548,7 +3549,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.41432, 0.1632, 0.39912, 0.16596, 0.34288, 0.257 ],
+					"nsize" : [ 0.27428, 0.1874, 0.36848, 0.10168, 0.46996, 0.142 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3566,8 +3567,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.5518, 0.9431, 0.5626, 0.8034, 0.3355, 0.087 ],
-					"yplace" : [ 0.8616, 0.552, 0.0745, 0.3132, 0.7122, 0.5738 ]
+					"xplace" : [ 0.0834, 0.5959, 0.6818, 0.9185, 0.7763, 0.9583 ],
+					"yplace" : [ 0.0422, 0.1966, 0.5815, 0.976, 0.8654, 0.2975 ]
 				}
 
 			}
@@ -3776,6 +3777,13 @@
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -298,6 +298,23 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Ableton Sans Bold Regular",
+									"id" : "obj-7",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 559.25, 29.1245406717062, 239.0, 107.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 7,
+									"presentation_rect" : [ 589.625, 622.195134125649929, 295.0, 107.0 ],
+									"text" : "INSTRUCTIONS:\n\n1. Load preset.\n2. Adjust output levels.\n3. Turn on the theremini~ synthesizer.\n4. Use sliders to control the sound.\n5. (Optional) Set different scaling factors."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-15",
 									"local" : 1,
 									"maxclass" : "mc.ezdac~",
@@ -3267,6 +3284,13 @@
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

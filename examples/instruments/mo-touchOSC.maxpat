@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 375.0, 618.0 ],
+		"rect" : [ 34.0, 100.0, 388.0, 674.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 327.0, 341.0, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 87.071428571428584, 286.0, 87.0 ],
+					"presentation_rect" : [ 21.0, 94.071428571428584, 286.0, 87.0 ],
 					"varname" : "mo.hslider[1]",
 					"viewvisibility" : 1
 				}
@@ -127,7 +127,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 872.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.0, 443.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 237.0, 450.071428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[3]",
 					"viewvisibility" : 1
 				}
@@ -151,7 +151,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 800.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 443.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 165.0, 450.071428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[2]",
 					"viewvisibility" : 1
 				}
@@ -175,7 +175,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 728.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 443.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 93.0, 450.071428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[1]",
 					"viewvisibility" : 1
 				}
@@ -221,7 +221,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1079.666666666666742, 143.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.166666666666742, 543.022352255944838, 20.0, 20.0 ],
+					"presentation_rect" : [ 235.166666666666742, 560.022352255944838, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -244,7 +244,7 @@
 					"patching_rect" : [ 1022.0, 188.350694444444457, 347.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 14.0, 542.0, 347.0, 64.0 ],
+					"presentation_rect" : [ 21.0, 590.0, 347.0, 64.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load Simple Mk3 preset.\n2. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -258,7 +258,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.666666666666742, 82.027777777777828, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.166666666666742, 45.356455599544006, 71.0, 25.0 ],
+					"presentation_rect" : [ 193.166666666666742, 52.356455599544006, 71.0, 25.0 ],
 					"text" : "set port ",
 					"textjustification" : 1
 				}
@@ -281,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 191.666666666666742, 84.527777777777828, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.11886337647843, 47.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 169.11886337647843, 54.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -301,7 +301,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1105.5, 141.0, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 539.071428571428555, 85.0, 25.0 ],
+					"presentation_rect" : [ 261.0, 556.071428571428555, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -329,10 +329,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1022.0, 73.0, 401.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 249, 100, 603, 855 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 249, 100, 700, 228 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage p-touchOSC @savemode 3 @autorestore 1 @changemode 1",
@@ -351,7 +351,7 @@
 					"patching_rect" : [ 1022.0, 138.0, 53.0, 30.0 ],
 					"pattrstorage" : "p-touchOSC",
 					"presentation" : 1,
-					"presentation_rect" : [ 166.5, 537.071428571428555, 53.0, 29.0 ]
+					"presentation_rect" : [ 173.5, 554.071428571428555, 53.0, 29.0 ]
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 341.000000000000057, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 176.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 93.0, 183.071428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -397,7 +397,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 341.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.0, 176.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 237.0, 183.071428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[3]",
 					"viewvisibility" : 1
 				}
@@ -421,7 +421,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 183.0, 341.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 176.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 165.0, 183.071428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[2]",
 					"viewvisibility" : 1
 				}
@@ -445,7 +445,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 656.0, 341.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 443.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 21.0, 450.071428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -481,7 +481,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 341.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 176.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 21.0, 183.071428571428584, 70.0, 265.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -505,7 +505,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 49.777777777777828, 142.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 13.071428571428584, 142.0, 57.0 ],
+					"presentation_rect" : [ 21.0, 20.071428571428584, 142.0, 57.0 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -739,6 +739,10 @@
 					"parameter_longname" : "live.text[94]"
 				}
 ,
+				"obj-15::obj-22" : 				{
+					"parameter_longname" : "live.text[175]"
+				}
+,
 				"obj-15::obj-37" : 				{
 					"parameter_longname" : "live.text[96]"
 				}
@@ -777,6 +781,14 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-1::obj-14" : 				{
+					"parameter_longname" : "live.button[1]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-23::obj-35" : 				{
@@ -833,6 +845,10 @@
 ,
 				"obj-3::obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-3::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[29]"
 				}
 ,
 				"obj-3::obj-1::obj-2" : 				{
@@ -897,6 +913,10 @@
 ,
 				"obj-3::obj-74::obj-2" : 				{
 					"parameter_longname" : "live.text[40]"
+				}
+,
+				"obj-4::obj-21" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-4::obj-35" : 				{
@@ -1011,8 +1031,15 @@
 			}
 , 			{
 				"name" : "mo.route.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

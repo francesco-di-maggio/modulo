@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 679.0, 525.0 ],
+		"rect" : [ 34.0, 100.0, 690.0, 532.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"patching_rect" : [ 46.38113662352157, 570.989895233677657, 171.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 38.5, 188.5, 171.0, 54.0 ],
+					"presentation_rect" : [ 44.5, 193.5, 171.0, 54.0 ],
 					"text" : "control each sound parameter\nusing its slider",
 					"textjustification" : 1
 				}
@@ -73,7 +73,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 122.0, 538.856455599544006, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 159.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 164.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -96,7 +96,7 @@
 					"patching_rect" : [ 700.0, 25.886411435185039, 264.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 17.0, 420.5, 264.0, 79.0 ],
+					"presentation_rect" : [ 23.0, 427.5, 264.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Turn on the theremini~.\n2. Use sliders to control the sound parameters.\n3. (Optional) Set different scaling factors."
 				}
 
@@ -119,7 +119,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 894.0, 601.387398037645312, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 593.0, 420.5, 70.0, 87.0 ],
+					"presentation_rect" : [ 599.0, 425.5, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -143,7 +143,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 534.0, 302.818699018822599, 430.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 153.5, 430.0, 265.0 ],
+					"presentation_rect" : [ 239.0, 158.5, 430.0, 265.0 ],
 					"varname" : "mo.theremini~",
 					"viewvisibility" : 1
 				}
@@ -159,7 +159,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 393.32013450935483, 483.451504590334935, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.94513450935483, 330.546747774989626, 102.0, 25.0 ],
+					"presentation_rect" : [ 94.94513450935483, 335.546747774989626, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -181,7 +181,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 499.82013450935483, 485.951504590334935, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.44513450935483, 333.046747774989626, 20.0, 20.0 ],
+					"presentation_rect" : [ 201.44513450935483, 338.046747774989626, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -201,7 +201,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 417.333333333333371, 184.694744768518092, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 129.875, 374.163175285000648, 85.0, 25.0 ],
+					"presentation_rect" : [ 135.875, 379.163175285000648, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -223,7 +223,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 389.833333333333371, 187.194744768518092, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.375, 376.663175285000648, 20.0, 20.0 ],
+					"presentation_rect" : [ 108.375, 381.663175285000648, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -253,7 +253,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 205.13690473641509, 214.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 16.5, 214.0, 135.0 ],
+					"presentation_rect" : [ 239.0, 21.5, 214.0, 135.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -277,7 +277,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 25.0, 384.387398037645198, 214.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 449.0, 16.5, 214.0, 135.0 ],
+					"presentation_rect" : [ 455.0, 21.5, 214.0, 135.0 ],
 					"varname" : "mo.sends",
 					"viewvisibility" : 1
 				}
@@ -302,7 +302,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 25.886411435185039, 214.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 16.5, 214.0, 135.0 ],
+					"presentation_rect" : [ 23.0, 21.5, 214.0, 135.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -325,7 +325,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 534.0, 601.387398037645312, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 420.5, 286.0, 87.0 ],
+					"presentation_rect" : [ 311.0, 425.5, 286.0, 87.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -382,7 +382,7 @@
 					"patching_rect" : [ 322.0, 182.194744768518035, 53.0, 30.0 ],
 					"pattrstorage" : "p-theremini",
 					"presentation" : 1,
-					"presentation_rect" : [ 38.5, 371.5, 53.0, 29.0 ]
+					"presentation_rect" : [ 44.5, 376.5, 53.0, 29.0 ]
 				}
 
 			}
@@ -1392,6 +1392,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

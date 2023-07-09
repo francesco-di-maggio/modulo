@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -100,7 +100,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[72]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -452,7 +452,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 93.416914725586338, 4.371792723306498, 115.048439722058362, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "untitled",
+					"text" : "p-blocks",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -498,7 +498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 232.203198903798807, 265.788836774589527, 58.0, 23.0 ],
+					"patching_rect" : [ 232.203198903798807, 261.788836774589527, 58.0, 23.0 ],
 					"text" : "strippath"
 				}
 
@@ -1226,7 +1226,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[69]",
+							"parameter_longname" : "live.numbox[105]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",

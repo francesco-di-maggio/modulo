@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -256,7 +256,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -333,7 +333,7 @@
 
 					}
 ,
-					"text" : "clear",
+					"text" : "reset",
 					"texton" : "clear",
 					"usesvgviewbox" : 1,
 					"varname" : "live.text"
@@ -361,7 +361,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 36.848282635211945, 38.47263293422111, 101.151717364788055, 13.031495958566666 ],
 					"rounded" : 0.0,
-					"text" : "0 : 0 : 0 . 0",
+					"text" : "0 : 0 : 1 . 625",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "Timer-TX"
 				}
@@ -371,7 +371,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -714,45 +714,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-153" : [ "live.text[380]", "live.text", 0 ],
-			"obj-2" : [ "live.text[381]", "live.text", 0 ],
-			"obj-3" : [ "live.text[382]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

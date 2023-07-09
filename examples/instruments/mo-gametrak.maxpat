@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 281.0, 484.0 ],
+		"rect" : [ 34.0, 100.0, 300.0, 499.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 187.149305555555543, 214.0, 167.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 87.571428571428584, 214.0, 167.0 ],
+					"presentation_rect" : [ 23.0, 96.571428571428584, 214.0, 167.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -114,7 +114,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 39.0, 446.0, 142.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 256.571428571428555, 142.0, 57.5 ],
+					"presentation_rect" : [ 95.0, 265.571428571428555, 142.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
@@ -139,7 +139,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 370.074074074074133, 70.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 256.571428571428555, 70.0, 57.5 ],
+					"presentation_rect" : [ 23.0, 265.571428571428555, 70.0, 57.5 ],
 					"varname" : "mo.smooth",
 					"viewvisibility" : 1
 				}
@@ -162,7 +162,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 734.666666666666742, 220.649305555555543, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.166666666666742, 346.307379284060289, 20.0, 20.0 ],
+					"presentation_rect" : [ 97.166666666666742, 355.307379284060289, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -185,7 +185,7 @@
 					"patching_rect" : [ 677.0, 283.532638888889551, 244.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 14.0, 391.071428571428555, 244.0, 79.0 ],
+					"presentation_rect" : [ 23.0, 400.071428571428555, 244.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Connect your Gametrak.\n2. Calibrate minimum and maximum values.\n3. (Optional) Send data to a sound device."
 				}
 
@@ -199,7 +199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.666666666666742, 82.027777777777828, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.166666666666742, 47.356455599544006, 79.0, 25.0 ],
+					"presentation_rect" : [ 201.166666666666742, 56.356455599544006, 79.0, 25.0 ],
 					"text" : "set device",
 					"textjustification" : 1
 				}
@@ -222,7 +222,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 191.666666666666742, 84.527777777777828, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.11886337647843, 49.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 177.11886337647843, 58.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -242,7 +242,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 760.5, 218.649305555555543, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 342.356455599544006, 85.0, 25.0 ],
+					"presentation_rect" : [ 123.0, 351.356455599544006, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -270,7 +270,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 677.0, 171.222222222222285, 398.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 462, 925 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -292,7 +292,7 @@
 					"patching_rect" : [ 677.0, 215.649305555555543, 53.0, 30.0 ],
 					"pattrstorage" : "p-gametrak",
 					"presentation" : 1,
-					"presentation_rect" : [ 22.5, 340.356455599544006, 53.0, 29.0 ]
+					"presentation_rect" : [ 31.5, 349.356455599544006, 53.0, 29.0 ]
 				}
 
 			}
@@ -338,7 +338,7 @@
 					"outlettype" : [ "list" ],
 					"patching_rect" : [ 39.0, 49.777777777777828, 142.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 13.071428571428584, 142.0, 57.5 ],
+					"presentation_rect" : [ 23.0, 22.071428571428584, 142.0, 57.5 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -1041,6 +1041,13 @@
 				"name" : "mo.send.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

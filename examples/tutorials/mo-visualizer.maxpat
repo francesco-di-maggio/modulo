@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 892.0, 564.0 ],
+		"rect" : [ 34.0, 100.0, 912.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 32.578603833188055, 29.0, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.578603833188055, 18.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 23.578603833188055, 24.5, 214.0, 265.0 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -80,7 +80,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 717.0, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 662.719069222125313, 285.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 671.719069222125313, 291.5, 214.0, 265.0 ],
 					"varname" : "mo.spectroscope~",
 					"viewvisibility" : 1
 				}
@@ -104,7 +104,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 488.859534611062713, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.578603833188026, 285.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 455.578603833188026, 291.5, 214.0, 265.0 ],
 					"varname" : "mo.meter~",
 					"viewvisibility" : 1
 				}
@@ -128,7 +128,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 260.71906922212537, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.578603833188055, 285.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 239.578603833188055, 291.5, 214.0, 265.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -142,7 +142,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.313911750912666, 30.708700683519623, 110.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 274.313911750912666, 15.5, 110.0, 25.0 ],
+					"presentation_rect" : [ 275.313911750912666, 100.5, 110.0, 25.0 ],
 					"text" : "playback on/off"
 				}
 
@@ -164,7 +164,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.313911750912666, 33.708700683519623, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.313911750912666, 18.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 249.313911750912666, 103.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -193,7 +193,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 32.578603833188055, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.578603833188055, 285.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 23.578603833188055, 291.5, 214.0, 265.0 ],
 					"varname" : "mo.scope~",
 					"viewvisibility" : 1
 				}
@@ -208,7 +208,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1048.0, 581.724951458887972, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 789.489658668637276, 219.500000000000114, 74.0, 25.0 ],
+					"presentation_rect" : [ 798.489658668637276, 225.500000000000114, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -230,7 +230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1022.0, 585.724951458887972, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 763.489658668637276, 222.500000000000114, 20.0, 20.0 ],
+					"presentation_rect" : [ 772.489658668637276, 228.500000000000114, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -250,7 +250,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 963.0, 569.224951458887972, 53.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 695.489658668637276, 206.000000000000114, 53.0, 53.0 ]
+					"presentation_rect" : [ 704.489658668637276, 212.000000000000114, 53.0, 53.0 ]
 				}
 
 			}
@@ -378,6 +378,13 @@
 				"name" : "mo.scope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

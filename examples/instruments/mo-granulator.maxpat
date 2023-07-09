@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 904.0, 745.0 ],
+		"rect" : [ 34.0, 100.0, 912.0, 743.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"patching_rect" : [ 40.166666666666742, 747.5, 171.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 40.375, 274.5, 171.0, 54.0 ],
+					"presentation_rect" : [ 46.375, 280.5, 171.0, 54.0 ],
 					"text" : "control each sound parameter\nusing its slider, and pad",
 					"textjustification" : 1
 				}
@@ -73,7 +73,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 115.666666666666742, 716.108964204575386, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.875, 245.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 121.875, 251.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -92,11 +92,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 872.375, 597.726974681019783, 483.0, 93.0 ],
+					"patching_rect" : [ 872.375, 597.726974681019783, 439.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 18.875, 632.21658106893301, 483.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Load the preset.\n2. Load sample, or drag your own of the waveform object. \n2. Use sliders to control sound parameters, and pads to turn playback and mode on/off.\n3. (Optional) Set different scaling factors."
+					"presentation_rect" : [ 24.875, 631.21658106893301, 439.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Load preset.\n2. Load sample, or drag your own of the waveform object. \n3. Use sliders to control the sound, and pads to turn playback and mode on/off.\n4. (Optional) Set different scaling factors."
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1232.375, 440.408813155761891, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 810.875, 623.21658106893301, 70.0, 87.0 ],
+					"presentation_rect" : [ 816.875, 629.21658106893301, 70.0, 87.0 ],
 					"varname" : "mo.ezdac~",
 					"viewvisibility" : 1
 				}
@@ -142,7 +142,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 270.75, 147.238028012216091, 214.0, 103.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.0, 236.21658106893301, 214.0, 103.0 ],
+					"presentation_rect" : [ 457.0, 242.21658106893301, 214.0, 103.0 ],
 					"varname" : "mo.sends[1]",
 					"viewvisibility" : 1
 				}
@@ -166,7 +166,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 872.375, 147.238028012216091, 430.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.875, 356.21658106893301, 430.0, 265.0 ],
+					"presentation_rect" : [ 456.875, 362.21658106893301, 430.0, 265.0 ],
 					"varname" : "mo.granulator~",
 					"viewvisibility" : 1
 				}
@@ -191,7 +191,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.75, 28.238028012216091, 214.0, 103.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.875, 236.21658106893301, 214.0, 103.0 ],
+					"presentation_rect" : [ 240.875, 242.21658106893301, 214.0, 103.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -215,7 +215,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 522.875, 147.238028012216091, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.875, 356.21658106893301, 214.0, 265.0 ],
+					"presentation_rect" : [ 240.875, 362.21658106893301, 214.0, 265.0 ],
 					"varname" : "mo.buffer~",
 					"viewvisibility" : 1
 				}
@@ -240,7 +240,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.875, 28.238028012216091, 214.0, 215.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.875, 19.238028012216091, 214.0, 215.0 ],
+					"presentation_rect" : [ 24.875, 25.238028012216091, 214.0, 215.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -264,7 +264,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 18.875, 487.033643530948211, 214.0, 216.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.875, 19.238028012216091, 214.0, 214.978553056716919 ],
+					"presentation_rect" : [ 456.875, 25.238028012216091, 214.0, 214.978553056716919 ],
 					"varname" : "mo.sends",
 					"viewvisibility" : 1
 				}
@@ -289,7 +289,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.875, 256.646559243223692, 214.0, 216.978553056716919 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.875, 19.238028012216091, 214.0, 214.978553056716919 ],
+					"presentation_rect" : [ 240.875, 25.238028012216091, 214.0, 214.978553056716919 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -312,7 +312,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 872.375, 440.408813155761891, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 522.875, 623.21658106893301, 286.0, 87.0 ],
+					"presentation_rect" : [ 528.875, 629.21658106893301, 286.0, 87.0 ],
 					"varname" : "bbdmi.dac~",
 					"viewvisibility" : 1
 				}
@@ -327,7 +327,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 370.25, 651.787688966734095, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.166666666666742, 451.188511442286654, 85.0, 25.0 ],
+					"presentation_rect" : [ 133.166666666666742, 580.188511442286654, 85.0, 25.0 ],
 					"text" : "load preset"
 				}
 
@@ -349,7 +349,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 340.75, 654.287688966734095, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.666666666666742, 453.688511442286654, 20.0, 20.0 ],
+					"presentation_rect" : [ 105.666666666666742, 582.688511442286654, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -383,7 +383,7 @@
 					"patching_rect" : [ 270.75, 649.787688966734095, 52.5, 29.0 ],
 					"pattrstorage" : "p-granulator",
 					"presentation" : 1,
-					"presentation_rect" : [ 22.666666666666742, 449.335595075041056, 52.5, 29.0 ]
+					"presentation_rect" : [ 35.666666666666742, 578.335595075041056, 52.5, 29.0 ]
 				}
 
 			}
@@ -431,7 +431,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 142.375, 761.5, 83.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.375, 288.5, 36.0, 40.0 ],
+					"presentation_rect" : [ 195.375, 294.5, 36.0, 40.0 ],
 					"text" : "\n",
 					"textjustification" : 1
 				}
@@ -1950,6 +1950,13 @@
 				"name" : "mo.sends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
 				"patcherrelativepath" : "../../patchers/output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
