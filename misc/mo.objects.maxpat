@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 90.0, 956.0, 541.0 ],
+		"rect" : [ 34.0, 100.0, 1388.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
+						"rect" : [ 34.0, 126.0, 1388.0, 822.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -135,7 +135,10 @@
 										"mo.matrix::outs" : -1,
 										"mo.matrix~::matrix~" : 1,
 										"mo.matrix~::ins" : -1,
-										"mo.matrix~::outs" : -1
+										"mo.matrix~::outs" : -1,
+										"mo.matrix[1]::ins" : -1,
+										"mo.matrix[1]::outs" : -1,
+										"mo.matrix[1]::matrix" : 1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -734,7 +737,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
+						"rect" : [ 0.0, 26.0, 1388.0, 822.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1325,7 +1328,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
+						"rect" : [ 0.0, 26.0, 1388.0, 822.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1542,7 +1545,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 116.0, 956.0, 515.0 ],
+						"rect" : [ 0.0, 26.0, 1388.0, 822.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2051,7 +2054,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 956.0, 515.0 ],
+						"rect" : [ 0.0, 26.0, 1388.0, 822.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
