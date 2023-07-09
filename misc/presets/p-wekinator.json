@@ -1,0 +1,67 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-wekinator",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.sends::voices" : [ 5.0 ],
+					"mo.sends::device" : [ "fm" ],
+					"mo.sends::mute" : [ 0.0 ],
+					"mo.sends::[1]::send" : [ "carrier" ],
+					"mo.sends::[1]::mute" : [ 0.0 ],
+					"mo.sends::[2]::send" : [ "harmonicity" ],
+					"mo.sends::[2]::mute" : [ 0.0 ],
+					"mo.sends::[3]::send" : [ "ratio" ],
+					"mo.sends::[3]::mute" : [ 0.0 ],
+					"mo.sends::[4]::send" : [ "rate" ],
+					"mo.sends::[4]::mute" : [ 0.0 ],
+					"mo.sends::[5]::send" : [ "depth" ],
+					"mo.sends::[5]::mute" : [ 0.0 ],
+					"mo.scale::voices" : [ 5.0 ],
+					"mo.scale::polarity" : [ 0.0 ],
+					"mo.scale::li" : [ 0.0 ],
+					"mo.scale::hi" : [ 1.0 ],
+					"mo.scale::curve" : [ 1.0 ],
+					"mo.scale::lo" : [ 0.0 ],
+					"mo.scale::ho" : [ 1.0 ],
+					"mo.scale::mute" : [ 0.0 ],
+					"mo.scale::[1]::li" : [ 0.0 ],
+					"mo.scale::[1]::hi" : [ 1.0 ],
+					"mo.scale::[1]::curve" : [ 1.0 ],
+					"mo.scale::[1]::mute" : [ 0.0 ],
+					"mo.scale::[1]::lo[1]" : [ 20.0 ],
+					"mo.scale::[1]::ho" : [ 200.0 ],
+					"mo.scale::[2]::li" : [ 0.0 ],
+					"mo.scale::[2]::hi" : [ 1.0 ],
+					"mo.scale::[2]::curve" : [ 1.0 ],
+					"mo.scale::[2]::mute" : [ 0.0 ],
+					"mo.scale::[2]::lo[1]" : [ 0.1 ],
+					"mo.scale::[2]::ho" : [ 5.0 ],
+					"mo.scale::[3]::li" : [ 0.0 ],
+					"mo.scale::[3]::hi" : [ 1.0 ],
+					"mo.scale::[3]::curve" : [ 1.0 ],
+					"mo.scale::[3]::mute" : [ 0.0 ],
+					"mo.scale::[3]::lo[1]" : [ 0.0 ],
+					"mo.scale::[3]::ho" : [ 50.0 ],
+					"mo.scale::[4]::li" : [ 0.0 ],
+					"mo.scale::[4]::hi" : [ 1.0 ],
+					"mo.scale::[4]::curve" : [ 1.0 ],
+					"mo.scale::[4]::mute" : [ 0.0 ],
+					"mo.scale::[4]::lo[1]" : [ 0.0 ],
+					"mo.scale::[4]::ho" : [ 100.0 ],
+					"mo.scale::[5]::li" : [ 0.0 ],
+					"mo.scale::[5]::hi" : [ 1.0 ],
+					"mo.scale::[5]::curve" : [ 1.0 ],
+					"mo.scale::[5]::mute" : [ 0.0 ],
+					"mo.scale::[5]::lo[1]" : [ 0.0 ],
+					"mo.scale::[5]::ho" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
