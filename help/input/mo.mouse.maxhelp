@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 504.0, 524.0 ],
+		"rect" : [ 34.0, 100.0, 439.0, 588.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.707317113876343, 283.0, 189.0, 25.0 ],
+					"patching_rect" : [ 225.707317113876343, 323.0, 189.0, 25.0 ],
 					"text" : "reset to 0,0 point to its default"
 				}
 
@@ -63,7 +63,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.707317113876343, 237.0, 203.0, 39.0 ],
+					"patching_rect" : [ 186.707317113876343, 277.0, 203.0, 39.0 ],
 					"text" : "set the 0,0 point from which to measure the mouse location"
 				}
 
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 478.0, 67.0, 21.0 ],
+					"patching_rect" : [ 164.0, 538.0, 67.0, 21.0 ],
 					"text" : "moviement"
 				}
 
@@ -85,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 424.5, 33.0, 21.0 ],
+					"patching_rect" : [ 122.0, 484.5, 33.0, 21.0 ],
 					"text" : "click"
 				}
 
@@ -104,7 +104,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 249.707317113876343, 165.5, 20.0, 20.0 ],
+					"patching_rect" : [ 181.707317113876343, 205.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -121,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.707317113876343, 141.5, 203.0, 68.0 ],
+					"patching_rect" : [ 211.707317113876343, 181.5, 203.0, 68.0 ],
 					"text" : "set coordinate reference mode:\n1 = Relative to screen\n2 = Relative to this patcher\n3 = Relative to frontmost patcher"
 				}
 
@@ -134,7 +134,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.0, 164.0, 50.0, 23.0 ]
+					"patching_rect" : [ 122.0, 204.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -145,7 +145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 204.0, 55.0, 23.0 ],
+					"patching_rect" : [ 122.0, 244.0, 55.0, 23.0 ],
 					"text" : "mode $1"
 				}
 
@@ -157,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.707317113876343, 284.0, 36.0, 23.0 ],
+					"patching_rect" : [ 181.707317113876343, 324.0, 36.0, 23.0 ],
 					"text" : "reset"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 245.0, 31.0, 23.0 ],
+					"patching_rect" : [ 146.0, 285.0, 31.0, 23.0 ],
 					"text" : "zero"
 				}
 
@@ -182,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.0, 423.0, 24.0, 24.0 ]
+					"patching_rect" : [ 92.0, 483.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -272,8 +272,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 477.0, 118.0, 23.0 ],
-					"text" : "0.613095 0.411405"
+					"patching_rect" : [ 41.0, 537.0, 118.0, 23.0 ],
+					"text" : "0.062831 0.715886"
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 41.0, 343.0, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 373.0, 70.0, 87.0 ],
 					"varname" : "mo.mouse",
 					"viewvisibility" : 1
 				}
@@ -303,7 +303,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 199.5, 330.0, 50.5, 330.0 ],
+					"midpoints" : [ 131.5, 360.0, 50.5, 360.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -311,7 +311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 199.5, 189.0, 199.5, 189.0 ],
+					"midpoints" : [ 131.5, 228.0, 131.5, 228.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -327,7 +327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 462.0, 149.5, 462.0 ],
+					"midpoints" : [ 50.5, 522.0, 149.5, 522.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -335,7 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 173.5, 402.0, 173.5, 402.0 ],
+					"midpoints" : [ 101.5, 462.0, 101.5, 462.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -351,7 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 223.5, 330.0, 50.5, 330.0 ],
+					"midpoints" : [ 155.5, 360.0, 50.5, 360.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -359,16 +359,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 259.207317113876343, 330.0, 50.5, 330.0 ],
+					"midpoints" : [ 191.207317113876343, 360.0, 50.5, 360.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-45" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-53" : [ "live.text[295]", "live.text", 0 ],
-			"obj-4::obj-9" : [ "live.text[19]", "live.text", 0 ],
+			"obj-4::obj-45" : [ "live.text[780]", "live.text", 0 ],
+			"obj-4::obj-53" : [ "live.text[778]", "live.text", 0 ],
+			"obj-4::obj-9" : [ "live.text[779]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -383,8 +383,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.mouse.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

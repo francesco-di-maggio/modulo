@@ -308,12 +308,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 274.0, 400.323442784456233, 205.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ -12 ],
+						"initial" : [ -20 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr gain @bindto gain- @initial -12",
+					"text" : "pattr gain @bindto gain- @initial -20",
 					"varname" : "gain"
 				}
 
@@ -322,7 +322,7 @@
 				"box" : 				{
 					"comment" : "(message) mute, dB, chans",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -394,11 +394,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 206.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
@@ -608,32 +608,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-45" : [ "live.gain~[4]", "volume", 0 ],
-			"obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
-			"obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-8" : [ "live.text[666]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

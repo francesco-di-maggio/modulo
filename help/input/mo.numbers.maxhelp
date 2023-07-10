@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 571.0, 675.0 ],
+		"rect" : [ 34.0, 100.0, 571.0, 634.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 586.0, 245.0, 23.0 ],
+					"text" : "0.348837 0.366279 0.372093 0.69186"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -298,25 +311,6 @@
 				"box" : 				{
 					"candycane" : 8,
 					"contdata" : 1,
-					"id" : "obj-1",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 588.999999999999886, 172.0, 61.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 1,
-					"size" : 4,
-					"spacing" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"candycane" : 8,
-					"contdata" : 1,
 					"id" : "obj-6",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -382,8 +376,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.5, 555.0, 50.5, 555.0 ],
+					"destination" : [ "obj-35", 1 ],
+					"midpoints" : [ 50.5, 573.0, 276.5, 573.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 362.0, 410.0 ],
+		"rect" : [ 34.0, 100.0, 288.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 370.0, 68.0, 23.0 ],
+					"patching_rect" : [ 41.0, 415.0, 68.0, 23.0 ],
 					"text" : "0 0 0"
 				}
 
@@ -286,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 202.0, 122.0, 25.0 ],
+					"patching_rect" : [ 149.0, 202.0, 122.0, 25.0 ],
 					"text" : "set time response "
 				}
 
@@ -360,7 +360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 288.0, 99.0, 79.0 ],
+					"patching_rect" : [ 149.0, 295.0, 99.0, 79.0 ],
 					"text" : "NOTE:\n\n•   = click\n•• = double-click\n— = hold"
 				}
 
@@ -376,7 +376,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.719762459397316, 203.0, 50.0, 23.0 ]
+					"patching_rect" : [ 91.719762459397316, 203.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -387,7 +387,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.719762459397316, 235.702987670898438, 79.0, 23.0 ],
+					"patching_rect" : [ 91.719762459397316, 235.702987670898438, 79.0, 23.0 ],
 					"text" : "sensitivity $1"
 				}
 
@@ -408,7 +408,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 280.0, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 295.0, 70.0, 87.0 ],
 					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
@@ -418,7 +418,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 50.5, 357.0, 99.5, 357.0 ],
+					"midpoints" : [ 50.5, 402.0, 99.5, 402.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -426,7 +426,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 173.219762459397316, 261.0, 173.5, 261.0 ],
+					"midpoints" : [ 101.219762459397316, 261.0, 101.5, 261.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -442,7 +442,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 173.219762459397316, 228.0, 173.219762459397316, 228.0 ],
+					"midpoints" : [ 101.219762459397316, 228.0, 101.219762459397316, 228.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -479,6 +479,13 @@
 				"name" : "mo.click.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

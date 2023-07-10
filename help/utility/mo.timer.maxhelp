@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 258.0, 390.0 ],
+		"rect" : [ 34.0, 100.0, 290.0, 390.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 204.0, 36.0, 23.0 ],
+					"patching_rect" : [ 152.280237540602684, 204.0, 36.0, 23.0 ],
 					"text" : "reset"
 				}
 
@@ -138,8 +138,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.0, 340.0, 84.0, 23.0 ],
-					"text" : "0 0 0 0"
+					"patching_rect" : [ 41.0, 340.0, 84.0, 23.0 ],
+					"text" : "0 0 12 750"
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 253.0, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 253.0, 214.0, 57.5 ],
 					"varname" : "mo.slider",
 					"viewvisibility" : 1
 				}
@@ -177,7 +177,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 325.0, 173.5, 325.0 ],
+					"midpoints" : [ 50.5, 325.0, 115.5, 325.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -185,7 +185,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 121.5, 238.0, 50.5, 238.0 ],
+					"midpoints" : [ 161.780237540602684, 238.0, 50.5, 238.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -200,8 +200,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-153" : [ "live.text[19]", "live.text", 0 ],
-			"obj-4::obj-2" : [ "live.text[172]", "live.text", 0 ],
+			"obj-4::obj-153" : [ "live.text[784]", "live.text", 0 ],
+			"obj-4::obj-2" : [ "live.text[783]", "live.text", 0 ],
+			"obj-4::obj-3" : [ "live.text[382]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -215,16 +216,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "clear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.timer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

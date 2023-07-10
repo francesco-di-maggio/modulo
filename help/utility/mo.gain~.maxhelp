@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 558.0, 589.0 ],
+		"rect" : [ 34.0, 100.0, 558.0, 552.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 509.0, 48.0, 48.0 ]
+					"patching_rect" : [ 302.0, 479.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.714745454545209, 520.0, 74.0, 25.0 ],
+					"patching_rect" : [ 389.714745454545209, 490.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 361.0, 523.0, 20.0, 20.0 ],
+					"patching_rect" : [ 361.0, 493.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 509.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 479.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 338.600575178861618, 214.0, 137.0 ],
+					"patching_rect" : [ 41.0, 308.600575178861618, 214.0, 137.0 ],
 					"varname" : "mo.gain~",
 					"viewvisibility" : 1
 				}
@@ -286,7 +286,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 377.50795786459355, 324.0, 245.5, 324.0 ],
+					"midpoints" : [ 377.50795786459355, 294.0, 245.5, 294.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -294,7 +294,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 50.5, 477.0, 50.5, 477.0 ],
+					"midpoints" : [ 50.5, 447.0, 50.5, 447.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -318,7 +318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 311.5, 324.0, 245.5, 324.0 ],
+					"midpoints" : [ 311.5, 294.0, 245.5, 294.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -326,7 +326,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 377.50795786459355, 230.0, 377.50795786459355, 230.0 ],
+					"midpoints" : [ 377.50795786459355, 231.0, 377.50795786459355, 231.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -342,7 +342,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 311.5, 191.0, 311.5, 191.0 ],
+					"midpoints" : [ 311.5, 189.0, 311.5, 189.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -379,8 +379,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.gain~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

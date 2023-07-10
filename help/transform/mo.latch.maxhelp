@@ -53,7 +53,7 @@
 					"patching_rect" : [ 41.0, 165.0, 172.0, 61.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 4,
+					"size" : 2,
 					"spacing" : 2
 				}
 
@@ -254,6 +254,17 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-74" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-2::obj-9" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -261,6 +272,13 @@
 				"name" : "mo.latch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

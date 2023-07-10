@@ -566,7 +566,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.999999999999943, 408.5, 142.0, 57.5 ],
+					"patching_rect" : [ 40.999999999999943, 408.5, 214.0, 57.5 ],
 					"varname" : "mo.serial",
 					"viewvisibility" : 1
 				}
@@ -686,29 +686,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-40" : [ "live.button[1]", "live.button", 0 ],
-			"obj-4::obj-6" : [ "live.text[605]", "live.text", 0 ],
+			"obj-4::obj-1" : [ "live.text[174]", "live.text", 0 ],
+			"obj-4::obj-40" : [ "live.button[4]", "live.button", 0 ],
+			"obj-4::obj-6" : [ "live.text[175]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-4::obj-1" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-4::obj-40" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-,
-				"obj-4::obj-6" : 				{
-					"parameter_longname" : "live.text[605]"
 				}
 
 			}

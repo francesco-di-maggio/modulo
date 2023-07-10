@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 41.0, 216.0, 49.0, 23.0 ],
+					"text" : "* 3000."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"local" : 1,
 					"maxclass" : "ezdac~",
@@ -99,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 73.5, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 70.5, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -133,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 167.5, 20.0, 20.0 ],
+					"patching_rect" : [ 132.0, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -203,8 +215,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 165.0, 115.0, 25.0 ],
-					"text" : "generate signals "
+					"patching_rect" : [ 159.0, 165.0, 315.0, 25.0 ],
+					"text" : "generate random audio signals at a specific frequency "
 				}
 
 			}
@@ -269,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 216.0, 115.0, 23.0 ],
+					"patching_rect" : [ 41.0, 259.0, 115.0, 23.0 ],
 					"text" : "mc.rand~ @chans 4"
 				}
 
@@ -331,7 +343,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -340,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 50.5, 240.0, 50.5, 240.0 ],
+					"midpoints" : [ 50.5, 285.0, 50.5, 285.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -355,9 +367,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 83.0, 201.0, 50.5, 201.0 ],
+					"destination" : [ "obj-5", 1 ],
+					"midpoints" : [ 80.0, 201.0, 80.5, 201.0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 50.5, 240.0, 50.5, 240.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -387,7 +407,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-18::obj-3" : [ "live.text[2]", "live.text", 0 ],
 			"obj-18::obj-35" : [ "live.text[36]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -398,37 +418,21 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-18::obj-153" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[19]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.spectroscope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.spectroscope~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

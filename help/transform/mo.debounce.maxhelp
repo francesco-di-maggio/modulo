@@ -42,12 +42,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 253.689380136132229, 214.0, 64.0 ],
-					"text" : "NOTE:\nTry increasing the time (e.g 500). \nYou will see the spacebar release value\nwill be filtered if performed quickly."
+					"patching_rect" : [ 149.0, 253.689380136132229, 214.0, 79.0 ],
+					"text" : "NOTE:\n\nTry increasing the time (e.g 500). \nYou will see the spacebar release value\nwill be filtered if performed quickly."
 				}
 
 			}
@@ -463,6 +463,17 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-5::obj-5" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-5::obj-9" : 				{
+					"parameter_longname" : "live.text[64]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -470,6 +481,13 @@
 				"name" : "mo.debounce.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

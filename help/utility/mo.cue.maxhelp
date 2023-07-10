@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.719762459397316, 163.0, 128.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set without output "
 				}
 
@@ -74,7 +73,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 246.0, 208.0, 50.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "goto $1"
 				}
 

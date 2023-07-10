@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 481.0, 354.0 ],
+		"rect" : [ 34.0, 100.0, 537.0, 426.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,9 @@
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"orientation" : 2,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 139.0, 206.0, 134.0, 120.0 ]
+					"patching_rect" : [ 139.0, 206.0, 198.859384090909316, 199.0 ]
 				}
 
 			}
@@ -58,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 139.0, 167.5, 132.0, 23.0 ],
-					"text" : "mc.rand~ 5 @chans 16"
+					"text" : "mc.rand~ 5 @chans 64"
 				}
 
 			}
@@ -70,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.359384090909316, 291.0, 74.0, 25.0 ],
+					"patching_rect" : [ 447.359384090909316, 370.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -82,7 +83,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.859384090909316, 281.0, 45.0, 45.0 ]
+					"patching_rect" : [ 360.859384090909316, 360.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -142,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 356.859384090909316, 293.500000000000114, 20.0, 20.0 ],
+					"patching_rect" : [ 417.859384090909316, 372.500000000000114, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -194,13 +195,27 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-9" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.cpu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

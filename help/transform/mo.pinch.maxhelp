@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 377.0, 350.0 ],
+		"rect" : [ 34.0, 100.0, 314.0, 444.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 307.0, 50.0, 23.0 ],
+					"patching_rect" : [ 41.0, 397.0, 70.0, 23.0 ],
 					"text" : "0 0 0"
 				}
 
@@ -151,7 +151,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.89082807236872, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 91.89082807236872, 214.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 220.0, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 280.0, 70.0, 87.0 ],
 					"varname" : "mo.pinch",
 					"viewvisibility" : 1
 				}
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.826568275690079, 144.0, 108.0, 68.0 ],
+					"patching_rect" : [ 179.826568275690079, 192.0, 108.0, 68.0 ],
 					"text" : "set value:\n0.00 - 0.32 = 1\n0.33 - 0.65 = 2 \n0.66 - 1.00 = 3"
 				}
 
@@ -206,7 +206,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 224.826568275690079, 168.0, 20.0, 20.0 ],
+					"patching_rect" : [ 152.826568275690079, 216.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -217,7 +217,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 173.39082807236872, 192.0, 173.5, 192.0 ],
+					"midpoints" : [ 101.39082807236872, 240.0, 101.5, 240.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -225,7 +225,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 50.5, 294.0, 81.5, 294.0 ],
+					"midpoints" : [ 50.5, 384.0, 101.5, 384.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -263,6 +263,13 @@
 				"name" : "mo.pinch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

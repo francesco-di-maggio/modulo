@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 620.0, 482.0 ],
+		"rect" : [ 34.0, 100.0, 684.0, 482.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.333333333333485, 407.999999999999886, 48.0, 48.0 ]
+					"patching_rect" : [ 503.58912490739408, 407.999999999999886, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 518.048078787878694, 418.999999999999886, 74.0, 25.0 ],
+					"patching_rect" : [ 591.303870361939289, 418.999999999999886, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 489.333333333333485, 421.999999999999886, 20.0, 20.0 ],
+					"patching_rect" : [ 562.58912490739408, 421.999999999999886, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -99,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.333333333333485, 292.869893655180931, 95.0, 25.0 ],
+					"patching_rect" : [ 453.333333333333485, 292.869893655180931, 95.0, 25.0 ],
 					"text" : "mute output "
 				}
 
@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.0, 292.869893655180931, 24.0, 24.0 ]
+					"patching_rect" : [ 420.0, 292.869893655180931, 24.0, 24.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.0, 346.297012329101562, 53.0, 23.0 ],
+					"patching_rect" : [ 420.0, 346.297012329101562, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 218.0, 431.0, 177.0, 24.999999999999886 ]
+					"patching_rect" : [ 291.255791574060595, 431.0, 177.0, 24.999999999999886 ]
 				}
 
 			}
@@ -255,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 351.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 360.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -274,7 +274,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 324.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 333.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -288,7 +288,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.255791574060595, 204.3754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 291.255791574060595, 204.3754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -300,8 +300,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 204.3754593282938, 54.0, 23.0 ],
-					"text" : "my-send"
+					"patching_rect" : [ 236.0, 204.3754593282938, 41.0, 23.0 ],
+					"text" : "send~"
 				}
 
 			}
@@ -312,8 +312,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 256.0, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 236.0, 256.0, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -326,7 +326,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.333333333333485, 255.0, 92.0, 25.0 ],
+					"patching_rect" : [ 447.333333333333485, 255.0, 92.0, 25.0 ],
 					"text" : "set channels"
 				}
 
@@ -345,7 +345,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.0, 257.5, 20.0, 20.0 ],
+					"patching_rect" : [ 420.0, 257.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -360,7 +360,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 339.0, 256.0, 50.0, 23.0 ]
+					"patching_rect" : [ 362.0, 256.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -371,8 +371,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 218.0, 398.499999999999886, 177.0, 23.0 ],
-					"text" : "mc.receive~ my-send @chans 2"
+					"patching_rect" : [ 291.255791574060595, 398.499999999999886, 164.0, 23.0 ],
+					"text" : "mc.receive~ send~ @chans 2"
 				}
 
 			}
@@ -391,7 +391,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 398.499999999999886, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 398.499999999999886, 214.0, 57.5 ],
 					"varname" : "mo.send~",
 					"viewvisibility" : 1
 				}
@@ -417,7 +417,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 291.755791574060595, 243.0, 222.5, 243.0 ],
+					"midpoints" : [ 300.755791574060595, 243.0, 245.5, 243.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -425,7 +425,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 222.5, 228.0, 222.5, 228.0 ],
+					"midpoints" : [ 245.5, 228.0, 245.5, 228.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -433,7 +433,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
-					"midpoints" : [ 222.5, 384.0, 173.5, 384.0 ],
+					"midpoints" : [ 245.5, 282.0, 245.5, 282.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -441,7 +441,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
-					"midpoints" : [ 348.5, 384.0, 173.5, 384.0 ],
+					"midpoints" : [ 371.5, 384.0, 245.5, 384.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -449,6 +449,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 300.755791574060595, 423.0, 300.755791574060595, 423.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -456,7 +457,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 406.5, 317.0, 406.5, 317.0 ],
+					"midpoints" : [ 429.5, 318.0, 429.5, 318.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -464,15 +465,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
-					"midpoints" : [ 406.5, 384.0, 173.5, 384.0 ],
+					"midpoints" : [ 429.5, 384.0, 245.5, 384.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-44::obj-153" : [ "live.text[3]", "live.text", 0 ],
-			"obj-44::obj-56" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-44::obj-10" : [ "live.text[586]", "live.text", 0 ],
+			"obj-44::obj-56" : [ "live.numbox[567]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -482,37 +483,21 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-44::obj-153" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-44::obj-56" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.send~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

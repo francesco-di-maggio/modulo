@@ -346,6 +346,17 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-10" : 				{
+					"parameter_longname" : "live.text[44]"
+				}
+,
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "live.numbox[74]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -353,6 +364,13 @@
 				"name" : "mo.if.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

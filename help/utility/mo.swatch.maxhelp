@@ -182,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 580.0, 214.0, 23.0 ],
-					"text" : "0.996063 0.003937 0.003937 1."
+					"text" : "1. 0. 0. 1."
 				}
 
 			}
@@ -399,6 +399,14 @@
 					"parameter_longname" : "live.numbox[9]"
 				}
 ,
+				"obj-5::obj-2" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-5::obj-3" : 				{
+					"parameter_longname" : "live.text[75]"
+				}
+,
 				"obj-5::obj-52" : 				{
 					"parameter_longname" : "live.numbox[8]"
 				}
@@ -409,9 +417,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.swatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

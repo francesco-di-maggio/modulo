@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 248.0, 431.0 ],
+		"rect" : [ 34.0, 100.0, 282.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,8 +101,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 383.0, 79.0, 23.0 ],
-					"text" : "17 23 33"
+					"patching_rect" : [ 176.0, 348.0, 79.0, 23.0 ],
+					"text" : "20 36 24"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 348.0, 79.0, 23.0 ],
-					"text" : "7 4 2023"
+					"text" : "7 10 2023"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list", "list" ],
-					"patching_rect" : [ 41.0, 253.0, 142.0, 57.5 ],
+					"patching_rect" : [ 41.0, 253.0, 214.0, 57.5 ],
 					"varname" : "mo.date",
 					"viewvisibility" : 1
 				}
@@ -168,7 +168,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 50.5, 229.0, 50.5, 229.0 ],
+					"midpoints" : [ 50.5, 228.0, 50.5, 228.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -176,7 +176,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 173.5, 334.0, 173.5, 334.0 ],
+					"midpoints" : [ 245.5, 312.0, 245.5, 312.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -184,7 +184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 334.0, 110.5, 334.0 ],
+					"midpoints" : [ 50.5, 333.0, 110.5, 333.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -192,14 +192,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 190.0, 50.5, 190.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-4::obj-9" : [ "live.text[304]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -213,22 +213,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.date.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

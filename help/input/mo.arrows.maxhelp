@@ -167,8 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 369.515926122665405, 70.0, 23.0 ],
-					"text" : "right"
+					"patching_rect" : [ 41.0, 369.515926122665405, 70.0, 23.0 ]
 				}
 
 			}
@@ -265,6 +264,13 @@
 				"name" : "mo.arrows.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

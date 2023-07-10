@@ -58,9 +58,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 29.371792723306498, 204.0, 23.0 ],
+					"presentation_rect" : [ 50.917905882000923, 29.371792723306498, 157.582094117999077, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 0 : 2 . 812",
+					"text" : "0 : 0 : 11 . 375",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"
@@ -333,7 +333,7 @@
 					"patching_rect" : [ 280.923077702522278, 282.702751239560826, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.811750560998917, 4.0, 42.094124719500542, 15.0 ],
+					"presentation_rect" : [ 167.40338771045208, 3.756218925118446, 42.094124719500542, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -449,7 +449,7 @@
 					"patching_rect" : [ 175.0, 170.0, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.40338771045208, 3.756218925118446, 42.094124719500542, 15.0 ],
+					"presentation_rect" : [ 3.5, 28.371792723306498, 43.218688815832138, 25.165484204888344 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1197.0, 702.0 ],
+		"rect" : [ 34.0, 100.0, 997.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -271,7 +271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.739517098900478, 436.344563492063685, 77.0, 21.0 ],
+					"patching_rect" : [ 821.739517098900478, 436.344563492063685, 77.0, 21.0 ],
 					"text" : "interpolation"
 				}
 
@@ -282,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.214791824175677, 436.344563492063685, 41.0, 21.0 ],
+					"patching_rect" : [ 617.214791824175677, 436.344563492063685, 41.0, 21.0 ],
 					"text" : "nodes"
 				}
 
@@ -298,7 +298,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 977.239517098900592, 468.9838293650796, 199.0, 196.0 ],
+					"patching_rect" : [ 759.239517098900592, 468.9838293650796, 199.0, 196.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -315,54 +315,14 @@
 					"maxclass" : "nodes",
 					"nodenumber" : 4,
 					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"nsize" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 756.21479182417545, 468.9838293650796, 199.0, 196.0 ],
-					"xplace" : [ 0.5, 0.5, 0.5, 0.5 ],
-					"yplace" : [ 0.5, 0.5, 0.5, 0.5 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 611.690066549450307, 436.344563492063685, 46.0, 21.0 ],
-					"text" : "display"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.199999123811722, 0.200005099177361, 0.20000171661377, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"connect_points" : 1,
-					"drawlabels" : 1,
-					"drawpoint" : 17179869185,
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-181",
-					"locked" : 1,
-					"maxclass" : "xydisplay",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 535.190066549450307, 468.9838293650796, 199.0, 196.0 ],
-					"pointcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"pointdiameter" : 8.0,
-					"points" : [ -0.0, -0.0, 4, -0.0, 0.0, 3, 0.0, 0.0, 2, 0.0, 0.0, 1, -0.0, -0.0, 0 ],
-					"selectedcolor" : [ 0.999995052814484, 1.0, 1.0, 0.3 ],
-					"xmax" : 1.1,
-					"xmin" : -1.1,
-					"ymax" : 1.2,
-					"ymin" : -1.1
+					"patching_rect" : [ 538.21479182417545, 468.9838293650796, 199.0, 196.0 ],
+					"xplace" : [ 0.0, 0.5, 1.0, 0.5 ],
+					"yplace" : [ 0.5, 0.0, 0.5, 1.0 ]
 				}
 
 			}
@@ -490,13 +450,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.xy.maxpat",
+					"name" : "mo.ray.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 41.140616000000001, 294.244563492063776, 70.0, 87.0 ],
-					"varname" : "bbdmi.poltocar",
+					"patching_rect" : [ 41.140616000000001, 294.244563492063776, 70.0, 57.5 ],
+					"varname" : "bbdmi.ray",
 					"viewvisibility" : 1
 				}
 
@@ -569,8 +529,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 375.0, 23.0 ],
-					"text" : "Combine a list of control signals into spherical coordinates."
+					"patching_rect" : [ 9.0, 83.0, 424.0, 23.0 ],
+					"text" : "Combine a list of control signals into speherical radius coordinates."
 				}
 
 			}
@@ -583,8 +543,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 149.0, 71.0 ],
-					"text" : "mo.xy"
+					"patching_rect" : [ 9.0, 9.0, 172.0, 71.0 ],
+					"text" : "mo.ray"
 				}
 
 			}
@@ -719,7 +679,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.640616000000001, 384.0, 50.640616000000001, 384.0 ],
+					"midpoints" : [ 50.640616000000001, 354.0, 50.640616000000001, 354.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -727,16 +687,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 101.640615999999994, 420.0, 986.739517098900592, 420.0 ],
+					"midpoints" : [ 101.640615999999994, 420.0, 768.739517098900592, 420.0 ],
 					"source" : [ "obj-36", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-181", 0 ],
-					"midpoints" : [ 76.140615999999994, 420.0, 544.690066549450307, 420.0 ],
-					"source" : [ "obj-36", 2 ]
 				}
 
 			}
@@ -751,7 +703,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 88.890615999999994, 420.0, 765.71479182417545, 420.0 ],
+					"midpoints" : [ 88.890615999999994, 420.0, 547.71479182417545, 420.0 ],
 					"source" : [ "obj-36", 3 ]
 				}
 
@@ -774,25 +726,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36::obj-59" : [ "live.numbox[48]", "live.numbox", 0 ],
+			"obj-36::obj-21" : [ "live.text[788]", "live.text", 0 ],
+			"obj-36::obj-59" : [ "live.numbox[430]", "live.numbox", 0 ],
 			"obj-36::obj-68" : [ "live.numbox[65]", "live.numbox", 0 ],
-			"obj-36::obj-96" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-36::obj-96" : [ "live.numbox[431]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-36::obj-68" : 				{
-					"parameter_range" : [ 0.0, 1.0 ]
-				}
-,
-				"obj-36::obj-96" : 				{
-					"parameter_longname" : "live.numbox[1]"
 				}
 
 			}
@@ -803,14 +745,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.poltocar.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.xy.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers",
-				"patcherrelativepath" : "../patchers",
+				"name" : "mo.ray.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.255791574060538, 204.0, 76.0, 25.0 ],
+					"patching_rect" : [ 341.255791574060538, 204.0, 76.0, 25.0 ],
 					"text" : "lock axes "
 				}
 
@@ -103,7 +103,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 296.0, 204.0, 24.0, 24.0 ]
+					"patching_rect" : [ 304.0, 204.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -114,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 242.5, 53.0, 23.0 ],
+					"patching_rect" : [ 304.0, 242.5, 53.0, 23.0 ],
 					"text" : "ylock $1"
 				}
 
@@ -266,7 +266,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 305.5, 276.0, 245.5, 276.0 ],
+					"midpoints" : [ 313.5, 276.0, 245.5, 276.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -282,7 +282,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 305.5, 231.0, 305.5, 231.0 ],
+					"midpoints" : [ 313.5, 231.0, 313.5, 231.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

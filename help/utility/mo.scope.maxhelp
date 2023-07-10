@@ -41,13 +41,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-25",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 642.0, 245.0, 23.0 ],
-					"text" : "0.965116 1. 1. 1."
+					"text" : "0.872093 0.825581 0.30814 0.284884"
 				}
 
 			}
@@ -242,7 +243,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 166.0, 172.0, 61.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"signed" : 1,
 					"size" : 4,
 					"spacing" : 2
 				}
@@ -250,7 +253,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@polarity", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -330,8 +332,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-11" : [ "live.text[15]", "live.text", 0 ],
-			"obj-5::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-5::obj-11" : [ "live.text[1]", "live.text", 0 ],
+			"obj-5::obj-18" : [ "live.text[15]", "live.text", 0 ],
 			"obj-5::obj-52" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -344,15 +346,7 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-5::obj-11" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-5::obj-153" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[19]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
+					"parameter_longname" : "live.text[1]"
 				}
 ,
 				"obj-5::obj-52" : 				{
@@ -365,22 +359,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.scope.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

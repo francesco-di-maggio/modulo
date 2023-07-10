@@ -133,8 +133,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.5, 165.0, 145.0, 25.0 ],
-					"text" : "generate data (0. - 1.)"
+					"patching_rect" : [ 125.5, 165.0, 181.0, 25.0 ],
+					"text" : "control change value (0. - 1.)"
 				}
 
 			}

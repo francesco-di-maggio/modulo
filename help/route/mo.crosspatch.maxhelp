@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 431.0, 544.0 ],
+		"rect" : [ 34.0, 100.0, 431.0, 546.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,8 +51,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 172.0, 61.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"signed" : 1,
 					"size" : 4,
 					"spacing" : 2
 				}
@@ -172,8 +172,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 455.499999999999886, 172.0, 61.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"signed" : 1,
 					"size" : 4,
 					"spacing" : 2,
 					"varname" : "mo.sliders[1]"
@@ -282,6 +282,14 @@
 ,
 				"obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-1::obj-37" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-1::obj-39" : 				{
+					"parameter_longname" : "live.numbox[2]"
 				}
 
 			}

@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 484.0, 70.0, 23.0 ],
-					"text" : "0.669767"
+					"text" : "0. 0"
 				}
 
 			}
@@ -188,8 +188,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 252.5, 176.0, 25.0 ],
-					"text" : "set number of channels to 4 "
+					"patching_rect" : [ 176.0, 252.5, 174.0, 25.0 ],
+					"text" : "set number of channels to 2"
 				}
 
 			}
@@ -384,6 +384,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-12" : 				{
+					"parameter_longname" : "live.text[53]"
+				}
+,
 				"obj-2::obj-13" : 				{
 					"parameter_longname" : "live.numbox[11]"
 				}

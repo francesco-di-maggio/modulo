@@ -204,7 +204,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 41.000000000000028, 258.999999999999886, 142.0, 57.5 ],
+					"patching_rect" : [ 41.000000000000028, 258.999999999999886, 214.0, 57.5 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -263,7 +263,7 @@
 		"parameters" : 		{
 			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],
-			"obj-13::obj-6" : [ "live.text[19]", "live.text", 0 ],
+			"obj-13::obj-6" : [ "live.text[750]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -278,8 +278,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.hi.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
