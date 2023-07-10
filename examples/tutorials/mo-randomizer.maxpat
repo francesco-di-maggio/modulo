@@ -577,8 +577,8 @@
 			"obj-55::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-55::obj-6" : [ "live.text[10]", "live.text", 0 ],
 			"obj-61::obj-12" : [ "live.text[11]", "live.text", 0 ],
+			"obj-61::obj-21" : [ "dial", "dial", 0 ],
 			"obj-61::obj-37" : [ "live.text[15]", "live.text", 0 ],
-			"obj-61::obj-65" : [ "encoder-", "encoder-", 0 ],
 			"obj-78::obj-10" : [ "live.text[19]", "live.text", 0 ],
 			"obj-78::obj-18" : [ "live.text[9]", "live.text", 0 ],
 			"obj-78::obj-20" : [ "live.text[8]", "live.text", 0 ],
@@ -938,6 +938,10 @@
 ,
 				"obj-36::obj-2" : 				{
 					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-36::obj-22" : 				{
+					"parameter_longname" : "live.text[175]"
 				}
 ,
 				"obj-36::obj-37" : 				{

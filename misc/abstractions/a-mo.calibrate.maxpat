@@ -86,6 +86,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -442,8 +443,7 @@
 
 					}
 ,
-					"texton" : "M",
-					"varname" : "Mute-TX[2]"
+					"texton" : "M"
 				}
 
 			}
@@ -584,32 +584,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 324.950000000000045, 345.0, 38.0, 23.0 ],
 					"text" : "zl.reg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 641.950000000000045, 524.0, 67.0, 23.0 ],
-					"text" : "slide 50 50"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 793.950000000000045, 524.0, 67.0, 23.0 ],
-					"text" : "slide 50 50"
 				}
 
 			}
@@ -772,7 +746,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[51]",
+							"parameter_longname" : "live.numbox[110]",
 							"parameter_mmax" : 60.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -999,7 +973,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[124]",
+							"parameter_longname" : "live.numbox[109]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -1045,7 +1019,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[70]",
+							"parameter_longname" : "live.numbox[108]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -1401,8 +1375,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 651.450000000000045, 516.0, 651.450000000000045, 516.0 ],
+					"destination" : [ "obj-44", 0 ],
+					"midpoints" : [ 651.450000000000045, 516.0, 651.450000000000045, 516.0, 651.450000000000045, 549.0, 651.450000000000045, 549.0 ],
+					"order" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 1 ],
+					"midpoints" : [ 651.450000000000045, 516.0, 651.450000000000045, 516.0, 651.450000000000045, 591.0, 167.25, 591.0 ],
+					"order" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1516,44 +1500,18 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 803.450000000000045, 549.0, 803.450000000000045, 549.0 ],
+					"midpoints" : [ 803.450000000000045, 516.0, 803.450000000000045, 516.0, 803.450000000000045, 549.0, 803.450000000000045, 549.0 ],
 					"order" : 0,
-					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 1 ],
-					"midpoints" : [ 803.450000000000045, 591.0, 266.25, 591.0 ],
-					"order" : 1,
-					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"midpoints" : [ 803.450000000000045, 516.0, 803.450000000000045, 516.0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 651.450000000000045, 549.0, 651.450000000000045, 549.0 ],
-					"order" : 0,
-					"source" : [ "obj-56", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 1 ],
-					"midpoints" : [ 651.450000000000045, 591.0, 167.25, 591.0 ],
+					"destination" : [ "obj-99", 1 ],
+					"midpoints" : [ 803.450000000000045, 516.0, 803.450000000000045, 516.0, 803.450000000000045, 591.0, 266.25, 591.0 ],
 					"order" : 1,
-					"source" : [ "obj-56", 0 ]
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}

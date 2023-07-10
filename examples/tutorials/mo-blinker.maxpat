@@ -42,13 +42,14 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.959072227510774, 39.0, 104.0, 25.0 ],
+					"patching_rect" : [ 211.959072227510774, 39.0, 104.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.959072227510774, 170.0, 104.0, 25.0 ],
-					"text" : "change tempo "
+					"presentation_rect" : [ 133.959072227510774, 170.0, 116.0, 25.0 ],
+					"text" : "set blinking time "
 				}
 
 			}
@@ -71,7 +72,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.959072227510774, 173.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "3",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -244,6 +245,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -268,6 +270,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -292,6 +295,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -316,6 +320,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -364,6 +369,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 0 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -419,96 +425,6 @@
 					"presentation_rect" : [ 27.459072227510774, 205.0, 70.0, 87.0 ],
 					"varname" : "mo.led",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 749.0, 491.427083333333258, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 260.459072227510774, 117.0, 85.0, 25.0 ],
-					"text" : "load preset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 392.0, 65.0, 23.0 ],
-					"text" : "writeagain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autorestore" : "p-leds.json",
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 446.0, 368.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 228 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage p-leds @savemode 3 @autorestore 1 @changemode 1",
-					"varname" : "p-leds"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubblesize" : 20,
-					"id" : "obj-33",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 664.0, 490.427083333333258, 53.0, 30.0 ],
-					"pattrstorage" : "p-leds",
-					"presentation" : 1,
-					"presentation_rect" : [ 173.459072227510774, 116.0, 53.0, 29.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-32",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 723.0, 495.427083333333258, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 234.459072227510774, 120.0, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "1",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -739,14 +655,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 673.5, 417.0, 673.5, 417.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 31.959072227510774, 111.0, 31.959072227510774, 111.0 ],
 					"source" : [ "obj-7", 0 ]
@@ -788,8 +696,16 @@
 					"parameter_longname" : "live.text[12]"
 				}
 ,
+				"obj-21::obj-6" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
 				"obj-22::obj-3" : 				{
 					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-2::obj-3" : 				{
+					"parameter_longname" : "live.text[181]"
 				}
 ,
 				"obj-7::obj-2" : 				{
@@ -819,8 +735,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -842,13 +758,6 @@
 				"name" : "mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
 				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-leds.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -41,6 +41,52 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.149122804403305, 416.29824560880661, 67.70175439119339, 67.70175439119339 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 227.149122804403305, 433.29824560880661, 67.70175439119339, 67.70175439119339 ],
+					"saved_attribute_attributes" : 					{
+						"color" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.ezdac~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 41.0, 396.0, 70.0, 87.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 226.0, 413.0, 70.0, 87.0 ],
+					"varname" : "mo.ezdac~[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -250,29 +296,16 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.ezdac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 396.0, 70.0, 87.0 ],
-					"varname" : "mo.ezdac~",
-					"viewvisibility" : 1
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
- ],
-		"lines" : [ 			{
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 241.5, 312.0, 241.5, 312.0 ],
@@ -290,7 +323,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 50.5, 375.0, 50.5, 375.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -298,7 +331,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 208.5, 381.0, 101.5, 381.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -306,7 +339,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 241.5, 381.0, 101.5, 381.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -314,7 +347,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-35" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-35" : [ "live.text[28]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5" : [ "mc.live.gain~", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -326,8 +360,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-35" : 				{
-					"parameter_longname" : "live.text[1]"
+				"obj-1::obj-35" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[28]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-1::obj-9" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[2]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 
 			}
@@ -343,13 +389,24 @@
 			}
 , 			{
 				"name" : "mo.ezdac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-1", "obj-3" ]
+			}
+ ],
 		"toolbarexclusions" : [ "objectpriority", "grid", "savefavorite", "autolockunselected", "traceenable", "patchernavmenu", "keymap", "transport", "midimap" ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

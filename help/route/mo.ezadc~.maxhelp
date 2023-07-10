@@ -44,14 +44,14 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-2",
+					"id" : "obj-1",
 					"maxclass" : "mc.ezadc~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 287.939335966482759, 67.70175439119339, 67.70175439119339 ],
+					"patching_rect" : [ 42.0, 298.355635339394212, 67.70175439119339, 67.70175439119339 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.634959508364034, 308.120293850485723, 61.251498872820768, 61.251498872820775 ],
+					"presentation_rect" : [ 47.0, 293.065422177314758, 67.70175439119339, 67.70175439119339 ],
 					"saved_attribute_attributes" : 					{
 						"color" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -69,7 +69,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-1",
+					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
@@ -78,9 +78,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.70175439119339, 268.431303519755602, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 278.290213162079453, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 285.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 46.0, 273.0, 70.0, 87.0 ],
 					"varname" : "mo.ezadc~",
 					"viewvisibility" : 1
 				}
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 380.0, 64.154184728860855, 32.0 ]
+					"patching_rect" : [ 42.0, 380.0, 64.154184728860855, 32.0 ]
 				}
 
 			}
@@ -214,31 +214,10 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"background" : 1,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-3",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.547569662332535, 295.431303519755602, 60.154184728860855, 55.832598745822906 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.634959508364034, 312.120293850485723, 60.106079757213585, 55.106079757213593 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"hidden" : 1,
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -253,46 +232,36 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 186.5, 255.0, 50.20175439119339, 255.0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 186.5, 264.0, 50.5, 264.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-3" : [ "live.text[5]", "live.text", 0 ],
-			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-2::obj-3" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-35" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-3" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-1::obj-35" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 
 			}
@@ -317,7 +286,7 @@
  ],
 		"autosave" : 0,
 		"boxgroups" : [ 			{
-				"boxes" : [ "obj-2", "obj-3", "obj-1" ]
+				"boxes" : [ "obj-2", "obj-1" ]
 			}
  ],
 		"toolbarexclusions" : [ "objectpriority", "grid", "savefavorite", "autolockunselected", "traceenable", "patchernavmenu", "keymap", "transport", "midimap" ],

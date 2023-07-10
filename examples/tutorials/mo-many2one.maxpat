@@ -52,6 +52,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -76,6 +77,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -100,6 +102,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -124,6 +127,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 5 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -173,6 +177,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 5 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -476,6 +481,10 @@
 					"parameter_longname" : "live.text[4]"
 				}
 ,
+				"obj-2::obj-2" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
 				"obj-2::obj-37" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
@@ -539,8 +548,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.crosspatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

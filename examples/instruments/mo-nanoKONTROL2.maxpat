@@ -40,41 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.map.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 96.0, 216.375, 214.0, 57.5 ],
-					"varname" : "mo.map",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
-					"id" : "obj-12",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 136.0, 327.0, 64.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. (Otional) Connect your KORG nanoKONTROL2 device.\n2. MIDI map each parameter to the corresponding module."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 22.0,
 					"id" : "obj-9",
@@ -162,6 +127,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", "red" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1341,12 +1307,6 @@
 			"obj-17::obj-22" : [ "live.text[8]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[23]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[18]", "live.text", 0 ],
-			"obj-1::obj-153" : [ "live.text[183]", "live.text", 0 ],
-			"obj-1::obj-39" : [ "live.text[186]", "live.text", 0 ],
-			"obj-1::obj-5" : [ "live.text[182]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[184]", "live.text", 0 ],
-			"obj-1::obj-85" : [ "live.text[185]", "live.text", 0 ],
-			"obj-1::obj-9" : [ "live.text[187]", "live.text", 0 ],
 			"obj-43::obj-2" : [ "live.text[33]", "live.text", 0 ],
 			"obj-43::obj-22" : [ "live.text[26]", "live.text", 0 ],
 			"obj-43::obj-37" : [ "live.text[20]", "live.text", 0 ],
@@ -1593,30 +1553,6 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[183]"
-				}
-,
-				"obj-1::obj-39" : 				{
-					"parameter_longname" : "live.text[186]"
-				}
-,
-				"obj-1::obj-5" : 				{
-					"parameter_longname" : "live.text[182]"
-				}
-,
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[184]"
-				}
-,
-				"obj-1::obj-85" : 				{
-					"parameter_longname" : "live.text[185]"
-				}
-,
-				"obj-1::obj-9" : 				{
-					"parameter_longname" : "live.text[187]"
 				}
 ,
 				"obj-43::obj-2" : 				{
@@ -2301,15 +2237,8 @@
 			}
 , 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.map.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

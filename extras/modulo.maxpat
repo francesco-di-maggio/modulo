@@ -1054,7 +1054,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1191,7 +1191,7 @@
 									"patching_rect" : [ 787.5, 632.0, 474.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "These are ideas of instruments using different types of input and direct mapping.",
+									"text" : "These are tutorials showing how to perform various tasks, including recording, combining blocks, and mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1208,7 +1208,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Process control signals through filters, averaging and smoothing algorithms.",
+									"text" : "Interface with external devices, MIDI, OSC and sound synthesis modules.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1851,7 +1851,7 @@
 												"box" : 												{
 													"data" : 													{
 														"instruments" : [ "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Theremini", "TouchOSC", "Wekinator" ],
-														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Sonifier", "Trigger Events", "Visualizer", "Workflow" ]
+														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2086,7 +2086,6 @@
 														"One To Many" : [ "mo-one2many" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
-														"Sonifier" : [ "mo-sonifier" ],
 														"Visualizer" : [ "mo-visualizer" ],
 														"Trigger Events" : [ "mo-cues" ],
 														"Workflow" : [ "mo-workflow" ]
@@ -2188,8 +2187,8 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 8,
-									"num_lines_presentation" : 8,
+									"num_lines_patching" : 6,
+									"num_lines_presentation" : 6,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2217,9 +2216,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Theremini", "TouchOSC", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 7,
+											"parameter_mmax" : 10,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2241,8 +2240,8 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 8,
-									"num_lines_presentation" : 8,
+									"num_lines_patching" : 7,
+									"num_lines_presentation" : 7,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2270,9 +2269,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "audiotester", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.timer" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctl", "mo.dac~", "mo.ezadc~", "mo.ezdac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midi", "mo.note", "mo.osc", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.xbend" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 22,
+											"parameter_mmax" : 20,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3386,7 +3385,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.10036, 0.33828, 0.24692, 0.27684, 0.46212, 0.12008 ],
+					"nsize" : [ 0.31028, 0.24676, 0.46708, 0.19468, 0.21052, 0.43516 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3404,8 +3403,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7386, 0.8842, 0.9578, 0.2082, 0.142, 0.9623 ],
-					"yplace" : [ 0.1623, 0.0566, 0.2133, 0.777, 0.1839, 0.1068 ]
+					"xplace" : [ 0.4898, 0.9364, 0.027, 0.2223, 0.6547, 0.8137 ],
+					"yplace" : [ 0.1225, 0.7466, 0.2426, 0.1267, 0.5454, 0.7464 ]
 				}
 
 			}
