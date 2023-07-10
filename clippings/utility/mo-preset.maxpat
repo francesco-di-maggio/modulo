@@ -52,7 +52,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 1.0, 87.0, 213.0, 58.189434558153152 ],
-					"pattrstorage" : "untitled",
+					"pattrstorage" : " ",
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 87.0, 213.0, 56.445248574018478 ],
 					"saved_attribute_attributes" : 					{
@@ -86,7 +86,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "untitled"
+					"varname" : " "
 				}
 
 			}
@@ -211,8 +211,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.preset.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -152,7 +152,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[5]",
+							"parameter_longname" : "live.text[292]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -466,7 +466,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 668.649213254451638, 396.871854180447542, 250.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.970369406003783, 75.876862204313511, 203.228842750191689, 95.251134873266381 ],
+					"presentation_rect" : [ 4.970369406003783, 58.876862204313511, 203.228842750191689, 23.02811664425866 ],
 					"rounded" : 0.0,
 					"spacing_x" : 1.0,
 					"spacing_y" : 1.0,
@@ -616,7 +616,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 288.995986282825356, 313.498130464903795, 140.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.675538547296355, 35.967933078178248, 203.0, 30.0 ],
+					"presentation_rect" : [ 6.675538547296355, 24.967933078178248, 203.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -713,7 +713,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[91]",
+							"parameter_longname" : "live.text[293]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -733,7 +733,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-166",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -882,7 +882,7 @@
 				"box" : 				{
 					"comment" : "(message) chans, polarity, rand, invisible",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -964,7 +964,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[36]",
+							"parameter_longname" : "live.text[294]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1011,7 +1011,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.149213254451638, 424.371854180447599, 197.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 75.559601432323689, 204.339669197688949, 95.568395645256203 ],
+					"presentation_rect" : [ 4.675538547296355, 58.559601432323689, 204.339669197688949, 23.345377416248482 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1352,47 +1352,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-166" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-35" : [ "live.text[36]", "live.text", 0 ],
-			"obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-88" : [ "live.text[91]", "live.text", 0 ],
-			"obj-9" : [ "live.text[5]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

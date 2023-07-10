@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 523.0, 558.0 ],
+		"rect" : [ 34.0, 100.0, 523.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.359384090909316, 460.773748738283757, 48.0, 48.0 ]
+					"patching_rect" : [ 321.359384090909316, 380.273748738283757, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.074129545454525, 471.773748738283757, 74.0, 25.0 ],
+					"patching_rect" : [ 409.074129545454525, 391.273748738283757, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 380.359384090909316, 474.773748738283757, 20.0, 20.0 ],
+					"patching_rect" : [ 380.359384090909316, 394.273748738283757, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -264,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 360.773748738283757, 214.0, 176.0 ],
+					"patching_rect" : [ 41.0, 360.773748738283757, 214.0, 87.0 ],
 					"varname" : "mo.audiotester",
 					"viewvisibility" : 1
 				}
@@ -386,10 +386,10 @@
  ],
 		"parameters" : 		{
 			"obj-12::obj-166" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-12::obj-35" : [ "live.text[36]", "live.text", 0 ],
+			"obj-12::obj-35" : [ "live.text[294]", "live.text", 0 ],
 			"obj-12::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-12::obj-88" : [ "live.text[91]", "live.text", 0 ],
-			"obj-12::obj-9" : [ "live.text[5]", "live.text", 0 ],
+			"obj-12::obj-88" : [ "live.text[293]", "live.text", 0 ],
+			"obj-12::obj-9" : [ "live.text[292]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -399,20 +399,20 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-12::obj-166" : 				{
-					"parameter_longname" : "live.numbox[9]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.audiotester.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

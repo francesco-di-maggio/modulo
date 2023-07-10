@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -128,7 +128,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 50.0, 271.0, 75.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 27.251437890878321, 44.0, 30.0 ],
+					"presentation_rect" : [ 10.0, 26.251437890878321, 44.0, 30.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -144,7 +144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.659090578556061, 274.0, 19.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.188362382847629, 32.251437890878321, 19.0, 21.0 ],
+					"presentation_rect" : [ 44.188362382847629, 31.251437890878321, 19.0, 21.0 ],
 					"text" : "%"
 				}
 
@@ -206,7 +206,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[296]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -275,7 +275,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 50.0, 269.0, 68.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 30.251437890878321, 60.384166352946124, 23.748562109121679 ],
+					"presentation_rect" : [ 5.0, 29.251437890878321, 60.384166352946124, 23.748562109121679 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -343,29 +343,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-9" : [ "live.text[7]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

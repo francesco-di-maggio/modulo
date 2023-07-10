@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -128,7 +128,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[263]",
+							"parameter_longname" : "live.text[304]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -160,7 +160,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -172,7 +172,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -261,7 +261,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, rate, amount",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -303,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.0, 554.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 1 : 22 : 707",
+					"text" : "0 : 29 : 1 : 481",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -345,7 +345,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
+					"fontsize" : 15.0,
 					"id" : "obj-43",
 					"keymode" : 1,
 					"lines" : 1,
@@ -355,11 +355,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 259.5, 554.5, 96.0, 19.0 ],
+					"patching_rect" : [ 259.5, 554.5, 139.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.797253370285034, 38.371792723306498, 60.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 121.797253370285034, 30.371792723306498, 87.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "10 : 32 : 50",
+					"text" : "17 : 57 : 12",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
@@ -457,7 +457,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
+					"fontsize" : 15.0,
 					"id" : "obj-3",
 					"keymode" : 1,
 					"lines" : 1,
@@ -467,11 +467,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 99.0, 554.5, 96.0, 19.0 ],
+					"patching_rect" : [ 99.0, 554.5, 145.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 38.371792723306498, 70.202746629714966, 15.369636952877045 ],
+					"presentation_rect" : [ 4.5, 30.371792723306498, 110.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "9 / 7 / 2023",
+					"text" : "10 / 7 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"
@@ -487,7 +487,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 357.664669811725616, 20.203592836856842, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -688,29 +688,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-9" : [ "live.text[263]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

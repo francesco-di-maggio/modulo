@@ -365,8 +365,8 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-12" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-21" : [ "dial", "dial", 0 ],
 			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
-			"obj-1::obj-65" : [ "encoder-", "encoder-", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -398,6 +398,13 @@
 				"name" : "mo.encoder.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

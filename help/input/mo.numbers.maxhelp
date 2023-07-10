@@ -497,12 +497,24 @@
 					"parameter_longname" : "Show Particle Settings[16]"
 				}
 ,
+				"obj-13::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[105]"
+				}
+,
 				"obj-13::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
 ,
 				"obj-13::obj-1::obj-35" : 				{
 					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-13::obj-23" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[17]"
 				}
 ,
 				"obj-13::obj-36::obj-20" : 				{
@@ -601,6 +613,14 @@
 					"parameter_longname" : "live.text[15]"
 				}
 ,
+				"obj-13::obj-59" : 				{
+					"parameter_longname" : "live.numbox[50]"
+				}
+,
+				"obj-13::obj-6" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
 				"obj-13::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[1]"
 				}
@@ -625,6 +645,13 @@
 				"name" : "mo.numbers.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

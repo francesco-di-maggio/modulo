@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 176.0 ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
 					"varname" : "mo.audiotester",
 					"viewvisibility" : 1
 				}
@@ -67,6 +67,7 @@
 			"obj-1::obj-35" : [ "live.text[36]", "live.text", 0 ],
 			"obj-1::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-88" : [ "live.text[91]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[292]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -80,6 +81,14 @@
 				"obj-1::obj-166" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
+,
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-1::obj-88" : 				{
+					"parameter_longname" : "live.text[91]"
+				}
 
 			}
 ,
@@ -88,8 +97,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.audiotester.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
