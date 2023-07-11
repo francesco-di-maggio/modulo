@@ -267,7 +267,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
+						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -297,6 +297,17 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"local" : 1,
+									"maxclass" : "mc.ezdac~",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 570.0, 654.117872804403305, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-5",
@@ -347,7 +358,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 555.0, 424.937653109431324, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-tutorial-1",
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 465.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -388,7 +398,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-tutorial-1"
+									"varname" : "untitled"
 								}
 
 							}
@@ -487,53 +497,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-									"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"local" : 1,
-									"maxclass" : "mc.ezdac~",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 554.25, 642.76699560880661, 67.70175439119339, 67.70175439119339 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 575.149122804403305, 570.29824560880661, 67.70175439119339, 67.70175439119339 ],
-									"saved_attribute_attributes" : 									{
-										"color" : 										{
-											"expression" : "themecolor.live_value_bar"
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-16",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "mo.ezdac~.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 553.100877195596695, 622.46875, 70.0, 87.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 574.0, 550.0, 70.0, 87.0 ],
-									"varname" : "mo.ezdac~",
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Ableton Sans Bold Regular",
 									"id" : "obj-7",
@@ -542,9 +505,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 554.25, 29.1245406717062, 239.0, 122.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 8,
-									"presentation_rect" : [ 589.625, 622.195134125649929, 295.0, 122.0 ],
 									"text" : "INSTRUCTIONS:\n\n1. Start DSP.\n2. Load preset.\n3. Adjust output levels.\n4. Turn on the theremini~ synthesizer.\n5. Use sliders to control the sound.\n6. (Optional) Set different scaling factors."
 								}
 
@@ -807,14 +767,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"midpoints" : [ 313.25, 320.0, 313.25, 320.0 ],
 									"source" : [ "obj-2", 0 ]
@@ -846,9 +798,6 @@
 							}
  ],
 						"boxgroups" : [ 							{
-								"boxes" : [ "obj-16", "obj-15" ]
-							}
-, 							{
 								"boxes" : [ "obj-59", "obj-38", "obj-42", "obj-37" ]
 							}
  ],
@@ -889,7 +838,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
+						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -925,7 +874,7 @@
 									"maxclass" : "mc.ezdac~",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 554.25, 642.76699560880661, 67.70175439119339, 67.70175439119339 ]
+									"patching_rect" : [ 570.0, 654.117872804403305, 45.0, 45.0 ]
 								}
 
 							}
@@ -1829,8 +1778,6 @@
 			"obj-1::obj-8::obj-56" : [ "live.numbox[224]", "live.numbox", 0 ],
 			"obj-1::obj-8::obj-7" : [ "live.text[38]", "live.text", 0 ],
 			"obj-1::obj-8::obj-8" : [ "live.text[666]", "live.text", 0 ],
-			"obj-2::obj-16::obj-35" : [ "live.text[560]", "live.text", 0 ],
-			"obj-2::obj-16::obj-9" : [ "live.text[559]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-35" : [ "live.text[66]", "live.text", 0 ],
 			"obj-2::obj-1::obj-107::obj-8" : [ "live.text[131]", "live.text", 0 ],
@@ -2763,14 +2710,6 @@
 					"parameter_longname" : "live.text[38]"
 				}
 ,
-				"obj-2::obj-16::obj-35" : 				{
-					"parameter_longname" : "live.text[560]"
-				}
-,
-				"obj-2::obj-16::obj-9" : 				{
-					"parameter_longname" : "live.text[559]"
-				}
-,
 				"obj-2::obj-1::obj-107::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
@@ -3486,13 +3425,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.ezdac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -3522,8 +3454,8 @@
 			}
 , 			{
 				"name" : "mo.theremini~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

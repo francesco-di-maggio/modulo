@@ -40,48 +40,56 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-8",
-					"local" : 1,
-					"maxclass" : "mc.ezdac~",
+					"bubble" : 1,
+					"id" : "obj-9",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.149122804403305, 621.685643646451922, 67.70175439119339, 67.70175439119339 ],
+					"patching_rect" : [ 578.375, 434.163175285000648, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 486.149122804403305, 423.29824560880661, 67.70175439119339, 67.70175439119339 ],
-					"saved_attribute_attributes" : 					{
-						"color" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-
+					"presentation_rect" : [ 576.375, 434.0, 74.0, 25.0 ],
+					"text" : "start dsp"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.ezdac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 750.0, 601.387398037645312, 70.0, 87.0 ],
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-11",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 550.875, 436.663175285000648, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.0, 403.0, 70.0, 87.0 ],
-					"varname" : "mo.ezdac~",
-					"viewvisibility" : 1
+					"presentation_rect" : [ 548.875, 436.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"local" : 1,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 507.0, 443.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 485.0, 420.0, 53.0, 53.0 ]
 				}
 
 			}
@@ -250,7 +258,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 478.44513450935483, 371.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -292,7 +300,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 548.875, 300.663175285000648, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -468,14 +476,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-18::obj-107::obj-20" : [ "Show Particle Settings[14]", "live.text", 0 ],
@@ -565,6 +565,7 @@
 			"obj-28::obj-42" : [ "live.text[287]", "live.text", 0 ],
 			"obj-28::obj-8" : [ "live.text[284]", "live.text", 0 ],
 			"obj-3::obj-10" : [ "live.text[585]", "live.text", 0 ],
+			"obj-3::obj-12" : [ "live.text[554]", "live.text", 0 ],
 			"obj-6::obj-107::obj-2" : [ "live.text[56]", "live.text", 0 ],
 			"obj-6::obj-123::obj-2" : [ "live.text[54]", "live.text", 0 ],
 			"obj-6::obj-1::obj-2" : [ "live.text[57]", "live.text", 0 ],
@@ -702,8 +703,6 @@
 			"obj-7::obj-74::obj-72" : [ "live.numbox[16]", "live.numbox", 0 ],
 			"obj-7::obj-74::obj-9" : [ "live.numbox[54]", "live.numbox", 0 ],
 			"obj-7::obj-8" : [ "live.text[160]", "live.text", 0 ],
-			"obj-9::obj-35" : [ "live.text[560]", "live.text", 0 ],
-			"obj-9::obj-9" : [ "live.text[559]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -946,6 +945,10 @@
 					"parameter_longname" : "live.text[57]"
 				}
 ,
+				"obj-6::obj-35" : 				{
+					"parameter_longname" : "live.text[795]"
+				}
+,
 				"obj-6::obj-36::obj-2" : 				{
 					"parameter_longname" : "live.text[110]"
 				}
@@ -994,8 +997,16 @@
 					"parameter_longname" : "live.text[170]"
 				}
 ,
+				"obj-6::obj-56" : 				{
+					"parameter_longname" : "live.numbox[409]"
+				}
+,
 				"obj-6::obj-74::obj-2" : 				{
 					"parameter_longname" : "live.text[55]"
+				}
+,
+				"obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[796]"
 				}
 ,
 				"obj-7::obj-107::obj-15" : 				{
@@ -1465,14 +1476,6 @@
 				"obj-7::obj-8" : 				{
 					"parameter_longname" : "live.text[160]"
 				}
-,
-				"obj-9::obj-35" : 				{
-					"parameter_longname" : "live.text[560]"
-				}
-,
-				"obj-9::obj-9" : 				{
-					"parameter_longname" : "live.text[559]"
-				}
 
 			}
 ,
@@ -1502,13 +1505,6 @@
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.ezdac~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
@@ -1551,8 +1547,8 @@
 			}
 , 			{
 				"name" : "mo.theremini~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1579,10 +1575,6 @@
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-9", "obj-8" ]
-			}
- ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

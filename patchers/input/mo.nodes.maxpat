@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,26 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 357.806426948309081, 18.498130464903795, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 61.064706000000001, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-12",
@@ -381,7 +401,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[34]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -942,7 +962,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[50]",
+							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1017,7 +1037,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 87.1877336576174, 274.54613277936005, 166.693199520390976, 165.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.944008178968261, 64.959666330119575, 203.102512662690629, 194.324950887227743 ],
+					"presentation_rect" : [ 5.944008178968261, 66.959666330119575, 203.102512662690629, 192.324950887227743 ],
 					"varname" : "nodes-",
 					"xplace" : [ 0.5999, 0.7675, 0.3617, 0.2092 ],
 					"yplace" : [ 0.6556, 0.5051, 0.4834, 0.5259 ]
@@ -1035,9 +1055,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.494534137226424, 274.54613277936005, 42.693199520390976, 165.149206840824718 ],
+					"patching_rect" : [ 87.1877336576174, 274.54613277936005, 166.693199520390976, 165.149206840824718 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 64.033937669039005, 204.339669197688949, 196.99261078321473 ],
+					"presentation_rect" : [ 4.675538547296355, 66.033937669039005, 204.339669197688949, 194.99261078321473 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

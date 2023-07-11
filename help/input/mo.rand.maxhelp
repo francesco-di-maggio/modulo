@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 646.0, 289.640615909090684, 23.0 ],
-					"text" : "0.403597"
+					"text" : "0.149732"
 				}
 
 			}
@@ -646,6 +646,7 @@
 			"obj-1::obj-32" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-4" : [ "live.numbox[4]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[51]", "live.numbox", 0 ],
+			"obj-1::obj-6.1::obj-10" : [ "live.text[780]", "live.text", 0 ],
 			"obj-1::obj-6.1::obj-14" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-6.1::obj-15" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-6.1::obj-27" : [ "live.numbox[18]", "live.numbox", 0 ],

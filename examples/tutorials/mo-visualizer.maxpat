@@ -245,12 +245,12 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 963.0, 569.224951458887972, 53.0, 53.0 ],
+					"patching_rect" : [ 963.0, 569.224951458887972, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 704.489658668637276, 212.000000000000114, 53.0, 53.0 ]
+					"presentation_rect" : [ 711.489658668637276, 216.000000000000114, 45.0, 45.0 ]
 				}
 
 			}
@@ -312,6 +312,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-15::obj-10" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-15::obj-6" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
 				"obj-1::obj-6" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
@@ -324,8 +332,20 @@
 					"parameter_longname" : "live.text[2]"
 				}
 ,
+				"obj-3::obj-35" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
 				"obj-5::obj-3" : 				{
 					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-5::obj-33" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
+				"obj-5::obj-42" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 
 			}

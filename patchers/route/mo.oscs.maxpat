@@ -107,7 +107,7 @@
 					"patching_rect" : [ 55.0, 17.182997051231155, 69.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 66.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 44.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -136,8 +136,8 @@
 
 					}
 ,
-					"text" : "udpsends",
-					"texton" : "udpsends",
+					"text" : "oscs",
+					"texton" : "oscs",
 					"varname" : "mute-"
 				}
 
@@ -2164,7 +2164,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[388]",
+							"parameter_longname" : "live.numbox[49]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",

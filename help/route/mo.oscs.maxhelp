@@ -163,8 +163,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 303.0, 22.0 ],
-					"text" : "Send to a udpreceive object sharing the same port.",
+					"patching_rect" : [ 9.0, 102.0, 527.0, 22.0 ],
+					"text" : "Send and receive to a udpreceive or from a udpsend object sharing the same port number.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -177,8 +177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 203.0, 23.0 ],
-					"text" : "Send messages over a network."
+					"patching_rect" : [ 9.0, 83.0, 326.0, 23.0 ],
+					"text" : "Send and receive a list of messages over a network."
 				}
 
 			}
@@ -191,8 +191,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 302.0, 71.0 ],
-					"text" : "mo.udpsend"
+					"patching_rect" : [ 9.0, 9.0, 201.0, 71.0 ],
+					"text" : "mo.oscs"
 				}
 
 			}
@@ -264,8 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 485.869893655180931, 149.0, 23.0 ],
-					"text" : "/output-1 1."
+					"patching_rect" : [ 337.0, 485.869893655180931, 149.0, 23.0 ]
 				}
 
 			}
@@ -328,12 +327,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.udpsends.maxpat",
+					"name" : "mo.oscs.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 41.0, 421.869893655180931, 214.0, 87.0 ],
-					"varname" : "mo.udpsend",
+					"varname" : "mo.oscs",
 					"viewvisibility" : 1
 				}
 
@@ -642,16 +641,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.oscs.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.udpsends.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
