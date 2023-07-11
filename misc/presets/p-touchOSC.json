@@ -5,9 +5,14 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"mo.hi::port" : [ "8001" ],
+					"mo.hi::host[1]" : [ "127.0.0.1" ],
+					"mo.hi::mute" : [ 0.0 ],
+					"mo.hi::device" : [ 1.0 ],
 					"mo.vslider::slider" : [ 0.0 ],
 					"mo.vslider::mute" : [ 0.0 ],
 					"mo.vslider::polarity" : [ 0.0 ],
+					"mo.vslider::color" : [ 0 ],
 					"mo.pad::mode" : [ 0.0 ],
 					"mo.pad::pad" : [ 0.0 ],
 					"mo.pad::mute" : [ 0.0 ],
@@ -15,12 +20,15 @@
 					"mo.slider[2]::slider" : [ 0.0 ],
 					"mo.slider[2]::mute" : [ 0.0 ],
 					"mo.slider[2]::polarity" : [ 0.0 ],
+					"mo.slider[2]::color" : [ 0 ],
 					"mo.slider[3]::slider" : [ 0.0 ],
 					"mo.slider[3]::mute" : [ 0.0 ],
 					"mo.slider[3]::polarity" : [ 0.0 ],
+					"mo.slider[3]::color" : [ 0 ],
 					"mo.slider[1]::slider" : [ 0.0 ],
 					"mo.slider[1]::mute" : [ 0.0 ],
 					"mo.slider[1]::polarity" : [ 0.0 ],
+					"mo.slider[1]::color" : [ 0 ],
 					"mo.route::voices" : [ 5.0 ],
 					"mo.route::mode" : [ 1.0 ],
 					"mo.route::device" : [ "/1" ],
@@ -59,11 +67,7 @@
 					"mo.route[3]::[3]::message" : [ "/toggle3" ],
 					"mo.route[3]::[3]::mute" : [ 0.0 ],
 					"mo.route[3]::[4]::message" : [ "/toggle4" ],
-					"mo.route[3]::[4]::mute" : [ 0.0 ],
-					"mo.hi::device" : [ 1.0 ],
-					"mo.hi::mute" : [ 0.0 ],
-					"mo.hi::port" : [ "8001." ],
-					"mo.hi::host[1]" : [ "127.0.0.1" ]
+					"mo.route[3]::[4]::mute" : [ 0.0 ]
 				}
 
 			}

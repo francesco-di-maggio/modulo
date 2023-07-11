@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 28.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 28.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 27.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 27.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 28.0 ],
+					"patching_rect" : [ 0.0, 0.0, 70.0, 27.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -65,6 +65,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-6" : [ "live.text[26]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -74,13 +75,27 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-52" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.sig~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 565.0, 543.0 ],
+		"rect" : [ 34.0, 100.0, 565.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -582,46 +582,18 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-14",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 719.166666666666288, 467.5, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 247.11886337647843, 116.071428571428584, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "1",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.499999999999545, 512.850694444444457, 403.0, 64.0 ],
+					"patching_rect" : [ 371.0, 392.0, 361.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 24.0, 460.0, 403.0, 64.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open the gyrOSC app, and enable quaternion from the settings menu.\n2. Set UPD host and port on the app to reflect your computer settings."
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 180.0, 88.571428571428584, 361.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Open the gyrOSC app.\n2. Enable quaternion from the settings menu, and set IP address.\n3. Set OSC receiving port."
 				}
 
 			}
@@ -659,75 +631,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 247.11886337647843, 57.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 744.999999999999545, 465.5, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 272.952196709811687, 112.1205048869123, 85.0, 25.0 ],
-					"text" : "load preset",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.499999999999545, 343.5, 65.0, 23.0 ],
-					"text" : "writeagain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autorestore" : "p-gyrOSC.json",
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.499999999999545, 397.5, 388.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 228 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage p-gyrOSC @savemode 3 @autorestore 1 @changemode 1",
-					"varname" : "p-gyrOSC"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubblesize" : 20,
-					"id" : "obj-36",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 661.499999999999545, 462.5, 53.0, 30.0 ],
-					"pattrstorage" : "p-gyrOSC",
-					"presentation" : 1,
-					"presentation_rect" : [ 185.452196709811687, 110.1205048869123, 53.0, 29.0 ]
 				}
 
 			}
@@ -854,6 +763,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@device", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1066,14 +976,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 670.999999999999545, 369.0, 670.999999999999545, 369.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 48.5, 162.0, 48.5, 162.0 ],
 					"source" : [ "obj-9", 0 ]
@@ -1114,10 +1016,10 @@
 			"obj-23::obj-22" : [ "live.text[36]", "live.text", 0 ],
 			"obj-23::obj-37" : [ "live.text[35]", "live.text", 0 ],
 			"obj-23::obj-6" : [ "live.text[37]", "live.text", 0 ],
-			"obj-25::obj-21" : [ "live.text[6]", "live.text", 0 ],
-			"obj-25::obj-3" : [ "slider-[6]", "slider-", 0 ],
-			"obj-25::obj-35" : [ "live.text[23]", "live.text", 0 ],
-			"obj-25::obj-7" : [ "live.text[24]", "live.text", 0 ],
+			"obj-25::obj-21" : [ "live.text[65]", "live.text", 0 ],
+			"obj-25::obj-3" : [ "slider-", "slider-", 0 ],
+			"obj-25::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-25::obj-7" : [ "live.text[52]", "live.text", 0 ],
 			"obj-26::obj-2" : [ "live.text[39]", "live.text", 0 ],
 			"obj-26::obj-22" : [ "live.text[41]", "live.text", 0 ],
 			"obj-26::obj-37" : [ "live.text[40]", "live.text", 0 ],
@@ -1269,15 +1171,15 @@
 				}
 ,
 				"obj-25::obj-21" : 				{
-					"parameter_longname" : "live.text[6]"
+					"parameter_longname" : "live.text[65]"
 				}
 ,
 				"obj-25::obj-35" : 				{
-					"parameter_longname" : "live.text[23]"
+					"parameter_longname" : "live.text[19]"
 				}
 ,
 				"obj-25::obj-7" : 				{
-					"parameter_longname" : "live.text[24]"
+					"parameter_longname" : "live.text[52]"
 				}
 ,
 				"obj-26::obj-2" : 				{
@@ -1352,8 +1254,16 @@
 					"parameter_longname" : "live.text[49]"
 				}
 ,
+				"obj-3::obj-2" : 				{
+					"parameter_longname" : "live.text[57]"
+				}
+,
 				"obj-3::obj-22" : 				{
 					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-3::obj-37" : 				{
+					"parameter_longname" : "live.text[111]"
 				}
 ,
 				"obj-3::obj-6" : 				{
@@ -1402,13 +1312,6 @@
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-gyrOSC.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

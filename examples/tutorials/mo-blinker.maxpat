@@ -42,14 +42,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.959072227510774, 39.0, 104.0, 39.0 ],
+					"patching_rect" : [ 211.959072227510774, 39.0, 141.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.959072227510774, 170.0, 116.0, 25.0 ],
-					"text" : "set blinking time "
+					"presentation_rect" : [ 133.959072227510774, 170.0, 141.0, 25.0 ],
+					"text" : "set blinking time (ms)"
 				}
 
 			}

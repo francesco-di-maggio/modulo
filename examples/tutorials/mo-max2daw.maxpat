@@ -538,8 +538,24 @@
 					"parameter_longname" : "live.text[19]"
 				}
 ,
+				"obj-12::obj-1" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-12::obj-45" : 				{
 					"parameter_longname" : "live.text[25]"
+				}
+,
+				"obj-12::obj-64" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-12::obj-72" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-12::obj-8" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 ,
 				"obj-13::obj-1" : 				{
@@ -620,6 +636,10 @@
 ,
 				"obj-6::obj-21" : 				{
 					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-6::obj-35" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-6::obj-7" : 				{

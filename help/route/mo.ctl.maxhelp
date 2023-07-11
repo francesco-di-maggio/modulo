@@ -41,7 +41,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@device", 1 ],
+					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -96,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 179.0, 251.0, 110.0, 25.0 ],
-					"text" : "input or output "
+					"text" : "send or receive"
 				}
 
 			}
@@ -119,8 +119,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.559972725972557, 299.0, 60.0, 23.0 ],
-					"text" : "device $1"
+					"patching_rect" : [ 148.559972725972557, 299.0, 55.0, 23.0 ],
+					"text" : "mode $1"
 				}
 
 			}
@@ -588,6 +588,8 @@
 				}
 ,
 				"obj-4::obj-8" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 0,
 					"parameter_longname" : "live.text[728]"
 				}
 

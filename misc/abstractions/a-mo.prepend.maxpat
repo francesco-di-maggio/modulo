@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 215.0, 15.0 ],
+		"rect" : [ 653.0, 100.0, 825.0, 848.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1031,14 +1031,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 761.666666666666629, 366.295826099537067, 149.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 761.666666666666629, 366.295826099537067, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mute @bindto mute-",
+					"text" : "pattr mute @bindto mute- @initial 0",
 					"varname" : "mute"
 				}
 
@@ -1062,9 +1062,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 265.00349561373389, 320.869429976851961, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.992017491514162, -0.058990031480789, 181.095917194832509, 15.0 ],
+					"presentation_rect" : [ 27.363086684400514, -0.058990031480789, 181.724848001946157, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "output-1",
+					"text" : "pitch",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "message-"
 				}
@@ -1226,6 +1226,7 @@
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-2",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1234,7 +1235,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 51.666666666666657, 320.869429976851961, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.225206084628866, -0.058990031480789, 19.841263920068741, 15.0 ],
+					"presentation_rect" : [ 4.0, -0.058990031480789, 19.841263920068741, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1252,13 +1253,17 @@
 							"expression" : ""
 						}
 ,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[114]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

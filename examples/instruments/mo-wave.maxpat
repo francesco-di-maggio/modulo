@@ -53,9 +53,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 413.0, 382.25, 70.0, 57.5 ],
+					"patching_rect" : [ 413.0, 382.25, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 216.790178571428584, 70.0, 57.5 ],
+					"presentation_rect" : [ 236.0, 216.790178571428584, 214.0, 57.5 ],
 					"varname" : "mo.send[1]",
 					"viewvisibility" : 1
 				}
@@ -76,9 +76,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 37.0, 382.25, 70.0, 57.5 ],
+					"patching_rect" : [ 37.0, 382.25, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 216.790178571428584, 70.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 216.790178571428584, 214.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
@@ -663,6 +663,10 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-15" : 				{
 					"parameter_longname" : "live.text[84]"
+				}
+,
+				"obj-1::obj-36" : 				{
+					"parameter_longname" : "live.text[52]"
 				}
 ,
 				"obj-1::obj-4" : 				{

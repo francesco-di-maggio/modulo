@@ -507,7 +507,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -516,7 +516,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"midpoints" : [ 48.5, 123.0, 665.5, 123.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 

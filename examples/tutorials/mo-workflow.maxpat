@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
+						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -267,7 +267,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
+						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -347,7 +347,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 555.0, 424.937653109431324, 213.0, 58.189434558153152 ],
-									"pattrstorage" : " ",
+									"pattrstorage" : "p-tutorial-1",
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 465.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -388,7 +388,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : " "
+									"varname" : "p-tutorial-1"
 								}
 
 							}
@@ -443,7 +443,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 711.25, 293.739889552195905, 88.0, 25.0 ],
-									"presentation_linecount" : 2,
 									"text" : "load preset "
 								}
 
@@ -2761,6 +2760,14 @@
 ,
 				"obj-1::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-2::obj-16::obj-35" : 				{
+					"parameter_longname" : "live.text[560]"
+				}
+,
+				"obj-2::obj-16::obj-9" : 				{
+					"parameter_longname" : "live.text[559]"
 				}
 ,
 				"obj-2::obj-1::obj-107::obj-20" : 				{

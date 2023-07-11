@@ -5,6 +5,9 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"mo.midi::port" : [ "IAC Driver Bus 1" ],
+					"mo.midi::mute[1]" : [ 0.0 ],
+					"mo.midi::device" : [ 0.0 ],
 					"mo.pads::voices" : [ 4.0 ],
 					"mo.pads::mute" : [ 0.0 ],
 					"mo.pads::[1]::mode" : [ 0.0 ],
@@ -30,13 +33,10 @@
 					"mo.sliders::[4]::mute" : [ 0.0 ],
 					"mo.sliders::[4]::slider" : [ 0.0 ],
 					"mo.sliders::[4]::polarity" : [ 0.0 ],
-					"mo.midi::mute[1]" : [ 0.0 ],
-					"mo.midi::port" : [ "IAC Driver Bus 1" ],
-					"mo.midi::device" : [ 0.0 ],
+					"mo.send::send" : [ "gyroscope-vibrato" ],
 					"mo.send::mute" : [ 0.0 ],
-					"mo.send::send" : [ "motion" ],
-					"mo.send[1]::mute" : [ 0.0 ],
-					"mo.send[1]::send" : [ "buttons" ]
+					"mo.send[1]::send" : [ "buttons-tap" ],
+					"mo.send[1]::mute" : [ 0.0 ]
 				}
 
 			}

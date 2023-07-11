@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 692.0, 425.0 ],
+		"rect" : [ 34.0, 100.0, 692.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -162,9 +162,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 39.0, 769.649305555555543, 70.0, 57.5 ],
+					"patching_rect" : [ 39.0, 769.649305555555543, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 599.0, 250.571428571428584, 70.0, 57.5 ],
+					"presentation_rect" : [ 455.0, 250.571428571428584, 214.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
@@ -212,7 +212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 734.666666666666742, 225.649305555555543, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.166666666666742, 279.022352255944838, 20.0, 20.0 ],
+					"presentation_rect" : [ 535.666666666666742, 28.022352255944867, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -235,7 +235,7 @@
 					"patching_rect" : [ 677.0, 288.532638888889551, 244.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 23.0, 323.786401543313104, 244.0, 79.0 ],
+					"presentation_rect" : [ 23.0, 265.571428571428555, 244.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Connect your Gametrak.\n2. Calibrate minimum and maximum values.\n3. (Optional) Send data to a sound device."
 				}
 
@@ -249,7 +249,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.666666666666742, 89.027777777777828, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.166666666666742, 41.356455599544006, 79.0, 25.0 ],
+					"presentation_rect" : [ 268.166666666666742, 56.356455599544006, 79.0, 25.0 ],
 					"text" : "set device",
 					"textjustification" : 1
 				}
@@ -272,7 +272,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.666666666666742, 91.527777777777828, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.11886337647843, 43.856455599544006, 20.0, 20.0 ],
+					"presentation_rect" : [ 244.11886337647843, 58.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -292,7 +292,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 760.5, 223.649305555555543, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.0, 275.071428571428555, 85.0, 25.0 ],
+					"presentation_rect" : [ 561.5, 24.071428571428584, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -351,7 +351,7 @@
 					"patching_rect" : [ 677.0, 220.649305555555543, 53.0, 30.0 ],
 					"pattrstorage" : "p-gametrak",
 					"presentation" : 1,
-					"presentation_rect" : [ 31.5, 273.071428571428555, 53.0, 29.0 ]
+					"presentation_rect" : [ 470.0, 22.071428571428584, 53.0, 29.0 ]
 				}
 
 			}

@@ -392,7 +392,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[70]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -552,7 +552,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.986252, 0.007236, 0.027423, 1.0 ],
 					"spacing" : 2,
 					"varname" : "slider-"
 				}

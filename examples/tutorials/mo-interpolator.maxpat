@@ -344,10 +344,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 639.536493331193924, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 228 ],
+						"client_rect" : [ 249, 100, 603, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 249, 100, 700, 228 ]
 					}
 ,
 					"text" : "pattrstorage",
@@ -548,6 +548,10 @@
 ,
 				"obj-55::obj-6" : 				{
 					"parameter_longname" : "live.text[68]"
+				}
+,
+				"obj-5::obj-35" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-61::obj-12" : 				{

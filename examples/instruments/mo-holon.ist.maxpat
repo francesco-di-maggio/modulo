@@ -53,9 +53,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 34.0, 535.0, 70.0, 57.5 ],
+					"patching_rect" : [ 34.0, 535.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 489.5, 70.0, 57.5 ],
+					"presentation_rect" : [ 29.0, 489.5, 214.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
