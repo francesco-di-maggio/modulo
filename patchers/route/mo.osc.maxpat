@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -520,15 +520,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 745.204837719599254, 172.899999856948909, 217.0, 23.0 ],
+					"patching_rect" : [ 745.204837719599254, 172.899999856948909, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr device @bindto device- @initial 0",
-					"varname" : "device"
+					"text" : "pattr mode @bindto mode- @initial 0",
+					"varname" : "mode"
 				}
 
 			}
@@ -546,7 +546,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.309803921568627, 0.63921568627451, 0.988235294117647, 1.0 ],
+					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -561,7 +561,7 @@
 					"presentation_rect" : [ 194.67373152077198, 4.0, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
-							"expression" : "themecolor.live_freeze_color"
+							"expression" : "themecolor.live_value_bar"
 						}
 ,
 						"activebgoncolor" : 						{
@@ -588,7 +588,7 @@
 ,
 					"text" : "S",
 					"texton" : "R",
-					"varname" : "device-"
+					"varname" : "mode-"
 				}
 
 			}
@@ -686,7 +686,6 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
-					"hidden" : 1,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -855,8 +854,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 514.0, 115.0, 255.0, 23.0 ],
-					"text" : "route port host mute device"
+					"patching_rect" : [ 514.0, 115.0, 152.0, 23.0 ],
+					"text" : "route port host mute mode"
 				}
 
 			}
@@ -944,7 +943,6 @@
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
-					"hidden" : 1,
 					"id" : "obj-26",
 					"keymode" : 1,
 					"lines" : 1,
@@ -1047,7 +1045,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 641.5, 159.0, 716.319893638292683, 159.0 ],
+					"midpoints" : [ 590.0, 159.0, 716.319893638292683, 159.0 ],
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -1055,7 +1053,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 582.5, 141.0, 582.5, 141.0 ],
+					"midpoints" : [ 556.75, 141.0, 582.5, 141.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -1071,7 +1069,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 700.5, 159.0, 754.704837719599254, 159.0 ],
+					"midpoints" : [ 623.25, 159.0, 754.704837719599254, 159.0 ],
 					"source" : [ "obj-11", 3 ]
 				}
 

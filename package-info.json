@@ -3,8 +3,8 @@
 	"displayname" : "",
 	"version" : "0.2.0",
 	"author" : "Francesco Di Maggio",
-	"description" : "A toolkit for tinkering digital musical instruments, designed as a Lego set for your musical ideas.",
-	"tags" : [ "digital musical instruments", "design", "lego", "mapping", "user-friendly", "modular", "multichannel" ],
+	"description" : "A Lego set for for tinkering digital musical instruments.",
+	"tags" : [ "digital musical instruments", "design", "lego", "modular", "multichannel", "input", "route", "transform", "map" ],
 	"website" : "https://francescodimaggio.nl"
 	"extensible" : 1,
 	"extends" : "",

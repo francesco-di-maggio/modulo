@@ -47,8 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 642.0, 245.0, 23.0 ],
-					"text" : "0.872093 0.825581 0.30814 0.284884"
+					"patching_rect" : [ 41.0, 642.0, 245.0, 23.0 ]
 				}
 
 			}
@@ -347,6 +346,10 @@
 			"parameter_overrides" : 			{
 				"obj-5::obj-11" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-5::obj-18" : 				{
+					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-5::obj-52" : 				{

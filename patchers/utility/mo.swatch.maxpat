@@ -41,6 +41,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 390.0, 21.0, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 61.064706000000001, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -152,7 +172,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[75]",
+							"parameter_longname" : "live.text[379]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -181,7 +201,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.07147, 0.06853, 0.06853, 1.0 ],
+					"bgcolor" : [ 0.393365401397842, 0.0, 0.701470411495589, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
@@ -254,7 +274,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.0, 175.5, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.507362417781621, 26.0, 46.0, 18.0 ],
+					"presentation_rect" : [ 152.507362417781621, 24.0, 46.0, 18.0 ],
 					"text" : "lightness",
 					"textjustification" : 1
 				}
@@ -269,7 +289,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.0, 175.5, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.345373146140844, 26.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 80.345373146140844, 24.0, 52.0, 18.0 ],
 					"text" : "saturation",
 					"textjustification" : 1
 				}
@@ -284,7 +304,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 196.0, 175.5, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.383496038520605, 26.0, 24.0, 18.0 ],
+					"presentation_rect" : [ 25.383496038520605, 24.0, 24.0, 18.0 ],
 					"text" : "hue",
 					"textjustification" : 1
 				}
@@ -337,7 +357,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "live.numbox[92]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -385,7 +405,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[9]",
+							"parameter_longname" : "live.numbox[26]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -421,9 +441,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.0, 389.0, 98.0, 98.0 ],
+					"patching_rect" : [ 34.0, 389.0, 241.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 65.072399175405735, 204.339669197688949, 194.954149276848 ],
+					"presentation_rect" : [ 4.675538547296355, 66.072399175405735, 204.339669197688949, 193.954149276848 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -530,7 +550,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[8]",
+							"parameter_longname" : "live.numbox[27]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -600,8 +620,8 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 34.0, 389.0, 241.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 65.072399175405735, 204.339669197688949, 194.954149276848 ],
-					"saturation" : 0.021,
+					"presentation_rect" : [ 4.675538547296355, 66.072399175405735, 204.339669197688949, 193.954149276848 ],
+					"saturation" : 1.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0 ],

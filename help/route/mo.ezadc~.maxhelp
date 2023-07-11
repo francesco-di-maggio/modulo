@@ -45,6 +45,7 @@
 					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
+					"local" : 1,
 					"maxclass" : "mc.ezadc~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -266,6 +267,13 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -285,10 +293,6 @@
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-2", "obj-1" ]
-			}
- ],
 		"toolbarexclusions" : [ "objectpriority", "grid", "savefavorite", "autolockunselected", "traceenable", "patchernavmenu", "keymap", "transport", "midimap" ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

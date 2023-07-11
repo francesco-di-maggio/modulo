@@ -344,10 +344,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 639.536493331193924, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 249, 100, 603, 228 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 249, 100, 700, 228 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage",
@@ -370,7 +370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 534.941776052117348, 214.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 149.554751425981522, 214.0, 87.0 ],

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 294.0, 443.0 ],
+		"rect" : [ 34.0, 100.0, 314.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 396.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 427.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.0, 213.5, 20.0, 20.0 ],
+					"patching_rect" : [ 153.0, 243.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -125,11 +125,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.255791574060538, 211.0, 94.0, 25.0 ],
-					"text" : "set led color "
+					"patching_rect" : [ 180.255791574060538, 195.5, 109.0, 111.0 ],
+					"text" : "Set slider color:\n0 = black\n1 = red\n2 = green\n3 = blue\n4 = yellow\n5 = white"
 				}
 
 			}
@@ -196,19 +197,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.027613907396415, 212.0, 50.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 293.0, 74.0, 79.0 ],
-					"text" : "1 = RED\n2 = GREEN\n3 = BLUE\n4 = YELLOW\n5 = WHITE"
+					"patching_rect" : [ 92.027613907396415, 243.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -219,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.027613907396415, 250.0, 53.0, 23.0 ],
+					"patching_rect" : [ 92.027613907396415, 281.0, 53.0, 23.0 ],
 					"text" : "color $1"
 				}
 
@@ -240,7 +229,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 41.0, 285.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 316.0, 70.0, 87.0 ],
 					"varname" : "mo.led",
 					"viewvisibility" : 1
 				}
@@ -257,7 +246,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 101.527613907396415, 276.0, 101.5, 276.0 ],
+					"midpoints" : [ 101.527613907396415, 307.0, 101.5, 307.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -265,7 +254,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 101.527613907396415, 237.0, 101.527613907396415, 237.0 ],
+					"midpoints" : [ 101.527613907396415, 268.0, 101.527613907396415, 268.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -287,10 +276,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10::obj-3" : [ "live.text[181]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "mo.led.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -177,8 +177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 324.0, 71.0 ],
-					"text" : "mo.xbendout"
+					"patching_rect" : [ 9.0, 9.0, 243.0, 71.0 ],
+					"text" : "mo.xbend"
 				}
 
 			}
@@ -267,12 +267,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.xbendout.maxpat",
+					"name" : "mo.xbend.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 41.0, 397.297012329101562, 70.0, 87.0 ],
-					"varname" : "mo.xbendout",
+					"varname" : "mo.xbend",
 					"viewvisibility" : 1
 				}
 
@@ -376,9 +376,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-37" : [ "live.text[13]", "live.text", 0 ],
-			"obj-4::obj-45" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-4::obj-45" : [ "live.text[626]", "live.text", 0 ],
+			"obj-4::obj-6" : [ "live.text[627]", "live.text", 0 ],
+			"obj-4::obj-64" : [ "live.numbox[424]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -392,9 +392,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.xbendout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.xbend.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

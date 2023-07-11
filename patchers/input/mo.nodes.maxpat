@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -286,7 +286,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.806426948309081, 274.54613277936005, 225.0, 23.0 ],
-					"restore" : [ 0.7438, 0.8338, 0.18604, 1, 0.05, 0.1239, 0.41044, 1, 0.9927, 0.0959, 0.46392, 1, 0.7755, 0.6274, 0.48356, 1 ],
+					"restore" : [ 0.5999, 0.6556, 0.128, 1, 0.7675, 0.5051, 0.39756, 1, 0.3617, 0.4834, 0.4736, 1, 0.2092, 0.5259, 0.35828, 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -381,7 +381,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[34]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -942,7 +942,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[50]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1010,7 +1010,7 @@
 					"maxclass" : "nodes",
 					"nodenumber" : 4,
 					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.18604, 0.41044, 0.46392, 0.48356 ],
+					"nsize" : [ 0.128, 0.39756, 0.4736, 0.35828 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -1019,8 +1019,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.944008178968261, 64.959666330119575, 203.102512662690629, 194.324950887227743 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.7438, 0.05, 0.9927, 0.7755 ],
-					"yplace" : [ 0.8338, 0.1239, 0.0959, 0.6274 ]
+					"xplace" : [ 0.5999, 0.7675, 0.3617, 0.2092 ],
+					"yplace" : [ 0.6556, 0.5051, 0.4834, 0.5259 ]
 				}
 
 			}

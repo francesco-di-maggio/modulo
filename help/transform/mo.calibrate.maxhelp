@@ -616,6 +616,10 @@
 					"parameter_unitstyle" : 9
 				}
 ,
+				"obj-1::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[124]"
+				}
+,
 				"obj-1::obj-123::obj-68" : 				{
 					"parameter_longname" : "live.numbox[70]"
 				}
@@ -886,6 +890,14 @@
 ,
 				"obj-1::obj-50::obj-82" : 				{
 					"parameter_longname" : "live.text[73]"
+				}
+,
+				"obj-1::obj-59" : 				{
+					"parameter_longname" : "live.numbox[48]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[31]"
 				}
 ,
 				"obj-1::obj-66" : 				{

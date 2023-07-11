@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 165.0, 127.0, 23.0 ],
-					"text" : "mc.cycle~ 1 @chans 1"
+					"text" : "mc.cycle~ 1 @chans 4"
 				}
 
 			}
@@ -231,6 +231,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 4, 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -396,8 +397,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.matrix~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

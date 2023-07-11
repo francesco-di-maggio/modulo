@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -101,7 +101,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 42.0, 402.0, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-preset",
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 442.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -128,14 +127,14 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 419.594717279076576, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 249, 100, 603, 228 ],
+										"client_rect" : [ 4, 100, 358, 228 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 249, 100, 700, 228 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-preset"
+									"varname" : "untitled"
 								}
 
 							}
@@ -154,7 +153,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "clear" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 315.0, 214.0, 87.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 134.0, 355.0, 214.0, 87.0 ],
@@ -497,7 +496,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
+						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -540,7 +539,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 42.0, 402.0, 213.0, 58.189434558153152 ],
-									"pattrstorage" : " ",
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 442.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -558,7 +556,6 @@
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "p-blocks.json",
 									"hidden" : 1,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
@@ -567,14 +564,14 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 419.594717279076576, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 249, 100, 603, 228 ],
+										"client_rect" : [ 4, 100, 358, 228 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 249, 100, 700, 228 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : " "
+									"varname" : "untitled"
 								}
 
 							}
@@ -593,7 +590,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "clear" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 315.0, 214.0, 87.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 134.0, 355.0, 214.0, 87.0 ],
@@ -642,7 +639,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 195.5, 209.499999999999943, 92.0, 25.0 ],
+									"patching_rect" : [ 204.5, 209.499999999999943, 92.0, 25.0 ],
 									"text" : "clear preset "
 								}
 
@@ -825,7 +822,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 148.5, 210.499999999999943, 35.0, 23.0 ],
+									"patching_rect" : [ 157.5, 210.499999999999943, 35.0, 23.0 ],
 									"text" : "clear"
 								}
 
@@ -896,7 +893,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 158.0, 300.0, 50.5, 300.0 ],
+									"midpoints" : [ 167.0, 300.0, 50.5, 300.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1050,7 +1047,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-blocks.json",
+				"name" : "p-preset.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

@@ -60,7 +60,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.917905882000923, 29.371792723306498, 157.582094117999077, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 0 : 11 . 375",
+					"text" : "0 : 0 : 0 . 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"
@@ -210,18 +210,6 @@
 					"text" : "timer",
 					"texton" : "timer",
 					"varname" : "mute-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 427.0, 309.78144676507651, 58.0, 23.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -641,14 +629,6 @@
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 206.423077702522278, 264.0, 206.423077702522278, 264.0 ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 436.5, 345.0, 399.423077702522278, 345.0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}

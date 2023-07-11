@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 417.0, 464.0 ],
+		"rect" : [ 34.0, 100.0, 546.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,47 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 413.755791574060595, 215.0, 109.0, 111.0 ],
+					"text" : "Set slider color:\n0 = black\n1 = red\n2 = green\n3 = blue\n4 = yellow\n5 = white"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "number",
+					"maximum" : 5,
+					"minimum" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 354.255791574060595, 259.0, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 354.255791574060595, 309.0, 53.0, 23.0 ],
+					"text" : "color $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -203,7 +244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 420.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 480.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -247,7 +288,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 310.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 370.0, 70.0, 87.0 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -257,15 +298,31 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 50.5, 398.0, 50.5, 398.0 ],
+					"midpoints" : [ 50.5, 459.0, 50.5, 459.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 363.755791574060595, 285.0, 363.755791574060595, 285.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"midpoints" : [ 363.755791574060595, 357.0, 101.5, 357.0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 300.755791574060538, 245.0, 243.755791574060538, 245.0 ],
+					"midpoints" : [ 300.755791574060538, 246.0, 243.755791574060538, 246.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -273,7 +330,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 243.755791574060538, 296.0, 101.5, 296.0 ],
+					"midpoints" : [ 243.755791574060538, 357.0, 101.5, 357.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -281,7 +338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 101.5, 284.0, 101.5, 284.0 ],
+					"midpoints" : [ 101.5, 285.0, 101.5, 285.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -289,7 +346,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 243.755791574060538, 236.0, 243.755791574060538, 236.0 ],
+					"midpoints" : [ 243.755791574060538, 237.0, 243.755791574060538, 237.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -297,7 +354,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 101.5, 236.0, 101.5, 236.0 ],
+					"midpoints" : [ 101.5, 237.0, 101.5, 237.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -305,7 +362,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.5, 191.0, 50.5, 191.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

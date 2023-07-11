@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 754.0, 696.0 ],
+		"rect" : [ 34.0, 100.0, 835.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 625.640615909090684, 444.047930985689163, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
@@ -88,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 649.640615909090684, 480.047930985689163, 90.0, 25.0 ],
+					"patching_rect" : [ 727.640615909090684, 480.047930985689163, 90.0, 25.0 ],
 					"text" : "target voice"
 				}
 
@@ -100,8 +112,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 547.640615909090684, 481.047930985689163, 97.0, 23.0 ],
-					"text" : "target 1, onoff 1"
+					"patching_rect" : [ 625.640615909090684, 481.047930985689163, 104.0, 23.0 ],
+					"text" : "target 1, onoff $1"
 				}
 
 			}
@@ -113,7 +125,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 646.0, 289.640615909090684, 23.0 ]
+					"patching_rect" : [ 41.0, 646.0, 289.640615909090684, 23.0 ],
+					"text" : "0.403597"
 				}
 
 			}
@@ -553,7 +566,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 557.140615909090684, 516.0, 50.5, 516.0 ],
+					"midpoints" : [ 635.140615909090684, 516.0, 50.5, 516.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -571,6 +584,13 @@
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}

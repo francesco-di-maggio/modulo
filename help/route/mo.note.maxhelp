@@ -202,8 +202,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 286.0, 71.0 ],
-					"text" : "mo.noteout"
+					"patching_rect" : [ 9.0, 9.0, 205.0, 71.0 ],
+					"text" : "mo.note"
 				}
 
 			}
@@ -278,12 +278,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.noteout.maxpat",
+					"name" : "mo.note.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 41.0, 449.5, 70.0, 87.0 ],
-					"varname" : "mo.midiin",
+					"varname" : "mo.note",
 					"viewvisibility" : 1
 				}
 
@@ -422,6 +422,7 @@
  ],
 		"parameters" : 		{
 			"obj-43::obj-1" : [ "live.text[4]", "live.text", 0 ],
+			"obj-43::obj-45" : [ "live.text[679]", "live.text", 0 ],
 			"obj-43::obj-64" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-43::obj-72" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -434,8 +435,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-43::obj-1" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-43::obj-64" : 				{
 					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-43::obj-72" : 				{
+					"parameter_longname" : "live.numbox[69]"
 				}
 
 			}
@@ -444,9 +453,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.noteout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"name" : "mo.note.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

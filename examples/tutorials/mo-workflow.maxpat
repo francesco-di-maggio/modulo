@@ -381,10 +381,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 249, 100, 603, 228 ],
+										"client_rect" : [ 4, 44, 358, 172 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 249, 100, 700, 228 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage",
@@ -407,7 +407,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "clear" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 554.0, 337.937653109431324, 214.0, 87.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 596.0, 378.0, 214.0, 87.0 ],
@@ -491,6 +491,7 @@
 									"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-15",
+									"local" : 1,
 									"maxclass" : "mc.ezdac~",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -983,10 +984,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 249, 100, 603, 228 ],
+										"client_rect" : [ 4, 44, 358, 172 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 249, 100, 700, 228 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage p-tutorial-2 @autorestore 1 @changemode 1",

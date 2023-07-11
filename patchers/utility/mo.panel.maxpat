@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,26 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 404.0, 110.0, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 61.064706000000001, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-18",
@@ -140,7 +160,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[327]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -238,7 +258,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.0, 247.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.507362417781621, 26.0, 46.0, 18.0 ],
+					"presentation_rect" : [ 152.507362417781621, 24.0, 46.0, 18.0 ],
 					"text" : "lightness",
 					"textjustification" : 1
 				}
@@ -254,7 +274,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 247.0, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.345373146140844, 26.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 80.345373146140844, 24.0, 52.0, 18.0 ],
 					"text" : "saturation",
 					"textjustification" : 1
 				}
@@ -270,7 +290,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 210.0, 247.0, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.383496038520605, 26.0, 24.0, 18.0 ],
+					"presentation_rect" : [ 25.383496038520605, 24.0, 24.0, 18.0 ],
 					"text" : "hue",
 					"textjustification" : 1
 				}
@@ -324,7 +344,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[90]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -372,7 +392,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[21]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -401,7 +421,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.238372093023256, 0.715116279069767, 0.565440778799351, 1.0 ],
+					"bgcolor" : [ 0.75, 0.25, 0.25, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-81",
@@ -411,7 +431,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 108.0, 652.411174970092702, 111.0, 113.734997636628805 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 65.033937669039005, 204.015207744985304, 195.99261078321473 ],
+					"presentation_rect" : [ 5.0, 66.033937669039005, 204.015207744985304, 194.99261078321473 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -518,7 +538,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[20]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -593,7 +613,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 404.0, 117.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 21.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

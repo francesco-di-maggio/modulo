@@ -71,14 +71,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 538.369893655180931, 110.0, 23.0 ],
-					"text" : "/osc 0.022"
+					"patching_rect" : [ 314.0, 538.369893655180931, 110.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 1 ],
+					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -108,8 +107,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.440027274027443, 210.3754593282938, 110.0, 25.0 ],
-					"text" : "input or output "
+					"patching_rect" : [ 266.440027274027443, 210.3754593282938, 109.0, 25.0 ],
+					"text" : "send or receive "
 				}
 
 			}
@@ -132,8 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 258.3754593282938, 60.0, 23.0 ],
-					"text" : "device $1"
+					"patching_rect" : [ 236.0, 258.3754593282938, 55.0, 23.0 ],
+					"text" : "mode $1"
 				}
 
 			}
