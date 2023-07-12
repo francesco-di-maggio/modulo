@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 473.0, 516.0 ],
+		"rect" : [ 34.0, 100.0, 473.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -94,9 +94,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 823.0, 356.566964285714334, 93.0, 25.0 ],
+					"patching_rect" : [ 823.0, 356.566964285714334, 95.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.5, 435.529662698412551, 95.0, 25.0 ],
+					"presentation_rect" : [ 298.5, 439.529662698412551, 95.0, 25.0 ],
 					"text" : "open live set "
 				}
 
@@ -118,7 +118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.5, 358.566964285714334, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 271.0, 437.529662698412551, 20.0, 20.0 ],
+					"presentation_rect" : [ 271.0, 441.529662698412551, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -139,7 +139,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 356.834821428571672, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.0, 435.521329365079339, 24.0, 24.0 ]
+					"presentation_rect" : [ 238.0, 439.521329365079339, 24.0, 24.0 ]
 				}
 
 			}
@@ -412,7 +412,7 @@
 					"patching_rect" : [ 756.0, 212.760317460318021, 306.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 22.0, 438.521329365079339, 309.0, 64.0 ],
+					"presentation_rect" : [ 22.0, 451.521329365079339, 309.0, 64.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output port for notes and control changes.\n2. Click on bang to automatically launch the live set."
 				}
 

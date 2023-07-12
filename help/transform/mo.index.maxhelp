@@ -179,9 +179,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 319.0, 23.0 ],
-					"presentation_linecount" : 2,
-					"text" : "Output a list of data prepending the value's index."
+					"patching_rect" : [ 9.0, 83.0, 228.0, 23.0 ],
+					"text" : "Output a list of data by index value."
 				}
 
 			}

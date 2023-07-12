@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 471.0, 398.0 ],
+		"rect" : [ 34.0, 100.0, 471.0, 322.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,47 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-8",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 413.0, 382.25, 214.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 216.790178571428584, 214.0, 57.5 ],
-					"varname" : "mo.send[1]",
-					"viewvisibility" : 1
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 875.5, 73.222222222222172, 55.0, 23.0 ],
+					"text" : "deferlow"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 37.0, 382.25, 214.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 216.790178571428584, 214.0, 57.5 ],
-					"varname" : "mo.send",
-					"viewvisibility" : 1
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 875.5, 34.989883657406949, 68.0, 23.0 ],
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -222,8 +200,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.666666666666742, 197.222222222222172, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 323.666666666666742, 289.022352255944838, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -239,15 +215,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 7,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 777.0, 242.572916666666629, 342.0, 107.0 ],
+					"patching_rect" : [ 777.0, 242.572916666666629, 427.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 291.290178571428555, 368.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open the Software app, and load the a preset.\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring.\n4. (Optional) Send data to a sound device."
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 20.0, 227.290178571428555, 427.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Open the Software app, and load preset (modulo/misc/presets/wave.xml).\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring."
 				}
 
 			}
@@ -285,7 +261,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 53.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -302,8 +278,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 860.5, 195.222222222222172, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 349.5, 285.071428571428555, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -329,7 +303,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 777.0, 127.222222222222172, 374.0, 23.0 ],
+					"patching_rect" : [ 777.0, 127.222222222222172, 297.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -344,7 +318,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-wave @savemode 3 @autorestore 1 @changemode 1",
+					"text" : "pattrstorage p-wave @autorestore 1 @changemode 1",
 					"varname" : "p-wave"
 				}
 
@@ -358,9 +332,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 777.0, 192.222222222222172, 53.0, 30.0 ],
-					"pattrstorage" : "p-wave",
-					"presentation" : 1,
-					"presentation_rect" : [ 258.0, 283.071428571428555, 53.0, 29.0 ]
+					"pattrstorage" : "p-wave"
 				}
 
 			}
@@ -503,14 +475,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 46.5, 369.0, 46.5, 369.0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 786.5, 99.0, 786.5, 99.0 ],
 					"source" : [ "obj-5", 0 ]
@@ -519,9 +483,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 422.5, 369.0, 422.5, 369.0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 885.0, 114.0, 786.5, 114.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 885.0, 59.222222222222172, 885.0, 59.222222222222172 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -581,8 +553,6 @@
 			"obj-4::obj-74::obj-15" : [ "live.text[13]", "live.text", 0 ],
 			"obj-4::obj-74::obj-18" : [ "live.text[9]", "live.text", 0 ],
 			"obj-4::obj-74::obj-8" : [ "live.text[12]", "live.text", 0 ],
-			"obj-6::obj-10" : [ "live.text[585]", "live.text", 0 ],
-			"obj-6::obj-12" : [ "live.text[554]", "live.text", 0 ],
 			"obj-7::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-7::obj-107::obj-35" : [ "live.text[153]", "live.text", 0 ],
 			"obj-7::obj-107::obj-8" : [ "live.text[151]", "live.text", 0 ],
@@ -651,8 +621,6 @@
 			"obj-7::obj-74::obj-35" : [ "live.text[76]", "live.text", 0 ],
 			"obj-7::obj-74::obj-8" : [ "live.text[152]", "live.text", 0 ],
 			"obj-7::obj-74::obj-9" : [ "slider-[5]", "slider-[2]", 0 ],
-			"obj-8::obj-10" : [ "live.text[55]", "live.text", 0 ],
-			"obj-8::obj-12" : [ "live.text[64]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1094,14 +1062,6 @@
 				"obj-7::obj-74::obj-8" : 				{
 					"parameter_longname" : "live.text[152]"
 				}
-,
-				"obj-8::obj-10" : 				{
-					"parameter_longname" : "live.text[55]"
-				}
-,
-				"obj-8::obj-12" : 				{
-					"parameter_longname" : "live.text[64]"
-				}
 
 			}
 ,
@@ -1137,16 +1097,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

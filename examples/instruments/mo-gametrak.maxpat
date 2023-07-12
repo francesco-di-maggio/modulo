@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 739.0, 122.299603174603163, 55.0, 23.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 739.0, 69.0, 68.0, 23.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 6 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -186,8 +210,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 704.666666666666742, 235.726686507936421, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 340.833333333333485, 355.022352255944838, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -210,7 +232,7 @@
 					"patching_rect" : [ 647.0, 298.6100198412704, 244.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 23.0, 310.071428571428555, 244.0, 79.0 ],
+					"presentation_rect" : [ 23.0, 308.071428571428555, 244.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Connect your Gametrak.\n2. Calibrate minimum and maximum values.\n3. (Optional) Send data to a sound device."
 				}
 
@@ -249,7 +271,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 244.11886337647843, 58.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -266,8 +288,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.5, 233.726686507936421, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 366.666666666666742, 351.071428571428555, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -325,9 +345,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 647.0, 230.726686507936421, 53.0, 30.0 ],
-					"pattrstorage" : "p-gametrak",
-					"presentation" : 1,
-					"presentation_rect" : [ 278.166666666666742, 350.071428571428555, 53.0, 29.0 ]
+					"pattrstorage" : "p-gametrak"
 				}
 
 			}
@@ -394,9 +412,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 748.5, 93.0, 748.5, 93.0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 656.5, 147.0, 656.5, 147.0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 748.5, 171.0, 656.5, 171.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

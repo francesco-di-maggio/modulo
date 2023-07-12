@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1105.5, 108.0, 55.0, 23.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1105.5, 69.767661435184777, 68.0, 23.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -223,9 +247,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1079.666666666666742, 143.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 235.166666666666742, 389.093780827373394, 20.0, 20.0 ],
+					"patching_rect" : [ 1079.666666666666742, 233.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -245,10 +267,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 188.350694444444457, 347.0, 64.0 ],
+					"patching_rect" : [ 1022.0, 278.350694444444457, 347.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 21.0, 399.071428571428555, 347.0, 64.0 ],
+					"presentation_rect" : [ 21.0, 404.071428571428555, 347.0, 64.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open the TouchOSC app, and load Simple Mk3 preset.\n2. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -287,7 +309,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 245.11886337647843, 54.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -303,9 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1105.5, 141.0, 85.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 385.14285714285711, 85.0, 25.0 ],
+					"patching_rect" : [ 1105.5, 231.0, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -318,7 +338,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 19.0, 65.0, 23.0 ],
+					"patching_rect" : [ 1022.0, 108.0, 65.0, 23.0 ],
 					"text" : "writeagain"
 				}
 
@@ -331,7 +351,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 73.0, 325.0, 23.0 ],
+					"patching_rect" : [ 1022.0, 163.0, 325.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
@@ -352,10 +372,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 1022.0, 138.0, 53.0, 30.0 ],
-					"pattrstorage" : "p-touchOSC",
-					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 383.14285714285711, 53.0, 29.0 ]
+					"patching_rect" : [ 1022.0, 228.0, 53.0, 30.0 ],
+					"pattrstorage" : "p-touchOSC"
 				}
 
 			}
@@ -507,6 +525,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 48.5, 108.0, 48.5, 108.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -523,6 +542,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 1115.0, 150.0, 1031.5, 150.0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"midpoints" : [ 336.5, 333.0, 336.5, 333.0 ],
 					"source" : [ "obj-24", 4 ]
@@ -532,6 +559,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"midpoints" : [ 192.5, 333.0, 192.5, 333.0 ],
 					"source" : [ "obj-24", 2 ]
 				}
 
@@ -539,6 +567,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
+					"midpoints" : [ 264.5, 333.0, 264.5, 333.0 ],
 					"source" : [ "obj-24", 3 ]
 				}
 
@@ -546,6 +575,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 120.5, 333.0, 120.5, 333.0 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -553,6 +583,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 48.5, 333.0, 48.5, 333.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -600,8 +631,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 1031.5, 45.0, 1031.5, 45.0 ],
+					"midpoints" : [ 1031.5, 132.0, 1031.5, 132.0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 1115.0, 93.0, 1115.0, 93.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -760,6 +799,10 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[616]"
 				}
 ,
 				"obj-23::obj-35" : 				{
@@ -1005,8 +1048,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

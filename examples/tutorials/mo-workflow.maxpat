@@ -267,7 +267,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
+						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -389,18 +389,7 @@
 										"mo.sliders::[2]::polarity" : 1,
 										"mo.sliders::[3]::polarity" : 1,
 										"mo.sliders::[4]::polarity" : 1,
-										"mo.sliders::[5]::polarity" : 1,
-										"mo.sliders::[6]::polarity" : 1,
-										"mo.sliders::[7]::polarity" : 1,
-										"mo.sliders::[8]::polarity" : 1,
-										"mo.sliders::[9]::polarity" : 1,
-										"mo.sliders::[10]::polarity" : 1,
-										"mo.sliders::[11]::polarity" : 1,
-										"mo.sliders::[12]::polarity" : 1,
-										"mo.sliders::[13]::polarity" : 1,
-										"mo.sliders::[14]::polarity" : 1,
-										"mo.sliders::[15]::polarity" : 1,
-										"mo.sliders::[16]::polarity" : 1
+										"mo.sliders::[5]::polarity" : 1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -461,12 +450,14 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 2,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 711.5, 304.40655621886259, 88.0, 25.0 ],
-									"text" : "load preset "
+									"patching_rect" : [ 711.25, 257.182643661896407, 73.0, 40.0 ],
+									"text" : "load preset ",
+									"textjustification" : 1
 								}
 
 							}
@@ -485,7 +476,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 685.0, 306.90655621886259, 20.0, 20.0 ],
+									"patching_rect" : [ 737.0, 307.40655621886259, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -503,8 +494,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 554.25, 305.40655621886259, 125.0, 23.0 ],
-									"text" : "read p-tutorial-1.json"
+									"patching_rect" : [ 554.25, 305.40655621886259, 171.0, 23.0 ],
+									"text" : "read p-tutorial-1.json, recall 1"
 								}
 
 							}
@@ -853,7 +844,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 820.0, 736.0 ],
+						"rect" : [ 0.0, 26.0, 820.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -903,7 +894,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 732.75, 408.175082952919524, 57.0, 23.0 ],
-									"presentation_linecount" : 2,
 									"text" : "depth $1"
 								}
 
@@ -971,18 +961,7 @@
 										"mo.sliders::[2]::polarity" : 1,
 										"mo.sliders::[3]::polarity" : 1,
 										"mo.sliders::[4]::polarity" : 1,
-										"mo.sliders::[5]::polarity" : 1,
-										"mo.sliders::[6]::polarity" : 1,
-										"mo.sliders::[7]::polarity" : 1,
-										"mo.sliders::[8]::polarity" : 1,
-										"mo.sliders::[9]::polarity" : 1,
-										"mo.sliders::[10]::polarity" : 1,
-										"mo.sliders::[11]::polarity" : 1,
-										"mo.sliders::[12]::polarity" : 1,
-										"mo.sliders::[13]::polarity" : 1,
-										"mo.sliders::[14]::polarity" : 1,
-										"mo.sliders::[15]::polarity" : 1,
-										"mo.sliders::[16]::polarity" : 1
+										"mo.sliders::[5]::polarity" : 1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -1834,15 +1813,15 @@
 			"obj-1::obj-7::obj-113" : [ "live.dial[14]", "attack", 0 ],
 			"obj-1::obj-7::obj-114" : [ "live.dial[19]", "sustain", 0 ],
 			"obj-1::obj-7::obj-116" : [ "live.dial[22]", "live.dial[12]", 0 ],
-			"obj-1::obj-7::obj-118" : [ "live.dial[21]", "live.dial[19]", 0 ],
+			"obj-1::obj-7::obj-118" : [ "live.dial[21]", "pitch", 0 ],
 			"obj-1::obj-7::obj-12" : [ "live.text[204]", "live.text", 0 ],
 			"obj-1::obj-7::obj-22" : [ "live.dial[8]", "live.dial[18]", 0 ],
 			"obj-1::obj-7::obj-24" : [ "live.dial[12]", "release", 0 ],
 			"obj-1::obj-7::obj-25" : [ "live.dial[9]", "semitone", 0 ],
-			"obj-1::obj-7::obj-27" : [ "live.dial[7]", "live.dial[10]", 0 ],
+			"obj-1::obj-7::obj-27" : [ "live.dial[7]", "vibrato", 0 ],
 			"obj-1::obj-7::obj-34" : [ "live.text[203]", "live.text", 0 ],
 			"obj-1::obj-7::obj-37" : [ "live.text[202]", "octave", 0 ],
-			"obj-1::obj-7::obj-4" : [ "live.dial[23]", "live.dial[20]", 0 ],
+			"obj-1::obj-7::obj-4" : [ "live.dial[23]", "volume", 0 ],
 			"obj-1::obj-7::obj-42" : [ "live.text[190]", "live.text", 0 ],
 			"obj-1::obj-7::obj-7" : [ "live.dial[20]", "live.dial[7]", 0 ],
 			"obj-1::obj-8::obj-45" : [ "live.gain~[4]", "volume", 0 ],
@@ -2050,15 +2029,15 @@
 			"obj-2::obj-3::obj-113" : [ "live.dial[5]", "attack", 0 ],
 			"obj-2::obj-3::obj-114" : [ "live.dial[6]", "sustain", 0 ],
 			"obj-2::obj-3::obj-116" : [ "live.dial[31]", "live.dial[12]", 0 ],
-			"obj-2::obj-3::obj-118" : [ "live.dial[33]", "live.dial[19]", 0 ],
+			"obj-2::obj-3::obj-118" : [ "live.dial[33]", "pitch", 0 ],
 			"obj-2::obj-3::obj-12" : [ "live.text[229]", "live.text", 0 ],
 			"obj-2::obj-3::obj-22" : [ "live.dial[11]", "live.dial[18]", 0 ],
 			"obj-2::obj-3::obj-24" : [ "live.dial[3]", "release", 0 ],
 			"obj-2::obj-3::obj-25" : [ "live.dial[2]", "semitone", 0 ],
-			"obj-2::obj-3::obj-27" : [ "live.dial[34]", "live.dial[10]", 0 ],
+			"obj-2::obj-3::obj-27" : [ "live.dial[34]", "vibrato", 0 ],
 			"obj-2::obj-3::obj-34" : [ "live.text[285]", "live.text", 0 ],
 			"obj-2::obj-3::obj-37" : [ "live.text[288]", "octave", 0 ],
-			"obj-2::obj-3::obj-4" : [ "live.dial[1]", "live.dial[20]", 0 ],
+			"obj-2::obj-3::obj-4" : [ "live.dial[1]", "volume", 0 ],
 			"obj-2::obj-3::obj-42" : [ "live.text[287]", "live.text", 0 ],
 			"obj-2::obj-3::obj-7" : [ "live.dial[18]", "live.dial[7]", 0 ],
 			"obj-2::obj-4::obj-45" : [ "live.gain~[5]", "volume", 0 ],
@@ -3561,8 +3540,8 @@
 			}
 , 			{
 				"name" : "mo.fm~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

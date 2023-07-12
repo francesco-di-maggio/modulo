@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 286.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 888.0, 158.0, 75.0, 23.0 ],
+					"text" : "loadmess \" \""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
@@ -392,7 +404,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[53]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -449,7 +461,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[80]",
+							"parameter_longname" : "live.text[54]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -457,8 +469,8 @@
 
 					}
 ,
-					"text" : "slider",
-					"texton" : "slider",
+					"text" : " ",
+					"texton" : " ",
 					"varname" : "live.text"
 				}
 
@@ -542,7 +554,7 @@
 					"presentation_rect" : [ 8.804893493936449, 29.489995495694359, 268.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slider-",
+							"parameter_longname" : "slider-[11]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "slider-",
 							"parameter_type" : 0
@@ -757,7 +769,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 566.5, 378.0, 566.5, 378.0 ],
+					"midpoints" : [ 566.5, 144.0, 566.5, 144.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -833,6 +845,14 @@
 					"hidden" : 1,
 					"midpoints" : [ 1348.5, 822.0, 1348.5, 822.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 897.5, 201.0, 606.5, 201.0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}

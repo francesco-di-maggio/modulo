@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -172,7 +172,7 @@
 					"patching_rect" : [ 75.0, 620.937497049570084, 68.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 71.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 67.744737782587066, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -201,8 +201,8 @@
 
 					}
 ,
-					"text" : "theremini~",
-					"texton" : "theremini~",
+					"text" : "theremin~",
+					"texton" : "theremin~",
 					"varname" : "mute-"
 				}
 
@@ -232,7 +232,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_longname" : "live.text[288]",
+							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "octave",
@@ -3176,7 +3176,7 @@
 					"patching_rect" : [ 368.333333333333314, 141.366690367460251, 51.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[2]",
+							"parameter_longname" : "live.dial[13]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "semitone",
@@ -3202,7 +3202,7 @@
 					"patching_rect" : [ 431.0, 155.299993634223938, 46.0, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[35]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "detune",
@@ -4170,7 +4170,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[285]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4868,7 +4868,7 @@
 					"presentation_rect" : [ 57.576705136270405, 27.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[1]",
+							"parameter_longname" : "live.dial[20]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
@@ -4909,7 +4909,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 220 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[33]",
+							"parameter_longname" : "live.dial[19]",
 							"parameter_mmax" : 2640.0,
 							"parameter_mmin" : 110.0,
 							"parameter_shortname" : "pitch",
@@ -4939,7 +4939,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[34]",
+							"parameter_longname" : "live.dial[10]",
 							"parameter_mmax" : 8.0,
 							"parameter_shortname" : "vibrato",
 							"parameter_type" : 0,
@@ -4968,8 +4968,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[11]",
-							"parameter_mmax" : 8.0,
+							"parameter_longname" : "live.dial[18]",
+							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "timbre",
 							"parameter_type" : 0,
@@ -5072,7 +5072,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[3]",
+							"parameter_longname" : "live.dial[25]",
 							"parameter_mmax" : 8000.0,
 							"parameter_shortname" : "release",
 							"parameter_type" : 0,
@@ -5098,7 +5098,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[4]",
+							"parameter_longname" : "live.dial[23]",
 							"parameter_mmax" : 4000.0,
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
@@ -5124,7 +5124,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 500.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[5]",
+							"parameter_longname" : "live.dial",
 							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
@@ -5150,7 +5150,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[6]",
+							"parameter_longname" : "live.dial[24]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sustain",
 							"parameter_type" : 0,
@@ -5250,7 +5250,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[287]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

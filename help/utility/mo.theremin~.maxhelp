@@ -384,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 571.0, 38.0 ],
-					"text" : "Control the device with either a list of normalized input values (0. - 1.), or with specific messages.\nParameters: 1. carrier, 2. timbre, 3. vibrato, 4. gain.",
+					"text" : "Control the device with either a list of normalized input values (0. - 1.), or with specific messages.\nParameters: 1. pitch, 2. volume, 3. timbre, and 4. vibrato.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -397,8 +397,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 154.0, 23.0 ],
-					"text" : "A theremin synthesizer."
+					"patching_rect" : [ 9.0, 83.0, 123.0, 23.0 ],
+					"text" : "A digital theremin."
 				}
 
 			}
@@ -411,8 +411,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 356.0, 71.0 ],
-					"text" : "mo.theremini~"
+					"patching_rect" : [ 9.0, 9.0, 342.0, 71.0 ],
+					"text" : "mo.theremin~"
 				}
 
 			}
@@ -427,13 +427,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.theremini~.maxpat",
+					"name" : "mo.theremin~.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 290.544013972083803, 214.0, 265.0 ],
-					"varname" : "mo.theremini~",
+					"varname" : "mo.theremin~",
 					"viewvisibility" : 1
 				}
 
@@ -552,7 +552,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 548.019709702272621, 521.795977480709325, 548.019709702272621, 521.795977480709325 ],
+					"midpoints" : [ 548.019709702272621, 522.0, 548.019709702272621, 522.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -560,7 +560,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 548.019709702272621, 488.795977480709325, 548.019709702272621, 488.795977480709325 ],
+					"midpoints" : [ 548.019709702272621, 489.0, 548.019709702272621, 489.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -703,6 +703,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 50.5, 627.0, 50.5, 627.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -713,14 +714,14 @@
 			"obj-2::obj-112" : [ "live.dial[4]", "decay", 0 ],
 			"obj-2::obj-113" : [ "live.dial[5]", "attack", 0 ],
 			"obj-2::obj-114" : [ "live.dial[6]", "sustain", 0 ],
-			"obj-2::obj-118" : [ "live.dial[33]", "carrier", 0 ],
+			"obj-2::obj-118" : [ "live.dial[33]", "pitch", 0 ],
 			"obj-2::obj-22" : [ "live.dial[11]", "timbre", 0 ],
 			"obj-2::obj-24" : [ "live.dial[3]", "release", 0 ],
 			"obj-2::obj-25" : [ "live.dial[2]", "semitone", 0 ],
 			"obj-2::obj-27" : [ "live.dial[34]", "vibrato", 0 ],
 			"obj-2::obj-34" : [ "live.text[285]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.text[288]", "octave", 0 ],
-			"obj-2::obj-4" : [ "live.dial[1]", "gain", 0 ],
+			"obj-2::obj-4" : [ "live.dial[1]", "volume", 0 ],
 			"obj-2::obj-42" : [ "live.text[287]", "live.text", 0 ],
 			"obj-2::obj-8" : [ "live.text[284]", "live.text", 0 ],
 			"obj-7" : [ "mc.live.gain~[1]", "output gain~", 0 ],
@@ -733,20 +734,75 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-111" : 				{
+					"parameter_longname" : "live.dial[35]"
+				}
+,
+				"obj-2::obj-112" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+,
+				"obj-2::obj-113" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-2::obj-114" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-2::obj-118" : 				{
+					"parameter_longname" : "live.dial[33]"
+				}
+,
+				"obj-2::obj-22" : 				{
+					"parameter_longname" : "live.dial[11]"
+				}
+,
+				"obj-2::obj-24" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-2::obj-25" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-2::obj-27" : 				{
+					"parameter_longname" : "live.dial[34]"
+				}
+,
+				"obj-2::obj-34" : 				{
+					"parameter_longname" : "live.text[285]"
+				}
+,
+				"obj-2::obj-37" : 				{
+					"parameter_longname" : "live.text[288]"
+				}
+,
+				"obj-2::obj-4" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-2::obj-42" : 				{
+					"parameter_longname" : "live.text[287]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.theremini~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/output",
-				"patcherrelativepath" : "../../patchers/output",
+				"name" : "mo.theremin~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

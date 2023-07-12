@@ -1365,7 +1365,7 @@
 									"patching_rect" : [ 787.5, 632.0, 640.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Tutorials showing how to perform various tasks, including recording, mapping, and combining building blocks.",
+									"text" : "Examples of instruments and interfaces using different types of input and direct mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1382,7 +1382,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Process input data through filtering, averaging and smoothing algorithms.",
+									"text" : "Handle auxilary functions, such as monitoring, visualizing and recoridng input data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1817,7 +1817,7 @@
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.index", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
-														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.timer" ]
+														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2024,7 +2024,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Ableton Live", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
+														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
 														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
@@ -2245,11 +2245,13 @@
 												"box" : 												{
 													"data" : 													{
 														"Ableton Live" : [ "mo-live" ],
+														"FM Synth" : [ "mo-fm" ],
 														"Gametrak" : [ "mo-gametrak" ],
 														"Genki Wave" : [ "mo-wave" ],
 														"GyrOSC" : [ "mo-gyrOSC" ],
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
+														"Odd." : [ "mo-odd" ],
 														"Theremini" : [ "mo-theremini" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
 														"Wekinator" : [ "mo-wekinator" ],
@@ -2392,9 +2394,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 11,
+											"parameter_mmax" : 10,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2416,8 +2418,8 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 8,
-									"num_lines_presentation" : 8,
+									"num_lines_patching" : 7,
+									"num_lines_presentation" : 7,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2445,9 +2447,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.timer" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 22,
+											"parameter_mmax" : 20,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
