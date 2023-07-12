@@ -402,7 +402,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 322.0, 92.767661435184777, 398.0, 23.0 ],
+					"patching_rect" : [ 322.0, 92.767661435184777, 321.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -417,7 +417,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-theremini @savemode 3 @autorestore 1 @changemode 1",
+					"text" : "pattrstorage p-theremini @autorestore 1 @changemode 1",
 					"varname" : "p-theremini"
 				}
 
@@ -569,7 +569,6 @@
 			"obj-6::obj-107::obj-2" : [ "live.text[56]", "live.text", 0 ],
 			"obj-6::obj-123::obj-2" : [ "live.text[54]", "live.text", 0 ],
 			"obj-6::obj-1::obj-2" : [ "live.text[57]", "live.text", 0 ],
-			"obj-6::obj-35" : [ "live.text[795]", "live.text", 0 ],
 			"obj-6::obj-36::obj-2" : [ "live.text[110]", "live.text", 0 ],
 			"obj-6::obj-40::obj-2" : [ "live.text[111]", "live.text", 0 ],
 			"obj-6::obj-41::obj-2" : [ "live.text[161]", "live.text", 0 ],
@@ -943,10 +942,6 @@
 ,
 				"obj-6::obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text[57]"
-				}
-,
-				"obj-6::obj-35" : 				{
-					"parameter_longname" : "live.text[795]"
 				}
 ,
 				"obj-6::obj-36::obj-2" : 				{

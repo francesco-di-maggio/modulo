@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 286.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -421,7 +421,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 597.0, 268.001276284456253, 78.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.764183838464618, 45.601535212263599, 114.081419310943687, 16.776920566861513 ],
+					"presentation_rect" : [ 85.764183838464618, 39.601535212263599, 114.081419310943687, 16.776920566861513 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -449,7 +449,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[80]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -457,8 +457,8 @@
 
 					}
 ,
-					"text" : " ",
-					"texton" : " ",
+					"text" : "slider",
+					"texton" : "slider",
 					"varname" : "live.text"
 				}
 

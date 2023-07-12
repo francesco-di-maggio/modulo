@@ -331,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 73.0, 401.0, 23.0 ],
+					"patching_rect" : [ 1022.0, 73.0, 325.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
@@ -339,7 +339,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-touchOSC @savemode 3 @autorestore 1 @changemode 1",
+					"text" : "pattrstorage p-touchOSC @autorestore 1 @changemode 1",
 					"varname" : "p-touchOSC"
 				}
 
@@ -481,7 +481,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -491,15 +490,15 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.osc.maxpat",
-					"numinlets" : 2,
+					"name" : "mo.udpreceive.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 49.777777777777828, 214.0, 57.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.0, 20.071428571428584, 214.0, 57.5 ],
-					"varname" : "mo.osc",
+					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}
 
@@ -508,7 +507,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -517,7 +516,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"midpoints" : [ 48.5, 123.0, 665.5, 123.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -632,10 +631,7 @@
 			"obj-17::obj-22" : [ "live.text[10]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[62]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[63]", "live.text", 0 ],
-			"obj-1::obj-41" : [ "live.button[11]", "live.button", 0 ],
-			"obj-1::obj-45" : [ "live.button[10]", "live.button", 0 ],
-			"obj-1::obj-6" : [ "live.text[608]", "live.text", 0 ],
-			"obj-1::obj-82" : [ "live.text[859]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[616]", "live.text", 0 ],
 			"obj-23::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-23::obj-3" : [ "slider-[11]", "slider-", 0 ],
 			"obj-23::obj-35" : [ "live.text[53]", "live.text", 0 ],
@@ -655,7 +651,6 @@
 			"obj-3::obj-107::obj-2" : [ "live.text[41]", "live.text", 0 ],
 			"obj-3::obj-123::obj-2" : [ "live.text[29]", "live.text", 0 ],
 			"obj-3::obj-1::obj-2" : [ "live.text[42]", "live.text", 0 ],
-			"obj-3::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-3::obj-36::obj-2" : [ "live.text[43]", "live.text", 0 ],
 			"obj-3::obj-40::obj-2" : [ "live.text[36]", "live.text", 0 ],
 			"obj-3::obj-41::obj-2" : [ "live.text[44]", "live.text", 0 ],
@@ -678,7 +673,6 @@
 			"obj-78::obj-107::obj-2" : [ "live.text[55]", "live.text", 0 ],
 			"obj-78::obj-123::obj-2" : [ "live.text[11]", "live.text", 0 ],
 			"obj-78::obj-1::obj-2" : [ "live.text[56]", "live.text", 0 ],
-			"obj-78::obj-35" : [ "live.text[133]", "live.text", 0 ],
 			"obj-78::obj-36::obj-2" : [ "live.text[30]", "live.text", 0 ],
 			"obj-78::obj-40::obj-2" : [ "live.text[31]", "live.text", 0 ],
 			"obj-78::obj-41::obj-2" : [ "live.text[33]", "live.text", 0 ],
@@ -832,10 +826,6 @@
 					"parameter_longname" : "live.text[42]"
 				}
 ,
-				"obj-3::obj-35" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
 				"obj-3::obj-36::obj-2" : 				{
 					"parameter_longname" : "live.text[43]"
 				}
@@ -968,8 +958,16 @@
 					"parameter_longname" : "live.text[68]"
 				}
 ,
+				"obj-78::obj-56" : 				{
+					"parameter_longname" : "live.numbox[40]"
+				}
+,
 				"obj-78::obj-74::obj-2" : 				{
 					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-78::obj-9" : 				{
+					"parameter_longname" : "live.text[805]"
 				}
 
 			}
@@ -992,13 +990,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.osc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.pad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1016,6 +1007,13 @@
 				"name" : "mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
 				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.udpreceive.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

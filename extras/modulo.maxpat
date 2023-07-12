@@ -109,8 +109,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 144.0, 235.0, 170.0, 23.0 ],
-									"text" : "mo.slide @up 200 @down 200",
+									"patching_rect" : [ 144.0, 235.0, 223.0, 23.0 ],
+									"text" : "mo.slide @up 300 @down 300 @rate 10",
 									"varname" : "mo.slide"
 								}
 
@@ -134,8 +134,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 144.0, 194.0, 225.0, 23.0 ],
-									"text" : "mo.rand 2 @rate 8000 @probability 100",
+									"patching_rect" : [ 144.0, 194.0, 232.0, 23.0 ],
+									"text" : "mo.rand 2 @rate 10000 @probability 100",
 									"varname" : "mo.rand[1]"
 								}
 
@@ -1067,7 +1067,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1220,7 +1220,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Arrange and manipulate input data, such as pads, sliders, dials and numbers.",
+									"text" : "Interface with external devices, including MIDI, OSC and eurorack modules.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1654,7 +1654,7 @@
 													"data" : 													{
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.radiate", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremini~", "mo.timer" ]
 													}
 ,
@@ -1863,7 +1863,7 @@
 												"box" : 												{
 													"data" : 													{
 														"instruments" : [ "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Theremini", "TouchOSC", "Wekinator" ],
-														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
+														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2095,6 +2095,7 @@
 														"Legos" : [ "mo-legos" ],
 														"Many To One" : [ "mo-many2one" ],
 														"Max To DAW" : "mo-max2daw",
+														"Messenger" : "mo-messenger",
 														"One To Many" : [ "mo-one2many" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
@@ -2199,7 +2200,7 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 8,
+									"num_lines_patching" : 6,
 									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2252,7 +2253,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 7,
+									"num_lines_patching" : 8,
 									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2281,7 +2282,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
@@ -3503,16 +3504,16 @@
 			"obj-47::obj-26::obj-59" : [ "live.numbox[293]", "live.numbox", 0 ],
 			"obj-47::obj-26::obj-6" : [ "live.numbox[295]", "live.numbox", 0 ],
 			"obj-47::obj-26::obj-9" : [ "live.numbox[294]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-11" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-12" : [ "live.text[19]", "live.text", 0 ],
-			"obj-47::obj-9::obj-13" : [ "live.numbox[24]", "live.text", 0 ],
-			"obj-47::obj-9::obj-14" : [ "live.text[17]", "live.text", 0 ],
-			"obj-47::obj-9::obj-15" : [ "live.numbox[23]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-16" : [ "live.numbox[19]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-3" : [ "live.text[18]", "live.text", 0 ],
-			"obj-47::obj-9::obj-32" : [ "live.text[16]", "live.text", 0 ],
-			"obj-47::obj-9::obj-4" : [ "live.numbox[21]", "live.text", 0 ],
-			"obj-47::obj-9::obj-56" : [ "live.numbox[22]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-11" : [ "live.numbox[41]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-12" : [ "live.text[780]", "live.text", 0 ],
+			"obj-47::obj-9::obj-13" : [ "live.numbox[77]", "live.text", 0 ],
+			"obj-47::obj-9::obj-14" : [ "live.text[781]", "live.text", 0 ],
+			"obj-47::obj-9::obj-15" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-16" : [ "live.numbox[42]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-3" : [ "live.text[117]", "live.text", 0 ],
+			"obj-47::obj-9::obj-32" : [ "live.text[700]", "live.text", 0 ],
+			"obj-47::obj-9::obj-4" : [ "live.numbox[4]", "live.text", 0 ],
+			"obj-47::obj-9::obj-56" : [ "live.numbox[53]", "live.numbox", 0 ],
 			"obj-47::obj-9::obj-6.1::obj-10" : [ "live.text[13]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.1::obj-14" : [ "live.text[14]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.1::obj-15" : [ "live.numbox[10]", "live.numbox", 0 ],
@@ -3521,14 +3522,14 @@
 			"obj-47::obj-9::obj-6.1::obj-33" : [ "live.text[15]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.1::obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-47::obj-9::obj-6.1::obj-38" : [ "live.numbox[13]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-10" : [ "live.text[20]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-14" : [ "live.text[21]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-15" : [ "live.numbox[25]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-27" : [ "live.numbox[26]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-10" : [ "live.text[6]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-14" : [ "live.text[7]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-15" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-27" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-47::obj-9::obj-6.2::obj-32" : [ "live.numbox[15]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-33" : [ "live.text[22]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-35" : [ "live.numbox[28]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-38" : [ "live.numbox[27]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-33" : [ "live.text[8]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-35" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-38" : [ "live.numbox[16]", "live.text", 0 ],
 			"obj-7::obj-11" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-7::obj-12" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-7::obj-46" : [ "live.menu[18]", "live.menu", 0 ],
@@ -3543,92 +3544,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-47::obj-9::obj-11" : 				{
-					"parameter_longname" : "live.numbox[20]"
-				}
-,
-				"obj-47::obj-9::obj-12" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-47::obj-9::obj-13" : 				{
-					"parameter_longname" : "live.numbox[24]"
-				}
-,
-				"obj-47::obj-9::obj-14" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-47::obj-9::obj-15" : 				{
-					"parameter_longname" : "live.numbox[23]"
-				}
-,
-				"obj-47::obj-9::obj-16" : 				{
-					"parameter_longname" : "live.numbox[19]"
-				}
-,
-				"obj-47::obj-9::obj-3" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-47::obj-9::obj-32" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-47::obj-9::obj-4" : 				{
-					"parameter_longname" : "live.numbox[21]"
-				}
-,
-				"obj-47::obj-9::obj-56" : 				{
-					"parameter_longname" : "live.numbox[22]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-10" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-14" : 				{
-					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-15" : 				{
-					"parameter_longname" : "live.numbox[10]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-27" : 				{
-					"parameter_longname" : "live.numbox[11]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-32" : 				{
-					"parameter_longname" : "live.numbox[12]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-33" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-35" : 				{
-					"parameter_longname" : "live.numbox[14]"
-				}
-,
-				"obj-47::obj-9::obj-6.1::obj-38" : 				{
-					"parameter_longname" : "live.numbox[13]"
-				}
-,
 				"obj-47::obj-9::obj-6.2::obj-10" : 				{
-					"parameter_longname" : "live.text[20]"
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-14" : 				{
-					"parameter_longname" : "live.text[21]"
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-15" : 				{
-					"parameter_longname" : "live.numbox[25]"
+					"parameter_longname" : "live.numbox[5]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-27" : 				{
-					"parameter_longname" : "live.numbox[26]"
+					"parameter_longname" : "live.numbox[17]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-32" : 				{
@@ -3636,15 +3565,15 @@
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-33" : 				{
-					"parameter_longname" : "live.text[22]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-35" : 				{
-					"parameter_longname" : "live.numbox[28]"
+					"parameter_longname" : "live.numbox[6]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-38" : 				{
-					"parameter_longname" : "live.numbox[27]"
+					"parameter_longname" : "live.numbox[16]"
 				}
 
 			}

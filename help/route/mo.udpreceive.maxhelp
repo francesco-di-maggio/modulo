@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.0, 405.369893655180931, 137.0, 23.0 ],
-					"text" : "udpsend localhost 7400"
+					"text" : "udpsend localhost 7374"
 				}
 
 			}
@@ -82,8 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 405.369893655180931, 110.0, 23.0 ],
-					"text" : "/osc hello world"
+					"patching_rect" : [ 41.0, 405.369893655180931, 110.0, 23.0 ]
 				}
 
 			}
@@ -215,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 152.0, 22.0 ],
-					"text" : "Set port (default: 7400).",
+					"text" : "Set port (default: 7374).",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

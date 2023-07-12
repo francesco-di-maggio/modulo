@@ -54,17 +54,14 @@
 					"mo.send::send" : [ "theremini" ],
 					"mo.send::mute" : [ 0.0 ],
 					"mo.prepend::voices" : [ 4.0 ],
-					"mo.prepend::mode" : [ 0.0 ],
-					"mo.prepend::device" : [ "" ],
-					"mo.prepend::[1]::message" : [ "pitch" ],
+					"mo.prepend::[1]::set" : [ "pitch" ],
 					"mo.prepend::[1]::mute" : [ 0.0 ],
-					"mo.prepend::[2]::message" : [ "volume" ],
+					"mo.prepend::[2]::set" : [ "volume" ],
 					"mo.prepend::[2]::mute" : [ 0.0 ],
-					"mo.prepend::[3]::message" : [ "timbre" ],
+					"mo.prepend::[3]::set" : [ "timbre" ],
 					"mo.prepend::[3]::mute" : [ 0.0 ],
-					"mo.prepend::[4]::message" : [ "vibrato" ],
-					"mo.prepend::[4]::mute" : [ 0.0 ],
-					"mo.ezdac~::local" : [ 1.0 ]
+					"mo.prepend::[4]::set" : [ "vibrato" ],
+					"mo.prepend::[4]::mute" : [ 0.0 ]
 				}
 
 			}

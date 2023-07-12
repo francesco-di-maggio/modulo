@@ -50,12 +50,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.ctl.maxpat",
+					"name" : "mo.ctlout.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.0, 549.601393409073353, 70.0, 87.0 ],
+					"patching_rect" : [ 251.0, 519.601393409073353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.824253082275391, 470.0, 70.0, 87.0 ],
 					"varname" : "mo.ctl[3]",
@@ -75,12 +74,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.ctl.maxpat",
+					"name" : "mo.ctlout.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.0, 549.601393409073353, 70.0, 87.0 ],
+					"patching_rect" : [ 179.0, 519.601393409073353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.824253082275391, 470.0, 70.0, 87.0 ],
 					"varname" : "mo.ctl[2]",
@@ -100,12 +98,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.ctl.maxpat",
+					"name" : "mo.ctlout.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 549.601393409073353, 70.0, 87.0 ],
+					"patching_rect" : [ 107.0, 519.601393409073353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 97.824253082275391, 470.0, 70.0, 87.0 ],
 					"varname" : "mo.ctl[1]",
@@ -125,12 +122,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.ctl.maxpat",
+					"name" : "mo.ctlout.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 549.601393409073353, 70.0, 87.0 ],
+					"patching_rect" : [ 35.0, 519.601393409073353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.824253082275391, 470.0, 70.0, 87.0 ],
 					"varname" : "mo.ctl",
@@ -155,7 +151,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.0, 264.0, 70.0, 265.0 ],
+					"patching_rect" : [ 251.0, 234.0, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.824253082275391, 203.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider[2]",
@@ -180,7 +176,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.0, 264.0, 70.0, 265.0 ],
+					"patching_rect" : [ 179.0, 234.0, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.824253082275391, 203.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider[3]",
@@ -205,7 +201,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 264.0, 70.0, 265.0 ],
+					"patching_rect" : [ 107.0, 234.0, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 97.824253082275391, 203.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider[1]",
@@ -230,7 +226,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 264.0, 70.0, 265.0 ],
+					"patching_rect" : [ 35.0, 234.0, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.824253082275391, 203.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider",
@@ -245,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.0, 580.601393409073353, 127.0, 25.0 ],
+					"patching_rect" : [ 363.0, 550.601393409073353, 127.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.426817387342453, 162.601393409073353, 127.0, 25.0 ],
 					"text" : "select MIDI output "
@@ -267,7 +263,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.0, 583.101393409073353, 20.0, 20.0 ],
+					"patching_rect" : [ 333.0, 553.101393409073353, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.426817387342453, 165.101393409073353, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -324,7 +320,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -334,8 +329,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.midi.maxpat",
-					"numinlets" : 7,
+					"name" : "mo.midiin.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
@@ -354,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.0, 217.731939924259962, 127.0, 25.0 ],
+					"patching_rect" : [ 363.0, 187.731939924259962, 127.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 349.426817387342453, 500.0, 127.0, 25.0 ],
 					"text" : "select MIDI output "
@@ -376,7 +371,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.0, 220.0, 20.0, 20.0 ],
+					"patching_rect" : [ 333.0, 190.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.426817387342453, 503.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -420,7 +415,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 35.0, 154.0, 286.0, 87.0 ],
+					"patching_rect" : [ 35.0, 124.0, 286.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.824253082275391, 99.0, 286.0, 87.0 ],
 					"varname" : "mo.keyboard",
@@ -474,29 +469,21 @@
 			"obj-12::obj-45" : [ "live.text[25]", "live.text", 0 ],
 			"obj-12::obj-64" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-12::obj-72" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-12::obj-8" : [ "live.text[1]", "live.text", 0 ],
 			"obj-13::obj-1" : [ "live.text[26]", "live.text", 0 ],
 			"obj-13::obj-45" : [ "live.text[45]", "live.text", 0 ],
 			"obj-13::obj-64" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-13::obj-72" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-13::obj-8" : [ "live.text[39]", "live.text", 0 ],
 			"obj-14::obj-1" : [ "live.text[41]", "live.text", 0 ],
 			"obj-14::obj-45" : [ "live.text[43]", "live.text", 0 ],
 			"obj-14::obj-64" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-14::obj-72" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-14::obj-8" : [ "live.text[46]", "live.text", 0 ],
 			"obj-1::obj-1" : [ "live.text[535]", "live.text", 0 ],
 			"obj-1::obj-45" : [ "live.text[680]", "live.text", 0 ],
 			"obj-1::obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-1::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
-			"obj-1::obj-8" : [ "live.text[728]", "live.text", 0 ],
 			"obj-2::obj-15" : [ "live.text[89]", "live.text", 0 ],
 			"obj-2::obj-36" : [ "live.text[58]", "live.text", 0 ],
 			"obj-2::obj-4" : [ "live.text[88]", "live.text", 0 ],
-			"obj-2::obj-41" : [ "live.button[6]", "live.button", 0 ],
-			"obj-2::obj-45" : [ "live.button[12]", "live.button", 0 ],
-			"obj-2::obj-64" : [ "live.numbox[349]", "live.numbox", 0 ],
-			"obj-2::obj-82" : [ "live.text[776]", "live.text", 0 ],
 			"obj-3::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-3::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-3::obj-35" : [ "live.text[70]", "live.text", 0 ],
@@ -555,10 +542,6 @@
 					"parameter_longname" : "live.numbox[4]"
 				}
 ,
-				"obj-12::obj-8" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
 				"obj-13::obj-1" : 				{
 					"parameter_longname" : "live.text[26]"
 				}
@@ -573,10 +556,6 @@
 ,
 				"obj-13::obj-72" : 				{
 					"parameter_longname" : "live.numbox[7]"
-				}
-,
-				"obj-13::obj-8" : 				{
-					"parameter_longname" : "live.text[39]"
 				}
 ,
 				"obj-14::obj-1" : 				{
@@ -595,10 +574,6 @@
 					"parameter_longname" : "live.numbox[9]"
 				}
 ,
-				"obj-14::obj-8" : 				{
-					"parameter_longname" : "live.text[46]"
-				}
-,
 				"obj-1::obj-1" : 				{
 					"parameter_longname" : "live.text[535]"
 				}
@@ -613,10 +588,6 @@
 ,
 				"obj-1::obj-72" : 				{
 					"parameter_longname" : "live.numbox[550]"
-				}
-,
-				"obj-1::obj-8" : 				{
-					"parameter_longname" : "live.text[728]"
 				}
 ,
 				"obj-2::obj-15" : 				{
@@ -669,7 +640,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.ctl.maxpat",
+				"name" : "mo.ctlout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
@@ -683,7 +654,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.midi.maxpat",
+				"name" : "mo.midiin.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",

@@ -557,6 +557,10 @@
 					"parameter_longname" : "live.text[98]"
 				}
 ,
+				"obj-5::obj-7" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-6::obj-21" : 				{
 					"parameter_longname" : "live.text[107]"
 				}

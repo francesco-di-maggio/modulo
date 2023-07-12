@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 565.0, 469.0 ],
+		"rect" : [ 34.0, 100.0, 565.0, 490.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,97 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-14",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 845.666666666666742, 494.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 426.166666666666742, 59.307379284060289, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 871.5, 492.0, 85.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 452.0, 55.356455599544006, 85.0, 25.0 ],
+					"text" : "load preset",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 788.0, 392.0, 65.0, 23.0 ],
+					"text" : "writeagain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autorestore" : "p-gyrOSC.json",
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 788.0, 446.0, 311.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 4, 100, 358, 228 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage p-gyrOSC @autorestore 1 @changemode 1",
+					"varname" : "p-gyrOSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubblesize" : 20,
+					"id" : "obj-36",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 788.0, 489.0, 53.0, 30.0 ],
+					"pattrstorage" : "p-gyrOSC",
+					"presentation" : 1,
+					"presentation_rect" : [ 364.5, 53.356455599544006, 53.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "@mode", 1, "@device", "REORIENT", "@color", "green" ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -54,10 +145,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1263.594238281250227, 35.027777777777828, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 82.571428571428584, 70.0, 87.0 ],
+					"presentation_rect" : [ 96.0, 97.571428571428584, 70.0, 87.0 ],
 					"varname" : "mo.pad[9]",
 					"viewvisibility" : 1
 				}
@@ -79,10 +170,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1191.59423828125, 35.027777777777828, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 82.571428571428584, 70.0, 87.0 ],
+					"presentation_rect" : [ 24.0, 97.571428571428584, 70.0, 87.0 ],
 					"varname" : "mo.pad[10]",
 					"viewvisibility" : 1
 				}
@@ -346,10 +437,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 946.999999999999545, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.0, 361.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 471.0, 379.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[8]",
 					"viewvisibility" : 1
 				}
@@ -371,10 +462,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 874.999999999999318, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.0, 272.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 471.0, 290.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[7]",
 					"viewvisibility" : 1
 				}
@@ -396,10 +487,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 802.999999999999432, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.0, 183.071428571428584, 70.0, 87.0 ],
+					"presentation_rect" : [ 471.0, 201.571428571428584, 70.0, 87.0 ],
 					"varname" : "mo.pad[6]",
 					"viewvisibility" : 1
 				}
@@ -421,10 +512,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.999999999999545, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 361.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 399.0, 379.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[5]",
 					"viewvisibility" : 1
 				}
@@ -446,10 +537,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 658.999999999999659, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 272.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 399.0, 290.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[4]",
 					"viewvisibility" : 1
 				}
@@ -521,10 +612,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 586.999999999999773, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 183.071428571428584, 70.0, 87.0 ],
+					"presentation_rect" : [ 399.0, 201.571428571428584, 70.0, 87.0 ],
 					"varname" : "mo.pad[3]",
 					"viewvisibility" : 1
 				}
@@ -546,10 +637,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 514.999999999999886, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 327.0, 361.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 327.0, 379.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[2]",
 					"viewvisibility" : 1
 				}
@@ -571,10 +662,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 442.999999999999943, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 327.0, 272.071428571428555, 70.0, 87.0 ],
+					"presentation_rect" : [ 327.0, 290.571428571428555, 70.0, 87.0 ],
 					"varname" : "mo.pad[1]",
 					"viewvisibility" : 1
 				}
@@ -592,7 +683,7 @@
 					"patching_rect" : [ 371.0, 392.0, 361.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 180.0, 88.571428571428584, 361.0, 79.0 ],
+					"presentation_rect" : [ 180.0, 103.571428571428584, 361.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open the gyrOSC app.\n2. Enable quaternion from the settings menu, and set IP address.\n3. Set OSC receiving port."
 				}
 
@@ -631,7 +722,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 247.11886337647843, 57.856455599544006, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -658,7 +749,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 206.000000000000057, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 183.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 96.0, 201.571428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -682,7 +773,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 206.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 183.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 240.0, 201.571428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[3]",
 					"viewvisibility" : 1
 				}
@@ -706,7 +797,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 183.0, 206.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 183.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 168.0, 201.571428571428584, 70.0, 265.0 ],
 					"varname" : "mo.slider[2]",
 					"viewvisibility" : 1
 				}
@@ -728,10 +819,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 371.0, 206.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 327.0, 183.071428571428584, 70.0, 87.0 ],
+					"presentation_rect" : [ 327.0, 201.571428571428584, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -755,7 +846,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 206.0, 70.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 183.071428571428584, 70.0, 265.0 ],
+					"presentation_rect" : [ 24.0, 201.571428571428584, 70.0, 265.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -763,7 +854,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 1 ],
+					"args" : [ "@port", 8001 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -773,15 +864,15 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.osc.maxpat",
-					"numinlets" : 2,
+					"name" : "mo.udpreceive.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 35.027777777777828, 214.0, 57.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 23.071428571428584, 214.0, 57.5 ],
-					"varname" : "mo.osc",
+					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}
 
@@ -976,6 +1067,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 797.5, 418.0, 797.5, 418.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 48.5, 162.0, 48.5, 162.0 ],
 					"source" : [ "obj-9", 0 ]
@@ -1000,10 +1099,7 @@
 			"obj-17::obj-22" : [ "live.text[11]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[62]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[63]", "live.text", 0 ],
-			"obj-1::obj-41" : [ "live.button[11]", "live.button", 0 ],
-			"obj-1::obj-45" : [ "live.button[10]", "live.button", 0 ],
 			"obj-1::obj-6" : [ "live.text[608]", "live.text", 0 ],
-			"obj-1::obj-82" : [ "live.text[859]", "live.text", 0 ],
 			"obj-21::obj-2" : [ "live.text[29]", "live.text", 0 ],
 			"obj-21::obj-22" : [ "live.text[12]", "live.text", 0 ],
 			"obj-21::obj-37" : [ "live.text[28]", "live.text", 0 ],
@@ -1120,6 +1216,10 @@
 ,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[608]"
 				}
 ,
 				"obj-21::obj-2" : 				{
@@ -1288,13 +1388,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.osc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.pad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1309,9 +1402,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.udpreceive.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-gyrOSC.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

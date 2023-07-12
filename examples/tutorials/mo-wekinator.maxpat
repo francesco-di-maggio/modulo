@@ -496,7 +496,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 116.281249999999716, 400.0, 23.0 ],
+					"patching_rect" : [ 817.0, 116.281249999999716, 323.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -515,7 +515,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-wekinator @savemode 3 @autorestore 1 @changemode 1",
+					"text" : "pattrstorage p-wekinator @autorestore 1 @changemode 1",
 					"varname" : "p-wekinator"
 				}
 
@@ -1720,7 +1720,6 @@
 			"obj-66::obj-107::obj-2" : [ "live.text[116]", "live.text", 0 ],
 			"obj-66::obj-123::obj-2" : [ "live.text[114]", "live.text", 0 ],
 			"obj-66::obj-1::obj-2" : [ "live.text[117]", "live.text", 0 ],
-			"obj-66::obj-35" : [ "live.text[133]", "live.text", 0 ],
 			"obj-66::obj-36::obj-2" : [ "live.text[118]", "live.text", 0 ],
 			"obj-66::obj-40::obj-2" : [ "live.text[119]", "live.text", 0 ],
 			"obj-66::obj-41::obj-2" : [ "live.text[120]", "live.text", 0 ],
@@ -2350,10 +2349,6 @@
 ,
 				"obj-66::obj-1::obj-2" : 				{
 					"parameter_longname" : "live.text[117]"
-				}
-,
-				"obj-66::obj-35" : 				{
-					"parameter_longname" : "live.text[133]"
 				}
 ,
 				"obj-66::obj-36::obj-2" : 				{

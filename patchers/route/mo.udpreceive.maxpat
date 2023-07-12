@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -219,7 +219,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[616]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -287,7 +287,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 153.824619382619829, 36.936814519281199, 54.75000074505806, 14.869244888424873 ],
 					"rounded" : 0.0,
-					"text" : "7400",
+					"text" : "7374",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -354,12 +354,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 259.819893638292683, 311.0, 216.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 7400 ],
+						"initial" : [ 7374 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr port @bindto port- @initial 7400",
+					"text" : "pattr port @bindto port- @initial 7374",
 					"varname" : "port"
 				}
 

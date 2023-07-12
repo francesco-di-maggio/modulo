@@ -212,8 +212,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 242.0, 69.0, 23.0 ],
-					"text" : "clip 0. 0.99"
+					"patching_rect" : [ 360.0, 242.0, 76.0, 23.0 ],
+					"text" : "clip 0. 0.999"
 				}
 
 			}
@@ -436,7 +436,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[12]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,

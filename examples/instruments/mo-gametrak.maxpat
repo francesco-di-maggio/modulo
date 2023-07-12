@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 473.0, 401.0 ],
+		"rect" : [ 34.0, 100.0, 473.0, 408.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 428.699404761904759, 214.0, 167.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 81.571428571428584, 214.0, 167.0 ],
+					"presentation_rect" : [ 239.0, 96.571428571428584, 214.0, 167.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -82,7 +82,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 186.299603174603163, 214.0, 167.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 81.571428571428584, 214.0, 167.0 ],
+					"presentation_rect" : [ 23.0, 96.571428571428584, 214.0, 167.0 ],
 					"varname" : "mo.calibrate",
 					"viewvisibility" : 1
 				}
@@ -139,7 +139,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 39.0, 604.649305555555543, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 250.571428571428584, 214.0, 57.5 ],
+					"presentation_rect" : [ 239.0, 265.571428571428555, 214.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
@@ -164,7 +164,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 362.249503968253975, 70.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 250.571428571428584, 70.0, 57.5 ],
+					"presentation_rect" : [ 167.0, 265.571428571428555, 70.0, 57.5 ],
 					"varname" : "mo.smooth",
 					"viewvisibility" : 1
 				}
@@ -187,7 +187,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 704.666666666666742, 235.726686507936421, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 333.833333333333485, 28.022352255944867, 20.0, 20.0 ],
+					"presentation_rect" : [ 340.833333333333485, 355.022352255944838, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -267,7 +267,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.5, 233.726686507936421, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 359.666666666666742, 24.071428571428584, 85.0, 25.0 ],
+					"presentation_rect" : [ 366.666666666666742, 351.071428571428555, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -327,7 +327,7 @@
 					"patching_rect" : [ 647.0, 230.726686507936421, 53.0, 30.0 ],
 					"pattrstorage" : "p-gametrak",
 					"presentation" : 1,
-					"presentation_rect" : [ 268.166666666666742, 22.071428571428584, 53.0, 29.0 ]
+					"presentation_rect" : [ 278.166666666666742, 350.071428571428555, 53.0, 29.0 ]
 				}
 
 			}
@@ -500,7 +500,6 @@
 			"obj-17::obj-22" : [ "live.text[59]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.text[111]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[58]", "live.text", 0 ],
-			"obj-1::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-1::obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[750]", "live.text", 0 ],
 			"obj-2::obj-107::obj-35" : [ "live.text[49]", "live.text", 0 ],
