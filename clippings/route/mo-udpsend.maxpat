@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,12 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.audiotester.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"name" : "mo.osc.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
-					"varname" : "mo.audiotester",
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 57.5 ],
+					"varname" : "mo.osc",
 					"viewvisibility" : 1
 				}
 
@@ -63,11 +64,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-166" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-1::obj-35" : [ "live.text[36]", "live.text", 0 ],
-			"obj-1::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-1::obj-88" : [ "live.text[91]", "live.text", 0 ],
-			"obj-1::obj-9" : [ "live.text[292]", "live.text", 0 ],
+			"obj-1::obj-13" : [ "live.button[7]", "live.button", 0 ],
+			"obj-1::obj-6" : [ "live.text[608]", "live.text", 0 ],
+			"obj-1::obj-82" : [ "live.text[859]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -77,28 +76,13 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-166" : 				{
-					"parameter_longname" : "live.numbox[1]"
-				}
-,
-				"obj-1::obj-35" : 				{
-					"parameter_longname" : "live.text[36]"
-				}
-,
-				"obj-1::obj-88" : 				{
-					"parameter_longname" : "live.text[91]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.audiotester.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"name" : "mo.osc.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -107,20 +91,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

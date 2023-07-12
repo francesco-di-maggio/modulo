@@ -178,10 +178,10 @@
 					"clipheight" : 48.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "jongly.aif",
-								"filename" : "jongly.aif",
+								"absolutepath" : "brushes.aif",
+								"filename" : "brushes.aif",
 								"filekind" : "audiofile",
-								"id" : "u734003374",
+								"id" : "u317003916",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -404,7 +404,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "jongly.aif",
+				"name" : "brushes.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1

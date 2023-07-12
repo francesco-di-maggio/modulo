@@ -50,13 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.ctl.maxpat",
+					"name" : "mo.ctlout.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
-					"varname" : "mo.ctl",
+					"varname" : "mo.ctlout",
 					"viewvisibility" : 1
 				}
 
@@ -68,7 +67,6 @@
 			"obj-1::obj-45" : [ "live.text[680]", "live.text", 0 ],
 			"obj-1::obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-1::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
-			"obj-1::obj-8" : [ "live.text[728]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -89,7 +87,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.ctl.maxpat",
+				"name" : "mo.ctlout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",

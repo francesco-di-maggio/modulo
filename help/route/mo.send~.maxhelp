@@ -473,6 +473,7 @@
  ],
 		"parameters" : 		{
 			"obj-44::obj-10" : [ "live.text[586]", "live.text", 0 ],
+			"obj-44::obj-12" : [ "live.text[557]", "live.text", 0 ],
 			"obj-44::obj-56" : [ "live.numbox[567]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

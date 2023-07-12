@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 469.0, 451.0 ],
+		"rect" : [ 34.0, 100.0, 469.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -223,7 +223,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 834.666666666666742, 197.222222222222172, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.166666666666742, 297.307379284060289, 20.0, 20.0 ],
+					"presentation_rect" : [ 338.666666666666742, 26.022352255944867, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -246,7 +246,7 @@
 					"patching_rect" : [ 777.0, 242.572916666666629, 342.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 340.5, 368.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 291.290178571428555, 368.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open the Software app, and load the a preset.\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring.\n4. (Optional) Send data to a sound device."
 				}
 
@@ -303,7 +303,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 860.5, 195.222222222222172, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 293.356455599544006, 85.0, 25.0 ],
+					"presentation_rect" : [ 364.5, 22.071428571428584, 85.0, 25.0 ],
 					"text" : "load preset",
 					"textjustification" : 1
 				}
@@ -360,7 +360,7 @@
 					"patching_rect" : [ 777.0, 192.222222222222172, 53.0, 30.0 ],
 					"pattrstorage" : "p-wave",
 					"presentation" : 1,
-					"presentation_rect" : [ 60.5, 291.356455599544006, 53.0, 29.0 ]
+					"presentation_rect" : [ 273.0, 20.071428571428584, 53.0, 29.0 ]
 				}
 
 			}
@@ -582,6 +582,7 @@
 			"obj-4::obj-74::obj-18" : [ "live.text[9]", "live.text", 0 ],
 			"obj-4::obj-74::obj-8" : [ "live.text[12]", "live.text", 0 ],
 			"obj-6::obj-10" : [ "live.text[585]", "live.text", 0 ],
+			"obj-6::obj-12" : [ "live.text[554]", "live.text", 0 ],
 			"obj-7::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-7::obj-107::obj-35" : [ "live.text[153]", "live.text", 0 ],
 			"obj-7::obj-107::obj-8" : [ "live.text[151]", "live.text", 0 ],
@@ -651,6 +652,7 @@
 			"obj-7::obj-74::obj-8" : [ "live.text[152]", "live.text", 0 ],
 			"obj-7::obj-74::obj-9" : [ "slider-[5]", "slider-[2]", 0 ],
 			"obj-8::obj-10" : [ "live.text[55]", "live.text", 0 ],
+			"obj-8::obj-12" : [ "live.text[64]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1095,6 +1097,10 @@
 ,
 				"obj-8::obj-10" : 				{
 					"parameter_longname" : "live.text[55]"
+				}
+,
+				"obj-8::obj-12" : 				{
+					"parameter_longname" : "live.text[64]"
 				}
 
 			}

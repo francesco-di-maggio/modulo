@@ -64,46 +64,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 400.714745454545209, 490.0, 74.0, 25.0 ],
-					"text" : "start dsp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-34",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 372.0, 493.0, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "1",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-36",
 					"local" : 1,
 					"maxclass" : "ezdac~",
@@ -259,8 +219,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.0, 256.0, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 123.0, 256.0, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -271,8 +231,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.5, 518.5, 90.0, 25.0 ],
-					"text" : "re-start dsp"
+					"patching_rect" : [ 397.833333333333485, 504.5, 76.0, 25.0 ],
+					"text" : "start dsp "
 				}
 
 			}
@@ -290,7 +250,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 372.0, 521.0, 20.0, 20.0 ],
+					"patching_rect" : [ 370.333333333333485, 507.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -306,8 +266,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.333333333333485, 255.0, 92.0, 25.0 ],
-					"text" : "set channels"
+					"patching_rect" : [ 334.333333333333485, 255.0, 95.0, 25.0 ],
+					"text" : "set channels "
 				}
 
 			}
@@ -444,6 +404,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-12" : [ "live.text[558]", "live.text", 0 ],
 			"obj-4::obj-56" : [ "live.numbox[406]", "live.numbox", 0 ],
 			"obj-4::obj-6" : [ "live.text[686]", "live.text", 0 ],
 			"parameterbanks" : 			{

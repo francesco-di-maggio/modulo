@@ -50,60 +50,19 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.xbend.maxpat",
-					"numinlets" : 2,
+					"name" : "mo.noteout.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
-					"varname" : "mo.xbend",
+					"varname" : "mo.noteout",
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-			"obj-1::obj-45" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[627]", "live.text", 0 ],
-			"obj-1::obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-45" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-1::obj-64" : 				{
-					"parameter_longname" : "live.numbox[2]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.xbend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

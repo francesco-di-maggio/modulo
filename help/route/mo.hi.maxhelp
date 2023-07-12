@@ -47,7 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.000000000000028, 345.0, 142.0, 23.0 ]
+					"patching_rect" : [ 41.000000000000028, 345.0, 142.0, 23.0 ],
+					"text" : "14 22"
 				}
 
 			}
@@ -261,7 +262,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-14" : [ "live.button", "live.button", 0 ],
 			"obj-13::obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"obj-13::obj-6" : [ "live.text[750]", "live.text", 0 ],
 			"parameterbanks" : 			{

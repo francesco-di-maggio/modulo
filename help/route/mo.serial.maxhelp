@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 617.0, 549.0 ],
+		"rect" : [ 34.0, 100.0, 691.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 193.999999999999943, 211.5, 20.0, 20.0 ],
+					"patching_rect" : [ 265.999999999999943, 211.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.759259259259295, 209.5, 172.0, 25.0 ],
+					"patching_rect" : [ 293.759259259259295, 209.5, 172.0, 25.0 ],
 					"text" : "mute serial communication "
 				}
 
@@ -370,8 +370,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.5, 309.5, 93.0, 25.0 ],
-					"text" : "set baudrate"
+					"patching_rect" : [ 536.5, 309.5, 96.0, 25.0 ],
+					"text" : "set baudrate "
 				}
 
 			}
@@ -383,7 +383,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 442.044203281402531, 259.5, 50.0, 23.0 ]
+					"patching_rect" : [ 514.044203281402588, 259.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -409,8 +409,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 229.0, 23.0 ],
-					"text" : "Send and receive from a serial port."
+					"patching_rect" : [ 9.0, 83.0, 348.0, 23.0 ],
+					"text" : "Send and receive message to and/or from a serial port."
 				}
 
 			}
@@ -437,7 +437,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 528.0, 258.5, 71.0, 25.0 ],
+					"patching_rect" : [ 600.0, 258.5, 71.0, 25.0 ],
 					"text" : "set port "
 				}
 
@@ -456,7 +456,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 501.0, 261.0, 20.0, 20.0 ],
+					"patching_rect" : [ 573.0, 261.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -470,7 +470,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 259.5, 143.0, 23.0 ],
+					"patching_rect" : [ 361.0, 259.5, 143.0, 23.0 ],
 					"text" : "Bluetooth-Incoming-Port"
 				}
 
@@ -482,7 +482,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 309.5, 79.0, 23.0 ],
+					"patching_rect" : [ 361.0, 309.5, 79.0, 23.0 ],
 					"text" : "prepend port"
 				}
 
@@ -494,7 +494,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 259.5, 53.0, 23.0 ],
+					"patching_rect" : [ 236.0, 259.5, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -507,7 +507,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.0, 209.5, 24.0, 24.0 ],
+					"patching_rect" : [ 236.0, 209.5, 24.0, 24.0 ],
 					"varname" : "toggle"
 				}
 
@@ -519,7 +519,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.740740740740705, 259.5, 47.0, 23.0 ],
+					"patching_rect" : [ 302.740740740740705, 259.5, 47.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -533,7 +533,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 385.588406562805119, 309.5, 69.455796718597412, 23.0 ],
+					"patching_rect" : [ 457.588406562805119, 309.5, 69.455796718597412, 23.0 ],
 					"varname" : "baud-"
 				}
 
@@ -545,7 +545,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.588406562805119, 348.0, 52.0, 23.0 ],
+					"patching_rect" : [ 482.588406562805119, 348.0, 52.0, 23.0 ],
 					"text" : "baud $1"
 				}
 
@@ -584,7 +584,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 420.316304922103825, 333.0, 420.088406562805119, 333.0 ],
+					"midpoints" : [ 492.316304922103825, 333.0, 492.088406562805119, 333.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -592,15 +592,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 173.5, 234.0, 173.5, 234.0 ],
+					"midpoints" : [ 245.5, 234.0, 245.5, 234.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 240.240740740740705, 393.0, 50.499999999999943, 393.0 ],
+					"destination" : [ "obj-4", 1 ],
+					"midpoints" : [ 312.240740740740705, 393.0, 245.499999999999943, 393.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -608,15 +608,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 451.544203281402531, 294.0, 298.5, 294.0 ],
+					"midpoints" : [ 523.544203281402588, 294.0, 370.5, 294.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 420.088406562805119, 393.0, 50.499999999999943, 393.0 ],
+					"destination" : [ "obj-4", 1 ],
+					"midpoints" : [ 492.088406562805119, 393.0, 245.499999999999943, 393.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -663,23 +663,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 298.5, 285.0, 298.5, 285.0 ],
+					"midpoints" : [ 370.5, 285.0, 370.5, 285.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 298.5, 393.0, 50.499999999999943, 393.0 ],
+					"destination" : [ "obj-4", 1 ],
+					"midpoints" : [ 370.5, 393.0, 245.499999999999943, 393.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 173.5, 393.0, 50.499999999999943, 393.0 ],
+					"destination" : [ "obj-4", 1 ],
+					"midpoints" : [ 245.5, 393.0, 245.499999999999943, 393.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -687,7 +687,6 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-1" : [ "live.text[174]", "live.text", 0 ],
-			"obj-4::obj-40" : [ "live.button[4]", "live.button", 0 ],
 			"obj-4::obj-6" : [ "live.text[175]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

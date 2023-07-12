@@ -50,12 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.noteout.maxpat",
+					"name" : "mo.xbendout.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
-					"varname" : "mo.noteout",
+					"varname" : "mo.xbendout",
 					"viewvisibility" : 1
 				}
 
@@ -63,9 +63,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1::obj-45" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[627]", "live.text", 0 ],
 			"obj-1::obj-64" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-1::obj-72" : [ "live.numbox[550]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -76,8 +76,12 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-72" : 				{
-					"parameter_longname" : "live.numbox[550]"
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-64" : 				{
+					"parameter_longname" : "live.numbox[2]"
 				}
 
 			}
@@ -86,9 +90,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.noteout.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.xbendout.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

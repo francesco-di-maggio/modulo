@@ -104,7 +104,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[294]",
+							"parameter_longname" : "live.text[254]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -227,7 +227,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[14]",
+							"parameter_longname" : "live.text[305]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -292,7 +292,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[88]",
 							"parameter_mmax" : 18.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.numbox",
@@ -538,6 +538,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -594,7 +595,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 28.0, 141.999999999999915, 86.0, 23.0 ],
-									"text" : "pak 5 67 204 f"
+									"text" : "pak 5 66 204 f"
 								}
 
 							}
@@ -678,7 +679,6 @@
 					"knobcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 1,
-					"multislider" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
@@ -686,7 +686,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.0, 486.005973920350584, 135.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 67.0, 204.0, 64.0 ],
+					"presentation_rect" : [ 5.0, 67.0, 204.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"knobcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -694,7 +694,6 @@
 
 					}
 ,
-					"saved_multichannel" : 1,
 					"stripecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"varname" : "gain-"
 				}
@@ -834,7 +833,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 223.0, 31.626276284456253, 30.0, 30.0 ]
 				}
 
@@ -1462,7 +1461,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 418.07387747319558, 342.051943330534755, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 67.0, 204.0, 64.0 ],
+					"presentation_rect" : [ 5.0, 67.0, 204.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

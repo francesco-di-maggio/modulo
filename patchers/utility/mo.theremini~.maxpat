@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -4316,7 +4316,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.392887208967409, 4.194141161509847, 91.093439332034336, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "theremini",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "device-"
@@ -5038,7 +5037,7 @@
 					"activebgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"activehandlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"activelinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"attack_time" : 314.960629921259851,
+					"attack_time" : 500.0,
 					"decay_time" : 1000.0,
 					"id" : "obj-110",
 					"maxclass" : "live.adsrui",

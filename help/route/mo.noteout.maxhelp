@@ -140,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.707317113876343, 246.0, 138.0, 25.0 ],
+					"patching_rect" : [ 355.707317113876343, 246.0, 138.0, 25.0 ],
 					"text" : "set output MIDI port "
 				}
 
@@ -159,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 307.707317113876343, 248.5, 20.0, 20.0 ],
+					"patching_rect" : [ 328.707317113876343, 248.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -188,8 +188,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 305.0, 23.0 ],
-					"text" : "Trasmit MIDI note messages to a specified port."
+					"patching_rect" : [ 9.0, 83.0, 289.0, 23.0 ],
+					"text" : "Send MIDI note messages to a specified port."
 				}
 
 			}
@@ -202,8 +202,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 205.0, 71.0 ],
-					"text" : "mo.note"
+					"patching_rect" : [ 9.0, 9.0, 286.0, 71.0 ],
+					"text" : "mo.noteout"
 				}
 
 			}
@@ -238,8 +238,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 248.0, 80.0, 23.0 ],
-					"text" : "\"from Max 1\""
+					"patching_rect" : [ 219.0, 247.0, 102.0, 23.0 ],
+					"text" : "\"AU DLS Synth 1\""
 				}
 
 			}
@@ -278,12 +278,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.note.maxpat",
+					"name" : "mo.noteout.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 41.0, 449.5, 70.0, 87.0 ],
-					"varname" : "mo.note",
+					"varname" : "mo.noteout",
 					"viewvisibility" : 1
 				}
 
@@ -382,7 +382,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 226.5, 282.0, 162.499999999999943, 282.0 ],
+					"midpoints" : [ 228.5, 282.0, 162.499999999999943, 282.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -453,7 +453,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.note.maxpat",
+				"name" : "mo.noteout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",

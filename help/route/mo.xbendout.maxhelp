@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 494.0, 502.0 ],
+		"rect" : [ 34.0, 100.0, 527.0, 502.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,95 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 461.0, 463.297012329101562, 50.0, 21.0 ],
+					"text" : "channel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 407.0, 461.297012329101562, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 320.0, 463.297012329101562, 77.0, 21.0 ],
+					"text" : "14-bit value"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 253.0, 461.297012329101562, 62.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 253.0, 429.297012329101562, 173.0, 23.0 ],
+					"text" : "xbendin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 253.0, 397.297012329101562, 40.0, 23.0 ],
+					"text" : "midiin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.707317113876343, 307.0, 89.0, 25.0 ],
+					"text" : "set channel "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -48,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.5, 165.0, 145.0, 25.0 ],
+					"patching_rect" : [ 124.5, 165.0, 145.0, 25.0 ],
 					"text" : "generate data (0. - 1.)"
 				}
 
@@ -67,7 +156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.5, 167.5, 20.0, 20.0 ],
+					"patching_rect" : [ 97.5, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -76,19 +165,17 @@
 			}
 , 			{
 				"box" : 				{
-					"candycane" : 8,
-					"contdata" : 1,
+					"format" : 6,
 					"id" : "obj-41",
-					"maxclass" : "multislider",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 166.0, 172.0, 23.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 1,
-					"spacing" : 2
+					"patching_rect" : [ 41.0, 166.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -115,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.707317113876343, 258.0, 138.0, 25.0 ],
+					"patching_rect" : [ 363.707317113876343, 258.0, 138.0, 25.0 ],
 					"text" : "set output MIDI port "
 				}
 
@@ -134,7 +221,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.707317113876343, 260.5, 20.0, 20.0 ],
+					"patching_rect" : [ 336.707317113876343, 260.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -149,8 +236,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 355.0, 22.0 ],
-					"text" : "Transmit continuous control change values to a MIDI device.",
+					"patching_rect" : [ 9.0, 102.0, 333.0, 22.0 ],
+					"text" : "Send continuous control change values to a MIDI device.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -163,8 +250,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 329.0, 23.0 ],
-					"text" : "Transmit extra precision MIDI pitch bend messages."
+					"patching_rect" : [ 9.0, 83.0, 306.0, 23.0 ],
+					"text" : "Send extra precision MIDI pitch bend messages."
 				}
 
 			}
@@ -177,8 +264,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 243.0, 71.0 ],
-					"text" : "mo.xbend"
+					"patching_rect" : [ 9.0, 9.0, 324.0, 71.0 ],
+					"text" : "mo.xbendout"
 				}
 
 			}
@@ -201,8 +288,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.0, 260.0, 80.0, 23.0 ],
-					"text" : "\"from Max 1\""
+					"patching_rect" : [ 222.0, 260.0, 106.0, 23.0 ],
+					"text" : "\"IAC Driver Bus 1\""
 				}
 
 			}
@@ -267,12 +354,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.xbend.maxpat",
+					"name" : "mo.xbendout.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 41.0, 397.297012329101562, 70.0, 87.0 ],
-					"varname" : "mo.xbend",
+					"varname" : "mo.xbendout",
 					"viewvisibility" : 1
 				}
 
@@ -336,6 +423,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"midpoints" : [ 262.5, 384.0, 101.5, 384.0 ],
 					"source" : [ "obj-36", 0 ]
@@ -374,6 +468,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-4::obj-45" : [ "live.text[626]", "live.text", 0 ],
@@ -399,7 +507,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.xbend.maxpat",
+				"name" : "mo.xbendout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",

@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.0, 206.499999999999886, 33.0, 23.0 ],
+					"patching_rect" : [ 427.0, 206.499999999999886, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -261,8 +261,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 351.321679723973148, 105.0, 39.0 ],
-					"text" : "drag a cable\nto route signal "
+					"patching_rect" : [ 301.0, 345.321679723973148, 105.0, 39.0 ],
+					"text" : "click on a cell\nto route signal "
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 272.33221094686894, 360.821679723973148, 20.0, 20.0 ],
+					"patching_rect" : [ 272.33221094686894, 354.821679723973148, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -352,7 +352,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 438.5, 258.0, 245.5, 258.0 ],
+					"midpoints" : [ 436.5, 258.0, 245.5, 258.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -388,6 +388,10 @@
 ,
 				"obj-19::obj-4" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-19::obj-9" : 				{
+					"parameter_longname" : "live.text[22]"
 				}
 
 			}
