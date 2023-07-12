@@ -345,18 +345,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 24.0, 99.0, 23.0 ],
-					"text" : "loadmess refresh"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -409,14 +397,6 @@
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 656.5, 147.0, 656.5, 147.0 ],
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 48.5, 48.0, 48.5, 48.0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1037,6 +1017,14 @@
 					"parameter_longname" : "live.text[116]"
 				}
 ,
+				"obj-7::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[2]"
+				}
+,
+				"obj-7::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[153]"
+				}
+,
 				"obj-7::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
@@ -1049,6 +1037,10 @@
 					"parameter_longname" : "live.text[118]"
 				}
 ,
+				"obj-7::obj-35" : 				{
+					"parameter_longname" : "live.text[251]"
+				}
+,
 				"obj-7::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[6]"
 				}
@@ -1059,6 +1051,14 @@
 ,
 				"obj-7::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[120]"
+				}
+,
+				"obj-7::obj-38" : 				{
+					"parameter_longname" : "live.text[214]"
+				}
+,
+				"obj-7::obj-4" : 				{
+					"parameter_longname" : "live.text[252]"
 				}
 ,
 				"obj-7::obj-40::obj-20" : 				{
@@ -1262,8 +1262,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

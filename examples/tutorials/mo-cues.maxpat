@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 388.0, 519.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -205,7 +205,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 944.75, 355.427083333333258, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 228.0, 70.0, 87.0 ],
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 800.75, 355.427083333333258, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.0, 228.0, 70.0, 87.0 ],
@@ -280,7 +280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 872.75, 355.427083333333258, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.0, 228.0, 70.0, 87.0 ],
@@ -807,8 +807,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -74,8 +74,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 538.0, 67.0, 21.0 ],
-					"text" : "moviement"
+					"patching_rect" : [ 164.0, 538.0, 66.0, 21.0 ],
+					"text" : "xy position"
 				}
 
 			}
@@ -273,7 +273,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 537.0, 118.0, 23.0 ],
-					"text" : "0.062831 0.715886"
+					"text" : "0.149471 0.655804"
 				}
 
 			}

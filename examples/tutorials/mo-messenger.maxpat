@@ -130,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.985723542877963, 64.654124945402145, 139.0, 25.0 ],
+					"patching_rect" : [ 276.985723542877963, 90.654124945402145, 81.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 279.985723542877963, 99.154124945402145, 81.0, 25.0 ],
 					"text" : "enter text ",
@@ -153,7 +153,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 566.485723542877963, 35.154124945402145, 20.0, 20.0 ],
+					"patching_rect" : [ 253.485723542877963, 93.154124945402145, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.985723542877963, 101.654124945402145, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -501,8 +501,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

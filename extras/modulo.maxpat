@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -41,6 +41,161 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"id" : "obj-8",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 763.526261102865533, 174.473738897134581, 30.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 607.841463416814804, 173.0, 25.279860869050026, 25.800694182515144 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 392.0, 246.0, 317.0, 171.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Ableton Sans Medium",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-97",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 24.0, 107.0, 129.0, 37.0 ],
+									"text" : ";\rmax launchbrowser $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-95",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "https://github.com/francesco-di-maggio/modulo" ],
+									"patching_rect" : [ 24.0, 81.0, 279.0, 23.0 ],
+									"text" : "t https://github.com/francesco-di-maggio/modulo"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-11",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 23.999999999999886, 21.000003999999961, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-97", 0 ],
+									"midpoints" : [ 33.5, 104.834170999999969, 33.5, 104.834170999999969 ],
+									"source" : [ "obj-95", 0 ]
+								}
+
+							}
+ ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+					}
+,
+					"patching_rect" : [ 763.526261102865533, 216.0, 59.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+						"fontname" : "Ableton Sans Medium",
+						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+						"tags" : "",
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					}
+,
+					"text" : "p website"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"data" : [ 12362, "png", "IBkSG0fBZn....PCIgDQRA..B....H..HX.....83Qs9....DLmPIQEBHf.B7g.YHB..f.PRDEDU3wY6cmGlcUTl3G+a2IAHKprIHKgsDYSEADAAT1bATAQQGPEmQGcTw84m6.tNiBi65n313Lt6.iJJBh3NKJKJaBxdBhAP1xBaIgPBo+8GUG6jNc24129bOu0oNe+77TOcma22y4M88dq58TUcppOTUYZ.yBX1CVlIvL.l953qSIhfURJCrbfGDXwqiudq.yYvxbAVRDAaoounCfFncFX2XnF5WUi9aYjAkjTKxeigRFXUIFbU.WejAUSiI.L15CXWANPfCB3..17HCHIIMptKfyG37.NWfqEXfHCnblI.rl5izU2efCVN.fMMzHRRRcq4yPIDbdj5k.SHXPl.PxtCbr.uTfsN3XQRR8F2FvoB7cAtxfikv0lS.X6Ad4jZ3eWBNVjjT855HkHv2C3uDbrDh1VB.OVfigTC+6avwhjjxCWDoDANMf6I3Xo1zVR.XmAdujZ32a6NIIMRVNoDA9OnEbGET5I.rm.GOvQAzevwhjjZFVIvoCbx.WdvwROSol.vy.3D.NrnCDII0ncN.mDvEDcfT0JsD.NLRM7+LhNPjjTQ4BHkHv4DcfTUJkD.1EfuHoEqGIIodkyE3MR5tHnQaRQG.SPSC3eG3aQZI4URRpWZ6.dcj1OWtPRSbvFolbO.bj.+m.aSzAhjjZklGvaE3LhNP5FMwD.1NfOOvgGbbHIIAvYA7V.tkfiiwklzP.LER2K+mFvSH3XQRRZU1QfWOo8YfKlzsQX1qozC.aCv+Gv9DcfHIIMFtDfilzvCj0ZBKNNGAvUfM9KIo729PpMqiH5.YcImGBfIC7wHMQ+lVvwhjjTmZpj1cYmAvukLcHAx0g.Xlj1xF2unCDIIoIfKjTx.2ZzAxvkiCAvyiT2mXi+RRpoa+H0l1yK5.Y3xog.nOfOJvWB6xeIIUNlFoci10izPBjExkD.lLv2.3MS9NrDRRRcq9HsO0rC.mIYv7BHGZrcZjtE+d9QGHRRR0feJoaUvkDYPDcB.aDoUPIGueII0lbgjVQaWTTAPjI.rU.+bbU8SRRsSWCvgBb6QbxiJAfchTi+aaPmeIIobvekTR.2Pcehi31.bu.9cXi+RRRaKo1D2q59DW28.vdA7a.dT074URRJm8..GBvkVWmv5LAfchTVNaZMdNkjjZJlOvSmZZ3.pqD.1JfeO1s+RRRik+Jv9SMLw.qi4.vFgS3OIIoNw1RpMyMpWeh50I.LMR2m+dq9III0YdBjZ6rmtr32KS.XxjVg+bQ9QRRZ7Y+H0F5j6Umfd0dAPejVa+eI8niujjToaGA1dfebu3f2qR.3iRZi8QRRRcumLvTHcKzWo5E2E.OORicQz6y.RRRkfAHsuAb1U4Aspajdl.WAvlTwGWIIo1rE.rG.2ZUc.qxIA3jANUrweIIop1lPpM1JaRAVkyAfOFvwTgGOIIIMjYR5VC7WVEGrpZH.NBfynBOdRRRZsM.vQBblSzCTUzf81PZb+23J3XIIIow1BIMe.l2D4fLQmC.SgzBUfM9KIIUO1XRs8NkIxAYhNG.du.+SSvigjjjFe1ZfGB3B51CvDYH.1NfqEXpSfigjjj5NKEXWAtkt4IOQFBfOO13ujjTTlJo1h6JcaB.GIoUkHIIIEmCmTaxiacyP.LMfqizr+WRRRwZd.6BvRFOOotYR.9uC776hmmjjjpdOFRqPf+pwySZ71C.6BvehI3sdfjjjpTKmzNG300oOgw6b.3KhM9KIIkalBo1n6XimD.NLfCZ7bvkjjTs4fH0VcGY7j.vILtCEIIIUm531p6zD.dFCVjjjT9piautSS.vq9WRRpYniZytStK.1SfKahEKRRRpF8T.t7w5WnS5AfiuZhEIIIUSVmscut5AfcF3ZXhusAKIIo5yJAdB.W+n8KrtZX+81A+NRRRJuzOo1vGUiUO.7XAtcbg+QRRpIZ4.aEv8LR+vw5p6OFrweIIolpoPps7QzXk.vKu5iEIIIUiF01xGsg.X6At4dSrHIIoZzN.7WF9CNZ8.fW8ujjTYXDaSez5AfqkzV+qjjjZ1tNfcc3O3H0C.6N13ujjToXWH019ZXjR.3X68whjjjpQqUa6CeH.5CXd.acsDNRRRpNba.aCv.q5AFdO.raXi+RRRklslTa7+cCOAfCr9hEIIIUiVi13MA.IIo1g0nM99F12e2.aZsFNRRRpNLefMiAmG.qdO.rqXi+RRRkpMkUa8.X0S.vt+WRRprcPq5a5ejdPIIIUj96Wr+pOG.tSfMu9iEIIIUStKfGGLTO.ryXi+RRRktMmTa9+8D.1sQ+2URRREjcCFJAfYGXfHIIo5yrAS.PRRpsYMR.XVAFHRRRp9LKvd.PRRpsY1P51.bZ.KN1XQRRR0no2O18+RRRsMyper6+kjjZalsI.HII09L69AlYzQgjjjpUyrefYDcTHIIoZ0L5GX5QGERRRpVMc6A.IIo1G6A.IIoVH6A.IIoVH6A.IIoVH6A.IIoVH6A.IIoVno2GvCCLkniDIIIUaVde.CDcTHIIo5U+QG.RRRp9YB.RRRsPl.fjjTKjI.HII0BYB.RRRsPl.fjjTKjI.HII0BYB.RRRsPSN5.P0h6G35.tAfqevxMRJAvMFXSF7qqprU.6KvrhHXkTk4tA9i.+Af4A7.CVdvU662.fm3fkmzfkYgWfXwyUBv1gc.3uzEOuMGX+.1+AK6Iv5UgwkjpNKA3xH0X+pJ2RWdrNAfOZ0DVJWYB.kuKA3oUQGqM.3oBbn.uTrGBjh18Cbl.+.feNvRqni61AbyjZiPEJS.n78+C3y1iN1OUfWFvw.rk8nygjVSKB3L.9g.+BRana8BW.vSuGcrUFvD.JaqDXqAtid74oefCfTx.uDRyi.IUcVLvoB78A9M.KuFNmGGvWpFNOJHl.PY6bAN3Z9bNEfmCvqA3E.LoZ97KURlCvo.70AtuZ9buw.2ItcwWrbVdV19eC3btbfeJvQQZxG9e.L+.hColpA.9Y.OOfcjzP3U2M9CvBGLNTgxd.nbsbfs.XAQGHjl7fuTf2LvSI3XQJWcejtR+SgzU9mCNZfSK5fP8Fl.P45rAd9QGDif8kTh.+CXWKJAv0.7E.91jFq+bxF.bW.O5nCDU8bH.JWmZzAvn3h.NVfsA3CQueBJJkidDfeDvgPZA34KS903O.ODvoGcPndC6AfxzJHs59c+QGHcfo.7hI0q.6evwhTu17A9Zjlc8yK3XoS8bI0ihpvXB.koKjlYio6AoDAd4j55QoRw0.7II0ybOTvwx30zHMg.W+nCDUsbH.JS+pnCftzUP51GbqANQRU5H0jca.uZfcC3aPyqweHsDC+6iNHT0yD.JSM0D.VkE.bR.aOo4IPSXnLjVcKB3cC73IMy9WYrgyD1uL5.PUOGBfxyCRZA7nNVovpKaLv6B3s.L8fiEowxCA74ANYRIATJ1SRazPpfXB.kmb81+qJrY.GOoknTmi.JmrRfuIvGfT29WZ5izVK7lFcfnpiCAP4oo28+ik6lzlazrIcaSUR8xgZtNSRiw+qlxrweHcghkbcKsRl.P4oM7gzaG3MPZYR8qS5dpVptcQj1DrdAjlk+kNmG.EFGBfxxcA73hNHBvNRZkT6YGcfjIFfzXQupxRGi+MjFNkM.Xpq12OR+a2a3StdfSfzB4SaxLo4r1EnNfI.TV99jV6taq9GA9zTNiS4JIMrG2AveaXk6XvxCxZ2v9x5Qwy5yZmXvLHsmSrE.a4vJaAo4sQozSi2GoF9+Jzd60oahzPvoBvjiN.Tk5OEc.DruMocurOCvqH3XYcYY.2HowLd3Mrupu+tHspNlKV1fkwyNS2jA1bVyjBV8jD1ZR8fStuHy7CAdqjdcoM6JwD.JFl.PY4piN.x.ymTOA7sIMQA29XCGVAoc1s+7vJyg1wUQtBRyYiaeL9clDoFUdhCqLahuNpaC3MA7SBNNxE+IfWRzAgpFND.kkc.3uDcPjQlFvGlzcNvj5wmqA.tEV6F5uA5ccIeoa8A1IV6DC1N58yGgURZa48DAdfd74pI4HvjgJFl.P43A.dL3qmij8fzFvxdVQGuGgzUB86H0kn+Yfqk7b2bqDMcfckTx.6NvSG3IS0kj2UA7ZA9CUzwqj3DArvLfkhnbgC+EVsFlDv6fTizi2+1tLRqE5mLocFM2azyOOZRu1bxjdsZYL9ecdI.uGheXGxcKj3quyR0TBO.rTMkuBpSr8.mCi8eKWLvuF3CBbvjl06pYYpjds6CR50x0Uhe+BfYERj177aI956rTMkvC.KUS4MiFONVR2hcC.bu.+TRW829BLk.iK0aLERu19dH8Z88R5096gzjFUctOKwWemkJn3b.nbbP.mWzAQCyl.rMjFO+l9t0lFe5mz7FXdj18IUm6eF3+I5fPSbNVWkiaL5.nAZAXk+sUqD3JhNHZntgnC.UMJkUnq1tAHc+uKI0qcWQG.pZXB.kg6E2Y7jT83tiN.T0vD.JC2SzAfjZMd.R66DpgyD.JCl.fjpS1K.E.S.nL3GFkTcx5bJ.l.PYvd.PR0ImHfE.S.nLXB.RpNYO.T.LAfxfI.Ho5jI.T.LAfxf2BfRpN8vQG.ZhyD.JCthNJo5TUs0Kq.YB.kAS.PR0IS.n.XB.kAS.PR0IS.n.XB.kA+vnjpSVmSAvD.JC1C.RpNYB.E.S.nLXB.RpNYB.E.S.nLXB.RpNYaGE.eQrL7nhN.jTqxziN.zDmI.TF11nC.I0pLynC.MwYB.kAS.PR0osI5.PSb8ALPzAglvtWfMJ5fPRsB8ArDfMH5.QSL1C.kgMD3wDcPHoVgGK13eQvD.JGNL.RpN33+WHLAfxw1Ec.HoVAG++BgI.TNrG.jTcvD.JDl.P43wGc.HoVgYEc.npgI.TN12nC.I0JXcMEBuM.KGqfzcBvRhNPjTwZZ.2Gt7iWDrG.JGSFXuiNHjTQauwF+KFl.PYY+hN.jTQy5XJHl.PYY+iN.jTQy5XJHNG.JKKBXSvWSkT0qOfEfK63EC6AfxxFArKQGDRpHsKXi+EES.n7bHQG.RpHYcKEFS.n7bLQG.RpHYcKEFmC.kmAHsr.eqQGHRpXLSf+Jo1LTgvd.n7zGlotjpVGC13ewwD.JSurnC.IUTrNkBjCAP4ZGAtonCBI0383AtwnCBU8rG.JWlwtjpBVWRgxd.nbcc.6ZzAgjZ7tVb8EoHYO.TtN6nC.IUDrtjBk8.PY5L.NJfUFcfHoFu9ANcfiL5.QUKS.n7bE.OCfEGcfHohwzAt.f8H5.QUGS.nrb6.6yfeURpJsU.WxfeUE.mC.kiECbDXi+Rp231IUGi8tXgvD.JCqD3XI08+RR8JWAo5Zb9EU.LAfxv6lzD+SRpW6LHUmiZ3bN.z78cAdEQGDRp046Pp2.TCkI.zrMOfcC39hNPjTqyiA3p.1lnCD0cbH.ZtVIvqDa7WRw39HUGjyGfFJS.n45SCbtQGDRpU6bIUWjZfbH.ZltJfmJvCGcfHoVu0C3ORZ3HUCh8.PyyxHMo+rweIkCdXR0IsrnCDM9XB.MOmHvUGcPHIsZtZR0MoFDGBflkeKvyDeMSR4m9.90.GbzAh5Ll.PywxAdR.2PzAhjznXmH0a.SI5.QqaND.MGeQrweIk2tAR0UoF.6AflgEB73G7qRR4rMF3lF7qJiYO.zL7gwF+kTyvBIUmkxb1C.4uafzX+u7nCDIoNzTHMW.1onCDM5rG.xeuSrweI0rrbR0coLl8.Pd6WA7riNHjj5R+RfmUzAgFYl.P9Zk.6Ntn+HolqmDvUh81bVxWTxW+XrweI0rc0jpKSYHS.He8YiN.jjp.VWVlxg.HOcY.6UzAgjTE4RAdJQGDZMYO.jmLiYIURrNsLj8.P94N.1V7V+SRkio.7WA1hnCDMD6Af7yofM9KoxxxIU2lxH1C.4kGBXl.yO5.QRphso.2JvFDcfnD6Af7x2Aa7WRko4SpNNkIrG.xK6IvUDcPHI0irG.WdzAgRLAf7wbAlczAgjTO1b.lUzAgbH.xI+fnC.IoZf00kILAf7genPRsAVWWlvg.HO7WA1tnCBIoZxsPZ8NQAxd.HO7CiN.jjpQVmWFvD.xC1kXRpMw57x.ND.w61Is3+3qCRpsnORKJPaUzARal8.P79gXi+RpcY.bX.BmI.DueVzAfjT.rtuf4P.DqA.1Xf6M5.QRplsg.KjT6PJ.1C.w5ZwF+kT6z8BbcQGDsYl.PrtvnC.Io.YcfAxD.h0EEc.HIEHS.HPl.Pr7M+RpMyKBJPNI.iyB.1znCBIo.0Gv7IMYnUMyd.HNl4qjZ6F.qKLLl.Pbr6+kjLAfvXB.w4xiN.jjx.WVzAPakI.Dm4Fc.HIkArtvf3j.LFqDXp.ObzAhjTvVOfkhWPZsy+fGiaCa7WRBR0Ed6QGDsQl.PL9KQG.RRYjaN5.nMxD.hguYWRZHdQQAvD.hguYWRZHdQQAvD.hguYWRZHVmX.LAfX3a1kjFh8JZ.LAfXbKQG.RRYDS.H.l.PLVTzAfjTFw5DCfKDP0uUBLonCBIoLyifWTZsx+XW+VRzAfjTFx5FqYl.P8awQG.RRYHqarlYB.0OyxURZsYci0LS.n9YVtRRqMqarlYB.0OyxURZsYci0LS.n9YVtRRqMqarlYB.0OyxURZsYci0LS.n94axkjVaV2XMyD.peSN5.PRJCYci0LS.n9M0nC.IoLj0MVyLAf52FDc.HIkgrtwZlI.T+7M4RRqMqarlYB.0OeStjzZy5FqYl.P8y2jKIs1rtwZlI.T+7M4RRqMqarlYB.0OeStjzZy5FqYl.P8ya0EIo0l0MVyLAf5mY4JIs1rtwZVe.CDcPzB0O92cIoUoOfUFcPz1XO.Di0O5.PRJiXchAvD.hgc0kjzPrNw.XB.wX5QG.RRYDqSL.l.PLdbQG.RRYDqSL.l.PL1xnC.IoLxVDc.zFYB.wv2rKIMDunn.XB.wv2rKIMDunn.XB.wv2rKIMDqSL.l.PL7M6RRCwdEM.l.PL7M6RRCwKJJ.l.PL7M6RRCw5DCf6E.w3Q.VObsuVRpefkAL4nCj1F6AfXLIfMK5fPRJC7XwF+CgI.DG6xKIIqKLLl.Pbbh.JIYB.gwD.hy1Dc.HIkAlYzAPakI.DmmXzAfjTFv5BChI.DmmTzAfjTFv5BCh2FfwYQ.abzAgjTvlOvlDcPzFYO.DmMBXqiNHjjBzVfM9GFS.HV10WRpMyw+OPl.PrLA.I0lYcfAxD.hku4WRsYVGXfLAfX4a9kTal0AFHuK.h0x.lAvJhNPjjpY8C7f.SM5.osxd.HVqOvNFcPHIEfYiM9GJS.Hd1EXRpMx59BlI.Du8H5.PRJ.O4nCf1NS.HdGRzAfjT.N3nCf1NmDfwak.aJokFXIo1fY.rPfoDcfzlYO.Du9wdAPRsKGH13e3LAf7vyJ5.PRpFYcdY.S.HO3GFjTah04kAbN.jO1dfaI5fPRpG6wAbGQGDxd.HmXFwRpM3YFc.nDS.HeXB.RpMv55xDND.4i4CrY3qGRprMOfYFcPH6AfbxlBr6QGDRR8P6H13e1vD.xKO6nC.IodHqiKiXB.4kiN5.PRpG5EGc.ng3b.H+ry.2PzAgjTEaKAtU7BOyF9BQ94XiN.jj5AdoXaNYE6Af7ybAlczAgjTE6RAdJQGDZHlMV9YV.6SzAgjTEZmvF+yNl.PdxgAPRkjWdzAfVaND.4o6lzDl4QhNPjjp.2HviO5fPqI6Af7zlgKWlRpL7TwF+yRl.P9xgAPRk.69+LkCAP95AA1bfkDcfHI0k5G31IsE.qLi8.P9ZFXlyRpY64gM9msrG.xaWKvSDeMRRMS+ZfCI5fPiL6Af71tBbnQGDRRcgcGa7OqYB.4u2QzAfjTW3sGc.nwlCAPyvtAb0QGDRRcnsD3V.lRvwgFC1C.MClIsjZRdyXi+YO6AflgGFXaAtynCDIo0goSZa+cihNPzXyd.nYX8.dSQGDRRcfWE13eif8.PywB.lIvRiNPjjFE8CbC3VZdif8.Pywl.bbQGDRRigiBa7uwvd.nYYgj9v0hhNPjjFl0izhW1rhNPTmwd.nYYiA9.QGDRRif2F13eih8.PyyxIsBANmnCDIoAsY.2DviN5.QcN6Aflmo.7wiNHjjVMeDrw+FG6AflqCD37iNHjTq2SF3xwKnrwwWvZt9TjRfSRJReVrsjFIeQq4Zu.N1nCBI0p8h.NnnCB0cbH.Z1tMfm.v8GcfHoVmoB7mA1gnCD0crG.Z11ZfSI5fPRsReJrw+FM6AfxvKC3TiNHjTqwKD3GEcPnIFS.nLbujlItyK5.QREusB3pHsvjoFLGBfxvFB7svWOkTuU+.eGrw+hfMXTNNPf2czAgjJZGONq+KFND.kkkCru.WVzAhjJN6KoEerIGcfnpgI.TdtAfmJvCDcfHohwiA3JA1tfiCUgbH.JO6DvOfzdFfjzD05C7iwF+KNl.PY54.7eEcPHoFu9A9t339WjLAfx0qD3eK5fPRMZmBvKN5fP8Fl.PY68C7ZiNHjTizGD33hNHTuiSBvx2i.7B.N6nCDI0Xbb.eonCB0aYB.sCKlzX3coAGGRJ+cT.eerGhKd9Bb6vzANGf8N5.QRYsWDv2CaanUvWjaO1DfeMvyN5.QRYoiizsP75Gcfn5gI.ztLCfyB3niNPjTV4CQZL+sMgVDmC.sSqD3s.7EiNPjTnlDo5AdcQGHp9Y1dsS8S5968CFcfHovrAj5xea7ukxd.PmBvakTuBHo1gMD3LAd5QGHJNl.f.3WAbr.2czAhj541KfSCXGhNPTrbH.D.OKR6zWGXzAhj5oda.+drwegI.ngrEjtMAeej5YHIUN1HfeDvmEX8BNVTlvg.PijeAvq.3dhNPjzD1SC3TA11nCDkWrG.zH44PZHANfnCDI005C3cBb9Xi+ZDXB.Zzrk.+FfSFXpAGKRZ7YV.+bfOAvTBNVTlxg.PchaA3Mg6nfR4t0C38.bBjtO+kFUl.fFO9A.+q.2dzAhjVKGBoU0ucJ5.QMCND.Z73k.bcjV3flTvwhjR1LfuMo6hGa7WcL6A.0stbfWOvkFcfH0R0Gokw2Slzs4mz3h8.f5V6Ivk.7cHMgijT84vAtBfuL13u5R1C.pJrBf+Gf+cfaK3XQpjcv.eTf8M5.QMel.fpRODo8T7SFWDgjpR6CoF9elQGHpbXB.pW3AIsji9IAtufiEolrmDvGA3EDcfnxiI.ndoEQ51R5K.bmAGKRMIOMRqheGEt2bndDS.nysTf6kTiZ26fkUPZBvMaf0OtPK6sLfuKvmF3ZBNVjxU8S5J8em.6evwhZALAfQ2eC3mBbljVRbW7X761Oo0Z6cjz8g6NRZx5rq83XroY.fyA3SQ5dVVRokZ6WIvaG3wGbrnVlArrFkGF3kQ0zsa6AowA+1yf+ekakq.3eDWtRU60V.7gIMgYi9yiVZmkvCfbprbfijpW+jl8t+OjlTbQ++ybprp4IvSsq+qqTyw5QZE07mRZHDi9yeVZwEGBf0z8RueQ0XC.NFR2ROaUO9b0zbM.ecRKqo2cvwhTUZOA9mAd4.abvwhDfyAfga4jxPuNLcf2Gow8qtNmMEqfzNO32jzVZ5XM+KjxUyjzU6+p.1sXCEo0lI.r1dw.mdMd9d7jtm4ed034rI4gHMILOyAKtSDpbUe.6EvQLXY2iMbjFal.vZ6NHM68u2Z97d3.eFR2RgZzc4jRD3mL32KEooB7rH0f+gSZh8I0HXB.ir+af+kJ9X1GvqgzXAdq.WOvOZX+NqOv6.3DHMDAZrs.RaHQW7fe8OP8m3lZW1dRKRO6yfecOvgvSMTl.vn6YRpqmqJeMRI.r59eG7wV5vd7sF3yQZU.SctA.tARIDrpjBtZfGIxfRMVOZR2cJqpA+8AXyBMhjpPl.vnatjFOup5JJuVfcYDd7+.oJXFoWGdyjVzb7JL5dKF3xXnDBtXRKxSRqt9AdBrlWc+tfaY5pfYB.is+DvgBbWUvw5DHcq+MR1YRW45HYuA99.aSEDCJ4VIkLvkCbSjR1aN.OPjAkpMaAo4ZyrH8Yu8lzU5OiHCJo5lI.rtMGfmMvsTAGqWKvo.LkU6wtGfsCXIiwyaS.9N.GVEDCZzcOjd8dtivWc6Mt4XRjRXdU6SGq9WmEvzhKzjxGl.Pm4uA7bnZ1Ha1Kf+IRIUby.uZ5rdXnORKqvu8JHFz328yHmXvbXnk5YUeVefcfQtQ9si0LIaIMBLAfN2BIsLA+6BNN9v.effiAMjq.3.wgOnts2jVjn1vnCDolJmfKctMF32B79I1+t8AAd2Ad90PlKvyEa7OB+AR2+8KJ5.Qpoxd.n676AdKjt5udk0evx8OJ+72DvmmpYWKTie2Eo8r84FcfzxsG.+RRySFIMNXO.zc1eR2ZYeSR2y9Us2HogbXQ.eEfG6H76bJjtMAU86AHszMai+w6J.NDf4GcfH0DE9VRXCurDf2KU2UheLiv4XQj1IwFIetf9+casrLRKRTJure.OLw+9CKVZRkvCfRo7SoZ1lO+pixweYjlcyC2j.9YYv++aCkGA3nGgWCTd3+Gw+dDKVZRkvCfRpbKjtM+lHNxw33+MGkmyigzJMXz++uzKdKXl+9AD+6SrXoQTbR.V8VFotw+Ll.GiKlzxQ5vsRfmHv0MB+rcfzLi1ICUuwk.ru3mWxcOZfKkz1rsjFCNI.qdqOokt2W7D3Xbhixi2OvlNJ+raF30OANmZzsRR20E13e969AdI.KO5.QpIH7tgnPKKmI13E+FF7Xr5GyeCvjWGOuSKC9+doU9Rqi+lq7ymf3eeiEKYcwg.n25Q.dE.mZW97eZ.GOvSB3WC7uRZ2sar7XIsjEOR25fZ7aA.6HoaKS0b7n.tQfGWzAhTtxD.58dXRq6+meMdNOZR8Dfl3dc.+WQGDpq7JA9FQGDR4JS.ndr.Rqc42bMdN+ALwlGBJMoJOart.Z..vC0mDQAQUZ3mQZp5C3hXjmPsRsdl.P845HMKxuuZ5783F7b5lkR2YkjZ33RiNPzDxdS5N3PRCi2E.0mcgT2xOoZ57cm.umZ5bUh9VXi+kf+.oIOqjFFS.ndcnza1Je2PF4WK+uH9su3lJm4+kiOWzAfTNxD.pemHowUtJr2.W.o8Jf6k0dc.XfAerGthNesEWOoqbTkgyh5c92H0HXB.0uIA7sAl9D737b.NOfm9f+6GEvWF3sMreuqE3iOAOWsMi1RtrZlVIvWH5fPJ23j.LNeUlXqbemEvyeDd7U.bf.W3p8XqOvUiKOpchUBrM.2dzAhpTOZRulNinCDobg8.Pbdc.G9D34u9ixiOYfuBq4JF3x.dMjVXhzX6WiM9Whte59EjKohjI.Dq+a59UruycL9YOQf+4g8XW.dWAzIr6+KW+3nC.obhCAP79Ij1BfGu1Hf4.rwixO+zYjWHfNUR6VgZs8..aNvRiNPTOwFPZQ4ZZQGHR4.6Af38B.9W5hm2h.d+iwOeyFkG+0.7m6hyWav+G13eI6g.9kQGDR4BS.HO7Y.lUW779hjVvZFI+pQ4wWLvKh5aEIrIYz9aoJGmYzAfTtvg.HebF.uvt34sdjtsBW8sd3ymzsI3xFim2gSZ3G5qKNmknGhzsR4JhNPTO0lCbG366kLAfLy9Bbwc4y8vA1eR22+mFc1h+ya.3TvJCgz5EeUs.Mo71eDXuhNHjh1jW2+JpFcx.GbW9bOqAKiGqZ4t0j.bc+uM4hwD.jbN.jYNHRccec5KA7lvdBxD.ZO70ZILAfbzIQ8e03lD.bYQG.p1XB.R3b.HWcz.e+.Nus04DvRHsTw5JkX6P+jVY.mn6GGRMZl.Pd5F.dBzaZPZuANLRUB9cHsXBs5NzAe7MsGbtyUWHoIPoZOt.FZizRpUxg.HOsSr1KkuUg2JvuG3CC7AAtQf+SVyIC5OGXOXM2LgJc1kvsO9ZtZ8LAf70wS095ygC7YYMaruOf2Bv4P5dfeUtMRSHwOcEd9yY1XP6yUEc.HEMS.HesC.GQEd7dmL5is+yjzdGvTVsGa4.uCRqZfKpBiibjS.v1maM5.PJZl.Pd6esBOVScc7yeVjVRhGteLvNB7ko7ljb2AvGA35iNPTsyD.jHMI.sjukm7n+R23x+RGbtVFvVLFGimLosg3n+axDorRRaHLuXbgvpMaZD+6EsXI5R3Afkwt70oZLYRaPPqqyWmreD7O.bKc4+ehpbO.ebfY2g+8RkuER7uuzhkvJda.l+VFv1.b2UvwZ5.+Bf8aL9c1aRqU5qKSgz7C3MPZBClilCoq1+W.b1zY6OBp83OAraQGDRQJ7rPrrNKefQ8UuwuY.7CGkyy+WWdL2YR2gAQeEUKfzBnzqEX65x+un1iyh3+rsEKgUrG.ZFtSfskp6JX6C3sSZV9upw7+a.7lAV7D33NURSlvCbvxd.LoIvwazrTfaFXtjtJ+4P5V46xHMF+RchuJojEkZkLAfliiE36UwGyISZh8cm.2dEergzZKvSmz1b7VArYCqLERIbLRkkrZe+BYnF6m6fwpuuUSTeFp16zFoFES.n43hXrG695zjI0s+aOv7IshBtfPiHowuSF38FcPHEEuMnZN1WRco9UDbbry.eWf8bXO9e.3ySZdDjKS1toBb.j5sg0GXd.mOvCEYPorguOPsdgOQDrzwku1n7ZXcYx.WMicLdkD+DvaqIkHxhYsiuESZ3TjdOD+mosXIxR3AfkNurDfMh3bziRbM7xek0bYEtN8THszEuthw8Hn3S4i2Fw+YZKVBq3P.zrLURyZ4OdPm+ctC+81FfiB3zFGG6sB3k.LSRcY+FP5NH31F73zo6NgeNfMrC98dUD+vonXsznC.oHYB.MOGOoaYupXgAZ7Z7rl4Oiwwu6IA7tYzukAeq.uQfuTGbr16N7btwc3umJWNG.TqV+j102TywFB7wB5b+C.9Ic3u601g+du.RI0rtVu.9OoyRpXfN775N.nxkIqpTDVd+.OXzQgF2dk.6e.m2UBbj.udF68S8eLoaawNwA0g+dSlNab6O6N324mA7E5vyqjTI5A6mI1J+lhQe.eQ5MqxdchuJoEPnmHvIPZSF5t.tIfOIvKebbrFOaI0cxU2eRjV3fFIWIow9+4Arhww4URpzr3Ii8.PS0tQZo68yEXLbMCVN4Ivw3x6veuERm0s8+QR2I.+C.6zfOualz8+emNrDRRktGDRqg5ge6HXoqJO.M+cyrNYaJd9jVPejpRuTh+yvVrDU4RsG.Z1lAvYRZlueWAGKcqU.bDjlaAOeR2piOBojatSRW09oiyXaIopzCNYbN.zzsM.mAoISWSsQxkBbpCVjjTu2h8t.nLrOjVa.5K33PRRMCdW.TPNFfOTzAgjjZDrG.JLe.f+snCBIIk8df9At0niBUod+jFNfn1LdjjT9ad8CLmniBU4dk.mEviJ5.QRRYo4ZB.kqmCoE+lsH5.QRRYm4zOvbiNJTOytSZkw6PiNPjjT1X.FrG.VBveK3fQ8NaEv4.7UvgDPRRo17W5p1HVbX.JeuNR6feGbzAhjjB0bfg1I1bX.ZG1NfeMvmG3wDanHIofrFI.XO.zdzGocQvaF3cQZs2WRRsGyELAf1rMF3iS509iCW2.jjZKVid.3pBLPTr1RfuDv0A7pAldrgijj5w9SvPI.b8zb2NYU0XV.+2j1Bd+5j1cAcyERRprbm.2HLTB.PZQiQZF.uJfeKo4IvGBX2vjAjjJAm2p9lUOAfys9iCk41NfOHotKZA.+Df2AvSEXRwEVRRpK82S.XxizCJMB1HfiXvBj1EIuJfahzDJ4lVsu+9iH.WGlDvrAdRCq7NHkXijTavHl.v0BLefMs1CG0DMCf8avxvc2LxIFbO.2GvCPZonrpsw.ybXksAXW.1UfMXDdNSdDdLIoRz8PZBeCrlU9M.o4AvQU2QjJNa1fk8eT94CPJIf6aXk6e099kQ5VSbJ.q2X70oQZ4NdlC98iWN2FjTawEvpcwWC+peNOLA.060GvidvxLyfXQRpMXMFp+9GqenTKvv+LfjToZLS.3p.ts5KVjBm8.fjZCtMF1h92vS.X.fSs1BGo3YO.Ho1fSkgM4qGoJ+9t0SrHkErG.jTavZ019Hk.vUxpcaBHU3LA.IU5tNRssuFFst+zdAPsEND.RpzMhsoOZU9885gAhTNwd.PRktQrM8QKAf+BvE06hEorg8.fjJYWDo1zWKiUke1K.pMvd.PRkrQss7wJAfSCX4UerHkULA.IUpVNo1xGQiUB.2C1K.p74P.HoR02iTa4in0Uke+G.qrRCGo7h8.fjJQqjTa3ip0UB.WOvoWYgiT9wd.PRknSmTa3ipNoxuStZhEorj8.fjJQqy1t6jD.tbfyYhGKRYIS.PRklygTa2ioNs6OOoIVrHksbH.jTooiZytSq76BFrHUZrG.jTIoiaud7b0O1K.pDYO.HoRRG2V83oxuyA3bG2ghTdyd.PRkhykwwb1a7d0OuQb0ATkES.PRkfkSpM5N13MAfqC3SONeNR4LGB.IUB9zjZiti0MU98uALut34IkirG.jTS27H0173R2j.vR.dqcwySJGYO.Holt2Jo1lGW51J+NCfypKetR4D6A.I0jcVjZSdbahb0OuEfkNAd9R4.S.PRMUKkTawckIRB.2BvGYB77kxAND.Rpo5iPps3txDsxuOAvkLAOFRQxd.PRMQWLo1f6ZSzD.VNvQCrvI3wQJJ1C.RpoYg.GCSv0kmpnxu4A7p.FnBNVR0M6A.I0jL.v+DUvsieUc0OmIvmphNVR0IS.PRMIebfeZUbfpxt+73AtvJ73IUGbH.jTSwE.79ppCVUV42J.do.KnBOlR8Zl.fjZBtGRswthp5.V0U9cqjFaBmO.povg.PR4tUBbr.+sp7f1Kt5myF3j6AGWodA6A.Ik69v.+xp9f1qp768A7s6QGaopjI.Hob1WitXi9oSzqp7a.fWMUzLUTpGxD.jTt5GAbb8pCdurxuUPZQBx6L.kybN.Hobz4A7xAdjd0InWe0OKA3vAtld74QpaYO.HobyUB7B.dnd4IoNp7aQ.GJvesFNWRiWl.fjxIyE3v.t+d8Iptp761IkDv7qoymTmxD.jTt3NAdN.2UcbxpyJ+tAfmKvCTimSo0EmC.RJGbejZi7lqqSXce0OWJvgf8DfxG1C.RJZ2EvAQZr+qMQT42kB7zw4DfxCl.fjhzMCr+TyM9CwU42MP5+vd2AnnYB.RJJWEo1BmaDm7Hq761AdF35DfhkyA.IEgeGvARZh+Ehnu5mEA7rwULPEmn+LfjZeNKRy1+6MxfHGp7aI.uPbuCPwHG9LfjZO9V.uHfkFcfjKU9sBfWIvIgakvpdkKeFPRksAH0F2qhTadgKmp7a.fSjzRG7BBNVT6QN8Y.IUlV.o11NQxnKxMGq76rA1CbxAp5gSBPI0KcgjZS6riNPFtbLA..tURyNxOIYT1RpHkqeFPRMaCPpMrCjTaZYmbtxuU.7t.NRfEFbrnxUN+Y.I0LsPRsc8tHSFu+QRSnxuyjT2mbIQGHpH0D9LfjZNtDRsYclQGHqKMkJ+lGoEMnSjL3VmPEkd59ssxZKN5.PEkkRpMpmAo1rxdMkD..X4jtEJ1URKhBRUgPWHNTnt6nC.ULNKRsMcRjZqpQnIk.vpbK.GAoEOnFQVVJqYB.sWl.flnlGo1hNBRsM0nzDS.XUNCfcA3iQCJiKkctqnC.EFS.PcqkSpsmcgTaQMRkx8.8t.7EIseJKMd7T.t7nCBElECLsnCB0nbt.uQfqK33XBqI2C.qtqC3fAdt.WPvwhZNVLveJ5fPg5OGc.nFiyG3vH0VSiuwenbR.XUNGfCXvx4Dbrn724C7HQGDJTM1tuU0hAHMA+1eRKnO+7XCGMdrm.eeRUxOfEKCqbXn1tm.w+9PK4WYE.eOfcC03sy.eCfGl3eikk7nXW+pUYND+6GsjGkGB3KCLKTw4wB7lIs4LD8azrDWYE3DFUC40Q7umzRbkURZh88ZA1PTqv1SZUa5ZI92.ZodKe.jVS+Ph+8kVp2xUC7d.lIpUa2A9Dj1wlh9MkV5skOKk2jeUSbaDoE0kne+okda4VA933X6CTNqC.Uk9H8FiCbvxA.rogFQpprLfiizbAQZjLafu.vgFcfnJycQ5VC+7ANORW0+.gFQYDS.Xr0Go024CjzXFe..adjAj5J2AvQAbwQGHpQ3EB7Y.1tfiCM9cqLTi8mOvMDa3j2LAfwuclTuDL6AKyZvutkQFTZDc0.eKRW0+7iMTTCyj.1KRK5KGLo6C7oGZDoUYUck+b.toUqbUz.WO9ijI.TclFCkLvrIMwRlAoJMFquNkHB1FpkB7fCVV7v95p+8Khzh2wUFSXpBzT.1afCgzE.L8AKSa099U8umZPwXSzxYj+77v+57H0H+b.lKtMdWI9+CN6Z7tWNvOmM.....IUjSD4pPfIH" ],
+					"embed" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-2",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 797.526261102865533, 174.473738897134581, 29.947477794269048, 29.947477794269048 ],
+					"pic" : "Macintosh HD:/Users/Home/Downloads/github.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 610.841463416814804, 176.0, 18.551791355013847, 18.551791355013847 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"handoff" : "",
 					"hilite" : 0,
@@ -104,12 +259,24 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 144.0, 268.000002499999994, 56.0, 23.0 ],
+									"text" : "route list"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 144.0, 235.0, 223.0, 23.0 ],
+									"patching_rect" : [ 144.0, 231.000001249999997, 223.0, 23.0 ],
 									"text" : "mo.slide @up 300 @down 300 @rate 10",
 									"varname" : "mo.slide"
 								}
@@ -147,7 +314,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 235.0, 78.0, 23.0 ],
+									"patching_rect" : [ 54.0, 231.000001249999997, 78.0, 23.0 ],
 									"text" : "loadmess 0 0"
 								}
 
@@ -210,18 +377,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.0, 67.000000000000057, 68.0, 23.0 ],
 									"text" : "loadmess 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-31",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 31.0, 67.000000000000057, 58.0, 23.0 ],
-									"text" : "loadbang"
 								}
 
 							}
@@ -624,9 +779,16 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
-									"midpoints" : [ 40.5, 51.0, 40.5, 51.0 ],
+									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"midpoints" : [ 153.5, 306.0, 40.5, 306.0 ],
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -640,8 +802,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"midpoints" : [ 153.5, 306.0, 40.5, 306.0 ],
+									"destination" : [ "obj-10", 0 ],
+									"midpoints" : [ 153.5, 255.0, 153.5, 255.0 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -1067,7 +1229,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1203,7 +1365,7 @@
 									"patching_rect" : [ 787.5, 632.0, 640.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Examples of instruments and interfaces using different types of input and direct mapping.",
+									"text" : "Tutorials showing how to perform various tasks, including recording, mapping, and combining building blocks.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1220,7 +1382,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Interface with external devices, including MIDI, OSC and eurorack modules.",
+									"text" : "Process input data through filtering, averaging and smoothing algorithms.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1654,8 +1816,8 @@
 													"data" : 													{
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
-														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremini~", "mo.timer" ]
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.index", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.timer" ]
 													}
 ,
 													"id" : "obj-87",
@@ -1862,7 +2024,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Theremini", "TouchOSC", "Wekinator" ],
+														"instruments" : [ "Ableton Live", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
 														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
@@ -2082,6 +2244,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
+														"Ableton Live" : [ "mo-live" ],
 														"Gametrak" : [ "mo-gametrak" ],
 														"Genki Wave" : [ "mo-wave" ],
 														"GyrOSC" : [ "mo-gyrOSC" ],
@@ -2201,7 +2364,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 6,
-									"num_lines_presentation" : 8,
+									"num_lines_presentation" : 6,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2229,9 +2392,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Theremini", "TouchOSC", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 7,
+											"parameter_mmax" : 11,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2282,9 +2445,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
+											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 23,
+											"parameter_mmax" : 22,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3384,6 +3547,25 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 916.0, 250.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 607.841463416814804, 173.0, 25.279860869050026, 25.800694182515144 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"candycane" : 8,
@@ -3490,6 +3672,13 @@
 					"destination" : [ "obj-236", 0 ],
 					"midpoints" : [ 851.5, 311.0, 851.5, 311.0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -3604,8 +3793,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

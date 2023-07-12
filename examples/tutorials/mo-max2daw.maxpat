@@ -136,7 +136,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -161,7 +160,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -186,7 +184,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -211,7 +208,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
