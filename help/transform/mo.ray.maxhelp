@@ -48,14 +48,14 @@
 					"maxclass" : "nodes",
 					"nodenumber" : 4,
 					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.760810372093023, 0.452670837209302, 0.470112697674419, 0.464298744186047 ],
+					"nsize" : [ 0.865461534883721, 0.452670837209302, 0.632903395348837, 0.493368511627907 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 171.0, 468.9838293650796, 100.0, 100.0 ],
-					"xplace" : [ 0.119594813953488, 0.5, 0.735056348837209, 0.5 ],
-					"yplace" : [ 0.5, 0.273664581395349, 0.5, 0.732149372093023 ]
+					"xplace" : [ 0.067269232558139, 0.5, 0.816451697674419, 0.5 ],
+					"yplace" : [ 0.5, 0.273664581395349, 0.5, 0.746684255813953 ]
 				}
 
 			}
@@ -183,8 +183,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 165.0, 112.0, 25.0 ],
-					"text" : "generate values "
+					"patching_rect" : [ 247.0, 165.0, 92.0, 25.0 ],
+					"text" : "input values "
 				}
 
 			}
@@ -196,8 +196,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 249.0, 22.0 ],
-					"text" : "Get the combined axes, and nodes values.",
+					"patching_rect" : [ 9.0, 102.0, 243.0, 22.0 ],
+					"text" : "Get combined xy axes, and nodes values.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -383,7 +383,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.poltocar.maxpat",
+				"name" : "a-mo.ray.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -393,13 +400,6 @@
 				"name" : "mo.ray.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

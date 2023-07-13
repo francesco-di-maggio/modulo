@@ -265,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.759021218750149, 215.935986729959382, 33.0, 23.0 ],
+					"patching_rect" : [ 835.759021218750149, 215.935986729959382, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -410,8 +410,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.759021218750149, 215.935986729959382, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 704.759021218750149, 215.935986729959382, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -593,7 +593,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.140615909090684, 292.121973459918877, 430.0, 265.0 ],
+					"patching_rect" : [ 41.140615909090684, 292.121973459918877, 214.0, 265.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -730,7 +730,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 860.259021218750149, 279.0, 50.640615909090684, 279.0 ],
+					"midpoints" : [ 845.259021218750149, 279.0, 50.640615909090684, 279.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -792,22 +792,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-111" : [ "live.dial[21]", "detune", 0 ],
-			"obj-16::obj-112" : [ "live.dial[23]", "decay", 0 ],
-			"obj-16::obj-113" : [ "live.dial", "attack", 0 ],
-			"obj-16::obj-114" : [ "live.dial[24]", "sustain", 0 ],
-			"obj-16::obj-116" : [ "live.dial[12]", "live.dial[12]", 0 ],
-			"obj-16::obj-118" : [ "live.dial[27]", "live.dial[19]", 0 ],
-			"obj-16::obj-12" : [ "live.text[29]", "live.text", 0 ],
-			"obj-16::obj-22" : [ "live.dial[26]", "live.dial[18]", 0 ],
-			"obj-16::obj-24" : [ "live.dial[25]", "release", 0 ],
-			"obj-16::obj-25" : [ "live.dial[13]", "semitone", 0 ],
-			"obj-16::obj-27" : [ "live.dial[28]", "live.dial[10]", 0 ],
-			"obj-16::obj-34" : [ "live.text[7]", "live.text", 0 ],
-			"obj-16::obj-37" : [ "live.text[150]", "octave", 0 ],
-			"obj-16::obj-4" : [ "live.dial[29]", "live.dial[20]", 0 ],
-			"obj-16::obj-42" : [ "live.text[21]", "live.text", 0 ],
-			"obj-16::obj-7" : [ "live.dial[7]", "live.dial[7]", 0 ],
+			"obj-16::obj-111" : [ "live.dial[35]", "detune", 0 ],
+			"obj-16::obj-112" : [ "live.dial[4]", "decay", 0 ],
+			"obj-16::obj-113" : [ "live.dial[5]", "attack", 0 ],
+			"obj-16::obj-114" : [ "live.dial[6]", "sustain", 0 ],
+			"obj-16::obj-116" : [ "live.dial[31]", "live.dial[12]", 0 ],
+			"obj-16::obj-118" : [ "live.dial[33]", "pitch", 0 ],
+			"obj-16::obj-12" : [ "live.text[100]", "live.text", 0 ],
+			"obj-16::obj-22" : [ "live.dial[11]", "live.dial[18]", 0 ],
+			"obj-16::obj-24" : [ "live.dial[3]", "release", 0 ],
+			"obj-16::obj-25" : [ "live.dial[2]", "semitone", 0 ],
+			"obj-16::obj-27" : [ "live.dial[34]", "vibrato", 0 ],
+			"obj-16::obj-34" : [ "live.text[285]", "live.text", 0 ],
+			"obj-16::obj-37" : [ "live.text[288]", "octave", 0 ],
+			"obj-16::obj-4" : [ "live.dial[1]", "volume", 0 ],
+			"obj-16::obj-42" : [ "live.text[287]", "live.text", 0 ],
+			"obj-16::obj-7" : [ "live.dial[8]", "live.dial[7]", 0 ],
 			"obj-3" : [ "mc.live.gain~[1]", "output gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -819,8 +819,9 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-16::obj-12" : 				{
-					"parameter_longname" : "live.text[29]"
+				"obj-16::obj-4" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1
 				}
 
 			}
@@ -829,28 +830,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.fm~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/sound",
-				"patcherrelativepath" : "../../patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",

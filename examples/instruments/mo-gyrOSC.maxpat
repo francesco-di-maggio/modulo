@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 565.0, 490.0 ],
+		"rect" : [ 34.0, 100.0, 565.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@mode", 1, "@device", "REORIENT", "@color", "green" ],
+					"args" : [ "@mode", 1, "@set", "REORIENT", "@color", "green" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1, "@device", "VIBRATE", "@color", "blue" ],
+					"args" : [ "@mode", 1, "@set", "VIBRATE", "@color", "blue" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -332,7 +332,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 9, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -357,7 +356,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 8, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -382,7 +380,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 7, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -407,7 +404,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 6, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -432,7 +428,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 5, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -507,7 +502,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 4, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -532,7 +526,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 3, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -557,7 +550,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 2, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -717,7 +709,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", 1, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1293,16 +1284,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"name" : "mo.pad.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

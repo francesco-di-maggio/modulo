@@ -285,7 +285,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.0, 167.5, 20.0, 20.0 ],
+					"patching_rect" : [ 99.0, 167.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -315,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 210.0, 180.0, 25.0 ],
+					"patching_rect" : [ 172.0, 210.0, 180.0, 25.0 ],
 					"text" : "visualize note without output"
 				}
 
@@ -329,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 165.0, 119.0, 25.0 ],
+					"patching_rect" : [ 126.0, 165.0, 119.0, 25.0 ],
 					"text" : "play on/off notes "
 				}
 
@@ -398,7 +398,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.0, 211.0, 50.0, 23.0 ]
+					"patching_rect" : [ 113.0, 211.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -410,7 +410,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 166.0, 32.0, 23.0 ],
+					"patching_rect" : [ 66.0, 211.0, 32.0, 23.0 ],
 					"text" : "60 0"
 				}
 
@@ -557,7 +557,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 107.5, 450.0, 50.5, 450.0 ],
+					"midpoints" : [ 75.5, 450.0, 50.5, 450.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -589,7 +589,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 152.5, 450.0, 50.5, 450.0 ],
+					"midpoints" : [ 122.5, 450.0, 50.5, 450.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -613,6 +613,13 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-6::obj-37" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -620,6 +627,13 @@
 				"name" : "mo.keyboard.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

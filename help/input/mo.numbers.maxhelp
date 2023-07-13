@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 586.0, 245.0, 23.0 ],
-					"text" : "0.348837 0.366279 0.372093 0.69186"
+					"text" : "0.175898 0.891991 0.977954 0.385265"
 				}
 
 			}
@@ -344,7 +344,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 417.999999999999886, 214.0, 135.0 ],
-					"varname" : "mo.sliders",
+					"varname" : "mo.numbers",
 					"viewvisibility" : 1
 				}
 
@@ -636,16 +636,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.numbers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.numbers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

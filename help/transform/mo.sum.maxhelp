@@ -293,6 +293,10 @@
 				"obj-16::obj-37" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
+,
+				"obj-16::obj-9" : 				{
+					"parameter_longname" : "live.text[141]"
+				}
 
 			}
 ,
@@ -300,6 +304,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.sum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",

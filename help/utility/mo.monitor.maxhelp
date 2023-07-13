@@ -243,12 +243,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 13.0,
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.529780500000015, 205.0, 106.0, 26.0 ],
+					"patching_rect" : [ 282.529780500000015, 205.0, 100.0, 25.0 ],
 					"text" : "clear monitor "
 				}
 
@@ -331,13 +331,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 13.0,
+					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.529780500000015, 163.5, 178.0, 26.0 ],
-					"text" : "generate random numbers"
+					"patching_rect" : [ 100.529780500000015, 163.5, 169.0, 25.0 ],
+					"text" : "generate random numbers "
 				}
 
 			}
@@ -412,6 +412,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-21" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
 				"obj-2::obj-39" : 				{
 					"parameter_longname" : "live.numbox[3]"
 				}
@@ -426,9 +430,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.monitor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

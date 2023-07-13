@@ -60,8 +60,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1339.0, 796.626276284456253, 71.0, 23.0 ],
-					"text" : "mo.settings"
+					"patching_rect" : [ 1339.0, 796.626276284456253, 82.0, 23.0 ],
+					"text" : "a-mo.settings"
 				}
 
 			}
@@ -152,7 +152,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[482]",
+							"parameter_longname" : "live.text[83]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -174,15 +174,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 383.0, 497.454681618139148, 332.0, 23.0 ],
+					"patching_rect" : [ 383.0, 497.454681618139148, 312.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Chans @bindto Chans-NB @initial 1 @default_interp 0",
-					"varname" : "Chans"
+					"text" : "pattr chans @bindto chans- @initial 1 @default_interp 0",
+					"varname" : "chans"
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0, 410.662493303418159, 80.0, 18.0 ],
+					"patching_rect" : [ 313.0, 410.662493303418159, 39.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.5, 22.0, 39.0, 18.0 ],
 					"text" : "winsize"
@@ -234,7 +234,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[187]",
+							"parameter_longname" : "live.numbox[89]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -244,7 +244,7 @@
 
 					}
 ,
-					"varname" : "Chans-NB"
+					"varname" : "chans-"
 				}
 
 			}
@@ -269,15 +269,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 383.0, 562.412493303418159, 231.0, 23.0 ],
+					"patching_rect" : [ 383.0, 562.412493303418159, 211.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 10 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Clock @bindto Clock-NB @initial 10",
-					"varname" : "Clock"
+					"text" : "pattr clock @bindto clock- @initial 10",
+					"varname" : "clock"
 				}
 
 			}
@@ -289,15 +289,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 383.0, 529.933587460778654, 261.0, 23.0 ],
+					"patching_rect" : [ 383.0, 529.933587460778654, 239.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 500 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr Winsize @bindto Winsize-NB @initial 500",
-					"varname" : "Winsize"
+					"text" : "pattr winsize @bindto winsize- @initial 500",
+					"varname" : "winsize[1]"
 				}
 
 			}
@@ -412,7 +412,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 218.0, 84.0, 30.0, 30.0 ]
 				}
 
@@ -426,7 +426,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.75, 465.412493303418159, 53.0, 18.0 ],
+					"patching_rect" : [ 303.75, 466.412493303418159, 31.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.089769542217255, 51.513406862386546, 31.0, 18.0 ],
 					"text" : "clock"
@@ -481,7 +481,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[188]",
+							"parameter_longname" : "live.numbox[90]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -490,7 +490,7 @@
 
 					}
 ,
-					"varname" : "Clock-NB"
+					"varname" : "clock-"
 				}
 
 			}
@@ -597,7 +597,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[189]",
+							"parameter_longname" : "live.numbox[88]",
 							"parameter_mmax" : 60000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -606,7 +606,7 @@
 
 					}
 ,
-					"varname" : "Winsize-NB"
+					"varname" : "winsize-"
 				}
 
 			}

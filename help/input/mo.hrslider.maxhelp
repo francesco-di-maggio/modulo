@@ -266,7 +266,6 @@
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
 					"minimum" : 0.0,
-					"numdecimalplaces" : 3,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -306,8 +305,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.755791574060538, 263.0, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 379.755791574060538, 263.0, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -489,8 +488,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

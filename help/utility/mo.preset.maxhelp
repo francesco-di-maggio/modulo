@@ -90,6 +90,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 41.0, 216.499999999999943, 91.0, 23.0 ],
+									"text" : "prepend device"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"active1" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 									"bubblesize" : 22,
@@ -188,7 +200,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.5, 210.499999999999943, 33.0, 23.0 ],
+									"patching_rect" : [ 146.5, 216.499999999999943, 33.0, 23.0 ],
 									"text" : "read"
 								}
 
@@ -201,7 +213,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 210.499999999999943, 146.0, 25.0 ],
+									"patching_rect" : [ 253.0, 216.499999999999943, 146.0, 25.0 ],
 									"text" : "interpolate preset 1-2 "
 								}
 
@@ -217,7 +229,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 181.5, 210.499999999999943, 50.0, 23.0 ]
+									"patching_rect" : [ 192.5, 216.499999999999943, 50.0, 23.0 ]
 								}
 
 							}
@@ -228,7 +240,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 181.5, 254.499999999999943, 74.0, 23.0 ],
+									"patching_rect" : [ 192.5, 251.499999999999943, 74.0, 23.0 ],
 									"text" : "recall 1 2 $1"
 								}
 
@@ -376,7 +388,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 210.499999999999943, 80.0, 23.0 ],
+									"patching_rect" : [ 41.0, 216.499999999999943, 80.0, 23.0 ],
 									"text" : "prepend read"
 								}
 
@@ -423,7 +435,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"midpoints" : [ 191.0, 234.0, 191.0, 234.0 ],
+									"midpoints" : [ 202.0, 240.0, 202.0, 240.0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -431,7 +443,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 143.0, 300.0, 50.5, 300.0 ],
+									"midpoints" : [ 156.0, 300.0, 50.5, 300.0 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -447,7 +459,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 191.0, 300.0, 50.5, 300.0 ],
+									"midpoints" : [ 202.0, 300.0, 50.5, 300.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -626,7 +638,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 262.0, 251.499999999999943, 102.0, 25.0 ],
+									"patching_rect" : [ 235.5, 250.499999999999943, 102.0, 25.0 ],
 									"text" : "store a preset "
 								}
 
@@ -639,7 +651,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.5, 209.499999999999943, 92.0, 25.0 ],
+									"patching_rect" : [ 192.5, 215.499999999999943, 92.0, 25.0 ],
 									"text" : "clear preset "
 								}
 
@@ -651,7 +663,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.0, 252.499999999999943, 36.0, 23.0 ],
+									"patching_rect" : [ 192.5, 251.499999999999943, 36.0, 23.0 ],
 									"text" : "write"
 								}
 
@@ -798,7 +810,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 210.499999999999943, 91.0, 23.0 ],
+									"patching_rect" : [ 41.0, 216.499999999999943, 91.0, 23.0 ],
 									"text" : "prepend device"
 								}
 
@@ -822,7 +834,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.5, 210.499999999999943, 35.0, 23.0 ],
+									"patching_rect" : [ 145.5, 216.499999999999943, 35.0, 23.0 ],
 									"text" : "clear"
 								}
 
@@ -861,7 +873,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
+									"midpoints" : [ 50.5, 240.0, 50.5, 240.0 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -869,7 +881,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 104.806746999999973, 189.0, 50.5, 189.0 ],
+									"midpoints" : [ 104.806746999999973, 201.0, 50.5, 201.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -885,7 +897,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 228.5, 300.0, 50.5, 300.0 ],
+									"midpoints" : [ 202.0, 300.0, 50.5, 300.0 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -893,7 +905,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 167.0, 300.0, 50.5, 300.0 ],
+									"midpoints" : [ 155.0, 300.0, 50.5, 300.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1040,6 +1052,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",

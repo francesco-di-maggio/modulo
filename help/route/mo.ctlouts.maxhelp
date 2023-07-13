@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 358.912314266622332, 491.797012329101562, 92.5, 23.0 ],
+					"patching_rect" : [ 358.912314266622332, 476.797012329101562, 92.5, 23.0 ],
 					"text" : "midiparse"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 358.912314266622332, 457.297012329101562, 141.0, 23.0 ],
+					"patching_rect" : [ 358.912314266622332, 442.297012329101562, 141.0, 23.0 ],
 					"text" : "midiin \"IAC Driver Bus 1\""
 				}
 
@@ -71,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.722286992595002, 542.297012329101562, 176.0, 21.0 ],
+					"patching_rect" : [ 404.31730062960861, 555.297012329101562, 176.0, 21.0 ],
 					"text" : "control change (number, value)"
 				}
 
@@ -84,7 +84,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.097286992595059, 541.297012329101562, 51.440027274027386, 23.0 ]
+					"patching_rect" : [ 347.692300629608667, 554.297012329101562, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -409,7 +409,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 389.412314266622332, 527.797012329101562, 389.037314266622445, 527.797012329101562 ],
+					"midpoints" : [ 389.412314266622332, 527.797012329101562, 389.632327903636053, 527.797012329101562 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -465,7 +465,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 368.412314266622332, 482.797012329101562, 368.412314266622332, 482.797012329101562 ],
+					"midpoints" : [ 368.412314266622332, 467.797012329101562, 368.412314266622332, 467.797012329101562 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -923,16 +923,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.ctlouts.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.ctlouts.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

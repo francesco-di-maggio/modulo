@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 314.0, 479.0 ],
+		"rect" : [ 34.0, 100.0, 307.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 427.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 438.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -229,7 +229,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 41.0, 316.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 327.0, 70.0, 87.0 ],
 					"varname" : "mo.led",
 					"viewvisibility" : 1
 				}
@@ -299,8 +299,8 @@
 			}
 , 			{
 				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

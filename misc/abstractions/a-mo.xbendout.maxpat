@@ -41,6 +41,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 352.666666666666629, 110.823603877314895, 55.0, 23.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 157.666666666666629, 190.25, 61.0, 23.0 ],
+					"text" : "change 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
@@ -135,14 +159,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 43.666666666666657, 634.0, 58.0, 22.0 ],
+					"patching_rect" : [ 43.666666666666657, 634.0, 59.0, 23.0 ],
 					"text" : "xbendout"
 				}
 
@@ -303,7 +327,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 327.666666666666629, 190.25, 37.0, 23.0 ],
+					"patching_rect" : [ 327.666666666666629, 190.25, 44.0, 23.0 ],
 					"text" : "route"
 				}
 
@@ -346,14 +370,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 666.541666666666629, 527.149103158418484, 232.0, 23.0 ],
+					"patching_rect" : [ 666.541666666666629, 527.149103158418484, 239.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr channel @bindto channel- @initial 1",
+					"text" : "pattr channel @bindto channel- @initial #1",
 					"varname" : "channel"
 				}
 
@@ -382,6 +406,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -585,18 +610,18 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 53.666666666666629, 96.0, 355.166666666666629, 96.0 ],
-					"order" : 0,
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 53.666666666666629, 81.0, 53.666666666666629, 81.0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 53.666666666666629, 81.0, 53.666666666666629, 81.0 ],
-					"order" : 1,
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 53.666666666666629, 96.0, 362.166666666666629, 96.0 ],
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -759,7 +784,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
-					"midpoints" : [ 53.166666666666657, 657.0, 53.166666666666657, 657.0, 53.166666666666657, 693.0, 53.166666666666657, 693.0 ],
+					"midpoints" : [ 53.166666666666657, 660.0, 53.166666666666657, 660.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -782,7 +807,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 167.166666666666629, 57.0, 167.166666666666629, 57.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -790,8 +815,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"midpoints" : [ 167.166666666666629, 216.0, 167.166666666666629, 216.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
-					"midpoints" : [ 337.166666666666629, 621.0, 92.166666666666657, 621.0 ],
+					"midpoints" : [ 337.166666666666629, 621.0, 93.166666666666657, 621.0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 
@@ -809,6 +842,14 @@
 					"destination" : [ "obj-75", 0 ],
 					"midpoints" : [ 494.336828947067147, 498.0, 494.336828947067147, 498.0 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"midpoints" : [ 362.166666666666629, 135.0, 362.166666666666629, 135.0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

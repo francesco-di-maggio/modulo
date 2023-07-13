@@ -40,6 +40,49 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-3",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 424.0, 609.529662698412494, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 382.0, 429.521329365079339, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.5, 637.529662698412494, 120.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 332.0, 453.521329365079339, 120.0, 40.0 ],
+					"text" : "set MIDI output port"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 8 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -96,7 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 823.0, 356.566964285714334, 95.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.5, 439.529662698412551, 95.0, 25.0 ],
+					"presentation_rect" : [ 208.5, 439.529662698412551, 95.0, 25.0 ],
 					"text" : "open live set "
 				}
 
@@ -118,9 +161,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.5, 358.566964285714334, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 271.0, 441.529662698412551, 20.0, 20.0 ],
+					"presentation_rect" : [ 181.0, 441.529662698412551, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -139,7 +182,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 356.834821428571672, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.0, 439.521329365079339, 24.0, 24.0 ]
+					"presentation_rect" : [ 148.0, 439.521329365079339, 24.0, 24.0 ]
 				}
 
 			}
@@ -1477,6 +1520,10 @@
 					"parameter_longname" : "live.numbox[85]"
 				}
 ,
+				"obj-6::obj-56" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
 				"obj-6::obj-74::obj-35" : 				{
 					"parameter_longname" : "live.text[46]"
 				}
@@ -1712,6 +1759,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1743,13 +1797,6 @@
 				"name" : "mo.pads.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

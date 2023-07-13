@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 647.640615909090684, 167.0, 19.0, 20.0 ],
+					"patching_rect" : [ 645.640615909090684, 167.0, 19.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -281,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.140615909090684, 166.0, 29.5, 23.0 ],
+					"patching_rect" : [ 609.140615909090684, 166.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -295,7 +295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.640615909090684, 165.0, 76.0, 25.0 ],
+					"patching_rect" : [ 671.640615909090684, 165.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -320,8 +320,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.640615909090684, 166.0, 59.0, 23.0 ],
-					"text" : "theremini"
+					"patching_rect" : [ 538.640615909090684, 166.0, 57.0, 23.0 ],
+					"text" : "theremin"
 				}
 
 			}
@@ -332,8 +332,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.519709702272621, 215.935986729959382, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 538.519709702272621, 215.935986729959382, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -506,8 +506,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.519709702272621, 532.544013972083803, 68.0, 23.0 ],
-					"text" : "s theremini"
+					"patching_rect" : [ 538.519709702272621, 532.544013972083803, 65.0, 23.0 ],
+					"text" : "s theremin"
 				}
 
 			}
@@ -599,7 +599,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 620.640615909090684, 201.0, 548.019709702272621, 201.0 ],
+					"midpoints" : [ 618.640615909090684, 201.0, 548.019709702272621, 201.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -793,7 +793,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
+				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",

@@ -195,13 +195,39 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-1" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-2::obj-317::obj-218" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-2::obj-317::obj-219" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-7" : 				{
+					"parameter_longname" : "live.dial[7]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.adstatus.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

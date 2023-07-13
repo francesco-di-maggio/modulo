@@ -50,9 +50,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 763.526261102865533, 174.473738897134581, 30.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 607.841463416814804, 173.0, 25.279860869050026, 25.800694182515144 ]
+					"patching_rect" : [ 763.526261102865533, 174.473738897134581, 30.0, 29.0 ]
 				}
 
 			}
@@ -189,9 +187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 797.526261102865533, 174.473738897134581, 29.947477794269048, 29.947477794269048 ],
-					"pic" : "Macintosh HD:/Users/Home/Downloads/github.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 610.841463416814804, 176.0, 18.551791355013847, 18.551791355013847 ]
+					"pic" : "Macintosh HD:/Users/Home/Downloads/github.png"
 				}
 
 			}
@@ -1382,7 +1378,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Handle auxilary functions, such as monitoring, visualizing and recoridng input data.",
+									"text" : "Arrange and manipulate input data, such as pads, sliders, dials and numbers.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2419,7 +2415,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 7,
-									"num_lines_presentation" : 7,
+									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -2447,9 +2443,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.gain~", "mo.gridmeter~", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.timer" ],
+											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
-											"parameter_mmax" : 20,
+											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3559,8 +3555,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 916.0, 250.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 607.841463416814804, 173.0, 25.279860869050026, 25.800694182515144 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3716,11 +3710,11 @@
 			"obj-47::obj-9::obj-6.2::obj-10" : [ "live.text[6]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.2::obj-14" : [ "live.text[7]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.2::obj-15" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-27" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-32" : [ "live.numbox[15]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-27" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-32" : [ "live.numbox[6]", "live.text", 0 ],
 			"obj-47::obj-9::obj-6.2::obj-33" : [ "live.text[8]", "live.text", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-35" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-47::obj-9::obj-6.2::obj-38" : [ "live.numbox[16]", "live.text", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-35" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-47::obj-9::obj-6.2::obj-38" : [ "live.numbox[7]", "live.text", 0 ],
 			"obj-7::obj-11" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-7::obj-12" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-7::obj-46" : [ "live.menu[18]", "live.menu", 0 ],
@@ -3748,11 +3742,11 @@
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-27" : 				{
-					"parameter_longname" : "live.numbox[17]"
+					"parameter_longname" : "live.numbox[15]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-32" : 				{
-					"parameter_longname" : "live.numbox[15]"
+					"parameter_longname" : "live.numbox[6]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-33" : 				{
@@ -3760,11 +3754,11 @@
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-35" : 				{
-					"parameter_longname" : "live.numbox[6]"
+					"parameter_longname" : "live.numbox[16]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-38" : 				{
-					"parameter_longname" : "live.numbox[16]"
+					"parameter_longname" : "live.numbox[7]"
 				}
 
 			}
@@ -3774,6 +3768,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.rand.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",

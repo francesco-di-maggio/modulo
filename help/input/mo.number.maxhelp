@@ -316,6 +316,10 @@
 				"obj-1::obj-37" : 				{
 					"parameter_longname" : "live.text[13]"
 				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
 
 			}
 ,
@@ -326,6 +330,13 @@
 				"name" : "mo.number.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

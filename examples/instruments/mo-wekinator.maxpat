@@ -500,49 +500,11 @@
 						"mo.sliders::[3]::polarity" : 1,
 						"mo.sliders::[4]::polarity" : 1,
 						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::polarity" : 1,
-						"mo.sliders::[7]::polarity" : 1,
-						"mo.sliders::[8]::polarity" : 1,
-						"mo.sliders::[9]::polarity" : 1,
-						"mo.sliders::[10]::polarity" : 1,
-						"mo.sliders::[11]::polarity" : 1,
-						"mo.sliders::[12]::polarity" : 1,
-						"mo.sliders::[13]::polarity" : 1,
-						"mo.sliders::[14]::polarity" : 1,
-						"mo.sliders::[15]::polarity" : 1,
-						"mo.sliders::[16]::polarity" : 1,
 						"mo.sliders[1]::[1]::polarity" : 1,
 						"mo.sliders[1]::[2]::polarity" : 1,
 						"mo.sliders[1]::[3]::polarity" : 1,
 						"mo.sliders[1]::[4]::polarity" : 1,
-						"mo.sliders[1]::[5]::polarity" : 1,
-						"mo.sliders[1]::[6]::polarity" : 1,
-						"mo.sliders[1]::[7]::polarity" : 1,
-						"mo.sliders[1]::[8]::polarity" : 1,
-						"mo.sliders[1]::[9]::polarity" : 1,
-						"mo.sliders[1]::[10]::polarity" : 1,
-						"mo.sliders[1]::[11]::polarity" : 1,
-						"mo.sliders[1]::[12]::polarity" : 1,
-						"mo.sliders[1]::[13]::polarity" : 1,
-						"mo.sliders[1]::[14]::polarity" : 1,
-						"mo.sliders[1]::[15]::polarity" : 1,
-						"mo.sliders[1]::[16]::polarity" : 1,
-						"mo.sliders[2]::[1]::polarity" : 1,
-						"mo.sliders[2]::[2]::polarity" : 1,
-						"mo.sliders[2]::[3]::polarity" : 1,
-						"mo.sliders[2]::[4]::polarity" : 1,
-						"mo.sliders[2]::[5]::polarity" : 1,
-						"mo.sliders[2]::[6]::polarity" : 1,
-						"mo.sliders[2]::[7]::polarity" : 1,
-						"mo.sliders[2]::[8]::polarity" : 1,
-						"mo.sliders[2]::[9]::polarity" : 1,
-						"mo.sliders[2]::[10]::polarity" : 1,
-						"mo.sliders[2]::[11]::polarity" : 1,
-						"mo.sliders[2]::[12]::polarity" : 1,
-						"mo.sliders[2]::[13]::polarity" : 1,
-						"mo.sliders[2]::[14]::polarity" : 1,
-						"mo.sliders[2]::[15]::polarity" : 1,
-						"mo.sliders[2]::[16]::polarity" : 1
+						"mo.sliders[1]::[5]::polarity" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -684,7 +646,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", "CLEAR", "@mode", 1, "@color", "blue" ],
+					"args" : [ "@set", "CLEAR", "@mode", 1, "@color", "blue" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -709,7 +671,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", "RUN", "@color", "green" ],
+					"args" : [ "@set", "RUN", "@color", "green" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -734,7 +696,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", "TRAIN", "@mode", 1, "@color", "yellow" ],
+					"args" : [ "@set", "TRAIN", "@mode", 1, "@color", "yellow" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -759,7 +721,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@device", "RECORD", "@color", "red" ],
+					"args" : [ "@set", "RECORD", "@color", "red" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1787,6 +1749,7 @@
 			"obj-7::obj-123::obj-68" : [ "live.numbox[192]", "live.numbox", 0 ],
 			"obj-7::obj-123::obj-72" : [ "live.numbox[191]", "live.numbox", 0 ],
 			"obj-7::obj-123::obj-9" : [ "live.numbox[46]", "live.numbox", 0 ],
+			"obj-7::obj-15" : [ "live.numbox[120]", "live.text", 0 ],
 			"obj-7::obj-16" : [ "live.text[112]", "live.text", 0 ],
 			"obj-7::obj-1::obj-15" : [ "live.numbox[58]", "live.numbox", 0 ],
 			"obj-7::obj-1::obj-26" : [ "live.text[80]", "live.text", 0 ],
@@ -1795,6 +1758,7 @@
 			"obj-7::obj-1::obj-68" : [ "live.numbox[56]", "live.numbox", 0 ],
 			"obj-7::obj-1::obj-72" : [ "live.numbox[55]", "live.numbox", 0 ],
 			"obj-7::obj-1::obj-9" : [ "live.numbox[54]", "live.numbox", 0 ],
+			"obj-7::obj-35" : [ "live.numbox[121]", "live.numbox", 0 ],
 			"obj-7::obj-36::obj-15" : [ "live.numbox[63]", "live.numbox", 0 ],
 			"obj-7::obj-36::obj-26" : [ "live.text[96]", "live.text", 0 ],
 			"obj-7::obj-36::obj-35" : [ "live.text[97]", "live.text", 0 ],
@@ -1802,6 +1766,7 @@
 			"obj-7::obj-36::obj-68" : [ "live.numbox[61]", "live.numbox", 0 ],
 			"obj-7::obj-36::obj-72" : [ "live.numbox[60]", "live.numbox", 0 ],
 			"obj-7::obj-36::obj-9" : [ "live.numbox[59]", "live.numbox", 0 ],
+			"obj-7::obj-37" : [ "live.numbox[119]", "live.numbox", 0 ],
 			"obj-7::obj-40::obj-15" : [ "live.numbox[68]", "live.numbox", 0 ],
 			"obj-7::obj-40::obj-26" : [ "live.text[81]", "live.text", 0 ],
 			"obj-7::obj-40::obj-35" : [ "live.text[82]", "live.text", 0 ],
@@ -1881,7 +1846,7 @@
 			"obj-7::obj-50::obj-9" : [ "live.numbox[117]", "live.numbox", 0 ],
 			"obj-7::obj-59" : [ "live.numbox[124]", "live.numbox", 0 ],
 			"obj-7::obj-66" : [ "live.numbox[123]", "live.numbox", 0 ],
-			"obj-7::obj-68" : [ "live.numbox[120]", "live.numbox", 0 ],
+			"obj-7::obj-68" : [ "live.numbox[125]", "live.numbox", 0 ],
 			"obj-7::obj-72" : [ "live.numbox[122]", "live.numbox", 0 ],
 			"obj-7::obj-74::obj-15" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-7::obj-74::obj-26" : [ "live.text[78]", "live.text", 0 ],
@@ -2489,6 +2454,34 @@
 					"parameter_longname" : "live.numbox[4]"
 				}
 ,
+				"obj-7::obj-123::obj-15" : 				{
+					"parameter_longname" : "live.numbox[190]"
+				}
+,
+				"obj-7::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[483]"
+				}
+,
+				"obj-7::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[193]"
+				}
+,
+				"obj-7::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[192]"
+				}
+,
+				"obj-7::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[191]"
+				}
+,
+				"obj-7::obj-123::obj-9" : 				{
+					"parameter_longname" : "live.numbox[46]"
+				}
+,
+				"obj-7::obj-15" : 				{
+					"parameter_longname" : "live.numbox[120]"
+				}
+,
 				"obj-7::obj-16" : 				{
 					"parameter_longname" : "live.text[112]"
 				}
@@ -2521,6 +2514,10 @@
 					"parameter_longname" : "live.numbox[54]"
 				}
 ,
+				"obj-7::obj-35" : 				{
+					"parameter_longname" : "live.numbox[121]"
+				}
+,
 				"obj-7::obj-36::obj-15" : 				{
 					"parameter_longname" : "live.numbox[63]"
 				}
@@ -2547,6 +2544,10 @@
 ,
 				"obj-7::obj-36::obj-9" : 				{
 					"parameter_longname" : "live.numbox[59]"
+				}
+,
+				"obj-7::obj-37" : 				{
+					"parameter_longname" : "live.numbox[119]"
 				}
 ,
 				"obj-7::obj-40::obj-15" : 				{
@@ -2866,7 +2867,7 @@
 				}
 ,
 				"obj-7::obj-68" : 				{
-					"parameter_longname" : "live.numbox[120]"
+					"parameter_longname" : "live.numbox[125]"
 				}
 ,
 				"obj-7::obj-72" : 				{
@@ -2925,6 +2926,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -2970,13 +2978,6 @@
 				"name" : "mo.send.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

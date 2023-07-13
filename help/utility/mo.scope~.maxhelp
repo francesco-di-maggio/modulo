@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.140615909090684, 252.0, 95.0, 25.0 ],
+					"patching_rect" : [ 333.140615909090684, 259.0, 95.0, 25.0 ],
 					"text" : "mute output "
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.140615909090684, 252.0, 24.0, 24.0 ],
+					"patching_rect" : [ 302.140615909090684, 259.0, 24.0, 24.0 ],
 					"varname" : "toggle[3]"
 				}
 
@@ -73,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.140615909090684, 295.0, 53.0, 23.0 ],
+					"patching_rect" : [ 302.140615909090684, 302.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.640615909090684, 252.0, 55.0, 23.0 ],
+					"patching_rect" : [ 235.640615909090684, 259.0, 55.0, 23.0 ],
 					"text" : "mode $1"
 				}
 
@@ -339,7 +339,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 311.640615909090684, 279.0, 311.640615909090684, 279.0 ],
+					"midpoints" : [ 311.640615909090684, 285.0, 311.640615909090684, 285.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -371,7 +371,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 245.140615909090684, 276.0, 245.5, 276.0 ],
+					"midpoints" : [ 245.140615909090684, 285.0, 245.5, 285.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -412,16 +412,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.scope~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 480.0, 574.0 ],
+		"rect" : [ 34.0, 100.0, 438.0, 574.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 480.0, 548.0 ],
+						"rect" : [ 34.0, 126.0, 438.0, 548.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -408,7 +408,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 480.0, 548.0 ],
+						"rect" : [ 0.0, 26.0, 438.0, 548.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -502,8 +502,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 102.0, 463.0, 22.0 ],
-									"text" : "To save content on relauch, enable \"Embed Patcher in Parent\" in the Inspector.",
+									"patching_rect" : [ 9.0, 102.0, 400.0, 22.0 ],
+									"text" : "To save content, enable \"Embed Patcher in Parent\" in the Inspector.",
 									"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 								}
 
@@ -1483,6 +1483,7 @@
 			"obj-3::obj-5::obj-41" : [ "live.text[53]", "live.text", 0 ],
 			"obj-4::obj-5::obj-11" : [ "live.text[124]", "live.text", 0 ],
 			"obj-4::obj-5::obj-22" : [ "live.text[2]", "live.text", 0 ],
+			"obj-4::obj-5::obj-27" : [ "live.tab", "live.tab", 0 ],
 			"obj-4::obj-5::obj-4" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-5::obj-41" : [ "live.text[3]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -1511,6 +1512,10 @@
 					"parameter_longname" : "live.text[53]"
 				}
 ,
+				"obj-4::obj-5::obj-11" : 				{
+					"parameter_longname" : "live.text[124]"
+				}
+,
 				"obj-4::obj-5::obj-22" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -1529,9 +1534,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.notepad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
