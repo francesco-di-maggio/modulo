@@ -1,0 +1,46 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.send",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"numinlets" : 2,
+					"patching_rect" : [ 10.0, 10.0, 214.0, 57.5 ],
+					"numoutlets" : 0,
+					"name" : "mo.send.maxpat",
+					"id" : "obj-1"
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "214 x 57, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.send",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 57, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAANYAAAA6CAYAAADMZafXAAAABHNCSVQICAgIfAhkiAAAAvpJREFUeJzt3bEva2EYx/HfqZMGJ6oxNU43C2ERti5NurRJkYiYLP4GBjHQmMvUmMXckaGLiKGbQSNhsxxBDBKiAxp3uIkb99a9t3hue+v7WSTHIc/yTdV5+76OpGcB+FSuJJ2fnzd7DqBt+L6vULOHANoRYQEGCAsw4Na76Pt+w7+I92nAD3XDkhoL5T0hAu2MPwUBAy0f1srKivb29po9BtCQlg/r8vJS1Wq12WMADTELKwgCZTIZjYyMvLzibG1tKZFIKJVK6ejoSEEQKJ1Oa3Z2VqOjoyqVSpKk/f19pdNpZTIZnZycWI0ImDELa2dnR57naXd3V9VqVVdXVyoUCtre3tbMzIzy+bxqtZqOj4+1tramXC6nfD4vSVpeXtbS0pIKhYKur6+tRgTMmIU1MTEh13U1OTmpIAh0cHCgWq2mXC6ncrmsvr4+SVI8Htfg4KBSqZTOzs4UBIHu7++VTCY1MDCgsbExqxEBM2ZhlUolLS4uqlgsamNjQ0NDQ+ro6NDm5qbW19fV29v7fYBQ6NXX/v5+PT096fT0VDc3N6pUKlYjAmbefI71UfF4XPPz84pEIpqbm9Pw8LCmpqY0Pj4uz/O0sLDw6n7HceQ4jkKhkFZXVzU9Pa1oNKrOzk45jmM1JmDCkfT888Ng3/cbfkBc7/6Hhwc9Pj7K87yXa7e3t+ru7pbr/r7pu7s7dXV1/fE+oNX4vm/3iiVJ4XBY4XD41bVIJPJXP9vT02MxEvBPvBkWy5SA96sbFgtqgY9p+ZUXwP+IsAADhAUYcMQuTcCnY5cm4JOxSxNghLAAA4QFGCAswABhAQYICzBAWIABwgIMEBZggLAAA4QFGCAswIDZnhd8tB9fQSwW0+Hh4S/XTTeTYdU82tnFxYWy2Wzd73HwHGCAg+cAA/zzAjBAWIABwgIMEBZggLAAA4QFGCAswABhAQYICzBAWIABDp4DDJgePEecaHexWKzudbOPjbDaHV8Z77EAA4QFGCAswABhAQY4KhUw8A3ga7wPgfSN+wAAAABJRU5ErkJggg=="
+		}
+
+	}
+
+}

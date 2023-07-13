@@ -46,7 +46,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.806426948308854, 9.601844755165075, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 406.557356909910936, 14.601844755165075, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 64.064706000000001, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{

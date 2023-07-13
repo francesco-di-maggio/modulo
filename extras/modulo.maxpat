@@ -203,7 +203,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 842.0, 249.954297363758087, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.158536583185196, 33.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 37.158536583185196, 37.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -1813,7 +1813,7 @@
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.index", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
-														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ]
+														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2414,7 +2414,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 7,
+									"num_lines_patching" : 8,
 									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3521,7 +3521,7 @@
 					"patching_rect" : [ 21.5, 21.0, 140.947477794268991, 140.947477794268991 ],
 					"pic" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/icon.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 33.158536583185196, 33.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 37.158536583185196, 37.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -3575,7 +3575,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.4408, 0.3874, 0.15748, 0.34976, 0.49164, 0.32988 ],
+					"nsize" : [ 0.28896, 0.18044, 0.359, 0.2302, 0.46584, 0.38228 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3593,8 +3593,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.0061, 0.9069, 0.9466, 0.1055, 0.67, 0.7365 ],
-					"yplace" : [ 0.8994, 0.7244, 0.1184, 0.1763, 0.5873, 0.5784 ]
+					"xplace" : [ 0.233, 0.0344, 0.7274, 0.4148, 0.6086, 0.0264 ],
+					"yplace" : [ 0.1261, 0.1551, 0.0513, 0.5465, 0.4166, 0.254 ]
 				}
 
 			}
@@ -3791,13 +3791,6 @@
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

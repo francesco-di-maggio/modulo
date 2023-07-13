@@ -1,0 +1,47 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.vrslider",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"name" : "mo.vrslider.maxpat",
+					"id" : "obj-1",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 70.0, 265.0 ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "70 x 265, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.vrslider",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "70 x 265, containing 1 object",
+			"image" : "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"
+		}
+
+	}
+
+}

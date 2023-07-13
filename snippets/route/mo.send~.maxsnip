@@ -1,0 +1,46 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.send~",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"numinlets" : 2,
+					"patching_rect" : [ 10.0, 10.0, 214.0, 57.5 ],
+					"numoutlets" : 0,
+					"name" : "mo.send~.maxpat",
+					"id" : "obj-1"
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "214 x 57, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.send~",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 57, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAANYAAAA6CAYAAADMZafXAAAABHNCSVQICAgIfAhkiAAAA5xJREFUeJzt3T1I61AYBuA3tRQ1WH8Wi4m7qIvoZEUEQRrqD4gIBQcdBSfrIA5adBI6SXAWZxEHHbpIwUnBQRF06RZRcRAUW6zW3ukW9KZotd+tNu+zFE6T8g3nJSfpyTkKgCyIqKjcAHB5eVnqOojKhqZpcJW6CKJyxGARCWCwiAS47Ro1TSv4h3ifRr/RV/r6e3Z93zZY+Q7OpxjFEZXKdy4K+fo+h4JEAn58sBYXF7G/v1/qMsiBtra20Nvbi3Q6XfC5eYeCP8X19TWSyWSpyyCHWVlZweHhIRKJBLLZwudQiF2xLMuCYRhob2/PXXE2Njbg9/vR39+Pk5MTWJaFQCCA8fFxdHR0IBaLAQDi8TgCgQAMw8D5+blUiUR5TU5OYmdnBy7X1yIiFqzd3V2oqoq9vT0kk0nc3NzANE1sbm5ibGwM0WgUmUwGZ2dnWF5eRiQSQTQaBQAsLCxgfn4epmni9vYWAJBIJDAwMIBgMIjV1VV0d3fj7u5OqnxyuObmZrjdXx/QiQ0Fh4aGEI/HMTw8jOnpaaRSKWQyGUQiEQBAQ0MDAEDXdbS0tEDXdYTDYViWhcfHR/T19QEAOjs7AQBPT09YW1uDrus4ODiA3+9HfX29VPlE3yIWrFgshrm5OdTW1iIYDGJ7exsVFRVYX19HKpWCaZoAkLvU/v1samrCy8sLLi4u0NjYiNPTU4RCIbS2tuZ+2zAMqbKJikIsWLquY2pqCl6vFxMTE2hra8PIyAi6urqgqirC4fCb4xVFgaIocLlcWFpawujoKOrq6lBZWQlFUaTKJLI1MzODo6MjvL6+oqenB6FQCLOzs58+XwGQff8HmaZpBf9BbHd8Op3G8/MzVFXNtd3f36O6uvrD8evDwwOqqqq+Nc4l+kihff0z52uaJvu43ePxwOPxvGnzer2fOrempkaiJKL/Im+wOE2JnEKir9sGixNqySmk+vqPn9JE9BsxWEQCGCwiAQq4ShNR0XGVJqIi4ypNREIYLCIBDBaRAAaLSACDRSSAwSISwGARCWCwiAQwWEQCGCwiAQwWkQAGi0gAg0UkQGwxGa6ZQU7g8/lwfHz8T7voKk18HYXK2dXVFQYHB22/446ORAK4oyORAD68IBLAYBEJYLCIBDBYRAIYLCIBDBaRAAaLSACDRSSAwSISwGARCeCOjkQCRHd0ZDip3Pl8Ptt2sddGONudnIz3WEQCGCwiAQwWkQBulUok4A+tDveLl0093AAAAABJRU5ErkJggg=="
+		}
+
+	}
+
+}

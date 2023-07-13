@@ -1,0 +1,47 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.pad",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"patching_rect" : [ 10.0, 10.0, 70.0, 87.0 ],
+					"outlettype" : [ "" ],
+					"name" : "mo.pad.maxpat",
+					"id" : "obj-1"
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "70 x 87, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.pad",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "70 x 87, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAABXCAYAAAC5pDO6AAAABHNCSVQICAgIfAhkiAAAA1BJREFUeJzt3DtL6wAYxvGnF6MgiAoWarwNTgURwVroaMAOEUHwA+jqpoOgODiIX0DoIjiIi0gXtZOguKigeMGxk5QiuokWFJSe4Vw4nubB1DbYU57fmJL0zZ8mTRuID0ABUiQIALlc7rvnqCqmacL/3UNUK4UhFIYIOi00TbPkDVXLearU2UOhEC4vL4uWO4YBStvRr4T0ktvZHx4ekEgkHF/ToUTQT8x3GR0dxebmJpqbm8ve1tnZGWZmZj4sa2lpwe7u7qfrVl2Y29tbvL+/V2Rb/f392N7exs3NDZaWlpBKpRAIBFyt69mhtLOzg4mJCViWhXg8jpOTEwDA/Pw8+vr6MDw8jEwmAwBYW1vD0NAQJicnkc/nKzaDYRgIh8Noa2tDXV0dwuEwQqGQq3U9C5PP55HJZLC+vo6FhQXMzc0hm83C7/fj4uICtm1jY2MDuVwOyWQSqVQK4+PjeH199Wqkknh68o3FYuju7oZt27i7u0NTUxMAYGRkBFtbW7i/v8fx8TFisRg6OzsxNjaGhoYGL0dyzdMwV1dXeHp6wvn5Odrb25HNZnF4eIj9/X1MTU0BACKRCK6vr/H8/IzT01O8vLx4OZJrnp58g8EgEokECoUCFhcX0dPTg/r6eliWhcbGRnR0dCASicCyLAwODqKrqwuGYcDn83k5lrvZvdx4PB7HysoK/H4/gsGfb3VwcIDHx8cPX8fLy8uYnZ1Fa2urJ3MMDAzg6OiopHU8C9Pb24tAIADDMD4s9/l8jtcoXkX5Khqm3Mv8aDSKaDRa1ja+qpTZ2de3Y5hq+UH4FZWaXb+VCIUhFIbwQXcJHNXsXYJ0Oo3p6Wm8vb0VvWbbNpLJ5J9rq3/V9F0CtvOfRfmtZsMAxRHcRgF+nWNq8VD6Wzqdxt7eHlZXV11FMU3TOUy1/bntNaf9r8hdgv8Z+xDU9DmmHApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMITCEApDKAyhMIRnz4/539Xc82MqRYcSoTCEwhB6fgzxAy5P1DGeUynCAAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

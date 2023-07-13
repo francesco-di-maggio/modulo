@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
-		"openrect" : [ 0.0, 0.0, 214.458715558052063, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4279,7 +4279,7 @@
 				"box" : 				{
 					"comment" : "(list) carrier, harmonicity, ratio, rate, depth, gain",
 					"id" : "obj-79",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4521,7 +4521,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) stereo output",
 					"id" : "obj-208",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6213,6 +6213,58 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-111" : [ "live.dial[35]", "detune", 0 ],
+			"obj-112" : [ "live.dial[4]", "decay", 0 ],
+			"obj-113" : [ "live.dial[5]", "attack", 0 ],
+			"obj-114" : [ "live.dial[6]", "sustain", 0 ],
+			"obj-116" : [ "live.dial[31]", "live.dial[12]", 0 ],
+			"obj-118" : [ "live.dial[33]", "pitch", 0 ],
+			"obj-12" : [ "live.text[229]", "live.text", 0 ],
+			"obj-22" : [ "live.dial[11]", "live.dial[18]", 0 ],
+			"obj-24" : [ "live.dial[3]", "release", 0 ],
+			"obj-25" : [ "live.dial[2]", "semitone", 0 ],
+			"obj-27" : [ "live.dial[34]", "vibrato", 0 ],
+			"obj-34" : [ "live.text[285]", "live.text", 0 ],
+			"obj-37" : [ "live.text[288]", "octave", 0 ],
+			"obj-4" : [ "live.dial[1]", "volume", 0 ],
+			"obj-42" : [ "live.text[287]", "live.text", 0 ],
+			"obj-7" : [ "live.dial[18]", "live.dial[7]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

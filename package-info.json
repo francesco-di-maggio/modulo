@@ -1,14 +1,14 @@
 {	
 	"name" : "modulo",
 	"displayname" : "",
-	"version" : "0.2.0",
+	"version" : "1.0.0",
 	"author" : "Francesco Di Maggio",
-	"description" : "A Lego set for for tinkering digital musical instruments.",
-	"tags" : [ "digital musical instruments", "design", "lego", "modular", "multichannel", "input", "route", "transform", "map" ],
+	"description" : "A Lego set for tinkering digital musical instruments.",
+	"tags" : [ "digital", "musical", "instruments", "design", "lego", "modular", "multichannel", "input", "route", "transform", "map", "midi", "osc" ],
 	"website" : "https://francescodimaggio.nl"
-	"extensible" : 1,
+	"extensible" : 0,
 	"extends" : "",
-	"max_version_min" : "7.1", 
+	"max_version_min" : "8.3", 
 	"max_version_max" : "none",
 	"os" : {
 		"macintosh" : {
@@ -21,5 +21,5 @@
 		}
 	},
 	"homepatcher" : "modulo.maxpat",
-	"forcerestart" : 1
+	"forcerestart" : 0
 }

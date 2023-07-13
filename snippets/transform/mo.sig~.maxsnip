@@ -1,0 +1,47 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.sig~",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"name" : "mo.sig~.maxpat",
+					"id" : "obj-1",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "multichannelsignal", "" ],
+					"patching_rect" : [ 10.0, 10.0, 70.0, 27.0 ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "70 x 27, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.sig~",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "70 x 27, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAAAbCAYAAADBPvmtAAAABHNCSVQICAgIfAhkiAAAAf1JREFUWIXtma2rIlEYhx+XwaDo1MExXAWbRSw2QVBQUTDYLBb/Ai2C/4BlwKLNavYjiGCyiIhBi92PJIIgCIpz0xp2nd17XY5X7s4TD8zM7zzznjNzeC2AjslvSADr9fqrc7wUqqry46tDvCqmGANMMQZI9wZVVf30jb7bPnVXDHxuoo+IfHXMpWTA08Qsl0vC4TCXy+VZj/wnnibm7e2NUqmEJBmu3pdCmJjVakU8Hsfv9zMcDjkcDtTrdQAGgwHRaJREIkEymWQ8HouK8TDCXl+328Vut9Pr9ZjP51yvVzabDbquUy6XqdVqKIpCLBbjdDrR7XapVqsoikIwGGQ0GtHpdETF+yvCKiaVSiFJEul0mtVqdRvfbrccj0dCoRAejwefzweAzWaj3W5Tq9Xwer1omiYq2ocQVjH9fp9isYgsyySTSTKZDAAulwtZltE0DUVRmM/nAEQikdu12WxWVKwPI0yM2+0mn8/jdDrJ5XJYLBYAdF1H0zSazSbH4xFVVXE4HKJiPIwwMbFYjOl0yvl8xm63AzCbzVgsFhQKBSqVCvv9Hl3XCQQComI8jNDPtdVqvUn5id/vp9FoMJlM2O12tFqtWzW9EhZA//X3/38/K6mqen8pfadJPop5VjLAFGOAKcYAC2aX4C5ml+AOZpfgD5hiDDD3GAPeAbJpmtGQZU2RAAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

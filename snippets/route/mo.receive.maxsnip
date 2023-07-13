@@ -1,0 +1,47 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.receive",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"numinlets" : 1,
+					"patching_rect" : [ 10.0, 10.0, 214.0, 57.5 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"name" : "mo.receive.maxpat",
+					"id" : "obj-1"
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "214 x 57, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.receive",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 57, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAANYAAAA6CAYAAADMZafXAAAABHNCSVQICAgIfAhkiAAAAyZJREFUeJzt3TtLI1EYxvEnY0QxbYgJ0zg2CgqiaJFG8VKKwUtQ0MLGbyBCsLAStLOyESEWljbiR7CwsRHTigSDA6KdGEHjFrLXzO4a13dnyf5/5cnL4QzMw+TM5ZyIpBcB+FBRSSqVSmGPA6gbruvKCXsQQD0iWIABggUYiAY1uq5bc0fM04CvAoMl1RaU9wQRqGf8FQQM/PPBqlQqGh0d1dnZWdhDAd7snw+W4zhaXl5We3t72EMB3swsWIeHh1pYWNDIyIi2trZ0fHysiYkJ9fb26uDgQJJ0cnKiyclJ9fT0KJ/PS1Jg3e7urnzf19DQkG5vbyVJc3NzOj8/D6wHwvbTmxd/6v7+XsViUXt7e3p8fNTS0pLW19fV1NSkxcVFZTIZra6uKpfLqbOzU2tra5qfn1cul6uq831fjuOoo6NDR0dHSqfTury8VFdXlwYHB6vqo1GzwwLexPQM7Ovrk+d5urq6UrFY1M7OjiSpv79fhUJBNzc3Ghsbk/R6VQqqu7u7+9JfNpvV9va2fN/X9PS0SqVSYH0ikbA8LOC3TOdYn68cqVRKsVhMKysryufz8jxPqVRKT09PKhQKKpfLmp2dVWNjY1Wd43wd4vDwsC4uLrS/v69sNhvY77f1QFj+ylnY0NCgzc1NzczMaGBgQA8PD0okEtrY2NDU1JTS6bS6u7vV2tpaVRePxxWJRCS9BjWTycjzPLW1tQX2G4/H/8YhAb8UkfTy48Ng13VrfkD8lvpyuazn52fFYrHv2iqVilpaWn5ZV2u/QFhc17WdY/2oubn53W219guE6afB4jUl4P0Cg8ULtcCf4RYaYIBgAQYIFmAgIlZpAj4cqzQBH4xVmgAjBAswQLAAAwQLMECwAAMECzBAsAADBAswQLAAAwQLMECwAAMECzBAsAADZovJsGYG/gfJZFKnp6dV7aarNPE5CurZ9fW1xsfHA39jR0fAADs6Aga4eQEYIFiAAYIFGCBYgAGCBRggWIABggUYIFiAAYIFGCBYgAF2dAQMmO7oSDhR75LJZGC72WcjvO2O/xlzLMAAwQIMECzAAFulAgY+AdrkA/YcNt/sAAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

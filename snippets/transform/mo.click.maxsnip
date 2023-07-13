@@ -1,0 +1,47 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"varname" : "mo.click",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"name" : "mo.click.maxpat",
+					"id" : "obj-1",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 70.0, 87.0 ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "70 x 87, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.click",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "70 x 87, containing 1 object",
+			"image" : "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"
+		}
+
+	}
+
+}
