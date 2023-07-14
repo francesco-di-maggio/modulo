@@ -17,9 +17,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -148,7 +148,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[780]",
+							"parameter_longname" : "live.text[59]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -375,7 +375,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[700]",
+							"parameter_longname" : "live.text[60]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -753,7 +753,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[41]",
+							"parameter_longname" : "live.numbox[107]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -1388,7 +1388,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 80 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[42]",
+							"parameter_longname" : "live.numbox[95]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -1405,7 +1405,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1506,7 +1506,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[106]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2387,7 +2387,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2438,7 +2438,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[117]",
+							"parameter_longname" : "live.text[58]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3208,7 +3208,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[64]",
 							"parameter_mmax" : 60000.0,
 							"parameter_mmin" : 20.0,
 							"parameter_shortname" : "live.numbox",
@@ -3266,7 +3266,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[781]",
+							"parameter_longname" : "live.text[61]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3318,7 +3318,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[77]",
+							"parameter_longname" : "live.numbox[105]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3345,7 +3345,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-24",
-					"items" : [ "all", ",", 1 ],
+					"items" : [ "all", ",", 1, ",", 2, ",", 3 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3402,7 +3402,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[53]",
+							"parameter_longname" : "live.numbox[96]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -3430,7 +3430,7 @@
 					"rounded" : 0.0,
 					"spacing_y" : 0.0,
 					"tabcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
-					"tabs" : [ "1" ]
+					"tabs" : [ "1", "2", "3" ]
 				}
 
 			}
@@ -4703,67 +4703,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "live.numbox[41]", "live.numbox", 0 ],
-			"obj-12" : [ "live.text[780]", "live.text", 0 ],
-			"obj-13" : [ "live.numbox[77]", "live.text", 0 ],
-			"obj-14" : [ "live.text[781]", "live.text", 0 ],
-			"obj-15" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-16" : [ "live.numbox[42]", "live.numbox", 0 ],
-			"obj-3" : [ "live.text[117]", "live.text", 0 ],
-			"obj-32" : [ "live.text[700]", "live.text", 0 ],
-			"obj-4" : [ "live.numbox[4]", "live.text", 0 ],
-			"obj-56" : [ "live.numbox[53]", "live.numbox", 0 ],
-			"obj-6.1::obj-10" : [ "live.text[13]", "live.text", 0 ],
-			"obj-6.1::obj-14" : [ "live.text[14]", "live.text", 0 ],
-			"obj-6.1::obj-15" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-6.1::obj-27" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-6.1::obj-32" : [ "live.numbox[12]", "live.text", 0 ],
-			"obj-6.1::obj-33" : [ "live.text[15]", "live.text", 0 ],
-			"obj-6.1::obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-6.1::obj-38" : [ "live.numbox[13]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.rand.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

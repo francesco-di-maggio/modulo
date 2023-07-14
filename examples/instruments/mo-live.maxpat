@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-15",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 695.0, 171.529662698412551, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 695.0, 174.029662698412551, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-10",
 					"maxclass" : "comment",
@@ -70,7 +98,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 565.0, 285.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 483.0, 286.949900793650784, 214.0, 57.5 ],
+					"presentation_rect" : [ 483.0, 361.949900793650784, 214.0, 57.5 ],
 					"varname" : "mo.launch",
 					"viewvisibility" : 1
 				}
@@ -162,9 +190,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.tabs.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 304.0, 36.449900793650784, 214.0, 199.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.0, 19.449900793650784, 214.0, 199.0 ],
@@ -192,7 +220,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 472.0, 259.529662698412551, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -211,7 +239,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 904.5, 524.116567460317356, 120.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 515.0, 242.029662698412551, 120.0, 40.0 ]
+					"presentation_rect" : [ 645.0, 200.029662698412551, 120.0, 40.0 ],
+					"text" : "set MIDI output port"
 				}
 
 			}
@@ -225,8 +254,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 816.5, 284.616567460317469, 95.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 631.0, 211.029662698412551, 80.0, 40.0 ],
-					"text" : "open live set "
+					"presentation_rect" : [ 631.0, 289.449900793650784, 77.0, 40.0 ],
+					"text" : "open live set"
 				}
 
 			}
@@ -247,9 +276,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 789.0, 286.616567460317469, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 661.0, 259.529662698412551, 20.0, 20.0 ],
+					"presentation_rect" : [ 660.0, 335.949900793650784, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -358,15 +387,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 171.449900793650812, 200.0, 64.0 ],
+					"patching_rect" : [ 565.0, 171.449900793650812, 200.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 483.0, 355.449900793650784, 200.0, 64.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Set MIDI input and output ports.\n2. Launch the live set."
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 483.0, 170.949900793650784, 147.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch the live set.\n3. Interact with the GUIs."
 				}
 
 			}

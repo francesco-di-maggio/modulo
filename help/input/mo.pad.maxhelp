@@ -49,7 +49,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.755791574060595, 264.0, 109.0, 111.0 ],
+					"patching_rect" : [ 476.755791574060595, 264.0, 109.0, 111.0 ],
 					"text" : "Set slider color:\n0 = black\n1 = red\n2 = green\n3 = blue\n4 = yellow\n5 = white"
 				}
 
@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 432.255791574060595, 308.0, 50.0, 23.0 ]
+					"patching_rect" : [ 417.255791574060595, 308.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.255791574060595, 358.0, 53.0, 23.0 ],
+					"patching_rect" : [ 417.255791574060595, 358.0, 53.0, 23.0 ],
 					"text" : "color $1"
 				}
 
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.255791574060538, 210.0, 76.0, 25.0 ],
+					"patching_rect" : [ 314.255791574060538, 210.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -115,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.255791574060538, 211.0, 29.5, 23.0 ],
+					"patching_rect" : [ 281.255791574060538, 211.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.255791574060538, 251.5, 106.0, 39.0 ],
+					"patching_rect" : [ 361.255791574060538, 251.5, 106.0, 39.0 ],
 					"text" : "set mode: \ntoggle or bang "
 				}
 
@@ -279,7 +279,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 342.255791574060538, 259.0, 24.0, 24.0 ]
+					"patching_rect" : [ 327.255791574060538, 259.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -290,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.255791574060538, 308.0, 55.0, 23.0 ],
+					"patching_rect" : [ 327.255791574060538, 308.0, 55.0, 23.0 ],
 					"text" : "mode $1"
 				}
 
@@ -345,7 +345,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 351.755791574060538, 405.0, 101.5, 405.0 ],
+					"midpoints" : [ 336.755791574060538, 405.0, 101.5, 405.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -353,7 +353,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 351.755791574060538, 285.0, 351.755791574060538, 285.0 ],
+					"midpoints" : [ 336.755791574060538, 285.0, 336.755791574060538, 285.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -369,7 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 295.755791574060538, 246.0, 243.755791574060538, 246.0 ],
+					"midpoints" : [ 290.755791574060538, 246.0, 243.755791574060538, 246.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -425,7 +425,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 441.755791574060595, 333.0, 441.755791574060595, 333.0 ],
+					"midpoints" : [ 426.755791574060595, 333.0, 426.755791574060595, 333.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -433,7 +433,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 441.755791574060595, 405.0, 101.5, 405.0 ],
+					"midpoints" : [ 426.755791574060595, 405.0, 101.5, 405.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -442,7 +442,6 @@
 		"parameters" : 		{
 			"obj-5::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-5::obj-22" : [ "live.text[19]", "live.text", 0 ],
-			"obj-5::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-5::obj-6" : [ "live.text[92]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -460,10 +459,6 @@
 ,
 				"obj-5::obj-22" : 				{
 					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-5::obj-37" : 				{
-					"parameter_longname" : "live.text[91]"
 				}
 ,
 				"obj-5::obj-6" : 				{

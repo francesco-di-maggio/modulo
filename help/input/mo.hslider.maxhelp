@@ -139,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 567.255791574060595, 262.0, 76.0, 25.0 ],
+					"patching_rect" : [ 560.255791574060595, 261.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -219,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.255791574060595, 262.0, 29.5, 23.0 ],
+					"patching_rect" : [ 525.255791574060595, 262.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -351,7 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 540.755791574060595, 297.0, 471.755791574060595, 297.0 ],
+					"midpoints" : [ 534.755791574060595, 297.0, 471.755791574060595, 297.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -425,7 +425,6 @@
 			"obj-5::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[19]", "live.text", 0 ],
-			"obj-5::obj-7" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -443,14 +442,6 @@
 				"obj-5::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
-,
-				"obj-5::obj-7" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[1]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
 
 			}
 ,
@@ -458,16 +449,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.hslider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"name" : "mo.hslider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

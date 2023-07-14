@@ -124,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 328.255791574060538, 210.0, 76.0, 25.0 ],
+					"patching_rect" : [ 327.255791574060538, 210.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -206,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.255791574060538, 211.0, 29.5, 23.0 ],
+					"patching_rect" : [ 287.255791574060538, 211.0, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -322,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 300.755791574060538, 246.0, 243.755791574060538, 246.0 ],
+					"midpoints" : [ 296.755791574060538, 246.0, 243.755791574060538, 246.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -370,7 +370,6 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-21" : [ "dial-", "dial-", 0 ],
-			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -382,10 +381,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-37" : 				{
-					"parameter_longname" : "live.text[414]"
-				}
-,
 				"obj-1::obj-6" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
@@ -396,16 +391,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.dial.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"name" : "mo.dial.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

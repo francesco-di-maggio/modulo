@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 677.0, 613.0 ],
+		"rect" : [ 34.0, 97.0, 677.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1020,6 +1020,10 @@
 ,
 				"obj-28::obj-42" : 				{
 					"parameter_longname" : "live.text[287]"
+				}
+,
+				"obj-28::obj-7" : 				{
+					"parameter_longname" : "live.dial[8]"
 				}
 ,
 				"obj-6::obj-107::obj-2" : 				{

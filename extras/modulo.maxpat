@@ -50,7 +50,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 763.526261102865533, 174.473738897134581, 30.0, 29.0 ]
+					"patching_rect" : [ 844.526261102865533, 245.639567897134611, 30.0, 29.0 ]
 				}
 
 			}
@@ -159,7 +159,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 763.526261102865533, 216.0, 59.0, 23.0 ],
+					"patching_rect" : [ 844.526261102865533, 287.165829000000031, 56.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -171,7 +171,7 @@
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p website"
+					"text" : "p GitHub"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 797.526261102865533, 174.473738897134581, 29.947477794269048, 29.947477794269048 ],
+					"patching_rect" : [ 839.110345386883409, 239.723652181152431, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "Macintosh HD:/Users/Home/Downloads/github.png"
 				}
 
@@ -201,7 +201,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 842.0, 249.954297363758087, 30.0, 29.0 ],
+					"patching_rect" : [ 918.0, 245.639567897134611, 30.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.158536583185196, 37.411127424189658, 153.5, 153.5 ]
 				}
@@ -865,7 +865,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 842.0, 287.165829000000031, 82.0, 23.0 ],
+					"patching_rect" : [ 918.0, 287.165829000000031, 82.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1361,7 +1361,7 @@
 									"patching_rect" : [ 787.5, 632.0, 640.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Examples of instruments and interfaces using different types of input and direct mapping.",
+									"text" : "Tutorials showing how to perform various tasks, including recording, mapping, and combining building blocks.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1378,7 +1378,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Arrange and manipulate input data, such as pads, sliders, dials and numbers.",
+									"text" : "Process input data through filtering, averaging and smoothing algorithms.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1812,7 +1812,7 @@
 													"data" : 													{
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.env~", "mo.if", "mo.index", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.shake", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ]
 													}
 ,
@@ -2020,7 +2020,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
+														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "ODD Ball", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 														"tutorials" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
@@ -2247,9 +2247,10 @@
 														"GyrOSC" : [ "mo-gyrOSC" ],
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
-														"Odd." : [ "mo-odd" ],
-														"Theremini" : [ "mo-theremini" ],
+														"ODD Ball" : [ "mo-odd" ],
+														"Theremin" : [ "mo-theremin" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
+														"Trackpad" : [ "mo-trackpad" ],
 														"Wekinator" : [ "mo-wekinator" ],
 														"Blinker" : [ "mo-blinker" ],
 														"Interpolator" : [ "mo-interpolator" ],
@@ -2390,9 +2391,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Odd.", "Theremini", "TouchOSC", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
-											"parameter_mmax" : 10,
+											"parameter_mmax" : 11,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -2443,7 +2444,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.shake", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
@@ -3554,7 +3555,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 916.0, 250.0, 128.0, 128.0 ],
+					"patching_rect" : [ 833.328032516857775, 233.941339311126796, 52.39645717201563, 52.39645717201563 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3580,7 +3581,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 842.0, 317.288468363758057, 82.0, 41.877360636241974 ],
+					"patching_rect" : [ 918.0, 317.288468363758057, 82.0, 41.877360636241974 ],
 					"pointcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 730.0, 730.0 ],
@@ -3602,7 +3603,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 851.5, 281.0, 851.5, 281.0 ],
+					"midpoints" : [ 927.5, 281.0, 927.5, 281.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -3666,7 +3667,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
-					"midpoints" : [ 851.5, 311.0, 851.5, 311.0 ],
+					"midpoints" : [ 927.5, 311.0, 927.5, 311.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -3729,6 +3730,78 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-47::obj-9::obj-11" : 				{
+					"parameter_longname" : "live.numbox[41]"
+				}
+,
+				"obj-47::obj-9::obj-12" : 				{
+					"parameter_longname" : "live.text[780]"
+				}
+,
+				"obj-47::obj-9::obj-13" : 				{
+					"parameter_longname" : "live.numbox[77]"
+				}
+,
+				"obj-47::obj-9::obj-14" : 				{
+					"parameter_longname" : "live.text[781]"
+				}
+,
+				"obj-47::obj-9::obj-15" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-47::obj-9::obj-16" : 				{
+					"parameter_longname" : "live.numbox[42]"
+				}
+,
+				"obj-47::obj-9::obj-3" : 				{
+					"parameter_longname" : "live.text[117]"
+				}
+,
+				"obj-47::obj-9::obj-32" : 				{
+					"parameter_longname" : "live.text[700]"
+				}
+,
+				"obj-47::obj-9::obj-4" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-47::obj-9::obj-56" : 				{
+					"parameter_longname" : "live.numbox[53]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-10" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-14" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-27" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-32" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-33" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-35" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-47::obj-9::obj-6.1::obj-38" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
 				"obj-47::obj-9::obj-6.2::obj-10" : 				{
 					"parameter_longname" : "live.text[6]"
 				}

@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 250.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 227.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 223.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -222,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.255791574060595, 204.3754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 181.255791574060595, 204.3754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -235,7 +235,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.0, 204.3754593282938, 50.0, 23.0 ],
-					"presentation_linecount" : 3,
 					"text" : "number"
 				}
 
@@ -319,7 +318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 194.755791574060595, 241.0, 132.5, 241.0 ],
+					"midpoints" : [ 190.755791574060595, 241.0, 132.5, 241.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -341,6 +340,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-12" : [ "live.text[555]", "live.text", 0 ],
 			"obj-4::obj-6" : [ "live.text[125]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -355,16 +355,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.receive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.receive.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 473.0, 407.0 ],
+		"rect" : [ 34.0, 97.0, 473.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 39.0, 362.249503968253975, 70.0, 57.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.0, 265.571428571428555, 70.0, 57.5 ],
@@ -348,7 +348,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 426, 908 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -506,7 +506,6 @@
 			"obj-11::obj-12" : [ "live.text[554]", "live.text", 0 ],
 			"obj-17::obj-2" : [ "live.text[57]", "live.text", 0 ],
 			"obj-17::obj-22" : [ "live.text[59]", "live.text", 0 ],
-			"obj-17::obj-37" : [ "live.text[111]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[58]", "live.text", 0 ],
 			"obj-1::obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[750]", "live.text", 0 ],
@@ -717,10 +716,6 @@
 ,
 				"obj-17::obj-22" : 				{
 					"parameter_longname" : "live.text[59]"
-				}
-,
-				"obj-17::obj-37" : 				{
-					"parameter_longname" : "live.text[111]"
 				}
 ,
 				"obj-17::obj-6" : 				{
@@ -1183,6 +1178,14 @@
 					"parameter_longname" : "live.text[75]"
 				}
 ,
+				"obj-7::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-7::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-7::obj-1::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
@@ -1349,6 +1352,14 @@
 ,
 				"obj-7::obj-74::obj-8" : 				{
 					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-9::obj-13" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-9::obj-15" : 				{
+					"parameter_longname" : "live.text[136]"
 				}
 
 			}

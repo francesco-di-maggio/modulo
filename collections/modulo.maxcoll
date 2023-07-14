@@ -1,5 +1,5 @@
 {
 	"name" : "%",
 	"type" : "filelist",
-	"contents" : [ "mo.arrows.maxsnip", "mo-launch.maxsnip" ]
+	"contents" : [ "mo.arrows.maxsnip", "mo.launch.maxsnip" ]
 }

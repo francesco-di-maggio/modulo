@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 856.0, 705.0 ],
+		"rect" : [ 34.0, 97.0, 856.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1703,19 +1703,15 @@
 			"obj-3::obj-12" : [ "live.text[179]", "live.text", 0 ],
 			"obj-47::obj-2" : [ "live.text[66]", "live.text", 0 ],
 			"obj-47::obj-22" : [ "live.text[68]", "live.text", 0 ],
-			"obj-47::obj-37" : [ "live.text[69]", "live.text", 0 ],
 			"obj-47::obj-6" : [ "live.text[67]", "live.text", 0 ],
 			"obj-48::obj-2" : [ "live.text[72]", "live.text", 0 ],
 			"obj-48::obj-22" : [ "live.text[71]", "live.text", 0 ],
-			"obj-48::obj-37" : [ "live.text[73]", "live.text", 0 ],
 			"obj-48::obj-6" : [ "live.text[70]", "live.text", 0 ],
 			"obj-49::obj-2" : [ "live.text[77]", "live.text", 0 ],
 			"obj-49::obj-22" : [ "live.text[76]", "live.text", 0 ],
-			"obj-49::obj-37" : [ "live.text[74]", "live.text", 0 ],
 			"obj-49::obj-6" : [ "live.text[75]", "live.text", 0 ],
 			"obj-5::obj-2" : [ "live.text[174]", "live.text", 0 ],
 			"obj-5::obj-22" : [ "live.text[175]", "live.text", 0 ],
-			"obj-5::obj-37" : [ "live.text[173]", "live.text", 0 ],
 			"obj-5::obj-6" : [ "live.text[176]", "live.text", 0 ],
 			"obj-66::obj-107::obj-2" : [ "live.text[116]", "live.text", 0 ],
 			"obj-66::obj-123::obj-2" : [ "live.text[114]", "live.text", 0 ],
@@ -2074,6 +2070,10 @@
 					"parameter_longname" : "live.text[185]"
 				}
 ,
+				"obj-2::obj-7" : 				{
+					"parameter_longname" : "live.dial[8]"
+				}
+,
 				"obj-31::obj-107::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[20]"
 				}
@@ -2298,10 +2298,6 @@
 					"parameter_longname" : "live.text[68]"
 				}
 ,
-				"obj-47::obj-37" : 				{
-					"parameter_longname" : "live.text[69]"
-				}
-,
 				"obj-47::obj-6" : 				{
 					"parameter_longname" : "live.text[67]"
 				}
@@ -2312,10 +2308,6 @@
 ,
 				"obj-48::obj-22" : 				{
 					"parameter_longname" : "live.text[71]"
-				}
-,
-				"obj-48::obj-37" : 				{
-					"parameter_longname" : "live.text[73]"
 				}
 ,
 				"obj-48::obj-6" : 				{
@@ -2330,10 +2322,6 @@
 					"parameter_longname" : "live.text[76]"
 				}
 ,
-				"obj-49::obj-37" : 				{
-					"parameter_longname" : "live.text[74]"
-				}
-,
 				"obj-49::obj-6" : 				{
 					"parameter_longname" : "live.text[75]"
 				}
@@ -2344,10 +2332,6 @@
 ,
 				"obj-5::obj-22" : 				{
 					"parameter_longname" : "live.text[175]"
-				}
-,
-				"obj-5::obj-37" : 				{
-					"parameter_longname" : "live.text[173]"
 				}
 ,
 				"obj-5::obj-6" : 				{
