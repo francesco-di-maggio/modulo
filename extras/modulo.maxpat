@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 66.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -1361,7 +1361,7 @@
 									"patching_rect" : [ 787.5, 632.0, 640.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Tutorials showing how to perform various tasks, including recording, mapping, and combining building blocks.",
+									"text" : "Examples of instruments and interfaces using different types of input and direct mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1378,7 +1378,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Process input data through filtering, averaging and smoothing algorithms.",
+									"text" : "Handle auxilary functions, such as monitoring, visualizing and recoridng input data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2391,7 +2391,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "ODD Ball", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 11,
 											"parameter_shortname" : "live.menu",
@@ -2444,7 +2444,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.shake", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
@@ -3540,7 +3540,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 33.158536583185196, 210.662162184715271, 658.341463416814804, 57.0 ],
-					"text" : "You can think of it like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your own musical interfaces. Each module is designed with simplicity and versatility in mind, fitting neatly into a multichannel, modular and user-friendly system."
+					"text" : "You can think of it like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your own musical tools. Each module is designed with simplicity and versatility in mind, fitting neatly into a modular, user-friendly, and multichannel system."
 				}
 
 			}
@@ -3567,22 +3567,23 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"candycane" : 8,
 					"displayknob" : 1,
-					"fontsize" : 40.0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 30.0,
 					"id" : "obj-236",
-					"ignoreclick" : 1,
 					"knobpict" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/icon.png",
 					"knobsize" : 80.0,
 					"maxclass" : "nodes",
+					"mousemode" : 1,
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.28896, 0.18044, 0.359, 0.2302, 0.46584, 0.38228 ],
+					"nsize" : [ 0.23532, 0.22064, 0.13932, 0.24684, 0.44456, 0.161643835616443 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 918.0, 317.288468363758057, 82.0, 41.877360636241974 ],
-					"pointcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
+					"patching_rect" : [ 918.0, 317.288468363758057, 513.0, 521.877360636241974 ],
+					"pointcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 730.0, 730.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3594,8 +3595,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.233, 0.0344, 0.7274, 0.4148, 0.6086, 0.0264 ],
-					"yplace" : [ 0.1261, 0.1551, 0.0513, 0.5465, 0.4166, 0.254 ]
+					"xplace" : [ 0.134502923976608, 0.1973, 0.2795, 0.4817, 0.586, 1.0 ],
+					"yplace" : [ 0.05118354167285, 0.1291, 0.0738, 0.3407, 0.1878, 0.0 ]
 				}
 
 			}
