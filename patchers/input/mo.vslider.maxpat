@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 70.0, 266.0 ],
+		"rect" : [ 0.0, 66.0, 70.0, 266.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -65,7 +65,7 @@
 					"patching_rect" : [ 698.0, 333.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.862807029531183, 35.489995495694359, 60.102345793398996, 20.0 ],
-					"text" : "CC",
+					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -354,7 +354,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[81]",
+							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -481,7 +481,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[91]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -552,7 +552,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 119.489049971103668, 59.0, 30.0, 30.0 ]
 				}
 
@@ -572,7 +572,7 @@
 					"presentation_rect" : [ 6.804893493936421, 31.489995495694359, 56.0, 225.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slider-[1]",
+							"parameter_longname" : "slider-[12]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "slider-",
 							"parameter_type" : 0

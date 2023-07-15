@@ -247,8 +247,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 973.459072000000106, 101.0, 108.0, 23.0 ],
-					"text" : "read p-blocks.json"
+					"patching_rect" : [ 973.459072000000106, 101.0, 102.0, 23.0 ],
+					"text" : "read p-legos.json"
 				}
 
 			}
@@ -289,7 +289,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 974.459072000000106, 225.154124945402145, 213.0, 58.189434558153152 ],
-					"pattrstorage" : "p-blocks",
+					"pattrstorage" : "p-legos",
 					"presentation" : 1,
 					"presentation_rect" : [ 964.459071999999992, 113.219729999999998, 213.0, 58.189434558153152 ],
 					"saved_attribute_attributes" : 					{
@@ -307,6 +307,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "p-legos.json",
 					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -328,7 +329,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "p-blocks"
+					"varname" : "p-legos"
 				}
 
 			}
@@ -983,6 +984,10 @@
 					"parameter_longname" : "live.text[15]"
 				}
 ,
+				"obj-29::obj-15" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
 				"obj-29::obj-3" : 				{
 					"parameter_longname" : "live.text[16]"
 				}
@@ -1329,6 +1334,13 @@
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-legos.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

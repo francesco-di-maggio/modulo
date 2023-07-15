@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 290.0, 390.0 ],
+		"rect" : [ 34.0, 100.0, 350.0, 390.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -75,8 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 101.0, 23.0 ],
-					"text" : "A timer object."
+					"patching_rect" : [ 9.0, 83.0, 128.0, 23.0 ],
+					"text" : "A transport object."
 				}
 
 			}
@@ -89,8 +89,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 222.0, 71.0 ],
-					"text" : "mo.timer"
+					"patching_rect" : [ 9.0, 9.0, 325.0, 71.0 ],
+					"text" : "mo.transport"
 				}
 
 			}
@@ -153,13 +153,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.timer.maxpat",
+					"name" : "mo.transport.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 253.0, 214.0, 57.5 ],
-					"varname" : "mo.slider",
+					"varname" : "mo.transport",
 					"viewvisibility" : 1
 				}
 
@@ -168,15 +168,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 50.5, 229.0, 50.5, 229.0 ],
+					"midpoints" : [ 50.5, 228.0, 50.5, 228.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 325.0, 115.5, 325.0 ],
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 50.5, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -184,7 +184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 161.780237540602684, 238.0, 50.5, 238.0 ],
+					"midpoints" : [ 161.780237540602684, 240.0, 50.5, 240.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -192,7 +192,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 190.0, 50.5, 190.0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -215,14 +215,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.timer.maxpat",
+				"name" : "mo.transport.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 565.0, 486.0 ],
+		"rect" : [ 34.0, 100.0, 565.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -577,15 +577,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 392.0, 361.0, 79.0 ],
+					"patching_rect" : [ 371.0, 378.0, 337.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 180.0, 103.571428571428584, 361.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open the gyrOSC app.\n2. Enable quaternion from the settings menu, and set IP address.\n3. Set OSC receiving port."
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 204.0, 97.571428571428584, 337.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Download, and open gyrOSC:       \n     https://www.bitshapesoftware.com/instruments/gyrosc/\n2. Enable quaternion from the settings menu.\n3.  Set your computer IP address, and UDP receiving port."
 				}
 
 			}

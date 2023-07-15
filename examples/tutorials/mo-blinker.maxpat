@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.959072227510774, 39.0, 141.0, 25.0 ],
+					"patching_rect" : [ 211.959072227510774, 39.0, 143.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.959072227510774, 170.0, 141.0, 25.0 ],
 					"text" : "set blinking time (ms)"
@@ -344,6 +344,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 500 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -382,7 +383,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.459072227510774, 23.0, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.459072227510774, 27.0, 70.0, 87.0 ],
@@ -664,13 +665,11 @@
 		"parameters" : 		{
 			"obj-12::obj-3" : [ "live.text[2]", "live.text", 0 ],
 			"obj-17::obj-3" : [ "live.text[3]", "live.text", 0 ],
-			"obj-21::obj-37" : [ "live.text[12]", "live.text", 0 ],
 			"obj-21::obj-6" : [ "live.text[27]", "live.text", 0 ],
 			"obj-22::obj-3" : [ "live.text[4]", "live.text", 0 ],
 			"obj-2::obj-3" : [ "live.text[181]", "live.text", 0 ],
 			"obj-7::obj-2" : [ "live.text[94]", "live.text", 0 ],
 			"obj-7::obj-22" : [ "live.text[19]", "live.text", 0 ],
-			"obj-7::obj-37" : [ "live.text[96]", "live.text", 0 ],
 			"obj-7::obj-6" : [ "live.text[95]", "live.text", 0 ],
 			"obj-8::obj-3" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -689,10 +688,6 @@
 ,
 				"obj-17::obj-3" : 				{
 					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-21::obj-37" : 				{
-					"parameter_longname" : "live.text[12]"
 				}
 ,
 				"obj-21::obj-6" : 				{
@@ -715,10 +710,6 @@
 					"parameter_longname" : "live.text[19]"
 				}
 ,
-				"obj-7::obj-37" : 				{
-					"parameter_longname" : "live.text[96]"
-				}
-,
 				"obj-7::obj-6" : 				{
 					"parameter_longname" : "live.text[95]"
 				}
@@ -733,6 +724,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.led.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -750,13 +748,6 @@
 				"name" : "mo.pad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

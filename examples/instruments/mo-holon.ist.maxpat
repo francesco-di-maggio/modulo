@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 616.0, 513.0 ],
+		"rect" : [ 34.0, 100.0, 616.0, 513.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,8 +98,8 @@
 					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 353.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 254.0, 28.0, 353.0, 107.0 ],
-					"text" : "INSTRUCTIONS:\n\nThis patch uses \"holon.ist\" iOS App to retrieve iPhone sensors. \nVisit: https://holon.\n\n1. Load iPhone preset from Holon.ist app.\n2. Set host/port on the app to reflect your computer settings."
+					"presentation_rect" : [ 254.0, 28.0, 347.0, 107.0 ],
+					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open Holonist: https://holon.ist/\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
 				}
 
 			}

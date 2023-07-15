@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 473.0, 407.0 ],
+		"rect" : [ 34.0, 100.0, 473.0, 360.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 39.0, 362.249503968253975, 70.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 265.571428571428555, 70.0, 57.5 ],
+					"presentation_rect" : [ 383.0, 22.071428571428584, 70.0, 57.5 ],
 					"varname" : "mo.smooth",
 					"viewvisibility" : 1
 				}
@@ -197,29 +197,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-11",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.send.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 39.0, 604.649305555555543, 214.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 265.571428571428555, 214.0, 57.5 ],
-					"varname" : "mo.send",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -249,15 +226,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 647.0, 298.6100198412704, 244.0, 79.0 ],
+					"patching_rect" : [ 647.0, 298.6100198412704, 244.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 23.0, 308.071428571428555, 244.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Connect your Gametrak.\n2. Calibrate minimum and maximum values.\n3. (Optional) Send data to a sound device."
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 23.0, 280.571428571428555, 244.0, 64.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Connect your Gametrak.\n2. Calibrate minimum and maximum values."
 				}
 
 			}
@@ -432,13 +409,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 480.5, 147.0, 480.5, 147.0 ],
 					"source" : [ "obj-8", 6 ]
@@ -502,8 +472,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-10" : [ "live.text[585]", "live.text", 0 ],
-			"obj-11::obj-12" : [ "live.text[554]", "live.text", 0 ],
 			"obj-17::obj-2" : [ "live.text[57]", "live.text", 0 ],
 			"obj-17::obj-22" : [ "live.text[59]", "live.text", 0 ],
 			"obj-17::obj-6" : [ "live.text[58]", "live.text", 0 ],
@@ -1406,13 +1374,6 @@
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

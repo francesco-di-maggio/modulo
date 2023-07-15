@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 730.0, 730.0 ],
-		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 66.0, 745.0, 745.0 ],
+		"openrect" : [ 0.0, 0.0, 745.0, 745.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 3,
+		"toolbars_unpinned_last_save" : 2,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -203,7 +203,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 918.0, 245.639567897134611, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.158536583185196, 37.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 35.158536583185196, 33.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -897,7 +897,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 646.0, 249.954297363758087, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 522.841463416814804, 145.0, 168.658536583185196, 26.0 ],
+					"presentation_rect" : [ 543.841463416814804, 141.0, 168.658536583185196, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1360,7 +1360,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 787.5, 632.0, 640.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 129.0, 659.285714268684387, 22.0 ],
+									"presentation_rect" : [ 738.285714268684387, 129.0, 679.285714268684387, 22.0 ],
 									"text" : "Examples of instruments and interfaces using different types of input and direct mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1377,8 +1377,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 129.0, 659.285714268684387, 22.0 ],
-									"text" : "Handle auxilary functions, such as monitoring, visualizing and recoridng input data.",
+									"presentation_rect" : [ 8.0, 129.0, 679.285714268684387, 22.0 ],
+									"text" : "Arrange and manipulate input data, such as pads, sliders, dials and numbers.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1812,8 +1812,8 @@
 													"data" : 													{
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.shake", "mo.schmitt", "mo.select", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
-														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ]
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2371,7 +2371,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 984.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 166.0, 661.834098268684784, 172.834170999999969 ],
+									"presentation_rect" : [ 738.285714268684387, 166.0, 681.834098268684784, 191.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2424,7 +2424,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 242.5, 246.785355285714274, 413.0, 175.834170999999969 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 166.0, 661.834098268684784, 172.834170999999969 ],
+									"presentation_rect" : [ 8.0, 166.0, 681.834098268684784, 191.834170999999969 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2444,7 +2444,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.timer" ],
+											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",
@@ -2492,7 +2492,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 781.0, 632.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 152.0, 659.285714268684387, 6.0 ],
+									"presentation_rect" : [ 738.285714268684387, 152.0, 679.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2721,7 +2721,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 787.5, 87.0, 413.0, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 30.0, 659.285714268684387, 81.0 ],
+									"presentation_rect" : [ 738.285714268684387, 30.0, 679.285714268684387, 81.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -2789,7 +2789,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 37.0, 632.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 152.0, 659.285714268684387, 6.0 ],
+									"presentation_rect" : [ 8.0, 152.0, 679.285714268684387, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3020,7 +3020,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 45.5, 87.0, 413.0, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 30.0, 659.285714268684387, 81.0 ],
+									"presentation_rect" : [ 8.0, 30.0, 679.285714268684387, 81.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3270,7 +3270,7 @@
 ,
 					"patching_rect" : [ 21.5, 374.165829000000031, 677.5, 348.855344999999943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.5, 359.021173999999974, 675.0, 349.0 ],
+					"presentation_rect" : [ 24.5, 355.021173999999974, 692.0, 359.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3286,7 +3286,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.5, 226.0, 657.5, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.158536583185196, 265.665829000000031, 655.341463416814804, 12.99633318471524 ],
+					"presentation_rect" : [ 36.158536583185196, 261.665829000000031, 676.341463416814804, 12.99633318471524 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -3305,9 +3305,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 584.5, 132.0, 59.0, 26.0 ],
+					"patching_rect" : [ 615.5, 132.0, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 632.5, 173.0, 59.0, 26.0 ],
+					"presentation_rect" : [ 653.5, 169.0, 59.0, 26.0 ],
 					"text" : "(2023)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3328,7 +3328,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 406.5, 249.954297363758087, 109.523560225963593, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 527.5, 282.894408999999996, 164.0, 72.0 ],
+					"presentation_rect" : [ 542.5, 293.894408999999996, 169.0, 72.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3419,7 +3419,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 21.5, 249.954297363758087, 345.0, 60.211531636241943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.158536583185196, 282.894408999999996, 494.341463416814804, 72.0 ],
+					"presentation_rect" : [ 33.158536583185196, 293.894408999999996, 509.341463416814804, 72.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3467,10 +3467,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.5, 90.0, 458.0, 30.0 ],
+					"patching_rect" : [ 173.5, 90.0, 501.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.5, 106.0, 458.0, 30.0 ],
-					"text" : "A Toolkit for Tinkering Digital Musical Instruments.",
+					"presentation_rect" : [ 215.5, 102.0, 501.0, 30.0 ],
+					"text" : "A Toolkit for Tinkering with Digital Musical Instruments.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -3483,9 +3483,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.5, 132.0, 87.0, 26.0 ],
+					"patching_rect" : [ 526.5, 132.0, 87.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 435.841463416814804, 145.0, 87.0, 26.0 ],
+					"presentation_rect" : [ 456.841463416814804, 141.0, 87.0, 26.0 ],
 					"text" : "Created by",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3501,7 +3501,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 173.5, 28.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.5, 41.411127424189658, 173.0, 67.0 ],
+					"presentation_rect" : [ 215.5, 37.411127424189658, 173.0, 67.0 ],
 					"text" : "modulo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"underline" : 1
@@ -3522,7 +3522,7 @@
 					"patching_rect" : [ 21.5, 21.0, 140.947477794268991, 140.947477794268991 ],
 					"pic" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/icon.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 37.158536583185196, 37.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 35.158536583185196, 33.411127424189658, 153.5, 153.5 ]
 				}
 
 			}
@@ -3530,17 +3530,17 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
+					"fontsize" : 13.5,
 					"id" : "obj-27",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 173.0, 713.0, 57.0 ],
+					"patching_rect" : [ 21.5, 173.0, 712.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 33.158536583185196, 210.662162184715271, 658.341463416814804, 57.0 ],
-					"text" : "You can think of it like a Lego set for your musical ideas. With an array of different modules on offer, you can mix and match, customize, and build your own musical tools. Each module is designed with simplicity and versatility in mind, fitting neatly into a modular, user-friendly, and multichannel system."
+					"presentation_rect" : [ 33.158536583185196, 206.662162184715271, 678.341463416814804, 55.0 ],
+					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow."
 				}
 
 			}
@@ -3577,7 +3577,7 @@
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"nodenumber" : 6,
 					"nodesnames" : [ "M", "O", "D", "U", "L", "O" ],
-					"nsize" : [ 0.23532, 0.22064, 0.13932, 0.24684, 0.44456, 0.161643835616443 ],
+					"nsize" : [ 0.23532, 0.266277583892617, 0.13932, 0.24684, 0.44456, 0.161643835616443 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -3585,7 +3585,7 @@
 					"patching_rect" : [ 918.0, 317.288468363758057, 513.0, 521.877360636241974 ],
 					"pointcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 730.0, 730.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 745.0, 745.0 ],
 					"saved_attribute_attributes" : 					{
 						"knobcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -3595,8 +3595,8 @@
 ,
 					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 0.0 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.134502923976608, 0.1973, 0.2795, 0.4817, 0.586, 1.0 ],
-					"yplace" : [ 0.05118354167285, 0.1291, 0.0738, 0.3407, 0.1878, 0.0 ]
+					"xplace" : [ 0.062378167641326, 0.139597315436242, 0.405369127516779, 0.4817, 0.586, 1.0 ],
+					"yplace" : [ 0.024357315712536, 0.009395973154362, 0.106040268456376, 0.3407, 0.1878, 0.0 ]
 				}
 
 			}

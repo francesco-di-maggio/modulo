@@ -1,0 +1,203 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-legos",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mo.vrslider::rslider" : [ 0.441344059688186, 0.726244571463642 ],
+					"mo.vrslider::mute" : [ 0.0 ],
+					"mo.vrslider::color" : [ 0 ],
+					"mo.vrslider::set" : [ 0 ],
+					"mo.vslider::slider" : [ 0.37106664664753 ],
+					"mo.vslider::mute" : [ 0.0 ],
+					"mo.vslider::polarity" : [ 0.0 ],
+					"mo.vslider::color" : [ 0 ],
+					"mo.vslider::set" : [ 0 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 1.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.pad::color" : [ 0 ],
+					"mo.pad::set" : [ -1 ],
+					"mo.dial::dial" : [ 0.760625342327449 ],
+					"mo.dial::mute" : [ 0.0 ],
+					"mo.dial::color" : [ 0 ],
+					"mo.dial::set" : [ 0 ],
+					"mo.vtab::voices" : [ 4.0 ],
+					"mo.vtab::mode" : [ 0.0 ],
+					"mo.vtab::tab" : [ 3 ],
+					"mo.vtab::mute" : [ 0.0 ],
+					"mo.encoder::mode" : [ 0 ],
+					"mo.encoder::encoder" : [ 0.0 ],
+					"mo.encoder::mute[1]" : [ 0.0 ],
+					"mo.encoder::color" : [ 0 ],
+					"mo.encoder::set" : [ 0 ],
+					"mo.led::color" : [ 0 ],
+					"mo.led::led" : [ 1 ],
+					"mo.number[2]::mode" : [ 2 ],
+					"mo.number[2]::number" : [ 20.0 ],
+					"mo.number[2]::mute" : [ 0.0 ],
+					"mo.key::key" : [ 0 ],
+					"mo.xypad::xypad" : [ 64, 105 ],
+					"mo.xypad::ylock" : [ 0.0 ],
+					"mo.xypad::xlock" : [ 0.0 ],
+					"mo.xypad::mute" : [ 0.0 ],
+					"mo.crosspatch::ins" : [ 1.0 ],
+					"mo.crosspatch::outs" : [ 1.0 ],
+					"mo.crosspatch::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 1,
+								"numouts" : 1,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"mo.gain~::chans" : [ 1.0 ],
+					"mo.gain~::gain" : [ 56 ],
+					"mo.gain~::mute" : [ 0.0 ],
+					"mo.gain~::dB" : [ -70.0 ],
+					"mo.gain~::mode" : [ 0.0 ],
+					"mo.snapshot~::chans" : [ 1.0 ],
+					"mo.arrows::mute" : [ 0.0 ],
+					"mo.keyboard::keyboard" : [ -1 ],
+					"mo.keyboard::mode" : [ 2 ],
+					"mo.keyboard::octave" : [ 0.0 ],
+					"mo.keyboard::semitone" : [ 0.0 ],
+					"mo.keyboard::mute[1]" : [ 0.0 ],
+					"mo.keyboard::channel" : [ 1.0 ],
+					"mo.keyboard::port" : [ "IAC Driver Bus 1" ],
+					"mo.smooth::amount[1]" : [ 0.5 ],
+					"mo.smooth::mute" : [ 0.0 ],
+					"mo.record::mute" : [ 0.0 ],
+					"mo.record::playback" : [ 1.0 ],
+					"mo.record::record" : [ 0.0 ],
+					"mo.record::touch[1]" : [ 0.0 ],
+					"mo.record::speed" : [ 1.0 ],
+					"mo.record::selection" : [ 0.0, 1.0 ],
+					"mo.record::loop" : [ 1.0 ],
+					"mo.send::set" : [ "" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.nodes::voices" : [ 4.0 ],
+					"mo.cue::mute" : [ 0.0 ],
+					"mo.date::mute" : [ 0.0 ],
+					"mo.timer::onoff" : [ 0.0 ],
+					"mo.timer::mute" : [ 0.0 ],
+					"mo.noteout::port" : [ 1 ],
+					"mo.noteout::channel" : [ 1.0 ],
+					"mo.noteout::note" : [ 60.0 ],
+					"mo.noteout::mute" : [ 0.0 ],
+					"mo.serial::port" : [ "Bluetooth-Incoming-Port" ],
+					"mo.serial::mute" : [ 0.0 ],
+					"mo.serial::baud" : [ "115200" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"mo.vrslider::rslider" : [ 0.09412156096185, 0.178701400395188 ],
+					"mo.vrslider::mute" : [ 0.0 ],
+					"mo.vrslider::color" : [ 0 ],
+					"mo.vrslider::set" : [ 0 ],
+					"mo.vslider::slider" : [ 0.846622202203086 ],
+					"mo.vslider::mute" : [ 0.0 ],
+					"mo.vslider::polarity" : [ 0.0 ],
+					"mo.vslider::color" : [ 0 ],
+					"mo.vslider::set" : [ 1 ],
+					"mo.pad::mode" : [ 0.0 ],
+					"mo.pad::pad" : [ 0.0 ],
+					"mo.pad::mute" : [ 0.0 ],
+					"mo.pad::color" : [ 0 ],
+					"mo.pad::set" : [ -1 ],
+					"mo.dial::dial" : [ 0.760625342327449 ],
+					"mo.dial::mute" : [ 0.0 ],
+					"mo.dial::color" : [ 0 ],
+					"mo.dial::set" : [ 0 ],
+					"mo.vtab::voices" : [ 4.0 ],
+					"mo.vtab::mode" : [ 0.0 ],
+					"mo.vtab::tab" : [ 1 ],
+					"mo.vtab::mute" : [ 0.0 ],
+					"mo.encoder::mode" : [ 0 ],
+					"mo.encoder::encoder" : [ 0.871549871416868 ],
+					"mo.encoder::mute[1]" : [ 0.0 ],
+					"mo.encoder::color" : [ 0 ],
+					"mo.encoder::set" : [ 0 ],
+					"mo.led::color" : [ 0 ],
+					"mo.led::led" : [ 1 ],
+					"mo.number[2]::mode" : [ 1 ],
+					"mo.number[2]::number" : [ 78 ],
+					"mo.number[2]::mute" : [ 0.0 ],
+					"mo.key::key" : [ 0 ],
+					"mo.xypad::xypad" : [ 106, 26 ],
+					"mo.xypad::ylock" : [ 0.0 ],
+					"mo.xypad::xlock" : [ 0.0 ],
+					"mo.xypad::mute" : [ 0.0 ],
+					"mo.crosspatch::ins" : [ 1.0 ],
+					"mo.crosspatch::outs" : [ 1.0 ],
+					"mo.crosspatch::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 1,
+								"numouts" : 1,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"mo.gain~::chans" : [ 1.0 ],
+					"mo.gain~::gain" : [ 56 ],
+					"mo.gain~::mute" : [ 0.0 ],
+					"mo.gain~::dB" : [ -70.0 ],
+					"mo.gain~::mode" : [ 0.0 ],
+					"mo.snapshot~::chans" : [ 1.0 ],
+					"mo.arrows::mute" : [ 0.0 ],
+					"mo.keyboard::keyboard" : [ -1 ],
+					"mo.keyboard::mode" : [ 2 ],
+					"mo.keyboard::octave" : [ 0.0 ],
+					"mo.keyboard::semitone" : [ 0.0 ],
+					"mo.keyboard::mute[1]" : [ 0.0 ],
+					"mo.keyboard::channel" : [ 1.0 ],
+					"mo.keyboard::port" : [ "IAC Driver Bus 1" ],
+					"mo.smooth::amount[1]" : [ 0.5 ],
+					"mo.smooth::mute" : [ 0.0 ],
+					"mo.record::mute" : [ 0.0 ],
+					"mo.record::playback" : [ 1.0 ],
+					"mo.record::record" : [ 0.0 ],
+					"mo.record::touch[1]" : [ 0.0 ],
+					"mo.record::speed" : [ 1.0 ],
+					"mo.record::selection" : [ 0.0, 1.0 ],
+					"mo.record::loop" : [ 1.0 ],
+					"mo.send::set" : [ "" ],
+					"mo.send::mute" : [ 0.0 ],
+					"mo.nodes::voices" : [ 4.0 ],
+					"mo.cue::mute" : [ 0.0 ],
+					"mo.date::mute" : [ 0.0 ],
+					"mo.timer::onoff" : [ 1.0 ],
+					"mo.timer::mute" : [ 0.0 ],
+					"mo.noteout::port" : [ 1 ],
+					"mo.noteout::channel" : [ 1.0 ],
+					"mo.noteout::note" : [ 60.0 ],
+					"mo.noteout::mute" : [ 0.0 ],
+					"mo.serial::port" : [ "Bluetooth-Incoming-Port" ],
+					"mo.serial::mute" : [ 0.0 ],
+					"mo.serial::baud" : [ "115200" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

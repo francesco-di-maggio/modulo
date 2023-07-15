@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 912.0, 578.0 ],
+		"rect" : [ 34.0, 100.0, 912.0, 593.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -80,7 +80,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 717.0, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 671.719069222125313, 291.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 671.719069222125313, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.spectroscope~",
 					"viewvisibility" : 1
 				}
@@ -104,7 +104,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 488.859534611062713, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.578603833188026, 291.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 455.578603833188026, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.meter~",
 					"viewvisibility" : 1
 				}
@@ -128,7 +128,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 260.71906922212537, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.578603833188055, 291.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 239.578603833188055, 306.5, 214.0, 265.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -193,7 +193,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 32.578603833188055, 463.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.578603833188055, 291.5, 214.0, 265.0 ],
+					"presentation_rect" : [ 23.578603833188055, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.scope~",
 					"viewvisibility" : 1
 				}
@@ -354,6 +354,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "brushes.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
@@ -402,13 +409,6 @@
 				"name" : "mo.scope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

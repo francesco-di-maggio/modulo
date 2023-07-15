@@ -66,7 +66,7 @@
 					"patching_rect" : [ 651.0, 277.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.862807029531183, 55.489995495694359, 60.102345793398996, 20.0 ],
-					"text" : "X",
+					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -343,7 +343,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -413,7 +413,7 @@
 					"presentation_rect" : [ 3.5, 23.0, 63.105969955095134, 63.105969955095134 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial-",
+							"parameter_longname" : "dial-[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial-",
 							"parameter_type" : 0
@@ -447,7 +447,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.538977009388248, 47.0, 30.0, 30.0 ]
 				}
 

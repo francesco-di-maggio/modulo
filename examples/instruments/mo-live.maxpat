@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 788.0, 438.0 ],
+		"rect" : [ 34.0, 100.0, 788.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,9 +53,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 171.529662698412551, 20.0, 20.0 ],
+					"patching_rect" : [ 428.0, 617.529662698412494, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 695.0, 174.029662698412551, 20.0, 20.0 ],
+					"presentation_rect" : [ 233.0, 174.029662698412551, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -63,20 +63,6 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 889.5, 539.116567460317356, 135.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 499.0, 257.029662698412551, 135.0, 25.0 ],
-					"text" : "set MIDI output port"
 				}
 
 			}
@@ -98,7 +84,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 565.0, 285.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 483.0, 361.949900793650784, 214.0, 57.5 ],
+					"presentation_rect" : [ 21.0, 361.949900793650784, 214.0, 57.5 ],
 					"varname" : "mo.launch",
 					"viewvisibility" : 1
 				}
@@ -123,7 +109,7 @@
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
 					"patching_rect" : [ 565.0, 400.449900793650784, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 483.0, 19.449900793650784, 214.0, 57.5 ],
+					"presentation_rect" : [ 21.0, 19.449900793650784, 214.0, 57.5 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -144,9 +130,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 565.0, 474.616567460317412, 286.0, 87.0 ],
+					"patching_rect" : [ 565.0, 512.449900793650841, 286.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 483.0, 78.949900793650784, 286.0, 87.0 ],
+					"presentation_rect" : [ 21.0, 78.949900793650784, 286.0, 87.0 ],
 					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}
@@ -170,7 +156,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 304.0, 400.449900793650784, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 220.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 555.0, 220.449900793650784, 214.0, 199.0 ],
 					"varname" : "mo.noteouts[1]",
 					"viewvisibility" : 1
 				}
@@ -195,37 +181,9 @@
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 304.0, 36.449900793650784, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 19.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 555.0, 19.449900793650784, 214.0, 199.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-3",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 865.0, 541.616567460317356, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 472.0, 259.529662698412551, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "2",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -234,13 +192,15 @@
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 904.5, 524.116567460317356, 120.0, 40.0 ],
+					"patching_rect" : [ 387.5, 651.949900793650841, 101.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 200.029662698412551, 120.0, 40.0 ],
-					"text" : "set MIDI output port"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 193.0, 202.029662698412551, 101.0, 54.0 ],
+					"text" : "set \nMIDI output port"
 				}
 
 			}
@@ -252,9 +212,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.5, 284.616567460317469, 95.0, 40.0 ],
+					"patching_rect" : [ 715.5, 207.616567460317469, 77.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 631.0, 289.449900793650784, 77.0, 40.0 ],
+					"presentation_rect" : [ 169.0, 289.449900793650784, 77.0, 40.0 ],
 					"text" : "open live set"
 				}
 
@@ -274,11 +234,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 789.0, 286.616567460317469, 20.0, 20.0 ],
+					"patching_rect" : [ 744.0, 257.616567460317469, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 335.949900793650784, 20.0, 20.0 ],
+					"presentation_rect" : [ 198.0, 335.949900793650784, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "3",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -327,7 +287,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.0, 252.116567460317469, 70.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 699.0, 19.449900793650784, 70.0, 57.5 ],
+					"presentation_rect" : [ 237.0, 19.449900793650784, 70.0, 57.5 ],
 					"varname" : "mo.line",
 					"viewvisibility" : 1
 				}
@@ -351,7 +311,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 43.0, 400.449900793650784, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 220.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 324.0, 220.449900793650784, 214.0, 199.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}
@@ -376,7 +336,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.0, 36.449900793650784, 214.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 19.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 324.0, 19.449900793650784, 214.0, 199.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -391,11 +351,26 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 171.449900793650812, 200.0, 79.0 ],
+					"patching_rect" : [ 565.0, 36.449900793650784, 147.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 483.0, 170.949900793650784, 147.0, 79.0 ],
+					"presentation_rect" : [ 21.0, 177.029662698412551, 147.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch the live set.\n3. Interact with the GUIs."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 387.5, 665.949900793650841, 114.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 271.0, 216.029662698412551, 36.0, 40.0 ],
+					"text" : "\n"
 				}
 
 			}

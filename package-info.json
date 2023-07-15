@@ -3,12 +3,12 @@
 	"displayname" : "",
 	"version" : "1.0.0",
 	"author" : "Francesco Di Maggio",
-	"description" : "A Lego set for tinkering digital musical instruments.",
-	"tags" : [ "digital", "musical", "instruments", "design", "lego", "modular", "multichannel", "input", "route", "transform", "map", "midi", "osc" ],
+	"description" : "A Toolkit for Tinkering with Digital Musical Instruments. Think of it as a "Lego" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow.",
+	"tags" : [ "digital", "musical", "instruments", "interfaces", "design", "lego", "modular", "multichannel", "input", "route", "transform", "utility" ],
 	"website" : "https://francescodimaggio.nl"
 	"extensible" : 0,
 	"extends" : "",
-	"max_version_min" : "8.3", 
+	"max_version_min" : "8.3.0", 
 	"max_version_max" : "none",
 	"os" : {
 		"macintosh" : {
