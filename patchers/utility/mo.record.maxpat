@@ -10,16 +10,16 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -1148,13 +1148,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 1 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[23]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -2717,6 +2715,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

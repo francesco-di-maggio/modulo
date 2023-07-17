@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -485,6 +485,7 @@
  ],
 		"parameters" : 		{
 			"obj-16::obj-21" : [ "live.text[1]", "live.text", 0 ],
+			"obj-16::obj-3" : [ "live.text[526]", "live.text", 0 ],
 			"obj-16::obj-4" : [ "live.text[2]", "live.numbox", 0 ],
 			"obj-16::obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-16::obj-6" : [ "live.numbox[4]", "live.numbox", 0 ],
@@ -525,9 +526,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.slide.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

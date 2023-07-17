@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -396,7 +396,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.timer.maxpat",
+					"name" : "mo.transport.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -404,7 +404,7 @@
 					"patching_rect" : [ 44.0, 126.0, 214.0, 57.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 27.0, 214.0, 57.5 ],
-					"varname" : "mo.timer",
+					"varname" : "mo.transport",
 					"viewvisibility" : 1
 				}
 
@@ -567,7 +567,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 53.5, 186.0, 53.5, 186.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -665,7 +664,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 53.5, 102.0, 53.5, 102.0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -682,19 +680,15 @@
 			"obj-3::obj-3" : [ "live.text[382]", "live.text", 0 ],
 			"obj-49::obj-2" : [ "live.text[174]", "live.text", 0 ],
 			"obj-49::obj-22" : [ "live.text[175]", "live.text", 0 ],
-			"obj-49::obj-37" : [ "live.text[173]", "live.text", 0 ],
 			"obj-49::obj-6" : [ "live.text[176]", "live.text", 0 ],
 			"obj-50::obj-21" : [ "live.text[23]", "live.text", 0 ],
 			"obj-50::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-50::obj-35" : [ "live.text[3]", "live.text", 0 ],
-			"obj-50::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"obj-51::obj-2" : [ "live.text[15]", "live.text", 0 ],
 			"obj-51::obj-22" : [ "live.text[14]", "live.text", 0 ],
-			"obj-51::obj-37" : [ "live.text[16]", "live.text", 0 ],
 			"obj-51::obj-6" : [ "live.text[17]", "live.text", 0 ],
 			"obj-52::obj-2" : [ "live.text[19]", "live.text", 0 ],
 			"obj-52::obj-22" : [ "live.text[18]", "live.text", 0 ],
-			"obj-52::obj-37" : [ "live.text[21]", "live.text", 0 ],
 			"obj-52::obj-6" : [ "live.text[20]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -734,10 +728,6 @@
 					"parameter_longname" : "live.text[175]"
 				}
 ,
-				"obj-49::obj-37" : 				{
-					"parameter_longname" : "live.text[173]"
-				}
-,
 				"obj-49::obj-6" : 				{
 					"parameter_longname" : "live.text[176]"
 				}
@@ -750,20 +740,12 @@
 					"parameter_longname" : "live.text[3]"
 				}
 ,
-				"obj-50::obj-7" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
 				"obj-51::obj-2" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-51::obj-22" : 				{
 					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-51::obj-37" : 				{
-					"parameter_longname" : "live.text[16]"
 				}
 ,
 				"obj-51::obj-6" : 				{
@@ -778,10 +760,6 @@
 					"parameter_longname" : "live.text[18]"
 				}
 ,
-				"obj-52::obj-37" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
 				"obj-52::obj-6" : 				{
 					"parameter_longname" : "live.text[20]"
 				}
@@ -792,6 +770,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.cue.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -806,14 +791,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.timer.maxpat",
+				"name" : "mo.transport.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
@@ -842,6 +820,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 176.0, 348.0, 79.0, 23.0 ],
-					"text" : "12 41 23"
+					"text" : "0 17 38"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 348.0, 79.0, 23.0 ],
-					"text" : "7 13 2023"
+					"text" : "7 17 2023"
 				}
 
 			}

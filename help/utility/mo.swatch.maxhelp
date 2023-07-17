@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -182,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 580.0, 214.0, 23.0 ],
-					"text" : "0. 0.944084 0.477113 1."
+					"text" : "1. 0. 0. 1."
 				}
 
 			}
@@ -417,9 +417,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

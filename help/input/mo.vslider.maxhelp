@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 635.0, 741.0 ],
+		"rect" : [ 34.0, 100.0, 635.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -309,7 +309,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 697.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 687.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -329,7 +329,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 409.0, 70.0, 265.0 ],
+					"patching_rect" : [ 41.0, 399.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -347,7 +347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 241.755791574060595, 396.0, 101.5, 396.0 ],
+					"midpoints" : [ 241.755791574060595, 384.0, 101.5, 384.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -371,7 +371,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 337.755791574060595, 396.0, 101.5, 396.0 ],
+					"midpoints" : [ 337.755791574060595, 384.0, 101.5, 384.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -395,7 +395,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 455.755791574060595, 396.0, 101.5, 396.0 ],
+					"midpoints" : [ 455.755791574060595, 384.0, 101.5, 384.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -411,7 +411,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 50.5, 675.0, 50.5, 675.0 ],
+					"midpoints" : [ 50.5, 666.0, 50.5, 666.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

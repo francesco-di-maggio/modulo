@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1364,10 +1364,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[12]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -1426,7 +1426,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"columns" : 1,
+					"columns" : 16,
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "matrixctrl",
@@ -1437,7 +1437,7 @@
 					"patching_rect" : [ 423.139760281642339, 396.325857325578113, 66.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 66.0, 204.0, 194.0 ],
-					"rows" : 1,
+					"rows" : 16,
 					"saved_attribute_attributes" : 					{
 						"color" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -1498,10 +1498,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[89]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 

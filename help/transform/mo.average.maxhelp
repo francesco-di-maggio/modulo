@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.255791574060595, 163.0, 103.0, 25.0 ],
+					"patching_rect" : [ 246.0, 170.0, 103.0, 25.0 ],
 					"text" : "generate data "
 				}
 
@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.255791574060595, 165.0, 20.0, 20.0 ],
+					"patching_rect" : [ 220.0, 172.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -237,9 +237,6 @@
 					"format" : 6,
 					"id" : "obj-6",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
-					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -335,6 +332,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-18" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-2::obj-20" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-2::obj-74" : 				{
 					"parameter_longname" : "live.text[71]"
 				}
@@ -349,16 +354,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.average.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../patchers/transform",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.average.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

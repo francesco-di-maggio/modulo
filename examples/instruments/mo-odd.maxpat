@@ -1330,7 +1330,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-72",
 					"maxclass" : "comment",
@@ -1346,7 +1345,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-69",
 					"linecount" : 2,
@@ -1420,7 +1418,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-55",
 					"maxclass" : "comment",
@@ -1699,7 +1696,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 2,

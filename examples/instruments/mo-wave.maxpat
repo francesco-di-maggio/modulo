@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 446.0, 294.0 ],
+		"rect" : [ 34.0, 100.0, 446.0, 294.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -76,56 +76,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 637.5, 66.25, 55.0, 23.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 637.5, 28.017661435184777, 68.0, 23.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-14",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 596.666666666666742, 190.25, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "1",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
@@ -133,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 235.600694444444457, 409.0, 79.0 ],
+					"patching_rect" : [ 158.875, 280.0, 409.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
 					"presentation_rect" : [ 20.0, 198.571428571428584, 409.0, 79.0 ],
@@ -145,16 +95,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-32",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.666666666666742, 59.25, 130.0, 39.0 ],
+					"patching_rect" : [ 290.0, 66.25, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 271.047803290188313, 46.356455599544006, 130.0, 39.0 ],
-					"text" : "refresh, \nand set MIDI device",
-					"textjustification" : 0
+					"presentation_rect" : [ 270.0, 53.356455599544006, 138.0, 25.0 ],
+					"text" : "set input MIDI device"
 				}
 
 			}
@@ -183,65 +130,6 @@
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 622.5, 188.25, 85.0, 25.0 ],
-					"text" : "load preset",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 539.0, 66.25, 65.0, 23.0 ],
-					"text" : "writeagain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autorestore" : "p-wave.json",
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 539.0, 120.25, 297.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage p-wave @autorestore 1 @changemode 1",
-					"varname" : "p-wave"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubblesize" : 20,
-					"id" : "obj-36",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 539.0, 185.25, 53.0, 30.0 ],
-					"pattrstorage" : "p-wave"
 				}
 
 			}
@@ -283,30 +171,6 @@
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 168.375, 144.0, 168.375, 144.0 ],
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 548.5, 90.0, 548.5, 90.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 647.0, 105.0, 548.5, 105.0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 647.0, 54.0, 647.0, 54.0 ],
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -366,15 +230,9 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "p-wave.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

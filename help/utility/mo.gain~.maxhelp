@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 493.00795786459355, 285.0, 154.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "independent/multislider"
 				}
 
@@ -89,7 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 463.855361363635893, 325.0, 55.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "mode $1"
 				}
 
@@ -98,10 +96,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 554.0, 48.0, 48.0 ]
+					"patching_rect" : [ 303.0, 555.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -451,6 +449,10 @@
 				"obj-2::obj-37" : 				{
 					"parameter_longname" : "live.numbox[37]"
 				}
+,
+				"obj-2::obj-6" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
 
 			}
 ,
@@ -458,16 +460,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.gain~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.gain~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

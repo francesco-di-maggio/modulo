@@ -10,16 +10,16 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -303,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 2 : 12 : 266",
+					"text" : "0 : 29 : 25 : 600",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -355,11 +355,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.5, 434.5, 139.0, 24.0 ],
+					"patching_rect" : [ 244.5, 434.5, 140.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.797253370285034, 30.371792723306498, 87.0, 23.0 ],
+					"presentation_rect" : [ 120.797253370285034, 30.371792723306498, 88.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "11 : 39 : 16",
+					"text" : "23 : 38 : 40",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[1]"
@@ -467,11 +467,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 84.0, 434.5, 145.0, 24.0 ],
+					"patching_rect" : [ 84.0, 434.5, 146.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 30.371792723306498, 110.0, 23.0 ],
+					"presentation_rect" : [ 4.5, 30.371792723306498, 111.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "13 / 7 / 2023",
+					"text" : "16 / 7 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX"
@@ -711,6 +711,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

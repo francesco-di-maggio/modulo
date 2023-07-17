@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -174,8 +174,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.5, 321.5, 101.0, 25.0 ],
-					"text" : "set low input "
+					"patching_rect" : [ 577.5, 321.5, 97.0, 25.0 ],
+					"text" : "set min input "
 				}
 
 			}
@@ -238,8 +238,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.5, 284.5, 101.0, 25.0 ],
-					"text" : "set high input "
+					"patching_rect" : [ 487.5, 284.5, 100.0, 25.0 ],
+					"text" : "set max input "
 				}
 
 			}
@@ -543,7 +543,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 691.5, 358.5, 108.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set max output "
 				}
 

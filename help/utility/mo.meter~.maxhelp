@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,17 +36,17 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.140615909090684, 603.0, 48.0, 48.0 ]
+					"patching_rect" : [ 291.640615909090684, 604.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -308,7 +308,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-10::obj-6" : [ "live.text[775]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -318,37 +318,21 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-10::obj-153" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[19]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.meter~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.meter~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

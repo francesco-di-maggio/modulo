@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 624.0, 585.0 ],
+		"rect" : [ 34.0, 100.0, 606.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.255791574060595, 358.0, 53.0, 23.0 ],
+					"patching_rect" : [ 417.255791574060595, 352.0, 53.0, 23.0 ],
 					"text" : "color $1"
 				}
 
@@ -191,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 536.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 521.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -335,7 +335,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 419.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 404.0, 70.0, 87.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -345,7 +345,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 336.755791574060538, 405.0, 101.5, 405.0 ],
+					"midpoints" : [ 336.755791574060538, 390.0, 101.5, 390.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -385,7 +385,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 243.755791574060538, 405.0, 101.5, 405.0 ],
+					"midpoints" : [ 243.755791574060538, 390.0, 101.5, 390.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -401,7 +401,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 50.5, 507.0, 50.5, 507.0 ],
+					"midpoints" : [ 50.5, 492.0, 50.5, 492.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -433,7 +433,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 426.755791574060595, 405.0, 101.5, 405.0 ],
+					"midpoints" : [ 426.755791574060595, 390.0, 101.5, 390.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -486,6 +486,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

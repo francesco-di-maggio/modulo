@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -467,7 +467,6 @@
  ],
 		"parameters" : 		{
 			"obj-14::obj-3" : [ "live.text[46]", "live.text", 0 ],
-			"obj-14::obj-6" : [ "live.text[414]", "live.text", 0 ],
 			"obj-1::obj-13" : [ "live.text[26]", "live.text", 0 ],
 			"obj-1::obj-3" : [ "live.text[1]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
@@ -476,20 +475,15 @@
 			"obj-21::obj-21" : [ "live.text[47]", "live.text", 0 ],
 			"obj-21::obj-3" : [ "slider-[20]", "slider-", 0 ],
 			"obj-21::obj-35" : [ "live.text[48]", "live.text", 0 ],
-			"obj-21::obj-7" : [ "live.text[49]", "live.text", 0 ],
 			"obj-3::obj-21" : [ "dial%[1]", "dial-", 0 ],
-			"obj-3::obj-37" : [ "live.text[8]", "live.text", 0 ],
 			"obj-3::obj-6" : [ "live.text[10]", "live.text", 0 ],
 			"obj-55::obj-21" : [ "dial-", "dial-", 0 ],
-			"obj-55::obj-37" : [ "live.text[67]", "live.text", 0 ],
 			"obj-55::obj-6" : [ "live.text[68]", "live.text", 0 ],
 			"obj-5::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[6]", "live.text", 0 ],
-			"obj-5::obj-7" : [ "live.text[2]", "live.text", 0 ],
 			"obj-61::obj-12" : [ "live.text[4]", "live.text", 0 ],
 			"obj-61::obj-21" : [ "dial", "dial", 0 ],
-			"obj-61::obj-37" : [ "live.text[5]", "live.text", 0 ],
 			"obj-7::obj-1" : [ "live.text[72]", "live.text", 0 ],
 			"obj-7::obj-43" : [ "live.text[56]", "live.text", 0 ],
 			"obj-7::obj-46" : [ "live.text[58]", "live.text", 0 ],
@@ -514,10 +508,6 @@
 					"parameter_longname" : "live.text[46]"
 				}
 ,
-				"obj-14::obj-6" : 				{
-					"parameter_longname" : "live.text[414]"
-				}
-,
 				"obj-1::obj-3" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
@@ -534,20 +524,16 @@
 					"parameter_longname" : "live.text[48]"
 				}
 ,
-				"obj-21::obj-7" : 				{
-					"parameter_longname" : "live.text[49]"
-				}
-,
-				"obj-3::obj-37" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-55::obj-37" : 				{
-					"parameter_longname" : "live.text[67]"
+				"obj-3::obj-6" : 				{
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-55::obj-6" : 				{
 					"parameter_longname" : "live.text[68]"
+				}
+,
+				"obj-5::obj-21" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-5::obj-35" : 				{
@@ -556,10 +542,6 @@
 ,
 				"obj-61::obj-12" : 				{
 					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-61::obj-37" : 				{
-					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-7::obj-1" : 				{
@@ -608,6 +590,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.dial.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -632,13 +621,6 @@
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -668,7 +650,10 @@
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-7", "obj-59", "obj-8", "obj-42" ]
 			}
- ]
+ ],
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
 }

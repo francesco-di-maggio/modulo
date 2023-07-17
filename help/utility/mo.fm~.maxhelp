@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -56,7 +56,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 736.759021218750149, 450.0, 19.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "5",
+					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -96,7 +96,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 781.759021218750149, 168.0, 19.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "4",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
@@ -109,10 +109,10 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.192717424242687, 582.0, 48.0, 48.0 ]
+					"patching_rect" : [ 290.313148531249908, 583.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -819,9 +819,17 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-12" : 				{
+					"parameter_longname" : "live.text[100]"
+				}
+,
 				"obj-16::obj-4" : 				{
 					"parameter_initial" : 1,
 					"parameter_initial_enable" : 1
+				}
+,
+				"obj-16::obj-7" : 				{
+					"parameter_longname" : "live.dial[8]"
 				}
 
 			}

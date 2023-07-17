@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1559,10 +1559,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -2182,6 +2182,10 @@
 			"parameter_overrides" : 			{
 				"obj-107::obj-2" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[29]"
 				}
 ,
 				"obj-1::obj-2" : 				{

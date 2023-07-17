@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -47,8 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 654.0, 214.0, 23.0 ],
-					"text" : "0. 0.272603 0. 0."
+					"patching_rect" : [ 41.0, 654.0, 214.0, 23.0 ]
 				}
 
 			}
@@ -204,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.255791574060538, 283.0, 69.0, 39.0 ],
-					"text" : "random \nlocation"
+					"text" : "random \nnodes"
 				}
 
 			}
@@ -383,16 +382,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.nodes.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.nodes.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}

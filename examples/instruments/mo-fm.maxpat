@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -256,9 +256,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 783.32013450935483, 581.951504590334935, 102.0, 25.0 ],
+					"patching_rect" : [ 786.5, 514.5, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 510.94513450935483, 425.066996090454495, 102.0, 25.0 ],
+					"presentation_rect" : [ 510.94513450935483, 358.866330745724213, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -278,9 +278,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 756.82013450935483, 584.451504590334935, 20.0, 20.0 ],
+					"patching_rect" : [ 760.0, 517.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.0, 427.566996090454495, 20.0, 20.0 ],
+					"presentation_rect" : [ 485.0, 361.366330745724213, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1676,6 +1676,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

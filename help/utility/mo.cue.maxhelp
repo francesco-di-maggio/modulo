@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,10 +36,24 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.280237540602684, 208.0, 84.0, 25.0 ],
+					"text" : "output cue"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
@@ -204,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.719762459397316, 164.0, 35.0, 23.0 ],
+					"patching_rect" : [ 330.719762459397316, 208.0, 35.0, 23.0 ],
 					"text" : "bang"
 				}
 
@@ -302,7 +316,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 451.219762459397316, 255.0, 50.5, 255.0 ],
+					"midpoints" : [ 340.219762459397316, 255.0, 50.5, 255.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -370,16 +384,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.cue.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.cue.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

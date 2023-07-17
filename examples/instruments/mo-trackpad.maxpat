@@ -540,7 +540,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1318,6 +1317,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-23::obj-15" : 				{
 					"parameter_longname" : "live.text[23]"
 				}
@@ -1605,7 +1608,7 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 1.0, 0.208961303462322, 0.605788680517471, 1.0 ],
+		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 

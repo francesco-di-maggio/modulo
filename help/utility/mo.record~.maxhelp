@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -67,10 +67,10 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.522767318181877, 552.115920379757881, 48.0, 48.0 ]
+					"patching_rect" : [ 382.522767318181877, 552.115920379757881, 45.0, 45.0 ]
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.237512772727086, 563.115920379757881, 74.0, 25.0 ],
+					"patching_rect" : [ 464.237512772727086, 563.115920379757881, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -103,7 +103,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 441.522767318181877, 566.115920379757881, 20.0, 20.0 ],
+					"patching_rect" : [ 435.522767318181877, 566.115920379757881, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

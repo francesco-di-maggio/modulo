@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,17 +36,69 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-6",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 121.445759877562523, 204.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-18",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 80.0, 166.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.445759877562523, 202.0, 130.0, 25.0 ],
+					"patching_rect" : [ 146.445759877562523, 202.0, 130.0, 25.0 ],
 					"text" : "map keyboard keys "
 				}
 
@@ -58,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.50795786459355, 164.0, 106.0, 25.0 ],
+					"patching_rect" : [ 104.50795786459355, 164.0, 106.0, 25.0 ],
 					"text" : "map controller "
 				}
 
@@ -156,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 571.40240266919136, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
@@ -341,18 +393,14 @@
 		"parameters" : 		{
 			"obj-10::obj-12" : [ "live.text[37]", "live.text", 0 ],
 			"obj-10::obj-21" : [ "dial", "dial", 0 ],
-			"obj-10::obj-37" : [ "live.text[36]", "live.text", 0 ],
 			"obj-11::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-11::obj-22" : [ "live.text[38]", "live.text", 0 ],
-			"obj-11::obj-37" : [ "live.text[91]", "live.text", 0 ],
 			"obj-11::obj-6" : [ "live.text[92]", "live.text", 0 ],
 			"obj-1::obj-21" : [ "dial%[1]", "dial-", 0 ],
-			"obj-1::obj-37" : [ "live.text[414]", "live.text", 0 ],
 			"obj-1::obj-6" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-21" : [ "live.text[32]", "live.text", 0 ],
 			"obj-3::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-3::obj-35" : [ "live.text[33]", "live.text", 0 ],
-			"obj-3::obj-7" : [ "live.text[3]", "live.text", 0 ],
 			"obj-4::obj-153" : [ "live.text[56]", "live.text", 0 ],
 			"obj-4::obj-39" : [ "live.text[100]", "live.text", 0 ],
 			"obj-4::obj-5" : [ "live.text[46]", "live.text", 0 ],
@@ -373,6 +421,7 @@
 			"obj-5::obj-123::obj-68" : [ "live.numbox[70]", "live.numbox", 0 ],
 			"obj-5::obj-123::obj-72" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-5::obj-123::obj-9" : [ "live.numbox[52]", "live.numbox", 0 ],
+			"obj-5::obj-15" : [ "live.numbox[90]", "live.text", 0 ],
 			"obj-5::obj-16" : [ "live.text[98]", "live.text", 0 ],
 			"obj-5::obj-1::obj-15" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-5::obj-1::obj-26" : [ "live.text[7]", "live.text", 0 ],
@@ -381,6 +430,7 @@
 			"obj-5::obj-1::obj-68" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-5::obj-1::obj-72" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-5::obj-1::obj-9" : [ "live.numbox[20]", "live.numbox", 0 ],
+			"obj-5::obj-35" : [ "live.numbox[93]", "live.numbox", 0 ],
 			"obj-5::obj-36::obj-15" : [ "live.numbox[24]", "live.numbox", 0 ],
 			"obj-5::obj-36::obj-26" : [ "live.text[8]", "live.text", 0 ],
 			"obj-5::obj-36::obj-35" : [ "live.text[15]", "live.text", 0 ],
@@ -388,6 +438,7 @@
 			"obj-5::obj-36::obj-68" : [ "live.numbox[22]", "live.numbox", 0 ],
 			"obj-5::obj-36::obj-72" : [ "live.numbox[21]", "live.numbox", 0 ],
 			"obj-5::obj-36::obj-9" : [ "live.numbox[25]", "live.numbox", 0 ],
+			"obj-5::obj-37" : [ "live.numbox[94]", "live.numbox", 0 ],
 			"obj-5::obj-40::obj-15" : [ "live.numbox[26]", "live.numbox", 0 ],
 			"obj-5::obj-40::obj-26" : [ "live.text[17]", "live.text", 0 ],
 			"obj-5::obj-40::obj-35" : [ "live.text[18]", "live.text", 0 ],
@@ -491,20 +542,12 @@
 					"parameter_longname" : "live.text[37]"
 				}
 ,
-				"obj-10::obj-37" : 				{
-					"parameter_longname" : "live.text[36]"
-				}
-,
 				"obj-11::obj-2" : 				{
 					"parameter_longname" : "live.text[90]"
 				}
 ,
 				"obj-11::obj-22" : 				{
 					"parameter_longname" : "live.text[38]"
-				}
-,
-				"obj-11::obj-37" : 				{
-					"parameter_longname" : "live.text[91]"
 				}
 ,
 				"obj-11::obj-6" : 				{
@@ -521,10 +564,6 @@
 ,
 				"obj-3::obj-35" : 				{
 					"parameter_longname" : "live.text[33]"
-				}
-,
-				"obj-3::obj-7" : 				{
-					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-4::obj-153" : 				{
@@ -1028,6 +1067,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.dial.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1059,13 +1105,6 @@
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

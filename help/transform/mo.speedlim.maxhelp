@@ -270,6 +270,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",

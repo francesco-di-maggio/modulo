@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -256,8 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.250000000000114, 476.0, 48.190027274027329, 23.0 ],
-					"text" : "64"
+					"patching_rect" : [ 207.250000000000114, 476.0, 48.190027274027329, 23.0 ]
 				}
 
 			}
@@ -363,8 +362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.625000000000114, 508.5, 51.440027274027386, 23.0 ],
-					"text" : "1 45"
+					"patching_rect" : [ 125.625000000000114, 508.5, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -376,8 +374,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.000000000000057, 541.0, 51.440027274027386, 23.0 ],
-					"text" : "60 0"
+					"patching_rect" : [ 44.000000000000057, 541.0, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -644,16 +641,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.midiin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "mo.midiin.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}

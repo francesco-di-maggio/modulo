@@ -10,16 +10,16 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 247.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -678,6 +678,7 @@
 					"knobcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 1,
+					"multislider" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
@@ -685,7 +686,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.0, 486.005973920350584, 135.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 16.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 176.0 ],
 					"saved_attribute_attributes" : 					{
 						"knobcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -693,6 +694,7 @@
 
 					}
 ,
+					"saved_multichannel" : 1,
 					"stripecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"varname" : "gain-"
 				}
@@ -811,10 +813,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[37]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -1460,7 +1462,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 418.07387747319558, 342.051943330534755, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 16.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 176.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1788,6 +1790,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

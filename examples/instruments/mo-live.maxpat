@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -209,13 +209,16 @@
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-39",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 715.5, 207.616567460317469, 77.0, 40.0 ],
+					"patching_rect" : [ 692.0, 180.0, 124.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 289.449900793650784, 77.0, 40.0 ],
-					"text" : "open live set"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 146.0, 260.0, 124.0, 69.0 ],
+					"text" : "this button will lauch \nAbleton Live, and \nload a live set",
+					"textjustification" : 1
 				}
 
 			}
@@ -351,11 +354,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 36.449900793650784, 147.0, 79.0 ],
+					"patching_rect" : [ 565.0, 36.449900793650784, 164.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 21.0, 177.029662698412551, 147.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch the live set.\n3. Interact with the GUIs."
+					"presentation_rect" : [ 21.0, 177.029662698412551, 164.0, 79.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch Ableton Live's set.\n3. Interact with the GUIs."
 				}
 
 			}
@@ -1586,6 +1589,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

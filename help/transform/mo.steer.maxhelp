@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,10 +36,23 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 41.0, 140.0, 58.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -66,11 +79,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.5, 233.5, 104.0, 25.0 ],
-					"text" : "set flip on/off  "
+					"patching_rect" : [ 150.0, 226.5, 146.0, 39.0 ],
+					"text" : "set direction (upwards/downwards)"
 				}
 
 			}
@@ -224,6 +238,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 50.5, 342.0, 50.5, 342.0 ],
 					"source" : [ "obj-16", 0 ]
@@ -261,6 +283,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-1" : 				{
+					"parameter_longname" : "live.text[140]"
+				}
+,
 				"obj-16::obj-37" : 				{
 					"parameter_invisible" : 2,
 					"parameter_longname" : "live.text[26]",
@@ -279,6 +305,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.steer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",

@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
+						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 419.594717279076576, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 100, 358, 228 ],
+										"client_rect" : [ 4, 100, 566, 242 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -260,7 +260,6 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 281.843060141506442, 0.195339091698011, 0, 424.236415917934607, 0.62591576660976, 0, 820.461405904517278, 0.288436751138389, 0 ],
 									"domain" : 1000.0008544921875,
 									"id" : "obj-7",
 									"maxclass" : "function",
@@ -402,11 +401,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 272.0, 514.785720999999967, 98.0, 23.0 ],
 									"restore" : 									{
-										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, 281.843060141506442, 0.195339091698011, 0, 424.236415917934607, 0.62591576660976, 0, 820.461405904517278, 0.288436751138389, 0, "linear" ],
-										"myknob[1]" : [ 14 ],
-										"myknob[2]" : [ 50 ],
-										"myknob[3]" : [ 71 ],
-										"myslider" : [ 0.107349375722543 ]
+										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, "linear" ],
+										"myknob[1]" : [ 0 ],
+										"myknob[2]" : [ 0 ],
+										"myknob[3]" : [ 0 ],
+										"myslider" : [ -1.0 ]
 									}
 ,
 									"text" : "autopattr help-2",
@@ -508,15 +507,15 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -534,7 +533,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
+						"subpatcher_template" : "mo.main",
 						"showontab" : 1,
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
@@ -576,7 +575,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 419.594717279076576, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 100, 358, 228 ],
+										"client_rect" : [ 4, 100, 566, 242 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]

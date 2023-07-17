@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 818.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,358 +42,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 1444.0, 822.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"showontab" : 1,
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Bold Regular",
-									"id" : "obj-26",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 372.365287323792757, 68.0, 21.0 ],
-									"text" : "SNIPPETS:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Bold Regular",
-									"id" : "obj-25",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 175.682643661896407, 85.0, 21.0 ],
-									"text" : "PASTE FROM:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-24",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 435.0, 119.5, 100.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"arrows" : 2,
-									"id" : "obj-23",
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"maxclass" : "live.line",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 259.0, 127.0, 163.0, 10.0 ],
-									"saved_attribute_attributes" : 									{
-										"linecolor" : 										{
-											"expression" : ""
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"arrows" : 2,
-									"id" : "obj-22",
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"maxclass" : "live.line",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 372.0, 177.873800923994651, 163.0, 10.0 ],
-									"saved_attribute_attributes" : 									{
-										"linecolor" : 										{
-											"expression" : ""
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"autofit" : 1,
-									"forceaspect" : 1,
-									"id" : "obj-19",
-									"maxclass" : "fpic",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 985.0, 213.873800923994622, 181.328767123287662, 511.574879227053145 ],
-									"pic" : "/Users/Home/Desktop/Screenshot 2023-07-15 at 11.44.25.png"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"autofit" : 1,
-									"forceaspect" : 1,
-									"id" : "obj-18",
-									"maxclass" : "fpic",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 886.125, 504.127272727272725, 139.666666666666629, 121.890909090909048 ],
-									"pic" : "/Users/Home/Desktop/Screenshot 2023-07-15 at 11.44.30.png"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"autofit" : 1,
-									"forceaspect" : 1,
-									"id" : "obj-16",
-									"maxclass" : "fpic",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 681.0, 191.860396460783818, 248.0, 432.538720538720554 ],
-									"pic" : "/Users/Home/Desktop/Screenshot 2023-07-15 at 11.44.38.png"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"autofit" : 1,
-									"forceaspect" : 1,
-									"id" : "obj-15",
-									"maxclass" : "fpic",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 543.0, 53.609483743377893, 180.11320754716985, 210.264317180616786 ],
-									"pic" : "/Users/Home/Desktop/Screenshot 2023-07-15 at 11.44.43.png"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Bold Regular",
-									"id" : "obj-7",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 46.5, 144.0, 21.0 ],
-									"text" : "CREATE A NEW OBJECT:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"arrows" : 2,
-									"border" : 2.0,
-									"id" : "obj-9",
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"maxclass" : "live.line",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 91.5, 10.0, 541.71875 ],
-									"saved_attribute_attributes" : 									{
-										"linecolor" : 										{
-											"expression" : ""
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 10.0,
-									"hint" : "",
-									"id" : "obj-4",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 35.0, 86.5, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "1",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontface" : 1,
-									"fontname" : "Ableton Sans Medium",
-									"id" : "obj-5",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 65.0, 69.5, 276.0, 54.0 ],
-									"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.pad)."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 10.0,
-									"hint" : "",
-									"id" : "obj-2",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 35.0, 419.365287323792813, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "3",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Ableton Sans Medium",
-									"id" : "obj-3",
-									"linecount" : 4,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 65.0, 395.365287323792813, 431.0, 68.0 ],
-									"presentation_linecount" : 5,
-									"text" : "1. Unlock the patcher window.\n2. On the Left Toolbar, click on Snippets.\n3. Find \"modulo\", and choose a module.\n4. Double-click, or drag-and-drop a module on an unlocked patcher window."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 10.0,
-									"hint" : "",
-									"id" : "obj-35",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 35.0, 215.682643661896407, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "2",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontface" : 1,
-									"fontname" : "Ableton Sans Medium",
-									"id" : "obj-17",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 65.0, 198.682643661896435, 395.0, 54.0 ],
-									"text" : "1. Unlock the patcher window.\n2. Right-click anywhere in the patcher window: Paste From > modulo. \n3. Choose a category, and select a module."
-								}
-
-							}
- ],
-						"lines" : [  ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
-					}
-,
-					"patching_rect" : [ 28.0, 93.0, 97.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
-					}
-,
-					"text" : "p \"add modules\"",
-					"varname" : "modules[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -409,15 +57,15 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1444.0, 822.0 ],
+						"rect" : [ 0.0, 26.0, 818.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -435,7 +83,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
+						"subpatcher_template" : "mo.main",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
@@ -445,7 +93,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 444.365287323792813, 120.0, 21.0 ],
+									"patching_rect" : [ 35.0, 454.365287323792813, 120.0, 21.0 ],
 									"text" : " • A simple FM synth."
 								}
 
@@ -457,7 +105,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 419.365287323792813, 56.0, 23.0 ],
+									"patching_rect" : [ 35.0, 429.365287323792813, 56.0, 23.0 ],
 									"text" : "SOUND",
 									"underline" : 1
 								}
@@ -565,7 +213,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 555.25, 435.604319776098009, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-tutorial-1",
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 465.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -600,14 +247,14 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 45, 358, 173 ],
+										"client_rect" : [ 4, 100, 413, 948 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-tutorial-1"
+									"varname" : "untitled"
 								}
 
 							}
@@ -791,7 +438,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mo.fm~.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
@@ -989,6 +636,7 @@
 								"boxes" : [ "obj-59", "obj-38", "obj-42", "obj-37" ]
 							}
  ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1001,7 +649,8 @@
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"tags" : "",
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p bpatcher",
@@ -1026,15 +675,15 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1444.0, 822.0 ],
+						"rect" : [ 34.0, 126.0, 818.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -1052,10 +701,43 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
+						"subpatcher_template" : "mo.main",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 654.75, 120.0, 137.0, 23.0 ],
+									"restore" : 									{
+										"number" : [ -12.0 ],
+										"number[10]" : [ 0.56013928540051 ],
+										"number[1]" : [ 0.0 ],
+										"number[2]" : [ 0.0 ],
+										"number[3]" : [ 0.0 ],
+										"number[4]" : [ 0.0 ],
+										"number[5]" : [ 0.0 ],
+										"number[6]" : [ 0.724958339240402 ],
+										"number[7]" : [ 0.039867345243692 ],
+										"number[8]" : [ 0.092816112563014 ],
+										"number[9]" : [ 0.540428365580738 ],
+										"textbutton" : [ -1 ],
+										"textbutton[1]" : [ -1 ],
+										"textbutton[2]" : [ -1 ],
+										"textbutton[3]" : [ -1 ],
+										"toggle" : [ 0 ],
+										"toggle[1]" : [ 0 ]
+									}
+,
+									"text" : "autopattr @autoname 1",
+									"varname" : "u538022096"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"format" : 6,
 									"id" : "obj-15",
@@ -1064,7 +746,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 747.75, 393.175082952919524, 50.0, 23.0 ]
+									"patching_rect" : [ 730.75, 371.175082952919524, 50.0, 23.0 ],
+									"varname" : "number[10]"
 								}
 
 							}
@@ -1075,7 +758,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 747.75, 426.175082952919524, 57.0, 23.0 ],
+									"patching_rect" : [ 730.75, 404.175082952919524, 57.0, 23.0 ],
 									"text" : "depth $1"
 								}
 
@@ -1089,7 +772,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 687.25, 393.175082952919524, 50.0, 23.0 ]
+									"patching_rect" : [ 670.25, 371.175082952919524, 50.0, 23.0 ],
+									"varname" : "number[9]"
 								}
 
 							}
@@ -1102,7 +786,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 622.75, 393.175082952919524, 50.0, 23.0 ]
+									"patching_rect" : [ 605.75, 371.175082952919524, 50.0, 23.0 ],
+									"varname" : "number[8]"
 								}
 
 							}
@@ -1115,7 +800,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 520.083333333333371, 393.175082952919524, 50.0, 23.0 ]
+									"patching_rect" : [ 503.083333333333371, 371.175082952919524, 50.0, 23.0 ],
+									"varname" : "number[7]"
 								}
 
 							}
@@ -1128,7 +814,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 444.75, 393.175082952919524, 50.0, 23.0 ]
+									"patching_rect" : [ 427.75, 371.175082952919524, 50.0, 23.0 ],
+									"varname" : "number[6]"
 								}
 
 							}
@@ -1139,7 +826,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 687.25, 426.175082952919524, 47.0, 23.0 ],
+									"patching_rect" : [ 670.25, 404.175082952919524, 47.0, 23.0 ],
 									"text" : "rate $1"
 								}
 
@@ -1151,7 +838,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 622.75, 426.175082952919524, 51.0, 23.0 ],
+									"patching_rect" : [ 605.75, 404.175082952919524, 51.0, 23.0 ],
 									"text" : "ratio $1"
 								}
 
@@ -1163,7 +850,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 520.25, 426.175082952919524, 89.0, 23.0 ],
+									"patching_rect" : [ 503.25, 404.175082952919524, 89.0, 23.0 ],
 									"text" : "harmonicity $1"
 								}
 
@@ -1175,7 +862,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 444.75, 426.175082952919524, 62.0, 23.0 ],
+									"patching_rect" : [ 427.75, 404.175082952919524, 62.0, 23.0 ],
 									"text" : "carrier $1"
 								}
 
@@ -1187,7 +874,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 584.75, 27.0, 40.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "depth"
 								}
 
@@ -1221,7 +907,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 361.75, 27.0, 72.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "harmonicity"
 								}
 
@@ -1271,7 +956,8 @@
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
+									"usetextovercolor" : 1,
+									"varname" : "textbutton[3]"
 								}
 
 							}
@@ -1296,7 +982,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 579.75, 51.5, 50.0, 23.0 ]
+									"patching_rect" : [ 579.75, 51.5, 50.0, 23.0 ],
+									"varname" : "number[5]"
 								}
 
 							}
@@ -1309,7 +996,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 510.75, 51.5, 50.0, 23.0 ]
+									"patching_rect" : [ 510.75, 51.5, 50.0, 23.0 ],
+									"varname" : "number[4]"
 								}
 
 							}
@@ -1322,7 +1010,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 441.75, 51.5, 50.0, 23.0 ]
+									"patching_rect" : [ 441.75, 51.5, 50.0, 23.0 ],
+									"varname" : "number[3]"
 								}
 
 							}
@@ -1335,7 +1024,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 372.75, 51.5, 50.0, 23.0 ]
+									"patching_rect" : [ 372.75, 51.5, 50.0, 23.0 ],
+									"varname" : "number[2]"
 								}
 
 							}
@@ -1348,7 +1038,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 303.75, 51.5, 50.0, 23.0 ]
+									"patching_rect" : [ 303.75, 51.5, 50.0, 23.0 ],
+									"varname" : "number[1]"
 								}
 
 							}
@@ -1397,7 +1088,8 @@
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
+									"usetextovercolor" : 1,
+									"varname" : "textbutton[2]"
 								}
 
 							}
@@ -1419,7 +1111,7 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 45, 358, 173 ],
+										"client_rect" : [ 4, 100, 413, 948 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -1437,7 +1129,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 400.75, 325.675082952919524, 82.0, 25.0 ],
+									"patching_rect" : [ 395.75, 325.675082952919524, 82.0, 25.0 ],
 									"text" : "play / stop"
 								}
 
@@ -1457,14 +1149,15 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 373.25, 328.175082952919524, 20.0, 20.0 ],
+									"patching_rect" : [ 368.25, 328.175082952919524, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
+									"usetextovercolor" : 1,
+									"varname" : "textbutton[1]"
 								}
 
 							}
@@ -1515,7 +1208,8 @@
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
+									"usetextovercolor" : 1,
+									"varname" : "textbutton"
 								}
 
 							}
@@ -1564,7 +1258,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 444.365287323792813, 120.0, 21.0 ],
+									"patching_rect" : [ 35.0, 454.365287323792813, 120.0, 21.0 ],
 									"text" : " • A simple FM synth."
 								}
 
@@ -1576,7 +1270,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 419.365287323792813, 56.0, 23.0 ],
+									"patching_rect" : [ 35.0, 429.365287323792813, 56.0, 23.0 ],
 									"text" : "SOUND",
 									"underline" : 1
 								}
@@ -1660,7 +1354,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 338.75, 326.175082952919524, 24.0, 24.0 ]
+									"patching_rect" : [ 333.75, 326.175082952919524, 24.0, 24.0 ],
+									"varname" : "toggle[1]"
 								}
 
 							}
@@ -1672,7 +1367,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 338.75, 359.175082952919524, 71.0, 23.0 ],
+									"patching_rect" : [ 333.75, 371.175082952919524, 71.0, 23.0 ],
 									"text" : "playstop $1"
 								}
 
@@ -1711,7 +1406,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 388.75, 558.483185943109788, 24.0, 24.0 ]
+									"patching_rect" : [ 388.75, 558.483185943109788, 24.0, 24.0 ],
+									"varname" : "toggle"
 								}
 
 							}
@@ -1757,10 +1453,10 @@
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 303.75, 443.365287323792813, 49.0, 23.0 ],
+									"patching_rect" : [ 303.75, 453.365287323792813, 49.0, 23.0 ],
 									"text" : "mo.fm~",
 									"varname" : "mo.theremini~"
 								}
@@ -1799,8 +1495,16 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 757.25, 417.0, 757.25, 417.0 ],
+									"midpoints" : [ 740.25, 396.0, 740.25, 396.0 ],
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 740.25, 438.0, 343.25, 438.0 ],
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -1822,9 +1526,41 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 437.25, 438.0, 343.25, 438.0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 512.75, 438.0, 343.25, 438.0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 679.75, 438.0, 343.25, 438.0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"midpoints" : [ 313.25, 264.0, 313.25, 264.0 ],
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 615.25, 438.0, 343.25, 438.0 ],
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -1855,7 +1591,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
-									"midpoints" : [ 454.25, 417.0, 454.25, 417.0 ],
+									"midpoints" : [ 437.25, 396.0, 437.25, 396.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -1863,7 +1599,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"midpoints" : [ 529.583333333333371, 417.0, 529.75, 417.0 ],
+									"midpoints" : [ 512.583333333333371, 396.0, 512.75, 396.0 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -1879,7 +1615,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
-									"midpoints" : [ 696.75, 417.0, 696.75, 417.0 ],
+									"midpoints" : [ 679.75, 396.0, 679.75, 396.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -1887,7 +1623,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
-									"midpoints" : [ 632.25, 417.0, 632.25, 417.0 ],
+									"midpoints" : [ 615.25, 396.0, 615.25, 396.0 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -1919,7 +1655,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 313.25, 111.0, 313.25, 111.0 ],
 									"source" : [ "obj-41", 0 ]
 								}
 
@@ -1942,8 +1677,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 348.25, 428.0, 313.25, 428.0 ],
+									"destination" : [ "obj-7", 1 ],
+									"midpoints" : [ 343.25, 396.0, 343.25, 396.0 ],
 									"source" : [ "obj-45", 0 ]
 								}
 
@@ -1951,7 +1686,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-45", 0 ],
-									"midpoints" : [ 348.25, 353.0, 348.25, 353.0 ],
+									"midpoints" : [ 343.25, 351.0, 343.25, 351.0 ],
 									"source" : [ "obj-47", 0 ]
 								}
 
@@ -1959,12 +1694,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"midpoints" : [ 313.25, 483.0, 313.25, 483.0 ],
+									"midpoints" : [ 313.25, 477.0, 313.25, 477.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
 							}
  ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1977,7 +1713,8 @@
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"tags" : "",
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p abstraction",
@@ -3871,6 +3608,10 @@
 					"parameter_longname" : "live.dial[6]"
 				}
 ,
+				"obj-2::obj-3::obj-116" : 				{
+					"parameter_longname" : "live.dial[31]"
+				}
+,
 				"obj-2::obj-3::obj-118" : 				{
 					"parameter_exponent" : 3.333,
 					"parameter_longname" : "live.dial[33]",
@@ -3934,34 +3675,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Screenshot 2023-07-15 at 11.44.25.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screenshot 2023-07-15 at 11.44.30.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screenshot 2023-07-15 at 11.44.38.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screenshot 2023-07-15 at 11.44.43.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",

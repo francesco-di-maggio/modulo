@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.806426948309081, 274.54613277936005, 225.0, 23.0 ],
-					"restore" : [ 0.5999, 0.6556, 0.128, 1, 0.7675, 0.5051, 0.39756, 1, 0.3617, 0.4834, 0.4736, 1, 0.2092, 0.5259, 0.35828, 1 ],
+					"restore" : [ 0.8467, 0.7605, 0.2654, 1, 0.8955, 0.8224, 0.47392, 1, 0.5746, 0.2166, 0.36648, 1, 0.3833, 0.8392, 0.22916, 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -963,10 +963,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[1]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -1030,7 +1030,7 @@
 					"maxclass" : "nodes",
 					"nodenumber" : 4,
 					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.128, 0.39756, 0.4736, 0.35828 ],
+					"nsize" : [ 0.2654, 0.47392, 0.36648, 0.22916 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -1039,8 +1039,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.944008178968261, 66.959666330119575, 203.102512662690629, 192.324950887227743 ],
 					"varname" : "nodes-",
-					"xplace" : [ 0.5999, 0.7675, 0.3617, 0.2092 ],
-					"yplace" : [ 0.6556, 0.5051, 0.4834, 0.5259 ]
+					"xplace" : [ 0.8467, 0.8955, 0.5746, 0.3833 ],
+					"yplace" : [ 0.7605, 0.8224, 0.2166, 0.8392 ]
 				}
 
 			}

@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -225,13 +225,14 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-26",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 464.0, 118.0, 23.0 ],
-					"text" : "99999. -99999."
+					"text" : "0. 1."
 				}
 
 			}
@@ -349,10 +350,44 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-21::obj-13" : 				{
+					"parameter_longname" : "live.text[66]"
+				}
+,
+				"obj-21::obj-16" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-21::obj-18" : 				{
+					"parameter_longname" : "live.text[37]"
+				}
+,
+				"obj-21::obj-37" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-21::obj-66" : 				{
+					"parameter_longname" : "live.numbox[44]"
+				}
+,
+				"obj-21::obj-68" : 				{
+					"parameter_longname" : "live.numbox[45]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.minmax.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",

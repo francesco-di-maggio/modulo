@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.239808142185211 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1405,7 +1405,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2387,7 +2387,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3334,6 +3334,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
@@ -3345,7 +3346,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-24",
-					"items" : [ "all", ",", 1, ",", 2, ",", 3 ],
+					"items" : [ "all", ",", 1 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3354,7 +3355,8 @@
 					"patching_rect" : [ 461.0, 405.5, 57.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.506036251783371, 40.454695870050273, 41.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -3403,10 +3405,10 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[96]",
-							"parameter_mmax" : 32.0,
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
@@ -3430,7 +3432,7 @@
 					"rounded" : 0.0,
 					"spacing_y" : 0.0,
 					"tabcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
-					"tabs" : [ "1", "2", "3" ]
+					"tabs" : [ "1" ]
 				}
 
 			}
@@ -4703,6 +4705,67 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-11" : [ "live.numbox[107]", "live.numbox", 0 ],
+			"obj-12" : [ "live.text[59]", "live.text", 0 ],
+			"obj-13" : [ "live.numbox[105]", "live.text", 0 ],
+			"obj-14" : [ "live.text[61]", "live.text", 0 ],
+			"obj-15" : [ "live.numbox[64]", "live.numbox", 0 ],
+			"obj-16" : [ "live.numbox[95]", "live.numbox", 0 ],
+			"obj-3" : [ "live.text[58]", "live.text", 0 ],
+			"obj-32" : [ "live.text[60]", "live.text", 0 ],
+			"obj-4" : [ "live.numbox[106]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[96]", "live.numbox", 0 ],
+			"obj-6.1::obj-10" : [ "live.text[32]", "live.text", 0 ],
+			"obj-6.1::obj-14" : [ "live.text[56]", "live.text", 0 ],
+			"obj-6.1::obj-15" : [ "live.numbox[63]", "live.numbox", 0 ],
+			"obj-6.1::obj-27" : [ "live.numbox[104]", "live.numbox", 0 ],
+			"obj-6.1::obj-32" : [ "live.numbox[102]", "live.text", 0 ],
+			"obj-6.1::obj-33" : [ "live.text[48]", "live.text", 0 ],
+			"obj-6.1::obj-35" : [ "live.numbox[94]", "live.numbox", 0 ],
+			"obj-6.1::obj-38" : [ "live.numbox[103]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.rand.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

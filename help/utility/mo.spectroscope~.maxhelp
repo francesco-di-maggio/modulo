@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -55,10 +55,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.140615909090684, 648.0, 48.0, 48.0 ]
+					"patching_rect" : [ 302.140615909090684, 649.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -121,12 +121,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.5, 251.5, 152.0, 39.0 ],
-					"text" : "set mode:\nspectrogram/sonogram"
+					"patching_rect" : [ 333.5, 258.0, 152.0, 25.0 ],
+					"text" : "spectrogram/sonogram"
 				}
 
 			}
@@ -418,13 +417,24 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-18::obj-3" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-18::obj-35" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 97.0, 856.0, 705.0 ],
+		"rect" : [ 34.0, 100.0, 856.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -279,7 +279,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 551.426817387342453, 205.208333333332973, 137.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.426817387342453, 203.5, 137.0, 40.0 ],
+					"presentation_rect" : [ 64.426817387342453, 211.5, 137.0, 40.0 ],
 					"text" : "pair it with input values ",
 					"textjustification" : 1
 				}
@@ -302,7 +302,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 609.926817387342453, 175.708333333332973, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.926817387342453, 177.447245217125101, 20.0, 20.0 ],
+					"presentation_rect" : [ 122.926817387342453, 185.447245217125101, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -2995,6 +2995,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

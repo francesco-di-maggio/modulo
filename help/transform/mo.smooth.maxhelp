@@ -16,9 +16,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -164,7 +164,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 219.0, 166.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "3",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 41.0, 255.0, 70.0, 57.5 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
@@ -251,9 +251,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-122" : [ "number[1]", "number[1]", 0 ],
 			"obj-16::obj-13" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-16::obj-16" : [ "number[3]", "number[1]", 0 ],
+			"obj-16::obj-15" : [ "live.text[25]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -263,13 +262,27 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-16::obj-13" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.smooth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/processes",
-				"patcherrelativepath" : "../../patchers/processes",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -89,6 +89,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"local" : 1,
+									"maxclass" : "mc.ezdac~",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 432.037037037037067, 483.999999999999886, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
@@ -113,17 +124,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 236.277777777777828, 575.5, 50.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 427.259259259259238, 482.499999999999886, 48.0, 48.0 ]
 								}
 
 							}
@@ -650,9 +650,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -670,7 +670,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
+						"subpatcher_template" : "mo.main",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
@@ -693,10 +693,10 @@
 								"box" : 								{
 									"id" : "obj-1",
 									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
+									"maxclass" : "mc.ezdac~",
+									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 427.259259259259238, 482.499999999999886, 48.0, 48.0 ]
+									"patching_rect" : [ 432.037037037037067, 483.999999999999886, 45.0, 45.0 ]
 								}
 
 							}
@@ -1198,6 +1198,7 @@
 
 							}
  ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1210,7 +1211,8 @@
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"tags" : "",
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p basic",
@@ -1261,6 +1263,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-13::obj-13" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
 				"obj-1::obj-13::obj-4" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
@@ -1331,6 +1337,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "down.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
@@ -1338,8 +1351,8 @@
 			}
 , 			{
 				"name" : "mo.lfo~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utilities",
-				"patcherrelativepath" : "../../patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
