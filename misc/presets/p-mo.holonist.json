@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-holon.ist",
+		"name" : "p-mo.holonist",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -32,6 +32,8 @@
 					"mo.sliders::[8]::mute" : [ 0.0 ],
 					"mo.sliders::[8]::slider" : [ 0.0 ],
 					"mo.sliders::[8]::polarity" : [ 0.0 ],
+					"mo.udpreceive::port" : [ "8001" ],
+					"mo.udpreceive::mute" : [ 0.0 ],
 					"mo.route::voices" : [ 8.0 ],
 					"mo.route::[1]::set" : [ "/a/1/cv" ],
 					"mo.route::[1]::mute" : [ 0.0 ],
@@ -48,11 +50,7 @@
 					"mo.route::[7]::set" : [ "/a/7/cv" ],
 					"mo.route::[7]::mute" : [ 0.0 ],
 					"mo.route::[8]::set" : [ "/a/8/cv" ],
-					"mo.route::[8]::mute" : [ 0.0 ],
-					"mo.send::send" : [ "iphone" ],
-					"mo.send::mute" : [ 0.0 ],
-					"mo.udpreceive::port" : [ "8001" ],
-					"mo.udpreceive::mute" : [ 0.0 ]
+					"mo.route::[8]::mute" : [ 0.0 ]
 				}
 
 			}

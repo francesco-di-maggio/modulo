@@ -1,0 +1,83 @@
+{
+	"pattrstorage" : 	{
+		"name" : "p-mo.tutorial-2",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"number" : [ -12.0 ],
+					"number[10]" : [ 0.0 ],
+					"number[6]" : [ 0.0 ],
+					"number[7]" : [ 0.0 ],
+					"number[8]" : [ 0.0 ],
+					"number[9]" : [ 0.0 ],
+					"textbutton" : [ -1 ],
+					"textbutton[1]" : [ -1 ],
+					"textbutton[2]" : [ -1 ],
+					"textbutton[3]" : [ -1 ],
+					"toggle" : [ 0 ],
+					"toggle[1]" : [ 1 ],
+					"mo.scale::voices" : [ 5.0 ],
+					"mo.scale::polarity" : [ 0.0 ],
+					"mo.scale::curve" : [ 1.0 ],
+					"mo.scale::input-min" : [ 0.0 ],
+					"mo.scale::input-max" : [ 1.0 ],
+					"mo.scale::mute" : [ 0.0 ],
+					"mo.scale::mode" : [ 0.0 ],
+					"mo.scale::output-min" : [ 0.0 ],
+					"mo.scale::output-max" : [ 1.0 ],
+					"mo.scale::[1]::curve" : [ 1.0 ],
+					"mo.scale::[1]::mute" : [ 0.0 ],
+					"mo.scale::[1]::input-min" : [ 0.0 ],
+					"mo.scale::[1]::input-max" : [ 1.0 ],
+					"mo.scale::[1]::output-min" : [ 0.0 ],
+					"mo.scale::[1]::output-max" : [ 200.0 ],
+					"mo.scale::[1]::mode" : [ 0.0 ],
+					"mo.scale::[2]::curve" : [ 1.0 ],
+					"mo.scale::[2]::mute" : [ 0.0 ],
+					"mo.scale::[2]::input-min" : [ 0.0 ],
+					"mo.scale::[2]::input-max" : [ 1.0 ],
+					"mo.scale::[2]::output-min" : [ 0.0 ],
+					"mo.scale::[2]::output-max" : [ 8.0 ],
+					"mo.scale::[2]::mode" : [ 0.0 ],
+					"mo.scale::[3]::curve" : [ 1.0 ],
+					"mo.scale::[3]::mute" : [ 0.0 ],
+					"mo.scale::[3]::input-min" : [ 0.0 ],
+					"mo.scale::[3]::input-max" : [ 1.0 ],
+					"mo.scale::[3]::output-min" : [ 0.0 ],
+					"mo.scale::[3]::output-max" : [ 30.0 ],
+					"mo.scale::[3]::mode" : [ 0.0 ],
+					"mo.scale::[4]::curve" : [ 1.0 ],
+					"mo.scale::[4]::mute" : [ 0.0 ],
+					"mo.scale::[4]::input-min" : [ 0.0 ],
+					"mo.scale::[4]::input-max" : [ 1.0 ],
+					"mo.scale::[4]::output-min" : [ 0.0 ],
+					"mo.scale::[4]::output-max" : [ 100.0 ],
+					"mo.scale::[4]::mode" : [ 0.0 ],
+					"mo.scale::[5]::curve" : [ 1.0 ],
+					"mo.scale::[5]::mute" : [ 0.0 ],
+					"mo.scale::[5]::input-min" : [ 0.0 ],
+					"mo.scale::[5]::input-max" : [ 1.0 ],
+					"mo.scale::[5]::output-min" : [ 0.0 ],
+					"mo.scale::[5]::output-max" : [ 1.0 ],
+					"mo.scale::[5]::mode" : [ 0.0 ],
+					"mo.theremini~::carrier" : [ 53.669724770642198 ],
+					"mo.theremini~::harmonicity" : [ 2.146788990825688 ],
+					"mo.theremini~::ratio" : [ 3.096330275229358 ],
+					"mo.theremini~::rate" : [ 9.403669724770642 ],
+					"mo.theremini~::mute" : [ 0.0 ],
+					"mo.theremini~::depth" : [ 0.571100917431193 ],
+					"mo.theremini~::gain" : [ 0.827380952380952 ],
+					"mo.theremini~::set" : [ "" ],
+					"mo.dac~::gain" : [ -12.0 ],
+					"mo.dac~::mute" : [ 0.0 ],
+					"mo.dac~::chans" : [ 2.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

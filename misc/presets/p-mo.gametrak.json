@@ -1,19 +1,17 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-gametrak",
+		"name" : "p-mo.gametrak",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"mo.send::set" : [ "gametrak" ],
-					"mo.send::mute" : [ 0.0 ],
 					"mo.pad::mode" : [ 0.0 ],
 					"mo.pad::pad" : [ 0.0 ],
 					"mo.pad::mute" : [ 0.0 ],
 					"mo.pad::color" : [ 0 ],
-					"mo.pad::set" : [ 0.0 ],
+					"mo.pad::set" : [ 0 ],
 					"mo.hi::mute" : [ 0.0 ],
-					"mo.hi::port" : [ 0 ],
+					"mo.hi::port" : [ "Keyboard Backlight" ],
 					"mo.scale::voices" : [ 6.0 ],
 					"mo.scale::polarity" : [ 0.0 ],
 					"mo.scale::curve" : [ 1.0 ],
@@ -65,7 +63,11 @@
 					"mo.scale::[6]::output-min" : [ 0.0 ],
 					"mo.scale::[6]::output-max" : [ 1.0 ],
 					"mo.scale::[6]::mode" : [ 1.0 ],
-					"mo.smooth::amount" : [ 0.25 ],
+					"mo.smooth::amount[1]" : [ 0.25 ],
+					"mo.smooth::mute" : [ 0.0 ],
+					"mo.sliders::voices" : [ 6.0 ],
+					"mo.sliders::polarity" : [ 0.0 ],
+					"mo.sliders::mute" : [ 0.0 ],
 					"mo.sliders::[1]::mute" : [ 0.0 ],
 					"mo.sliders::[1]::slider" : [ 0.0 ],
 					"mo.sliders::[1]::polarity" : [ 0.0 ],
@@ -75,18 +77,15 @@
 					"mo.sliders::[3]::mute" : [ 0.0 ],
 					"mo.sliders::[3]::slider" : [ 0.0 ],
 					"mo.sliders::[3]::polarity" : [ 0.0 ],
-					"mo.sliders::[4]::slider" : [ 0.0 ],
 					"mo.sliders::[4]::mute" : [ 0.0 ],
+					"mo.sliders::[4]::slider" : [ 0.0 ],
 					"mo.sliders::[4]::polarity" : [ 0.0 ],
 					"mo.sliders::[5]::mute" : [ 0.0 ],
 					"mo.sliders::[5]::slider" : [ 0.0 ],
 					"mo.sliders::[5]::polarity" : [ 0.0 ],
-					"mo.sliders::[6]::slider" : [ 0.0 ],
 					"mo.sliders::[6]::mute" : [ 0.0 ],
-					"mo.sliders::[6]::polarity" : [ 0.0 ],
-					"mo.sliders::mute" : [ 0.0 ],
-					"mo.sliders::voices" : [ 6.0 ],
-					"mo.sliders::polarity" : [ 0.0 ]
+					"mo.sliders::[6]::slider" : [ 0.0 ],
+					"mo.sliders::[6]::polarity" : [ 0.0 ]
 				}
 
 			}

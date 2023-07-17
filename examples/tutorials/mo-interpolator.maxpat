@@ -54,7 +54,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 326.313494768518353, 70.0, 87.0 ],
+					"patching_rect" : [ 537.0, 216.313494768518353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 175.0, 296.0, 70.0, 87.0 ],
 					"varname" : "mo.dial[1]",
@@ -78,7 +78,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 415.495778926766206, 70.0, 265.0 ],
+					"patching_rect" : [ 537.0, 305.495778926766206, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 175.0, 385.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider[2]",
@@ -179,8 +179,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 467.0, 137.0, 23.0 ],
-					"text" : "read p-interpolator.json"
+					"patching_rect" : [ 187.0, 357.0, 156.0, 23.0 ],
+					"text" : "read p-mo.interpolator.json"
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 187.0, 431.0, 58.0, 23.0 ],
+					"patching_rect" : [ 187.0, 321.0, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -212,7 +212,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 326.313494768518353, 70.0, 87.0 ],
+					"patching_rect" : [ 465.0, 216.313494768518353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 296.0, 70.0, 87.0 ],
 					"varname" : "mo.encoder",
@@ -236,7 +236,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 326.313494768518353, 70.0, 87.0 ],
+					"patching_rect" : [ 393.0, 216.313494768518353, 70.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 296.0, 70.0, 87.0 ],
 					"varname" : "mo.dial",
@@ -260,7 +260,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 415.313494768518353, 70.0, 265.0 ],
+					"patching_rect" : [ 393.0, 305.313494768518353, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 385.0, 70.0, 265.0 ],
 					"varname" : "mo.vslider[1]",
@@ -284,7 +284,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.973348684632811, 415.313494768518353, 70.0, 265.0 ],
+					"patching_rect" : [ 464.973348684632811, 305.313494768518353, 70.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 102.973348684632811, 385.0, 70.0, 265.0 ],
 					"varname" : "mo.vrslider",
@@ -299,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 431.0, 112.0, 23.0 ],
+					"patching_rect" : [ 31.0, 321.0, 112.0, 23.0 ],
 					"text" : "prepend recallmulti"
 				}
 
@@ -316,7 +316,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 31.0, 621.941776052117348, 213.0, 58.189434558153152 ],
+					"patching_rect" : [ 31.0, 511.941776052117348, 213.0, 58.189434558153152 ],
 					"pattrstorage" : "p-interpolator",
 					"presentation" : 1,
 					"presentation_rect" : [ 252.0, 236.554751425981522, 213.0, 56.445248574018478 ],
@@ -335,16 +335,16 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-interpolator.json",
+					"autorestore" : "p-mo.interpolator.json",
 					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 639.536493331193924, 77.0, 23.0 ],
+					"patching_rect" : [ 30.0, 529.536493331193924, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 4, 100, 358, 228 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -371,7 +371,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 534.941776052117348, 214.0, 87.0 ],
+					"patching_rect" : [ 30.0, 424.941776052117348, 214.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 149.554751425981522, 214.0, 87.0 ],
 					"varname" : "mo.preset",
@@ -390,7 +390,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 620.941776052117348, 214.0, 58.0 ],
+					"patching_rect" : [ 30.0, 510.941776052117348, 214.0, 58.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 235.554751425981522, 214.0, 58.0 ],
 					"proportion" : 0.5,
@@ -434,7 +434,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 196.5, 456.0, 196.5, 456.0 ],
+					"midpoints" : [ 196.5, 346.0, 196.5, 346.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -442,7 +442,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 196.5, 519.0, 39.5, 519.0 ],
+					"midpoints" : [ 196.5, 409.0, 39.5, 409.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -451,7 +451,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 39.5, 624.0, 39.5, 624.0 ],
+					"midpoints" : [ 39.5, 514.0, 39.5, 514.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -459,7 +459,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 40.5, 456.0, 39.5, 456.0 ],
+					"midpoints" : [ 40.5, 346.0, 39.5, 346.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -639,7 +639,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-interpolator.json",
+				"name" : "p-mo.interpolator.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

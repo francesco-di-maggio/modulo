@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-fm",
+		"name" : "p-mo.fm",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -80,7 +80,7 @@
 					"mo.scale::[6]::output-min" : [ 0.0 ],
 					"mo.scale::[6]::output-max" : [ 1.0 ],
 					"mo.scale::[6]::mode" : [ 0.0 ],
-					"mo.fm~::carrier" : [ 120.856351796537609 ],
+					"mo.fm~::carrier" : [ 120.856351796537595 ],
 					"mo.fm~::harmonicity" : [ 0.336550716310739 ],
 					"mo.fm~::ratio" : [ 6.33856097701937 ],
 					"mo.fm~::rate" : [ 67.476531723514199 ],

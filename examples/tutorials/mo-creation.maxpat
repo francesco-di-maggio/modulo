@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1178.0, 729.0 ],
+		"rect" : [ 34.0, 100.0, 1166.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 96.5, 26.0, 21.0 ],
+					"patching_rect" : [ 425.0, 96.5, 26.0, 21.0 ],
 					"text" : "\"n\""
 				}
 
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 337.365287323792757, 68.0, 21.0 ],
+					"patching_rect" : [ 71.0, 337.365287323792757, 68.0, 21.0 ],
 					"text" : "SNIPPETS:"
 				}
 
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 175.682643661896407, 85.0, 21.0 ],
+					"patching_rect" : [ 71.0, 175.682643661896407, 85.0, 21.0 ],
 					"text" : "PASTE FROM:"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 119.5, 100.0, 23.0 ]
+					"patching_rect" : [ 425.0, 119.5, 100.0, 23.0 ]
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 127.0, 163.0, 10.0 ],
+					"patching_rect" : [ 249.0, 127.0, 163.0, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -111,7 +111,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 177.873800923994651, 163.0, 10.0 ],
+					"patching_rect" : [ 362.0, 177.873800923994651, 163.0, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -133,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 985.0, 213.873800923994622, 181.328767123287662, 511.574879227053145 ],
+					"patching_rect" : [ 975.0, 213.873800923994622, 181.328767123287662, 511.574879227053145 ],
 					"pic" : ""
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 886.125, 504.127272727272725, 139.666666666666629, 121.890909090909048 ],
+					"patching_rect" : [ 876.125, 504.127272727272725, 139.666666666666629, 121.890909090909048 ],
 					"pic" : ""
 				}
 
@@ -165,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 681.0, 191.860396460783818, 248.0, 432.538720538720554 ],
+					"patching_rect" : [ 671.0, 191.860396460783818, 248.0, 432.538720538720554 ],
 					"pic" : ""
 				}
 
@@ -181,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 543.0, 53.609483743377893, 180.11320754716985, 210.264317180616786 ],
+					"patching_rect" : [ 533.0, 53.609483743377893, 180.11320754716985, 210.264317180616786 ],
 					"pic" : ""
 				}
 
@@ -193,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 46.5, 144.0, 21.0 ],
+					"patching_rect" : [ 71.0, 46.5, 144.0, 21.0 ],
 					"text" : "CREATE A NEW OBJECT:"
 				}
 
@@ -213,7 +213,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 86.5, 20.0, 20.0 ],
+					"patching_rect" : [ 30.0, 86.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -234,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 69.5, 276.0, 54.0 ],
+					"patching_rect" : [ 55.0, 69.5, 276.0, 54.0 ],
 					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.pad)."
 				}
 
@@ -254,7 +254,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 384.365287323792813, 20.0, 20.0 ],
+					"patching_rect" : [ 30.0, 384.365287323792813, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -274,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 360.365287323792813, 431.0, 68.0 ],
+					"patching_rect" : [ 55.0, 360.365287323792813, 431.0, 68.0 ],
 					"text" : "1. Unlock the patcher window.\n2. On the Left Toolbar, click on Snippets.\n3. Find \"modulo\", and choose a module.\n4. Double-click, or drag-and-drop a module on an unlocked patcher window."
 				}
 
@@ -294,7 +294,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 215.682643661896407, 20.0, 20.0 ],
+					"patching_rect" : [ 30.0, 215.682643661896407, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -315,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 198.682643661896435, 395.0, 54.0 ],
+					"patching_rect" : [ 55.0, 198.682643661896435, 395.0, 54.0 ],
 					"text" : "1. Unlock the patcher window.\n2. Right-click anywhere in the patcher window: Paste From > modulo. \n3. Choose a category, and select a module."
 				}
 

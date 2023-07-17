@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.959072227510774, 39.0, 143.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.959072227510774, 170.0, 141.0, 25.0 ],
+					"presentation_rect" : [ 133.959072227510774, 171.0, 141.0, 25.0 ],
 					"text" : "set blinking time (ms)"
 				}
 
@@ -69,7 +69,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 185.959072227510774, 41.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.959072227510774, 173.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 107.959072227510774, 174.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -344,7 +344,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 500 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

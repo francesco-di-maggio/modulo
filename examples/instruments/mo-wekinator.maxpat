@@ -375,7 +375,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.fm~.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
@@ -487,13 +487,13 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-wekinator.json",
+					"autorestore" : "p-mo.wekinator.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 116.281249999999716, 323.0, 23.0 ],
+					"patching_rect" : [ 817.0, 116.281249999999716, 342.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -514,8 +514,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-wekinator @autorestore 1 @changemode 1",
-					"varname" : "p-wekinator"
+					"text" : "pattrstorage p-mo.wekinator @autorestore 1 @changemode 1",
+					"varname" : "p-mo.wekinator"
 				}
 
 			}
@@ -528,7 +528,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 817.0, 160.708333333332973, 53.0, 30.0 ],
-					"pattrstorage" : "p-wekinator"
+					"pattrstorage" : "p-mo.wekinator"
 				}
 
 			}
@@ -2066,8 +2066,64 @@
 					"parameter_longname" : "live.text[1]"
 				}
 ,
+				"obj-2::obj-111" : 				{
+					"parameter_longname" : "live.dial[35]"
+				}
+,
+				"obj-2::obj-112" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+,
+				"obj-2::obj-113" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-2::obj-114" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-2::obj-116" : 				{
+					"parameter_longname" : "live.dial[31]"
+				}
+,
+				"obj-2::obj-118" : 				{
+					"parameter_longname" : "live.dial[33]"
+				}
+,
 				"obj-2::obj-12" : 				{
 					"parameter_longname" : "live.text[185]"
+				}
+,
+				"obj-2::obj-22" : 				{
+					"parameter_longname" : "live.dial[11]"
+				}
+,
+				"obj-2::obj-24" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-2::obj-25" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-2::obj-27" : 				{
+					"parameter_longname" : "live.dial[34]"
+				}
+,
+				"obj-2::obj-34" : 				{
+					"parameter_longname" : "live.text[285]"
+				}
+,
+				"obj-2::obj-37" : 				{
+					"parameter_longname" : "live.text[288]"
+				}
+,
+				"obj-2::obj-4" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-2::obj-42" : 				{
+					"parameter_longname" : "live.text[287]"
 				}
 ,
 				"obj-2::obj-7" : 				{
@@ -2973,7 +3029,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-wekinator.json",
+				"name" : "p-mo.wekinator.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

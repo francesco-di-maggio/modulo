@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 500.0, 604.0 ],
+		"rect" : [ 34.0, 100.0, 500.0, 656.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,26 +40,73 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-28",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.pipe.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 490.461166739463806, 51.0, 23.0 ],
-					"text" : "mo.pipe",
-					"varname" : "mo.pipe"
+					"patching_rect" : [ 30.000000000000014, 458.345875054597855, 70.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 26.485723542877949, 290.654124945402145, 70.0, 58.0 ],
+					"varname" : "mo.pipe[2]",
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "newobj",
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.pipe.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 174.0, 456.15352089703083, 56.0, 23.0 ],
-					"text" : "route del"
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 102.000000000000014, 458.345875054597855, 70.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 98.485723542877949, 290.654124945402145, 70.0, 58.0 ],
+					"varname" : "mo.pipe[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.pipe.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.0, 458.345875054597855, 70.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 170.485723542877935, 290.654124945402145, 70.0, 58.0 ],
+					"varname" : "mo.pipe",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -174,7 +221,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 497.0, 485.845875054597855, 162.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.985723542877963, 455.154124945402145, 143.014276457122037, 10.0 ],
+					"presentation_rect" : [ 236.985723542877963, 515.154124945402145, 143.014276457122037, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -196,7 +243,7 @@
 					"patching_rect" : [ 680.0, 464.345875054597855, 93.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 390.0, 433.154124945402145, 93.0, 52.0 ],
+					"presentation_rect" : [ 390.0, 493.154124945402145, 93.0, 52.0 ],
 					"text" : ";\rpad 0;\rdial 0, 0.5 8000"
 				}
 
@@ -320,7 +367,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 174.0, 524.768812581896782, 41.0, 23.0 ],
+					"patching_rect" : [ 174.0, 529.768812581896782, 41.0, 23.0 ],
 					"text" : "line 0."
 				}
 
@@ -332,7 +379,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 102.000000000000014, 524.768812581896782, 41.0, 23.0 ],
+					"patching_rect" : [ 102.000000000000014, 529.768812581896782, 41.0, 23.0 ],
 					"text" : "line 0."
 				}
 
@@ -368,7 +415,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 569.845875054597855, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.485723542877963, 290.654124945402145, 70.0, 87.0 ],
+					"presentation_rect" : [ 170.485723542877963, 350.654124945402145, 70.0, 87.0 ],
 					"varname" : "mo.number",
 					"viewvisibility" : 1
 				}
@@ -459,7 +506,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.000000000000014, 569.845875054597855, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.485723542877949, 290.654124945402145, 70.0, 87.0 ],
+					"presentation_rect" : [ 26.485723542877935, 350.654124945402145, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -483,7 +530,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 102.000000000000014, 569.845875054597855, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.485723542877963, 290.654124945402145, 70.0, 87.0 ],
+					"presentation_rect" : [ 98.485723542877949, 350.654124945402145, 70.0, 87.0 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -523,7 +570,7 @@
 					"patching_rect" : [ 290.0, 421.845875054597855, 340.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 26.485723542877949, 389.654124945402145, 340.0, 194.0 ],
+					"presentation_rect" : [ 26.485723542877935, 449.654124945402145, 340.0, 194.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Load dict to fill scenes' messages (read p-mo.messenger).\n2. A \"bang\" on scene 1 will turn \"pad\" on, and start a ramp\n    for \"dial\".  Same as this construct:\n4. Go to scene 2, and \"bang\" again, or \"clear\" current scene.\n     (\"init\" will clear the all scenes!)\n5. Choose mode: \n     • \"manual\" requires a bang to output message.\n     • \"auto\" outputs message after text is entered.\n6. Enter text: \";number del 1000, 0, 1 4000\" (; = semicolon) \n     to start a ramp for \"number\" with a delay of 1000 ms.\n7. Write the newly made score using the \"write\" button."
 				}
 
@@ -531,7 +578,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"midpoints" : [ 39.500000000000014, 447.0, 39.500000000000014, 447.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -562,22 +609,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-36", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 1 ],
-					"source" : [ "obj-36", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -591,7 +638,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 111.500000000000014, 447.0, 111.500000000000014, 447.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -609,6 +656,10 @@
 		"parameters" : 		{
 			"obj-18::obj-13" : [ "live.numbox[47]", "live.numbox", 0 ],
 			"obj-18::obj-9" : [ "live.text[82]", "live.text", 0 ],
+			"obj-25::obj-13" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-25::obj-9" : [ "live.text[2]", "live.text", 0 ],
+			"obj-28::obj-13" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-28::obj-9" : [ "live.text[3]", "live.text", 0 ],
 			"obj-4::obj-6" : [ "live.text[8]", "live.text", 0 ],
 			"obj-55::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-55::obj-6" : [ "live.text[10]", "live.text", 0 ],
@@ -634,8 +685,27 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-18::obj-13" : 				{
-					"parameter_initial_enable" : 0,
-					"parameter_range" : [ 0.0, 60000.0 ]
+					"parameter_longname" : "live.numbox[47]"
+				}
+,
+				"obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[82]"
+				}
+,
+				"obj-25::obj-13" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-25::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-28::obj-13" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-28::obj-9" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-4::obj-6" : 				{

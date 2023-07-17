@@ -90,6 +90,48 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Ableton Sans Medium",
+									"fontsize" : 10.0,
+									"hint" : "",
+									"id" : "obj-9",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 253.0, 218.999999999999943, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Ableton Sans Medium",
+									"fontsize" : 10.0,
+									"hint" : "",
+									"id" : "obj-4",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 149.0, 166.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -113,6 +155,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 42.0, 402.0, 213.0, 58.189434558153152 ],
+									"pattrstorage" : "p-preset",
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 442.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -130,7 +173,7 @@
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "p-preset.json",
+									"autorestore" : "p-mo.preset.json",
 									"hidden" : 1,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
@@ -146,7 +189,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "untitled"
+									"varname" : "p-preset"
 								}
 
 							}
@@ -213,8 +256,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 253.0, 216.499999999999943, 146.0, 25.0 ],
-									"text" : "interpolate preset 1-2 "
+									"patching_rect" : [ 278.0, 216.499999999999943, 127.0, 25.0 ],
+									"text" : "interpolate presets"
 								}
 
 							}
@@ -253,7 +296,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 133.5, 164.0, 153.0, 25.0 ],
+									"patching_rect" : [ 174.5, 164.0, 153.0, 25.0 ],
 									"text" : "recall an existent preset"
 								}
 
@@ -375,8 +418,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 165.0, 81.0, 23.0 ],
-									"text" : "p-preset.json"
+									"patching_rect" : [ 41.0, 165.0, 101.0, 23.0 ],
+									"text" : "p-mo.preset.json"
 								}
 
 							}
@@ -1065,7 +1108,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-preset.json",
+				"name" : "p-mo.preset.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

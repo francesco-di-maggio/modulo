@@ -173,19 +173,19 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 295.885702821115501, 170.06666666666672, 52.0, 28.0 ],
-					"pattrstorage" : "p-holon.ist"
+					"pattrstorage" : "p-mo.holonist"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-holon.ist.json",
+					"autorestore" : "p-mo.holonist.json",
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.885702821115501, 126.091666666666356, 316.0, 23.0 ],
+					"patching_rect" : [ 295.885702821115501, 126.091666666666356, 332.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -204,8 +204,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-holon.ist @autorestore 1 @changemode 1",
-					"varname" : "p-holon.ist"
+					"text" : "pattrstorage p-mo.holonist @autorestore 1 @changemode 1",
+					"varname" : "p-mo.holonist"
 				}
 
 			}
@@ -677,7 +677,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-holon.ist.json",
+				"name" : "p-mo.holonist.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

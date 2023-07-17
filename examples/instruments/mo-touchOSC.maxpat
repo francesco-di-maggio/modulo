@@ -306,13 +306,13 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-touchOSC.json",
+					"autorestore" : "p-mo.touchOSC.json",
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 163.0, 325.0, 23.0 ],
+					"patching_rect" : [ 1022.0, 163.0, 344.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
@@ -320,8 +320,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-touchOSC @autorestore 1 @changemode 1",
-					"varname" : "p-touchOSC"
+					"text" : "pattrstorage p-mo.touchOSC @autorestore 1 @changemode 1",
+					"varname" : "p-mo.touchOSC"
 				}
 
 			}
@@ -334,7 +334,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 1022.0, 228.0, 53.0, 30.0 ],
-					"pattrstorage" : "p-touchOSC"
+					"pattrstorage" : "p-mo.touchOSC"
 				}
 
 			}
@@ -980,7 +980,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-touchOSC.json",
+				"name" : "p-mo.touchOSC.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",

@@ -269,13 +269,13 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-gametrak.json",
+					"autorestore" : "p-mo.gametrak.json",
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 647.0, 186.299603174603163, 321.0, 23.0 ],
+					"patching_rect" : [ 647.0, 186.299603174603163, 340.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
@@ -292,8 +292,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-gametrak @autorestore 1 @changemode 1",
-					"varname" : "p-gametrak"
+					"text" : "pattrstorage p-mo.gametrak @autorestore 1 @changemode 1",
+					"varname" : "p-mo.gametrak"
 				}
 
 			}
@@ -306,7 +306,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 647.0, 230.726686507936421, 53.0, 30.0 ],
-					"pattrstorage" : "p-gametrak"
+					"pattrstorage" : "p-mo.gametrak"
 				}
 
 			}
@@ -1353,7 +1353,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p-gametrak.json",
+				"name" : "p-mo.gametrak.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
