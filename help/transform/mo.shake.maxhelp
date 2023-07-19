@@ -172,8 +172,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.255791574060595, 165.0, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 246.255791574060595, 165.0, 69.0, 25.0 ],
+					"text" : "shake it "
 				}
 
 			}
@@ -224,7 +224,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 165.0, 171.0, 23.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"spacing" : 2
@@ -442,7 +441,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-7::obj-13" : 				{
+					"parameter_initial" : 0.5
+				}
+,
+				"obj-7::obj-14" : 				{
+					"parameter_initial" : 0.5
+				}
+,
 				"obj-7::obj-28" : 				{
+					"parameter_initial" : 0.5,
 					"parameter_longname" : "live.numbox[3]"
 				}
 

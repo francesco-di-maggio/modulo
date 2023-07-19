@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 412.0, 395.0 ],
+		"rect" : [ 34.0, 100.0, 412.0, 406.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 253.689380136132229, 214.0, 79.0 ],
+					"patching_rect" : [ 149.0, 263.689380136132229, 214.0, 79.0 ],
 					"text" : "NOTE:\n\nTry increasing the time (e.g 500). \nYou will see the spacebar release value\nwill be filtered if performed quickly."
 				}
 
@@ -59,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 204.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 214.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -347,7 +347,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 202.480686187744141, 127.0, 25.0 ],
+					"patching_rect" : [ 176.0, 212.480686187744141, 127.0, 25.0 ],
 					"text" : "set debounce time "
 				}
 
@@ -366,7 +366,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.0, 204.980686187744141, 20.0, 20.0 ],
+					"patching_rect" : [ 149.0, 214.980686187744141, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -381,7 +381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.783437728881836, 344.795919179916382, 24.0, 24.0 ]
+					"patching_rect" : [ 40.783437728881836, 354.795919179916382, 24.0, 24.0 ]
 				}
 
 			}
@@ -393,7 +393,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 91.836733102798462, 204.480686187744141, 50.0, 23.0 ]
+					"patching_rect" : [ 91.836733102798462, 214.480686187744141, 50.0, 23.0 ]
 				}
 
 			}
@@ -413,7 +413,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 40.783437728881836, 253.689380136132229, 70.0, 57.5 ],
+					"patching_rect" : [ 40.783437728881836, 263.689380136132229, 70.0, 57.5 ],
 					"varname" : "mo.debounce",
 					"viewvisibility" : 1
 				}
@@ -437,7 +437,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 50.283437728881836, 312.0, 50.283437728881836, 312.0 ],
+					"midpoints" : [ 50.283437728881836, 322.0, 50.283437728881836, 322.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -445,7 +445,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 101.336733102798462, 228.0, 101.283437728881836, 228.0 ],
+					"midpoints" : [ 101.336733102798462, 238.0, 101.283437728881836, 238.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

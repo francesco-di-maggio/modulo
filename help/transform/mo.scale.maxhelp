@@ -96,8 +96,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 939.75, 563.6245406717062, 162.0, 23.0 ],
-					"text" : "prepend target 1 output-min"
+					"patching_rect" : [ 939.75, 563.6245406717062, 166.0, 23.0 ],
+					"text" : "prepend target 1\\, output-min"
 				}
 
 			}

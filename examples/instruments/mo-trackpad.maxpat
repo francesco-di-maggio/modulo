@@ -1337,8 +1337,84 @@
 					"parameter_longname" : "live.text[26]"
 				}
 ,
+				"obj-25::obj-2" : 				{
+					"parameter_longname" : "live.text[90]"
+				}
+,
+				"obj-25::obj-22" : 				{
+					"parameter_longname" : "live.text[96]"
+				}
+,
+				"obj-25::obj-6" : 				{
+					"parameter_longname" : "live.text[95]"
+				}
+,
 				"obj-26::obj-6" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-27::obj-111" : 				{
+					"parameter_longname" : "live.dial[35]"
+				}
+,
+				"obj-27::obj-112" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+,
+				"obj-27::obj-113" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-27::obj-114" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-27::obj-116" : 				{
+					"parameter_longname" : "live.dial[31]"
+				}
+,
+				"obj-27::obj-118" : 				{
+					"parameter_longname" : "live.dial[33]"
+				}
+,
+				"obj-27::obj-12" : 				{
+					"parameter_longname" : "live.text[229]"
+				}
+,
+				"obj-27::obj-22" : 				{
+					"parameter_longname" : "live.dial[11]"
+				}
+,
+				"obj-27::obj-24" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-27::obj-25" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-27::obj-27" : 				{
+					"parameter_longname" : "live.dial[34]"
+				}
+,
+				"obj-27::obj-34" : 				{
+					"parameter_longname" : "live.text[285]"
+				}
+,
+				"obj-27::obj-37" : 				{
+					"parameter_longname" : "live.text[288]"
+				}
+,
+				"obj-27::obj-4" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-27::obj-42" : 				{
+					"parameter_longname" : "live.text[287]"
+				}
+,
+				"obj-27::obj-7" : 				{
+					"parameter_longname" : "live.dial[18]"
 				}
 ,
 				"obj-87::obj-11" : 				{
@@ -1608,7 +1684,7 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"bgcolor" : [ 0.167413441955194, 1.0, 0.96482088410959, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 

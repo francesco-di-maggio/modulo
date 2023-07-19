@@ -1492,7 +1492,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1644,7 +1644,7 @@
 									"patching_rect" : [ 45.5, 632.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 129.0, 679.285714268684387, 22.0 ],
-									"text" : "Arrange and manipulate input data, such as pads, sliders, dials and numbers."
+									"text" : "Process input data through filtering, averaging and smoothing algorithms."
 								}
 
 							}
@@ -2077,7 +2077,7 @@
 													"data" : 													{
 														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.radiate", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
 													}
 ,
@@ -2698,7 +2698,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 9,
+									"num_lines_patching" : 8,
 									"num_lines_presentation" : 8,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2727,7 +2727,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.playlist~", "mo.rand", "mo.rsliders", "mo.sliders", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pinch", "mo.poll", "mo.ray", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.steer", "mo.sum" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 23,
 											"parameter_shortname" : "live.menu",

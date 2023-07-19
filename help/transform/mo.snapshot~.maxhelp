@@ -56,10 +56,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"maxclass" : "mc.ezdac~",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.50795786459355, 332.5, 48.0, 48.0 ]
+					"patching_rect" : [ 160.5, 334.0, 45.0, 45.0 ]
 				}
 
 			}

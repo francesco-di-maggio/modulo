@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 170.0, 103.0, 25.0 ],
+					"patching_rect" : [ 242.0, 170.5, 103.0, 25.0 ],
 					"text" : "generate data "
 				}
 
@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 220.0, 172.0, 20.0, 20.0 ],
+					"patching_rect" : [ 216.0, 172.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -112,7 +112,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 165.0, 171.0, 34.0 ],
+					"patching_rect" : [ 41.0, 165.0, 166.0, 35.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"size" : 2,
