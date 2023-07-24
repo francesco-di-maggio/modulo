@@ -91,15 +91,15 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-22",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 353.0, 107.0 ],
+					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 347.0, 122.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 254.0, 28.0, 347.0, 107.0 ],
-					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open Holonist: https://holon.ist/\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 254.0, 28.0, 347.0, 122.0 ],
+					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open the Holonist app: \n     https://holon.ist\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
 				}
 
 			}

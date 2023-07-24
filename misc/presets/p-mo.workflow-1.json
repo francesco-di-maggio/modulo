@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-tutorial-1",
+		"name" : "p-mo.workflow-1",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -18,10 +18,10 @@
 					"mo.sliders::[3]::slider" : [ 0.088790711481124 ],
 					"mo.sliders::[3]::polarity" : [ 0.0 ],
 					"mo.sliders::[4]::mute" : [ 0.0 ],
-					"mo.sliders::[4]::slider" : [ 0.324486808851361 ],
+					"mo.sliders::[4]::slider" : [ 0.085139176368794 ],
 					"mo.sliders::[4]::polarity" : [ 0.0 ],
 					"mo.sliders::[5]::mute" : [ 0.0 ],
-					"mo.sliders::[5]::slider" : [ 0.405662842094898 ],
+					"mo.sliders::[5]::slider" : [ 0.430818188714474 ],
 					"mo.sliders::[5]::polarity" : [ 0.0 ],
 					"mo.scale::voices" : [ 5.0 ],
 					"mo.scale::polarity" : [ 0.0 ],
@@ -68,11 +68,11 @@
 					"mo.scale::[5]::output-max" : [ 1.0 ],
 					"mo.scale::[5]::mode" : [ 0.0 ],
 					"mo.fm~::carrier" : [ 182.349110301583977 ],
-					"mo.fm~::harmonicity" : [ 0.760935705155134 ],
-					"mo.fm~::ratio" : [ 2.663721344433725 ],
-					"mo.fm~::rate" : [ 32.448680885136127 ],
+					"mo.fm~::harmonicity" : [ 0.760935705155136 ],
+					"mo.fm~::ratio" : [ 2.66372134443372 ],
+					"mo.fm~::rate" : [ 8.513917636879444 ],
 					"mo.fm~::mute" : [ 0.0 ],
-					"mo.fm~::depth" : [ 0.405662842094898 ],
+					"mo.fm~::depth" : [ 0.430818188714474 ],
 					"mo.fm~::gain" : [ 0.965291125196294 ],
 					"mo.fm~::set" : [ "" ],
 					"mo.dac~::gain" : [ -20.0 ],

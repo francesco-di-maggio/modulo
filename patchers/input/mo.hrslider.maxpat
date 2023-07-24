@@ -54,17 +54,17 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.5,
 					"id" : "obj-52",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 572.0, 292.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.753720103300481, 34.989994999999993, 60.102345793398996, 20.0 ],
+					"presentation_rect" : [ 112.753720103300481, 35.989994999999993, 60.102345793398996, 20.0 ],
 					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "",
@@ -93,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 540.0, 456.0, 128.0, 23.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -342,7 +342,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[153]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

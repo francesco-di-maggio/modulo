@@ -604,8 +604,8 @@
 					"patching_rect" : [ 854.5, 521.5, 215.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 583.5, 79.0, 215.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and rise volume.\n2. Hit \"Return\" to play, \"ESC\" to stop.\n3. Click and drag mouse/trackpad to \n     control sound and patcher bgcolor."
+					"presentation_rect" : [ 583.5, 79.0, 214.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Start audio dsp, and rise volume.\n2. Hit \"Enter\" to play, \"ESC\" to stop.\n3. Click and drag mouse/trackpad to \n     control sound and patcher bgcolor."
 				}
 
 			}
@@ -1684,7 +1684,7 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.167413441955194, 1.0, 0.96482088410959, 1.0 ],
+		"bgcolor" : [ 1.0, 0.345824847250509, 0.921164256482226, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 

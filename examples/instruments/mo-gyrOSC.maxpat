@@ -332,6 +332,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 9 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -356,6 +357,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 8 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -380,6 +382,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 7 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -404,6 +407,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 6 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -428,6 +432,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 5 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -502,6 +507,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -526,6 +532,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -550,6 +557,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -585,7 +593,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 210.0, 97.571428571428584, 331.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Download, and open gyrOSC:       \n     https://www.bitshapesoftware.com/instruments/gyrosc\n2. Enable quaternion from the settings menu.\n3.  Set your computer IP address, and UDP receiving port."
+					"text" : "INSTRUCTIONS:\n\n1. Download, and open the gyrOSC app:       \n     https://www.bitshapesoftware.com/instruments/gyrosc\n2. Enable quaternion from the settings menu.\n3.  Set your computer IP address, and UDP receiving port."
 				}
 
 			}
@@ -709,6 +717,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@set", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

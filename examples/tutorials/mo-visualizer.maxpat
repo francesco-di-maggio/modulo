@@ -78,7 +78,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 717.0, 463.224951458887972, 214.0, 265.0 ],
+					"patching_rect" : [ 717.0, 333.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.719069222125313, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.spectroscope~",
@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 488.859534611062713, 463.224951458887972, 214.0, 265.0 ],
+					"patching_rect" : [ 488.859534611062713, 333.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 455.578603833188026, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.meter~",
@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 260.71906922212537, 463.224951458887972, 214.0, 265.0 ],
+					"patching_rect" : [ 260.71906922212537, 333.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.578603833188055, 306.5, 214.0, 265.0 ],
 					"viewvisibility" : 1
@@ -191,7 +191,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 32.578603833188055, 463.224951458887972, 214.0, 265.0 ],
+					"patching_rect" : [ 32.578603833188055, 333.224951458887972, 214.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.578603833188055, 306.5, 214.0, 265.0 ],
 					"varname" : "mo.scope~",
@@ -206,7 +206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 581.724951458887972, 74.0, 25.0 ],
+					"patching_rect" : [ 1048.0, 451.724951458887972, 74.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 798.489658668637276, 225.500000000000114, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -228,7 +228,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1022.0, 585.724951458887972, 20.0, 20.0 ],
+					"patching_rect" : [ 1022.0, 455.724951458887972, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 772.489658668637276, 228.500000000000114, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -248,7 +248,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 963.0, 569.224951458887972, 45.0, 45.0 ],
+					"patching_rect" : [ 963.0, 439.224951458887972, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 711.489658668637276, 216.000000000000114, 45.0, 45.0 ]
 				}
@@ -258,7 +258,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 42.078603833188055, 450.0, 270.21906922212537, 450.0 ],
+					"midpoints" : [ 42.078603833188055, 318.0, 270.21906922212537, 318.0 ],
 					"order" : 3,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -276,7 +276,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 42.078603833188055, 450.0, 498.359534611062713, 450.0 ],
+					"midpoints" : [ 42.078603833188055, 318.0, 498.359534611062713, 318.0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -285,7 +285,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 42.078603833188055, 450.0, 726.5, 450.0 ],
+					"midpoints" : [ 42.078603833188055, 318.0, 726.5, 318.0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -400,8 +400,8 @@
 			}
 , 			{
 				"name" : "mo.playlist~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

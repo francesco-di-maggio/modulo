@@ -1895,6 +1895,10 @@
 					"parameter_longname" : "live.text[94]"
 				}
 ,
+				"obj-144::obj-2" : 				{
+					"parameter_longname" : "live.text[90]"
+				}
+,
 				"obj-144::obj-22" : 				{
 					"parameter_longname" : "live.text[96]"
 				}

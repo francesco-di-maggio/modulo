@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 446.0, 294.0 ],
+		"rect" : [ 34.0, 100.0, 425.0, 309.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,15 +79,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-12",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.875, 280.0, 409.0, 79.0 ],
+					"patching_rect" : [ 158.875, 280.0, 377.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 20.0, 198.571428571428584, 409.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Download Software: https://genkiinstruments.com/products/softwave\n2. Connect Wave, and open Preset 14. MIDI - Vibrato to Pitch Bend.\n3. In Max, set MIDI input device to \"Wave\"."
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 20.0, 198.571428571428584, 377.0, 93.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Download, and open the Software app:\n     https://genkiinstruments.com/products/softwave\n2. Connect Wave, and open Preset 14. MIDI - Vibrato to Pitch Bend.\n3. In Max, set MIDI input device to \"Wave\"."
 				}
 
 			}

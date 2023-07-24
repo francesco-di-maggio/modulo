@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 1318.0, 781.0 ],
+		"rect" : [ 0.0, 66.0, 286.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -54,6 +54,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.5,
 					"id" : "obj-52",
 					"maxclass" : "textbutton",
@@ -64,7 +65,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 587.5, 307.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.753720597236907, 34.989995495694359, 60.102345793398996, 20.0 ],
+					"presentation_rect" : [ 112.753720597236907, 35.989995495694359, 60.102345793398996, 20.0 ],
 					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "",

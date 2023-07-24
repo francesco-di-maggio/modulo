@@ -166,8 +166,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 109.0, 23.0 ],
-					"text" : "Play sound files."
+					"patching_rect" : [ 9.0, 83.0, 138.0, 23.0 ],
+					"text" : "Playback sound files."
 				}
 
 			}

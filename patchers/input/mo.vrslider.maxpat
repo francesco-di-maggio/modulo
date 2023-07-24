@@ -54,6 +54,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.5,
 					"id" : "obj-52",
 					"maxclass" : "textbutton",
@@ -65,7 +66,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 692.0, 333.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.862807029531183, 55.489995495694359, 60.102345793398996, 20.0 ],
+					"presentation_rect" : [ 4.862807029531183, 36.489995495694359, 60.102345793398996, 20.0 ],
 					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "",
