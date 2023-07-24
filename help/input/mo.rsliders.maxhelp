@@ -225,7 +225,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 532.0, 180.0, 23.0 ]
+					"patching_rect" : [ 41.0, 532.0, 180.0, 23.0 ],
+					"text" : "0.3576 0.5486 0.2529 0.6102"
 				}
 
 			}
@@ -853,6 +854,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

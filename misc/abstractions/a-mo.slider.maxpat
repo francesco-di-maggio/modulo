@@ -140,19 +140,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 350.5, 313.0, 29.5, 23.0 ],
-					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -191,88 +178,19 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 16,
-						"data" : [ 							{
-								"key" : 0,
-								"value" : [ 0.072511, 0.064094, 0.00491, 1.0 ]
-							}
-, 							{
-								"key" : 1,
-								"value" : [ 0.059189, 0.522054, 0.877951, 1.0 ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ 0.111151, 0.207074, 0.413622, 1.0 ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ 0.923943, 0.127316, 0.06936, 1.0 ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ 0.654654, 0.717234, 0.725114, 1.0 ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ 0.842564, 0.663982, 0.473497, 1.0 ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ 0.669631, 0.355885, 0.009857, 1.0 ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ 0.967733, 0.837464, 0.103071, 1.0 ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ 0.500919, 0.221098, 0.241207, 1.0 ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ 0.196971, 0.068611, 0.046898, 1.0 ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ 0.29063, 0.504111, 0.409651, 1.0 ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ 0.601168, 0.793002, 0.780777, 1.0 ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ 0.613762, 0.220175, 0.070863, 1.0 ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ 0.158592, 0.255612, 0.201957, 1.0 ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ 0.701429, 0.42197, 0.3722, 1.0 ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ 0.330396, 0.207075, 0.309136, 1.0 ]
-							}
- ]
-					}
-,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 350.5, 514.0, 87.0, 23.0 ],
+					"patching_rect" : [ 350.5, 514.0, 94.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll @embed 1"
+					"text" : "coll mo.color.txt"
 				}
 
 			}
@@ -678,7 +596,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[16]",
+							"parameter_longname" : "Show Particle Settings[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -870,7 +788,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[105]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -997,17 +915,17 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 67.666666666666657, 96.0, 360.0, 96.0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 67.666666666666657, 96.0, 360.0, 96.0 ],
-					"order" : 1,
+					"destination" : [ "obj-17", 0 ],
+					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1094,13 +1012,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}

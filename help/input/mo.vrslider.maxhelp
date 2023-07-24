@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 531.0, 769.0 ],
+		"rect" : [ 34.0, 100.0, 527.0, 769.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,12 +57,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
-					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.5, 261.0, 109.0, 111.0 ],
-					"text" : "Set slider color:\n0 = black\n1 = red\n2 = green\n3 = blue\n4 = yellow\n5 = white"
+					"patching_rect" : [ 407.0, 304.0, 104.0, 25.0 ],
+					"text" : "set slider color"
 				}
 
 			}
@@ -70,8 +69,8 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "number",
-					"maximum" : 5,
-					"minimum" : 0,
+					"maximum" : 16,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -143,7 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.255791574060538, 255.0, 76.0, 25.0 ],
+					"patching_rect" : [ 321.255791574060538, 255.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 

@@ -89,7 +89,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 149.0, 229.0, 117.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "number of voices"
 				}
 
@@ -259,13 +258,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.pinch.maxpat",
+					"name" : "mo.gswitch.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 400.0, 70.0, 87.0 ],
-					"varname" : "mo.pinch",
+					"varname" : "mo.gswitch",
 					"viewvisibility" : 1
 				}
 
@@ -408,7 +407,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.pinch.maxpat",
+				"name" : "mo.gswitch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
