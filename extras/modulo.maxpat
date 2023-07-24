@@ -49,7 +49,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.579268291592598, 240.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.158536583185196, 276.0, 676.341463416814804, 5.0 ],
+					"presentation_rect" : [ 27.158536583185196, 274.0, 676.341463416814804, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -234,7 +234,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 290.0, 269.954297363758087, 109.523560225963593, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 533.5, 306.436617500000011, 169.0, 74.0 ],
+					"presentation_rect" : [ 533.5, 294.436617500000011, 169.0, 74.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1461,7 +1461,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 522.714285714285779, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 129.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 131.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -1482,7 +1482,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 540.0, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 129.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 131.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -1503,7 +1503,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 506.428571428571502, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 311.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 321.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -1524,7 +1524,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 489.142857142857167, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 311.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 321.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -1673,7 +1673,7 @@
 									"patching_rect" : [ 737.5, 470.0, 640.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 136.5, 676.52661058306694, 22.0 ],
-									"text" : "Examples of instruments and interfaces using different types of input and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -1689,7 +1689,7 @@
 									"patching_rect" : [ 45.5, 470.0, 610.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 136.5, 676.52661058306694, 22.0 ],
-									"text" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials."
+									"text" : "Handle auxilary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -2296,8 +2296,8 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ " ", " ", " ", "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "ODD Ball", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
-														"tutorials" : [ " ", " ", " ", "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
+														"instruments" : [ " ", " ", "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+														"tutorials" : [ " ", " ", "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -2541,6 +2541,7 @@
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
 														"ODD Ball" : [ "mo-odd" ],
+														"One Pad" : [ "mo-onepad" ],
 														"Theremin" : [ "mo-theremin" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
 														"Trackpad" : [ "mo-trackpad" ],
@@ -2551,7 +2552,7 @@
 														"Many To One" : [ "mo-many2one" ],
 														"Max To DAW" : "mo-max2daw",
 														"Messenger" : "mo-messenger",
-														"One To Many" : [ "mo-one2many" ],
+														"New Object" : [ "mo-newobject" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
 														"Visualizer" : [ "mo-visualizer" ],
@@ -2697,7 +2698,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ " ", " ", " ", "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "ODD Ball", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ " ", " ", "Blinker", "Interpolator", "Legos", "Many To One", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -2750,7 +2751,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -2774,7 +2775,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 514.571428571428669, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 158.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 156.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2873,8 +2874,8 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"0" : "Examples of instruments and interfaces using different types of input and direct mapping.",
-														"1" : "Tutorials showing how to perform various tasks, including recording, mapping, and combining building blocks."
+														"0" : "Instruments and interfaces using different type of inputs, and direct mapping.",
+														"1" : "Perform various tasks, including recording, mapping, and combining building blocks."
 													}
 ,
 													"id" : "obj-87",
@@ -3046,7 +3047,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 530.85714285714289, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 158.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 156.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3148,7 +3149,7 @@
 														"0" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials.",
 														"1" : "Interface with external devices, including MIDI, OSC and eurorack modules.",
 														"2" : "Process input data through filtering, averaging and smoothing algorithms.",
-														"3" : "Handle auxilary functions, such as monitoring, visualizing and recoridng input data."
+														"3" : "Handle auxilary functions, such as monitoring, visualizing and recording data."
 													}
 ,
 													"id" : "obj-87",
@@ -3509,7 +3510,7 @@
 ,
 					"patching_rect" : [ 21.5, 414.165829000000031, 700.5, 325.834170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 388.021173999999974, 692.0, 332.978826000000026 ],
+					"presentation_rect" : [ 15.5, 376.021173999999974, 692.0, 332.978826000000026 ],
 					"varname" : "bpatcher",
 					"viewvisibility" : 1
 				}
@@ -3524,7 +3525,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.5, 180.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.158536583185196, 211.665829000000031, 676.341463416814804, 5.0 ],
+					"presentation_rect" : [ 27.158536583185196, 213.665829000000031, 676.341463416814804, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -3570,7 +3571,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 21.5, 269.954297363758087, 238.5, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.158536583185196, 307.0, 509.341463416814804, 73.0 ],
+					"presentation_rect" : [ 24.158536583185196, 295.0, 509.341463416814804, 73.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 357.0, 562.0 ],
+		"rect" : [ 34.0, 100.0, 360.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -88,8 +88,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 229.0, 117.0, 25.0 ],
-					"text" : "number of voices"
+					"patching_rect" : [ 149.0, 229.0, 129.0, 25.0 ],
+					"text" : "number of switches"
 				}
 
 			}
@@ -97,7 +97,7 @@
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "number",
-					"maximum" : 8,
+					"maximum" : 16,
 					"minimum" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -134,13 +134,13 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 520.0, 71.0, 23.0 ],
-					"text" : "0 0"
+					"patching_rect" : [ 40.0, 520.0, 71.0, 23.0 ]
 				}
 
 			}
@@ -386,12 +386,12 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-17::obj-103" : 				{
-					"parameter_range" : [ 1, 8 ]
+					"parameter_range" : [ 1, 16 ]
 				}
 ,
 				"obj-17::obj-56" : 				{
 					"parameter_longname" : "live.numbox[2]",
-					"parameter_range" : [ 2, 8 ]
+					"parameter_range" : [ 2, 16 ]
 				}
 
 			}
