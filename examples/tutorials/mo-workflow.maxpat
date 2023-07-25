@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 812.0, 732.0 ],
+						"rect" : [ 34.0, 92.0, 812.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -693,7 +693,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 92.0, 812.0, 732.0 ],
+						"rect" : [ 0.0, 26.0, 812.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1958,6 +1958,10 @@
 					"parameter_longname" : "live.numbox[233]"
 				}
 ,
+				"obj-1::obj-24::obj-35" : 				{
+					"parameter_longname" : "live.numbox[93]"
+				}
+,
 				"obj-1::obj-24::obj-36::obj-15" : 				{
 					"parameter_longname" : "live.numbox[236]"
 				}
@@ -1984,6 +1988,10 @@
 ,
 				"obj-1::obj-24::obj-36::obj-9" : 				{
 					"parameter_longname" : "live.numbox[237]"
+				}
+,
+				"obj-1::obj-24::obj-37" : 				{
+					"parameter_longname" : "live.numbox[94]"
 				}
 ,
 				"obj-1::obj-24::obj-40::obj-15" : 				{
@@ -3207,6 +3215,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

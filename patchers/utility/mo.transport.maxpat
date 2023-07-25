@@ -60,7 +60,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.917905882000923, 29.371792723306498, 157.582094117999077, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 0 : 0 . 0",
+					"text" : "0 : 0 : 0 . 750",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -434,7 +434,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 175.0, 170.0, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "fwdarrow.svg", "pause.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 28.371792723306498, 43.218688815832138, 25.165484204888344 ],
 					"saved_attribute_attributes" : 					{

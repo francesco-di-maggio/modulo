@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 294.0, 413.0 ],
+		"rect" : [ 34.0, 100.0, 278.0, 413.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,8 +102,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 271.0, 22.0 ],
-					"text" : "Use your keyboard's arrows to trigger events.",
+					"patching_rect" : [ 9.0, 102.0, 242.0, 22.0 ],
+					"text" : "Use keyboard's arrows to trigger events.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -167,8 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 369.515926122665405, 70.0, 23.0 ],
-					"text" : "up"
+					"patching_rect" : [ 41.0, 369.515926122665405, 70.0, 23.0 ]
 				}
 
 			}

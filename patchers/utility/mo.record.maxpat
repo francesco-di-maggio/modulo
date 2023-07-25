@@ -139,7 +139,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[92]",
+							"parameter_longname" : "live.text[350]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -190,7 +190,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[65]",
+							"parameter_longname" : "live.text[351]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -805,8 +805,7 @@
 					"patching_rect" : [ 539.911574505348995, 370.317844237320287, 36.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.847642174010446, 45.665967787735298, 34.0, 18.0 ],
-					"text" : "speed",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "speed"
 				}
 
 			}
@@ -856,8 +855,7 @@
 					"patching_rect" : [ 581.372222208976723, 708.47283935546875, 36.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 46.665967787735298, 36.0, 18.0 ],
-					"text" : "length",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "length"
 				}
 
 			}
@@ -891,7 +889,6 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[24]",
 							"parameter_mmax" : 600000.0,
 							"parameter_shortname" : "live.dial[12]",
@@ -940,7 +937,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[60]",
+							"parameter_longname" : "live.text[352]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -988,7 +985,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[63]",
+							"parameter_longname" : "live.text[353]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1014,10 +1011,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 401.5, 392.668665770904397, 44.0, 15.0 ],
-					"pictures" : [ "loop.svg", "loop.svg" ],
+					"pictures" : [ "refresh.svg", "refresh.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.944501190611533, 28.0, 41.211923710922434, 15.0 ],
-					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1039,7 +1035,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[64]",
+							"parameter_longname" : "live.text[354]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1049,8 +1045,6 @@
 ,
 					"text" : "loop",
 					"texton" : "loop",
-					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "loop-"
 				}
 
@@ -1068,10 +1062,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 300.916661333333366, 253.792166442726113, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "fwdarrow.svg", "pause.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.366288739844549, 28.0, 41.211923710922434, 15.0 ],
-					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1099,7 +1092,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[93]",
+							"parameter_longname" : "live.text[346]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1111,7 +1104,6 @@
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "stop",
 					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "playback-"
 				}
 
@@ -1175,7 +1167,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 127.208330666666654, 253.792166442726113, 44.0, 15.0 ],
-					"pictures" : [ "record.svg", "record.svg" ],
+					"pictures" : [ "filledcircle.svg", "filledcircle.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.788076289077566, 28.0, 41.211923710922434, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1205,7 +1197,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[67]",
+							"parameter_longname" : "live.text[348]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1217,7 +1209,6 @@
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "record",
 					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "record-"
 				}
 
@@ -1258,7 +1249,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[66]",
+							"parameter_longname" : "live.text[349]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1343,7 +1334,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[3]",
+							"parameter_longname" : "live.button[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -1636,7 +1627,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[58]",
+							"parameter_longname" : "live.text[347]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1714,7 +1705,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[4]",
+							"parameter_longname" : "live.button[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -1997,7 +1988,7 @@
 				"box" : 				{
 					"comment" : "(message) chans, polarity, rand, invisible",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2046,7 +2037,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2058,7 +2049,7 @@
 				"box" : 				{
 					"comment" : "input slot 1 (0-127)",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2652,69 +2643,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "live.text[67]", "live.text", 0 ],
-			"obj-14" : [ "live.button[4]", "live.button", 0 ],
-			"obj-2" : [ "live.text[92]", "live.text", 0 ],
-			"obj-21" : [ "live.text[66]", "live.text", 0 ],
-			"obj-3" : [ "live.text[63]", "live.text", 0 ],
-			"obj-37" : [ "live.text[58]", "live.text", 0 ],
-			"obj-44" : [ "live.numbox[24]", "live.dial[12]", 0 ],
-			"obj-45" : [ "live.text[64]", "live.text", 0 ],
-			"obj-59" : [ "live.numbox[25]", "live.numbox", 0 ],
-			"obj-6" : [ "live.numbox[23]", "live.numbox", 0 ],
-			"obj-60" : [ "live.button[3]", "live.button", 0 ],
-			"obj-85" : [ "live.text[60]", "live.text", 0 ],
-			"obj-9" : [ "live.text[65]", "live.text", 0 ],
-			"obj-92" : [ "live.text[93]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loop.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
