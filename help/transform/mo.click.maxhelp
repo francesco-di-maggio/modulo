@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 288.0, 487.0 ],
+		"rect" : [ 34.0, 100.0, 290.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 99.0, 441.0, 24.0, 24.0 ]
+					"patching_rect" : [ 99.0, 421.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.0, 441.0, 24.0, 24.0 ]
+					"patching_rect" : [ 70.0, 421.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 441.0, 24.0, 24.0 ]
+					"patching_rect" : [ 41.0, 421.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 41.0, 401.0, 77.0, 23.0 ],
+					"patching_rect" : [ 41.0, 371.0, 77.0, 23.0 ],
 					"text" : "unpack 0 0 0"
 				}
 
@@ -390,18 +390,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 295.0, 99.0, 79.0 ],
-					"text" : "NOTE:\n\n•   = click\n•• = double-click\n— = hold"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-14",
 					"maxclass" : "flonum",
@@ -443,7 +431,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 295.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 295.0, 70.0, 57.5 ],
 					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
@@ -523,6 +511,33 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-126" : 				{
+					"parameter_longname" : "live.text[410]"
+				}
+,
+				"obj-1::obj-16" : 				{
+					"parameter_longname" : "live.text[412]"
+				}
+,
+				"obj-1::obj-51" : 				{
+					"parameter_longname" : "live.numbox[158]"
+				}
+,
+				"obj-1::obj-74" : 				{
+					"parameter_longname" : "live.text[427]"
+				}
+,
+				"obj-1::obj-75" : 				{
+					"parameter_longname" : "live.text[413]"
+				}
+,
+				"obj-1::obj-78" : 				{
+					"parameter_longname" : "live.text[411]"
 				}
 
 			}

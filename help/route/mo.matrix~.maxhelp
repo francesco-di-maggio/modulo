@@ -363,6 +363,7 @@
 			"obj-19::obj-37" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-19::obj-39" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-19::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-19::obj-42" : [ "live.text[555]", "live.text", 0 ],
 			"obj-19::obj-9" : [ "live.text[22]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -388,6 +389,14 @@
 ,
 				"obj-19::obj-4" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-19::obj-42" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[555]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-19::obj-9" : 				{

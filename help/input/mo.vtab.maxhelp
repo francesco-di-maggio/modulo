@@ -355,7 +355,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.color.txt",
+				"name" : "mo.colors.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",

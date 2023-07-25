@@ -8,21 +8,6 @@
 					"mo.dac~::gain" : [ -20.0 ],
 					"mo.dac~::mute" : [ 0.0 ],
 					"mo.dac~::chans" : [ 2.0 ],
-					"mo.sliders::voices" : [ 4.0 ],
-					"mo.sliders::polarity" : [ 0.0 ],
-					"mo.sliders::mute" : [ 0.0 ],
-					"mo.sliders::[1]::mute" : [ 0.0 ],
-					"mo.sliders::[1]::slider" : [ 0.165386089949041 ],
-					"mo.sliders::[1]::polarity" : [ 0.0 ],
-					"mo.sliders::[2]::mute" : [ 0.0 ],
-					"mo.sliders::[2]::slider" : [ 1.0 ],
-					"mo.sliders::[2]::polarity" : [ 0.0 ],
-					"mo.sliders::[3]::mute" : [ 0.0 ],
-					"mo.sliders::[3]::slider" : [ 0.776497201060153 ],
-					"mo.sliders::[3]::polarity" : [ 0.0 ],
-					"mo.sliders::[4]::mute" : [ 0.0 ],
-					"mo.sliders::[4]::slider" : [ 0.646867571430523 ],
-					"mo.sliders::[4]::polarity" : [ 0.0 ],
 					"mo.scale::voices" : [ 4.0 ],
 					"mo.scale::polarity" : [ 0.0 ],
 					"mo.scale::curve" : [ 1.0 ],
@@ -50,20 +35,20 @@
 					"mo.scale::[3]::mute" : [ 0.0 ],
 					"mo.scale::[3]::input-min" : [ 0.0 ],
 					"mo.scale::[3]::input-max" : [ 1.0 ],
-					"mo.scale::[3]::output-min" : [ 1.0 ],
-					"mo.scale::[3]::output-max" : [ 10.0 ],
+					"mo.scale::[3]::output-min" : [ 4.0 ],
+					"mo.scale::[3]::output-max" : [ 4.0 ],
 					"mo.scale::[3]::mode" : [ 0.0 ],
 					"mo.scale::[4]::curve" : [ 1.0 ],
 					"mo.scale::[4]::mute" : [ 0.0 ],
 					"mo.scale::[4]::input-min" : [ 0.0 ],
 					"mo.scale::[4]::input-max" : [ 1.0 ],
-					"mo.scale::[4]::output-min" : [ 0.0 ],
+					"mo.scale::[4]::output-min" : [ 4.0 ],
 					"mo.scale::[4]::output-max" : [ 8.0 ],
 					"mo.scale::[4]::mode" : [ 0.0 ],
-					"mo.theremin~::pitch" : [ 382.88704841591823 ],
-					"mo.theremin~::volume" : [ 1.0 ],
-					"mo.theremin~::timbre[1]" : [ 7.988474809541376 ],
-					"mo.theremin~::vibrato[1]" : [ 5.174940571444184 ],
+					"mo.theremin~::pitch" : [ 110.0 ],
+					"mo.theremin~::volume" : [ 0.0 ],
+					"mo.theremin~::timbre[1]" : [ 4.0 ],
+					"mo.theremin~::vibrato[1]" : [ 4.0 ],
 					"mo.theremin~::mute" : [ 0.0 ],
 					"mo.theremin~::set" : [ "theremin" ],
 					"mo.send::set" : [ "theremin" ],
@@ -76,7 +61,37 @@
 					"mo.prepend::[3]::set" : [ "timbre" ],
 					"mo.prepend::[3]::mute" : [ 0.0 ],
 					"mo.prepend::[4]::set" : [ "vibrato" ],
-					"mo.prepend::[4]::mute" : [ 0.0 ]
+					"mo.prepend::[4]::mute" : [ 0.0 ],
+					"mo.xypad::xypad" : [ 0, 2 ],
+					"mo.xypad::ylock" : [ 0.0 ],
+					"mo.xypad::xlock" : [ 0.0 ],
+					"mo.xypad::mute" : [ 0.0 ],
+					"mo.crosspatch::ins" : [ 2.0 ],
+					"mo.crosspatch::outs" : [ 4.0 ],
+					"mo.crosspatch::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 2,
+								"numouts" : 4,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
 				}
 
 			}

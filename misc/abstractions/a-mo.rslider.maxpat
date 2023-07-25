@@ -524,7 +524,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bordercolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ],
-					"fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-23",
 					"listmode" : 1,
@@ -602,13 +602,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 342.5, 504.0, 94.0, 23.0 ],
+					"patching_rect" : [ 342.5, 504.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll mo.color.txt"
+					"text" : "coll mo.colors.txt"
 				}
 
 			}

@@ -46,8 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.5, 350.0, 60.0, 23.0 ],
-					"text" : "switch $1"
+					"patching_rect" : [ 182.5, 350.0, 49.0, 23.0 ],
+					"text" : "gate $1"
 				}
 
 			}
@@ -74,8 +74,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 238.60917192763128, 309.0, 79.0, 25.0 ],
-					"text" : "set switch"
+					"patching_rect" : [ 238.60917192763128, 309.0, 69.0, 25.0 ],
+					"text" : "set gate"
 				}
 
 			}
@@ -192,8 +192,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 263.0, 23.0 ],
-					"text" : "Switch input between multiple pathways."
+					"patching_rect" : [ 9.0, 83.0, 251.0, 23.0 ],
+					"text" : "Gate input between multiple pathways."
 				}
 
 			}
@@ -206,8 +206,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 281.0, 71.0 ],
-					"text" : "mo.gswitch"
+					"patching_rect" : [ 9.0, 9.0, 234.0, 71.0 ],
+					"text" : "mo.ggate"
 				}
 
 			}
@@ -258,13 +258,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.gswitch.maxpat",
+					"name" : "mo.ggate.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 400.0, 70.0, 87.0 ],
-					"varname" : "mo.gswitch",
+					"varname" : "mo.ggate",
 					"viewvisibility" : 1
 				}
 
@@ -407,7 +407,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.gswitch.maxpat",
+				"name" : "mo.ggate.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",

@@ -140,12 +140,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 739.0, 122.299603174603163, 55.0, 23.0 ],
-					"text" : "deferlow"
+					"patching_rect" : [ 739.0, 122.299603174603163, 190.0, 23.0 ],
+					"text" : "read p-mo.gametrak.json, recall 1"
 				}
 
 			}
@@ -155,9 +155,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 739.0, 69.0, 68.0, 23.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 739.0, 69.0, 58.0, 23.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -679,8 +679,36 @@
 					"parameter_longname" : "live.numbox[21]"
 				}
 ,
+				"obj-2::obj-123::obj-15" : 				{
+					"parameter_longname" : "live.numbox[53]"
+				}
+,
+				"obj-2::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[105]"
+				}
+,
+				"obj-2::obj-123::obj-66" : 				{
+					"parameter_longname" : "live.numbox[124]"
+				}
+,
+				"obj-2::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[70]"
+				}
+,
+				"obj-2::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-2::obj-123::obj-9" : 				{
+					"parameter_longname" : "live.numbox[52]"
+				}
+,
 				"obj-2::obj-15" : 				{
 					"parameter_longname" : "live.numbox[126]"
+				}
+,
+				"obj-2::obj-16" : 				{
+					"parameter_longname" : "live.text[426]"
 				}
 ,
 				"obj-2::obj-1::obj-15" : 				{
@@ -1055,6 +1083,10 @@
 					"parameter_longname" : "live.numbox[110]"
 				}
 ,
+				"obj-2::obj-59" : 				{
+					"parameter_longname" : "live.numbox[159]"
+				}
+,
 				"obj-2::obj-66" : 				{
 					"parameter_longname" : "live.numbox[113]"
 				}
@@ -1315,6 +1347,20 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

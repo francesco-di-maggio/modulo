@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@mode", 1, "@set", "REORIENT", "@color", "green" ],
+					"args" : [ "@mode", 1, "@set", "REORIENT", "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1, "@set", "VIBRATE", "@color", "blue" ],
+					"args" : [ "@mode", 1, "@set", "VIBRATE", "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -332,7 +332,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 9 ],
+					"args" : [ 9, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -357,7 +357,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 8 ],
+					"args" : [ 8, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -382,7 +382,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 7 ],
+					"args" : [ 7, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -407,7 +407,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 6 ],
+					"args" : [ 6, "@color", 10 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -432,7 +432,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 5 ],
+					"args" : [ 5, "@color", 10 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -507,7 +507,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 4 ],
+					"args" : [ 4, "@color", 10 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -532,7 +532,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 3 ],
+					"args" : [ 3, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -557,7 +557,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 2 ],
+					"args" : [ 2, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -717,7 +717,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", 1 ],
+					"args" : [ 1, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1222,6 +1222,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

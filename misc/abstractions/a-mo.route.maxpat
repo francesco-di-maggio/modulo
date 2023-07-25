@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -132,8 +132,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.666666666666515, 220.073603877314895, 79.0, 23.0 ],
-					"text" : "initial $1, init"
+					"patching_rect" : [ 500.666666666666515, 220.073603877314895, 55.0, 23.0 ],
+					"text" : "initial $1"
 				}
 
 			}
@@ -217,14 +217,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 384.666666666666629, 281.518048321759238, 128.0, 23.0 ],
+					"patching_rect" : [ 384.666666666666629, 281.518048321759238, 236.0, 23.0 ],
+					"restore" : [ "output-1" ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "output-1" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr set @bindto set-",
+					"text" : "pattr set @bindto set- @default_priority 1",
 					"varname" : "set"
 				}
 
@@ -404,7 +404,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[42]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

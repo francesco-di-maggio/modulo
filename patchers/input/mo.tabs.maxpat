@@ -1059,13 +1059,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 102.0, 157.070628922762126, 94.0, 23.0 ],
+									"patching_rect" : [ 102.0, 157.070628922762126, 100.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
 									}
 ,
-									"text" : "coll mo.color.txt"
+									"text" : "coll mo.colors.txt"
 								}
 
 							}
@@ -1571,7 +1571,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"contrastactivetab" : 0,
 					"fontsize" : 9.5,
-					"htabcolor" : [ 0.5961, 0.9843, 0.5961, 1.0 ],
+					"htabcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-10",
 					"margin" : 0,
 					"maxclass" : "tab",

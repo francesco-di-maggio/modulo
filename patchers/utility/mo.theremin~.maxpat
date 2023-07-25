@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -278,7 +278,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 470.0, 281.0, 535.0, 416.0 ],
+						"rect" : [ 470.0, 281.0, 531.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -348,7 +348,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 140.0, 34.0, 21.0 ],
+									"patching_rect" : [ 6.5, 140.0, 34.0, 21.0 ],
 									"text" : "ftom"
 								}
 
@@ -359,7 +359,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 313.0, 34.0, 21.0 ],
+									"patching_rect" : [ 294.0, 313.0, 34.0, 21.0 ],
 									"text" : "mtof"
 								}
 
@@ -442,8 +442,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 42.0, 18.0, 45.0, 21.0 ],
-									"text" : "carrier"
+									"patching_rect" : [ 44.0, 18.0, 36.0, 21.0 ],
+									"text" : "pitch"
 								}
 
 							}
@@ -3238,7 +3238,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 770.385228862365125, 1055.436599800000067, 128.0, 23.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "theremin" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4342,6 +4342,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.392887208967409, 4.194141161509847, 91.093439332034336, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "theremin",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"

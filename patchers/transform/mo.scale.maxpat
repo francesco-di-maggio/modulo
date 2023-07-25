@@ -116,8 +116,12 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activetricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
+					"hidden" : 1,
 					"id" : "obj-35",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -130,6 +134,14 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"activetricolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
+						"activetricolor2" : 						{
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"bordercolor" : 						{
@@ -147,7 +159,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[93]",
+							"parameter_longname" : "live.numbox[371]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -164,8 +176,12 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activetricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
+					"hidden" : 1,
 					"id" : "obj-37",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -178,6 +194,14 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"activetricolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
+						"activetricolor2" : 						{
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"bordercolor" : 						{
@@ -193,7 +217,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[94]",
+							"parameter_longname" : "live.numbox[374]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -211,7 +235,6 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
-					"hidden" : 1,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -228,7 +251,6 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
-					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -865,7 +887,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[91]",
+							"parameter_longname" : "live.numbox[272]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -881,9 +903,11 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activetricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
-					"hidden" : 1,
 					"id" : "obj-66",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -896,6 +920,14 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"activetricolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
+						"activetricolor2" : 						{
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"bordercolor" : 						{
@@ -913,7 +945,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[92]",
+							"parameter_longname" : "live.numbox[269]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -930,9 +962,11 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activetricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
-					"hidden" : 1,
 					"id" : "obj-68",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -945,6 +979,14 @@
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"activetricolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
+						"activetricolor2" : 						{
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"bordercolor" : 						{
@@ -960,7 +1002,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[89]",
+							"parameter_longname" : "live.numbox[107]",
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
@@ -1075,6 +1117,7 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
+					"hidden" : 1,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1091,6 +1134,7 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
+					"hidden" : 1,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1175,7 +1219,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[98]",
+							"parameter_longname" : "live.text[498]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2534,7 +2578,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[50]",
+							"parameter_longname" : "live.numbox[270]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",

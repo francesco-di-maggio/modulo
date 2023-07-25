@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 660.0, 608.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,12 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.7012711328764, 76.0, 55.0, 23.0 ],
-					"text" : "deferlow"
+					"patching_rect" : [ 708.7012711328764, 76.0, 153.0, 23.0 ],
+					"text" : "read p-mo.fm.json, recall 1"
 				}
 
 			}
@@ -56,9 +56,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.7012711328764, 41.232338564815223, 68.0, 23.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 708.7012711328764, 41.232338564815223, 58.0, 23.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -429,7 +429,13 @@
 						"mo.sliders::[3]::polarity" : 1,
 						"mo.sliders::[4]::polarity" : 1,
 						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::polarity" : 1
+						"mo.sliders::[6]::polarity" : 1,
+						"mo.prepend::[1]::set" : -1,
+						"mo.prepend::[2]::set" : -1,
+						"mo.prepend::[3]::set" : -1,
+						"mo.prepend::[4]::set" : -1,
+						"mo.prepend::[5]::set" : -1,
+						"mo.prepend::[6]::set" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -1613,6 +1619,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
