@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 286.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -691,7 +691,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) mode, flush, octave, semitone, refresh, channel, port, mute",
 					"id" : "obj-15",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -759,7 +759,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) midi note to display, (list) midi note and velocity to output",
 					"id" : "obj-7",
 					"index" : 0,
 					"maxclass" : "inlet",

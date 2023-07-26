@@ -1117,6 +1117,7 @@
 					"activebgoncolor" : [ 0.831372549019608, 0.870588235294118, 0.890196078431372, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
+					"fontname" : "Ableton Sans Light Regular",
 					"fontsize" : 16.0,
 					"id" : "obj-21",
 					"maxclass" : "live.text",
@@ -1339,13 +1340,49 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-15",
+									"id" : "obj-18",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 67.0, 201.19023685714285, 42.0, 23.0 ],
-									"text" : "set $1"
+									"patching_rect" : [ 972.0, 577.80976314285715, 432.0, 23.0 ],
+									"text" : "set \"… Click on any example to view its description … Double-click to open it …\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 972.0, 537.80976314285715, 58.0, 23.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 252.0, 577.80976314285715, 432.0, 23.0 ],
+									"text" : "set \"… Click on any module to view its description … Double-click to open it …\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 252.0, 537.80976314285715, 58.0, 23.0 ],
+									"text" : "loadbang"
 								}
 
 							}
@@ -1354,7 +1391,8 @@
 									"id" : "obj-70",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -1396,13 +1434,25 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 16.0, 331.999977123535132, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"fontname" : "Ableton Sans Medium",
 													"id" : "obj-57",
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 206.0, 207.429279285714188, 44.0, 23.0 ],
+													"patching_rect" : [ 210.0, 218.429279285714188, 44.0, 23.0 ],
 													"text" : "zlclear"
 												}
 
@@ -1415,7 +1465,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 194.0, 158.619516142857151, 43.0, 23.0 ],
+													"patching_rect" : [ 198.0, 163.619516142857151, 43.0, 23.0 ],
 													"text" : "sel 1 0"
 												}
 
@@ -1428,7 +1478,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 194.0, 128.619516142857151, 48.0, 23.0 ],
+													"patching_rect" : [ 198.0, 133.619516142857151, 48.0, 23.0 ],
 													"text" : "zl.nth 2"
 												}
 
@@ -1441,7 +1491,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 140.0, 258.429279285714188, 38.0, 23.0 ],
+													"patching_rect" : [ 144.0, 267.429279285714188, 38.0, 23.0 ],
 													"text" : "zl.reg"
 												}
 
@@ -1454,7 +1504,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 338.999977123535132, 54.0, 23.0 ],
+													"patching_rect" : [ 144.0, 338.999977123535132, 54.0, 23.0 ],
 													"text" : "pcontrol"
 												}
 
@@ -1467,7 +1517,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 301.111088234646218, 115.0, 23.0 ],
+													"patching_rect" : [ 144.0, 301.111088234646218, 115.0, 23.0 ],
 													"text" : "prepend loadunique"
 												}
 
@@ -1480,7 +1530,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 58.333333333333258, 163.222199345757303, 48.0, 23.0 ],
+													"patching_rect" : [ 62.0, 163.619516142857151, 48.0, 23.0 ],
 													"text" : "zl.nth 2"
 												}
 
@@ -1493,7 +1543,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 35.0, 84.0, 74.0, 23.0 ],
+													"patching_rect" : [ 39.0, 95.0, 74.0, 23.0 ],
 													"text" : "prepend get"
 												}
 
@@ -1525,6 +1575,7 @@
 														"Max To DAW" : "mo-max2daw",
 														"Messenger" : "mo-messenger",
 														"New Object" : [ "mo-newobject" ],
+														"One To Many" : [ "mo-one2many" ],
 														"Randomizer" : [ "mo-randomizer" ],
 														"Recorder" : [ "mo-recorder" ],
 														"Visualizer" : [ "mo-visualizer" ],
@@ -1538,7 +1589,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 35.0, 125.333310456868503, 89.0, 23.0 ],
+													"patching_rect" : [ 39.0, 130.333310456868503, 89.0, 23.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 1,
 														"parameter_enable" : 0,
@@ -1558,7 +1609,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 194.0, 24.0, 30.0, 30.0 ]
+													"patching_rect" : [ 198.0, 24.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1571,7 +1622,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 35.0, 24.0, 30.0, 30.0 ]
+													"patching_rect" : [ 39.0, 24.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1584,7 +1635,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 240.0, 24.0, 30.0, 30.0 ]
+													"patching_rect" : [ 244.0, 24.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1592,7 +1643,7 @@
 										"lines" : [ 											{
 												"patchline" : 												{
 													"destination" : [ "obj-61", 0 ],
-													"midpoints" : [ 149.5, 326.0, 149.5, 326.0 ],
+													"midpoints" : [ 153.5, 327.0, 153.5, 327.0 ],
 													"source" : [ "obj-27", 0 ]
 												}
 
@@ -1600,7 +1651,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-27", 0 ],
-													"midpoints" : [ 149.5, 281.0, 149.5, 281.0 ],
+													"midpoints" : [ 153.5, 291.0, 153.5, 291.0 ],
 													"source" : [ "obj-50", 0 ]
 												}
 
@@ -1608,7 +1659,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-55", 0 ],
-													"midpoints" : [ 203.5, 152.0, 203.5, 152.0 ],
+													"midpoints" : [ 207.5, 159.0, 207.5, 159.0 ],
 													"source" : [ "obj-52", 0 ]
 												}
 
@@ -1616,7 +1667,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-50", 0 ],
-													"midpoints" : [ 203.5, 194.0, 149.5, 194.0 ],
+													"midpoints" : [ 207.5, 204.0, 153.5, 204.0 ],
 													"source" : [ "obj-55", 0 ]
 												}
 
@@ -1624,7 +1675,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-57", 0 ],
-													"midpoints" : [ 215.5, 182.0, 215.5, 182.0 ],
+													"midpoints" : [ 219.5, 189.0, 219.5, 189.0 ],
 													"source" : [ "obj-55", 1 ]
 												}
 
@@ -1632,7 +1683,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-50", 0 ],
-													"midpoints" : [ 215.5, 245.0, 149.5, 245.0 ],
+													"midpoints" : [ 219.5, 252.0, 153.5, 252.0 ],
 													"source" : [ "obj-57", 0 ]
 												}
 
@@ -1640,7 +1691,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-50", 1 ],
-													"midpoints" : [ 67.833333333333258, 245.0, 168.5, 245.0 ],
+													"midpoints" : [ 71.5, 252.0, 172.5, 252.0 ],
 													"source" : [ "obj-63", 0 ]
 												}
 
@@ -1648,7 +1699,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-65", 0 ],
-													"midpoints" : [ 44.5, 107.0, 44.5, 107.0 ],
+													"midpoints" : [ 48.5, 120.0, 48.5, 120.0 ],
 													"source" : [ "obj-64", 0 ]
 												}
 
@@ -1656,7 +1707,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-63", 0 ],
-													"midpoints" : [ 67.833333333333329, 149.0, 67.833333333333258, 149.0 ],
+													"midpoints" : [ 71.833333333333329, 156.0, 71.5, 156.0 ],
 													"source" : [ "obj-65", 1 ]
 												}
 
@@ -1664,15 +1715,25 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-52", 0 ],
-													"midpoints" : [ 203.5, 56.0, 203.5, 56.0 ],
+													"midpoints" : [ 207.5, 57.0, 207.5, 57.0 ],
 													"source" : [ "obj-67", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"midpoints" : [ 48.5, 81.0, 25.0, 81.0, 25.0, 318.0, 25.5, 318.0 ],
+													"order" : 1,
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-64", 0 ],
-													"midpoints" : [ 44.5, 56.0, 44.5, 56.0 ],
+													"midpoints" : [ 48.5, 57.0, 48.5, 57.0 ],
+													"order" : 0,
 													"source" : [ "obj-68", 0 ]
 												}
 
@@ -1680,7 +1741,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-65", 0 ],
-													"midpoints" : [ 249.5, 71.0, 22.0, 71.0, 22.0, 119.0, 44.5, 119.0 ],
+													"midpoints" : [ 253.5, 81.0, 25.0, 81.0, 25.0, 126.0, 48.5, 126.0 ],
 													"source" : [ "obj-69", 0 ]
 												}
 
@@ -1707,7 +1768,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 798.0, 577.80976314285715, 29.5, 23.0 ],
+									"patching_rect" : [ 873.5, 577.80976314285715, 29.5, 23.0 ],
 									"text" : "edit"
 								}
 
@@ -1741,15 +1802,17 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 737.5, 647.80976314285715, 567.0, 22.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 569.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 302.75, 656.717086791992188, 22.0 ]
+									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
+									"text" : "–  control an ableton live set from max using midi notes, control changes and a virtual output port  –",
+									"textjustification" : 1
 								}
 
 							}
@@ -1783,7 +1846,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 119.0, 177.0, 317.0 ],
+										"rect" : [ 59.0, 119.0, 177.0, 366.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1812,6 +1875,30 @@
 										"subpatcher_template" : "mo.main",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 84.333333333333371, 230.0, 78.0, 23.0 ],
+													"text" : "append \" –\""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 84.333333333333371, 200.0, 78.0, 23.0 ],
+													"text" : "prepend \"– \""
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
@@ -1851,35 +1938,36 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"Ableton Live" : "",
-														"FM Synth" : "",
-														"Gametrak" : "",
-														"Genki Wave" : "",
-														"Grid Sync" : "",
-														"GyrOSC" : "",
-														"Holon.ist" : "",
-														"KORG nanoKONTROL2" : "",
-														"ODD Ball" : "",
-														"One Pad" : "",
-														"Step Sequencer" : "",
-														"Theremin" : "",
-														"TouchOSC" : "",
-														"Trackpad" : "",
-														"Wekinator" : "",
-														"Blinker" : "",
-														"Conditioner" : "",
-														"Interpolator" : "",
-														"Legos" : "",
-														"Many To One" : "",
-														"Mapper" : "",
-														"Max To DAW" : "",
-														"Messenger" : "",
-														"New Object" : "",
-														"Randomizer" : "",
-														"Recorder" : "",
-														"Visualizer" : "",
-														"Trigger Events" : "",
-														"Workflow" : ""
+														"Ableton Live" : "control an ableton live set from max using midi notes, control changes and a virtual output port",
+														"FM Synth" : "play a frequency modulator synthesizer using a series of sliders each one controlling a sound parameter",
+														"Gametrak" : "connect a gametrak controller and stream xyz values for each string",
+														"Genki Wave" : "connect a genki wave ring and control an horizontal slider with a vibrato gesture",
+														"Grid Sync" : "play a drum sound using two linkable grids as step sequencers",
+														"GyrOSC" : "connect the gryOSC app and stream quaternion and button values",
+														"Holon.ist" : "connect the Holonist app and stream the iPhone's motion data",
+														"KORG nanoKONTROL2" : "an assignable virtual representiation of the KORG nanoKONTROL2",
+														"ODD Ball" : "connect an ODD ball and stream bounce, shake and modulation values",
+														"One Pad" : "use one pad and a slider to control different midi notes",
+														"Step Sequencer" : "generate a melody, and variate its pitch, velocity and duration",
+														"Theremin" : "play a digital theremin synthesizer using xy pad coordinates to control pitch and volume",
+														"TouchOSC" : "connect the touchOSC app and stream data to max",
+														"Trackpad" : "use the computer built-in trackpad/mouse to control sound and the patcher background color",
+														"Wekinator" : "interface with the Wekinator app using OSC messages",
+														"Blinker" : "blink a series of colored leds using an adjustable time window",
+														"Conditioner" : "transform a normalized value into a different set of values",
+														"Interpolator" : "interpolate data graphically using a two-dimension nodes object",
+														"Legos" : "combine, mix and customize sets of modules",
+														"Many To One" : "map a set of input values to a single output value",
+														"Mapper" : "map parameters to a midi controller or computer keyboard keys",
+														"Max To DAW" : "communicate with a digital audio workstation from max",
+														"Messenger" : "control max objects using a combination of text and semicolons",
+														"New Object" : "create a new object from a patcher window using different methods",
+														"One To Many" : "map a single input value to a set of output values",
+														"Randomizer" : "generate random values at a specific rate and dynamics",
+														"Recorder" : "record, loop and playback an incoming list of values",
+														"Visualizer" : "display incoming multichannel audio signals in different ways",
+														"Trigger Events" : "use max global transport to trigger cued events",
+														"Workflow" : "interact with the signal processing chain using two different modes of interaction"
 													}
 ,
 													"id" : "obj-87",
@@ -1905,7 +1993,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 209.0, 72.0, 23.0 ],
+													"patching_rect" : [ 84.333333333333371, 259.0, 72.0, 23.0 ],
 													"text" : "prepend set"
 												}
 
@@ -1931,7 +2019,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 84.333333333333371, 263.0, 30.0, 30.0 ]
+													"patching_rect" : [ 84.333333333333371, 313.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1954,8 +2042,22 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-77", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-18", 0 ],
-													"midpoints" : [ 93.833333333333371, 234.0, 93.833333333333371, 234.0 ],
+													"midpoints" : [ 93.833333333333371, 284.0, 93.833333333333371, 284.0 ],
 													"source" : [ "obj-77", 0 ]
 												}
 
@@ -1978,8 +2080,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-77", 0 ],
-													"midpoints" : [ 93.833333333333371, 192.0, 93.833333333333371, 192.0 ],
+													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-89", 1 ]
 												}
 
@@ -1990,7 +2091,7 @@
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 737.5, 607.80976314285715, 79.0, 23.0 ],
+									"patching_rect" : [ 814.0, 607.80976314285715, 79.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2272,16 +2373,17 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-44",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 647.80976314285715, 583.0, 22.0 ],
+									"patching_rect" : [ 96.0, 657.80976314285715, 581.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 302.75, 677.717086791992188, 22.0 ],
-									"text" : "Computer arrows."
+									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
+									"text" : "–  computer keyboard arrows  –",
+									"textjustification" : 1
 								}
 
 							}
@@ -2315,7 +2417,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 119.0, 177.0, 317.0 ],
+										"rect" : [ 59.0, 119.0, 192.0, 368.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2344,6 +2446,30 @@
 										"subpatcher_template" : "mo.main",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 84.333333333333371, 230.0, 73.0, 23.0 ],
+													"text" : "append \" –\""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 84.333333333333371, 200.0, 78.0, 23.0 ],
+													"text" : "prepend \"– \""
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
@@ -2383,106 +2509,106 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"mo.arrows" : "Computer arrows.",
-														"mo.dial" : "A customizable dial.",
-														"mo.encoder" : "A customizable encoder.",
-														"mo.grid" : "A live grid sequencer.",
-														"mo.hrslider" : "A customizable horizontal range slider.",
-														"mo.hslider" : "A customizable horizontal slider.",
-														"mo.htab" : "A customizable horizontal tab.",
-														"mo.key" : "Computer keys.",
-														"mo.keyboard" : "A virtual midi keyboard.",
-														"mo.led" : "A customizable led.",
-														"mo.mouse" : "Computer mouse.",
-														"mo.nodes" : "A graphical data interpolator.",
-														"mo.number" : "A customizable number: int, midi, float.",
-														"mo.numbers" : "A set of coutomizable numbers.",
-														"mo.pad" : "A customizable pad: toggle, and momentary.",
-														"mo.pads" : "A set of customizable pads.",
-														"mo.rand" : "A random numbers generator.",
-														"mo.rsliders" : "A set of customizable range sliders.",
-														"mo.sliders" : "A set of customizable sliders.",
-														"mo.step" : "A live step sequencer.",
-														"mo.tabs" : "A set of customizable numbers.",
-														"mo.vrslider" : "A customizable vertical range slider.",
-														"mo.vslider" : "A customizable vertical slider.",
-														"mo.vtab" : "A customizable vertical tab.",
-														"mo.xypad" : "A 2-dimension (xy) pad.",
-														"mo.adc~" : "",
-														"mo.crosspatch" : "",
-														"mo.crosspatch~" : "",
-														"mo.ctlout" : "",
-														"mo.ctlouts" : "",
-														"mo.dac~" : "",
-														"mo.hi" : "",
-														"mo.makenote" : "",
-														"mo.matrix" : "",
-														"mo.matrix~" : "",
-														"mo.midiin" : "",
-														"mo.midiout" : "",
-														"mo.noteout" : "",
-														"mo.noteouts" : "",
-														"mo.prepend" : "",
-														"mo.receive" : "",
-														"mo.receive~" : "",
-														"mo.route" : "",
-														"mo.send" : "",
-														"mo.send~" : "",
-														"mo.serial" : "",
-														"mo.udpreceive" : "",
-														"mo.udpsend" : "",
-														"mo.xbendout" : "",
-														"mo.xbendouts" : "",
-														"mo.average" : "",
-														"mo.calibrate" : "",
-														"mo.click" : "",
-														"mo.debounce" : "",
-														"mo.ggate" : "",
-														"mo.if" : "",
-														"mo.joystick" : "",
-														"mo.latch" : "",
-														"mo.line" : "",
-														"mo.minmax" : "",
-														"mo.pipe" : "",
-														"mo.poll" : "",
-														"mo.radiate" : "",
-														"mo.rms~" : "",
-														"mo.scale" : "",
-														"mo.schmitt" : "",
-														"mo.select" : "",
-														"mo.shake" : "",
-														"mo.sig~" : "",
-														"mo.slide" : "",
-														"mo.smooth" : "",
-														"mo.snapshot~" : "",
-														"mo.speedlim" : "",
-														"mo.split" : "",
-														"mo.steer" : "",
-														"mo.adstatus" : "",
-														"mo.console" : "",
-														"mo.cpu" : "",
-														"mo.cue" : "",
-														"mo.date" : "",
-														"mo.fm~" : "",
-														"mo.gain~" : "",
-														"mo.gridmeter~" : "",
-														"mo.launch" : "",
-														"mo.lfo~" : "",
-														"mo.map" : "",
-														"mo.meter~" : "",
-														"mo.monitor" : "",
-														"mo.notepad" : "",
-														"mo.panel" : "",
-														"mo.playlist~" : "",
-														"mo.preset" : "",
-														"mo.record" : "",
-														"mo.record~" : "",
-														"mo.scope" : "",
-														"mo.scope~" : "",
-														"mo.spectroscope~" : "",
-														"mo.swatch" : "",
-														"mo.theremin~" : "",
-														"mo.transport" : ""
+														"mo.arrows" : "computer keyboard arrows",
+														"mo.dial" : "a single customizable dial",
+														"mo.encoder" : "a single customizable encoder",
+														"mo.grid" : "a live grid sequencer",
+														"mo.hrslider" : "a single customizable horizontal range slider",
+														"mo.hslider" : "a customizable horizontal slider",
+														"mo.htab" : "a single customizable horizontal tab",
+														"mo.key" : "computer keyboard keys",
+														"mo.keyboard" : "a virtual midi keyboard",
+														"mo.led" : "a single customizable led",
+														"mo.mouse" : "computer keyboard mouse",
+														"mo.nodes" : "a graphical data interpolator",
+														"mo.number" : "a single customizable numberbox",
+														"mo.numbers" : "a list of customizable numbers",
+														"mo.pad" : "a single customizable pad",
+														"mo.pads" : "a list of customizable pads",
+														"mo.rand" : "a random numbers generator",
+														"mo.rsliders" : "a list of customizable range sliders",
+														"mo.sliders" : "a list of customizable sliders",
+														"mo.step" : "a live step sequencer",
+														"mo.tabs" : "a list of customizable tabs",
+														"mo.vrslider" : "a single customizable vertical range slider",
+														"mo.vslider" : "a single customizable vertical slider",
+														"mo.vtab" : "a single customizable vertical tab",
+														"mo.xypad" : "a two-dimensions 'xy' pad",
+														"mo.adc~" : "multichannel analog-to-digital converter with gain control",
+														"mo.crosspatch" : "a list matrix with routing cables",
+														"mo.crosspatch~" : "a multichannel audio matrix with routing cables",
+														"mo.ctlout" : "a single customizable control change value",
+														"mo.ctlouts" : "a list of customizable control change values",
+														"mo.dac~" : "multichannel digital-to-analog converter with gain control",
+														"mo.hi" : "a human-interface device input",
+														"mo.makenote" : "a note on/note off pair generator",
+														"mo.matrix" : "a list matrix with routing cells",
+														"mo.matrix~" : "a multichannel audio matrix with routing cells",
+														"mo.midiin" : "a midi input device",
+														"mo.midiout" : "a midi output device",
+														"mo.noteout" : "a single customizable note value",
+														"mo.noteouts" : "a list of customizable note values",
+														"mo.prepend" : "add a message in front a list of any input",
+														"mo.receive" : "get a list of data using a dynamic receiving name",
+														"mo.receive~" : "get multichannel audio signals using a dynamic receiving name",
+														"mo.route" : "parse an incoming list of data based on input matching",
+														"mo.send" : "transmit a list of data using a dynamic sending name",
+														"mo.send~" : "transmit multichannel audio signals using a dynamic sending name",
+														"mo.serial" : "an input-output serial communication port",
+														"mo.udpreceive" : "get a list of data over the network",
+														"mo.udpsend" : "transmit a list of data over the network",
+														"mo.xbendout" : "a single customizable midi pitch bend value",
+														"mo.xbendouts" : "a list of customizable midi pitch bend values",
+														"mo.average" : "get the average from a list of data",
+														"mo.calibrate" : "get the minimum and maximum input values from a list of data over a variable time window",
+														"mo.click" : "perform different click behaviours: click, double-click, and hold",
+														"mo.debounce" : "filter out values that occur in a short time window",
+														"mo.ggate" : "route input between multiple pathways",
+														"mo.if" : "subject an input value to a logic condition and output result",
+														"mo.joystick" : "apply the joystick behaviour to an incoming input value",
+														"mo.latch" : "get the maximum or minimum running value from a list of values",
+														"mo.line" : "ramp a list of values over a specific time window",
+														"mo.minmax" : "get the absolute mimimum and maximum input ranges from an incoming value",
+														"mo.pipe" : "delay anything over a specific time window",
+														"mo.poll" : "stream a list of input data at a specific rate",
+														"mo.radiate" : "project a list of input data over a circular plane, and get the combined xy axes",
+														"mo.rms~" : "get the average of incoming multichannel audio signals, and output the numeric value",
+														"mo.scale" : "assign a list of normalized input values to a different output range",
+														"mo.schmitt" : "output a trigger when a list of values exceed a maximum threshold",
+														"mo.select" : "output a customizable value when a selected value is detected",
+														"mo.shake" : "get the rate of change of an incoming value",
+														"mo.sig~" : "transform a list of numeric values into multichannel audio signals",
+														"mo.slide" : "filter on incoming list of values logarithmically with adjustable upwards and downwards motion",
+														"mo.smooth" : "filter in incoming list of values using a leaky integrator",
+														"mo.snapshot~" : "transform multichannel audio signals into a list of numeric values",
+														"mo.speedlim" : "limit the stream of a list of values at a specific rate",
+														"mo.split" : "get values included, below, and above a specific minimum and maximum range",
+														"mo.steer" : "output the direction of a list of two values",
+														"mo.adstatus" : "open the max audio status settings",
+														"mo.console" : "monitor and clear the max console window with keys combination",
+														"mo.cpu" : "monitor the central processing unit (cpu)",
+														"mo.cue" : "trigger a series of events usign cues",
+														"mo.date" : "get today's date and current time",
+														"mo.fm~" : "a frequency modulator synthesizeer used as a sound generator",
+														"mo.gain~" : "a multichannel audio signals gain control",
+														"mo.gridmeter~" : "a multichannel audio signals meter in the form of grid",
+														"mo.launch" : "open a website, a file, or an app from max",
+														"mo.lfo~" : "a low frequency oscillator as both audio and data",
+														"mo.map" : "enable key and midi mapping",
+														"mo.meter~" : "a multichannel audio signals meter",
+														"mo.monitor" : "display incoming data on a dynamic text box",
+														"mo.notepad" : "type, store and text, or control objects remotely",
+														"mo.panel" : "a coloured background area with hue, saturation and lightness control",
+														"mo.playlist~" : "load, playback and loop sound files",
+														"mo.preset" : "store and recall the main parameter settings of any module",
+														"mo.record" : "record, playback and loop a list of values with adjustable speed and range, read and write file on disk",
+														"mo.record~" : "record, playback and loop multichannel audio signals, read and write sound file on disk",
+														"mo.scope" : "display a list of values as time series",
+														"mo.scope~" : "a multichannel audio signals scope",
+														"mo.spectroscope~" : "visualize multichannel audio signals through a spectroscope or spectrogram",
+														"mo.swatch" : "choose a color and output the corresponding values in floating rgba",
+														"mo.theremin~" : "a digial theremin synthesizer used as a sound generator",
+														"mo.transport" : "start, stop and display the max global transport"
 													}
 ,
 													"id" : "obj-87",
@@ -2508,7 +2634,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 209.0, 72.0, 23.0 ],
+													"patching_rect" : [ 84.333333333333371, 260.0, 72.0, 23.0 ],
 													"text" : "prepend set"
 												}
 
@@ -2534,7 +2660,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 84.333333333333371, 263.0, 30.0, 30.0 ]
+													"patching_rect" : [ 84.333333333333371, 314.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -2557,8 +2683,22 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-77", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-18", 0 ],
-													"midpoints" : [ 93.833333333333371, 234.0, 93.833333333333371, 234.0 ],
+													"midpoints" : [ 93.833333333333371, 285.0, 93.833333333333371, 285.0 ],
 													"source" : [ "obj-77", 0 ]
 												}
 
@@ -2581,8 +2721,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-77", 0 ],
-													"midpoints" : [ 93.833333333333371, 192.0, 93.833333333333371, 192.0 ],
+													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-89", 1 ]
 												}
 
@@ -2617,9 +2756,9 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 502.714285714285779, 99.0, 5.0, 22.0 ],
+									"patching_rect" : [ 426.944444444444571, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 131.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 113.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2638,51 +2777,9 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 520.0, 99.0, 6.0, 22.0 ],
+									"patching_rect" : [ 443.722222222222399, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 131.5, 676.52661058306694, 6.0 ],
-									"saved_attribute_attributes" : 									{
-										"linecolor" : 										{
-											"expression" : ""
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-71",
-									"justification" : 1,
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"maxclass" : "live.line",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 486.428571428571502, 99.0, 5.0, 22.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 321.75, 676.52661058306694, 6.0 ],
-									"saved_attribute_attributes" : 									{
-										"linecolor" : 										{
-											"expression" : ""
-										}
-
-									}
-
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-72",
-									"justification" : 1,
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"maxclass" : "live.line",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 469.142857142857167, 99.0, 6.0, 22.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 321.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 113.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2701,7 +2798,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 478.285714285714334, 99.0, 5.0, 22.0 ],
+									"patching_rect" : [ 403.277777777777828, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 27.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
@@ -2722,7 +2819,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 460.0, 99.0, 6.0, 22.0 ],
+									"patching_rect" : [ 385.5, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 27.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
@@ -2742,7 +2839,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 737.5, 170.0, 29.5, 23.0 ],
+									"patching_rect" : [ 737.5, 170.0, 42.5, 23.0 ],
 									"text" : "t i 0"
 								}
 
@@ -2754,7 +2851,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 25.5, 170.0, 29.5, 23.0 ],
+									"patching_rect" : [ 25.5, 170.0, 42.5, 23.0 ],
 									"text" : "t i 0"
 								}
 
@@ -2798,31 +2895,31 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 737.5, 397.000000000000057, 641.0, 22.0 ],
+									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 136.5, 678.0, 22.0 ],
-									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
+									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
+									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-90",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.5, 397.000000000000057, 609.0, 22.0 ],
+									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 136.5, 676.0, 22.0 ],
+									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
 									"text" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials."
 								}
 
@@ -2834,8 +2931,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 737.5, 33.0, 68.0, 23.0 ],
-									"text" : "loadmess 0"
+									"patching_rect" : [ 737.5, 33.0, 87.0, 23.0 ],
+									"text" : "loadmess set 0"
 								}
 
 							}
@@ -2846,8 +2943,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.5, 33.0, 68.0, 23.0 ],
-									"text" : "loadmess 0"
+									"patching_rect" : [ 25.5, 33.0, 87.0, 23.0 ],
+									"text" : "loadmess set 0"
 								}
 
 							}
@@ -3577,7 +3674,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 899.5, 256.785355285714274, 527.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 181.0, 681.834098268684784, 113.0 ],
+									"presentation_rect" : [ 738.285714268684387, 166.0, 681.834098268684784, 113.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3597,7 +3694,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "Legos", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -3630,7 +3727,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 187.5, 256.785355285714274, 527.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 181.0, 681.834098268684784, 113.0 ],
+									"presentation_rect" : [ 8.0, 166.0, 681.834098268684784, 113.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3672,9 +3769,9 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 494.571428571428669, 99.0, 5.0, 22.0 ],
+									"patching_rect" : [ 419.055555555555657, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 156.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 138.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3687,16 +3784,17 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 2,
-									"fontname" : "Arial",
+									"fontface" : 0,
+									"fontname" : "Ableton Sans Light Regular",
+									"fontsize" : 13.0,
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 995.0, 60.0, 87.0, 20.0 ],
+									"patching_rect" : [ 986.0, 60.0, 90.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 8.0, 87.0, 20.0 ],
-									"text" : "Select a kind..."
+									"presentation_rect" : [ 738.285714268684387, 8.0, 90.0, 22.0 ],
+									"text" : "Select a kind…"
 								}
 
 							}
@@ -3902,7 +4000,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 737.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 51.0, 679.285714268684387, 60.0 ],
+									"presentation_rect" : [ 738.285714268684387, 43.0, 679.285714268684387, 60.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3944,9 +4042,9 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.85714285714289, 99.0, 6.0, 22.0 ],
+									"patching_rect" : [ 434.833333333333485, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 156.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 138.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3959,16 +4057,17 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 2,
-									"fontname" : "Arial",
+									"fontface" : 0,
+									"fontname" : "Ableton Sans Light Regular",
+									"fontsize" : 13.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 260.0, 60.0, 110.0, 20.0 ],
+									"patching_rect" : [ 251.0, 60.0, 115.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 8.0, 110.0, 20.0 ],
-									"text" : "Select a category..."
+									"presentation_rect" : [ 8.0, 8.0, 115.0, 22.0 ],
+									"text" : "Select a category…"
 								}
 
 							}
@@ -4182,7 +4281,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 25.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 51.0, 679.285714268684387, 60.0 ],
+									"presentation_rect" : [ 8.0, 43.0, 679.285714268684387, 60.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -4216,6 +4315,44 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.1 ],
+									"border" : 1,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 345.0, 578.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 9.190476208925247, 301.75, 677.52661058306694, 28.0 ],
+									"proportion" : 0.5,
+									"rounded" : 10
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.1 ],
+									"border" : 1,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-27",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 360.0, 593.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 739.476190477609634, 301.75, 677.52661058306694, 28.0 ],
+									"proportion" : 0.5,
+									"rounded" : 10
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -4230,6 +4367,14 @@
 									"destination" : [ "obj-3", 0 ],
 									"midpoints" : [ 1287.0, 111.0, 1287.0, 111.0 ],
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"midpoints" : [ 981.5, 642.0, 823.5, 642.0 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -4252,7 +4397,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"midpoints" : [ 757.5, 243.0, 909.0, 243.0 ],
+									"midpoints" : [ 770.5, 243.0, 909.0, 243.0 ],
 									"source" : [ "obj-20", 1 ]
 								}
 
@@ -4267,6 +4412,30 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"midpoints" : [ 261.5, 561.0, 261.5, 561.0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"midpoints" : [ 981.5, 561.0, 981.5, 561.0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"midpoints" : [ 261.5, 642.0, 105.5, 642.0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
 									"midpoints" : [ 165.5, 603.0, 165.5, 603.0 ],
 									"source" : [ "obj-28", 0 ]
@@ -4276,7 +4445,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 1 ],
-									"midpoints" : [ 807.5, 603.0, 807.0, 603.0 ],
+									"midpoints" : [ 883.0, 603.0, 883.5, 603.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -4307,18 +4476,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
-									"midpoints" : [ 823.0, 522.0, 747.0, 522.0 ],
-									"order" : 1,
-									"source" : [ "obj-35", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-70", 0 ],
 									"midpoints" : [ 823.0, 471.0, 823.5, 471.0 ],
-									"order" : 0,
 									"source" : [ "obj-35", 1 ]
 								}
 
@@ -4368,7 +4527,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
-									"midpoints" : [ 747.0, 633.0, 747.0, 633.0 ],
+									"midpoints" : [ 823.5, 633.0, 823.5, 633.0 ],
 									"source" : [ "obj-42", 0 ]
 								}
 
@@ -4416,7 +4575,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"midpoints" : [ 45.5, 243.0, 197.0, 243.0 ],
+									"midpoints" : [ 58.5, 243.0, 197.0, 243.0 ],
 									"source" : [ "obj-5", 1 ]
 								}
 
@@ -4426,6 +4585,14 @@
 									"destination" : [ "obj-97", 0 ],
 									"midpoints" : [ 35.0, 195.0, 35.0, 195.0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"midpoints" : [ 823.5, 561.0, 823.5, 561.0 ],
+									"source" : [ "obj-70", 0 ]
 								}
 
 							}
@@ -4477,7 +4644,7 @@
 ,
 					"patching_rect" : [ 21.5, 360.0, 700.5, 325.834170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 376.021173999999974, 692.0, 332.978826000000026 ],
+					"presentation_rect" : [ 15.5, 375.021173999999974, 692.0, 332.978826000000026 ],
 					"varname" : "bpatcher",
 					"viewvisibility" : 1
 				}
@@ -4505,7 +4672,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
+					"fontname" : "Ableton Sans Light Regular",
 					"fontsize" : 16.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
@@ -4595,15 +4762,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
+					"fontname" : "Ableton Sans Light Regular",
 					"fontsize" : 16.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 526.5, 131.0, 87.0, 26.0 ],
+					"patching_rect" : [ 526.5, 131.0, 84.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 447.841463416814804, 133.0, 87.0, 26.0 ],
+					"presentation_rect" : [ 449.841463416814804, 133.0, 84.0, 26.0 ],
 					"text" : "Created by"
 				}
 

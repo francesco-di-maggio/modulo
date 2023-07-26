@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -417,7 +417,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) freeze, time, polarity",
+					"comment" : "(int) voices, (message) mode, polarity, rand, mute",
 					"id" : "obj-53",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1248,7 +1248,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(list) numbers",
 					"id" : "obj-13",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -2107,7 +2107,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to forward",
+					"comment" : "(list) numbers",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",

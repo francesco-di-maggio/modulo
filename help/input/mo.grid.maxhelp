@@ -304,7 +304,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 715.0, 39.0, 23.0 ],
-					"text" : "4"
+					"text" : "3"
 				}
 
 			}
@@ -529,11 +529,13 @@
  ],
 		"parameters" : 		{
 			"obj-5::obj-10" : [ "live.text[19]", "live.text", 0 ],
+			"obj-5::obj-16" : [ "live.text[244]", "live.text", 0 ],
 			"obj-5::obj-29" : [ "live.text[8]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "live.text[92]", "live.text", 0 ],
 			"obj-5::obj-30" : [ "live.text[3]", "live.text", 0 ],
 			"obj-5::obj-33" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-5::obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-5::obj-39" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-5::obj-40" : [ "live.grid", "live.grid", 0 ],
 			"obj-5::obj-41" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
@@ -668,6 +670,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.grid.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -675,16 +683,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

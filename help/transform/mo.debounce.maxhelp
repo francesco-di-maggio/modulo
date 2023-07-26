@@ -319,8 +319,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 166.0, 23.0 ],
-					"text" : "Filter out doubled values."
+					"patching_rect" : [ 9.0, 83.0, 148.0, 23.0 ],
+					"text" : "Filter out close values."
 				}
 
 			}
