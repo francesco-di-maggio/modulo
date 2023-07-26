@@ -234,7 +234,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 290.0, 279.954297363758087, 109.523560225963593, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 533.5, 294.436617500000011, 169.0, 74.0 ],
+					"presentation_rect" : [ 24.158536583185196, 295.0, 227.0, 74.0 ],
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1298,7 +1298,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1339,6 +1339,30 @@
 						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 761.0, 201.19023685714285, 42.0, 23.0 ],
+									"text" : "set $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 49.0, 201.19023685714285, 42.0, 23.0 ],
+									"text" : "set $1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "message",
@@ -1805,13 +1829,14 @@
 									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 551.5, 22.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 491.5, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  use max global transport to trigger cued events  –",
+									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -2127,7 +2152,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 167.0, 482.404881571428632, 140.0, 23.0 ],
-									"text" : "mo.click @sensitivity 0.6",
+									"text" : "mo.click @sensitivity 0.2",
 									"varname" : "mo.click"
 								}
 
@@ -2382,7 +2407,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  type, store and text, or control objects remotely  –",
+									"text" : "–  a single customizable dial  –",
 									"textjustification" : 1
 								}
 
@@ -2920,7 +2945,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Handle auxilary functions, such as monitoring, visualizing and recording data."
+									"text" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -3747,7 +3772,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
+											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -4372,6 +4397,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"midpoints" : [ 58.5, 243.0, 197.0, 243.0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
 									"midpoints" : [ 937.5, 642.0, 823.5, 642.0 ],
 									"source" : [ "obj-18", 0 ]
@@ -4396,8 +4429,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"midpoints" : [ 770.5, 243.0, 909.0, 243.0 ],
+									"destination" : [ "obj-23", 0 ],
+									"midpoints" : [ 770.5, 195.0, 770.5, 195.0 ],
 									"source" : [ "obj-20", 1 ]
 								}
 
@@ -4423,6 +4456,14 @@
 									"destination" : [ "obj-18", 0 ],
 									"midpoints" : [ 937.5, 561.0, 937.5, 561.0 ],
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"midpoints" : [ 770.5, 243.0, 909.0, 243.0 ],
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -4574,8 +4615,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"midpoints" : [ 58.5, 243.0, 197.0, 243.0 ],
+									"destination" : [ "obj-17", 0 ],
+									"midpoints" : [ 58.5, 195.0, 58.5, 195.0 ],
 									"source" : [ "obj-5", 1 ]
 								}
 
@@ -4705,7 +4746,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 21.5, 279.954297363758087, 238.5, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.158536583185196, 295.0, 509.341463416814804, 73.0 ],
+					"presentation_rect" : [ 252.158536583185196, 295.0, 450.341463416814804, 73.0 ],
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -4823,7 +4864,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 24.158536583185196, 216.662162184715271, 679.0, 55.0 ],
-					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow."
+					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow. Have a go!"
 				}
 
 			}
