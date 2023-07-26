@@ -317,11 +317,12 @@
 					"priority" : 					{
 						"mo.crosspatch::ins" : -1,
 						"mo.crosspatch::outs" : -1,
-						"mo.crosspatch::crosspatch" : 1
+						"mo.crosspatch::crosspatch" : 1,
+						"mo.crosspatch::connect" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 4, 100, 413, 948 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -730,7 +731,6 @@
 			"obj-13::obj-62" : [ "live.numbox[105]", "live.numbox", 0 ],
 			"obj-13::obj-64" : [ "live.text[57]", "live.text", 0 ],
 			"obj-14::obj-27" : [ "semitone", "live.numbox", 0 ],
-			"obj-14::obj-30" : [ "port-", "port-", 0 ],
 			"obj-14::obj-37" : [ "live.text[209]", "live.numbox", 0 ],
 			"obj-14::obj-39" : [ "live.numbox[177]", "live.numbox", 0 ],
 			"obj-14::obj-46" : [ "live.text[44]", "live.text", 0 ],
@@ -742,6 +742,7 @@
 			"obj-16::obj-2" : [ "live.text[37]", "live.text", 0 ],
 			"obj-16::obj-37" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-16::obj-39" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-16::obj-42" : [ "live.text[555]", "live.text", 0 ],
 			"obj-17::obj-13" : [ "live.text[107]", "live.text", 0 ],
 			"obj-17::obj-3" : [ "live.text[108]", "live.text", 0 ],
 			"obj-17::obj-56" : [ "live.numbox[108]", "live.numbox", 0 ],
@@ -977,6 +978,10 @@
 					"parameter_longname" : "live.text[127]"
 				}
 ,
+				"obj-4::obj-14" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
 				"obj-4::obj-2" : 				{
 					"parameter_longname" : "live.text[147]"
 				}
@@ -1013,8 +1018,16 @@
 					"parameter_longname" : "live.button[7]"
 				}
 ,
+				"obj-4::obj-85" : 				{
+					"parameter_longname" : "live.text[60]"
+				}
+,
 				"obj-4::obj-9" : 				{
 					"parameter_longname" : "live.text[84]"
+				}
+,
+				"obj-4::obj-92" : 				{
+					"parameter_longname" : "live.text[93]"
 				}
 ,
 				"obj-55::obj-6" : 				{
@@ -1062,7 +1075,13 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "loop.svg",
+				"name" : "filledcircle.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fwdarrow.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
@@ -1072,6 +1091,20 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1236,23 +1269,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

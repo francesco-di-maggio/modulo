@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 856.0, 705.0 ],
+		"rect" : [ 34.0, 100.0, 864.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -465,7 +465,12 @@
 						"mo.sliders[1]::[2]::polarity" : 1,
 						"mo.sliders[1]::[3]::polarity" : 1,
 						"mo.sliders[1]::[4]::polarity" : 1,
-						"mo.sliders[1]::[5]::polarity" : 1
+						"mo.sliders[1]::[5]::polarity" : 1,
+						"mo.prepend::[1]::set" : -1,
+						"mo.prepend::[2]::set" : -1,
+						"mo.prepend::[3]::set" : -1,
+						"mo.prepend::[4]::set" : -1,
+						"mo.prepend::[5]::set" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -597,17 +602,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 817.0, 226.947245217125044, 351.0, 165.0 ],
+					"patching_rect" : [ 817.0, 226.947245217125044, 361.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 488.0, 141.0, 351.0, 165.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Open Wekinator, and click \"Next >\" (default settings).\n2. Start DSP, and tehremini~ playback.\n3. Find a sound that you like.\n4. Pair it with an input position.\n5. Record examples of input-output pair. Repeat steps 3 and 4.\n6. Train the model.\n7. Run the model (output predictions based on new input).\n\nhttp://www.wekinator.org"
+					"presentation_rect" : [ 488.0, 141.0, 361.0, 165.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Download and open Wekinator:\n     http://www.wekinator.org\n     • Open a new project, and click  on\"Next >\" (default settings).\n2. Start DSP, and tehremini~ playback.\n3. Find a sound that you like.\n4. Pair it with an input position.\n5. Record examples of input-output pair. Repeat steps 3 and 4.\n6. Train the model.\n7. Run the model (output predictions based on new input)."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "CLEAR", "@mode", 1, "@color", "blue" ],
+					"args" : [ "@set", "clear", "@mode", 1, "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -632,7 +637,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "RUN", "@color", "green" ],
+					"args" : [ "@set", "RUN", "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -657,7 +662,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "TRAIN", "@mode", 1, "@color", "yellow" ],
+					"args" : [ "@set", "TRAIN", "@mode", 1, "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -682,7 +687,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "RECORD", "@color", "red" ],
+					"args" : [ "@set", "RECORD", "@color", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -2956,6 +2961,26 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.dac~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
@@ -3012,16 +3037,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

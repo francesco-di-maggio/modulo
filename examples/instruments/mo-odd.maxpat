@@ -1432,7 +1432,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "HYPER" ],
+					"args" : [ "@set", "HYPER", "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1620,7 +1620,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "NOTE" ],
+					"args" : [ "@set", "NOTE", "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1670,7 +1670,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "CC" ],
+					"args" : [ "@set", "CC", "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

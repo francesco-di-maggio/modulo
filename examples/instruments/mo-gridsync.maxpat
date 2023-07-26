@@ -198,7 +198,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 70.0, 370.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 92.0, 20.0, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -235,7 +235,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 426.727145999999948, 370.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 20.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 20.0, 20.0, 70.0, 87.0 ],
 					"varname" : "mo.number",
 					"viewvisibility" : 1
 				}
@@ -1080,6 +1080,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
@@ -1115,16 +1121,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

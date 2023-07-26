@@ -137,7 +137,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 2 ],
+					"args" : [ "@color", 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -187,7 +187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 1 ],
+					"args" : [ "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -212,7 +212,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 5 ],
+					"args" : [ "@color", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -262,7 +262,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 5 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -338,6 +337,7 @@
 			"obj-2::obj-2" : [ "live.text[9]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-2::obj-42" : [ "live.text[555]", "live.text", 0 ],
 			"obj-4::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[6]", "live.text", 0 ],
@@ -426,6 +426,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
