@@ -60,7 +60,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.917905882000923, 29.371792723306498, 157.582094117999077, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 0 : 0 . 750",
+					"text" : "0 : 0 : 0 . 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -174,7 +174,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 151.690601944923401, 68.408915246541994, 54.0, 15.0 ],
+					"patching_rect" : [ 151.690601944923401, 68.408915246541994, 65.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 66.0, 15.0 ],
@@ -271,7 +271,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, reset",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -359,7 +359,7 @@
 				"box" : 				{
 					"comment" : "(list) global transport",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -674,43 +674,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-153" : [ "live.text[784]", "live.text", 0 ],
-			"obj-2" : [ "live.text[783]", "live.text", 0 ],
-			"obj-3" : [ "live.text[382]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

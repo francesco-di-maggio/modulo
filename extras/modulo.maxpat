@@ -1298,7 +1298,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1811,7 +1811,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 551.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  interact with the signal processing chain using two different modes of interaction  –",
+									"text" : "–  use max global transport to trigger cued events  –",
 									"textjustification" : 1
 								}
 
@@ -2382,7 +2382,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  open the max audio status settings  –",
+									"text" : "–  type, store and text, or control objects remotely  –",
 									"textjustification" : 1
 								}
 
@@ -2597,7 +2597,7 @@
 														"mo.map" : "enable key and midi mapping",
 														"mo.meter~" : "a multichannel audio signals meter",
 														"mo.monitor" : "display incoming data on a dynamic text box",
-														"mo.notepad" : "type, store and text, or control objects remotely",
+														"mo.notepad" : "type text, store, recall and control objects remotely",
 														"mo.panel" : "a coloured background area with hue, saturation and lightness control",
 														"mo.playlist~" : "load, playback and loop sound files",
 														"mo.preset" : "store and recall the main parameter settings of any module",
