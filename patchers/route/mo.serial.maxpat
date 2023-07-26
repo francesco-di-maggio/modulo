@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -93,7 +93,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(anything) transmitter",
 					"id" : "obj-10",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -284,7 +284,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(anything) receiver",
 					"id" : "obj-9",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1121,7 +1121,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) refresh, port, baud, mute",
 					"id" : "obj-47",
 					"index" : 0,
 					"maxclass" : "inlet",

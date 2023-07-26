@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,13 +41,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 945.198201443751714, 167.344428670746083, 202.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mute @bindto mute- @initial 0",
+					"varname" : "mute"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 853.0, 510.0, 344.0, 23.0 ],
+					"patching_rect" : [ 854.0, 510.0, 344.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -482,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 853.0, 463.0, 336.0, 23.0 ],
+					"patching_rect" : [ 854.0, 463.0, 336.0, 23.0 ],
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 1,
@@ -630,7 +649,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) in, out, clear",
+					"comment" : "(message) ins, outs, clear, mute",
 					"id" : "obj-25",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -646,11 +665,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 853.698201443751714, 116.999999999999886, 111.0, 23.0 ],
-					"text" : "route ins outs clear"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 853.698201443751714, 116.999999999999886, 141.0, 23.0 ],
+					"text" : "route ins outs clear mute"
 				}
 
 			}
@@ -756,7 +775,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 853.139760281642339, 417.292756315187148, 292.0, 23.0 ],
+					"patching_rect" : [ 854.139760281642339, 417.292756315187148, 292.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
@@ -1993,7 +2012,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to route",
+					"comment" : "(mc.~) to route",
 					"id" : "obj-41",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -2279,7 +2298,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 924.531534777085085, 141.0, 924.97309361497571, 141.0 ],
+					"midpoints" : [ 924.198201443751714, 141.0, 924.97309361497571, 141.0 ],
 					"source" : [ "obj-16", 2 ]
 				}
 
@@ -2287,7 +2306,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 863.198201443751714, 141.0, 862.639760281642339, 141.0 ],
+					"midpoints" : [ 863.198201443751714, 141.0, 863.639760281642339, 141.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2295,8 +2314,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 893.864868110418342, 141.0, 893.16774369174982, 141.0 ],
+					"midpoints" : [ 893.698201443751714, 141.0, 893.16774369174982, 141.0 ],
 					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-16", 3 ]
 				}
 
 			}
@@ -2405,7 +2431,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 809.73700587843598, 402.0, 862.639760281642339, 402.0 ],
+					"midpoints" : [ 809.73700587843598, 402.0, 863.639760281642339, 402.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 

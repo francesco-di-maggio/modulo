@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -145,7 +145,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
-					"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2", ",", "Wave L Bluetooth" ],
+					"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -424,9 +424,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "raw MIDI",
+					"comment" : "(list) raw midi data",
 					"id" : "obj-6",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -436,9 +436,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "midievent message",
+					"comment" : "(list) midievent message",
 					"id" : "obj-7",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -448,9 +448,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "MIDI channel",
+					"comment" : "(int) midi channel",
 					"id" : "obj-9",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -460,9 +460,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "pitchbend (0-127)",
+					"comment" : "(int) pitch bend (0-127)",
 					"id" : "obj-10",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -472,9 +472,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "aftertouch",
+					"comment" : "(int) aftertouch",
 					"id" : "obj-13",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -484,9 +484,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "program change",
+					"comment" : "(int) program change",
 					"id" : "obj-11",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -496,9 +496,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "controller change (list: controller number-value)",
+					"comment" : "(list) controller change (controller number, value)",
 					"id" : "obj-20",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -508,9 +508,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "poly key pressure (list: key-value)",
+					"comment" : "(list) poly key pressure (key, value)",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -520,9 +520,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "note (list: pitch-velocity)",
+					"comment" : "(list) note on/off (pitch, velocity)",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -662,9 +662,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) refresh, port, hires, setup, mute",
 					"id" : "obj-47",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1050,6 +1050,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-15" : [ "live.text[17]", "live.text", 0 ],
+			"obj-36" : [ "live.text[52]", "live.text", 0 ],
+			"obj-4" : [ "live.text[16]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

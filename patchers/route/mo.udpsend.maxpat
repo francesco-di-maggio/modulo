@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 58.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -307,7 +307,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) input",
+					"comment" : "(message) host, port, mute",
 					"id" : "obj-12",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -370,7 +370,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) input",
+					"comment" : "(anything)",
 					"id" : "obj-22",
 					"index" : 0,
 					"maxclass" : "inlet",

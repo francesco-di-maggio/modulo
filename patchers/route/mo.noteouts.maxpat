@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -46,7 +46,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.806426948308854, 23.601844755165075, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 790.0, 10.182997051231155, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 64.064706000000001, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
@@ -336,7 +336,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) refresh, port, channel, mute",
 					"id" : "obj-10",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -2443,7 +2443,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to forward",
+					"comment" : "(list) note on/off and velocity to output",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",

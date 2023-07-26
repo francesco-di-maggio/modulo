@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -557,7 +557,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) control change number, (message) refresh, port, channel, mute",
 					"id" : "obj-47",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -596,7 +596,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(float) control change value",
 					"id" : "obj-50",
 					"index" : 0,
 					"maxclass" : "inlet",

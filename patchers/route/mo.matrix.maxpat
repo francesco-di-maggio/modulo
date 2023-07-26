@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 972.898201443751759, 230.0, 202.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mute @bindto mute- @initial 0",
+					"varname" : "mute"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-48",
 					"maxclass" : "newobj",
@@ -824,7 +843,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) in, out, clear",
+					"comment" : "(message) ins, outs, rand, clear, mute",
 					"id" : "obj-25",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -839,11 +858,11 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 853.698201443751714, 176.999999999999886, 138.0, 23.0 ],
-					"text" : "route ins outs clear rand"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 853.698201443751714, 176.999999999999886, 168.0, 23.0 ],
+					"text" : "route ins outs clear rand mute"
 				}
 
 			}
@@ -2170,8 +2189,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 922.698201443751714, 306.0, 546.570339211769237, 306.0 ],
+					"midpoints" : [ 922.798201443751736, 306.0, 546.570339211769237, 306.0 ],
 					"source" : [ "obj-16", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-16", 4 ]
 				}
 
 			}
@@ -2186,7 +2212,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 952.448201443751714, 213.0, 443.639760281642339, 213.0 ],
+					"midpoints" : [ 952.598201443751691, 213.0, 443.639760281642339, 213.0 ],
 					"source" : [ "obj-16", 3 ]
 				}
 
@@ -2194,7 +2220,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 892.948201443751714, 201.0, 893.16774369174982, 201.0 ],
+					"midpoints" : [ 892.998201443751668, 201.0, 893.16774369174982, 201.0 ],
 					"source" : [ "obj-16", 1 ]
 				}
 

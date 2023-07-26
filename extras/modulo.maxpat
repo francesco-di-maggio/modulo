@@ -235,7 +235,7 @@
 					"patching_rect" : [ 290.0, 269.954297363758087, 109.523560225963593, 40.045702636241913 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.5, 294.436617500000011, 169.0, 74.0 ],
-					"rounded" : 10.0,
+					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1811,7 +1811,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 569.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  control an ableton live set from max using midi notes, control changes and a virtual output port  –",
+									"text" : "… Click on any example to view its description … Double-click to open it …",
 									"textjustification" : 1
 								}
 
@@ -2382,7 +2382,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 581.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  computer keyboard arrows  –",
+									"text" : "–  a single customizable dial  –",
 									"textjustification" : 1
 								}
 
@@ -4001,7 +4001,7 @@
 									"patching_rect" : [ 737.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 43.0, 679.285714268684387, 60.0 ],
-									"rounded" : 10.0,
+									"rounded" : 20.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -4282,7 +4282,7 @@
 									"patching_rect" : [ 25.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 43.0, 679.285714268684387, 60.0 ],
-									"rounded" : 10.0,
+									"rounded" : 20.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -4706,7 +4706,7 @@
 					"patching_rect" : [ 21.5, 269.954297363758087, 238.5, 40.045702636241913 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.158536583185196, 295.0, 509.341463416814804, 73.0 ],
-					"rounded" : 10.0,
+					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

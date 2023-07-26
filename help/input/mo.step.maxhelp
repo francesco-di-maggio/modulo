@@ -181,7 +181,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 290.0, 296.0, 63.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "display $1"
 				}
 
@@ -297,8 +296,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.005791574060538, 263.0, 29.5, 23.0 ],
-					"text" : "0"
+					"patching_rect" : [ 149.005791574060538, 263.0, 31.0, 23.0 ],
+					"text" : "zero"
 				}
 
 			}
@@ -322,8 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 745.0, 169.0, 23.0 ],
-					"text" : "2 69 101 60. 57 21"
+					"patching_rect" : [ 41.0, 745.0, 169.0, 23.0 ]
 				}
 
 			}
@@ -362,7 +360,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 102.0, 464.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set steps composed of pitch, velocity, and duration (plus two additional steps).",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
@@ -638,6 +635,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.step.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -645,16 +648,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

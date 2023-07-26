@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,25 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 762.858322477340835, 160.0, 202.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mute @bindto mute- @initial 0",
+					"varname" : "mute"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -200,7 +219,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) chans, polarity, rand, invisible",
+					"comment" : "(int) voices, (message) target, mute",
 					"id" : "obj-19",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -215,11 +234,11 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 694.858322477340835, 118.871854180447542, 74.0, 23.0 ],
-					"text" : "route target"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 694.858322477340835, 118.871854180447542, 121.0, 23.0 ],
+					"text" : "route target int mute"
 				}
 
 			}
@@ -249,7 +268,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(list) routed",
 					"id" : "obj-13",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1515,7 +1534,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to forward",
+					"comment" : "(list) to route",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1977,6 +1996,21 @@
 					"destination" : [ "obj-21", 1 ],
 					"midpoints" : [ 704.358322477340835, 171.0, 327.153199976682799, 171.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-22", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 738.358322477340835, 219.0, 650.306426948309081, 219.0 ],
+					"source" : [ "obj-22", 1 ]
 				}
 
 			}

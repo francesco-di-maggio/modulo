@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,25 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1007.898201443751759, 168.51471466707028, 202.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mute @bindto mute- @initial 0",
+					"varname" : "mute"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-48",
@@ -655,7 +674,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) in, out, clear",
+					"comment" : "(message) ins, outs, rand, clear, mute",
 					"id" : "obj-25",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -671,11 +690,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 888.698201443751714, 116.999999999999886, 138.0, 23.0 ],
-					"text" : "route ins outs clear rand"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 888.698201443751714, 116.999999999999886, 168.0, 23.0 ],
+					"text" : "route ins outs clear rand mute"
 				}
 
 			}
@@ -1676,7 +1695,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) routed",
+					"comment" : "(mc.~) routed signal",
 					"id" : "obj-54",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1734,7 +1753,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to route",
+					"comment" : "(mc.~) to route",
 					"id" : "obj-41",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1812,7 +1831,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 957.698201443751714, 153.0, 582.570339211769237, 153.0 ],
+					"midpoints" : [ 957.798201443751736, 153.0, 582.570339211769237, 153.0 ],
 					"source" : [ "obj-16", 2 ]
 				}
 
@@ -1827,8 +1846,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-16", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 987.448201443751714, 153.0, 523.639760281642339, 153.0 ],
+					"midpoints" : [ 987.598201443751691, 153.0, 523.639760281642339, 153.0 ],
 					"source" : [ "obj-16", 3 ]
 				}
 
@@ -1836,7 +1862,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 927.948201443751714, 141.0, 927.16774369174982, 141.0 ],
+					"midpoints" : [ 927.998201443751668, 141.0, 927.16774369174982, 141.0 ],
 					"source" : [ "obj-16", 1 ]
 				}
 

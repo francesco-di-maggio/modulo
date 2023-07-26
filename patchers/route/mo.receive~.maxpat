@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 1318.0, 781.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -124,7 +124,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 21.941421547044769, 37.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
-					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -325,7 +324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 231.785429396231621, 595.849999785423279, 60.0, 23.0 ],
+					"patching_rect" : [ 232.785429396231621, 595.849999785423279, 60.0, 23.0 ],
 					"text" : "zl.change"
 				}
 
@@ -341,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 194.785429396231621, 566.849999785423279, 56.0, 22.0 ],
+					"patching_rect" : [ 195.785429396231621, 566.849999785423279, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -357,7 +356,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.785429396231621, 629.299999713897819, 52.0, 23.0 ],
+					"patching_rect" : [ 232.785429396231621, 629.299999713897819, 52.0, 23.0 ],
 					"triangle" : 0,
 					"varname" : "Chans-NB[1]"
 				}
@@ -401,9 +400,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) channels, (message) set, mute",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -469,9 +468,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) output",
+					"comment" : "(mc.~) signal",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -658,7 +657,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 241.285429396231621, 621.0, 241.285429396231621, 621.0 ],
+					"midpoints" : [ 242.285429396231621, 621.0, 242.285429396231621, 621.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -666,7 +665,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 241.285429396231621, 591.0, 241.285429396231621, 591.0 ],
+					"midpoints" : [ 242.285429396231621, 591.0, 242.285429396231621, 591.0 ],
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -674,7 +673,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 205.285429396231621, 558.0, 204.285429396231621, 558.0 ],
+					"midpoints" : [ 205.285429396231621, 558.0, 205.285429396231621, 558.0 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -747,6 +746,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "live.text[558]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[406]", "live.numbox", 0 ],
+			"obj-6" : [ "live.text[686]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

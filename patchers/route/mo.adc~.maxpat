@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 63.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -294,7 +294,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(mc.~ list) signal",
+					"comment" : "(mc.~) signal",
 					"id" : "obj-55",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -337,7 +337,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) mute, dB",
+					"comment" : "(int) channels, (message) onoff, dB, open, mute",
 					"id" : "obj-16",
 					"index" : 0,
 					"maxclass" : "inlet",

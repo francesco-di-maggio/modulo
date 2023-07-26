@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -323,7 +323,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) voices, (message) refresh, port, channel, mute",
 					"id" : "obj-10",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -2520,7 +2520,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to forward",
+					"comment" : "(list) control change values",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "inlet",
