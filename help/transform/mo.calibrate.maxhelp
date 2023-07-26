@@ -111,8 +111,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 393.5, 287.0, 191.0, 25.0 ],
-					"text" : "start/stop dynamic calibration "
+					"patching_rect" : [ 393.5, 287.0, 123.0, 25.0 ],
+					"text" : "manual/automatic"
 				}
 
 			}
@@ -326,8 +326,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.5, 329.0, 59.0, 23.0 ],
-					"text" : "freeze $1"
+					"patching_rect" : [ 364.5, 329.0, 55.0, 23.0 ],
+					"text" : "mode $1"
 				}
 
 			}
