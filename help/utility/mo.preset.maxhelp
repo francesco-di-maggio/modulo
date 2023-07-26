@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -155,7 +155,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 42.0, 402.0, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-preset",
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 442.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -189,7 +188,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-preset"
+									"varname" : "untitled"
 								}
 
 							}
@@ -550,7 +549,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 716.0 ],
+						"rect" : [ 34.0, 126.0, 426.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -852,8 +851,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 216.499999999999943, 91.0, 23.0 ],
-									"text" : "prepend device"
+									"patching_rect" : [ 41.0, 216.499999999999943, 72.0, 23.0 ],
+									"text" : "prepend set"
 								}
 
 							}

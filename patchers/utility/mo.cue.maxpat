@@ -203,14 +203,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) chans, polarity, rand, invisible",
+					"comment" : "(int) cue number to output, (message) bang, inc, dec, reset, goto, mute",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.5, 43.498130464903795, 30.0, 30.0 ]
+					"patching_rect" : [ 280.0, 43.498130464903795, 30.0, 30.0 ]
 				}
 
 			}
@@ -480,9 +480,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) cue number",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -674,7 +674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 301.0, 117.0, 223.0, 117.0 ],
+					"midpoints" : [ 289.5, 117.0, 223.0, 117.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -860,6 +860,33 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-166" : [ "live.numbox[86]", "live.numbox", 0 ],
+			"obj-56" : [ "live.text[302]", "live.text", 0 ],
+			"obj-62" : [ "live.numbox[87]", "live.numbox", 0 ],
+			"obj-70" : [ "live.text[303]", "live.text", 0 ],
+			"obj-9" : [ "live.text[301]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

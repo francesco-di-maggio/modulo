@@ -17,9 +17,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,9 +37,21 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "(anything)",
+					"id" : "obj-25",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.860643649101007, 640.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-19",
@@ -838,7 +850,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) clear",
 					"id" : "obj-15",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1039,7 +1051,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 73.360643649101007, 159.0, 73.360643649101007, 159.0 ],
+					"midpoints" : [ 73.360643649101007, 189.0, 73.360643649101007, 189.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1063,6 +1075,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 73.360643649101007, 105.0, 73.360643649101007, 105.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1072,6 +1085,13 @@
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 700.551895529031754, 120.0, 631.551895529031754, 120.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1087,6 +1107,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 1348.5, 795.0, 1348.5, 795.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1110,6 +1131,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 73.360643649101007, 144.0, 73.360643649101007, 144.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -1117,6 +1139,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 73.360643649101007, 63.0, 73.360643649101007, 63.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1125,6 +1148,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 1348.5, 822.0, 1348.5, 822.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1217,6 +1241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
+					"midpoints" : [ 167.360643649101007, 72.0, 167.360643649101007, 72.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1247,6 +1272,7 @@
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

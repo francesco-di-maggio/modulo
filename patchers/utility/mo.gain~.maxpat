@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 214.0, 247.0 ],
+		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -678,7 +678,6 @@
 					"knobcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 1,
-					"multislider" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
@@ -686,7 +685,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.0, 486.005973920350584, 135.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 176.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"knobcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -694,7 +693,6 @@
 
 					}
 ,
-					"saved_multichannel" : 1,
 					"stripecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"varname" : "gain-"
 				}
@@ -702,7 +700,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(mc.~) routed",
+					"comment" : "(mc.~) gained",
 					"id" : "obj-70",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -714,7 +712,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(message) in, out, clear",
+					"comment" : "(int) channels, (message) dB, setvalue, mode, mute ",
 					"id" : "obj-25",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -828,7 +826,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) to route",
+					"comment" : "(mc.~) to gain",
 					"id" : "obj-41",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1462,7 +1460,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 418.07387747319558, 342.051943330534755, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 176.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 16.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

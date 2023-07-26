@@ -17,9 +17,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -93,7 +93,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(mc.~) signal",
 					"id" : "obj-65",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -907,7 +907,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(float) value",
 					"id" : "obj-24",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -952,7 +952,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(message) onoff, mode, rate, rateHz, waveform, jitter, smooth, offset, depth, hold, polarity",
 					"id" : "obj-22",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -6811,8 +6811,8 @@
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Rhythm and Time Toolkit/media/icons",
+				"patcherrelativepath" : "../../../Rhythm and Time Toolkit/media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -6836,8 +6836,8 @@
 			}
 , 			{
 				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/icons",
+				"patcherrelativepath" : "../../../modulo-plus/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

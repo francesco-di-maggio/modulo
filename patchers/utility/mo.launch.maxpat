@@ -314,7 +314,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 21.941421547044769, 37.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
-					"text" : " ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -692,7 +691,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) input",
+					"comment" : "(anything) website, file, app",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
