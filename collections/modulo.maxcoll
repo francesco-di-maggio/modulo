@@ -1,9 +1,8 @@
 {
 	"name" : "modulo",
 	"type" : "filelist",
-	"contents" : [ "mo.arrows.maxsnip", "mo.dial.maxsnip", "mo.encoder.maxsnip",
-"mo.grid.maxsnip", 
-"mo.hrslider.maxsnip", "mo.hslider.maxsnip", "mo.htab.maxsnip", "mo.key.maxsnip", "mo.keyboard.maxsnip", "mo.led.maxsnip", "mo.mouse.maxsnip", "mo.nodes.maxsnip", "mo.number.maxsnip", "mo.numbers.maxsnip", "mo.pad.maxsnip", "mo.pads.maxsnip", "mo.rand.maxsnip", "mo.rsliders.maxsnip", "mo.sliders.maxsnip", "mo.step.maxsnip", "mo.tabs.maxsnip", "mo.vrslider.maxsnip", "mo.vslider.maxsnip", "mo.vtab.maxsnip", "mo.xypad.maxsnip", 
+	"contents" : [ 
+"mo.arrows.maxsnip", "mo.dial.maxsnip", "mo.encoder.maxsnip", "mo.grid.maxsnip", "mo.hrslider.maxsnip", "mo.hslider.maxsnip", "mo.htab.maxsnip", "mo.key.maxsnip", "mo.keyboard.maxsnip", "mo.led.maxsnip", "mo.mouse.maxsnip", "mo.nodes.maxsnip", "mo.number.maxsnip", "mo.numbers.maxsnip", "mo.pad.maxsnip", "mo.pads.maxsnip", "mo.rand.maxsnip", "mo.rsliders.maxsnip", "mo.sliders.maxsnip", "mo.step.maxsnip", "mo.tabs.maxsnip", "mo.vrslider.maxsnip", "mo.vslider.maxsnip", "mo.vtab.maxsnip", "mo.xypad.maxsnip", 
 
 "mo.adc~.maxsnip", "mo.crosspatch.maxsnip", "mo.crosspatch~.maxsnip", "mo.ctlout.maxsnip", "mo.ctlouts.maxsnip", "mo.dac~.maxsnip", "mo.hi.maxsnip", "mo.makenote.maxsnip", "mo.matrix.maxsnip", "mo.matrix~.maxsnip", "mo.midiin.maxsnip", "mo.midiout.maxsnip", "mo.noteout.maxsnip", "mo.noteouts.maxsnip", "mo.prepend.maxsnip", "mo.receive.maxsnip", "mo.receive~.maxsnip", "mo.route.maxsnip", "mo.send.maxsnip", "mo.send~.maxsnip", "mo.serial.maxsnip", "mo.udpreceive.maxsnip", "mo.udpsend.maxsnip", "mo.xbendout.maxsnip", "mo.xbendouts.maxsnip", 
 

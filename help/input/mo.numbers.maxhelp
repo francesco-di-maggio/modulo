@@ -81,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.166666666666629, 239.0, 105.0, 25.0 ],
-					"text" : "input numbers "
+					"patching_rect" : [ 376.166666666666629, 239.0, 122.0, 25.0 ],
+					"text" : "integer/midi/float"
 				}
 
 			}

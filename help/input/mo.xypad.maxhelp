@@ -128,8 +128,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.255791574060538, 165.0, 178.0, 25.0 ],
-					"text" : "control x and y axes (0. / 1.) "
+					"patching_rect" : [ 159.255791574060538, 165.0, 164.0, 25.0 ],
+					"text" : "floating numbers (0. / 1.) "
 				}
 
 			}

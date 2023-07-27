@@ -84,8 +84,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.89082807236889, 256.0, 127.0, 25.0 ],
-					"text" : "unipolar or bipolar "
+					"patching_rect" : [ 496.89082807236889, 256.0, 115.0, 25.0 ],
+					"text" : "unipolar/bipolar "
 				}
 
 			}
@@ -98,8 +98,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.993033083803482, 215.0, 154.0, 25.0 ],
-					"text" : "set mode: list or symbol "
+					"patching_rect" : [ 264.993033083803482, 215.0, 87.0, 25.0 ],
+					"text" : "list/symbol "
 				}
 
 			}
@@ -126,8 +126,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.612080702851017, 165.5, 212.0, 25.0 ],
-					"text" : "input a list of two numbers (0. - 1.)"
+					"patching_rect" : [ 296.612080702851017, 165.5, 87.0, 25.0 ],
+					"text" : "list (0. / 1.)"
 				}
 
 			}
@@ -225,8 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 532.0, 180.0, 23.0 ],
-					"text" : "0.3576 0.5486 0.2529 0.6102"
+					"patching_rect" : [ 41.0, 532.0, 180.0, 23.0 ]
 				}
 
 			}
@@ -857,7 +856,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.color.txt",
+				"name" : "mo.colors.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 755.0, 560.0 ],
+		"rect" : [ 34.0, 100.0, 723.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.755791574060595, 309.0, 104.0, 25.0 ],
-					"text" : "set slider color"
+					"patching_rect" : [ 634.755791574060595, 309.0, 72.0, 25.0 ],
+					"text" : "set color"
 				}
 
 			}
@@ -120,12 +120,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.255791574060538, 198.0, 151.0, 54.0 ],
-					"text" : "Set slider output range \n0 = Unipolar: 0. - 1.\n1 = Bipolar: -1. - 1."
+					"patching_rect" : [ 413.255791574060538, 211.0, 112.0, 25.0 ],
+					"text" : "unipolar/bipolar"
 				}
 
 			}

@@ -234,7 +234,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 290.0, 279.954297363758087, 109.523560225963593, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.158536583185196, 295.0, 227.0, 74.0 ],
+					"presentation_rect" : [ 477.0, 294.0, 226.0, 74.0 ],
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1128,7 +1128,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 514.5, 130.0, 160.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.841463416814804, 133.0, 168.658536583185196, 26.0 ],
+					"presentation_rect" : [ 534.841463416814804, 131.0, 168.658536583185196, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -2407,7 +2407,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  a single customizable dial  –",
+									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -4721,7 +4721,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 615.5, 156.5, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 644.5, 161.0, 59.0, 26.0 ],
+					"presentation_rect" : [ 644.5, 164.0, 59.0, 26.0 ],
 					"text" : "(2023)"
 				}
 
@@ -4746,7 +4746,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 21.5, 279.954297363758087, 238.5, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.158536583185196, 295.0, 450.341463416814804, 73.0 ],
+					"presentation_rect" : [ 24.158536583185196, 295.0, 452.341463416814804, 73.0 ],
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -4811,7 +4811,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.5, 130.0, 84.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 449.841463416814804, 133.0, 84.0, 26.0 ],
+					"presentation_rect" : [ 449.841463416814804, 131.0, 84.0, 26.0 ],
 					"text" : "Created by"
 				}
 

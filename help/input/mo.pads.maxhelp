@@ -170,8 +170,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.945414036184388, 165.5, 119.0, 25.0 ],
-					"text" : "input a list of 0/1"
+					"patching_rect" : [ 187.945414036184388, 165.5, 87.0, 25.0 ],
+					"text" : "list (0. / 1.)"
 				}
 
 			}

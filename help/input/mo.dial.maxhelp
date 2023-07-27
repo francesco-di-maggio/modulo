@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 535.0, 515.0 ],
+		"rect" : [ 34.0, 100.0, 496.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.755791574060595, 258.0, 104.0, 25.0 ],
-					"text" : "set slider color"
+					"patching_rect" : [ 410.755791574060595, 258.0, 72.0, 25.0 ],
+					"text" : "set color"
 				}
 
 			}
@@ -109,8 +109,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.255791574060538, 165.0, 141.0, 25.0 ],
-					"text" : "floating points: 0. - 1."
+					"patching_rect" : [ 123.255791574060538, 165.0, 148.0, 25.0 ],
+					"text" : "floating points (0. / 1.)"
 				}
 
 			}

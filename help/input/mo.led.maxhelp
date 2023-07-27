@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 292.0, 488.0 ],
+		"rect" : [ 34.0, 100.0, 266.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,8 +69,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.255791574060538, 165.5, 84.0, 25.0 ],
-					"text" : "trigger led "
+					"patching_rect" : [ 124.255791574060538, 165.5, 59.0, 25.0 ],
+					"text" : "on/off"
 				}
 
 			}
@@ -128,8 +128,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 241.0, 91.0, 25.0 ],
-					"text" : "set led color"
+					"patching_rect" : [ 180.0, 241.0, 72.0, 25.0 ],
+					"text" : "set color"
 				}
 
 			}

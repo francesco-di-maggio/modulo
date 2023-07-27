@@ -192,8 +192,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 132.0, 25.0 ],
-					"text" : "set amount (0. - 1.) "
+					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 133.0, 25.0 ],
+					"text" : "set amount (0. / 1.) "
 				}
 
 			}
@@ -787,6 +787,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -794,16 +800,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Rhythm and Time Toolkit/media/icons",
+				"patcherrelativepath" : "../../../Rhythm and Time Toolkit/media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

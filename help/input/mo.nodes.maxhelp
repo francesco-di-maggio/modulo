@@ -133,8 +133,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.255791574060538, 166.0, 215.0, 25.0 ],
-					"text" : "control x and y coordinates (0. / 1.)"
+					"patching_rect" : [ 180.255791574060538, 166.0, 161.0, 25.0 ],
+					"text" : "floating numbers (0. / 1.)"
 				}
 
 			}
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.255791574060538, 283.0, 69.0, 39.0 ],
-					"text" : "random \nnodes"
+					"text" : "random \nposition"
 				}
 
 			}
@@ -366,6 +366,10 @@
 			"parameter_overrides" : 			{
 				"obj-13::obj-13" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-13::obj-3" : 				{
+					"parameter_longname" : "live.text[34]"
 				}
 ,
 				"obj-13::obj-56" : 				{

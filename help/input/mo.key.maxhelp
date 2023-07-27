@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 362.0, 465.0 ],
+		"rect" : [ 34.0, 100.0, 331.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,8 +71,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 184.5, 145.0, 68.0 ],
-					"text" : "Switch key, and press: \n1 = spacebar\n2 = esc\n3 = return"
+					"patching_rect" : [ 206.0, 184.5, 95.0, 68.0 ],
+					"text" : "key: \n1 = spacebar\n2 = esc\n3 = return"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 606.0, 569.0 ],
+		"rect" : [ 34.0, 100.0, 566.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,12 +45,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 476.755791574060595, 264.0, 109.0, 111.0 ],
-					"text" : "Set slider color:\n0 = black\n1 = red\n2 = green\n3 = blue\n4 = yellow\n5 = white"
+					"patching_rect" : [ 476.755791574060595, 307.0, 72.0, 25.0 ],
+					"text" : "set color"
 				}
 
 			}
@@ -174,12 +173,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.255791574060538, 251.5, 106.0, 39.0 ],
-					"text" : "set mode: \ntoggle or bang "
+					"patching_rect" : [ 360.255791574060538, 257.5, 125.0, 25.0 ],
+					"text" : "toggle/momentary"
 				}
 
 			}
@@ -225,8 +223,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.255791574060538, 150.5, 111.0, 25.0 ],
-					"text" : "turn pad on/off "
+					"patching_rect" : [ 133.255791574060538, 150.5, 62.0, 25.0 ],
+					"text" : "on/off "
 				}
 
 			}
