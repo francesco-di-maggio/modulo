@@ -4,7 +4,7 @@
 A Toolkit for Tinkering with Digital Musical Instruments. 
 
 ## About 
-Think of it as a **Lego** set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow.
+Think of it as a "Lego" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow. Have a go!
 
 ## Installation
 
