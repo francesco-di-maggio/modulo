@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 398.0, 558.0 ],
+		"rect" : [ 34.0, 100.0, 427.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -176,8 +176,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 358.0, 22.0 ],
-					"text" : "Adjust mode (normal, absolute) and sensitivity to input data.",
+					"patching_rect" : [ 9.0, 102.0, 232.0, 22.0 ],
+					"text" : "Set origin and sensitivity to input data.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 
@@ -190,8 +190,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 231.0, 23.0 ],
-					"text" : "Output the average of a list of data."
+					"patching_rect" : [ 9.0, 83.0, 404.0, 23.0 ],
+					"text" : "Output data when passing a certain higher and lower threshold."
 				}
 
 			}
