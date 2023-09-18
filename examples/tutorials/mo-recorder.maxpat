@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -493,6 +493,10 @@
 					"parameter_longname" : "live.text[16]"
 				}
 ,
+				"obj-39::obj-14" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
 				"obj-39::obj-21" : 				{
 					"parameter_longname" : "live.text[9]"
 				}
@@ -521,6 +525,10 @@
 					"parameter_initial" : 1,
 					"parameter_initial_enable" : 1,
 					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-39::obj-60" : 				{
+					"parameter_longname" : "live.button[3]"
 				}
 ,
 				"obj-39::obj-85" : 				{
@@ -568,9 +576,22 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "loop.svg",
+				"name" : "filledcircle.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -588,23 +609,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
