@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -62,7 +62,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 702.707317113876343, 274.0, 138.0, 25.0 ],
+					"patching_rect" : [ 726.707317113876343, 274.0, 138.0, 25.0 ],
 					"text" : "set output MIDI port "
 				}
 
@@ -81,7 +81,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.707317113876343, 276.5, 20.0, 20.0 ],
+					"patching_rect" : [ 699.707317113876343, 276.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -95,8 +95,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.0, 276.0, 80.0, 23.0 ],
-					"text" : "\"from Max 1\""
+					"patching_rect" : [ 586.0, 276.0, 102.0, 23.0 ],
+					"text" : "\"AU DLS Synth 1\""
 				}
 
 			}
