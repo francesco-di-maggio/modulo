@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 608.0, 798.0 ],
+		"rect" : [ 34.0, 87.0, 608.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.005791574060538, 746.0, 63.0, 21.0 ],
+					"patching_rect" : [ 216.005791574060538, 739.0, 63.0, 21.0 ],
 					"text" : "step value"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 745.0, 169.0, 23.0 ]
+					"patching_rect" : [ 41.0, 738.0, 169.0, 23.0 ]
 				}
 
 			}
@@ -530,7 +530,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 50.5, 732.0, 200.5, 732.0 ],
+					"midpoints" : [ 50.5, 723.0, 200.5, 723.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

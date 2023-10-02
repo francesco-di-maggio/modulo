@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 484.0, 507.0 ],
+		"rect" : [ 34.0, 87.0, 484.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -342,6 +342,7 @@
 			"obj-19::obj-3" : [ "live.text[9]", "live.text", 0 ],
 			"obj-19::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-19::obj-39" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-19::obj-42" : [ "live.text[555]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -374,6 +375,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",

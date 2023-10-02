@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 433.0, 547.0 ],
+		"rect" : [ 34.0, 87.0, 433.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -232,7 +232,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 464.0, 118.0, 23.0 ],
-					"text" : "-17.1 7.52"
+					"text" : "0. 1."
 				}
 
 			}
@@ -373,6 +373,10 @@
 ,
 				"obj-21::obj-68" : 				{
 					"parameter_longname" : "live.numbox[45]"
+				}
+,
+				"obj-21::obj-8" : 				{
+					"parameter_longname" : "live.numbox[91]"
 				}
 
 			}

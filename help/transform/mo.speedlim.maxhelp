@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 362.0, 403.0 ],
+		"rect" : [ 34.0, 87.0, 362.0, 403.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -262,6 +262,10 @@
 				"obj-16::obj-13" : 				{
 					"parameter_longname" : "live.numbox[6]",
 					"parameter_unitstyle" : 2
+				}
+,
+				"obj-16::obj-9" : 				{
+					"parameter_longname" : "live.text[138]"
 				}
 
 			}
