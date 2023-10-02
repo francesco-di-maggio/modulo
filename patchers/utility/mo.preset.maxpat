@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -362,7 +362,7 @@
 				"box" : 				{
 					"comment" : "(message) to pattrstorage",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -447,7 +447,7 @@
 				"box" : 				{
 					"comment" : "(message) set, folder, recall, multirecall, read, write, clear",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1926,6 +1926,38 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "live.text[676]", "live.text", 0 ],
+			"obj-43" : [ "live.text[109]", "live.text", 0 ],
+			"obj-46" : [ "live.text[90]", "live.text", 0 ],
+			"obj-48" : [ "live.text[59]", "live.text", 0 ],
+			"obj-50" : [ "live.text[55]", "live.text", 0 ],
+			"obj-52" : [ "live.numbox[8]", "live.text", 0 ],
+			"obj-53" : [ "live.text[62]", "live.text", 0 ],
+			"obj-55" : [ "live.text[61]", "live.text", 0 ],
+			"obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
+			"obj-64" : [ "live.text[110]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 443.0, 456.0 ],
+		"rect" : [ 34.0, 87.0, 443.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -715,7 +715,7 @@
 			"obj-25::obj-2" : [ "live.text[14]", "live.text", 0 ],
 			"obj-25::obj-22" : [ "live.text[13]", "live.text", 0 ],
 			"obj-25::obj-6" : [ "live.text[15]", "live.text", 0 ],
-			"obj-2::obj-13" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-2::obj-12" : [ "live.text[1]", "live.text", 0 ],
 			"obj-2::obj-15" : [ "live.text[20]", "live.text", 0 ],
 			"obj-2::obj-4" : [ "live.text[16]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -818,6 +818,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
@@ -846,16 +852,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}

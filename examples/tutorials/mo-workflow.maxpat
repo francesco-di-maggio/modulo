@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 66.0, 812.0, 758.0 ],
+		"rect" : [ 34.0, 53.0, 812.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 812.0, 732.0 ],
+						"rect" : [ 34.0, 79.0, 812.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -225,7 +225,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 555.25, 434.604319776098009, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-mo.workflow-1",
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 465.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -267,7 +266,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-mo.workflow-1"
+									"varname" : "untitled"
 								}
 
 							}
@@ -688,13 +687,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 92.0, 812.0, 732.0 ],
+						"rect" : [ 0.0, 26.0, 812.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3115,6 +3114,42 @@
 					"parameter_longname" : "live.text[34]"
 				}
 ,
+				"obj-2::obj-37::obj-43" : 				{
+					"parameter_longname" : "live.text[667]"
+				}
+,
+				"obj-2::obj-37::obj-46" : 				{
+					"parameter_longname" : "live.text[669]"
+				}
+,
+				"obj-2::obj-37::obj-48" : 				{
+					"parameter_longname" : "live.text[670]"
+				}
+,
+				"obj-2::obj-37::obj-50" : 				{
+					"parameter_longname" : "live.text[671]"
+				}
+,
+				"obj-2::obj-37::obj-52" : 				{
+					"parameter_longname" : "live.numbox[407]"
+				}
+,
+				"obj-2::obj-37::obj-53" : 				{
+					"parameter_longname" : "live.text[672]"
+				}
+,
+				"obj-2::obj-37::obj-55" : 				{
+					"parameter_longname" : "live.text[677]"
+				}
+,
+				"obj-2::obj-37::obj-62" : 				{
+					"parameter_longname" : "live.numbox[408]"
+				}
+,
+				"obj-2::obj-37::obj-64" : 				{
+					"parameter_longname" : "live.text[675]"
+				}
+,
 				"obj-2::obj-3::obj-111" : 				{
 					"parameter_longname" : "live.dial[35]"
 				}
@@ -3198,6 +3233,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -3213,6 +3255,13 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",

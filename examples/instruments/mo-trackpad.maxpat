@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -542,7 +542,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 870.69513450935483, 753.499999999999886, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 694.875, 704.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 674.875, 674.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -564,7 +564,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 843.19513450935483, 765.999999999999886, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 665.375, 706.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 645.375, 676.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -584,7 +584,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 787.32013450935483, 753.499999999999886, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 609.5, 694.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 589.5, 664.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -600,7 +600,7 @@
 					"patching_rect" : [ 854.5, 521.5, 215.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 583.5, 132.0, 214.0, 93.0 ],
+					"presentation_rect" : [ 563.5, 102.0, 214.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start audio dsp, and rise volume.\n2. Hit \"Enter\" to play, \"ESC\" to stop.\n3. Click and drag mouse/trackpad to \n     control sound and patcher bgcolor."
 				}
 
@@ -623,7 +623,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 549.0, 732.5, 214.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.5, 593.0, 214.0, 87.0 ],
+					"presentation_rect" : [ 563.5, 563.0, 214.0, 87.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -647,7 +647,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 549.0, 454.0, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.5, 326.0, 214.0, 265.0 ],
+					"presentation_rect" : [ 563.5, 296.0, 214.0, 265.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -672,7 +672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 148.0, 110.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 655.5, 237.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 635.5, 207.0, 70.0, 87.0 ],
 					"varname" : "y",
 					"viewvisibility" : 1
 				}
@@ -697,7 +697,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 110.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 727.5, 237.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 707.5, 207.0, 70.0, 87.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -722,7 +722,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.0, 110.0, 70.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.5, 237.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 563.5, 207.0, 70.0, 87.0 ],
 					"varname" : "x",
 					"viewvisibility" : 1
 				}
@@ -1710,8 +1710,8 @@
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Rhythm and Time Toolkit/media/icons",
-				"patcherrelativepath" : "../../../Rhythm and Time Toolkit/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

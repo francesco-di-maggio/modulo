@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -303,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "1 : 10 : 45 : 941",
+					"text" : "2 : 10 : 40 : 418",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -359,7 +359,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 120.797253370285034, 30.371792723306498, 88.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "14 : 47 : 27",
+					"text" : "10 : 1 : 21",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -470,7 +470,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 30.371792723306498, 111.0, 23.0 ],
 					"rounded" : 0.0,
-					"text" : "26 / 7 / 2023",
+					"text" : "2 / 10 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 531.0, 807.0 ],
+		"rect" : [ 34.0, 87.0, 529.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 293.943205717592491, 214.0, 135.075725709876679 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 293.943205717592491, 214.0, 135.075725709876679 ],
+					"presentation_rect" : [ 20.0, 287.443205717592491, 214.0, 135.075725709876679 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
 				}
@@ -120,7 +120,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 589.69513450935483, 609.518931427468942, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 746.25, 74.0, 25.0 ],
+					"presentation_rect" : [ 362.0, 690.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -142,7 +142,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 562.19513450935483, 612.018931427468942, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.875, 748.75, 20.0, 20.0 ],
+					"presentation_rect" : [ 336.875, 692.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -162,7 +162,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 508.32013450935483, 599.518931427468942, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 736.25, 45.0, 45.0 ]
+					"presentation_rect" : [ 278.0, 680.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -185,7 +185,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 583.98106857253083, 215.0, 137.075725709876679 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 583.98106857253083, 215.0, 137.075725709876679 ],
+					"presentation_rect" : [ 20.0, 564.48106857253083, 215.0, 137.075725709876679 ],
 					"varname" : "mo.prepend",
 					"viewvisibility" : 1
 				}
@@ -206,9 +206,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 21.0, 730.0, 214.0, 57.5 ],
+					"patching_rect" : [ 20.0, 730.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 730.0, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 705.0, 215.0, 57.5 ],
 					"varname" : "mo.send",
 					"viewvisibility" : 1
 				}
@@ -292,7 +292,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 259.0, 293.943205717592491, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 293.943205717592491, 214.0, 265.0 ],
+					"presentation_rect" : [ 254.0, 297.037862854938339, 214.0, 265.0 ],
 					"varname" : "mo.theremin~",
 					"viewvisibility" : 1
 				}
@@ -398,7 +398,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 437.962137145061661, 215.0, 137.075725709876679 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 437.962137145061661, 215.0, 137.075725709876679 ],
+					"presentation_rect" : [ 20.0, 424.962137145061661, 215.0, 137.075725709876679 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -421,7 +421,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 259.0, 578.51893142746917, 214.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.0, 634.056794282407509, 214.0, 87.0 ],
+					"presentation_rect" : [ 254.0, 564.48106857253083, 214.0, 87.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -460,7 +460,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 866 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -536,7 +536,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 29.5, 726.0, 30.5, 726.0 ],
+					"midpoints" : [ 29.5, 726.0, 29.5, 726.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1358,6 +1358,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1373,6 +1380,13 @@
 			}
 , 			{
 				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",

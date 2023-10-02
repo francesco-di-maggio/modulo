@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 87.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2027,7 +2027,7 @@
 				"box" : 				{
 					"comment" : "(message) record, playback, loop, clear, touch, speed, read, write, reset, selection, mute",
 					"id" : "obj-19",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2076,7 +2076,7 @@
 				"box" : 				{
 					"comment" : "(list) playback",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2088,7 +2088,7 @@
 				"box" : 				{
 					"comment" : "(list) to record",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2686,6 +2686,60 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "live.text[16]", "live.text", 0 ],
+			"obj-14" : [ "live.button[4]", "live.button", 0 ],
+			"obj-2" : [ "live.text[92]", "live.text", 0 ],
+			"obj-21" : [ "live.text[9]", "live.text", 0 ],
+			"obj-3" : [ "live.text[28]", "live.text", 0 ],
+			"obj-37" : [ "live.text[6]", "live.text", 0 ],
+			"obj-44" : [ "live.numbox[8]", "live.dial[12]", 0 ],
+			"obj-45" : [ "live.text[25]", "live.text", 0 ],
+			"obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-6" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-60" : [ "live.button[3]", "live.button", 0 ],
+			"obj-85" : [ "live.text[27]", "live.text", 0 ],
+			"obj-9" : [ "live.text[65]", "live.text", 0 ],
+			"obj-92" : [ "live.text[26]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filledcircle.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

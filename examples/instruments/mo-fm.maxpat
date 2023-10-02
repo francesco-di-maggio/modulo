@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 536.0, 739.0 ],
+		"rect" : [ 34.0, 87.0, 536.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -381,13 +381,7 @@
 						"mo.sliders::[3]::polarity" : 1,
 						"mo.sliders::[4]::polarity" : 1,
 						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::polarity" : 1,
-						"mo.prepend::[1]::set" : -1,
-						"mo.prepend::[2]::set" : -1,
-						"mo.prepend::[3]::set" : -1,
-						"mo.prepend::[4]::set" : -1,
-						"mo.prepend::[5]::set" : -1,
-						"mo.prepend::[6]::set" : -1
+						"mo.sliders::[6]::polarity" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -1445,6 +1439,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1460,6 +1461,13 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",

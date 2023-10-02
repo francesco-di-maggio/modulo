@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 490.0, 678.0 ],
+		"rect" : [ 34.0, 87.0, 490.0, 678.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -317,7 +317,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 31.0, 511.941776052117348, 213.0, 58.189434558153152 ],
-					"pattrstorage" : "p-interpolator",
+					"pattrstorage" : "p-mo.interpolator",
 					"presentation" : 1,
 					"presentation_rect" : [ 252.0, 236.554751425981522, 213.0, 56.445248574018478 ],
 					"saved_attribute_attributes" : 					{
@@ -344,14 +344,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 529.536493331193924, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 358, 228 ],
+						"client_rect" : [ 4, 100, 413, 948 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "p-interpolator"
+					"varname" : "p-mo.interpolator"
 				}
 
 			}
@@ -594,6 +594,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

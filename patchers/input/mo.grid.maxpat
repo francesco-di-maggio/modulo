@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -305,7 +305,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1367,6 +1367,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"columns" : 8,
+					"direction" : 0,
 					"direction_height" : 16.0,
 					"id" : "obj-40",
 					"marker_horizontal" : 8,
