@@ -232,7 +232,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 464.0, 118.0, 23.0 ],
-					"text" : "0. 1."
+					"text" : "3.82 11.26"
 				}
 
 			}
@@ -338,8 +338,6 @@
 			"obj-21::obj-16" : [ "live.text[34]", "live.text", 0 ],
 			"obj-21::obj-18" : [ "live.text[37]", "live.text", 0 ],
 			"obj-21::obj-37" : [ "live.text[35]", "live.text", 0 ],
-			"obj-21::obj-66" : [ "live.numbox[44]", "live.numbox", 0 ],
-			"obj-21::obj-68" : [ "live.numbox[45]", "live.numbox", 0 ],
 			"obj-21::obj-8" : [ "live.numbox[91]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -365,14 +363,6 @@
 ,
 				"obj-21::obj-37" : 				{
 					"parameter_longname" : "live.text[35]"
-				}
-,
-				"obj-21::obj-66" : 				{
-					"parameter_longname" : "live.numbox[44]"
-				}
-,
-				"obj-21::obj-68" : 				{
-					"parameter_longname" : "live.numbox[45]"
 				}
 ,
 				"obj-21::obj-8" : 				{
