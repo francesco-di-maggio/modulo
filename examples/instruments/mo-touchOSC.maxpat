@@ -41,12 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.5, 108.0, 55.0, 23.0 ],
-					"text" : "deferlow"
+					"patching_rect" : [ 1105.5, 108.0, 166.0, 23.0 ],
+					"text" : "read p-mo.touchOSC, recall 1"
 				}
 
 			}
@@ -56,9 +56,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.5, 69.767661435184777, 68.0, 23.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1105.5, 69.767661435184777, 58.0, 23.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 163.0, 344.0, 23.0 ],
+					"patching_rect" : [ 1022.0, 163.0, 255.0, 23.0 ],
 					"priority" : 					{
 						"mo.route::[1]::set" : 1,
 						"mo.route::[2]::set" : 1,
@@ -332,8 +332,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-mo.touchOSC @autorestore 1 @changemode 1",
-					"varname" : "p-mo.touchOSC"
+					"text" : "pattrstorage @autorestore 1 @changemode 1",
+					"varname" : "u195012500"
 				}
 
 			}

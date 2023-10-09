@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,60 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 78.486533310016142, 437.411721392228117, 42.0, 23.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
+					"id" : "obj-12",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 356.883333333333269, 314.19716649999998, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 143.472029745578766, 4.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_longname" : "live.numbox",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.numbox"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-18",
@@ -106,7 +160,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 188.153199976682799, 404.086984881197452, 48.0, 15.472915806517562 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.0, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 105.0, 4.0, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -126,7 +180,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[666]",
+							"parameter_longname" : "live.text[224]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -322,7 +376,7 @@
 				"box" : 				{
 					"comment" : "(int) channels, (message) open, dB, onoff, mute",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -385,7 +439,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.153199976682799, 474.0, 54.0, 23.0 ],
+					"patching_rect" : [ 39.153199976682799, 524.0, 54.0, 23.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -394,11 +448,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 206.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
@@ -406,8 +460,8 @@
 , 			{
 				"box" : 				{
 					"channels" : 2,
+					"clip_size" : 1,
 					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"fontsize" : 9.0,
 					"id" : "obj-45",
 					"lastchannelcount" : 2,
 					"maxclass" : "mc.live.gain~",
@@ -416,9 +470,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 39.153199976682799, 393.823442784456233, 137.0, 36.0 ],
+					"patching_rect" : [ 39.153199976682799, 393.823442784456233, 144.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 39.064706464179835, 203.0, 36.0 ],
+					"presentation_rect" : [ 2.5, 27.064706464179835, 209.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -432,9 +486,13 @@
 							"expression" : ""
 						}
 ,
+						"tricolor" : 						{
+							"expression" : "themecolor.live_value_bar"
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[4]",
+							"parameter_longname" : "live.gain~[5]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "volume",
@@ -445,7 +503,9 @@
 					}
 ,
 					"showname" : 0,
+					"shownumber" : 0,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"varname" : "gain-"
 				}
 
@@ -481,6 +541,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 366.383333333333269, 378.0, 48.653199976682799, 378.0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 87.986533310016142, 471.0, 261.0, 471.0, 261.0, 297.0, 366.383333333333269, 297.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 403.653199976682799, 144.0, 337.583333333333258, 144.0 ],
 					"source" : [ "obj-16", 0 ]
@@ -508,7 +584,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 452.783333333333246, 459.0, 48.653199976682799, 459.0 ],
+					"midpoints" : [ 452.783333333333246, 510.0, 48.653199976682799, 510.0 ],
 					"source" : [ "obj-20", 4 ]
 				}
 
@@ -516,15 +592,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 423.983333333333235, 459.0, 48.653199976682799, 459.0 ],
+					"midpoints" : [ 423.983333333333235, 510.0, 48.653199976682799, 510.0 ],
 					"source" : [ "obj-20", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 366.383333333333269, 378.0, 48.653199976682799, 378.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 366.383333333333269, 183.0, 366.383333333333269, 183.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -580,8 +656,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 48.653199976682799, 432.0, 48.653199976682799, 432.0 ],
+					"midpoints" : [ 48.653199976682799, 420.0, 48.653199976682799, 420.0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 90.319866643349457, 420.0, 87.986533310016142, 420.0 ],
+					"source" : [ "obj-45", 1 ]
 				}
 
 			}
@@ -612,7 +696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 226.653199976682799, 459.0, 48.653199976682799, 459.0 ],
+					"midpoints" : [ 226.653199976682799, 510.0, 48.653199976682799, 510.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -626,32 +710,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-45" : [ "live.gain~[4]", "volume", 0 ],
-			"obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
-			"obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-8" : [ "live.text[666]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

@@ -1612,7 +1612,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -2143,14 +2143,13 @@
 									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 491.5, 38.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 491.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  interface with the Wekinator app using OSC messages  –",
 									"textjustification" : 1
 								}
 
@@ -2721,7 +2720,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  multichannel analog-to-digital converter with gain control  –",
 									"textjustification" : 1
 								}
 
@@ -3243,7 +3242,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -3259,7 +3258,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Interface with external devices, including MIDI, OSC, Max and eurorack modules."
 								}
 
 							}
@@ -4033,7 +4032,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "Legos", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -4086,7 +4085,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",

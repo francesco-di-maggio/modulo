@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 102.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 86.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 86.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1666,6 +1666,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-74",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,

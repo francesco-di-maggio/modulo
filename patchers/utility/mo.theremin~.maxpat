@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 175.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -88,7 +88,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.072775199867138, 98.038716647232377, 140.476190656423569, 161.189047466843533 ],
+					"presentation_rect" : [ 69.072775199867138, 98.038716647232377, 140.476190656423569, 72.189047466843533 ],
 					"range" : [ -0.3, 0.3 ],
 					"rounded" : 0.0,
 					"samples" : 441.0,
@@ -110,7 +110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.072775199867138, 98.038716647232377, 140.942432545118152, 162.106327209741664 ],
+					"presentation_rect" : [ 69.072775199867138, 98.038716647232377, 140.942432545118152, 73.106327209741664 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3238,7 +3238,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 770.385228862365125, 1055.436599800000067, 128.0, 23.0 ],
-					"restore" : [ "" ],
+					"restore" : [ "theremin" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4342,6 +4342,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.392887208967409, 4.194141161509847, 91.093439332034336, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "theremin",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -4743,7 +4744,7 @@
 				"box" : 				{
 					"comment" : "(list) parameters, (message) pitch, volume, timbre, vibrato",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4897,7 +4898,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-208",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5233,7 +5234,7 @@
 					"patching_rect" : [ 614.25, 187.299990355968475, 44.0, 15.0 ],
 					"pictures" : [ "fwdarrow.svg", "pause.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.680589227376657, 97.24704414924463, 61.792231817787496, 163.925592683255672 ],
+					"presentation_rect" : [ 3.680589227376657, 97.24704414924463, 61.792231817787496, 74.925592683255672 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -5916,54 +5917,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-111" : [ "live.dial[35]", "detune", 0 ],
-			"obj-112" : [ "live.dial[4]", "decay", 0 ],
-			"obj-113" : [ "live.dial[5]", "attack", 0 ],
-			"obj-114" : [ "live.dial[6]", "sustain", 0 ],
-			"obj-118" : [ "live.dial[33]", "pitch", 0 ],
-			"obj-22" : [ "live.dial[11]", "timbre", 0 ],
-			"obj-24" : [ "live.dial[3]", "release", 0 ],
-			"obj-25" : [ "live.dial[2]", "semitone", 0 ],
-			"obj-27" : [ "live.dial[34]", "vibrato", 0 ],
-			"obj-34" : [ "live.text[285]", "live.text", 0 ],
-			"obj-37" : [ "live.text[288]", "octave", 0 ],
-			"obj-4" : [ "live.dial[1]", "volume", 0 ],
-			"obj-42" : [ "live.text[287]", "live.text", 0 ],
-			"obj-8" : [ "live.text[284]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

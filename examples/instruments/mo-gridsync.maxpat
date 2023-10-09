@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.dac~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 70.0, 668.461547999999993, 214.0, 57.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 388.0, 214.0, 57.5 ],
+					"varname" : "mo.dac~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-15",
 					"maxclass" : "comment",
@@ -152,30 +175,6 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 70.0, 628.461547999999993, 81.0, 23.0 ],
 					"text" : "mc.pack~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "@dB", -10 ],
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.dac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 70.0, 668.461547999999993, 214.0, 87.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 376.0, 214.0, 87.0 ],
-					"varname" : "mo.dac~",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -378,7 +377,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 70.0, 775.455140000000029, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 489.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 270.0, 477.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -421,7 +420,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 618.0, 190.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 420.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 270.0, 422.5, 155.0, 23.0 ],
 					"text" : "buffer~ sound jongly.aif 0 2"
 				}
 
@@ -512,7 +511,7 @@
 					"patching_rect" : [ 618.0, 230.0, 201.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 250.0, 455.0, 201.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 460.0, 201.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of steps (default: 8).\n2. Turn playback on.\n3. Set link mode on/off."
 				}
 
@@ -526,7 +525,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 156.186889999999948, 784.955140000000029, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 499.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 360.0, 487.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -548,7 +547,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 129.0, 787.455140000000029, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 501.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 330.0, 489.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -687,7 +686,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 79.5, 654.0, 79.5, 654.0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -901,10 +899,11 @@
 			"obj-13::obj-67" : [ "live.text[26]", "live.text", 0 ],
 			"obj-13::obj-69" : [ "live.text[16]", "live.text", 0 ],
 			"obj-13::obj-70" : [ "live.text[17]", "live.text", 0 ],
-			"obj-1::obj-45" : [ "live.gain~[4]", "volume", 0 ],
+			"obj-1::obj-12" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[5]", "volume", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[666]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[224]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1065,6 +1064,26 @@
 ,
 				"obj-13::obj-70" : 				{
 					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.gain~[5]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[348]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-1::obj-8" : 				{
+					"parameter_longname" : "live.text[224]"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 585.0, 554.0 ],
+		"rect" : [ 34.0, 87.0, 585.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.358261704444885, 458.797012329101562, 48.0, 48.0 ]
+					"patching_rect" : [ 302.358261704444885, 444.047012329101562, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.073007158990094, 469.797012329101562, 74.0, 25.0 ],
+					"patching_rect" : [ 390.073007158990094, 455.047012329101562, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 361.358261704444885, 472.797012329101562, 20.0, 20.0 ],
+					"patching_rect" : [ 361.358261704444885, 458.047012329101562, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -330,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 439.297012329101562, 214.0, 87.0 ],
+					"patching_rect" : [ 41.0, 439.297012329101562, 214.0, 57.5 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -387,15 +387,39 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-45" : [ "live.gain~[4]", "volume", 0 ],
+			"obj-1::obj-12" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[5]", "volume", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-1::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-8" : [ "live.text[666]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[224]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-12" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-1::obj-45" : 				{
+					"parameter_longname" : "live.gain~[5]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[348]"
+				}
+,
+				"obj-1::obj-7" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-1::obj-8" : 				{
+					"parameter_longname" : "live.text[224]"
 				}
 
 			}
