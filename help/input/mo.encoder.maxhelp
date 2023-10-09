@@ -188,8 +188,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 492.0, 22.0 ],
-					"text" : "Map this object to a MIDI controller. Can be controlled by value (standard is 63-65).",
+					"patching_rect" : [ 9.0, 102.0, 515.0, 22.0 ],
+					"text" : "Map this object to a MIDI controller. Can be controlled by any value (standard is 63-65).",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

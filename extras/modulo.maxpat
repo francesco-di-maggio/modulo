@@ -52,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 583.698228586007758, 295.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.415915715982123, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 618.415915715982123, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -162,7 +162,6 @@
 					}
 ,
 					"patching_rect" : [ 583.698228586007758, 342.861052992816838, 59.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -191,7 +190,7 @@
 					"patching_rect" : [ 578.282312870025635, 289.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 620.415915715982123, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 618.41591571598201, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -207,7 +206,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 431.198228586007758, 295.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 568.0, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 564.0, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -225,7 +224,7 @@
 					"patching_rect" : [ 425.782312870025635, 289.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 568.0, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 564.0, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -246,7 +245,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 392.0, 246.0, 231.0, 171.0 ],
+						"rect" : [ 392.0, 246.0, 323.0, 171.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -293,9 +292,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "https://youtu.be/x2FhPm6He4A" ],
-									"patching_rect" : [ 24.0, 81.0, 191.0, 23.0 ],
-									"text" : "t https://youtu.be/x2FhPm6He4A"
+									"outlettype" : [ "https://www.youtube.com/watch?v=fhOpHiugt5E" ],
+									"patching_rect" : [ 24.0, 67.500001999999981, 282.0, 23.0 ],
+									"text" : "t https://www.youtube.com/watch?v=fhOpHiugt5E"
 								}
 
 							}
@@ -316,6 +315,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
+									"midpoints" : [ 33.499999999999886, 54.0, 33.5, 54.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -323,7 +323,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-97", 0 ],
-									"midpoints" : [ 33.5, 104.834170999999969, 33.5, 104.834170999999969 ],
+									"midpoints" : [ 33.5, 93.0, 33.5, 93.0 ],
 									"source" : [ "obj-95", 0 ]
 								}
 
@@ -335,7 +335,6 @@
 					}
 ,
 					"patching_rect" : [ 431.198228586007758, 342.861052992816838, 64.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -593,7 +592,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 514.5, 295.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 594.415915715982123, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 591.207957857991005, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -732,7 +731,7 @@
 					"patching_rect" : [ 509.084084284017877, 289.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 594.415915715982123, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 591.207957857991005, 164.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -2278,7 +2277,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"Ableton Live" : "control an ableton live set from max using midi notes, control changes and a virtual output port",
+														"Ableton Live" : "control an ableton live set from max using midi notes and control change values via virtual midi ports",
 														"FM Synth" : "play a frequency modulator synthesizer using a series of sliders each one controlling a sound parameter",
 														"Gametrak" : "connect a gametrak controller and stream xyz values for each string",
 														"Genki Wave" : "connect a genki wave ring and control an horizontal slider with a vibrato gesture",
@@ -3260,7 +3259,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials."
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -4484,10 +4483,10 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"0" : "Arrange and manipulate input data, such as numbers, pads, sliders, and dials.",
-														"1" : "Interface with external devices, including MIDI, OSC and eurorack modules.",
+														"0" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
+														"1" : "Interface with external devices, including MIDI, OSC, Max and eurorack modules.",
 														"2" : "Process input data through filtering, averaging and smoothing algorithms.",
-														"3" : "Handle auxilary functions, such as monitoring, visualizing and recording data."
+														"3" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 													}
 ,
 													"id" : "obj-87",
@@ -5175,11 +5174,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 203.0, 679.0, 55.0 ],
+					"patching_rect" : [ 21.5, 203.0, 680.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 24.158536583185196, 216.662162184715271, 679.0, 55.0 ],
-					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow. Have a go!"
+					"presentation_rect" : [ 24.158536583185196, 216.662162184715271, 680.0, 55.0 ],
+					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!"
 				}
 
 			}

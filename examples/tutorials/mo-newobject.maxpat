@@ -40,12 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "comment",
+					"arrows" : 2,
+					"border" : 0.5,
+					"id" : "obj-9",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 96.5, 26.0, 21.0 ],
-					"text" : "\"n\""
+					"patching_rect" : [ 833.0, 47.0, 88.0, 9.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.pad.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 930.0, 39.0, 70.0, 87.0 ],
+					"varname" : "mo.pad[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrows" : 1,
+					"border" : 0.5,
+					"id" : "obj-6",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 8.0, 389.956609154740931, 58.0, 10.043390845259069 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -56,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 337.365287323792757, 68.0, 21.0 ],
+					"patching_rect" : [ 71.0, 384.365287323792757, 68.0, 21.0 ],
 					"text" : "SNIPPETS:"
 				}
 
@@ -77,22 +128,25 @@
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 119.5, 100.0, 23.0 ]
+					"patching_rect" : [ 775.0, 39.0, 48.0, 23.0 ],
+					"text" : "mo.pad",
+					"varname" : "mo.pad"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"arrows" : 2,
+					"border" : 0.5,
 					"id" : "obj-23",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 127.0, 163.0, 10.0 ],
+					"patching_rect" : [ 220.0, 47.0, 545.0, 9.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -106,12 +160,13 @@
 , 			{
 				"box" : 				{
 					"arrows" : 2,
+					"border" : 0.5,
 					"id" : "obj-22",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 177.873800923994651, 163.0, 10.0 ],
+					"patching_rect" : [ 159.5, 183.182643661896407, 407.5, 7.817356338103593 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -133,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 975.0, 213.873800923994622, 181.328767123287662, 511.574879227053145 ],
+					"patching_rect" : [ 985.690789618266876, 233.671614048063105, 174.637977505020785, 492.698448613198764 ],
 					"pic" : ""
 				}
 
@@ -149,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 876.125, 504.127272727272725, 139.666666666666629, 121.890909090909048 ],
+					"patching_rect" : [ 890.464145221194258, 512.692352918763163, 134.513152978924381, 117.393297145243096 ],
 					"pic" : ""
 				}
 
@@ -165,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 671.0, 191.860396460783818, 248.0, 432.538720538720554 ],
+					"patching_rect" : [ 692.907984088961143, 212.510122541261865, 238.849130826538953, 416.578618747970324 ],
 					"pic" : ""
 				}
 
@@ -181,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 533.0, 53.609483743377893, 180.11320754716985, 210.264317180616786 ],
+					"patching_rect" : [ 560.0, 79.609483743377893, 173.467270455731978, 202.505844364621026 ],
 					"pic" : ""
 				}
 
@@ -193,7 +248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 46.5, 144.0, 21.0 ],
+					"patching_rect" : [ 71.0, 39.5, 144.0, 21.0 ],
 					"text" : "CREATE A NEW OBJECT:"
 				}
 
@@ -230,12 +285,12 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 69.5, 276.0, 54.0 ],
-					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.pad)."
+					"patching_rect" : [ 55.0, 62.5, 378.0, 68.0 ],
+					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.pad).\n4. (Optional) Navigate: Object > Transform > Patcher to Bpatcher."
 				}
 
 			}
@@ -254,7 +309,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 384.365287323792813, 20.0, 20.0 ],
+					"patching_rect" : [ 30.0, 431.365287323792813, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -274,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 360.365287323792813, 431.0, 68.0 ],
+					"patching_rect" : [ 55.0, 407.365287323792813, 431.0, 68.0 ],
 					"text" : "1. Unlock the patcher window.\n2. On the Left Toolbar, click on Snippets.\n3. Find \"modulo\", and choose a module.\n4. Double-click, or drag-and-drop a module on an unlocked patcher window."
 				}
 
@@ -322,7 +377,62 @@
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-2" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[2]", "live.text", 0 ],
+			"obj-24::obj-2" : [ "live.text[90]", "live.text", 0 ],
+			"obj-24::obj-22" : [ "live.text[19]", "live.text", 0 ],
+			"obj-24::obj-6" : [ "live.text[92]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-2" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-22" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.pad.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
