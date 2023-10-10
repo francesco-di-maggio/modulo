@@ -55,7 +55,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 831.926817387342453, 600.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 630.0, 508.536358053308959, 214.0, 57.5 ],
+					"presentation_rect" : [ 630.0, 508.447245217125101, 214.0, 57.5 ],
 					"varname" : "mo.dac~[1]",
 					"viewvisibility" : 1
 				}
@@ -1778,6 +1778,14 @@
 			"parameter_overrides" : 			{
 				"obj-16::obj-12" : 				{
 					"parameter_longname" : "live.numbox[66]"
+				}
+,
+				"obj-16::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-16::obj-56" : 				{
+					"parameter_longname" : "live.numbox[4]"
 				}
 ,
 				"obj-16::obj-7" : 				{

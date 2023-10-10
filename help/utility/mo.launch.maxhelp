@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.0, 314.999999999999886, 35.0, 23.0 ],
-					"text" : "bang"
+					"text" : "open"
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 166.0, 304.0, 23.0 ],
-					"text" : "https://github.com/francesco-di-maggio/modulo, bang"
+					"text" : "https://github.com/francesco-di-maggio/modulo, open"
 				}
 
 			}

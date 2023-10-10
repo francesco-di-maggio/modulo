@@ -233,7 +233,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.5, 507.681300981177401, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.94513450935483, 500.210221819085859, 102.0, 25.0 ],
+					"presentation_rect" : [ 279.94513450935483, 479.5, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -255,7 +255,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 510.181300981177401, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 256.0, 502.710221819085859, 20.0, 20.0 ],
+					"presentation_rect" : [ 254.0, 482.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -612,6 +612,22 @@
 			"parameter_overrides" : 			{
 				"obj-16::obj-12" : 				{
 					"parameter_longname" : "live.numbox[25]"
+				}
+,
+				"obj-16::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-16::obj-56" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-16::obj-7" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-16::obj-8" : 				{
+					"parameter_longname" : "live.text[55]"
 				}
 ,
 				"obj-18::obj-107::obj-20" : 				{

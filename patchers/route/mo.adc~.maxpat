@@ -53,7 +53,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-13",
@@ -67,7 +67,7 @@
 					"presentation_rect" : [ 143.472029745578766, 4.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
+							"expression" : ""
 						}
 ,
 						"bordercolor" : 						{
@@ -79,7 +79,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
+							"parameter_longname" : "live.numbox[583]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.numbox",
@@ -174,7 +174,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[348]",
+							"parameter_longname" : "live.numbox[581]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -193,6 +193,7 @@
 					"channels" : 2,
 					"clip_size" : 1,
 					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-18",
 					"lastchannelcount" : 2,
 					"maxclass" : "mc.live.gain~",
@@ -209,11 +210,19 @@
 							"expression" : "themecolor.live_value_bar"
 						}
 ,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
 						"slidercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"tribordercolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -236,6 +245,7 @@
 					"showname" : 0,
 					"shownumber" : 0,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tribordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"varname" : "gain-"
 				}

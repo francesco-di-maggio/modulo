@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 668.0, 53.0, 1218.0, 993.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -3368,7 +3368,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[42]",
+							"parameter_longname" : "live.dial[39]",
 							"parameter_mmax" : 4000.0,
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
@@ -4501,7 +4501,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[30]",
+							"parameter_longname" : "live.dial[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
@@ -4602,7 +4602,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[41]",
+							"parameter_longname" : "live.dial[31]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -5454,7 +5454,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[39]",
+							"parameter_longname" : "live.dial[18]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.dial[18]",
 							"parameter_type" : 0,

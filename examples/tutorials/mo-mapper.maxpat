@@ -310,6 +310,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 80.0, 80.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 80.0, 20.0, 20.0 ],

@@ -344,6 +344,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 500 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

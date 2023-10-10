@@ -137,7 +137,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 4 ],
+					"args" : [ "@color", 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -187,7 +187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 2 ],
+					"args" : [ "@color", 11 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -212,7 +212,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 1 ],
+					"args" : [ "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -262,6 +262,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

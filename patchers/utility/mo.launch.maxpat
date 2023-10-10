@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -161,7 +161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 859.0, 617.0, 60.0, 23.0 ],
-					"text" : "als"
+					"text" : "app"
 				}
 
 			}
@@ -173,7 +173,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 42.0, 201.775000035762758, 97.0, 23.0 ],
-					"text" : "route bang mute"
+					"text" : "route open mute"
 				}
 
 			}
@@ -248,10 +248,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 365.5, 68.0, 18.0 ],
+					"patching_rect" : [ 748.0, 365.5, 76.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.386753527948997, 2.5, 68.0, 18.0 ],
-					"text" : "drag and drop"
+					"presentation_rect" : [ 76.386753527948997, 2.5, 76.0, 18.0 ],
+					"text" : "drag/drop, click"
 				}
 
 			}
@@ -303,6 +303,7 @@
 					"fontsize" : 9.5,
 					"id" : "obj-26",
 					"keymode" : 1,
+					"linecount" : 2,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
@@ -312,8 +313,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 291.349999785423392, 141.0, 16.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 21.941421547044769, 37.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
+					"text" : "https://github.com/francesco-di-maggio/modulo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -332,7 +335,7 @@
 					"patching_rect" : [ 716.0, 352.949999928474483, 140.0, 43.100000143051091 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.087920977805538, 4.0, 98.597665100286918, 15.0 ],
-					"rounded" : 10.0
+					"rounded" : 0.0
 				}
 
 			}
@@ -423,7 +426,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[75]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -431,7 +434,7 @@
 
 					}
 ,
-					"text" : "bang",
+					"text" : "open",
 					"texton" : "send",
 					"varname" : "mute-[2]"
 				}
@@ -487,7 +490,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[77]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -590,7 +593,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[76]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -693,7 +696,7 @@
 				"box" : 				{
 					"comment" : "(anything) website, file, app",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -770,7 +773,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 65.087920977805538, 4.0, 98.597665100286918, 15.0 ],
 					"proportion" : 0.5,
-					"rounded" : 10,
+					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -1063,8 +1066,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"midpoints" : [ 51.5, 762.0, 343.5, 762.0 ],
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 51.5, 531.0, 343.5, 531.0 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -1154,31 +1157,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.text[76]", "live.text", 0 ],
-			"obj-12" : [ "live.text[77]", "live.text", 0 ],
-			"obj-42" : [ "live.text[75]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

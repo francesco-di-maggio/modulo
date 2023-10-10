@@ -40,6 +40,95 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 940.0, 102.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 940.0, 128.0, 185.0, 23.0 ],
+					"text" : "script sendbox mo.pad border $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 940.0, 153.0, 70.0, 23.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 186.75, 487.675082952919524, 82.0, 25.0 ],
+					"text" : "play / stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-39",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 273.25, 491.175082952919524, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "3",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 870.0, 39.0, 237.0, 50.0 ],
+					"presentation_linecount" : 3,
+					"text" : "NOTE: In the Inspector you may:\n• change background color \n• enable/disable border, or use thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"arrows" : 2,
 					"border" : 0.5,
 					"id" : "obj-9",
@@ -47,7 +136,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 833.0, 47.0, 88.0, 9.0 ],
+					"patching_rect" : [ 675.0, 47.0, 96.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -61,7 +150,7 @@
 , 			{
 				"box" : 				{
 					"bgmode" : 0,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -74,8 +163,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 39.0, 70.0, 87.0 ],
-					"varname" : "mo.pad[1]",
+					"patching_rect" : [ 780.0, 39.0, 70.0, 87.0 ],
+					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
 
@@ -89,7 +178,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 389.956609154740931, 58.0, 10.043390845259069 ],
+					"patching_rect" : [ 13.0, 389.956609154740931, 53.0, 8.043390845259069 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -131,9 +220,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 775.0, 39.0, 48.0, 23.0 ],
+					"patching_rect" : [ 619.0, 39.0, 48.0, 23.0 ],
 					"text" : "mo.pad",
-					"varname" : "mo.pad"
+					"varname" : "mo.pad[1]"
 				}
 
 			}
@@ -146,7 +235,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 47.0, 545.0, 9.0 ],
+					"patching_rect" : [ 220.0, 47.0, 390.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -376,7 +465,22 @@
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 949.5, 153.0, 949.5, 153.0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+ ],
 		"parameters" : 		{
 			"obj-1::obj-2" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],

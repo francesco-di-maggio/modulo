@@ -45,11 +45,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 326.427083333333258, 194.0, 35.0 ],
+					"patching_rect" : [ 215.0, 326.427083333333258, 201.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 39.0, 101.5, 194.0, 35.0 ],
-					"text" : "• CUE AT SECOND : 1, 2, 4, and 8 \n• TIMER RESTART AT SECOND : 12"
+					"presentation_rect" : [ 39.0, 101.5, 201.0, 35.0 ],
+					"text" : "• CUE AT SECOND : 1, 2, 4, and 8 \n• TIMER RESTARTS AT SECOND : 12"
 				}
 
 			}

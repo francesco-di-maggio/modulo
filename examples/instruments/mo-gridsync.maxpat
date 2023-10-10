@@ -459,15 +459,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-35",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 386.5, 146.0, 54.0 ],
+					"patching_rect" : [ 180.0, 386.5, 146.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 278.0, 36.5, 146.0, 54.0 ],
-					"text" : "1. set number of steps\n2. turn on playback\n3. set link mode on/off"
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 274.5, 29.5, 146.0, 68.0 ],
+					"text" : "1. set number of steps\n2. turn on playback\n3. set link mode on/off\n4. set step sequencers"
 				}
 
 			}

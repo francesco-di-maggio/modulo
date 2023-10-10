@@ -675,7 +675,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "CLICK" ],
+					"args" : [ "@set", "CLICK", "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -861,7 +861,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 274.5, 198.0, 274.5, 198.0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1308,6 +1307,26 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-12" : 				{
+					"parameter_longname" : "live.numbox[25]"
+				}
+,
+				"obj-16::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-16::obj-56" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-16::obj-7" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-16::obj-8" : 				{
+					"parameter_longname" : "live.text[55]"
+				}
+,
 				"obj-1::obj-6" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
@@ -1635,7 +1654,7 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"bgcolor" : [ 0.222222222222222, 0.830777657201945, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 
