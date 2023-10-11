@@ -817,7 +817,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 305.277777777777828, 289.0, 188.0, 25.0 ],
-									"text" : "set polarity (unipolar/bipolar) "
+									"text" : "set polarity (bipolar/unipolar) "
 								}
 
 							}
