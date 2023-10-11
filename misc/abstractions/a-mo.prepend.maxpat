@@ -144,9 +144,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 27.363086684400514, -0.058990031480789, 181.724848001946157, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "playstop",
+					"text" : "playpos",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 1,
+					"textjustification" : 0,
 					"varname" : "set-"
 				}
 
@@ -330,7 +330,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[182]",
+							"parameter_longname" : "live.text[90]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

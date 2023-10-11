@@ -399,7 +399,7 @@
 					"rounded" : 0.0,
 					"text" : "granulator",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 1,
+					"textjustification" : 0,
 					"varname" : "set-"
 				}
 
