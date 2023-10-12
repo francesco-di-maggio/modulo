@@ -1,12 +1,20 @@
 <img alt="logo" src="icon.png" width="400">
 
 # modulo
+
 A Toolkit for Tinkering with Digital Musical Instruments. 
 
 ## About 
+
 Think of it as a "Lego" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities and patching are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!
 
-## Modules
+## Architecture
+
+### Modularisation of Max objects
+
+Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot/~``` > ```snapshot/~```), where core control parameters are displayed at the top level in the main GUI. This allow users to flexibly interchange modules for quickly prototyping different digital musical instruments. 
+
+### Modules
 
 - [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, dials, sliders, and computer keyboard input.
 
@@ -15,12 +23,6 @@ Think of it as a "Lego" set for your musical ideas. Each module is designed with
 - [```transform```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/transform) modules process and extract meaningful information from incoming signals, including filtering, averaging and smoothing.
 
 - [```utility```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/utility) modules can handle auxiliary functions, such as mixing, visualising and recording input data.
-
-## Architecture
-
-### Modularisation of Max objects
-
-Each module is a wrapper around a specific Max object (e.g. mo.snapshot > snapshot), where core control parameters are displayed at the top level in the main GUI. This allow users to flexibly interchange modules for quickly prototyping different digital musical instruments. 
 
 ### List & Multichannel
 
