@@ -12,7 +12,7 @@ Think of it as a "Lego" set for your musical ideas. Each module is designed with
 
 ### Modularisation of Max objects
 
-Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot/~``` > ```snapshot/~```), where core control parameters are displayed at the top level in the main GUI. This allow users to flexibly interchange modules for quickly prototyping different digital musical instruments. 
+Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` > ```snapshot~```), where core control parameters are displayed at the top level in the main GUI. This allow users to flexibly interchange modules for quickly prototyping different digital musical instruments. 
 
 ### Modules
 
@@ -26,7 +26,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot/~``` 
 
 ### List & Multichannel
 
-Modules can stream either control signals (numeric data) or audio signals. The latter can be distinguished in their name by the appended ```/~``` (tilde) symbol. Each module accepts either a list of data (control signals), or multichannel audio signals (```mc.```). As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+Modules can stream either control signals (numeric data) or audio signals. The latter can be distinguished in their name by the appended ```~``` (tilde) symbol. Each module accepts either a list of data (control signals), or multichannel audio signals (```mc.```). As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
 * Please note that Max’s DSP engine has to be refreshed (turned off and on) to update the number of channels.
 
