@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -245,13 +245,14 @@
 					"fontface" : 0,
 					"fontsize" : 9.5,
 					"id" : "obj-43",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 748.0, 365.5, 76.0, 18.0 ],
+					"patching_rect" : [ 748.0, 365.5, 76.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.386753527948997, 2.5, 76.0, 18.0 ],
-					"text" : "drag/drop, click"
+					"presentation_rect" : [ 68.386753527948997, 2.5, 92.0, 18.0 ],
+					"text" : "drag and drop, click"
 				}
 
 			}
@@ -303,7 +304,6 @@
 					"fontsize" : 9.5,
 					"id" : "obj-26",
 					"keymode" : 1,
-					"linecount" : 2,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
@@ -313,10 +313,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 291.349999785423392, 141.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 21.941421547044769, 37.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
-					"text" : "https://github.com/francesco-di-maggio/modulo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -426,7 +424,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[894]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -490,7 +488,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[930]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -593,7 +591,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[895]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

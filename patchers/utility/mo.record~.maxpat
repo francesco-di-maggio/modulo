@@ -306,7 +306,7 @@
 				"box" : 				{
 					"comment" : "(int) channels",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -802,7 +802,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1071,7 +1071,7 @@
 				"box" : 				{
 					"comment" : "(message) record, playback, loop, clear, length, read, write",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1124,7 +1124,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) to record",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1255,9 +1255,10 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 983.0, 628.5, 44.0, 15.0 ],
-					"pictures" : [ "fwdarrow.svg", "pause.svg" ],
+					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 28.0, 41.211923710922434, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1297,6 +1298,7 @@
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "stop",
 					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "textbutton"
 				}
 
@@ -1362,9 +1364,10 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 37.5, 272.0, 44.0, 15.0 ],
-					"pictures" : [ "filledcircle.svg", "filledcircle.svg" ],
+					"pictures" : [ "record.svg", "record.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.788076289077566, 28.0, 41.211923710922434, 15.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1404,6 +1407,7 @@
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "record",
 					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "toggle"
 				}
 
@@ -2165,57 +2169,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "live.text[360]", "live.text", 0 ],
-			"obj-141" : [ "live.text[358]", "live.text", 0 ],
-			"obj-33" : [ "live.numbox[16]", "live.dial[12]", 0 ],
-			"obj-39" : [ "live.text[357]", "live.text", 0 ],
-			"obj-44" : [ "live.numbox[17]", "live.dial[12]", 0 ],
-			"obj-45" : [ "live.text[415]", "live.text", 0 ],
-			"obj-52" : [ "live.numbox[91]", "live.numbox", 0 ],
-			"obj-56" : [ "live.text[356]", "live.text", 0 ],
-			"obj-85" : [ "live.text[359]", "live.text", 0 ],
-			"obj-9" : [ "live.text[355]", "live.text", 0 ],
-			"obj-92" : [ "live.text[844]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filledcircle.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 175.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 175.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -3238,7 +3238,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 770.385228862365125, 1055.436599800000067, 128.0, 23.0 ],
-					"restore" : [ "theremin" ],
+					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4342,7 +4342,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.392887208967409, 4.194141161509847, 91.093439332034336, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "theremin",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -4878,7 +4877,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 322.145502243723286, 478.937497049570084, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.576705136270405, 27.141520950401627, 50.0, 63.0 ],
+					"presentation_rect" : [ 56.005069248328425, 27.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[1]",
@@ -4917,7 +4916,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 243.0, 146.299993634223938, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.576705136270405, 27.141520950401627, 50.0, 63.0 ],
+					"presentation_rect" : [ 4.0, 27.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 220 ],
@@ -4947,7 +4946,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 378.5, 256.0, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.576705136270391, 27.141520950401627, 50.0, 63.0 ],
+					"presentation_rect" : [ 160.015207744985275, 27.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
@@ -4976,7 +4975,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 310.5, 256.0, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.576705136270405, 27.141520950401627, 50.0, 63.0 ],
+					"presentation_rect" : [ 108.01013849665685, 27.141520950401627, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
@@ -5232,7 +5231,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 614.25, 187.299990355968475, 44.0, 15.0 ],
-					"pictures" : [ "fwdarrow.svg", "pause.svg" ],
+					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.680589227376657, 97.24704414924463, 61.792231817787496, 74.925592683255672 ],
 					"remapsvgcolors" : 1,
