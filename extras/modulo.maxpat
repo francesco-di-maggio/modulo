@@ -1791,7 +1791,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -6980,8 +6980,8 @@
 			}
 , 			{
 				"name" : "modulo-plus.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/add-on",
-				"patcherrelativepath" : "../misc/add-on",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/extensions",
+				"patcherrelativepath" : "../misc/extensions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
