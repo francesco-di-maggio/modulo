@@ -73,7 +73,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[151]",
+							"parameter_longname" : "live.text[43]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -94,14 +94,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 689.666666666666629, 360.0, 339.0, 23.0 ],
+					"patching_rect" : [ 689.666666666666629, 360.0, 230.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr polarity @bindto polarity- @initial 0 @default_priority 1",
+					"text" : "pattr polarity @bindto polarity- @initial 0",
 					"varname" : "polarity"
 				}
 
@@ -596,7 +596,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[16]",
+							"parameter_longname" : "Show Particle Settings[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -617,14 +617,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 689.666666666666629, 319.0, 207.0, 23.0 ],
+					"patching_rect" : [ 689.666666666666629, 319.0, 315.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr slider @bindto slider- @initial 0",
+					"text" : "pattr slider @bindto slider- @initial 0 @default_priority 1",
 					"varname" : "slider"
 				}
 
@@ -678,7 +678,7 @@
 					"presentation_rect" : [ 45.207453428255299, 0.0, 162.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slider-[2]",
+							"parameter_longname" : "slider-[18]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "slider-[2]",
 							"parameter_type" : 0
@@ -788,7 +788,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[55]",
+							"parameter_longname" : "live.text[63]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2

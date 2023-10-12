@@ -1,22 +1,10 @@
 {
 	"pattrstorage" : 	{
-		"name" : "p-mo.tutorial-2",
+		"name" : "p-mo.workflow-2",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"number" : [ -12.0 ],
-					"number[10]" : [ 0.0 ],
-					"number[6]" : [ 0.0 ],
-					"number[7]" : [ 0.0 ],
-					"number[8]" : [ 0.0 ],
-					"number[9]" : [ 0.0 ],
-					"textbutton" : [ -1 ],
-					"textbutton[1]" : [ -1 ],
-					"textbutton[2]" : [ -1 ],
-					"textbutton[3]" : [ -1 ],
-					"toggle" : [ 0 ],
-					"toggle[1]" : [ 1 ],
 					"mo.scale::voices" : [ 5.0 ],
 					"mo.scale::polarity" : [ 0.0 ],
 					"mo.scale::curve" : [ 1.0 ],
@@ -61,17 +49,26 @@
 					"mo.scale::[5]::output-min" : [ 0.0 ],
 					"mo.scale::[5]::output-max" : [ 1.0 ],
 					"mo.scale::[5]::mode" : [ 0.0 ],
-					"mo.theremini~::carrier" : [ 53.669724770642198 ],
-					"mo.theremini~::harmonicity" : [ 2.146788990825688 ],
-					"mo.theremini~::ratio" : [ 3.096330275229358 ],
-					"mo.theremini~::rate" : [ 9.403669724770642 ],
+					"mo.theremini~::carrier" : [ 31.651376146788994 ],
+					"mo.theremini~::harmonicity" : [ 2.587155963302752 ],
+					"mo.theremini~::ratio" : [ 19.610091743119266 ],
+					"mo.theremini~::rate" : [ 10.321100917431194 ],
 					"mo.theremini~::mute" : [ 0.0 ],
-					"mo.theremini~::depth" : [ 0.571100917431193 ],
+					"mo.theremini~::depth" : [ 0.947247706422018 ],
 					"mo.theremini~::gain" : [ 0.827380952380952 ],
 					"mo.theremini~::set" : [ "" ],
 					"mo.dac~::gain" : [ -12.0 ],
 					"mo.dac~::mute" : [ 0.0 ],
-					"mo.dac~::chans" : [ 2.0 ]
+					"mo.dac~::chans" : [ 2.0 ],
+					"carrier" : [ 0.0 ],
+					"dB" : [ -12.0 ],
+					"depth" : [ 0.0 ],
+					"gain" : [ 0.0 ],
+					"harmonicity" : [ 0.0 ],
+					"multislider" : [ 0.158256880733945, 0.323394495412844, 0.653669724770642, 0.103211009174312, 0.947247706422018 ],
+					"mute" : [ 0 ],
+					"rate" : [ 0.0 ],
+					"ratio" : [ 0.0 ]
 				}
 
 			}
