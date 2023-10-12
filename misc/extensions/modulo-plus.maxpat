@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"openrect" : [ 501.0, 95.0, 430.0, 430.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -70,7 +70,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 294.0, 80.0, 70.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 53.411127424189658, 71.497436859628351, 26.0 ],
+					"presentation_rect" : [ 275.0, 56.411127424189658, 71.497436859628351, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -114,7 +114,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.579268291592598, 238.0, 408.420731708407402, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 175.0, 400.0, 5.0 ],
+					"presentation_rect" : [ 15.0, 182.0, 400.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -137,7 +137,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 244.5, 265.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 342.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 342.0, 112.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"patching_rect" : [ 239.084084284017877, 259.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 342.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 342.0, 112.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -971,7 +971,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 276.5, 120.0, 160.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.502563140371649, 80.5, 153.997436859628351, 26.0 ],
+					"presentation_rect" : [ 262.502563140371649, 83.5, 153.997436859628351, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1153,7 +1153,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
+						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1652,8 +1652,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 814.0, 657.80976314285715, 420.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 743.476190477609634, 177.75, 401.523809522390366, 20.0 ],
-									"text" : "–  play an eight-shifted voices granular synthesizer  –",
+									"presentation_rect" : [ 743.476190477609634, 156.75, 401.523809522390366, 20.0 ],
+									"text" : "… click on any example to see its description… double-click to open it…",
 									"textjustification" : 1
 								}
 
@@ -1723,8 +1723,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 230.0, 78.0, 23.0 ],
-													"text" : "append \" –\""
+													"patching_rect" : [ 84.333333333333371, 230.0, 70.0, 23.0 ],
+													"text" : "append \" -\""
 												}
 
 											}
@@ -1735,8 +1735,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 200.0, 78.0, 23.0 ],
-													"text" : "prepend \"– \""
+													"patching_rect" : [ 84.333333333333371, 200.0, 75.0, 23.0 ],
+													"text" : "prepend \"- \""
 												}
 
 											}
@@ -2199,8 +2199,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 657.80976314285715, 454.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.190476208925247, 177.75, 402.523809522390366, 20.0 ],
-									"text" : "–    –",
+									"presentation_rect" : [ 13.190476208925247, 156.75, 402.523809522390366, 20.0 ],
+									"text" : "… click on any module to see its description… double-click to open it…",
 									"textjustification" : 1
 								}
 
@@ -2270,8 +2270,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 230.0, 73.0, 23.0 ],
-													"text" : "append \" –\""
+													"patching_rect" : [ 84.333333333333371, 230.0, 70.0, 23.0 ],
+													"text" : "append \" -\""
 												}
 
 											}
@@ -2282,8 +2282,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.333333333333371, 200.0, 78.0, 23.0 ],
-													"text" : "prepend \"– \""
+													"patching_rect" : [ 84.333333333333371, 200.0, 75.0, 23.0 ],
+													"text" : "prepend \"- \""
 												}
 
 											}
@@ -2327,18 +2327,18 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"mo.myo" : "acquire data from a myo armband device",
+														"mo.myo" : "acquire and stream data from a myo armband device",
 														"mo.rand~" : "a multichannel audio signals random generator",
 														"mo.receives" : "receive a list of data from specified send objects",
 														"mo.sends" : "send a list of data to specified receive objects",
-														"mo.bayesian" : "",
-														"mo.classify" : "",
-														"mo.env~" : "",
-														"mo.pca" : "",
-														"mo.regress" : "",
-														"mo.buffer~" : "",
-														"mo.granulator~" : "",
-														"mo.onepole~" : ""
+														"mo.bayesian" : "extract envelope from data through bayesian filter estimation",
+														"mo.classify" : "predict discrete values in response to new input data",
+														"mo.env~" : "extract the absolute signal from multichannel audio (i.e. envelope follower)",
+														"mo.pca" : "perform dimensionality reduction through principal component analysis",
+														"mo.regress" : "predicting continuous values in response to new input data",
+														"mo.buffer~" : "record, store and playback multichannel audio signal, or load a sample",
+														"mo.granulator~" : "a stereo eight-phase shifted granular synthesizer",
+														"mo.onepole~" : "a multichannel single-pole lowpass filter (-6dB/octave)"
 													}
 ,
 													"id" : "obj-87",
@@ -2487,7 +2487,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1099.0, 109.832914500000015, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 743.476190477609634, 61.5, 401.809523791074753, 5.0 ],
+									"presentation_rect" : [ 743.476190477609634, 65.5, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2507,7 +2507,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 109.832914500000015, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.190476208925247, 61.5, 401.809523791074753, 5.0 ],
+									"presentation_rect" : [ 13.190476208925247, 65.5, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2629,7 +2629,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 737.5, 397.000000000000057, 535.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 740.476190477609634, 61.5, 405.0, 20.0 ],
+									"presentation_rect" : [ 740.476190477609634, 65.5, 405.0, 20.0 ],
 									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
@@ -2645,8 +2645,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.5, 397.000000000000057, 511.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.190476208925247, 61.5, 404.809523791074753, 20.0 ],
-									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
+									"presentation_rect" : [ 10.190476208925247, 65.5, 404.809523791074753, 20.0 ],
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -3039,8 +3039,8 @@
 													"data" : 													{
 														"input" : [ "mo.myo", "mo.rand~" ],
 														"route" : [ "mo.receives", "mo.sends" ],
-														"transform" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.pca", "mo.regress" ],
-														"utility" : [ "mo.buffer~", "mo.granulator~", "mo.onepole~" ]
+														"transform" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.onepole~", "mo.pca", "mo.regress" ],
+														"utility" : [ "mo.buffer~", "mo.granulator~" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3391,7 +3391,7 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 2,
+									"num_lines_patching" : 4,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3400,7 +3400,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 899.5, 256.785355285714274, 422.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 742.285714268684387, 87.0, 403.0, 83.0 ],
+									"presentation_rect" : [ 742.285714268684387, 101.0, 403.0, 41.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3445,7 +3445,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 2,
-									"num_lines_presentation" : 3,
+									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -3453,7 +3453,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 187.5, 256.785355285714274, 422.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.0, 87.0, 403.0, 83.0 ],
+									"presentation_rect" : [ 12.0, 101.0, 403.0, 41.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3473,9 +3473,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.buffer~", "mo.granulator~", "mo.onepole~" ],
+											"parameter_enum" : [ "mo.myo", "mo.rand~" ],
 											"parameter_longname" : "live.menu[12]",
-											"parameter_mmax" : 2,
+											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3496,7 +3496,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1099.0, 119.167085499999985, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 743.476190477609634, 79.75, 401.809523791074753, 5.0 ],
+									"presentation_rect" : [ 743.476190477609634, 83.75, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3725,7 +3725,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 737.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 742.285714268684387, 33.0, 403.0, 24.0 ],
+									"presentation_rect" : [ 742.285714268684387, 35.0, 403.0, 24.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3768,7 +3768,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 119.167085499999985, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.190476208925247, 79.75, 401.809523791074753, 5.0 ],
+									"presentation_rect" : [ 13.190476208925247, 83.75, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -4005,7 +4005,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 25.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.0, 33.0, 403.0, 24.0 ],
+									"presentation_rect" : [ 12.0, 35.0, 403.0, 24.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -4052,7 +4052,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 657.80976314285715, 511.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.190476208925247, 177.75, 401.809523791074753, 19.258314728736877 ],
+									"presentation_rect" : [ 13.190476208925247, 154.75, 401.809523791074753, 23.258314728736877 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
@@ -4071,7 +4071,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 814.0, 657.80976314285715, 532.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 743.476190477609634, 177.75, 401.809523791074753, 19.258314728736877 ],
+									"presentation_rect" : [ 743.476190477609634, 154.75, 401.809523791074753, 23.258314728736877 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
@@ -4384,7 +4384,7 @@
 ,
 					"patching_rect" : [ 21.5, 390.0, 429.198228586007758, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.158536583185196, 218.0, 423.841463416814804, 210.0 ],
+					"presentation_rect" : [ 1.158536583185196, 233.0, 423.841463416814804, 188.0 ],
 					"varname" : "bpatcher",
 					"viewvisibility" : 1
 				}
@@ -4399,7 +4399,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.5, 200.0, 408.420731708407402, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 140.0, 400.0, 5.0 ],
+					"presentation_rect" : [ 15.0, 147.0, 400.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -4420,7 +4420,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.5, 156.5, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.5, 111.0, 52.0, 23.0 ],
+					"presentation_rect" : [ 368.5, 114.0, 52.0, 23.0 ],
 					"text" : "(2023)"
 				}
 
@@ -4445,7 +4445,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 21.5, 259.954297363758087, 188.5, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.49771049618721, 183.0, 403.241519510746002, 39.0 ],
+					"presentation_rect" : [ 13.49771049618721, 194.0, 403.241519510746002, 39.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -4495,7 +4495,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 91.5, 80.0, 347.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.5, 53.411127424189658, 347.0, 26.0 ],
+					"presentation_rect" : [ 72.5, 56.411127424189658, 347.0, 26.0 ],
 					"text" : "A Creative Extension to the                      Package."
 				}
 
@@ -4510,7 +4510,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 187.5, 120.0, 75.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.841463416814804, 82.0, 75.0, 23.0 ],
+					"presentation_rect" : [ 188.841463416814804, 85.0, 75.0, 23.0 ],
 					"text" : "Created by"
 				}
 
@@ -4525,7 +4525,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 91.5, 18.0, 174.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.5, 9.411127424189658, 174.0, 42.0 ],
+					"presentation_rect" : [ 71.5, 12.411127424189658, 174.0, 42.0 ],
 					"text" : "modulo-plus",
 					"underline" : 1
 				}
@@ -4544,7 +4544,7 @@
 					"patching_rect" : [ 21.5, 203.0, 411.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.446428567171097, 140.665829000000002, 411.0, 35.0 ],
+					"presentation_rect" : [ 11.446428567171097, 147.665829000000002, 411.0, 35.0 ],
 					"text" : "Extend your musical creativity with interactive machine learning algorithms for multidimensional mapping, and ready-to-use interfaces."
 				}
 
