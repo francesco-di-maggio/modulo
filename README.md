@@ -32,13 +32,13 @@ Modules can stream either control signals (numeric data) or audio signals. The l
 
 Users can combine two different methods of patching:
 
-1. *Abstractions* (with objects exposed): Each module is instantiated in the main patcher window as an abstraction, where the main parameters can be modified using the appropriate message (e.g. ```mute 1```).
-
-<img alt="Abstractions (with objects exposed)" src="/misc/media/mo.abstractions.png" width="900">
-
-3. *Bpatchers* (with GUI exposed): Each module is instantiated as bpatchers, which exposes parameters in a graphical user interface.
+1. *Bpatchers* (with GUI exposed): Each module is instantiated as bpatchers, which exposes parameters in a graphical user interface.
 
 <img alt="Bpatchers (with GUI exposed)" src="/misc/media/mo.bpatchers.png" width="900">
+
+2. *Abstractions* (with objects exposed): Each module is instantiated in the main patcher window as an abstraction, where the main parameters can be modified using the appropriate message (e.g. ```mute 1```).
+
+<img alt="Abstractions (with objects exposed)" src="/misc/media/mo.abstractions.png" width="900">
 
 ### Preset
 
