@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 455.0, 95.0, 430.0, 430.0 ],
-		"bglocked" : 1,
+		"openrect" : [ 501.0, 95.0, 430.0, 430.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -42,19 +42,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
+					"hidden" : 1,
 					"id" : "obj-11",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 100.0, 30.0, 30.0 ]
+					"patching_rect" : [ 21.5, 18.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
 					"activebgoncolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -67,9 +68,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 336.0, 80.0, 70.0, 26.0 ],
+					"patching_rect" : [ 294.0, 80.0, 70.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 53.411127424189658, 73.497436859628351, 26.0 ],
+					"presentation_rect" : [ 275.0, 53.411127424189658, 71.497436859628351, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -111,9 +112,9 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.579268291592598, 225.0, 599.841463416814804, 5.0 ],
+					"patching_rect" : [ 21.579268291592598, 238.0, 408.420731708407402, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 180.0, 411.0, 6.0 ],
+					"presentation_rect" : [ 15.0, 175.0, 400.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -134,9 +135,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.5, 275.870213079740267, 30.0, 29.0 ],
+					"patching_rect" : [ 244.5, 265.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 342.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -245,7 +246,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 244.5, 322.861052992816838, 56.0, 23.0 ],
+					"patching_rect" : [ 244.5, 312.861052992816838, 56.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -272,10 +273,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 239.084084284017877, 269.954297363758087, 40.83183143196436, 40.83183143196436 ],
+					"patching_rect" : [ 239.084084284017877, 259.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 342.0, 109.58408428401782, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -937,7 +938,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 357.5, 322.861052992816838, 82.0, 23.0 ],
+					"patching_rect" : [ 357.5, 312.861052992816838, 82.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -968,9 +969,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 318.5, 120.0, 160.0, 26.0 ],
+					"patching_rect" : [ 276.5, 120.0, 160.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.502563140371649, 80.5, 153.997436859628351, 26.0 ],
+					"presentation_rect" : [ 262.502563140371649, 80.5, 153.997436859628351, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1110,7 +1111,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 318.5, 158.0, 59.0, 23.0 ],
+					"patching_rect" : [ 276.5, 158.0, 59.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1152,7 +1153,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+						"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1644,15 +1645,15 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Light Regular",
-									"fontsize" : 12.0,
+									"fontsize" : 11.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 455.0, 21.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 420.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 176.75, 410.809523791074753, 21.0 ],
-									"text" : "… click on any example to see its description… double-click to open it…",
+									"presentation_rect" : [ 743.476190477609634, 177.75, 401.523809522390366, 20.0 ],
+									"text" : "–  play an eight-shifted voices granular synthesizer  –",
 									"textjustification" : 1
 								}
 
@@ -2191,15 +2192,15 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Light Regular",
-									"fontsize" : 12.0,
+									"fontsize" : 11.0,
 									"id" : "obj-44",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 657.80976314285715, 491.0, 21.0 ],
+									"patching_rect" : [ 96.0, 657.80976314285715, 454.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 176.75, 410.809523791074753, 21.0 ],
-									"text" : "… click on any module to see its description… double-click to open it…",
+									"presentation_rect" : [ 13.190476208925247, 177.75, 402.523809522390366, 20.0 ],
+									"text" : "–    –",
 									"textjustification" : 1
 								}
 
@@ -2326,106 +2327,18 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"mo.arrows" : "computer keyboard arrows",
-														"mo.dial" : "a single customizable dial",
-														"mo.encoder" : "a single customizable encoder",
-														"mo.grid" : "a live grid sequencer",
-														"mo.hrslider" : "a single customizable horizontal range slider",
-														"mo.hslider" : "a customizable horizontal slider",
-														"mo.htab" : "a single customizable horizontal tab",
-														"mo.key" : "computer keyboard keys",
-														"mo.keyboard" : "a virtual midi keyboard",
-														"mo.led" : "a single customizable led",
-														"mo.mouse" : "computer keyboard mouse",
-														"mo.nodes" : "a graphical data interpolator",
-														"mo.number" : "a single customizable numberbox",
-														"mo.numbers" : "a list of customizable numbers",
-														"mo.pad" : "a single customizable pad",
-														"mo.pads" : "a list of customizable pads",
-														"mo.rand" : "a random numbers generator",
-														"mo.rsliders" : "a list of customizable range sliders",
-														"mo.sliders" : "a list of customizable sliders",
-														"mo.step" : "a live step sequencer",
-														"mo.tabs" : "a list of customizable tabs",
-														"mo.vrslider" : "a single customizable vertical range slider",
-														"mo.vslider" : "a single customizable vertical slider",
-														"mo.vtab" : "a single customizable vertical tab",
-														"mo.xypad" : "a two-dimensions 'xy' pad",
-														"mo.adc~" : "multichannel analog-to-digital converter with gain control",
-														"mo.crosspatch" : "a list matrix with routing cables",
-														"mo.crosspatch~" : "a multichannel audio matrix with routing cables",
-														"mo.ctlout" : "a single customizable control change value",
-														"mo.ctlouts" : "a list of customizable control change values",
-														"mo.dac~" : "multichannel digital-to-analog converter with gain control",
-														"mo.hi" : "a human-interface device input",
-														"mo.makenote" : "a note on/note off pair generator",
-														"mo.matrix" : "a list matrix with routing cells",
-														"mo.matrix~" : "a multichannel audio matrix with routing cells",
-														"mo.midiin" : "a midi input device",
-														"mo.midiout" : "a midi output device",
-														"mo.noteout" : "a single customizable note value",
-														"mo.noteouts" : "a list of customizable note values",
-														"mo.prepend" : "add a message in front a list of any input",
-														"mo.receive" : "get a list of data using a dynamic receiving name",
-														"mo.receive~" : "get multichannel audio signals using a dynamic receiving name",
-														"mo.route" : "parse an incoming list of data based on input matching",
-														"mo.send" : "transmit a list of data using a dynamic sending name",
-														"mo.send~" : "transmit multichannel audio signals using a dynamic sending name",
-														"mo.serial" : "an input-output serial communication port",
-														"mo.udpreceive" : "get a list of data over the network",
-														"mo.udpsend" : "transmit a list of data over the network",
-														"mo.xbendout" : "a single customizable midi pitch bend value",
-														"mo.xbendouts" : "a list of customizable midi pitch bend values",
-														"mo.average" : "get the average from a list of data",
-														"mo.calibrate" : "get the minimum and maximum input values from a list of data over a variable time window",
-														"mo.click" : "perform different click behaviours: click, double-click, and hold",
-														"mo.debounce" : "filter out values that occur in a short time window",
-														"mo.ggate" : "route input between multiple pathways",
-														"mo.if" : "subject an input value to a logic condition and output result",
-														"mo.joystick" : "apply the joystick behaviour to an incoming input value",
-														"mo.latch" : "get the maximum or minimum running value from a list of values",
-														"mo.line" : "ramp a list of values over a specific time window",
-														"mo.minmax" : "get the absolute mimimum and maximum input ranges from an incoming value",
-														"mo.pipe" : "delay anything over a specific time window",
-														"mo.poll" : "stream a list of input data at a specific rate",
-														"mo.radiate" : "project a list of input data over a circular plane, and get the combined xy axes",
-														"mo.rms~" : "get the average of incoming multichannel audio signals, and output the numeric value",
-														"mo.scale" : "assign a list of normalized input values to a different output range",
-														"mo.schmitt" : "output a trigger when a list of values exceed a maximum threshold",
-														"mo.select" : "output a customizable value when a selected value is detected",
-														"mo.shake" : "get the rate of change of an incoming value",
-														"mo.sig~" : "transform a list of numeric values into multichannel audio signals",
-														"mo.slide" : "filter on incoming list of values logarithmically with adjustable upwards and downwards motion",
-														"mo.smooth" : "filter in incoming list of values using a leaky integrator",
-														"mo.snapshot~" : "transform multichannel audio signals into a list of numeric values",
-														"mo.speedlim" : "limit the stream of a list of values at a specific rate",
-														"mo.split" : "get values included, below, and above a specific minimum and maximum range",
-														"mo.steer" : "output the direction of a list of two values",
-														"mo.adstatus" : "open the max audio status settings",
-														"mo.console" : "monitor and clear the max console window with keys combination",
-														"mo.cpu" : "monitor the central processing unit (cpu)",
-														"mo.cue" : "trigger a series of events usign cues",
-														"mo.date" : "get today's date and current time",
-														"mo.fm~" : "a frequency modulator synthesizeer used as a sound generator",
-														"mo.gain~" : "a multichannel audio signals gain control",
-														"mo.gridmeter~" : "a multichannel audio signals meter in the form of grid",
-														"mo.launch" : "open a website, a file, or an app from max",
-														"mo.lfo~" : "a low frequency oscillator as both audio and control signal",
-														"mo.map" : "enable key and midi mapping",
-														"mo.meter~" : "a multichannel audio signals meter",
-														"mo.monitor" : "display incoming data on a dynamic text box",
-														"mo.notepad" : "type text, store, recall and control objects remotely",
-														"mo.panel" : "a coloured background area with hue, saturation and lightness control",
-														"mo.playlist~" : "load, playback and loop sound files",
-														"mo.preset" : "store and recall the main parameter settings of any module",
-														"mo.record" : "record, playback and loop a list of values with adjustable speed and range, read and write file on disk",
-														"mo.record~" : "record, playback and loop multichannel audio signals, read and write sound file on disk",
-														"mo.scope" : "display a list of values as time series",
-														"mo.scope~" : "a multichannel audio signals scope",
-														"mo.spectroscope~" : "visualize multichannel audio signals through a spectroscope or spectrogram",
-														"mo.swatch" : "choose a color and output the corresponding values in floating rgba",
-														"mo.theremin~" : "a digial theremin synthesizer used as a sound generator",
-														"mo.transport" : "start, stop and display the max global transport"
+														"mo.myo" : "acquire data from a myo armband device",
+														"mo.rand~" : "a multichannel audio signals random generator",
+														"mo.receives" : "receive a list of data from specified send objects",
+														"mo.sends" : "send a list of data to specified receive objects",
+														"mo.bayesian" : "",
+														"mo.classify" : "",
+														"mo.env~" : "",
+														"mo.pca" : "",
+														"mo.regress" : "",
+														"mo.buffer~" : "",
+														"mo.granulator~" : "",
+														"mo.onepole~" : ""
 													}
 ,
 													"id" : "obj-87",
@@ -2574,7 +2487,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1099.0, 109.832914500000015, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 63.5, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 743.476190477609634, 61.5, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2594,7 +2507,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 109.832914500000015, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 63.5, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 13.190476208925247, 61.5, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2614,7 +2527,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1099.0, 100.498743500000046, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 27.0, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 743.476190477609634, 27.0, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2634,7 +2547,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 100.498743500000046, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 27.0, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 13.190476208925247, 27.0, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -2716,7 +2629,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 737.5, 397.000000000000057, 535.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 736.476190477609634, 64.5, 414.0, 20.0 ],
+									"presentation_rect" : [ 740.476190477609634, 61.5, 405.0, 20.0 ],
 									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
@@ -2732,8 +2645,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.5, 397.000000000000057, 511.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.190476208925247, 64.5, 413.809523791074753, 20.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"presentation_rect" : [ 10.190476208925247, 61.5, 404.809523791074753, 20.0 ],
+									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -3478,8 +3391,8 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 4,
-									"num_lines_presentation" : 4,
+									"num_lines_patching" : 2,
+									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -3487,7 +3400,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 899.5, 256.785355285714274, 422.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 89.0, 412.0, 83.0 ],
+									"presentation_rect" : [ 742.285714268684387, 87.0, 403.0, 83.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3532,7 +3445,7 @@
 									"livemode" : 1,
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 2,
-									"num_lines_presentation" : 2,
+									"num_lines_presentation" : 3,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -3540,7 +3453,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 187.5, 256.785355285714274, 422.5, 113.214644714285726 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 89.0, 412.0, 83.0 ],
+									"presentation_rect" : [ 12.0, 87.0, 403.0, 83.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3560,9 +3473,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.myo", "mo.rand~" ],
+											"parameter_enum" : [ "mo.buffer~", "mo.granulator~", "mo.onepole~" ],
 											"parameter_longname" : "live.menu[12]",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3583,7 +3496,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1099.0, 119.167085499999985, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 83.75, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 743.476190477609634, 79.75, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3598,14 +3511,14 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Light Regular",
-									"fontsize" : 12.0,
+									"fontsize" : 11.0,
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 986.0, 60.0, 83.0, 21.0 ],
+									"patching_rect" : [ 986.0, 60.0, 77.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 8.0, 83.0, 21.0 ],
+									"presentation_rect" : [ 741.285714268684387, 8.0, 77.0, 20.0 ],
 									"text" : "Select a kind…"
 								}
 
@@ -3812,7 +3725,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 737.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 33.0, 412.0, 27.0 ],
+									"presentation_rect" : [ 742.285714268684387, 33.0, 403.0, 24.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -3855,7 +3768,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 119.167085499999985, 58.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 83.75, 410.809523791074753, 5.0 ],
+									"presentation_rect" : [ 13.190476208925247, 79.75, 401.809523791074753, 5.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3870,14 +3783,14 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Light Regular",
-									"fontsize" : 12.0,
+									"fontsize" : 11.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 251.0, 60.0, 107.0, 21.0 ],
+									"patching_rect" : [ 251.0, 60.0, 98.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 8.0, 107.0, 21.0 ],
+									"presentation_rect" : [ 11.0, 8.0, 98.0, 20.0 ],
 									"text" : "Select a category…"
 								}
 
@@ -4092,7 +4005,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 25.5, 87.0, 344.5, 46.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 33.0, 412.0, 27.0 ],
+									"presentation_rect" : [ 12.0, 33.0, 403.0, 24.0 ],
 									"rounded" : 10.0,
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
@@ -4139,7 +4052,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 657.80976314285715, 511.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 175.75, 410.809523791074753, 23.0 ],
+									"presentation_rect" : [ 13.190476208925247, 177.75, 401.809523791074753, 19.258314728736877 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
@@ -4158,7 +4071,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 814.0, 657.80976314285715, 532.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 175.75, 410.809523791074753, 23.0 ],
+									"presentation_rect" : [ 743.476190477609634, 177.75, 401.809523791074753, 19.258314728736877 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
@@ -4469,9 +4382,9 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 21.5, 370.0, 429.198228586007758, 210.0 ],
+					"patching_rect" : [ 21.5, 390.0, 429.198228586007758, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.158536583185196, 219.0, 423.841463416814804, 210.0 ],
+					"presentation_rect" : [ 1.158536583185196, 218.0, 423.841463416814804, 210.0 ],
 					"varname" : "bpatcher",
 					"viewvisibility" : 1
 				}
@@ -4484,9 +4397,9 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 200.0, 599.841463416814804, 5.0 ],
+					"patching_rect" : [ 21.5, 200.0, 408.420731708407402, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 142.665829000000002, 411.0, 6.0 ],
+					"presentation_rect" : [ 15.0, 140.0, 400.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -4505,9 +4418,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.5, 156.5, 52.0, 23.0 ],
+					"patching_rect" : [ 377.5, 156.5, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 372.5, 110.0, 52.0, 23.0 ],
+					"presentation_rect" : [ 368.5, 111.0, 52.0, 23.0 ],
 					"text" : "(2023)"
 				}
 
@@ -4519,7 +4432,7 @@
 					"bgoncolor" : [ 0.537, 0.831, 0.945, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"fontsize" : 16.0,
+					"fontsize" : 15.0,
 					"id" : "obj-28",
 					"livemode" : 1,
 					"maxclass" : "live.tab",
@@ -4530,9 +4443,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 21.5, 269.954297363758087, 188.5, 40.045702636241913 ],
+					"patching_rect" : [ 21.5, 259.954297363758087, 188.5, 40.045702636241913 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 190.0, 412.158536583185196, 35.0 ],
+					"presentation_rect" : [ 13.49771049618721, 183.0, 403.241519510746002, 39.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -4580,9 +4493,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.5, 80.0, 347.0, 26.0 ],
+					"patching_rect" : [ 91.5, 80.0, 347.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.5, 53.411127424189658, 347.0, 26.0 ],
+					"presentation_rect" : [ 72.5, 53.411127424189658, 347.0, 26.0 ],
 					"text" : "A Creative Extension to the                      Package."
 				}
 
@@ -4595,9 +4508,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.5, 120.0, 75.0, 23.0 ],
+					"patching_rect" : [ 187.5, 120.0, 75.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.841463416814804, 82.0, 75.0, 23.0 ],
+					"presentation_rect" : [ 188.841463416814804, 82.0, 75.0, 23.0 ],
 					"text" : "Created by"
 				}
 
@@ -4610,9 +4523,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.5, 18.0, 174.0, 42.0 ],
+					"patching_rect" : [ 91.5, 18.0, 174.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.5, 9.411127424189658, 174.0, 42.0 ],
+					"presentation_rect" : [ 71.5, 9.411127424189658, 174.0, 42.0 ],
 					"text" : "modulo-plus",
 					"underline" : 1
 				}
@@ -4624,14 +4537,15 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 203.0, 599.0, 21.0 ],
+					"patching_rect" : [ 21.5, 203.0, 411.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 8.0, 144.665829000000002, 418.0, 35.0 ],
-					"text" : "Extend your musical creativity with interactive machine learning algorithms, and other ready-to-use interfaces."
+					"presentation_rect" : [ 11.446428567171097, 140.665829000000002, 411.0, 35.0 ],
+					"text" : "Extend your musical creativity with interactive machine learning algorithms for multidimensional mapping, and ready-to-use interfaces."
 				}
 
 			}
@@ -4646,7 +4560,7 @@
 					"id" : "obj-236",
 					"ignoreclick" : 1,
 					"knobpict" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo/icon.png",
-					"knobsize" : 80.0,
+					"knobsize" : 50.0,
 					"maxclass" : "nodes",
 					"mousemode" : 1,
 					"nodecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
@@ -4657,7 +4571,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 357.5, 360.0, 82.0, 23.0 ],
+					"patching_rect" : [ 357.5, 350.0, 82.0, 23.0 ],
 					"pointcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 430.0, 430.0 ],
@@ -4678,7 +4592,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 328.0, 149.0, 328.0, 149.0 ],
+					"midpoints" : [ 286.0, 149.0, 286.0, 149.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -4694,7 +4608,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
-					"midpoints" : [ 367.0, 348.0, 367.0, 348.0 ],
+					"midpoints" : [ 367.0, 338.0, 367.0, 338.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -4702,7 +4616,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 254.0, 306.0, 254.0, 306.0 ],
+					"midpoints" : [ 254.0, 296.0, 254.0, 296.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

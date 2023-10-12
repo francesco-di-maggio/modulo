@@ -48,7 +48,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontname" : "Ableton Sans Light Regular",
-					"fontsize" : 14.0,
+					"fontsize" : 16.0,
 					"id" : "obj-11",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -56,9 +56,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 530.0, 275.870213079740267, 100.0, 28.0 ],
+					"patching_rect" : [ 530.0, 275.870213079740267, 70.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 464.0, 172.29204214200891, 97.0, 21.41591571598218 ],
+					"presentation_rect" : [ 452.841463416814804, 168.999999999999972, 108.158536583185196, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -2322,13 +2322,14 @@
 									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  play a digital theremin synthesizer using xy pad coordinates to control pitch and volume  –",
 									"textjustification" : 1
 								}
 
@@ -2899,7 +2900,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  parse an incoming list of data based on input matching  –",
 									"textjustification" : 1
 								}
 
@@ -3437,7 +3438,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Interface with external devices, including MIDI, OSC, Max and eurorack modules."
 								}
 
 							}
@@ -4264,7 +4265,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -5964,7 +5965,7 @@
 				"obj-15::obj-1::obj-7::obj-11" : 				{
 					"parameter_invisible" : 0,
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "mo.myo", "mo.rand~" ],
+					"parameter_range" : [ "mo.receives", "mo.sends" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 9
 				}
