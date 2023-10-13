@@ -20,7 +20,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` >
 
 - [```route```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/route) modules interface with external devices, including Max internal routing, MIDI, OSC, and Euroracks. 
 
-- [```transform```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/transform) modules process incoming signals via different algorithms, including filtering, averaging and smoothing.
+- [```transform```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/transform) modules process input signals via different algorithms, including filtering, averaging and smoothing.
 
 - [```utility```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/utility) modules can handle auxiliary functions, such as mixing, visualising and recording input data.
 
