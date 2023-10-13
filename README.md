@@ -16,11 +16,11 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` >
 
 ### Modules
 
-- [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, dials, sliders, and computer keyboard input.
+- [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, sliders, and computer keyboard input.
 
 - [```route```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/route) modules interface with external devices, including Max internal routing, MIDI, OSC, and Euroracks. 
 
-- [```transform```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/transform) modules process and extract meaningful information from incoming signals, including filtering, averaging and smoothing.
+- [```transform```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/transform) modules process incoming signals via different algorithms, including filtering, averaging and smoothing.
 
 - [```utility```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/utility) modules can handle auxiliary functions, such as mixing, visualising and recording input data.
 
@@ -55,7 +55,7 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo). After decompressing the zip archive, place the resulting folder in the Max search path:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo). After decompressing the zip archive, place the resulting folder in the Max search path, preferably in ```Max > Packages```:
 
 * `~/Documents/Max\ 8/Packages`
 
