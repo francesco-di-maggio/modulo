@@ -26,7 +26,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` >
 
 ### List & Multichannel
 
-Modules can stream either control signals (numeric data) or audio signals. The latter can be distinguished in their name by the appended ```~``` (tilde) symbol. Each module accepts either a list of data (control signals), or multichannel audio signals (```mc.```). As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+Modules can stream both control (data) and audio signals. The latter can be distinguished in their name by the appended ```~``` (tilde) symbol. As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
 * Please note that Max’s DSP engine has to be refreshed (turned off and on) to update the number of channels.
 
@@ -55,7 +55,7 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Or, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), decompress the zip archive, and place the resulting folder in the Max search path:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo). After decompressing the zip archive, place the resulting folder in the Max search path:
 
 * `~/Documents/Max\ 8/Packages`
 
