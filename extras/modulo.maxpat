@@ -4447,7 +4447,7 @@
 												"box" : 												{
 													"data" : 													{
 														"0" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
-														"1" : "Interface with external devices, including MIDI, OSC, Max and eurorack modules.",
+														"1" : "Interface with external devices, including MIDI, OSC, Max, and Eurorack modules.",
 														"2" : "Process input data through filtering, averaging and smoothing algorithms.",
 														"3" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 													}
