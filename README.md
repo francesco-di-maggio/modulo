@@ -12,7 +12,7 @@ Think of it as a "Lego" set for your musical ideas. Each module is designed with
 
 ### Modularisation of Max objects
 
-Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.keyboard``` > ```kslider```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly interchange modules for rapid prototyping. 
+Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.keyboard``` > ```kslider```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly swap modules for rapid prototyping. 
 
 ### Modules
 
