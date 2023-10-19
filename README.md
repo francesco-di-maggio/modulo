@@ -46,7 +46,7 @@ Users can combine two different methods of patching:
 
 ### Preset
 
-Parameters in each GUI is “bound" to a ```pattr``` object, using a consistent namespace  in the GUI, abstraction and help files. This means that the ```preset``` object can be used together with ```pattrstorage``` to save and recall a snapshot of all parameters in a patcher window.
+Key parameters are internally “bound" to a ```pattr``` object, using a consistent namespace in each abstraction, GUI and help files. This means that the ```preset``` object can be used together with ```pattrstorage``` to save and recall any parameter in a patcher window.
 
 ## Installation
 
@@ -57,7 +57,7 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the Max search path, preferably ```Max 8 > Packages```:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the Max search path, ```Max 8 > Packages```:
 
 * `~/Documents/Max\ 8/Packages`
 
@@ -67,6 +67,6 @@ Open the Overview Patch (modulo-main/extras/modulo.maxpat).
 
 ## Links
 
-[Discord](https://discord.com/invite/5tTx4hX9up) - Join the discourse to keep up on future updates as well as make suggestions, share ideas and musical examples.
+[Discord](https://discord.com/invite/5tTx4hX9up) - Join the chat to keep up on future updates as well as make suggestions, share ideas and musical examples.
 
 [YouTube](https://www.youtube.com/playlist?list=PL0HEDTmJk6S35kALgX0dJLxeMekfEu2rF) - Join the channel to learn how to get started with [```modulo```](https://github.com/francesco-di-maggio/modulo).
