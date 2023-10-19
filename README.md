@@ -16,7 +16,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ``
 
 ### Modules
 
-While the toolkit focuses on capturing, processing and mapping input data into sound, the routing and utility modules makes it easy to connect users with their own workflow and toolset.
+While the toolkit focuses on capturing, processing and mapping input data to sound, the routing and utility modules makes it easy to connect users with their own workflow and sound synthesis toolset.
 
 - [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, sliders, and computer keyboard input.
 
