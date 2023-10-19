@@ -46,7 +46,7 @@ Users can combine two different methods of patching:
 
 ### Preset
 
-Key parameters are internally “bound" to a ```pattr``` object, using a consistent namespace in each abstraction, GUI and help files. This means that the ```preset``` object can be used together with ```pattrstorage``` to save and recall any parameter in a patcher window.
+Key parameters are internally “bound" to a ```pattr``` object using a consistent namespace. This means that the ```preset``` object can be used together with ```pattrstorage``` to save and recall a snapshot of any parameter in a patcher window.
 
 ## Installation
 
