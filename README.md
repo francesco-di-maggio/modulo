@@ -57,7 +57,7 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the Max search path, ```Max 8 > Packages```:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the ```Max 8 > Packages``` search path:
 
 * `~/Documents/Max\ 8/Packages`
 
@@ -67,6 +67,6 @@ Open the Overview Patch (modulo-main/extras/modulo.maxpat).
 
 ## Links
 
-[Discord](https://discord.com/invite/5tTx4hX9up) - Join the chat to keep up on future updates as well as make suggestions, share ideas and musical examples.
+[Discord](https://discord.com/invite/5tTx4hX9up) - Join the discourse to keep up on future updates, make suggestions, share ideas and musical examples.
 
 [YouTube](https://www.youtube.com/playlist?list=PL0HEDTmJk6S35kALgX0dJLxeMekfEu2rF) - Join the channel to learn how to get started with [```modulo```](https://github.com/francesco-di-maggio/modulo).
