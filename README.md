@@ -18,7 +18,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ``
 
 While the toolkit focuses on acquiring, processing and mapping input data to sound, the routing and utility modules allow users to easily connect to their own workflow and sound synthesis tools.
 
-- [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, sliders, and computer keyboard input.
+- [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules capture, display and map input data, such as pads, sliders, and computer keyboard input.
 
 - [```route```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/route) modules interface with external devices, including Max internal routing, MIDI, OSC, and Euroracks. 
 
@@ -28,7 +28,7 @@ While the toolkit focuses on acquiring, processing and mapping input data to sou
 
 ### List & Multichannel
 
-Modules can stream both control (data) and audio signals. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+Modules can transmit both control (data) and audio signals. In most cases, data is normalized within a range of either bipolar (```-1. - 1.```) or unipolar (```0. - 1.```) floating points, simplifying communication with subsequent modules. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
 * Please note that the Max DSP has to be restarted (turned off and on) to update the number of channels.
 
