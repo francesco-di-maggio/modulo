@@ -6,13 +6,13 @@ A Toolkit for Tinkering with Digital Musical Instruments.
 
 ## About 
 
-Think of it as a "Lego" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities and patching are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!
+Think of it as a "Lego" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!
 
 ## Architecture
 
 ### Modularisation of Max objects
 
-Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` > ```snapshot~```), where core control parameters are displayed at the top level in the main GUI. This allow users to flexibly interchange modules for quickly prototyping different digital musical instruments. 
+Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```), where the main control parameters are displayed at the top level in the main GUI. This allow users to flexibly swap modules for rapid prototyping of digital musical instruments. 
 
 ### Modules
 
@@ -26,25 +26,25 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.snapshot~``` >
 
 ### List & Multichannel
 
-Modules can stream both control (data) and audio signals. The latter can be distinguished in their name by the appended ```~``` (tilde) symbol. As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+Modules can stream both control (data) and audio signals. As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
-* Please note that Max’s DSP engine has to be refreshed (turned off and on) to update the number of channels.
+* Please note that Max’s DSP engine has to be restarted (turned off and on) to update the number of channels.
 
 ### Abstractions & Bpatchers
 
 Users can combine two different methods of patching:
 
-1. *Bpatchers* (with GUI exposed): Each module is instantiated as bpatchers, which exposes parameters in a graphical user interface.
-
-<img alt="Bpatchers (with GUI exposed)" src="/misc/images/mo.bpatchers.png" width="900">
-
-2. *Abstractions* (with objects exposed): Each module is instantiated in the main patcher window as an abstraction, where the main parameters can be modified using the appropriate message (e.g. ```mute 1```).
+1. *Abstractions* (with objects exposed): Each module is instantiated in the main patcher window as an abstraction, where the main parameters can be modified using the appropriate message (e.g. ```mute 1```).
 
 <img alt="Abstractions (with objects exposed)" src="/misc/images/mo.abstractions.png" width="900">
 
+2. *Bpatchers* (with GUI exposed): Each module is instantiated as bpatchers, which exposes the main control parameters in the top level Graphical User Interface (GUI).
+
+<img alt="Bpatchers (with GUI exposed)" src="/misc/images/mo.bpatchers.png" width="900">
+
 ### Preset
 
-Parameters in each GUI is “bound" to a ```pattr``` object, using a consistent namespace  in the GUI, abstraction and help files. This means that the ```preset``` object can be used in conjunction with ```pattrstorage``` to save and recall a snapshot of all parameters in a patcher window.
+Parameters in each GUI is “bound" to a ```pattr``` object, using a consistent namespace  in the GUI, abstraction and help files. This means that the ```preset``` object can be used together with ```pattrstorage``` to save and recall a snapshot of all parameters in a patcher window.
 
 ## Installation
 
@@ -55,7 +55,7 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo). After decompressing the zip archive, place the resulting folder in the Max search path, preferably in ```Max > Packages```:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the Max search path, preferably ```Max 8 > Packages```:
 
 * `~/Documents/Max\ 8/Packages`
 
@@ -65,6 +65,6 @@ Open the Overview Patch (modulo-main/extras/modulo.maxpat).
 
 ## Links
 
-[Discord](https://discord.com/invite/5tTx4hX9up) - Join the Discord discourse to keep up on future updates/news as well as make suggestions, share ideas and musical examples.
+[Discord](https://discord.com/invite/5tTx4hX9up) - Join the discourse to keep up on future updates as well as make suggestions, share ideas and musical examples.
 
-[YouTube](https://www.youtube.com/playlist?list=PL0HEDTmJk6S35kALgX0dJLxeMekfEu2rF) - Join the YouTube channel to learn how to get started with [```modulo```](https://github.com/francesco-di-maggio/modulo).
+[YouTube](https://www.youtube.com/playlist?list=PL0HEDTmJk6S35kALgX0dJLxeMekfEu2rF) - Join the channel to learn how to get started with [```modulo```](https://github.com/francesco-di-maggio/modulo).
