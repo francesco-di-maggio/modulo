@@ -12,9 +12,11 @@ Think of it as a "Lego" set for your musical ideas. Each module is designed with
 
 ### Modularisation of Max objects
 
-Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.dial``` > ```dial```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly interchange modules for rapid prototyping. While the toolkit focuses on acquiring, processing and mapping input data to sound, the routing and utility modules allow users to easily connect to their own workflow and sound synthesis tools.
+Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.dial``` > ```dial```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly interchange modules for rapid prototyping. 
 
 ### Modules
+
+While the toolkit focuses on acquiring, processing and mapping input data to sound, the routing and utility modules make it easy for users to connect to their own workflow and sound synthesis tools.
 
 - [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules capture, display and map input data, such as pads, sliders, and computer keyboard input.
 
@@ -26,7 +28,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ``
 
 ### List & Multichannel
 
-While modules transmit data as ```list``` of control signals and multichannel audio signals (```mc.```), data is normalized within a bipolar (```-1. - 1.```) or unipolar (```0. - 1.```) range of floating-point numbers, simplifying communication with subsequent modules. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+While modules transmit data as ```list``` of control signals and ```multichannel``` audio signals, data is normalized within a bipolar (```-1. - 1.```) or unipolar (```0. - 1.```) range of floating-point numbers, simplifying communication with subsequent modules. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
 * Please note that the Max DSP has to be restarted (turned off and on) to update the number of channels.
 
