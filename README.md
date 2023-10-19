@@ -28,7 +28,7 @@ While the toolkit focuses on acquiring, processing and mapping input data to sou
 
 ### List & Multichannel
 
-Modules can transmit data as ```list``` of control signals or multichannel audio signals (```mc.```). Data is normalized within a bipolar (```-1. - 1.```) or unipolar (```0. - 1.```) range of floating-point numbers, simplifying communication with subsequent modules. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
+Modules can transmit data as ```list``` of control signals or multichannel audio signals (```mc.```). Except when scaling is required, data is normalized within a bipolar (```-1. - 1.```) or unipolar (```0. - 1.```) range of floating-point numbers, simplifying communication with subsequent modules. Since each device allows a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
 * Please note that the Max DSP has to be restarted (turned off and on) to update the number of channels.
 
