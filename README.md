@@ -12,9 +12,11 @@ Think of it as a "Lego" set for your musical ideas. Each module is designed with
 
 ### Modularisation of Max objects
 
-Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```), where the main control parameters are displayed at the top level in the main GUI. This allow users to flexibly swap modules for rapid prototyping of digital musical instruments. 
+Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.keyboard``` > ```kslider```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly interchange modules for rapid prototyping. 
 
 ### Modules
+
+While the toolkit focuses on capturing, processing and mapping input data into sound, the routing and utility modules makes it easy to connect users with their own workflow and toolset.
 
 - [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules generate, display and map input data, such as pads, sliders, and computer keyboard input.
 
@@ -28,7 +30,7 @@ Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ``
 
 Modules can stream both control (data) and audio signals. As each device permits a different set of input channels, each module is designed to automatically adapt to the number of input channels. 
 
-* Please note that Max’s DSP engine has to be restarted (turned off and on) to update the number of channels.
+* Please note that the Max DSP has to be restarted (turned off and on) to update the number of channels.
 
 ### Abstractions & Bpatchers
 
