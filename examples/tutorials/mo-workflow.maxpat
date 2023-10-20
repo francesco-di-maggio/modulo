@@ -70,7 +70,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 812.0, 653.0 ],
+						"rect" : [ 0.0, 26.0, 812.0, 653.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -386,7 +386,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 555.25, 458.437653109431267, 213.0, 58.189434558153152 ],
-									"pattrstorage" : "p-mo.workflow-1",
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 465.0, 213.0, 56.445248574018478 ],
 									"saved_attribute_attributes" : 									{
@@ -428,7 +427,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "p-mo.workflow-1"
+									"varname" : "untitled"
 								}
 
 							}
@@ -715,7 +714,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 812.0, 653.0 ],
+						"rect" : [ 34.0, 79.0, 812.0, 653.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1351,7 +1350,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 303.75, 603.718749999999886, 104.0, 23.0 ],
-									"text" : "mo.dac~ @dB -12",
+									"text" : "mo.dac~ @dB -20",
 									"varname" : "mo.dac~"
 								}
 
@@ -1648,9 +1647,9 @@
 			"obj-1::obj-7::obj-4" : [ "live.dial[3]", "volume", 0 ],
 			"obj-1::obj-7::obj-42" : [ "live.text[120]", "live.text", 0 ],
 			"obj-1::obj-7::obj-7" : [ "live.dial[69]", "live.dial[7]", 0 ],
-			"obj-1::obj-8::obj-12" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-1::obj-8::obj-12" : [ "live.numbox[41]", "live.numbox", 0 ],
 			"obj-1::obj-8::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-1::obj-8::obj-56" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-1::obj-8::obj-56" : [ "live.numbox[128]", "live.numbox", 0 ],
 			"obj-1::obj-8::obj-7" : [ "live.text[54]", "live.text", 0 ],
 			"obj-1::obj-8::obj-8" : [ "live.text[55]", "live.text", 0 ],
 			"obj-2::obj-17::obj-111" : [ "live.dial[59]", "detune", 0 ],
@@ -2060,11 +2059,11 @@
 				}
 ,
 				"obj-1::obj-8::obj-12" : 				{
-					"parameter_longname" : "live.numbox[17]"
+					"parameter_longname" : "live.numbox[41]"
 				}
 ,
 				"obj-1::obj-8::obj-56" : 				{
-					"parameter_longname" : "live.numbox[18]"
+					"parameter_longname" : "live.numbox[128]"
 				}
 ,
 				"obj-2::obj-17::obj-111" : 				{
