@@ -947,7 +947,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 51.0, 211.428571428571445, 197.0, 23.0 ],
-									"text" : "send thispatcher gridsnaponopen 1"
+									"text" : "send thispatcher gridsnaponopen 0"
 								}
 
 							}

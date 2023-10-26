@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -291,12 +291,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 383.0, 529.933587460778654, 239.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 500 ],
+						"initial" : [ 250 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr winsize @bindto winsize- @initial 500",
+					"text" : "pattr winsize @bindto winsize- @initial 250",
 					"varname" : "winsize[1]"
 				}
 
@@ -344,7 +344,7 @@
 				"box" : 				{
 					"comment" : "(int) channels, (message) winsize, clock",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -357,7 +357,7 @@
 				"box" : 				{
 					"comment" : "(list) averaged",
 					"id" : "obj-55",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -408,11 +408,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to average",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 218.0, 84.0, 30.0, 30.0 ]
 				}
 
@@ -987,32 +987,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "live.numbox[189]", "live.numbox", 0 ],
-			"obj-28" : [ "live.numbox[187]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[188]", "live.numbox", 0 ],
-			"obj-4" : [ "live.text[482]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
