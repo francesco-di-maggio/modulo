@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -161,7 +161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 859.0, 617.0, 60.0, 23.0 ],
-					"text" : "app"
+					"text" : "als"
 				}
 
 			}
@@ -245,14 +245,14 @@
 					"fontface" : 0,
 					"fontsize" : 9.5,
 					"id" : "obj-43",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 748.0, 365.5, 76.0, 29.0 ],
+					"patching_rect" : [ 764.0, 365.5, 44.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.386753527948997, 2.5, 92.0, 18.0 ],
-					"text" : "drag and drop, click"
+					"text" : "drop file",
+					"textjustification" : 1
 				}
 
 			}
@@ -315,6 +315,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 21.941421547044769, 37.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
+					"text" : "wear.als",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"

@@ -345,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 442.297012329101562, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 442.297011999999995, 70.0, 62.0 ],
 					"varname" : "mo.ctlout",
 					"viewvisibility" : 1
 				}

@@ -331,7 +331,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 449.5, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 449.5, 70.0, 62.0 ],
 					"varname" : "mo.noteout",
 					"viewvisibility" : 1
 				}
@@ -502,6 +502,10 @@
 			"parameter_overrides" : 			{
 				"obj-43::obj-1" : 				{
 					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-43::obj-45" : 				{
+					"parameter_longname" : "live.text[679]"
 				}
 ,
 				"obj-43::obj-64" : 				{
