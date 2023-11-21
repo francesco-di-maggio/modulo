@@ -368,6 +368,10 @@
 				"obj-19::obj-39" : 				{
 					"parameter_longname" : "live.numbox[3]"
 				}
+,
+				"obj-19::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
+				}
 
 			}
 ,

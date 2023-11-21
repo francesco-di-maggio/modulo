@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 434.0, 696.0 ],
+		"rect" : [ 34.0, 87.0, 434.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,8 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 654.0, 214.0, 23.0 ],
-					"text" : "0. 0. 0. 0.829316"
+					"patching_rect" : [ 41.0, 624.0, 214.0, 23.0 ]
 				}
 
 			}
@@ -277,7 +276,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 355.999999999999886, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 356.0, 214.0, 226.0 ],
 					"varname" : "mo.nodes",
 					"viewvisibility" : 1
 				}
@@ -303,7 +302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 50.5, 639.0, 245.5, 639.0 ],
+					"midpoints" : [ 50.5, 609.0, 245.5, 609.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 

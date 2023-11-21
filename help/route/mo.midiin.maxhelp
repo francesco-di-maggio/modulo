@@ -466,7 +466,7 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
-					"patching_rect" : [ 41.0, 397.5, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 397.5, 214.0, 62.0 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -540,6 +540,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 396.207317113876343, 534.0, 396.207317113876343, 534.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -571,7 +572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
-					"midpoints" : [ 245.5, 456.0, 245.940027274027443, 456.0 ],
+					"midpoints" : [ 245.5, 462.0, 245.940027274027443, 462.0 ],
 					"source" : [ "obj-4", 8 ]
 				}
 

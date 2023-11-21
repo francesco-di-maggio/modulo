@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 335.0, 414.0 ],
+						"rect" : [ 34.0, 113.0, 335.0, 414.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 222.5, 76.0, 23.0 ],
+									"patching_rect" : [ 41.0, 237.0, 76.0, 23.0 ],
 									"text" : "del 1000, $1"
 								}
 
@@ -115,7 +115,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 280.0, 70.0, 58.0 ],
+									"patching_rect" : [ 41.0, 280.0, 70.0, 62.0 ],
 									"varname" : "mo.pipe[1]",
 									"viewvisibility" : 1
 								}
@@ -258,7 +258,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 111.0, 207.0, 50.5, 207.0 ],
+									"midpoints" : [ 111.0, 222.0, 50.5, 222.0 ],
 									"source" : [ "obj-46", 0 ]
 								}
 
@@ -266,7 +266,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 151.25, 207.0, 50.5, 207.0 ],
+									"midpoints" : [ 151.25, 222.0, 50.5, 222.0 ],
 									"source" : [ "obj-47", 0 ]
 								}
 
@@ -282,7 +282,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 50.5, 246.0, 50.5, 246.0 ],
+									"midpoints" : [ 50.5, 261.0, 50.5, 261.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -321,7 +321,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 335.0, 414.0 ],
+						"rect" : [ 0.0, 26.0, 335.0, 414.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -366,7 +366,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 280.0, 70.0, 58.0 ],
+									"patching_rect" : [ 41.0, 280.0, 70.0, 62.0 ],
 									"varname" : "mo.pipe[1]",
 									"viewvisibility" : 1
 								}

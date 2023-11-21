@@ -105,7 +105,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-30",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -411,7 +411,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 933.90126629102781, 202.850896841581516, 56.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.402831451423452, 68.441378923099364, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 102.402831451423452, 68.441378923099364, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -693,7 +693,7 @@
 				"box" : 				{
 					"comment" : "(message) mode, flush, octave, semitone, refresh, channel, port, mute",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -761,7 +761,7 @@
 				"box" : 				{
 					"comment" : "(int) midi note to display, (list) midi note and velocity to output",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1053,7 +1053,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 179.842786306142557, 555.688857341492167, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.796548255447284, 68.186031924527015, 44.000000000000007, 15.0 ],
+					"presentation_rect" : [ 53.296548255447291, 68.186031924527015, 44.000000000000007, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1074,7 +1074,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[177]",
+							"parameter_longname" : "live.numbox[140]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1118,7 +1118,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.text[209]",
+							"parameter_longname" : "live.text[33]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
@@ -1190,7 +1190,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[210]",
+							"parameter_longname" : "live.text[145]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1614,36 +1614,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-27" : [ "semitone", "live.numbox", 0 ],
-			"obj-37" : [ "live.text[209]", "live.numbox", 0 ],
-			"obj-39" : [ "live.numbox[177]", "live.numbox", 0 ],
-			"obj-46" : [ "live.text[44]", "live.text", 0 ],
-			"obj-5" : [ "live.text[15]", "live.text", 0 ],
-			"obj-56" : [ "live.text[210]", "live.text", 0 ],
-			"obj-72" : [ "live.numbox[36]", "live.numbox", 0 ],
-			"obj-75" : [ "Cutoff-DL", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

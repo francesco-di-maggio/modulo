@@ -339,7 +339,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.140615909090684, 380.297012329101562, 214.0, 57.5 ],
+					"patching_rect" : [ 41.140616000000001, 380.297011999999995, 214.0, 62.0 ],
 					"varname" : "mo.adc~",
 					"viewvisibility" : 1
 				}
@@ -349,7 +349,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 50.640615909090684, 438.0, 50.5, 438.0 ],
+					"midpoints" : [ 50.640616000000001, 444.0, 50.5, 444.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -357,7 +357,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 180.5, 366.0, 50.640615909090684, 366.0 ],
+					"midpoints" : [ 180.5, 366.0, 50.640616000000001, 366.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -365,7 +365,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 314.359384090909316, 366.0, 50.640615909090684, 366.0 ],
+					"midpoints" : [ 314.359384090909316, 366.0, 50.640616000000001, 366.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -373,7 +373,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 241.5, 366.0, 50.640615909090684, 366.0 ],
+					"midpoints" : [ 241.5, 366.0, 50.640616000000001, 366.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -389,7 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.640615909090684, 231.0, 50.640615909090684, 231.0 ],
+					"midpoints" : [ 50.640615909090684, 231.0, 50.640616000000001, 231.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -397,7 +397,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 117.640615909090684, 366.0, 50.640615909090684, 366.0 ],
+					"midpoints" : [ 117.640615909090684, 366.0, 50.640616000000001, 366.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -420,7 +420,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-14" : [ "live.text[224]", "live.text", 0 ],
 			"obj-1::obj-15" : [ "live.numbox[348]", "live.numbox", 0 ],
 			"obj-1::obj-18" : [ "live.gain~[5]", "volume", 0 ],
@@ -430,6 +429,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[348]"
 				}
 
 			}

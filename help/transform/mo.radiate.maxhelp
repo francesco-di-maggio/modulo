@@ -46,15 +46,16 @@
 					"id" : "obj-9",
 					"knobsize" : 8.0,
 					"maxclass" : "nodes",
-					"nodesnames" : [ "1" ],
-					"nsize" : [ 0.0 ],
+					"nodenumber" : 4,
+					"nodesnames" : [ "1", "2", "3", "4" ],
+					"nsize" : [ 0.638717348837209, 0.522438279069767, 0.52825223255814, 0.52825223255814 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 171.0, 425.9838293650796, 100.0, 100.0 ],
-					"xplace" : [ 0.5 ],
-					"yplace" : [ 0.5 ]
+					"xplace" : [ 0.180641325581395, 0.5, 0.76412611627907, 0.5 ],
+					"yplace" : [ 0.5, 0.238780860465116, 0.5, 0.76412611627907 ]
 				}
 
 			}
@@ -121,7 +122,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.140616000000001, 296.244563492063776, 70.0, 57.5 ],
+					"patching_rect" : [ 41.140616000000001, 296.244563000000028, 70.0, 62.0 ],
 					"varname" : "bbdmi.radiate",
 					"viewvisibility" : 1
 				}
@@ -314,7 +315,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.640616000000001, 354.0, 50.640616000000001, 354.0 ],
+					"midpoints" : [ 50.640616000000001, 360.0, 50.640616000000001, 360.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -362,7 +363,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.ray.maxpat",
+				"name" : "a-mo.radiate.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
+		"rect" : [ 732.0, 53.0, 1154.0, 993.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 1,
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -197,7 +197,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 313.0, 410.662493303418159, 39.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.5, 22.0, 39.0, 18.0 ],
+					"presentation_rect" : [ 16.5, 25.0, 39.0, 18.0 ],
 					"text" : "winsize"
 				}
 
@@ -412,7 +412,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 218.0, 84.0, 30.0, 30.0 ]
 				}
 
@@ -428,7 +428,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 303.75, 466.412493303418159, 31.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.089769542217255, 51.513406862386546, 31.0, 18.0 ],
+					"presentation_rect" : [ 20.089769542217255, 58.513406862386546, 31.0, 18.0 ],
 					"text" : "clock"
 				}
 
@@ -461,7 +461,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 253.0, 467.912493303418159, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 68.145552624830088, 62.447804123163252, 15.0 ],
+					"presentation_rect" : [ 4.0, 77.145552624830088, 62.447804123163252, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -585,7 +585,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 244.0, 286.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 37.532712210782847, 62.447804123163252, 15.0 ],
+					"presentation_rect" : [ 4.0, 42.532712210782847, 62.447804123163252, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

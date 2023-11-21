@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 				"box" : 				{
 					"comment" : "(anything)",
 					"id" : "obj-48",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -200,7 +200,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 231.349999785423392, 27.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.699619755148831, 21.0, 27.0, 18.0 ],
+					"presentation_rect" : [ 167.699619755148831, 24.0, 27.0, 18.0 ],
 					"text" : "port",
 					"textjustification" : 1
 				}
@@ -309,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 160.0, 230.349999785423392, 91.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.824619382619829, 36.936814519281199, 54.75000074505806, 14.869244888424873 ],
+					"presentation_rect" : [ 153.824619382619829, 41.936814519281199, 54.75000074505806, 14.869244888424873 ],
 					"rounded" : 0.0,
 					"text" : "7473",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -335,7 +335,7 @@
 				"box" : 				{
 					"comment" : "(message) port, mute",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -556,29 +556,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6" : [ "live.text[616]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

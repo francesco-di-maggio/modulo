@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"patching_rect" : [ 205.436693543195474, 91.899999856948909, 37.710407137870789, 15.904977381229401 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 36.871792723306498, 15.669682421792999, 15.0 ],
+					"presentation_rect" : [ 4.0, 41.871792723306498, 15.669682421792999, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -395,11 +395,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 286.349999785423392, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.941421547044769, 36.371792723306498, 186.890663961808428, 16.0 ],
+					"presentation_rect" : [ 21.941421547044769, 41.371792723306498, 186.890663961808428, 16.0 ],
 					"rounded" : 0.0,
-					"text" : "granulator",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 0,
 					"varname" : "set-"
 				}
 

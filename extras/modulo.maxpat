@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 53.0, 730.0, 730.0 ],
+		"rect" : [ 34.0, 53.0, 1852.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -359,7 +359,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.579268291592598, 260.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.158536583185196, 274.0, 676.341463416814804, 5.0 ],
+					"presentation_rect" : [ 26.167016357183456, 274.0, 675.182445853948593, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -475,7 +475,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 220.0, 332.861052992816838, 52.0, 23.0 ],
+					"patching_rect" : [ 240.0, 332.861052992816838, 52.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -505,7 +505,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 220.0, 279.954297363758087, 90.0, 40.045702636241913 ],
+					"patching_rect" : [ 240.0, 279.954297363758087, 90.0, 40.045702636241913 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 477.0, 294.0, 226.0, 74.0 ],
 					"rounded" : 20.0,
@@ -3222,7 +3222,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -4049,7 +4049,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -4977,7 +4977,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.5, 200.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.158536583185196, 213.665829000000031, 676.341463416814804, 5.0 ],
+					"presentation_rect" : [ 26.167016357183456, 213.665829000000031, 675.182445853948593, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -5140,8 +5140,8 @@
 					"patching_rect" : [ 21.5, 203.0, 680.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 24.158536583185196, 216.662162184715271, 680.0, 55.0 ],
-					"text" : "Think of it as a \"Lego\" set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!"
+					"presentation_rect" : [ 27.158536583185196, 216.662162184715271, 680.0, 55.0 ],
+					"text" : "Think of it as a LEGO® set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow."
 				}
 
 			}
@@ -5228,7 +5228,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 229.5, 321.0, 229.5, 321.0 ],
+					"midpoints" : [ 249.5, 321.0, 249.5, 321.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 487.0, 676.0 ],
+		"rect" : [ 34.0, 87.0, 487.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 604.5, 45.0, 45.0 ]
+					"patching_rect" : [ 303.0, 564.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.714745454545209, 614.0, 74.0, 25.0 ],
+					"patching_rect" : [ 390.714745454545209, 574.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 362.0, 617.0, 20.0, 20.0 ],
+					"patching_rect" : [ 362.0, 577.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -97,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 514.047930985689163, 138.0, 50.0 ],
+					"patching_rect" : [ 303.0, 474.047930985689163, 138.0, 50.0 ],
 					"text" : "NOTE:\nClick on each grid to \nturn on/off that channel"
 				}
 
@@ -174,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 603.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 563.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -275,7 +275,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 299.047930985689163, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 299.047931000000005, 214.0, 226.0 ],
 					"viewvisibility" : 1
 				}
 

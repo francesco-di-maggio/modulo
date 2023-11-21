@@ -420,7 +420,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 487.5, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 487.5, 214.0, 62.0 ],
 					"varname" : "mo.midiout",
 					"viewvisibility" : 1
 				}

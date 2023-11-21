@@ -70,7 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 460.0, 171.0, 67.0 ],
+					"patching_rect" : [ 41.0, 467.0, 171.0, 67.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
 					"signed" : 1,
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 344.951566703617459, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 344.951567000000011, 70.0, 96.0 ],
 					"varname" : "mo.joystick",
 					"viewvisibility" : 1
 				}
@@ -302,7 +302,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 432.0, 50.5, 432.0 ],
+					"midpoints" : [ 50.5, 441.0, 50.5, 441.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 

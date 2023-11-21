@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 305.5, 352.999999999999886, 50.0, 23.0 ]
+					"patching_rect" : [ 305.5, 357.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 318.499999999999886, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 318.5, 214.0, 62.0 ],
 					"varname" : "mo.receive",
 					"viewvisibility" : 1
 				}

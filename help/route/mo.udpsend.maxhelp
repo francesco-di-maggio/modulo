@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 456.369893655180931, 140.0, 23.0 ]
+					"patching_rect" : [ 276.0, 460.869893999999931, 140.0, 23.0 ]
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 421.869893655180931, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 421.869893999999988, 214.0, 62.0 ],
 					"varname" : "mo.udpsend",
 					"viewvisibility" : 1
 				}

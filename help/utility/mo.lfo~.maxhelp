@@ -196,13 +196,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.5, 166.0, 137.0, 24.0 ],
+									"patching_rect" : [ 99.5, 166.0, 144.0, 25.0 ],
 									"text" : "turn on/off generator "
 								}
 
@@ -210,13 +210,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.277777777777828, 370.0, 100.0, 24.0 ],
+									"patching_rect" : [ 485.277777777777828, 370.0, 101.0, 25.0 ],
 									"text" : "set amplitude "
 								}
 
@@ -224,13 +224,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 415.277777777777828, 329.0, 81.0, 24.0 ],
+									"patching_rect" : [ 415.277777777777828, 329.0, 83.0, 25.0 ],
 									"text" : "add offset "
 								}
 
@@ -366,13 +366,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-38",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.277777777777828, 288.0, 108.0, 24.0 ],
+									"patching_rect" : [ 327.277777777777828, 288.0, 107.0, 25.0 ],
 									"text" : "add smoothing "
 								}
 
@@ -380,13 +380,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-36",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.277777777777828, 248.0, 81.0, 24.0 ],
+									"patching_rect" : [ 234.277777777777828, 248.0, 79.0, 25.0 ],
 									"text" : "add noise "
 								}
 
@@ -394,13 +394,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-34",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 207.0, 94.0, 24.0 ],
+									"patching_rect" : [ 140.0, 207.0, 92.0, 25.0 ],
 									"text" : "freeze value "
 								}
 

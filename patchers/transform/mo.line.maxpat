@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -351,7 +351,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.219767393998779, 326.0, 27.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 22.0, 27.0, 18.0 ],
+					"presentation_rect" : [ 21.5, 25.0, 27.0, 18.0 ],
 					"text" : "time"
 				}
 
@@ -371,7 +371,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 276.872310342721619, 327.0, 47.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 39.371792723306498, 62.0, 15.0 ],
+					"presentation_rect" : [ 3.5, 43.371792723306498, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -413,7 +413,7 @@
 				"box" : 				{
 					"comment" : "(int) time",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -452,7 +452,7 @@
 				"box" : 				{
 					"comment" : "(list) ramped",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -464,7 +464,7 @@
 				"box" : 				{
 					"comment" : "(list) to ramp",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -707,30 +707,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.text[434]", "live.text", 0 ],
-			"obj-13" : [ "live.numbox[164]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

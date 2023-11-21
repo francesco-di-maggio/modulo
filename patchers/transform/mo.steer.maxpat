@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 460.0, 270.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.134197920560837, 22.0, 32.0, 18.0 ],
+					"presentation_rect" : [ 19.134197920560837, 25.0, 32.0, 18.0 ],
 					"text" : "mode"
 				}
 
@@ -185,7 +185,7 @@
 				"box" : 				{
 					"comment" : "(int) mode",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -234,7 +234,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 410.346773028373832, 272.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.0, 62.071744997519318, 15.0 ],
+					"presentation_rect" : [ 4.0, 43.0, 62.071744997519318, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1152,7 +1152,7 @@
 				"box" : 				{
 					"comment" : "(list) to steer",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1167,7 +1167,7 @@
 					"comment" : "(int, float) steered",
 					"hint" : "",
 					"id" : "obj-44",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1419,31 +1419,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[531]", "live.text", 0 ],
-			"obj-37" : [ "live.text[532]", "live.text", 0 ],
-			"obj-8" : [ "live.numbox[299]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

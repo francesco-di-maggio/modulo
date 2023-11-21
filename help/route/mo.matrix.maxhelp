@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 477.0, 640.0 ],
+		"rect" : [ 34.0, 87.0, 477.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -223,7 +223,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 560.499999999999886, 172.0, 61.0 ],
+					"patching_rect" : [ 41.0, 520.499999999999886, 172.0, 61.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -249,7 +249,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 272.499999999999886, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 272.5, 214.0, 226.0 ],
 					"varname" : "mo.matrix",
 					"viewvisibility" : 1
 				}
@@ -259,7 +259,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 540.0, 50.5, 540.0 ],
+					"midpoints" : [ 50.5, 501.0, 50.5, 501.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -352,6 +352,14 @@
 ,
 				"obj-1::obj-4" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
+				}
+,
+				"obj-1::obj-9" : 				{
+					"parameter_longname" : "live.text[247]"
 				}
 
 			}

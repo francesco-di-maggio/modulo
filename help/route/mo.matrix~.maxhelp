@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 482.0, 639.0 ],
+		"rect" : [ 34.0, 87.0, 482.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.33221094686894, 439.0, 48.0, 48.0 ]
+					"patching_rect" : [ 272.33221094686894, 520.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -71,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.04695640141415, 450.0, 74.0, 25.0 ],
+					"patching_rect" : [ 360.04695640141415, 531.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -91,7 +91,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 331.33221094686894, 453.0, 20.0, 20.0 ],
+					"patching_rect" : [ 331.33221094686894, 534.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -109,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 574.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 520.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 272.499999999999886, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 272.5, 214.0, 226.0 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
 				}
@@ -328,7 +328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 50.5, 540.0, 50.5, 540.0 ],
+					"midpoints" : [ 50.5, 501.0, 50.5, 501.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

@@ -369,7 +369,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 253.168117914348841, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 253.168117999999993, 214.0, 62.0 ],
 					"varname" : "mo.monitor",
 					"viewvisibility" : 1
 				}

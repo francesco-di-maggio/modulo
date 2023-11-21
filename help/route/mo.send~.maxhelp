@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 291.255791574060595, 431.0, 177.0, 24.999999999999886 ]
+					"patching_rect" : [ 291.255791574060595, 435.500000000000114, 177.0, 24.999999999999886 ]
 				}
 
 			}
@@ -391,7 +391,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 398.499999999999886, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 398.5, 214.0, 62.0 ],
 					"varname" : "mo.send~",
 					"viewvisibility" : 1
 				}

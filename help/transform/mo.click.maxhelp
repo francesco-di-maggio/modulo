@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 41.0, 361.0, 77.0, 23.0 ],
+					"patching_rect" : [ 41.0, 371.0, 77.0, 23.0 ],
 					"text" : "unpack 0 0 0"
 				}
 
@@ -431,7 +431,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 295.0, 70.0, 45.0 ],
+					"patching_rect" : [ 41.0, 295.0, 70.0, 62.0 ],
 					"varname" : "mo.click",
 					"viewvisibility" : 1
 				}
@@ -441,6 +441,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 50.5, 360.0, 50.5, 360.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -472,6 +473,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 108.5, 396.0, 108.5, 396.0 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -479,6 +481,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 50.5, 396.0, 50.5, 396.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -486,6 +489,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 79.5, 396.0, 79.5, 396.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 

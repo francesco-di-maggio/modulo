@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 433.0, 668.0 ],
+		"rect" : [ 34.0, 87.0, 433.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 96.0, 620.0, 50.0, 23.0 ]
+					"patching_rect" : [ 96.0, 590.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 620.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 590.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 41.0, 580.0, 74.0, 23.0 ],
+					"patching_rect" : [ 41.0, 550.0, 74.0, 23.0 ],
 					"text" : "unpack 0. 0."
 				}
 
@@ -256,7 +256,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 291.5, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 291.5, 214.0, 226.0 ],
 					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
@@ -298,6 +298,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 50.5, 519.0, 50.5, 519.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -321,6 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 105.5, 576.0, 105.5, 576.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -328,6 +330,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 50.5, 576.0, 50.5, 576.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

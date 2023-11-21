@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 381.951566703617459, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 381.951567000000011, 70.0, 96.0 ],
 					"varname" : "mo.shake",
 					"viewvisibility" : 1
 				}
@@ -412,7 +412,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 471.0, 50.5, 471.0 ],
+					"midpoints" : [ 50.5, 480.0, 50.5, 480.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -441,12 +441,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-7::obj-12" : 				{
+					"parameter_longname" : "live.text[429]"
+				}
+,
 				"obj-7::obj-13" : 				{
-					"parameter_initial" : 0.5
+					"parameter_initial" : 0.5,
+					"parameter_longname" : "live.numbox[160]"
 				}
 ,
 				"obj-7::obj-14" : 				{
-					"parameter_initial" : 0.5
+					"parameter_initial" : 0.5,
+					"parameter_longname" : "live.numbox[1]"
 				}
 ,
 				"obj-7::obj-28" : 				{

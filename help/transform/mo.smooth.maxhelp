@@ -218,7 +218,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 41.0, 255.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 255.0, 70.0, 62.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}

@@ -169,7 +169,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 204.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 204.0, 70.0, 62.0 ],
 					"varname" : "mo.adstatus",
 					"viewvisibility" : 1
 				}
@@ -224,6 +224,10 @@
 			"parameter_overrides" : 			{
 				"obj-2::obj-7" : 				{
 					"parameter_longname" : "live.dial[7]"
+				}
+,
+				"obj-2::obj-9" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 
 			}

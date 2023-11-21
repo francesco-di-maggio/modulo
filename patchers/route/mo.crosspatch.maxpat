@@ -408,7 +408,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[555]",
+							"parameter_longname" : "live.text[121]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -845,7 +845,7 @@
 				"box" : 				{
 					"comment" : "(message) ins, outs, clear, mute",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1576,7 +1576,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 106.0, 69.500000000000028, 50.0, 23.0 ]
+													"patching_rect" : [ 95.0, 69.500000000000028, 50.0, 23.0 ]
 												}
 
 											}
@@ -1599,7 +1599,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 106.0, 116.000000000000028, 31.0, 23.0 ],
+													"patching_rect" : [ 95.0, 116.000000000000028, 31.0, 23.0 ],
 													"text" : "* 16"
 												}
 
@@ -1625,7 +1625,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 106.0, 28.000000000000028, 30.0, 30.0 ]
+													"patching_rect" : [ 95.0, 28.000000000000028, 30.0, 30.0 ]
 												}
 
 											}
@@ -1653,7 +1653,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-36", 3 ],
-													"midpoints" : [ 115.5, 141.0, 104.5, 141.0 ],
+													"midpoints" : [ 104.5, 141.0, 104.5, 141.0 ],
 													"source" : [ "obj-34", 0 ]
 												}
 
@@ -1687,7 +1687,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
-													"midpoints" : [ 115.5, 102.0, 199.5, 102.0 ],
+													"midpoints" : [ 104.5, 102.0, 199.5, 102.0 ],
 													"order" : 0,
 													"source" : [ "obj-5", 0 ]
 												}
@@ -1696,7 +1696,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-34", 0 ],
-													"midpoints" : [ 115.5, 93.0, 115.5, 93.0 ],
+													"midpoints" : [ 104.5, 93.0, 104.5, 93.0 ],
 													"order" : 1,
 													"source" : [ "obj-5", 0 ]
 												}
@@ -1705,7 +1705,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
-													"midpoints" : [ 115.5, 60.0, 115.5, 60.0 ],
+													"midpoints" : [ 104.5, 60.0, 104.5, 60.0 ],
 													"source" : [ "obj-7", 0 ]
 												}
 
@@ -2452,7 +2452,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[110]",
+							"parameter_longname" : "live.numbox[83]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -2542,7 +2542,7 @@
 				"box" : 				{
 					"comment" : "(list) routed",
 					"id" : "obj-54",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2618,7 +2618,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[131]",
+							"parameter_longname" : "live.numbox[73]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -2648,7 +2648,7 @@
 				"box" : 				{
 					"comment" : "(list) to route",
 					"id" : "obj-41",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3292,40 +3292,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[298]", "live.text", 0 ],
-			"obj-2" : [ "live.text[297]", "live.text", 0 ],
-			"obj-37" : [ "live.numbox[131]", "live.numbox", 0 ],
-			"obj-39" : [ "live.numbox[110]", "live.numbox", 0 ],
-			"obj-42" : [ "live.text[555]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

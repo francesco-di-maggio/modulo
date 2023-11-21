@@ -145,7 +145,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 364.0, 172.0, 23.0 ],
+					"patching_rect" : [ 41.0, 369.0, 172.0, 23.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"spacing" : 2
@@ -215,7 +215,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 290.951566703617459, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 290.951567000000011, 70.0, 62.0 ],
 					"varname" : "mo.latch",
 					"viewvisibility" : 1
 				}
@@ -233,7 +233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 50.5, 351.0, 50.5, 351.0 ],
+					"midpoints" : [ 50.5, 354.0, 50.5, 354.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

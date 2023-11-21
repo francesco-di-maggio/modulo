@@ -46,7 +46,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 343.0, 45.0, 45.0 ]
+					"patching_rect" : [ 160.0, 347.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.222703319138759, 352.5, 74.0, 25.0 ],
+					"patching_rect" : [ 244.222703319138759, 356.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 215.50795786459355, 355.5, 20.0, 20.0 ],
+					"patching_rect" : [ 215.50795786459355, 359.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -327,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 341.5, 70.0, 48.0 ]
+					"patching_rect" : [ 41.0, 345.5, 70.0, 48.0 ]
 				}
 
 			}
@@ -439,7 +439,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 41.0, 288.0, 70.0, 28.0 ],
+					"patching_rect" : [ 41.0, 288.0, 70.0, 30.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -449,6 +449,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
+					"midpoints" : [ 101.680917583405972, 276.0, 101.5, 276.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -456,6 +457,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 50.5, 321.0, 50.5, 321.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -463,6 +465,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 50.5, 231.0, 50.5, 231.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -470,6 +473,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -488,6 +492,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-17::obj-52" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-17::obj-6" : 				{
 					"parameter_longname" : "live.text[19]"
 				}

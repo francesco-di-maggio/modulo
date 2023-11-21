@@ -358,7 +358,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 397.297012329101562, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 397.297011999999995, 70.0, 62.0 ],
 					"varname" : "mo.xbendout",
 					"viewvisibility" : 1
 				}
@@ -486,12 +486,19 @@
 		"parameters" : 		{
 			"obj-4::obj-45" : [ "live.text[626]", "live.text", 0 ],
 			"obj-4::obj-6" : [ "live.text[627]", "live.text", 0 ],
-			"obj-4::obj-64" : [ "live.numbox[424]", "live.numbox", 0 ],
+			"obj-4::obj-72" : [ "live.numbox[655]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-4::obj-45" : 				{
+					"parameter_longname" : "live.text[626]"
 				}
 
 			}

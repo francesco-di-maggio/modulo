@@ -274,7 +274,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 288.0, 70.0, 28.0 ],
+					"patching_rect" : [ 41.0, 288.0, 70.0, 30.0 ],
 					"varname" : "mo.snapshot~",
 					"viewvisibility" : 1
 				}
@@ -284,6 +284,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 50.5, 231.0, 50.5, 231.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -291,6 +292,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 50.5, 192.0, 50.5, 192.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -298,6 +300,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 50.5, 321.0, 50.5, 321.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -305,6 +308,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 101.680917583405972, 276.0, 101.5, 276.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -323,6 +327,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-3::obj-1" : 				{
+					"parameter_longname" : "live.text[71]"
+				}
+,
 				"obj-3::obj-32" : 				{
 					"parameter_longname" : "live.numbox[6]"
 				}

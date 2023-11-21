@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
+		"rect" : [ 1011.0, 53.0, 875.0, 993.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,7 @@
 				"box" : 				{
 					"comment" : "(anything) transmitter",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -286,7 +286,7 @@
 				"box" : 				{
 					"comment" : "(anything) receiver",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1007,7 +1007,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 709.90126629102781, 240.126276284456253, 23.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.132189824653828, 16.906333163380623, 15.0 ],
+					"presentation_rect" : [ 4.0, 43.132189824653828, 16.906333163380623, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1123,7 +1123,7 @@
 				"box" : 				{
 					"comment" : "(message) refresh, port, baud, mute",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1179,7 +1179,7 @@
 					"patching_rect" : [ 360.0, 525.0, 129.707317113876343, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 22.05472107950667, 36.148713290168011, 187.945278920493337, 20.0 ],
+					"presentation_rect" : [ 22.05472107950667, 41.148713290168011, 187.945278920493337, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -1199,7 +1199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 525.0, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.05472107950667, 39.132189824653828, 187.017664946875783, 13.3767827898264 ],
+					"presentation_rect" : [ 22.05472107950667, 44.132189824653828, 187.017664946875783, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -1513,30 +1513,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[174]", "live.text", 0 ],
-			"obj-6" : [ "live.text[175]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

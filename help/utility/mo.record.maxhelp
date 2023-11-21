@@ -790,7 +790,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 197.0, 267.5, 20.0, 20.0 ],
+									"patching_rect" : [ 198.0, 267.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -885,7 +885,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 163.0, 265.0, 24.0, 24.0 ]
+									"patching_rect" : [ 164.0, 265.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -896,7 +896,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 163.0, 306.0, 61.0, 23.0 ],
+									"patching_rect" : [ 164.0, 306.0, 61.0, 23.0 ],
 									"text" : "record $1"
 								}
 
@@ -1125,7 +1125,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
-									"midpoints" : [ 172.5, 291.0, 172.5, 291.0 ],
+									"midpoints" : [ 173.5, 291.0, 173.5, 291.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -1133,7 +1133,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
-									"midpoints" : [ 172.5, 399.0, 245.324253082275391, 399.0 ],
+									"midpoints" : [ 173.5, 399.0, 245.324253082275391, 399.0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1274,6 +1274,10 @@
 					"parameter_longname" : "live.button[5]"
 				}
 ,
+				"obj-38::obj-3::obj-2" : 				{
+					"parameter_longname" : "live.text[92]"
+				}
+,
 				"obj-38::obj-3::obj-21" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
@@ -1317,6 +1321,10 @@
 					"parameter_longname" : "live.text[14]"
 				}
 ,
+				"obj-38::obj-3::obj-9" : 				{
+					"parameter_longname" : "live.text[65]"
+				}
+,
 				"obj-38::obj-3::obj-92" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[2]",
@@ -1338,18 +1346,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "filledcircle.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.record.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -1357,8 +1353,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

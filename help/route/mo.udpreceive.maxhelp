@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 315.869893655180931, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 315.869893999999988, 214.0, 62.0 ],
 					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}

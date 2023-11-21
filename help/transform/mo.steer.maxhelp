@@ -229,7 +229,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 284.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 284.0, 70.0, 62.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -240,6 +240,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 50.5, 165.0, 50.5, 165.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -247,7 +248,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 50.5, 342.0, 50.5, 342.0 ],
+					"midpoints" : [ 50.5, 348.0, 50.5, 348.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 

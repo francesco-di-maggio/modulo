@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 575.0, 458.0 ],
+		"rect" : [ 34.0, 87.0, 560.0, 458.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 378.499999999999886, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 378.5, 214.0, 62.0 ],
 					"varname" : "mo.launch",
 					"viewvisibility" : 1
 				}

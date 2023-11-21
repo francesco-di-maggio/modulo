@@ -1465,7 +1465,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 120.0, 455.5, 210.0, 184.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.469687820569085, 68.578389200742151, 197.5238907337189, 187.523890733718872 ],
+					"presentation_rect" : [ 8.469687820569085, 68.578389200742151, 198.5238907337189, 188.523890733718872 ],
 					"saved_attribute_attributes" : 					{
 						"bgrulercolor" : 						{
 							"expression" : "themecolor.live_value_bar"

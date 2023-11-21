@@ -41,6 +41,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -305,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 291.777777045965195, 33.0, 23.0 ],
+					"patching_rect" : [ 499.0, 291.777777045965195, 33.0, 23.0 ],
 					"text" : "rand"
 				}
 
@@ -377,7 +378,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 569.5, 330.0, 245.5, 330.0 ],
+					"midpoints" : [ 508.5, 330.0, 245.5, 330.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 

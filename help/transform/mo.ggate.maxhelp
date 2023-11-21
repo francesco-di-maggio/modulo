@@ -140,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 520.0, 71.0, 23.0 ]
+					"patching_rect" : [ 40.0, 526.0, 71.0, 23.0 ]
 				}
 
 			}
@@ -263,7 +263,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 400.0, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 400.0, 70.0, 96.0 ],
 					"varname" : "mo.ggate",
 					"viewvisibility" : 1
 				}
@@ -332,7 +332,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 50.5, 507.0, 101.5, 507.0 ],
+					"midpoints" : [ 50.5, 513.0, 101.5, 513.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 

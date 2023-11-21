@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
+		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,33 +40,6 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
-					"border" : 1.0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 15.0,
-					"id" : "obj-16",
-					"keymode" : 1,
-					"lines" : 1,
-					"maxclass" : "textedit",
-					"nosymquotes" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 50.917905882000923, 29.371792723306498, 157.582094117999077, 23.0 ],
-					"rounded" : 0.0,
-					"text" : "0 : 0 : 0 . 0",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-18",
@@ -320,7 +293,7 @@
 					"patching_rect" : [ 280.923077702522278, 282.702751239560826, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.40338771045208, 3.756218925118446, 42.094124719500542, 15.0 ],
+					"presentation_rect" : [ 168.40338771045208, 3.756218925118446, 42.094124719500542, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -436,7 +409,7 @@
 					"patching_rect" : [ 175.0, 170.0, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 28.371792723306498, 43.218688815832138, 25.165484204888344 ],
+					"presentation_rect" : [ 3.5, 26.371792723306498, 43.218688815832138, 32.165484204888344 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -499,6 +472,52 @@
 
 					}
 
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
+					"border" : 0.0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 15.0,
+					"id" : "obj-16",
+					"keymode" : 1,
+					"lines" : 1,
+					"maxclass" : "textedit",
+					"nosymquotes" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.917905882000923, 31.876297225126109, 157.582094117999077, 21.891891896724701 ],
+					"rounded" : 0.0,
+					"text" : "0 : 0 : 0 . 0",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-5",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 50.917905882000923, 27.371792723306498, 158.582094117999077, 30.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}

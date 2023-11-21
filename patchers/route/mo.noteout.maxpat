@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -313,19 +313,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 450.95238095238085, 494.298206316836968, 54.0, 23.0 ],
 					"text" : "route int"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 486.23809523809507, 137.649103158418484, 23.0, 23.0 ],
-					"text" : "t b"
 				}
 
 			}
@@ -695,7 +682,7 @@
 					"fontsize" : 9.5,
 					"hint" : "midi output port",
 					"id" : "obj-49",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -920,8 +907,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 495.966666666666526, 130.0, 495.73809523809507, 130.0 ],
+					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 495.966666666666526, 130.0, 495.73809523809507, 130.0, 495.73809523809507, 163.0, 495.73809523809507, 163.0 ],
 					"source" : [ "obj-32", 2 ]
 				}
 
@@ -973,14 +960,6 @@
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 637.690487504005432, 697.0, 637.690487504005432, 697.0 ],
 					"source" : [ "obj-49", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 495.73809523809507, 163.0, 495.73809523809507, 163.0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}

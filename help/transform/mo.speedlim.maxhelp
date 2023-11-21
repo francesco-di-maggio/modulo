@@ -214,7 +214,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 255.0, 70.0, 57.5 ],
+					"patching_rect" : [ 41.0, 255.0, 70.0, 62.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -224,7 +224,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 50.5, 315.0, 50.5, 315.0 ],
+					"midpoints" : [ 50.5, 318.0, 50.5, 318.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 

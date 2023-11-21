@@ -310,7 +310,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.0, 432.999999999999886, 109.0, 23.0 ],
+					"patching_rect" : [ 307.0, 437.5, 109.0, 23.0 ],
 					"text" : "mc.send~ receive~"
 				}
 
@@ -331,7 +331,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 398.499999999999886, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 398.5, 214.0, 62.0 ],
 					"varname" : "mo.receive",
 					"viewvisibility" : 1
 				}
@@ -389,7 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 50.5, 456.0, 50.5, 456.0 ],
+					"midpoints" : [ 50.5, 462.0, 50.5, 462.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

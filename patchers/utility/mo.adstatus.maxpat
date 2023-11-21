@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -997,7 +997,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-201",
-									"items" : [ "None", ",", "Built-in Output", ",", "BlackHole", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "UMC1820", ",", "BlackHole", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1366,7 +1366,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-104",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "BlackHole", ",", "ZoomAudioDevice", ",", "Aggregate Device" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "UMC1820", ",", "BlackHole", ",", "ZoomAudioDevice", ",", "Aggregate Device" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2155,7 +2155,7 @@
 				"box" : 				{
 					"comment" : "(int) open close",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2214,7 +2214,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 157.0, 39.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 29.0, 62.384166352946124, 25.0 ],
+					"presentation_rect" : [ 4.0, 26.0, 62.384166352946124, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2424,32 +2424,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[291]", "live.text", 0 ],
-			"obj-317::obj-218" : [ "live.text[290]", "live.text[33]", 0 ],
-			"obj-317::obj-219" : [ "live.text[289]", "live.text[33]", 0 ],
-			"obj-7" : [ "live.dial[36]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

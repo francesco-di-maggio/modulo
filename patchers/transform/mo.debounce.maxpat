@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 70.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -208,7 +208,7 @@
 				"box" : 				{
 					"comment" : "(int) time",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -226,7 +226,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 189.811080531278947, 252.5512318642526, 27.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.5, 22.0, 27.0, 18.0 ],
+					"presentation_rect" : [ 21.5, 25.0, 27.0, 18.0 ],
 					"text" : "time"
 				}
 
@@ -318,7 +318,7 @@
 				"box" : 				{
 					"comment" : "(list) debounced",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -330,7 +330,7 @@
 				"box" : 				{
 					"comment" : "(list) to debounce",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -354,7 +354,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 189.811080531278947, 272.5512318642526, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 38.371792723306498, 62.03719088435173, 15.0 ],
+					"presentation_rect" : [ 3.5, 43.371792723306498, 62.03719088435173, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -586,30 +586,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-5" : [ "live.dial[14]", "live.dial[20]", 0 ],
-			"obj-9" : [ "live.text[428]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

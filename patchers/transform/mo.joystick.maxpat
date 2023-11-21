@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -140,7 +140,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1198.5, 246.5, 159.999999999999972, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 70.0, 62.368134796619415, 10.815117426216602 ],
+					"presentation_rect" : [ 4.0, 79.0, 62.368134796619415, 10.815117426216602 ],
 					"saved_attribute_attributes" : 					{
 						"fgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -166,7 +166,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1198.5, 247.449077622417462, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 69.0, 60.949961081147194, 13.277105666697025 ],
+					"presentation_rect" : [ 5.0, 78.0, 60.949961081147194, 13.277105666697025 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -447,7 +447,7 @@
 				"box" : 				{
 					"comment" : "(float) processed",
 					"id" : "obj-158",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1024,7 +1024,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1370.780916628904379, 245.449077622417462, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.645218167454004, 52.0, 33.0, 18.0 ],
+					"presentation_rect" : [ 18.645218167454004, 59.0, 33.0, 18.0 ],
 					"text" : "origin"
 				}
 
@@ -1090,7 +1090,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[391]",
+							"parameter_longname" : "live.text[833]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1193,7 +1193,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 777.846773028373718, 26.947086691856384, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 22.0, 51.0, 18.0 ],
+					"presentation_rect" : [ 9.5, 25.0, 51.0, 18.0 ],
 					"text" : "sensitivity"
 				}
 
@@ -1202,7 +1202,7 @@
 				"box" : 				{
 					"comment" : "(message) origin, sensitivity",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1245,7 +1245,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 727.413119053509945, 28.947086691856384, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.0, 62.290436334908009, 15.0 ],
+					"presentation_rect" : [ 4.0, 43.0, 62.290436334908009, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1266,7 +1266,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[116]",
+							"parameter_longname" : "live.numbox[328]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -1322,7 +1322,7 @@
 				"box" : 				{
 					"comment" : "(float) to process",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2028,30 +2028,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-18" : [ "live.numbox[116]", "live.numbox", 0 ],
-			"obj-20" : [ "live.text[391]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
