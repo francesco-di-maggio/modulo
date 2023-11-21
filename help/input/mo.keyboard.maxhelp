@@ -443,7 +443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 465.0, 226.0, 87.0 ],
+					"patching_rect" : [ 41.0, 465.0, 226.0, 77.0 ],
 					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}

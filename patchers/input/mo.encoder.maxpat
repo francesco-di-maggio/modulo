@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 53.0, 55.0, 77.0 ],
 		"openrect" : [ 0.0, 0.0, 55.0, 77.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -879,7 +879,7 @@
 					}
 ,
 					"size" : 1.0,
-					"thickness" : 20.0,
+					"thickness" : 30.0,
 					"varname" : "encoder-"
 				}
 

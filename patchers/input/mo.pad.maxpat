@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 53.0, 55.0, 77.0 ],
 		"openrect" : [ 0.0, 0.0, 55.0, 77.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -773,6 +773,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -791,6 +792,7 @@
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-2",
 					"maxclass" : "live.text",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -939,7 +941,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 27.0, 45.0, 45.0 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"shape" : 1
 				}
 
 			}

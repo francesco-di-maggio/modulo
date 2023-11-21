@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
-		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -203,7 +203,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
-					"border" : 1.0,
+					"border" : 0.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -219,9 +219,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 300.00349561373389, 320.869429976851961, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.363086684400514, -0.058990031480789, 181.724848001946157, 15.0 ],
+					"presentation_rect" : [ 26.996411346901908, 0.871792723306498, 193.317516028631871, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "x",
+					"text" : "TEST",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "set-"
 				}
@@ -378,7 +378,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 126.666666666666657, 320.869429976851961, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, -0.058990031480789, 19.841263920068741, 15.0 ],
+					"presentation_rect" : [ 4.0, -0.058990031480789, 18.841263920068741, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -443,6 +443,25 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.666666666666657, 560.999996999999894, 94.0, 23.0 ],
 					"text" : "join @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-13",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 301.50349561373389, 320.869429976851961, 92.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 195.483618820945964, 13.593006536364555 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 592.0, 264.0, 141.0, 23.0 ],
-					"restore" : [ "Keyboard Backlight" ],
+					"restore" : [ "Logitech Extreme 3D" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -302,8 +302,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.912280082702637, 310.842105031013602, 45.0, 23.0 ],
-					"text" : "poll 10"
+					"patching_rect" : [ 106.912280082702637, 310.842105031013602, 38.0, 23.0 ],
+					"text" : "poll 5"
 				}
 
 			}
@@ -321,7 +321,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Logitech Extreme 3D", ",", "Magic Keyboard", ",", "Magic Keyboard 2", ",", "Magic Keyboard 3", ",", "Magic Trackpad 2", ",", "Magic Trackpad 2 2", ",", "Magic Trackpad 2 3", ",", "Magic Trackpad 2 4", ",", "Magic Keyboard 4", ",", "Magic Trackpad 2 5", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -330,7 +330,7 @@
 					"patching_rect" : [ 186.964911460876465, 312.342105031013602, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 21.877244924252835, 40.872827489742122, 187.928458651412313, 20.0 ],
+					"presentation_rect" : [ 21.877244924252835, 23.872827489742122, 199.928458651412313, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -350,7 +350,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.964911460876465, 311.342105031013602, 101.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.877244924252835, 43.628174488314471, 187.928458651412313, 13.420286163687706 ],
+					"presentation_rect" : [ 21.877244924252835, 26.628174488314471, 199.928458651412313, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -391,7 +391,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 329.333875066108249, 211.0, 48.96437227123306, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 43.372827489742122, 17.284977346658707, 15.0 ],
+					"presentation_rect" : [ 3.5, 26.372827489742122, 17.284977346658707, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -433,7 +433,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.306426948308967, 63.061403393745536, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

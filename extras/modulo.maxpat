@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 53.0, 1852.0, 993.0 ],
+		"rect" : [ 34.0, 53.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -1870,7 +1870,7 @@
 														"Blinker" : [ "mo-blinker" ],
 														"Conditioner" : [ "mo-conditioner" ],
 														"Interpolator" : [ "mo-interpolator" ],
-														"Legos" : [ "mo-legos" ],
+														"LEGO®" : [ "mo-legos" ],
 														"Many To One" : [ "mo-many2one" ],
 														"Mapper" : "mo-mapper",
 														"Max To DAW" : "mo-max2daw",
@@ -2106,14 +2106,13 @@
 									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-33",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 491.0, 38.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 491.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  transform a normalized value into a different set of values  –",
 									"textjustification" : 1
 								}
 
@@ -2684,7 +2683,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  computer keyboard arrows  –",
 									"textjustification" : 1
 								}
 
@@ -2811,7 +2810,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"mo.arrows" : "computer keyboard arrows",
+														"mo.arrow" : "computer keyboard arrows",
 														"mo.dial" : "a single customizable dial",
 														"mo.encoder" : "a single customizable encoder",
 														"mo.grid" : "a live grid sequencer",
@@ -3206,7 +3205,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -3222,7 +3221,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -3613,7 +3612,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"input" : [ "mo.arrows", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+														"input" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.radiate", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer" ],
 														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
@@ -3830,7 +3829,7 @@
 												"box" : 												{
 													"data" : 													{
 														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
-														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "Legos", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
+														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3996,7 +3995,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -4049,7 +4048,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
+											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -5420,6 +5419,14 @@
 ,
 				"obj-7::obj-48::obj-45" : 				{
 					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-7::obj-48::obj-53" : 				{
+					"parameter_longname" : "live.text[778]"
+				}
+,
+				"obj-7::obj-48::obj-9" : 				{
+					"parameter_longname" : "live.text[779]"
 				}
 
 			}

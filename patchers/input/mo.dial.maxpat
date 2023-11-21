@@ -359,7 +359,7 @@
 					}
 ,
 					"size" : 1.0,
-					"thickness" : 20.0,
+					"thickness" : 30.0,
 					"varname" : "dial-"
 				}
 

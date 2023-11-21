@@ -136,8 +136,8 @@
 
 					}
 ,
-					"text" : "num",
-					"texton" : "num",
+					"text" : "nmbr",
+					"texton" : "nmbr",
 					"varname" : "mute-"
 				}
 

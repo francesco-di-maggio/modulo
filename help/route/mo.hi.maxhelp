@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 523.0, 388.0 ],
+		"rect" : [ 34.0, 87.0, 523.0, 373.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.000000000000028, 348.0, 142.0, 23.0 ]
+					"patching_rect" : [ 41.000000000000028, 328.0, 142.0, 23.0 ]
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 41.0, 259.0, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 259.0, 226.0, 45.0 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}
@@ -230,7 +230,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 50.5, 333.0, 173.500000000000028, 333.0 ],
+					"midpoints" : [ 50.5, 315.0, 173.500000000000028, 315.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 

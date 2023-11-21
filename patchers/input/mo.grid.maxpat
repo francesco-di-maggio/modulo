@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 226.0, 235.0 ],
 		"openrect" : [ 0.0, 0.0, 226.0, 235.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -488,7 +488,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 152.4375, 192.0, 89.0, 12.999999999999943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.621067820425878, 44.064706000000001, 16.691176533699036, 13.0 ],
+					"presentation_rect" : [ 140.621067820425878, 43.064706000000001, 16.691176533699036, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -538,7 +538,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 138.4375, 210.5, 89.0, 12.999999999999943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.929891286726843, 44.064706000000001, 16.691176533699036, 13.0 ],
+					"presentation_rect" : [ 123.929891286726843, 43.064706000000001, 16.691176533699036, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -588,7 +588,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 168.4375, 229.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.312244354124914, 43.064706000000001, 44.0, 15.0 ],
+					"presentation_rect" : [ 158.312244354124914, 42.064706000000001, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -936,7 +936,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 290.0, 83.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.882619620843755, 43.064706000000001, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 78.882619620843755, 42.064706000000001, 41.211923710922434, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -999,7 +999,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 356.600000000000023, 84.5, 36.399999999999977, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 43.064706000000001, 25.324461452703645, 15.0 ],
+					"presentation_rect" : [ 4.0, 42.064706000000001, 25.324461452703645, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1061,7 +1061,7 @@
 					"patching_rect" : [ 46.5, 83.0, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.83534795496066, 43.064706000000001, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 33.83534795496066, 42.064706000000001, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1426,7 +1426,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 784.5, 26.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 61.064706000000001, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 59.064706000000001, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
