@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
-		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -273,17 +273,16 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
-					"format" : 6,
 					"htricolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 					"id" : "obj-39",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 87.666666666666657, 622.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.22682016496438, -2.328377675265074, 117.282911465519874, 20.0 ],
+					"presentation_rect" : [ 92.22682016496438, -2.328377675265074, 128.282911465519874, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
@@ -981,7 +980,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[64]",
+							"parameter_longname" : "live.text[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1140,7 +1139,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[211]",
+							"parameter_longname" : "live.text[184]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1246,7 +1245,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.666666666666657, 622.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.524109222074316, 1.033069491386414, 118.985622408409938, 13.277105666697025 ],
+					"presentation_rect" : [ 90.524109222074316, 1.033069491386414, 129.985622408409938, 13.277105666697025 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
