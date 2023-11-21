@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 608.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 608.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.005791574060538, 739.0, 68.0, 21.0 ],
+					"patching_rect" : [ 216.005791574060538, 719.0, 68.0, 21.0 ],
 					"text" : "step values"
 				}
 
@@ -321,8 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 738.0, 169.0, 23.0 ],
-					"text" : "4 74 78 120. 127 127"
+					"patching_rect" : [ 41.0, 718.0, 169.0, 23.0 ]
 				}
 
 			}
@@ -409,7 +408,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 41.0, 446.5, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 446.5, 226.0, 235.0 ],
 					"varname" : "mo.step",
 					"viewvisibility" : 1
 				}
@@ -531,7 +530,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 50.5, 723.0, 200.5, 723.0 ],
+					"midpoints" : [ 50.5, 705.0, 200.5, 705.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -546,81 +545,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-10" : [ "live.text[19]", "live.text", 0 ],
-			"obj-5::obj-3" : [ "live.text[92]", "live.text", 0 ],
-			"obj-5::obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-5::obj-10" : [ "live.text[825]", "live.text", 0 ],
+			"obj-5::obj-3" : [ "live.text[262]", "live.text", 0 ],
+			"obj-5::obj-35" : [ "live.numbox[78]", "live.numbox", 0 ],
 			"obj-5::obj-39" : [ "live.step[2]", "live.step", 0 ],
-			"obj-5::obj-4" : [ "live.text[2]", "live.text", 0 ],
-			"obj-5::obj-42" : [ "live.text[4]", "live.text", 0 ],
-			"obj-5::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-5::obj-66" : [ "live.text[6]", "live.text", 0 ],
-			"obj-5::obj-69" : [ "live.text[5]", "live.text", 0 ],
+			"obj-5::obj-4" : [ "live.text[843]", "live.text", 0 ],
+			"obj-5::obj-42" : [ "live.text[245]", "live.text", 0 ],
+			"obj-5::obj-59" : [ "live.numbox[79]", "live.numbox", 0 ],
+			"obj-5::obj-66" : [ "live.text[246]", "live.text", 0 ],
+			"obj-5::obj-69" : [ "live.text[232]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-10" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-5::obj-3" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[92]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-35" : 				{
-					"parameter_longname" : "live.numbox[7]"
-				}
-,
-				"obj-5::obj-39" : 				{
-					"parameter_initial" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 127, 127, 63, 83, 4, 127, 127, 67, 57, 4, 127, 127, 74, 78, 4, 127, 127, 70, 35, 4, 127, 127, 67, 75, 4, 127, 127, 60, 114, 4, 127, 127, 70, 75, 4, 127, 127, 67, 59, 4, 127, 127, 79, 80, 4, 127, 127, 60, 100, 4, 127, 127, 70, 84, 4, 127, 127, 60, 114, 4, 127, 127, 63, 98, 4, 127, 127, 70, 97, 4, 127, 127, 62, 103, 4, 127, 127 ],
-					"parameter_initial_enable" : 1
-				}
-,
-				"obj-5::obj-4" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[2]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-42" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[4]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-59" : 				{
-					"parameter_longname" : "live.numbox[1]",
-					"parameter_range" : [ 20.0, 240.0 ]
-				}
-,
-				"obj-5::obj-66" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[6]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-69" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[5]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
 				}
 
 			}

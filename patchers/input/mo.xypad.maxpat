@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 226.0 ],
+		"rect" : [ 800.0, 53.0, 606.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 235.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -297,7 +297,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 146.0, 242.101953774690628, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.17419306173872, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 177.17419306173872, 4.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -357,7 +357,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 56.0, 242.101953774690628, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.675538547296355, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 130.675538547296355, 4.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -558,7 +558,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 56.0, 419.0, 109.0, 105.263157844543457 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.805525363579797, 27.914226743752863, 202.040133992536454, 192.837494376978384 ],
+					"presentation_rect" : [ 5.805525, 27.914227, 214.0, 201.0 ],
 					"varname" : "xypad-"
 				}
 
@@ -588,7 +588,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 56.0, 419.0, 109.0, 105.263157844543457 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 27.033937669039005, 204.339669197688949, 194.99261078321473 ],
+					"presentation_rect" : [ 4.675539, 27.033937999999999, 216.0, 203.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -603,7 +603,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 464.5, 33.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

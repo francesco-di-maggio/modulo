@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 609.0, 765.0 ],
+		"rect" : [ 34.0, 87.0, 609.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.255791574060538, 716.0, 105.0, 21.0 ],
+					"patching_rect" : [ 89.255791574060538, 686.0, 105.0, 21.0 ],
 					"text" : "current step value"
 				}
 
@@ -303,8 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 715.0, 39.0, 23.0 ],
-					"text" : "6 1"
+					"patching_rect" : [ 41.0, 685.0, 39.0, 23.0 ]
 				}
 
 			}
@@ -391,7 +390,7 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 41.0, 416.5, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 416.5, 226.0, 235.0 ],
 					"varname" : "mo.grid",
 					"viewvisibility" : 1
 				}
@@ -513,7 +512,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 50.5, 702.0, 70.5, 702.0 ],
+					"midpoints" : [ 50.5, 672.0, 70.5, 672.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -528,21 +527,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-10" : [ "live.text[19]", "live.text", 0 ],
+			"obj-5::obj-10" : [ "live.text[822]", "live.text", 0 ],
 			"obj-5::obj-16" : [ "live.text[244]", "live.text", 0 ],
 			"obj-5::obj-29" : [ "live.text[8]", "live.text", 0 ],
-			"obj-5::obj-3" : [ "live.text[92]", "live.text", 0 ],
+			"obj-5::obj-3" : [ "live.text[220]", "live.text", 0 ],
 			"obj-5::obj-30" : [ "live.text[3]", "live.text", 0 ],
-			"obj-5::obj-33" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-5::obj-33" : [ "live.numbox[44]", "live.numbox", 0 ],
 			"obj-5::obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-5::obj-39" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-5::obj-40" : [ "live.grid", "live.grid", 0 ],
-			"obj-5::obj-41" : [ "live.text[2]", "live.text", 0 ],
-			"obj-5::obj-59" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-5::obj-41" : [ "live.text[261]", "live.text", 0 ],
+			"obj-5::obj-59" : [ "live.numbox[43]", "live.numbox", 0 ],
 			"obj-5::obj-63" : [ "live.text[12]", "live.text", 0 ],
-			"obj-5::obj-64" : [ "live.text[11]", "live.text", 0 ],
+			"obj-5::obj-64" : [ "live.text[218]", "live.text", 0 ],
 			"obj-5::obj-66" : [ "live.text[6]", "live.text", 0 ],
-			"obj-5::obj-67" : [ "live.text[9]", "live.text", 0 ],
+			"obj-5::obj-67" : [ "live.text[219]", "live.text", 0 ],
 			"obj-5::obj-69" : [ "live.text[5]", "live.text", 0 ],
 			"obj-5::obj-70" : [ "live.text[4]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -550,111 +549,6 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-10" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-5::obj-29" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[8]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-3" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[92]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-30" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[3]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-33" : 				{
-					"parameter_longname" : "live.numbox[2]"
-				}
-,
-				"obj-5::obj-35" : 				{
-					"parameter_longname" : "live.numbox[7]"
-				}
-,
-				"obj-5::obj-41" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[2]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-59" : 				{
-					"parameter_initial" : 60,
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.numbox[1]",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ 30.0, 240.0 ],
-					"parameter_type" : 0,
-					"parameter_unitstyle" : 0
-				}
-,
-				"obj-5::obj-63" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[12]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-64" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[11]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-66" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[6]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-67" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[9]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-69" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[5]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-5::obj-70" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[4]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
 				}
 
 			}
@@ -670,12 +564,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.grid.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -683,8 +571,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

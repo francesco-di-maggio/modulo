@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 278.0, 413.0 ],
+		"rect" : [ 34.0, 87.0, 258.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 116.5, 299.5, 20.0, 20.0 ],
+					"patching_rect" : [ 105.5, 291.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -75,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 290.0, 114.0, 39.0 ],
+					"patching_rect" : [ 130.0, 282.0, 114.0, 39.0 ],
 					"text" : "click \nkeyboard arrows"
 				}
 
@@ -130,8 +130,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 259.0, 71.0 ],
-					"text" : "mo.arrows"
+					"patching_rect" : [ 9.0, 9.0, 236.0, 71.0 ],
+					"text" : "mo.arrow"
 				}
 
 			}
@@ -167,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 369.515926122665405, 70.0, 23.0 ],
+					"patching_rect" : [ 41.0, 359.515926122665405, 55.0, 23.0 ],
 					"text" : "up"
 				}
 
@@ -183,12 +183,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.arrows.maxpat",
+					"name" : "mo.arrow.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 251.515926122665405, 70.0, 87.0 ],
+					"patching_rect" : [ 41.0, 251.515926122665405, 55.0, 77.0 ],
 					"varname" : "mo.key",
 					"viewvisibility" : 1
 				}
@@ -198,7 +198,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 354.0, 101.5, 354.0 ],
+					"midpoints" : [ 50.5, 345.0, 86.5, 345.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -221,10 +221,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-13" : [ "live.button[2]", "live.button", 0 ],
-			"obj-1::obj-14" : [ "live.button[5]", "live.button", 0 ],
-			"obj-1::obj-16" : [ "live.button[3]", "live.button", 0 ],
-			"obj-1::obj-7" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-8" : [ "live.text[188]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -236,22 +232,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "live.button[2]"
-				}
-,
-				"obj-1::obj-14" : 				{
-					"parameter_longname" : "live.button[5]"
-				}
-,
-				"obj-1::obj-16" : 				{
-					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-1::obj-7" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-,
 				"obj-1::obj-8" : 				{
 					"parameter_longname" : "live.text[188]"
 				}
@@ -269,7 +249,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.arrows.maxpat",
+				"name" : "mo.arrow.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",

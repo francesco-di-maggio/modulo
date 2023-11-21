@@ -1,47 +1,112 @@
 {
 	"patcher" : 	{
-		"boxes" : [ 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
-					"varname" : "mo.vrslider",
-					"viewvisibility" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"lockeddragscroll" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"lockedsize" : 0,
-					"bgmode" : 0,
-					"border" : 1,
-					"name" : "mo.vrslider.maxpat",
-					"id" : "obj-1",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 10.0, 70.0, 265.0 ]
-				}
-
-			}
- ],
+		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
+		"rect" : [ 159.0, 206.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"description" : "70 x 265, containing 1 object",
+		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.vrslider.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 55.0, 235.0 ],
+					"varname" : "mo.vrslider",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-3" : [ "live.text[238]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.vrslider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"snippetinfo" : 		{
 			"name" : "mo.vrslider",
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "70 x 265, containing 1 object",
-			"image" : "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"
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAADcAAADrCAYAAADNJw4SAAAABHNCSVQICAgIfAhkiAAAA1hJREFUeJzt2L9KI1EcxfGTdXrHSuSC4hOkEqM2ERvBSJqkCdaCTQIJglUeIBALyQtoYyE2YhOwGds0sRe7QWECilgp4hayi7smazLeSeZkz6ecxMnv6/y7TALAG8aUAwC+7496DuuMMfgx6iGipDhWTreNxpiBdxTH67ZrHDDYsGH+GcMw1qdlrOJqtRrOzs6s7S9WcZ1OB4+Pj9b2F1nc9vY2Li4uALwfkaOjI2QyGezs7GBjYwM3Nzc4ODhAMpnE1tYWnp+frc8QWdzy8jJOTk7w+vqK4+NjpNNp3N3dYWlpCdVqFXNzc2g0Gmg0Gsjn87i/v7c+Q2Rx2WwWnueh2Wxifn4es7OzAIDV1VUsLi5iYmICu7u7KJVKODw8xMvLi/UZIoubmprCysoK9vb2kMvlfm93nPenj+/7CIIArVYLMzMzOD8/tz5DpDeUXC6Hp6cnbG5ufvpsenoa7XYbqVQKV1dXWF9fRyKRsPr7CQBvfz+wjTEDP8TDrlAeHh4wOTlpPcwY03uFMiyu60a2755xcV1SDaJrXBwXwWHEaoVim+JYOcB43Dx++Xi/iP3br3q9jv39/a6flctlVCqVnn8b+9OyUqmgXC5/2v5VGEAQB3wO7CcM+MdDPG4+xvQTBvRYW44DvXFmZu2l7Ch8dTlZeSk7Cv0cgLE+LRX3XZ7noVAoDOOn/qAjx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMdKcawUx0pxrBTHSnGsFMfK6edLl5eXCIIg9I/c3t7CdV2cnp6G3gcArK2twXXdvr/fV1y73cb19XXooQDAcRx4nvetfSwsLNiPKxaLoQcapf/zmjPGDHOOSHSN831/2HNEYqxPS8WxSgB4G/UQUfkJmKSz1BNQtdkAAAAASUVORK5CYII="
 		}
-
+,
+		"autosave" : 0
 	}
 
 }

@@ -47,7 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 624.0, 214.0, 23.0 ]
+					"patching_rect" : [ 41.0, 624.0, 226.0, 23.0 ],
+					"text" : "0.046326 0.073757 0.104695 0."
 				}
 
 			}
@@ -276,7 +277,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 356.0, 214.0, 226.0 ],
+					"patching_rect" : [ 41.0, 356.0, 226.0, 235.0 ],
 					"varname" : "mo.nodes",
 					"viewvisibility" : 1
 				}
@@ -302,7 +303,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 50.5, 609.0, 245.5, 609.0 ],
+					"midpoints" : [ 50.5, 609.0, 257.5, 609.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -349,35 +350,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-13" : [ "live.text[1]", "live.text", 0 ],
+			"obj-13::obj-13" : [ "live.text[26]", "live.text", 0 ],
 			"obj-13::obj-3" : [ "live.text[34]", "live.text", 0 ],
-			"obj-13::obj-56" : [ "live.numbox[50]", "live.numbox", 0 ],
-			"obj-13::obj-6" : [ "live.text[19]", "live.text", 0 ],
+			"obj-13::obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-13::obj-6" : [ "live.text[25]", "live.text", 0 ],
 			"obj-13::obj-9" : [ "multislider[3]", "multislider[2]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-13::obj-13" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-13::obj-3" : 				{
-					"parameter_longname" : "live.text[34]"
-				}
-,
-				"obj-13::obj-56" : 				{
-					"parameter_longname" : "live.numbox[50]"
-				}
-,
-				"obj-13::obj-6" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 
 			}

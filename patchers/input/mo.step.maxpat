@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 265.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 235.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -383,7 +383,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 760.0, 160.37372371554369, 40.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 27.564706000000001, 52.541235476732254, 13.0 ],
+					"presentation_rect" : [ 4.0, 26.564706000000001, 39.541235476732254, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -430,7 +430,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 160.37372371554369, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.015207744985275, 3.75534699857235, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 203.015207744985275, 3.75534699857235, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -498,7 +498,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.75, 328.5, 80.25, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.841157000871419, 2.0, 77.055373430252075, 20.0 ],
+					"presentation_rect" : [ 61.841157000871419, 2.0, 77.055373430252075, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "direction-"
 				}
@@ -517,7 +517,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.75, 327.5, 81.25, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.841157000871419, 4.75534699857235, 76.346153557300568, 13.420286163687706 ],
+					"presentation_rect" : [ 61.841157000871419, 4.75534699857235, 76.346153557300568, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -551,7 +551,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.0, 329.5, 70.25, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 129.577306248098125, 2.0, 59.322793364524841, 20.0 ],
+					"presentation_rect" : [ 141.577306248098125, 2.0, 59.322793364524841, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "display-"
 				}
@@ -570,7 +570,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.0, 328.5, 71.25, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 129.577306248098125, 4.75534699857235, 58.613573491573334, 13.420286163687706 ],
+					"presentation_rect" : [ 141.577306248098125, 4.75534699857235, 58.613573491573334, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -659,7 +659,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.9375, 332.0, 37.125, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.312244354124914, 42.064706000000001, 37.0, 15.0 ],
+					"presentation_rect" : [ 168.312244354124914, 43.064706000000001, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -709,7 +709,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.9375, 304.0, 54.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.312244354124914, 27.064706000000001, 52.541235476732254, 13.0 ],
+					"presentation_rect" : [ 168.312244354124914, 26.064706000000001, 52.541235476732254, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -888,7 +888,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 389.0, 142.101953774690628, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.041920494647755, 25.064706000000001, 36.0, 18.0 ],
+					"presentation_rect" : [ 81.041920494647755, 24.064706000000001, 36.0, 18.0 ],
 					"text" : "tempo"
 				}
 
@@ -945,7 +945,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 385.0, 163.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.882619620843755, 42.064706000000001, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 78.882619620843755, 43.064706000000001, 41.211923710922434, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1020,7 +1020,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 497.600000000000023, 163.0, 35.999999999999886, 12.37372371554369 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 42.064706000000001, 25.324461452703645, 15.0 ],
+					"presentation_rect" : [ 4.0, 43.064706000000001, 25.324461452703645, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1082,7 +1082,7 @@
 					"patching_rect" : [ 141.5, 163.0, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.83534795496066, 42.064706000000001, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 33.83534795496066, 43.064706000000001, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1164,7 +1164,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 821.0, 24.5, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 61.064706000000001, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 61.064706000000001, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1253,7 +1253,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 821.0, 31.5, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1465,7 +1465,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 120.0, 455.5, 210.0, 184.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.469687820569085, 68.578389200742151, 198.5238907337189, 188.523890733718872 ],
+					"presentation_rect" : [ 9.214457721606301, 69.996799233729746, 207.976767867803602, 157.306318193674088 ],
 					"saved_attribute_attributes" : 					{
 						"bgrulercolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -1518,7 +1518,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.25, 442.0, 241.5, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 66.033937669039005, 204.339669197688949, 194.99261078321473 ],
+					"presentation_rect" : [ 4.675538547296355, 66.033937669039005, 216.210956364761245, 164.19344827615754 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
