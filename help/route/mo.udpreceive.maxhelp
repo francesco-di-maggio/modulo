@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 547.0, 451.0 ],
+		"rect" : [ 34.0, 87.0, 547.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.0, 405.369893655180931, 137.0, 23.0 ],
+					"patching_rect" : [ 291.0, 395.369893655180931, 137.0, 23.0 ],
 					"text" : "udpsend localhost 7374"
 				}
 
@@ -82,7 +82,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 405.369893655180931, 110.0, 23.0 ]
+					"patching_rect" : [ 41.0, 395.369893655180931, 110.0, 23.0 ],
+					"text" : "/osc hello world"
 				}
 
 			}
@@ -102,7 +103,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 315.869893999999988, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 315.869893999999988, 226.0, 45.0 ],
 					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}
@@ -355,7 +356,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 50.5, 390.0, 141.5, 390.0 ],
+					"midpoints" : [ 50.5, 381.0, 141.5, 381.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

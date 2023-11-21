@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -199,8 +199,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 231.349999785423392, 27.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 167.699619755148831, 24.0, 27.0, 18.0 ],
 					"text" : "port",
 					"textjustification" : 1
 				}
@@ -243,7 +241,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[616]",
+							"parameter_longname" : "live.text[608]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -309,9 +307,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 160.0, 230.349999785423392, 91.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.824619382619829, 41.936814519281199, 54.75000074505806, 14.869244888424873 ],
+					"presentation_rect" : [ 165.824619382619829, 25.936814519281199, 54.75000074505806, 14.869244888424873 ],
 					"rounded" : 0.0,
-					"text" : "7473",
+					"text" : "8001",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -397,7 +395,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.0, 35.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
