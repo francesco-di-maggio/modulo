@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 335.0, 53.0, 1551.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -303,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 10 : 43 : 358",
+					"text" : "1 : 28 : 50 : 635",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -345,7 +345,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 15.0,
+					"fontsize" : 9.5,
 					"id" : "obj-43",
 					"keymode" : 1,
 					"lines" : 1,
@@ -355,11 +355,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.5, 434.5, 136.0, 24.0 ],
+					"patching_rect" : [ 244.5, 434.5, 92.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 124.784689247608185, 31.802172307738147, 81.028839096426964, 22.027510523796082 ],
+					"presentation_rect" : [ 115.495357602834702, 27.371792723306498, 106.356783300638199, 13.740740850567818 ],
 					"rounded" : 0.0,
-					"text" : "10 : 35 : 42",
+					"text" : "23 : 16 : 37",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -456,7 +456,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 15.0,
+					"fontsize" : 9.5,
 					"id" : "obj-3",
 					"keymode" : 1,
 					"lines" : 1,
@@ -466,9 +466,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 84.0, 434.5, 136.0, 24.0 ],
+					"patching_rect" : [ 84.0, 434.5, 90.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 31.802172307738147, 109.958615869283676, 22.027510523796082 ],
+					"presentation_rect" : [ 4.5, 27.371792723306498, 105.575910031795502, 13.740740850567818 ],
 					"rounded" : 0.0,
 					"text" : "21 / 11 / 2023",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -485,7 +485,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.664669811725616, 35.203592836856842, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -509,7 +509,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.5, 434.5, 136.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.495357602834702, 27.371792723306498, 89.60750238597393, 30.803278774023056 ],
+					"presentation_rect" : [ 115.495357602834702, 27.371792723306498, 106.356783300638199, 13.740740850567818 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -528,7 +528,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 434.5, 136.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 27.371792723306498, 111.314277857542038, 30.803278774023056 ],
+					"presentation_rect" : [ 4.5, 27.371792723306498, 106.356783300638199, 13.740740850567818 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

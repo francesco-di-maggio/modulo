@@ -389,6 +389,10 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
+				"obj-2::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
+				}
+,
 				"obj-4::obj-21" : 				{
 					"parameter_longname" : "live.text[6]"
 				}

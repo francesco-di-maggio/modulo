@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 176.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.051895529031754, 629.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 93.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 93.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -111,7 +111,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.50047539387424, 97.634451101923787, 140.476190656423569, 71.99908379825871 ],
+					"presentation_rect" : [ 68.50047539387424, 97.634451101923787, 152.756892293691635, 71.99908379825871 ],
 					"range" : [ -0.3, 0.3 ],
 					"rounded" : 0.0,
 					"samples" : 441.0,
@@ -133,7 +133,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.50047539387424, 97.634451101923787, 140.476190656423569, 73.281401984393597 ],
+					"presentation_rect" : [ 68.50047539387424, 97.634451101923787, 152.756892293691635, 73.281401984393597 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -228,7 +228,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[25]",
+							"parameter_longname" : "live.text[98]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -251,7 +251,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 736.440784417920781, 961.915466400000014, 128.0, 23.0 ],
-					"restore" : [ "fm" ],
+					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -274,7 +274,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_longname" : "live.text[821]",
+							"parameter_longname" : "live.text[52]",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "octave",
@@ -3218,7 +3218,7 @@
 					"patching_rect" : [ 336.583333333333314, 113.666680335998535, 51.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[17]",
+							"parameter_longname" : "live.dial[58]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "semitone",
@@ -3244,7 +3244,7 @@
 					"patching_rect" : [ 399.25, 127.599983602762222, 46.0, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[38]",
+							"parameter_longname" : "live.dial[59]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "detune",
@@ -3342,7 +3342,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[9]",
+							"parameter_longname" : "live.dial[61]",
 							"parameter_mmax" : 8000.0,
 							"parameter_shortname" : "release",
 							"parameter_type" : 0,
@@ -3368,7 +3368,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1000.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[42]",
+							"parameter_longname" : "live.dial[65]",
 							"parameter_mmax" : 4000.0,
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
@@ -3394,7 +3394,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 500.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[15]",
+							"parameter_longname" : "live.dial[66]",
 							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
@@ -3420,7 +3420,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[10]",
+							"parameter_longname" : "live.dial[62]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sustain",
 							"parameter_type" : 0,
@@ -3520,7 +3520,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[823]",
+							"parameter_longname" : "live.text[164]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3647,7 +3647,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 408.022798042028455, 722.968613760349285, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.30334568202511, 4.0, 39.264550268650055, 15.0 ],
+					"presentation_rect" : [ 87.30334568202511, 4.0, 39.264550268650055, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3675,7 +3675,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[633]",
+							"parameter_longname" : "live.text[165]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3846,9 +3846,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 544.051895529031754, 648.73012338822366, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.111910476142782, 4.0, 90.787012705694906, 15.0 ],
+					"presentation_rect" : [ 130.111910476142782, 4.0, 90.787012705694906, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "fm",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -4356,7 +4355,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 344.416666666666686, 461.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.252807272943954, 58.444487433338963, 26.0, 18.0 ],
+					"presentation_rect" : [ 177.252807272943983, 57.444487433338963, 26.0, 18.0 ],
 					"text" : "gain",
 					"textjustification" : 0
 				}
@@ -4370,7 +4369,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 562.030864000320435, 277.506175994873047, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.44946159091883, 58.444487433338963, 33.0, 18.0 ],
+					"presentation_rect" : [ 95.949461590918858, 57.444487433338963, 33.0, 18.0 ],
 					"text" : "depth",
 					"textjustification" : 0
 				}
@@ -4384,7 +4383,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 479.051895529031754, 277.506175994873047, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.646115908893748, 58.444487433338963, 26.0, 18.0 ],
+					"presentation_rect" : [ 21.646115908893748, 57.444487433338963, 26.0, 18.0 ],
 					"text" : "rate",
 					"textjustification" : 0
 				}
@@ -4398,7 +4397,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 389.750000000000057, 277.506175994873047, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.252807272943983, 23.641520950401627, 28.0, 18.0 ],
+					"presentation_rect" : [ 177.252807272943983, 22.641520950401627, 28.0, 18.0 ],
 					"text" : "ratio",
 					"textjustification" : 0
 				}
@@ -4412,7 +4411,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 290.145502243723286, 277.506175994873047, 59.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.44946159091883, 23.641520950401627, 59.0, 18.0 ],
+					"presentation_rect" : [ 83.699461590918858, 22.641520950401627, 59.0, 18.0 ],
 					"text" : "harmonicity",
 					"textjustification" : 0
 				}
@@ -4426,7 +4425,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 163.5, 123.599979549646378, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.146115908893748, 23.641520950401627, 37.0, 18.0 ],
+					"presentation_rect" : [ 16.146115908893748, 22.641520950401627, 37.0, 18.0 ],
 					"text" : "carrier",
 					"textjustification" : 0
 				}
@@ -4485,7 +4484,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 290.145502243723286, 463.937497049570084, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.606691364050221, 75.444487433338963, 61.292231817787496, 15.0 ],
+					"presentation_rect" : [ 159.606691364050221, 75.444487433338963, 61.292231817787496, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -4502,7 +4501,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[30]",
+							"parameter_longname" : "live.dial[60]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
@@ -4541,7 +4540,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 211.25, 125.099979549646378, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 42.639795679057443, 61.292231817787496, 15.0 ],
+					"presentation_rect" : [ 4.0, 41.639795679057443, 61.292231817787496, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -4559,7 +4558,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 440 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[40]",
+							"parameter_longname" : "live.dial[63]",
 							"parameter_mmax" : 1760.0,
 							"parameter_shortname" : "pitch",
 							"parameter_type" : 0,
@@ -4586,7 +4585,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 557.530864000320435, 304.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.303345682025096, 75.444487433338963, 61.292231817787496, 15.0 ],
+					"presentation_rect" : [ 81.80334568202511, 75.444487433338963, 61.292231817787496, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -4603,7 +4602,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[41]",
+							"parameter_longname" : "live.dial[64]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
@@ -5411,7 +5410,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[16]",
+							"parameter_longname" : "live.dial[55]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "vibrato",
 							"parameter_type" : 0,
@@ -5438,7 +5437,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 385.25, 304.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.606691364050221, 42.639795679057443, 61.292231817787496, 15.0 ],
+					"presentation_rect" : [ 159.606691364050221, 41.639795679057443, 61.292231817787496, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -5455,7 +5454,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[39]",
+							"parameter_longname" : "live.dial[56]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.dial[18]",
 							"parameter_type" : 0,
@@ -5482,7 +5481,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 297.583333333333314, 304.0, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.30334568202511, 42.639795679057443, 61.292231817787481, 15.0 ],
+					"presentation_rect" : [ 81.803345682025125, 41.639795679057443, 61.292231817787481, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -5499,7 +5498,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.dial[57]",
 							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "live.dial[7]",
 							"parameter_type" : 0,
@@ -5534,7 +5533,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.051895529031754, 636.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

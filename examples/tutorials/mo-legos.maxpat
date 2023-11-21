@@ -57,7 +57,7 @@
 					"patching_rect" : [ 208.485723542877963, 256.285335555672646, 226.0, 77.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 209.776046085068515, 369.801462665200233, 214.0, 57.5 ],
-					"varname" : "mo.transport[1]",
+					"varname" : "mo.transport",
 					"viewvisibility" : 1
 				}
 
@@ -124,9 +124,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list", "list" ],
-					"patching_rect" : [ 208.485723542877963, 177.285335555672646, 226.0, 77.0 ],
+					"patching_rect" : [ 208.485724000000005, 177.285336000000001, 226.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.459072227510774, 204.285335555672646, 214.0, 57.5 ],
+					"presentation_rect" : [ 243.459071999999992, 204.285336000000001, 226.0, 45.0 ],
 					"varname" : "mo.date",
 					"viewvisibility" : 1
 				}
@@ -322,7 +322,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 0, 87, 442, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
