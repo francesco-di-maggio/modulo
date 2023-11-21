@@ -1,47 +1,383 @@
 {
 	"patcher" : 	{
-		"boxes" : [ 			{
-				"box" : 				{
-					"maxclass" : "bpatcher",
-					"varname" : "mo.sliders",
-					"viewvisibility" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"lockeddragscroll" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"lockedsize" : 0,
-					"bgmode" : 0,
-					"border" : 1,
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"patching_rect" : [ 10.0, 10.0, 214.0, 87.0 ],
-					"outlettype" : [ "" ],
-					"name" : "mo.sliders.maxpat",
-					"id" : "obj-1"
-				}
-
-			}
- ],
+		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
+		"rect" : [ 159.0, 206.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"description" : "214 x 87, containing 1 object",
+		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.sliders.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 226.0, 87.0 ],
+					"varname" : "mo.sliders",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
+			"obj-1::obj-107::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1::obj-107::obj-8" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-107::obj-9" : [ "slider-[2]", "slider-[2]", 0 ],
+			"obj-1::obj-123::obj-20" : [ "Show Particle Settings[16]", "live.text", 0 ],
+			"obj-1::obj-123::obj-35" : [ "live.text[194]", "live.text", 0 ],
+			"obj-1::obj-123::obj-8" : [ "live.text[195]", "live.text", 0 ],
+			"obj-1::obj-123::obj-9" : [ "slider-[7]", "slider-[2]", 0 ],
+			"obj-1::obj-1::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
+			"obj-1::obj-1::obj-35" : [ "live.text[6]", "live.text", 0 ],
+			"obj-1::obj-1::obj-8" : [ "live.text[5]", "live.text", 0 ],
+			"obj-1::obj-1::obj-9" : [ "slider-[3]", "slider-[2]", 0 ],
+			"obj-1::obj-35" : [ "live.text[251]", "live.text", 0 ],
+			"obj-1::obj-36::obj-20" : [ "Show Particle Settings[4]", "live.text", 0 ],
+			"obj-1::obj-36::obj-35" : [ "live.text[8]", "live.text", 0 ],
+			"obj-1::obj-36::obj-8" : [ "live.text[7]", "live.text", 0 ],
+			"obj-1::obj-36::obj-9" : [ "slider-[4]", "slider-[2]", 0 ],
+			"obj-1::obj-38" : [ "live.text[214]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[252]", "live.text", 0 ],
+			"obj-1::obj-40::obj-20" : [ "Show Particle Settings[5]", "live.text", 0 ],
+			"obj-1::obj-40::obj-35" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-40::obj-8" : [ "live.text[10]", "live.text", 0 ],
+			"obj-1::obj-40::obj-9" : [ "slider-[5]", "slider-[2]", 0 ],
+			"obj-1::obj-41::obj-20" : [ "Show Particle Settings[6]", "live.text", 0 ],
+			"obj-1::obj-41::obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-1::obj-41::obj-8" : [ "live.text[12]", "live.text", 0 ],
+			"obj-1::obj-41::obj-9" : [ "slider-[8]", "slider-[2]", 0 ],
+			"obj-1::obj-42::obj-20" : [ "Show Particle Settings[7]", "live.text", 0 ],
+			"obj-1::obj-42::obj-35" : [ "live.text[13]", "live.text", 0 ],
+			"obj-1::obj-42::obj-8" : [ "live.text[14]", "live.text", 0 ],
+			"obj-1::obj-42::obj-9" : [ "slider-[9]", "slider-[2]", 0 ],
+			"obj-1::obj-43::obj-20" : [ "Show Particle Settings[8]", "live.text", 0 ],
+			"obj-1::obj-43::obj-35" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-43::obj-8" : [ "live.text[15]", "live.text", 0 ],
+			"obj-1::obj-43::obj-9" : [ "slider-[10]", "slider-[2]", 0 ],
+			"obj-1::obj-44::obj-20" : [ "Show Particle Settings[9]", "live.text", 0 ],
+			"obj-1::obj-44::obj-35" : [ "live.text[18]", "live.text", 0 ],
+			"obj-1::obj-44::obj-8" : [ "live.text[17]", "live.text", 0 ],
+			"obj-1::obj-44::obj-9" : [ "slider-[6]", "slider-[2]", 0 ],
+			"obj-1::obj-45::obj-20" : [ "Show Particle Settings[10]", "live.text", 0 ],
+			"obj-1::obj-45::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-45::obj-8" : [ "live.text[20]", "live.text", 0 ],
+			"obj-1::obj-45::obj-9" : [ "slider-[11]", "slider-[2]", 0 ],
+			"obj-1::obj-46::obj-20" : [ "Show Particle Settings[11]", "live.text", 0 ],
+			"obj-1::obj-46::obj-35" : [ "live.text[21]", "live.text", 0 ],
+			"obj-1::obj-46::obj-8" : [ "live.text[22]", "live.text", 0 ],
+			"obj-1::obj-46::obj-9" : [ "slider-[12]", "slider-[2]", 0 ],
+			"obj-1::obj-47::obj-20" : [ "Show Particle Settings[12]", "live.text", 0 ],
+			"obj-1::obj-47::obj-35" : [ "live.text[23]", "live.text", 0 ],
+			"obj-1::obj-47::obj-8" : [ "live.text[24]", "live.text", 0 ],
+			"obj-1::obj-47::obj-9" : [ "slider-[13]", "slider-[2]", 0 ],
+			"obj-1::obj-48::obj-20" : [ "Show Particle Settings[13]", "live.text", 0 ],
+			"obj-1::obj-48::obj-35" : [ "live.text[26]", "live.text", 0 ],
+			"obj-1::obj-48::obj-8" : [ "live.text[25]", "live.text", 0 ],
+			"obj-1::obj-48::obj-9" : [ "slider-[14]", "slider-[2]", 0 ],
+			"obj-1::obj-49::obj-20" : [ "Show Particle Settings[14]", "live.text", 0 ],
+			"obj-1::obj-49::obj-35" : [ "live.text[28]", "live.text", 0 ],
+			"obj-1::obj-49::obj-8" : [ "live.text[27]", "live.text", 0 ],
+			"obj-1::obj-49::obj-9" : [ "slider-[15]", "slider-[2]", 0 ],
+			"obj-1::obj-50::obj-20" : [ "Show Particle Settings[17]", "live.text", 0 ],
+			"obj-1::obj-50::obj-35" : [ "live.text[29]", "live.text", 0 ],
+			"obj-1::obj-50::obj-8" : [ "live.text[30]", "live.text", 0 ],
+			"obj-1::obj-50::obj-9" : [ "slider-[16]", "slider-[2]", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-74::obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
+			"obj-1::obj-74::obj-35" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-74::obj-8" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-74::obj-9" : [ "slider-[1]", "slider-[2]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-107::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[2]"
+				}
+,
+				"obj-1::obj-107::obj-35" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-1::obj-107::obj-8" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-1::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[3]"
+				}
+,
+				"obj-1::obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-1::obj-1::obj-8" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-36::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[4]"
+				}
+,
+				"obj-1::obj-36::obj-35" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-1::obj-36::obj-8" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-1::obj-40::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[5]"
+				}
+,
+				"obj-1::obj-40::obj-35" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-1::obj-40::obj-8" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-1::obj-41::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[6]"
+				}
+,
+				"obj-1::obj-41::obj-35" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-1::obj-41::obj-8" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-1::obj-42::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[7]"
+				}
+,
+				"obj-1::obj-42::obj-35" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-1::obj-42::obj-8" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-43::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[8]"
+				}
+,
+				"obj-1::obj-43::obj-35" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-1::obj-43::obj-8" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-1::obj-44::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[9]"
+				}
+,
+				"obj-1::obj-44::obj-35" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-1::obj-44::obj-8" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-1::obj-45::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[10]"
+				}
+,
+				"obj-1::obj-45::obj-35" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-45::obj-8" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-1::obj-46::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[11]"
+				}
+,
+				"obj-1::obj-46::obj-35" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-1::obj-46::obj-8" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-1::obj-47::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[12]"
+				}
+,
+				"obj-1::obj-47::obj-35" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-1::obj-47::obj-8" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-1::obj-48::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[13]"
+				}
+,
+				"obj-1::obj-48::obj-35" : 				{
+					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-1::obj-48::obj-8" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
+				"obj-1::obj-49::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[14]"
+				}
+,
+				"obj-1::obj-49::obj-35" : 				{
+					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-1::obj-49::obj-8" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-1::obj-50::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[17]"
+				}
+,
+				"obj-1::obj-50::obj-35" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-1::obj-50::obj-8" : 				{
+					"parameter_longname" : "live.text[30]"
+				}
+,
+				"obj-1::obj-74::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-1::obj-74::obj-35" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-74::obj-8" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.slider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.sliders.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"snippetinfo" : 		{
 			"name" : "mo.sliders",
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "214 x 87, containing 1 object",
-			"image" : "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"
+			"image" : "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"
 		}
-
+,
+		"autosave" : 0
 	}
 
 }

@@ -687,7 +687,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 144.666666666666657, 627.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.207453428255299, 0.0, 173.0, 15.0 ],
+					"presentation_rect" : [ 45.207453428255299, 0.0, 174.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider-[7]",
@@ -906,7 +906,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.666666666666657, 627.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.464393265624807, 1.033069491386414, 177.045338364859447, 13.277105666697025 ],
+					"presentation_rect" : [ 43.464393265624807, 1.033069491386414, 178.045338364859447, 13.277105666697025 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
