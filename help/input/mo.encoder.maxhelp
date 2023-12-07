@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 544.0, 601.0 ],
+		"rect" : [ 34.0, 87.0, 544.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -109,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.511583148121076, 300.0, 92.0, 25.0 ],
+					"patching_rect" : [ 196.511583148121076, 300.0, 92.0, 25.0 ],
 					"text" : "mute output"
 				}
 
@@ -123,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.511583148121076, 299.0, 76.0, 25.0 ],
+					"patching_rect" : [ 397.511583148121076, 299.0, 76.0, 25.0 ],
 					"text" : "set name "
 				}
 
@@ -135,8 +135,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.511583148121076, 300.0, 39.0, 23.0 ],
-					"text" : "encdr"
+					"patching_rect" : [ 340.511583148121076, 300.0, 52.0, 23.0 ],
+					"text" : "encoder"
 				}
 
 			}
@@ -279,7 +279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.255791574060538, 558.0, 50.0, 23.0 ]
+					"patching_rect" : [ 123.255791574060538, 528.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -291,7 +291,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 159.255791574060538, 300.0, 24.0, 24.0 ]
+					"patching_rect" : [ 166.255791574060538, 300.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.255791574060538, 350.0, 53.0, 23.0 ],
+					"patching_rect" : [ 166.255791574060538, 350.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -323,7 +323,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.255791574060538, 448.0, 55.0, 77.0 ],
+					"patching_rect" : [ 123.255791574060538, 448.0, 62.0, 62.0 ],
 					"varname" : "mo.dial",
 					"viewvisibility" : 1
 				}
@@ -333,7 +333,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 132.755791574060538, 537.0, 132.755791574060538, 537.0 ],
+					"midpoints" : [ 132.755791574060538, 513.0, 132.755791574060538, 513.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -341,7 +341,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 405.011583148121076, 435.0, 168.755791574060538, 435.0 ],
+					"midpoints" : [ 405.011583148121076, 435.0, 175.755791574060538, 435.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -381,7 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 310.011583148121076, 435.0, 168.755791574060538, 435.0 ],
+					"midpoints" : [ 310.011583148121076, 435.0, 175.755791574060538, 435.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -389,7 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 168.755791574060538, 375.0, 168.755791574060538, 375.0 ],
+					"midpoints" : [ 175.755791574060538, 375.0, 175.755791574060538, 375.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -405,7 +405,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 168.755791574060538, 327.0, 168.755791574060538, 327.0 ],
+					"midpoints" : [ 175.755791574060538, 327.0, 175.755791574060538, 327.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -420,7 +420,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-12" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-12" : [ "live.text[804]", "live.text", 0 ],
+			"obj-1::obj-19" : [ "live.text[35]", "live.text", 0 ],
 			"obj-1::obj-21" : [ "dial-[1]", "dial", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -453,6 +454,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "varname.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

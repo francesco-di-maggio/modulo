@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 77.0 ],
+		"rect" : [ 0.0, 53.0, 226.0, 77.0 ],
+		"openrect" : [ 0.0, 0.0, 226.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -126,7 +126,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[116]",
+							"parameter_longname" : "live.text[684]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -177,7 +177,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[117]",
+							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -242,7 +242,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[40]",
+							"parameter_longname" : "live.numbox[348]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -398,7 +398,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.153199976682799, 82.394333000000017, 30.0, 30.0 ]
 				}
 
@@ -409,7 +409,6 @@
 					"clip_size" : 1,
 					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"fontsize" : 20.0,
 					"id" : "obj-45",
 					"lastchannelcount" : 2,
 					"maxclass" : "mc.live.gain~",
@@ -418,9 +417,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 39.153199976682799, 393.823442784456233, 282.0, 49.0 ],
+					"patching_rect" : [ 39.153199976682799, 393.823442784456233, 148.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 25.064706464179835, 220.0, 49.0 ],
+					"presentation_rect" : [ 3.5, 24.064706464179835, 115.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -448,7 +447,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[3]",
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "volume",

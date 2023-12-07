@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "reornt", "@mode", 1 ],
+					"args" : [ "reorient", "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -57,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1244.594238281250227, 19.99999977777783, 55.0, 77.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 94.499999571428589, 55.0, 77.0 ],
+					"presentation_rect" : [ 92.0, 94.5, 70.0, 62.0 ],
 					"varname" : "mo.pad[9]",
 					"viewvisibility" : 1
 				}
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "vibrte", "@mode", 1 ],
+					"args" : [ "vibrate", "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -82,7 +82,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1172.59423828125, 19.99999977777783, 55.0, 77.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 94.499999571428589, 55.0, 77.0 ],
+					"presentation_rect" : [ 20.0, 94.5, 70.0, 62.0 ],
 					"varname" : "mo.pad[10]",
 					"viewvisibility" : 1
 				}
@@ -592,7 +592,7 @@
 					"patching_rect" : [ 352.0, 332.972221999999988, 337.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 140.0, 96.499999571428589, 331.0, 93.0 ],
+					"presentation_rect" : [ 170.0, 94.5, 331.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download, and open the gyrOSC app:       \n     https://www.bitshapesoftware.com/instruments/gyrosc\n2. Enable quaternion from the settings menu.\n3. Set your computer IP address, and UDP receiving port."
 				}
 
@@ -1021,9 +1021,9 @@
 			"obj-29::obj-2" : [ "live.text[35]", "live.text", 0 ],
 			"obj-29::obj-22" : [ "live.text[34]", "live.text", 0 ],
 			"obj-29::obj-6" : [ "live.text[36]", "live.text", 0 ],
-			"obj-2::obj-2" : [ "live.text[50]", "live.text", 0 ],
-			"obj-2::obj-22" : [ "live.text[54]", "live.text", 0 ],
-			"obj-2::obj-6" : [ "live.text[49]", "live.text", 0 ],
+			"obj-2::obj-2" : [ "live.text[49]", "live.text", 0 ],
+			"obj-2::obj-22" : [ "live.text[39]", "live.text", 0 ],
+			"obj-2::obj-6" : [ "live.text[38]", "live.text", 0 ],
 			"obj-3::obj-2" : [ "live.text[44]", "live.text", 0 ],
 			"obj-3::obj-22" : [ "live.text[47]", "live.text", 0 ],
 			"obj-3::obj-6" : [ "live.text[46]", "live.text", 0 ],
@@ -1050,6 +1050,18 @@
 ,
 				"obj-10::obj-6" : 				{
 					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-15::obj-2" : 				{
+					"parameter_longname" : "live.text[898]"
+				}
+,
+				"obj-15::obj-22" : 				{
+					"parameter_longname" : "live.text[716]"
+				}
+,
+				"obj-15::obj-6" : 				{
+					"parameter_longname" : "live.text[715]"
 				}
 ,
 				"obj-16::obj-2" : 				{
@@ -1165,14 +1177,6 @@
 				}
 ,
 				"obj-2::obj-2" : 				{
-					"parameter_longname" : "live.text[50]"
-				}
-,
-				"obj-2::obj-22" : 				{
-					"parameter_longname" : "live.text[54]"
-				}
-,
-				"obj-2::obj-6" : 				{
 					"parameter_longname" : "live.text[49]"
 				}
 ,
@@ -1186,6 +1190,14 @@
 ,
 				"obj-3::obj-6" : 				{
 					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-4::obj-21" : 				{
+					"parameter_longname" : "live.text[242]"
+				}
+,
+				"obj-4::obj-35" : 				{
+					"parameter_longname" : "live.text[240]"
 				}
 
 			}
@@ -1226,6 +1238,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "varname.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

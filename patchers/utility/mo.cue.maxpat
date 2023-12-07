@@ -49,7 +49,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.0, 584.5, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.989975563522421, 25.0, 27.0, 18.0 ],
+					"presentation_rect" : [ 165.989975563522421, 25.0, 27.0, 18.0 ],
 					"text" : "step"
 				}
 
@@ -184,7 +184,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[53]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -225,7 +225,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 372.0, 43.498130464903795, 30.0, 30.0 ]
 				}
 
@@ -574,7 +574,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[145]",
+							"parameter_longname" : "live.text[52]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
