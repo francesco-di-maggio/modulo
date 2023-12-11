@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -409,7 +409,7 @@
 					"patching_rect" : [ 175.0, 170.0, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 26.371792723306498, 43.218688815832138, 32.165484204888344 ],
+					"presentation_rect" : [ 3.5, 26.371792723306498, 43.218688815832138, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -481,8 +481,8 @@
 					"border" : 0.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 15.0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 9.5,
 					"id" : "obj-16",
 					"keymode" : 1,
 					"lines" : 1,
@@ -492,9 +492,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
+					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 98.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.917905882000923, 31.876297225126109, 157.582094117999077, 21.891891896724701 ],
+					"presentation_rect" : [ 49.0, 27.0, 161.0, 14.0 ],
 					"rounded" : 0.0,
 					"text" : "0 : 0 : 0 . 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -515,7 +515,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 145.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.917905882000923, 27.371792723306498, 158.582094117999077, 30.0 ],
+					"presentation_rect" : [ 51.0, 27.0, 158.624999940395355, 13.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

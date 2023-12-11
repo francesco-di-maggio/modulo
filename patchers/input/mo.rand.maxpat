@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 79.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,26 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 854.806426948308854, 9.601844755165075, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 61.0, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-27",
@@ -1469,7 +1489,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 842.800000000000182, 436.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.071533560752869, 60.0, 44.905109428697187, 15.0 ],
+					"presentation_rect" : [ 165.071533560752869, 65.0, 44.905109428697187, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2395,7 +2415,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 345.0, 404.5, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 60.0, 45.0, 15.0 ],
+					"presentation_rect" : [ 4.0, 65.0, 45.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3223,7 +3243,7 @@
 					"patching_rect" : [ 652.399999999999977, 435.125, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.988756775856018, 60.0, 45.052631616592407, 15.0 ],
+					"presentation_rect" : [ 56.988756775856018, 65.0, 45.052631616592407, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3284,7 +3304,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 557.199999999999932, 491.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.030145168304443, 60.0, 45.052631616592407, 15.0 ],
+					"presentation_rect" : [ 111.030145168304443, 65.0, 45.052631616592407, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

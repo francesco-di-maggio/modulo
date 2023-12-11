@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -183,7 +183,7 @@
 					"patching_rect" : [ 202.835330188274384, 182.134786069393158, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.563045024871826, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 130.531522512435913, 4.0, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -234,7 +234,7 @@
 					"patching_rect" : [ 301.600000000000023, 182.134786069393158, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.314095243811607, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 88.5, 4.0, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -285,7 +285,7 @@
 					"patching_rect" : [ 252.200000000000045, 182.134786069393158, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.438570134341717, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 172.563045024871826, 4.0, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -335,7 +335,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 153.335330188274384, 182.134786069393158, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 27.0, 101.098320528864861, 31.059077908166728 ],
+					"presentation_rect" : [ 4.0, 26.0, 101.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -477,7 +477,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 104.335330188274384, 182.134786069393158, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.215774714946747, 27.0, 101.098320528864861, 31.059077908166728 ],
+					"presentation_rect" : [ 109.0, 26.0, 101.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
