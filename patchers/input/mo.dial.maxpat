@@ -96,7 +96,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 611.842786306142557, 28.126276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.101227999999999, 23.0, 5.0, 48.0 ],
+					"presentation_rect" : [ 22.0, 22.0, 5.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

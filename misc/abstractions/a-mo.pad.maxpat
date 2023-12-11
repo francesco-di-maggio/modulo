@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 15.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -250,7 +250,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 51.666666666666629, 499.25, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.62991090871887, -0.058990031480789, 179.748365940073938, 15.0 ],
+					"presentation_rect" : [ 41.62991090871887, -0.058990031480789, 167.983660282114954, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -818,6 +818,7 @@
 			}
  ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
+		"stripecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
 

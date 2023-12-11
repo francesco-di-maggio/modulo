@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 15.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1040,7 +1040,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 144.666666666666657, 627.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.207453428255299, 0.0, 174.0, 15.0 ],
+					"presentation_rect" : [ 45.207453428255299, 0.0, 162.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider-[7]",
@@ -1259,7 +1259,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.666666666666657, 627.0, 160.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.464393265624807, 1.033069491386414, 178.045338364859447, 13.277105666697025 ],
+					"presentation_rect" : [ 43.464393265624807, 1.033069491386414, 166.045338364859447, 13.277105666697025 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 17.0, 233.273999968171836, 213.0, 23.0 ],
-					"text" : "window size 0 53 226 $1, window exec"
+					"text" : "window size 0 53 214 $1, window exec"
 				}
 
 			}

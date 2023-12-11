@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 77.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 77.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -335,7 +335,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1226.0, 436.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.071533560752869, 4.371792723306498, 14.900888606905937, 15.0 ],
+					"presentation_rect" : [ 173.071533560752869, 4.371792723306498, 14.900888606905937, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -377,7 +377,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 406.557356909910936, 23.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -693,7 +693,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1177.714285714285779, 360.5, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.071533560752869, 22.552281369336924, 41.0, 18.0 ],
+					"presentation_rect" : [ 166.970935161432465, 22.0, 41.0, 18.0 ],
 					"text" : "amount"
 				}
 
@@ -712,7 +712,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1129.75, 436.125, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.071533560752869, 39.552281369336924, 44.329319676798235, 15.0 ],
+					"presentation_rect" : [ 165.071533560752869, 39.552281369336924, 44.798803201359163, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1328,7 +1328,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1079.369957906859327, 362.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.247338336237078, 22.552281369336924, 54.0, 18.0 ],
+					"presentation_rect" : [ 106.648172065615654, 22.0, 54.0, 18.0 ],
 					"text" : "probability"
 				}
 
@@ -1347,7 +1347,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1033.714285714285779, 436.125, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.214355707168579, 39.552281369336924, 44.0, 15.0 ],
+					"presentation_rect" : [ 111.213567346334457, 39.552281369336924, 44.869209438562393, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1466,7 +1466,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 842.800000000000182, 436.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.071533560752869, 57.552281369336924, 44.378793620400984, 15.0 ],
+					"presentation_rect" : [ 165.071533560752869, 58.0, 44.905109428697187, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2390,7 +2390,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 345.0, 404.5, 59.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.506036251783371, 57.552281369336924, 44.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 58.0, 45.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3121,7 +3121,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 522.0, 406.5, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.447594672441483, 22.552281369336924, 35.0, 18.0 ],
+					"presentation_rect" : [ 7.506036251783371, 22.0, 35.0, 18.0 ],
 					"text" : "target"
 				}
 
@@ -3148,7 +3148,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 785.599999999999909, 362.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.373669168118539, 22.0, 26.0, 18.0 ],
+					"presentation_rect" : [ 66.298768848180771, 22.0, 26.0, 18.0 ],
 					"text" : "rate"
 				}
 
@@ -3167,7 +3167,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 747.599999999999909, 436.125, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.35717785358429, 39.552281369336924, 44.0, 15.0 ],
+					"presentation_rect" : [ 56.772453039884567, 39.552281369336924, 45.052631616592407, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3217,7 +3217,7 @@
 					"patching_rect" : [ 652.399999999999977, 435.125, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.932578196887071, 57.552281369336924, 44.0, 15.0 ],
+					"presentation_rect" : [ 56.988756775856018, 58.0, 45.052631616592407, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3278,7 +3278,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 557.199999999999932, 491.125, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.214355707168579, 57.552281369336924, 44.0, 15.0 ],
+					"presentation_rect" : [ 111.030145168304443, 58.0, 45.052631616592407, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -3365,7 +3365,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 223.25, 114.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 203.071533560752869, 4.371792723306498, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.071533560752869, 4.371792723306498, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -4109,7 +4109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 461.0, 405.5, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 40.552281369336924, 41.0, 13.166666666666686 ],
+					"presentation_rect" : [ 4.5, 40.552281369336924, 41.006036251783371, 13.166666666666686 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
