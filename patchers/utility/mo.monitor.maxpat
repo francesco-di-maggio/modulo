@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -595,7 +595,7 @@
 					"patching_rect" : [ 123.860643649101007, 251.41071292757988, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.071533560752869, 4.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 174.071533560752869, 4.0, 36.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -312,7 +312,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"fontname" : "Ableton Sans Bold",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-39",
 					"ignoreclick" : 1,
@@ -321,9 +321,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 271.0, 57.0, 20.0 ],
+					"patching_rect" : [ 50.0, 271.0, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 24.0, 36.744737782587066, 20.0 ],
+					"presentation_rect" : [ 5.0, 24.0, 37.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],

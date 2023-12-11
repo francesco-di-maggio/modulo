@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -293,7 +293,7 @@
 					"patching_rect" : [ 280.923077702522278, 282.702751239560826, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.40338771045208, 3.756218925118446, 42.094124719500542, 15.0 ],
+					"presentation_rect" : [ 175.40338771045208, 3.756218925118446, 35.094124719500542, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -481,7 +481,7 @@
 					"border" : 0.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Ableton Sans Bold",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-16",
 					"keymode" : 1,
@@ -494,7 +494,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.423077702522278, 606.055944502353668, 98.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 27.0, 161.0, 14.0 ],
+					"presentation_rect" : [ 49.0, 27.0, 162.0, 14.0 ],
 					"rounded" : 0.0,
 					"text" : "0 : 0 : 0 . 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],

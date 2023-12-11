@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 226.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 226.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -249,7 +249,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 135.842786306142557, 212.784898685636449, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 28.134303470023951, 202.0, 192.0 ],
+					"presentation_rect" : [ 5.0, 27.0, 202.0, 180.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
@@ -285,7 +285,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.806426948308967, 40.0, 30.0, 30.0 ]
 				}
 
@@ -303,7 +303,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.842786306142557, 212.784898685636449, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.675538547296355, 27.033937669039005, 204.339669197688949, 194.99261078321473 ],
+					"presentation_rect" : [ 5.0, 27.0, 204.0, 182.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

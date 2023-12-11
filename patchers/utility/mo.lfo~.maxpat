@@ -1109,7 +1109,7 @@
 					"patching_rect" : [ 305.0, 258.0, 48.0, 48.0 ],
 					"pictures" : [ "sine.svg", "updown.svg", "up.svg", "down.svg", "square.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.202797174453735, 26.0, 45.797202825546265, 54.398601412773132 ],
+					"presentation_rect" : [ 83.666211843490601, 26.0, 41.406958818435669, 54.398601412773132 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1145,6 +1145,7 @@
 					"spacing_x" : 3.0,
 					"spacing_y" : 3.0,
 					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "waveform-"
 				}
 
@@ -1184,7 +1185,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.125, 17.0, 74.0, 23.0 ],
+					"patching_rect" : [ 301.125, 17.0, 81.0, 23.0 ],
 					"text" : "r #0-init"
 				}
 
@@ -1209,7 +1210,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 561.651793999999882, 74.0, 23.0 ],
+					"patching_rect" : [ 525.0, 561.651793999999882, 81.0, 23.0 ],
 					"text" : "s #0-init"
 				}
 
@@ -3642,7 +3643,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3975,7 +3976,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 281.5, 158.5, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.070297211408615, 29.0, 41.714714705944061, 48.0 ],
+					"presentation_rect" : [ 45.070297211408615, 29.0, 27.0, 48.0 ],
 					"prototypename" : "M4L.dial.tiny",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -5362,7 +5363,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 390.0, 457.055555555555657, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 29.0, 41.714714705944061, 48.0 ],
+					"presentation_rect" : [ 7.0, 29.0, 27.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
@@ -5393,7 +5394,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 232.0, 158.5, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.070297211408615, 29.0, 41.714714705944061, 48.0 ],
+					"presentation_rect" : [ 45.070297211408615, 29.0, 27.0, 48.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{

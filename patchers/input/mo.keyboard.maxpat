@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -173,7 +173,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-30",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -588,7 +588,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 180.0, 167.0, 23.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -613,7 +613,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 226.842786306142557, 409.277826401086884, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 43.0, 40.732600748538971, 15.0 ],
+					"presentation_rect" : [ 171.0, 43.0, 38.732600748538971, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -661,7 +661,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 165.842786306142557, 409.277826401086884, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 26.0, 40.732600748538971, 15.0 ],
+					"presentation_rect" : [ 171.0, 26.0, 38.732600748538971, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
