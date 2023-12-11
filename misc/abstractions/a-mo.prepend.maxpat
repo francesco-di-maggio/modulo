@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 15.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -219,9 +218,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 300.00349561373389, 320.869429976851961, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.996411346901908, 0.871792723306498, 193.317516028631871, 15.0 ],
+					"presentation_rect" : [ 26.996411346901908, 0.871792723306498, 181.317516028631871, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "TEST",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "set-"
 				}
@@ -406,7 +404,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[145]",
+							"parameter_longname" : "live.text[536]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -459,7 +457,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.50349561373389, 320.869429976851961, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 195.483618820945964, 13.593006536364555 ],
+					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 183.483618820945964, 13.593006536364555 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

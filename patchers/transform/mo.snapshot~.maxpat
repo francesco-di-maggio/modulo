@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 30.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 23.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -99,8 +99,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 393.4271069188909, 225.626276284456253, 150.442643090089064, 5.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 70.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

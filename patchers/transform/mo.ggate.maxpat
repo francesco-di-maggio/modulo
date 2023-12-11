@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -206,7 +206,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 357.0, 170.75, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.570427238941164, 25.848836034536362, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 45.570427000000002, 25.848835999999999, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -430,7 +430,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.064107851187089, 575.232817477878484, 176.5, 104.767182522121516 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 45.859824508428574, 61.570427238941193, 44.178665816783905 ],
+					"presentation_rect" : [ 4.0, 45.206229716539383, 62.570427238941193, 44.33601987361908 ],
 					"saved_attribute_attributes" : 					{
 						"switchcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -552,7 +552,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 259.064107851187089, 208.5, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 25.848836034536362, 36.0, 15.0 ],
+					"presentation_rect" : [ 4.0, 25.848836034536362, 39.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -601,6 +601,25 @@
 
 					}
 
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1198.5, 247.449077622417462, 160.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 43.643938194960356, 60.949961081147194, 47.136926736682653 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}

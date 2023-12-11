@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -119,7 +119,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[707]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -224,7 +224,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-11",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -284,7 +284,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 327.666666666666629, 582.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.692549445217537, -0.035099297761917, 19.506711067756328, 15.0 ],
+					"presentation_rect" : [ 53.692549, -0.035099, 19.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -303,7 +303,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "live.numbox[390]",
 							"parameter_mmax" : 16.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -383,8 +383,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 666.541666666666629, 527.149103158418484, 179.0, 23.0 ],
-					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -510,7 +510,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[52]",
+							"parameter_longname" : "live.text[727]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -557,7 +557,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -598,7 +598,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -883,24 +883,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-35" : [ "live.text[52]", "live.text", 0 ],
-			"obj-45" : [ "live.text[1]", "live.text", 0 ],
-			"obj-72" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}

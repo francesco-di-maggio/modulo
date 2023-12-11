@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 533.0, 53.0, 1353.0, 993.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -385,7 +385,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 103.0, 351.210422667070532, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.920918990257, 76.551178395748138, 28.236112028360367, 15.0 ],
+					"presentation_rect" : [ 3.920918990257, 76.551178395748138, 30.111111164093018, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -524,7 +524,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 372.0, 452.801425796286821, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.403895937567214, 42.755823969841003, 29.0, 15.0 ],
+					"presentation_rect" : [ 36.403895937567214, 42.755823969841003, 30.111111164093018, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -571,7 +571,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 292.0, 452.801425796286821, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.920918990257, 42.755823969841003, 29.0, 15.0 ],
+					"presentation_rect" : [ 3.920918990257, 42.755823969841003, 30.111111164093018, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -628,7 +628,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.888866811990624, 428.801425796286821, 31.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.693052463894347, 25.0, 31.0, 18.0 ],
+					"presentation_rect" : [ 35.693052463894347, 25.0, 31.0, 18.0 ],
 					"text" : "down"
 				}
 
@@ -643,7 +643,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 304.5, 428.801425796286821, 19.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.407506758512366, 25.0, 19.0, 18.0 ],
+					"presentation_rect" : [ 9.476474572303509, 25.0, 19.0, 18.0 ],
 					"text" : "up"
 				}
 

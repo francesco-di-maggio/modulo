@@ -131,7 +131,7 @@
 					"patching_rect" : [ 50.0, 84.0, 48.0, 14.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 46.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 42.947269388546005, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -215,7 +215,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 94.127777791023277, 228.051943330534755, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.447804123163223, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 46.447803999999998, 4.0, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
