@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -269,9 +269,9 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
-					"format" : 5,
+					"format" : 6,
 					"id" : "obj-39",
-					"maxclass" : "number",
+					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -308,7 +308,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.0, 137.227182269096375, 49.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.237182095386771, 23.614077493548393, 66.125597663223743, 20.0 ],
+					"presentation_rect" : [ 7.237182095386771, 23.614077493548393, 59.125597663223743, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "mode-"

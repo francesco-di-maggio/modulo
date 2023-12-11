@@ -1421,12 +1421,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 703.959626924991881, 491.894056615856812, 316.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 8 ],
+						"initial" : [ 3 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr voices @bindto voices- @initial 8 @default_interp 0",
+					"text" : "pattr voices @bindto voices- @initial 3 @default_interp 0",
 					"varname" : "voices"
 				}
 

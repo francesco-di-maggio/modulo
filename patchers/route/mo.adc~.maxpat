@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -111,8 +111,9 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
+					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-15",
 					"maxclass" : "live.numbox",
@@ -120,11 +121,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 343.0, 327.5, 44.0, 15.0 ],
+					"patching_rect" : [ 343.0, 327.5, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.735055, 26.0, 20.0, 15.0 ],
+					"presentation_rect" : [ 3.735055, 26.0, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetricolor2" : 						{
 							"expression" : ""
 						}
 ,
@@ -141,11 +146,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[581]",
-							"parameter_mmax" : 32.0,
+							"parameter_longname" : "live.numbox[661]",
+							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
