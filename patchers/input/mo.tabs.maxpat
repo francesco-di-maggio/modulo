@@ -1464,7 +1464,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 182.941554664427827, 86.0, 23.0 ],
-									"text" : "pak 5 66 205 f"
+									"text" : "pak 5 66 204 f"
 								}
 
 							}
@@ -2000,7 +2000,7 @@
 					"patching_rect" : [ 529.153199976682799, 343.053840310316104, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.16763268459863, 4.0, 37.001353085041046, 15.0 ],
+					"presentation_rect" : [ 151.16763268459863, 4.0, 37.001353085041046, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2047,7 +2047,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 735.612853896617935, 290.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.168985769639647, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 190.16898599999999, 4.0, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

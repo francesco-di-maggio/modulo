@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 125.285429396231621, 300.0, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.941421547044769, 26.871792723306498, 197.626679400841937, 14.093006536364555 ],
+					"presentation_rect" : [ 5.941421547044769, 26.871792723306498, 58.626679400841937, 14.093006536364555 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "set-"
@@ -78,7 +78,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.285429396231621, 300.0, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.941421547044769, 26.871792723306498, 199.945940594117388, 13.593006536364555 ],
+					"presentation_rect" : [ 4.941421547044769, 26.871792723306498, 60.945940594117388, 13.593006536364555 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -112,8 +112,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 47.722122939427095, 119.674999713897762, 37.710407137870789, 15.904977381229401 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 25.871792723306498, 15.669682421792999, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -417,7 +415,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.285429396231621, 43.499999642372245, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 70.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

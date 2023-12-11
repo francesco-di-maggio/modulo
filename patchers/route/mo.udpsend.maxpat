@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 348.0, 230.349999785423392, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 26.871792723306498, 132.680738806724548, 14.093006536364555 ],
+					"presentation_rect" : [ 6.0, 26.871792723306498, 125.350895643234253, 14.093006536364555 ],
 					"rounded" : 0.0,
 					"text" : "127.0.0.1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -80,7 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 348.0, 230.349999785423392, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 26.871792723306498, 135.0, 13.593006536364555 ],
+					"presentation_rect" : [ 5.0, 26.871792723306498, 127.670156836509705, 13.593006536364555 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -105,7 +105,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 190.0, 230.349999785423392, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 26.871792723306498, 70.568100947886705, 14.093006536364555 ],
+					"presentation_rect" : [ 138.0, 26.871792723306498, 70.568100947886705, 14.093006536364555 ],
 					"rounded" : 0.0,
 					"text" : "7400",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -127,7 +127,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 230.349999785423392, 92.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.0, 26.871792723306498, 72.887362141162157, 13.593006536364555 ],
+					"presentation_rect" : [ 137.0, 26.871792723306498, 72.887362141162157, 13.593006536364555 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -478,7 +478,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 35.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

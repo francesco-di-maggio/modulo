@@ -41,10 +41,9 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
+					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
 					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"appearance" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-29",
 					"maxclass" : "live.numbox",
@@ -52,9 +51,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 670.0, 230.0, 46.0, 15.0 ],
+					"patching_rect" : [ 670.0, 230.0, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 26.0, 25.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 26.0, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -87,7 +86,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "voices-"
 				}
 
@@ -135,7 +133,7 @@
 					}
 ,
 					"text" : "T",
-					"varname" : "mode-[1]"
+					"varname" : "mode-"
 				}
 
 			}
@@ -447,7 +445,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.0, 436.894056615856812, 86.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 213.0, 7.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 70.0, 7.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1070,11 +1068,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 252.0, 510.0, 53.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 182.0, 38.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 39.0, 38.0 ],
 					"rounded" : 0.0,
 					"spacing_x" : 2.0,
 					"tabcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14" ],
+					"tabs" : [ "1", "2", "3" ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"truncate" : 0,
 					"varname" : "tab-"
@@ -1495,7 +1493,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 510.0, 78.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 182.0, 38.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 39.0, 38.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

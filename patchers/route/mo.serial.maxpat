@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 498.0, 526.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.24010603650197, 3.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 105.24010603650197, 3.0, 30.0, 18.0 ],
 					"text" : "baud"
 				}
 
@@ -263,7 +263,7 @@
 					"patching_rect" : [ 186.146341443061829, 285.349999785423392, 129.707317113876343, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 148.240106036501999, 2.0, 74.95919048067114, 20.0 ],
+					"presentation_rect" : [ 136.240106036501999, 2.0, 74.95919048067114, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "baud-"
@@ -1179,7 +1179,7 @@
 					"patching_rect" : [ 360.0, 525.0, 129.707317113876343, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 22.05472107950667, 24.148713290168011, 200.576858319602223, 20.0 ],
+					"presentation_rect" : [ 22.05472107950667, 24.148713290168011, 188.576858319602223, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -1199,7 +1199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 525.0, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.05472107950667, 27.132189824653828, 199.64924434598467, 13.3767827898264 ],
+					"presentation_rect" : [ 22.05472107950667, 27.132189824653828, 187.64924434598467, 13.3767827898264 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -1221,7 +1221,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 582.829837719599254, 26.626276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1245,7 +1245,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 186.146341443061829, 285.349999785423392, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.240106036501999, 5.0, 75.95919048067114, 13.376782789826393 ],
+					"presentation_rect" : [ 134.240106036501999, 5.0, 75.95919048067114, 13.376782789826393 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

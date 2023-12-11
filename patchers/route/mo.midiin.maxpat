@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
-		"openrect" : [ 0.0, 0.0, 226.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 163.966883659362793, 417.353458553552628, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.153540770997353, 2.5, 29.0, 18.0 ],
+					"presentation_rect" : [ 90.153540770997353, 2.5, 29.0, 18.0 ],
 					"text" : "hires",
 					"textjustification" : 1
 				}
@@ -154,7 +154,7 @@
 					"patching_rect" : [ 237.996504386265997, 552.342105031013602, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 21.867723231261579, 24.148713290168011, 200.43845305865446, 20.0 ],
+					"presentation_rect" : [ 21.867723231261579, 24.148713290168011, 187.734870473796519, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
@@ -174,7 +174,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 236.996504386265997, 551.342105031013602, 101.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.867723231261579, 26.904060288740361, 199.729233185702952, 13.420286163687706 ],
+					"presentation_rect" : [ 21.867723231261579, 26.904060288740361, 187.025650600845012, 13.420286163687706 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -254,7 +254,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 344.0, 212.126276284456253, 51.726473801069744, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.113000654965106, 4.0, 89.898676327080068, 15.0 ],
+					"presentation_rect" : [ 121.113000654965106, 4.0, 89.898676327080068, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -324,7 +324,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 29.0, 416.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.589783913799977, 1.5, 17.523216741165129, 20.0 ],
+					"presentation_rect" : [ 74.589783913799977, 1.5, 17.523216741165129, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "hires-"
@@ -399,7 +399,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 147.829837719599254, 18.626276284456253, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 226.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -751,7 +751,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 416.353458553552628, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.113000654965106, 4.811608605086803, 13.868800954898802, 13.376782789826393 ],
+					"presentation_rect" : [ 76.113000654965106, 4.811608605086803, 13.868800954898802, 13.376782789826393 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

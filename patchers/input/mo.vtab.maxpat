@@ -368,10 +368,9 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
+					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
 					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"appearance" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-56",
 					"maxclass" : "live.numbox",
@@ -381,7 +380,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 662.806426948308967, 234.894056615856812, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 26.0, 25.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 26.0, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -414,7 +413,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "voices-"
 				}
 

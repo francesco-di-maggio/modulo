@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -449,7 +449,7 @@
 					"patching_rect" : [ 125.25, 187.695019802407899, 43.0, 15.0 ],
 					"pictures" : [ "random.svg", "random.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 4.0, 34.609442472457886, 15.0 ],
+					"presentation_rect" : [ 154.0, 4.0, 34.609442472457886, 15.0 ],
 					"rounded" : 100.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1006,7 +1006,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
 					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-56",
@@ -1017,7 +1016,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 163.25, 187.695019802407899, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 183.675539000000015, 4.0, 25.0, 15.0 ],
+					"presentation_rect" : [ 189.675538999999986, 4.0, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1050,7 +1049,6 @@
 
 					}
 ,
-					"textjustification" : 0,
 					"varname" : "voices-"
 				}
 
