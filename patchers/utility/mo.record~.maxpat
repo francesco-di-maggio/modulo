@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,26 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 591.7545314192771, 17.019924810374903, 150.442643090089064, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 61.0, 214.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-10",
@@ -152,7 +172,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.5, 580.0, 33.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.17437758304672, 66.831935575470595, 33.0, 18.0 ],
+					"presentation_rect" : [ 88.17437758304672, 63.831935575470595, 33.0, 18.0 ],
 					"text" : "count"
 				}
 
@@ -253,7 +273,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1032.0, 249.0, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.17437758304672, 46.665967787735298, 36.0, 18.0 ],
+					"presentation_rect" : [ 88.17437758304672, 41.665967787735298, 36.0, 18.0 ],
 					"text" : "length"
 				}
 
@@ -272,7 +292,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 983.0, 250.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.788076289077566, 48.165967787735298, 84.0, 15.0 ],
+					"presentation_rect" : [ 3.788076289077566, 43.165967787735298, 84.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -306,7 +326,7 @@
 				"box" : 				{
 					"comment" : "(int) channels",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -739,7 +759,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 689.0, 420.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.038122892379761, 28.0, 36.718755021691322, 15.0 ],
+					"presentation_rect" : [ 174.038122892379761, 26.0, 36.718755021691322, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -802,7 +822,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -812,14 +832,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
-					"patching_rect" : [ 983.0, 724.457984536886215, 174.0, 23.0 ],
+					"patching_rect" : [ 983.0, 724.457984536886215, 174.0, 22.0 ],
 					"text" : "mcs.play~ recording 1 @loop 1",
 					"varname" : "play"
 				}
@@ -854,7 +874,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 791.0, 420.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 129.859991679641837, 68.331935575470595, 37.053770008160029, 15.0 ],
+					"presentation_rect" : [ 129.859991679641837, 65.331935575470595, 37.053770008160029, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -965,7 +985,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 68.5, 610.478992268443108, 45.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.788076289077566, 68.331935575470595, 84.0, 15.0 ],
+					"presentation_rect" : [ 3.788076289077566, 65.331935575470595, 84.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1021,7 +1041,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 739.0, 420.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.038122892379761, 48.165967787735298, 36.718755021691322, 15.0 ],
+					"presentation_rect" : [ 174.038122892379761, 43.165967787735298, 36.718755021691322, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1071,7 +1091,7 @@
 				"box" : 				{
 					"comment" : "(message) record, playback, loop, clear, length, read, write",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1124,7 +1144,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) to record",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1205,7 +1225,7 @@
 					"patching_rect" : [ 1070.0, 628.5, 44.0, 15.0 ],
 					"pictures" : [ "refresh.svg", "refresh.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.272445648908615, 28.0, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 89.272445648908615, 26.0, 41.211923710922434, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1257,7 +1277,7 @@
 					"patching_rect" : [ 983.0, 628.5, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.0, 28.0, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 46.0, 26.0, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1316,7 +1336,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 432.5, 316.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.038122892379761, 4.064706464179835, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 190.038123000000013, 4.064706, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1366,7 +1386,7 @@
 					"patching_rect" : [ 37.5, 272.0, 44.0, 15.0 ],
 					"pictures" : [ "record.svg", "record.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.788076289077566, 28.0, 41.211923710922434, 15.0 ],
+					"presentation_rect" : [ 3.788076289077566, 26.0, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1428,7 +1448,7 @@
 					"patching_rect" : [ 635.0, 420.0, 44.0, 15.0 ],
 					"pictures" : [ "clear.svg", "clear.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.038122892379761, 68.331935575470595, 37.001353085041046, 15.0 ],
+					"presentation_rect" : [ 174.038122892379761, 65.331935575470595, 37.001353085041046, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -2169,60 +2189,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-11" : [ "live.text[360]", "live.text", 0 ],
-			"obj-141" : [ "live.text[358]", "live.text", 0 ],
-			"obj-33" : [ "live.numbox[16]", "live.dial[12]", 0 ],
-			"obj-39" : [ "live.text[357]", "live.text", 0 ],
-			"obj-44" : [ "live.numbox[17]", "live.dial[12]", 0 ],
-			"obj-45" : [ "live.text[415]", "live.text", 0 ],
-			"obj-52" : [ "live.numbox[91]", "live.numbox", 0 ],
-			"obj-56" : [ "live.text[356]", "live.text", 0 ],
-			"obj-85" : [ "live.text[359]", "live.text", 0 ],
-			"obj-9" : [ "live.text[355]", "live.text", 0 ],
-			"obj-92" : [ "live.text[844]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
