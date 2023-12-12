@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 416.0, 440.0 ],
+		"rect" : [ 34.0, 87.0, 416.0, 428.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 394.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 384.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -257,7 +257,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 394.0, 78.0, 23.0 ],
+					"patching_rect" : [ 223.0, 384.0, 78.0, 23.0 ],
 					"text" : "send number"
 				}
 

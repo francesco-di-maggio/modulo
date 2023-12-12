@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 636.0, 638.0 ],
+		"rect" : [ 34.0, 87.0, 636.0, 630.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 607.0, 46.0, 21.0 ],
+					"patching_rect" : [ 41.0, 597.0, 46.0, 21.0 ],
 					"text" : "symbol"
 				}
 
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 557.0, 24.0, 21.0 ],
+					"patching_rect" : [ 41.0, 547.0, 24.0, 21.0 ],
 					"text" : "list"
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 582.0, 214.0, 23.0 ]
+					"patching_rect" : [ 41.0, 572.0, 214.0, 23.0 ]
 				}
 
 			}
@@ -212,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 483.0, 214.0, 23.0 ],
+					"patching_rect" : [ 41.0, 473.0, 56.0, 23.0 ],
 					"text" : "route list"
 				}
 
@@ -225,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 532.0, 180.0, 23.0 ]
+					"patching_rect" : [ 41.0, 522.0, 180.0, 23.0 ]
 				}
 
 			}
@@ -457,7 +457,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 50.5, 456.0, 50.5, 456.0 ],
+					"midpoints" : [ 50.5, 453.0, 50.5, 453.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -545,7 +545,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 50.5, 519.0, 211.5, 519.0 ],
+					"midpoints" : [ 50.5, 507.0, 211.5, 507.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -553,7 +553,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 245.5, 507.0, 245.5, 507.0 ],
+					"midpoints" : [ 87.5, 507.0, 245.5, 507.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 

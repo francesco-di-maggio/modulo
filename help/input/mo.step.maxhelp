@@ -156,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.767374722181728, 330.0, 102.0, 25.0 ],
+					"patching_rect" : [ 483.767374722181728, 329.0, 102.0, 25.0 ],
 					"text" : "set fold on/off"
 				}
 

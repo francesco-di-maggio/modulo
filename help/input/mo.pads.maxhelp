@@ -205,8 +205,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.890828072368777, 241.0, 97.0, 25.0 ],
-					"text" : "set pads to 0 "
+					"patching_rect" : [ 333.890828072368777, 241.0, 110.0, 25.0 ],
+					"text" : "set pads to zero"
 				}
 
 			}

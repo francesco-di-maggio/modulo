@@ -88,12 +88,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1017.031534777085199, 230.0, 344.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr connect @bindto connect- @initial 1 @default_priority 1",
+					"text" : "pattr connect @bindto connect- @initial 0 @default_priority 1",
 					"varname" : "connect"
 				}
 
@@ -1938,7 +1938,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 854.139760281642339, 540.325857325578113, 272.0, 23.0 ],
-					"restore" : [ 0, 0, 1.0, 1, 1, 1.0, 2, 2, 1.0, 3, 3, 1.0 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

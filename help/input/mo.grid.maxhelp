@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 604.0, 702.0 ],
+		"rect" : [ 34.0, 87.0, 604.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -140,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.255791574060538, 294.25, 129.0, 25.0 ],
+					"patching_rect" : [ 392.255791574060538, 294.25, 129.0, 25.0 ],
 					"text" : "set direction on/off"
 				}
 
@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.255791574060538, 261.25, 148.0, 25.0 ],
+					"patching_rect" : [ 319.255791574060538, 261.25, 148.0, 25.0 ],
 					"text" : "set matrix mode on/off"
 				}
 

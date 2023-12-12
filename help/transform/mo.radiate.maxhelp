@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 483.0, 572.0 ],
+		"rect" : [ 34.0, 87.0, 476.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,16 +46,15 @@
 					"id" : "obj-9",
 					"knobsize" : 8.0,
 					"maxclass" : "nodes",
-					"nodenumber" : 4,
-					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.638717348837209, 0.522438279069767, 0.52825223255814, 0.52825223255814 ],
+					"nodesnames" : [ "1" ],
+					"nsize" : [ 0.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 171.0, 425.9838293650796, 100.0, 100.0 ],
-					"xplace" : [ 0.180641325581395, 0.5, 0.76412611627907, 0.5 ],
-					"yplace" : [ 0.5, 0.238780860465116, 0.5, 0.76412611627907 ]
+					"patching_rect" : [ 161.0, 425.9838293650796, 95.0, 95.0 ],
+					"xplace" : [ 0.5 ],
+					"yplace" : [ 0.5 ]
 				}
 
 			}
@@ -67,7 +66,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 41.140616000000001, 425.9838293650796, 100.0, 100.0 ],
+					"patching_rect" : [ 41.140616000000001, 425.9838293650796, 95.0, 95.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 63, 63 ],
@@ -90,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.5, 533.344563492063685, 41.0, 21.0 ],
+					"patching_rect" : [ 190.5, 525.344563492063685, 41.0, 21.0 ],
 					"text" : "nodes"
 				}
 
@@ -101,8 +100,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.140615999999994, 533.344563492063685, 76.0, 21.0 ],
-					"text" : "combined xy"
+					"patching_rect" : [ 53.140615999999994, 525.344563492063685, 68.0, 21.0 ],
+					"text" : "vector sum"
 				}
 
 			}
@@ -323,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 101.640615999999994, 378.0, 180.5, 378.0 ],
+					"midpoints" : [ 101.640615999999994, 378.0, 170.5, 378.0 ],
 					"source" : [ "obj-36", 1 ]
 				}
 
