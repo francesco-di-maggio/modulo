@@ -49,7 +49,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 20.0, 513.313494999999989, 214.0, 18.0 ],
-					"pattrstorage" : "untitled",
+					"pattrstorage" : "p-mo.interpolator",
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 329.0, 214.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -66,6 +66,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "p-mo.interpolator.json",
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -80,7 +81,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "untitled"
+					"varname" : "p-mo.interpolator"
 				}
 
 			}
@@ -615,6 +616,13 @@
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-mo.interpolator.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

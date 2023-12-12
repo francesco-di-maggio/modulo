@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 462.0, 617.0 ],
+		"rect" : [ 34.0, 87.0, 263.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -91,7 +91,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 163.999999542877958, 533.845874999999978, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.0, 384.0, 70.0, 214.0 ],
+					"presentation_rect" : [ 168.5, 471.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[3]",
 					"viewvisibility" : 1
 				}
@@ -115,7 +115,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.999999542877944, 533.845874999999978, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.000000000000014, 384.0, 70.0, 214.0 ],
+					"presentation_rect" : [ 96.5, 471.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[2]",
 					"viewvisibility" : 1
 				}
@@ -139,7 +139,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.999999542877948, 533.845874999999978, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 384.0, 70.0, 214.0 ],
+					"presentation_rect" : [ 24.499999999999986, 471.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[1]",
 					"viewvisibility" : 1
 				}
@@ -164,7 +164,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 123.845875000000007, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 116.0, 214.0, 182.0 ],
+					"presentation_rect" : [ 24.499999999999986, 203.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -188,7 +188,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 163.999999542877958, 403.845874999999978, 70.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.0, 310.0, 70.0, 62.0 ],
+					"presentation_rect" : [ 168.5, 397.0, 70.0, 62.0 ],
 					"varname" : "mo.steer",
 					"viewvisibility" : 1
 				}
@@ -212,7 +212,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.999999542877944, 403.845874999999978, 70.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.000000000000014, 310.0, 70.0, 62.0 ],
+					"presentation_rect" : [ 96.5, 397.0, 70.0, 62.0 ],
 					"varname" : "mo.radiate",
 					"viewvisibility" : 1
 				}
@@ -236,7 +236,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.999999542877948, 403.845874999999978, 70.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 310.0, 70.0, 62.0 ],
+					"presentation_rect" : [ 24.499999999999986, 397.0, 70.0, 62.0 ],
 					"varname" : "mo.latch",
 					"viewvisibility" : 1
 				}
@@ -245,15 +245,16 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 173.0, 39.0 ],
+					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 173.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 272.0, 51.0, 173.0, 39.0 ],
+					"presentation_rect" : [ 24.499999999999986, 20.0, 173.0, 54.0 ],
 					"text" : "1. set speed and probability\n2. start random generator"
 				}
 
@@ -275,7 +276,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 242.999999542877958, 60.499999945402145, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.5, 60.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 100.999999999999986, 80.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -305,7 +306,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 20.0, 214.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 214.0, 84.0 ],
+					"presentation_rect" : [ 24.499999999999986, 107.0, 214.0, 84.0 ],
 					"varname" : "mo.rand",
 					"viewvisibility" : 1
 				}

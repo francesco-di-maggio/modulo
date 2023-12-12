@@ -216,7 +216,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 73.5, 19.5, 77.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.5, 199.0, 75.0, 25.0 ],
+					"presentation_rect" : [ 305.5, 200.0, 75.0, 25.0 ],
 					"text" : "load dict ",
 					"textjustification" : 1
 				}
@@ -239,7 +239,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 50.0, 22.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.5, 202.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 278.5, 203.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

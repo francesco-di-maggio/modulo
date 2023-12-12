@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, 4 ],
+					"args" : [ 3, 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
