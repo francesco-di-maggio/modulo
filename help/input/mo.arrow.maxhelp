@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 258.0, 400.0 ],
+		"rect" : [ 34.0, 87.0, 274.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.5, 291.5, 20.0, 20.0 ],
+					"patching_rect" : [ 116.5, 286.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -75,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 282.0, 114.0, 39.0 ],
+					"patching_rect" : [ 141.0, 277.0, 114.0, 39.0 ],
 					"text" : "click \nkeyboard arrows"
 				}
 
@@ -168,7 +168,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 359.515926122665405, 55.0, 23.0 ],
-					"text" : "up"
+					"text" : "right"
 				}
 
 			}
@@ -188,7 +188,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 251.515926122665405, 55.0, 77.0 ],
+					"patching_rect" : [ 41.0, 251.515926122665405, 70.0, 70.0 ],
 					"varname" : "mo.key",
 					"viewvisibility" : 1
 				}
@@ -227,13 +227,6 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-8" : 				{
-					"parameter_longname" : "live.text[188]"
 				}
 
 			}

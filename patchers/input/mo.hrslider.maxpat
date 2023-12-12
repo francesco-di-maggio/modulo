@@ -46,7 +46,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 463.0, 15.0, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 673.0, 30.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 22.0, 5.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -82,7 +82,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 460.0, 240.0, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 19.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 21.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "color-"
 				}
@@ -101,7 +101,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 460.0, 501.167942951122768, 80.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.832684844732285, 27.0, 13.0, 4.0 ],
+					"presentation_rect" : [ 5.0, 27.0, 13.0, 8.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

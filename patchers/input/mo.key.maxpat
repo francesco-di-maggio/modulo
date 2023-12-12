@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -410,14 +410,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 70.872310342721619, 560.0, 59.127689657278381, 16.25 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.453947573900223, 43.0, 61.546052426099777, 23.0 ],
+					"presentation_rect" : [ 4.453948, 43.0, 62.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_value_bar"
+							"expression" : ""
 						}
 ,
 						"activetextcolor" : 						{

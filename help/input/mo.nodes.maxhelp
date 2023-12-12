@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 434.0, 670.0 ],
+		"rect" : [ 34.0, 87.0, 434.0, 651.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,8 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 624.0, 226.0, 23.0 ],
-					"text" : "0.046326 0.073757 0.104695 0."
+					"patching_rect" : [ 41.0, 604.0, 226.0, 23.0 ]
 				}
 
 			}
@@ -199,12 +198,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.255791574060538, 283.0, 69.0, 39.0 ],
-					"text" : "random \nposition"
+					"patching_rect" : [ 350.0, 275.5, 68.0, 54.0 ],
+					"text" : "nodes random\nposition"
 				}
 
 			}
@@ -277,7 +276,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 356.0, 226.0, 235.0 ],
+					"patching_rect" : [ 41.0, 356.0, 214.0, 214.0 ],
 					"varname" : "mo.nodes",
 					"viewvisibility" : 1
 				}
@@ -303,7 +302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 50.5, 609.0, 257.5, 609.0 ],
+					"midpoints" : [ 50.5, 591.0, 257.5, 591.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -351,8 +350,8 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-13" : [ "live.text[26]", "live.text", 0 ],
-			"obj-13::obj-3" : [ "live.text[34]", "live.text", 0 ],
-			"obj-13::obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-13::obj-3" : [ "live.text[716]", "live.text", 0 ],
+			"obj-13::obj-56" : [ "live.numbox[660]", "live.numbox", 0 ],
 			"obj-13::obj-6" : [ "live.text[25]", "live.text", 0 ],
 			"obj-13::obj-9" : [ "multislider[3]", "multislider[2]", 0 ],
 			"parameterbanks" : 			{

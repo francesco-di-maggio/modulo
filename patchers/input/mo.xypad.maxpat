@@ -62,7 +62,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 610.0, 242.101953774690628, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 19.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 21.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "color-"
 				}
@@ -81,7 +81,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 610.0, 419.0, 80.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.832684844732285, 27.0, 13.0, 4.0 ],
+					"presentation_rect" : [ 5.0, 27.0, 13.0, 8.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -424,7 +424,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 146.0, 242.101953774690628, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.134978999999987, 51.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 4.134978999999987, 55.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -484,7 +484,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 56.0, 242.101953774690628, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.134978999999987, 34.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 4.134978999999987, 38.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

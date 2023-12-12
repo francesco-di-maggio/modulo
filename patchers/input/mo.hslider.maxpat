@@ -62,7 +62,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 410.0, 279.251276284456253, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 19.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 21.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "color-"
 				}
@@ -71,7 +71,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.5019, 0.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-67",
@@ -81,7 +81,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 410.0, 523.251276284456253, 80.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.832684844732285, 27.0, 13.0, 4.0 ],
+					"presentation_rect" : [ 5.0, 27.0, 13.0, 8.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -386,7 +386,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 182.653199976682799, 146.127552568912506, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.101227999999992, 34.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 4.101227999999992, 38.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -509,7 +509,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.0, 0.5019, 0.0, 1.0 ],
 					"spacing" : 2,
 					"varname" : "slider-"
 				}
