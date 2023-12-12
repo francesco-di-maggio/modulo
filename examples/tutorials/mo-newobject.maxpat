@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 940.0, 102.0, 24.0, 24.0 ]
+					"patching_rect" : [ 890.464145221194258, 106.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 940.0, 128.0, 185.0, 23.0 ],
+					"patching_rect" : [ 890.464145221194258, 142.5, 185.0, 23.0 ],
 					"text" : "script sendbox mo.pad border $1"
 				}
 
@@ -69,48 +69,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 940.0, 153.0, 70.0, 23.0 ],
+					"patching_rect" : [ 890.464145221194258, 167.5, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 3,
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 186.75, 487.675082952919524, 82.0, 25.0 ],
-					"text" : "play / stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-39",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 273.25, 491.175082952919524, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "3",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -122,7 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 39.0, 237.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "NOTE: In the Inspector you may:\n• change background color \n• enable/disable border, or use thispatcher"
 				}
 
@@ -163,7 +123,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 780.0, 39.0, 70.0, 87.0 ],
+					"patching_rect" : [ 780.0, 39.0, 70.0, 70.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -468,7 +428,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 949.5, 153.0, 949.5, 153.0 ],
+					"midpoints" : [ 899.964145221194258, 167.5, 899.964145221194258, 167.5 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -482,9 +442,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-2" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-2" : [ "live.text[187]", "live.text", 0 ],
+			"obj-1::obj-22" : [ "live.text[192]", "live.text", 0 ],
+			"obj-1::obj-6" : [ "live.text[25]", "live.text", 0 ],
 			"obj-24::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-24::obj-22" : [ "live.text[19]", "live.text", 0 ],
 			"obj-24::obj-6" : [ "live.text[92]", "live.text", 0 ],
@@ -498,16 +458,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-2" : 				{
-					"parameter_longname" : "live.text[3]"
+				"obj-24::obj-2" : 				{
+					"parameter_longname" : "live.text[90]"
 				}
 ,
-				"obj-1::obj-22" : 				{
-					"parameter_longname" : "live.text[1]"
+				"obj-24::obj-22" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 ,
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[2]"
+				"obj-24::obj-6" : 				{
+					"parameter_longname" : "live.text[92]"
 				}
 
 			}

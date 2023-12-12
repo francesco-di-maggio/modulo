@@ -347,8 +347,8 @@
 
 					}
 ,
-					"text" : "w",
-					"texton" : "w",
+					"text" : "vslider",
+					"texton" : "vslider",
 					"varname" : "mute-"
 				}
 
@@ -554,7 +554,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 74.489049971103668, 552.001276284456253, 78.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 31.0, 34.0, 174.0 ],
+					"presentation_rect" : [ 30.0, 31.0, 32.0, 174.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider-[18]",
@@ -566,10 +566,12 @@
 
 					}
 ,
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"spacing" : 2,
+					"spacing" : 1,
+					"thickness" : 3,
 					"varname" : "slider-"
 				}
 
