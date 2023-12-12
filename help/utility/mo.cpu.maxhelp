@@ -169,7 +169,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 165.0, 70.0, 62.0 ],
+					"patching_rect" : [ 41.0, 165.0, 70.0, 45.0 ],
 					"varname" : "mo.latch",
 					"viewvisibility" : 1
 				}
@@ -185,19 +185,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-9" : [ "live.text[19]", "live.text", 0 ],
+			"obj-2::obj-9" : [ "live.text[296]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-9" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 
 			}

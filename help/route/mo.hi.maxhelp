@@ -204,7 +204,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 41.0, 259.0, 226.0, 45.0 ],
+					"patching_rect" : [ 41.0, 259.0, 214.0, 45.0 ],
 					"varname" : "mo.hi",
 					"viewvisibility" : 1
 				}

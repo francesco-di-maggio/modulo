@@ -239,7 +239,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
-					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"coldcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "live.meter~",
 					"mode" : 1,
@@ -249,14 +249,10 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 135.842786306142557, 212.784898685636449, 211.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 27.0, 202.0, 180.0 ],
+					"presentation_rect" : [ 6.0, 28.0, 203.0, 181.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
-						}
-,
-						"coldcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
 						}
 
 					}
@@ -285,7 +281,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 199.806426948308967, 40.0, 30.0, 30.0 ]
 				}
 

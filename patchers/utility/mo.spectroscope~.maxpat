@@ -341,7 +341,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 191.806426948308967, 55.498130464903795, 30.0, 30.0 ]
 				}
 
@@ -369,7 +369,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"fgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "spectroscope~",
@@ -379,14 +379,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.842786306142557, 465.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 28.0, 203.0, 180.0 ],
-					"saved_attribute_attributes" : 					{
-						"fgcolor" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-,
+					"presentation_rect" : [ 6.0, 28.0, 202.0, 180.0 ],
 					"sonolocolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 

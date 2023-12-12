@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 386.0, 404.0 ],
+		"rect" : [ 34.0, 87.0, 386.0, 392.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 345.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 336.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.5, 334.0, 45.0, 45.0 ]
+					"patching_rect" : [ 160.5, 325.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -72,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.222703319138759, 343.5, 74.0, 25.0 ],
+					"patching_rect" : [ 244.222703319138759, 334.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -92,7 +92,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 215.50795786459355, 346.5, 20.0, 20.0 ],
+					"patching_rect" : [ 215.50795786459355, 337.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -274,7 +274,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 288.0, 70.0, 30.0 ],
+					"patching_rect" : [ 41.0, 288.0, 70.0, 23.0 ],
 					"varname" : "mo.snapshot~",
 					"viewvisibility" : 1
 				}
@@ -300,7 +300,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 50.5, 321.0, 50.5, 321.0 ],
+					"midpoints" : [ 50.5, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -315,24 +315,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-1" : [ "live.text[71]", "live.text", 0 ],
-			"obj-3::obj-32" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-3::obj-1" : [ "live.text[529]", "live.text", 0 ],
+			"obj-3::obj-32" : [ "live.numbox[297]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-3::obj-1" : 				{
-					"parameter_longname" : "live.text[71]"
-				}
-,
-				"obj-3::obj-32" : 				{
-					"parameter_longname" : "live.numbox[6]"
 				}
 
 			}

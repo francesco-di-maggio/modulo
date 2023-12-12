@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 350.0, 390.0 ],
+		"rect" : [ 34.0, 87.0, 345.0, 376.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 340.0, 84.0, 23.0 ]
+					"patching_rect" : [ 41.0, 330.0, 84.0, 23.0 ]
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 253.0, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 253.0, 214.0, 45.0 ],
 					"varname" : "mo.transport",
 					"viewvisibility" : 1
 				}
@@ -177,7 +177,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 327.0, 115.5, 327.0 ],
+					"midpoints" : [ 50.5, 315.0, 115.5, 315.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

@@ -82,8 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 395.369893655180931, 110.0, 23.0 ],
-					"text" : "/osc hello world"
+					"patching_rect" : [ 41.0, 395.369893655180931, 110.0, 23.0 ]
 				}
 
 			}
@@ -103,7 +102,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 315.869893999999988, 226.0, 45.0 ],
+					"patching_rect" : [ 41.0, 315.869893999999988, 214.0, 45.0 ],
 					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}
@@ -363,19 +362,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9::obj-6" : [ "live.text[1]", "live.text", 0 ],
+			"obj-9::obj-6" : [ "live.text[616]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-9::obj-6" : 				{
-					"parameter_longname" : "live.text[1]"
 				}
 
 			}

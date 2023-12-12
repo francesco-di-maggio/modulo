@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 560.0, 458.0 ],
+		"rect" : [ 34.0, 87.0, 560.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 378.5, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 378.5, 214.0, 45.0 ],
 					"varname" : "mo.launch",
 					"viewvisibility" : 1
 				}
@@ -320,29 +320,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-10" : [ "live.text[3]", "live.text", 0 ],
-			"obj-3::obj-12" : [ "live.text[1]", "live.text", 0 ],
-			"obj-3::obj-42" : [ "live.text[2]", "live.text", 0 ],
+			"obj-3::obj-10" : [ "live.text[895]", "live.text", 0 ],
+			"obj-3::obj-12" : [ "live.text[930]", "live.text", 0 ],
+			"obj-3::obj-42" : [ "live.text[894]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-3::obj-10" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-3::obj-12" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-3::obj-42" : 				{
-					"parameter_longname" : "live.text[2]"
 				}
 
 			}

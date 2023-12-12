@@ -593,7 +593,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.140615909090684, 272.121973459918877, 214.0, 176.0 ],
+					"patching_rect" : [ 41.140615909090684, 272.121973459918877, 214.0, 169.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -805,7 +805,7 @@
 			"obj-16::obj-24" : [ "live.dial[9]", "release", 0 ],
 			"obj-16::obj-25" : [ "live.dial[17]", "semitone", 0 ],
 			"obj-16::obj-27" : [ "live.dial[16]", "vibrato", 0 ],
-			"obj-16::obj-34" : [ "live.text[633]", "live.text", 0 ],
+			"obj-16::obj-34" : [ "live.text[884]", "live.text", 0 ],
 			"obj-16::obj-37" : [ "live.text[821]", "octave", 0 ],
 			"obj-16::obj-4" : [ "live.dial[30]", "volume", 0 ],
 			"obj-16::obj-42" : [ "live.text[823]", "live.text", 0 ],
@@ -831,12 +831,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.fm~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -844,8 +838,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

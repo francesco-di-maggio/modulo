@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 338.0, 299.0 ],
+		"rect" : [ 34.0, 87.0, 324.0, 281.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -147,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.498877999999998, 216.0, 70.0, 62.0 ],
+					"patching_rect" : [ 41.498877999999998, 216.0, 70.0, 45.0 ],
 					"varname" : "mo.adstatus",
 					"viewvisibility" : 1
 				}
@@ -164,34 +164,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-1" : [ "live.text[19]", "live.text", 0 ],
-			"obj-2::obj-317::obj-218" : [ "live.text[4]", "live.text[33]", 0 ],
-			"obj-2::obj-317::obj-219" : [ "live.text[3]", "live.text[33]", 0 ],
-			"obj-2::obj-7" : [ "live.dial[7]", "live.text", 0 ],
+			"obj-2::obj-1" : [ "live.text[291]", "live.text", 0 ],
+			"obj-2::obj-317::obj-218" : [ "live.text[290]", "live.text[33]", 0 ],
+			"obj-2::obj-317::obj-219" : [ "live.text[289]", "live.text[33]", 0 ],
+			"obj-2::obj-7" : [ "live.dial[36]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-1" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-2::obj-317::obj-218" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-2::obj-317::obj-219" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-2::obj-7" : 				{
-					"parameter_longname" : "live.dial[7]"
 				}
 
 			}

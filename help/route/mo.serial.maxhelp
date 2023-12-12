@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 691.0, 541.0 ],
+		"rect" : [ 34.0, 87.0, 691.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.999999999999943, 494.0, 92.0, 23.0 ],
+					"patching_rect" : [ 40.999999999999943, 474.0, 92.0, 23.0 ],
 					"text" : "print @popup 1"
 				}
 
@@ -566,7 +566,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 408.5, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 408.5, 214.0, 45.0 ],
 					"varname" : "mo.serial",
 					"viewvisibility" : 1
 				}
@@ -656,6 +656,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 50.5, 456.0, 50.499999999999943, 456.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -679,7 +680,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 245.5, 393.0, 245.5, 393.0 ],
+					"midpoints" : [ 245.5, 285.0, 245.5, 285.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 638.0, 556.0 ],
+		"rect" : [ 34.0, 87.0, 638.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.168105840682983, 510.297012329101562, 73.0, 21.0 ],
+					"patching_rect" : [ 460.168105840682983, 501.297011999999995, 73.0, 21.0 ],
 					"text" : "14-bit value"
 				}
 
@@ -82,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.912314266622388, 509.297012329101562, 60.0, 23.0 ]
+					"patching_rect" : [ 397.912314266622388, 500.297011999999995, 60.0, 23.0 ]
 				}
 
 			}
@@ -344,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 397.297012329101562, 214.0, 135.0 ],
+					"patching_rect" : [ 41.0, 397.297011999999995, 214.0, 126.0 ],
 					"varname" : "mo.xbendouts",
 					"viewvisibility" : 1
 				}

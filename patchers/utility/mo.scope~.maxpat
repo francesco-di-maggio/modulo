@@ -328,7 +328,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.649213254451524, 434.411174970092702, 210.561927691102028, 88.321579620242119 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 27.0, 203.0, 181.0 ]
+					"presentation_rect" : [ 5.0, 27.0, 204.0, 181.0 ]
 				}
 
 			}
@@ -352,7 +352,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 229.806426948308967, 32.0, 30.0, 30.0 ]
 				}
 

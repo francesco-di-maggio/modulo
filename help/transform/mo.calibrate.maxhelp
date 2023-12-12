@@ -354,6 +354,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@winsize", 5 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -368,7 +369,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.140616000000001, 465.666666666666629, 214.0, 88.0 ],
+					"patching_rect" : [ 41.140616000000001, 465.666667000000018, 214.0, 84.0 ],
 					"varname" : "mo.calibrate",
 					"viewvisibility" : 1
 				}

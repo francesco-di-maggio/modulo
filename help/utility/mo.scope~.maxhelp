@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 474.0, 687.0 ],
+		"rect" : [ 34.0, 87.0, 474.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -162,7 +162,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.640615909090684, 614.5, 45.0, 45.0 ]
+					"patching_rect" : [ 291.640615909090684, 594.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.855361363635893, 624.0, 74.0, 25.0 ],
+					"patching_rect" : [ 377.855361363635893, 604.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -195,7 +195,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 349.140615909090684, 627.0, 20.0, 20.0 ],
+					"patching_rect" : [ 349.140615909090684, 607.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 613.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 593.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -313,7 +313,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 349.5, 214.0, 226.0 ],
+					"patching_rect" : [ 41.0, 349.5, 214.0, 214.0 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -363,7 +363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 50.5, 576.0, 50.5, 576.0 ],
+					"midpoints" : [ 50.5, 564.0, 50.5, 564.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -386,24 +386,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-10" : [ "live.text[21]", "live.text", 0 ],
-			"obj-5::obj-6" : [ "live.text[22]", "live.text", 0 ],
+			"obj-5::obj-10" : [ "live.text[695]", "live.text", 0 ],
+			"obj-5::obj-6" : [ "live.text[696]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-10" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-5::obj-6" : 				{
-					"parameter_longname" : "live.text[22]"
 				}
 
 			}

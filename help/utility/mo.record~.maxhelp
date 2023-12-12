@@ -384,7 +384,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 41.0, 402.682714000344333, 214.0, 87.0 ],
+					"patching_rect" : [ 41.0, 402.682714000344333, 214.0, 84.0 ],
 					"varname" : "mo.record~",
 					"viewvisibility" : 1
 				}
@@ -507,69 +507,22 @@
 		"parameters" : 		{
 			"obj-1" : [ "mc.live.gain~", "input gain~", 0 ],
 			"obj-16" : [ "mc.live.gain~[1]", "output gain~", 0 ],
-			"obj-39::obj-11" : [ "live.text[9]", "live.text", 0 ],
-			"obj-39::obj-141" : [ "live.text[13]", "live.text", 0 ],
-			"obj-39::obj-33" : [ "live.numbox[24]", "live.dial[12]", 0 ],
-			"obj-39::obj-39" : [ "live.text[12]", "live.text", 0 ],
-			"obj-39::obj-44" : [ "live.numbox[2]", "live.dial[12]", 0 ],
-			"obj-39::obj-45" : [ "live.text[7]", "live.text", 0 ],
-			"obj-39::obj-52" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-39::obj-56" : [ "live.text[8]", "live.text", 0 ],
-			"obj-39::obj-85" : [ "live.text[11]", "live.text", 0 ],
-			"obj-39::obj-9" : [ "live.text[94]", "live.text", 0 ],
-			"obj-39::obj-92" : [ "live.text[6]", "live.text", 0 ],
+			"obj-39::obj-11" : [ "live.text[360]", "live.text", 0 ],
+			"obj-39::obj-141" : [ "live.text[358]", "live.text", 0 ],
+			"obj-39::obj-33" : [ "live.numbox[16]", "live.dial[12]", 0 ],
+			"obj-39::obj-39" : [ "live.text[357]", "live.text", 0 ],
+			"obj-39::obj-44" : [ "live.numbox[17]", "live.dial[12]", 0 ],
+			"obj-39::obj-45" : [ "live.text[415]", "live.text", 0 ],
+			"obj-39::obj-52" : [ "live.numbox[91]", "live.numbox", 0 ],
+			"obj-39::obj-56" : [ "live.text[356]", "live.text", 0 ],
+			"obj-39::obj-85" : [ "live.text[359]", "live.text", 0 ],
+			"obj-39::obj-9" : [ "live.text[355]", "live.text", 0 ],
+			"obj-39::obj-92" : [ "live.text[844]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-39::obj-11" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-39::obj-141" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-39::obj-33" : 				{
-					"parameter_longname" : "live.numbox[24]"
-				}
-,
-				"obj-39::obj-39" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-39::obj-44" : 				{
-					"parameter_longname" : "live.numbox[2]"
-				}
-,
-				"obj-39::obj-45" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-39::obj-52" : 				{
-					"parameter_longname" : "live.numbox[7]"
-				}
-,
-				"obj-39::obj-56" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-39::obj-85" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
-				"obj-39::obj-9" : 				{
-					"parameter_longname" : "live.text[94]"
-				}
-,
-				"obj-39::obj-92" : 				{
-					"parameter_longname" : "live.text[6]"
 				}
 
 			}
@@ -585,18 +538,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "filledcircle.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwdarrow.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.record~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -604,8 +545,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pause.svg",
-				"bootpath" : "C74:/interfaces",
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

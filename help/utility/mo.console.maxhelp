@@ -169,7 +169,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 204.0, 70.0, 62.0 ],
+					"patching_rect" : [ 41.0, 204.0, 70.0, 45.0 ],
 					"varname" : "mo.adstatus",
 					"viewvisibility" : 1
 				}
@@ -210,24 +210,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-7" : [ "live.dial[7]", "live.text", 0 ],
-			"obj-2::obj-9" : [ "live.text[6]", "live.text", 0 ],
+			"obj-2::obj-13" : [ "live.dial[44]", "live.text", 0 ],
+			"obj-2::obj-7" : [ "live.dial[37]", "live.text", 0 ],
+			"obj-2::obj-9" : [ "live.text[295]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-7" : 				{
-					"parameter_longname" : "live.dial[7]"
-				}
-,
-				"obj-2::obj-9" : 				{
-					"parameter_longname" : "live.text[6]"
 				}
 
 			}

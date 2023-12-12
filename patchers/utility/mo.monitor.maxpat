@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 190.0, 247.41071292757988, 58.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "(anything)",
 					"id" : "obj-25",
@@ -543,7 +555,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
-					"border" : 1.0,
+					"border" : 0.0,
 					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 0.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -688,6 +700,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 199.5, 339.0, 133.360643649101007, 339.0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 556.551895529031754, 378.0, 556.551895529031754, 378.0 ],
 					"source" : [ "obj-13", 0 ]
@@ -713,6 +733,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"midpoints" : [ 73.360643649101007, 606.0, 73.360643649101007, 606.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -728,7 +749,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 672.551895529031754, 375.899580110677562, 672.551895529031754, 375.899580110677562 ],
+					"midpoints" : [ 672.551895529031754, 378.0, 672.551895529031754, 378.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -768,7 +789,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 672.551895529031754, 402.899580110677562, 672.551895529031754, 402.899580110677562 ],
+					"midpoints" : [ 672.551895529031754, 402.0, 672.551895529031754, 402.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 

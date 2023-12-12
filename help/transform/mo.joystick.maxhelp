@@ -349,24 +349,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-18" : [ "live.numbox[116]", "live.numbox", 0 ],
-			"obj-1::obj-20" : [ "live.text[391]", "live.text", 0 ],
+			"obj-1::obj-18" : [ "live.numbox[328]", "live.numbox", 0 ],
+			"obj-1::obj-20" : [ "live.text[764]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-18" : 				{
-					"parameter_longname" : "live.numbox[116]"
-				}
-,
-				"obj-1::obj-20" : 				{
-					"parameter_longname" : "live.text[391]"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 695.0, 601.0 ],
+		"rect" : [ 34.0, 87.0, 695.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 404.31730062960861, 555.297012329101562, 176.0, 21.0 ],
+					"patching_rect" : [ 404.31730062960861, 546.297011999999995, 176.0, 21.0 ],
 					"text" : "control change (number, value)"
 				}
 
@@ -84,7 +84,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.692300629608667, 554.297012329101562, 51.440027274027386, 23.0 ]
+					"patching_rect" : [ 347.692300629608667, 545.297011999999995, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -351,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 442.297012329101562, 214.0, 135.0 ],
+					"patching_rect" : [ 41.0, 442.297011999999995, 214.0, 126.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}

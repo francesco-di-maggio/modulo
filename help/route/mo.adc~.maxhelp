@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 488.0, 711.0 ],
+		"rect" : [ 34.0, 87.0, 488.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.140616000000001, 650.0, 214.140615909090684, 36.0 ]
+					"patching_rect" : [ 41.140616000000001, 630.0, 214.140615909090684, 36.0 ]
 				}
 
 			}
@@ -339,7 +339,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.140616000000001, 380.297011999999995, 55.0, 235.0 ],
+					"patching_rect" : [ 41.140616000000001, 380.297011999999995, 70.0, 214.0 ],
 					"varname" : "mo.adc~",
 					"viewvisibility" : 1
 				}
@@ -349,7 +349,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 50.640616000000001, 618.0, 50.640616000000001, 618.0 ],
+					"midpoints" : [ 50.640616000000001, 597.0, 50.640616000000001, 597.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -421,7 +421,7 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-14" : [ "live.text[224]", "live.text", 0 ],
-			"obj-1::obj-15" : [ "live.numbox[581]", "live.numbox", 0 ],
+			"obj-1::obj-15" : [ "live.numbox[661]", "live.numbox", 0 ],
 			"obj-1::obj-18" : [ "live.gain~[5]", "volume", 0 ],
 			"obj-1::obj-2" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{

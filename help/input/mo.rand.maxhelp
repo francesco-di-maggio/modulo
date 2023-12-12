@@ -499,7 +499,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 529.297012329101562, 226.0, 77.0 ],
+					"patching_rect" : [ 41.0, 529.297012329101562, 214.0, 84.0 ],
 					"varname" : "mo.rand",
 					"viewvisibility" : 1
 				}

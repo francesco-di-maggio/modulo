@@ -174,7 +174,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[68]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -234,7 +234,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[70]",
+							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -310,7 +310,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[69]",
+							"parameter_longname" : "live.text[18]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1244,7 +1244,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[50]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1314,7 +1314,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 474.042139858358041, 209.842786306142557, 15.896285709738777 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 303.508991936343477, 210.607595086097717, 15.896285709738777 ],
+					"presentation_rect" : [ 0.0, 274.508991936343477, 210.607595086097717, 15.896285709738777 ],
 					"varname" : "[16]",
 					"viewvisibility" : 1
 				}
@@ -1340,7 +1340,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 455.145854148619264, 209.842786306142557, 15.896285709738777 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 288.612706226604701, 210.607595086097717, 15.896285709738777 ],
+					"presentation_rect" : [ 0.0, 260.612706226604701, 210.607595086097717, 15.896285709738777 ],
 					"varname" : "[15]",
 					"viewvisibility" : 1
 				}
@@ -1366,7 +1366,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 436.249568438880488, 209.842786306142557, 15.896285709738777 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 272.716420516865924, 210.607595086097717, 15.896285709738777 ],
+					"presentation_rect" : [ 0.0, 246.716420516865924, 210.607595086097717, 15.896285709738777 ],
 					"varname" : "[14]",
 					"viewvisibility" : 1
 				}
@@ -1392,7 +1392,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 417.353282729141711, 209.842786306142557, 15.896285709738777 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 256.820134807127147, 210.607595086097717, 15.896285709738777 ],
+					"presentation_rect" : [ 0.0, 232.820134807127147, 210.607595086097717, 15.896285709738777 ],
 					"varname" : "[13]",
 					"viewvisibility" : 1
 				}
@@ -1418,7 +1418,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 398.456997019402934, 209.842786306142557, 15.896285709738777 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 240.923849097388342, 210.607595086097717, 15.896285709738805 ],
+					"presentation_rect" : [ 0.0, 218.923849097388342, 210.607595086097717, 15.896285709738805 ],
 					"varname" : "[12]",
 					"viewvisibility" : 1
 				}
@@ -1444,7 +1444,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 379.560711309664043, 209.842786306142557, 15.896285709738891 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 225.027563387649508, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 205.027563387649508, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[11]",
 					"viewvisibility" : 1
 				}
@@ -1470,7 +1470,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 360.66442559992521, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 209.131277677910674, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 191.131277677910674, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[10]",
 					"viewvisibility" : 1
 				}
@@ -1496,7 +1496,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 341.768139890186376, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 193.23499196817184, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 177.23499196817184, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[9]",
 					"viewvisibility" : 1
 				}
@@ -1522,7 +1522,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 322.871854180447542, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 177.338706258433007, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 163.338706258433007, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[8]",
 					"viewvisibility" : 1
 				}
@@ -1548,7 +1548,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 303.975568470708708, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 161.442420548694173, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 149.442420548694173, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[7]",
 					"viewvisibility" : 1
 				}
@@ -1574,7 +1574,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 285.079282760969875, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 144.546134838955339, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 134.546134838955339, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[6]",
 					"viewvisibility" : 1
 				}
@@ -1600,7 +1600,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 267.182997051231041, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 128.649849129216506, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 120.649849129216506, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[5]",
 					"viewvisibility" : 1
 				}
@@ -1614,7 +1614,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1626,7 +1625,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 248.286711341492207, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 112.753563419477672, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 106.753563419477672, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[4]",
 					"viewvisibility" : 1
 				}
@@ -1640,7 +1639,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-107",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1652,7 +1650,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 229.390425631753374, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 96.857277709738838, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 92.857277709738838, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[3]",
 					"viewvisibility" : 1
 				}
@@ -1666,7 +1664,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-74",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1678,7 +1675,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 210.49413992201454, 209.842786306142557, 15.896285709738834 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 80.960992000000005, 210.607595086097717, 15.896285709738834 ],
+					"presentation_rect" : [ 0.0, 78.960992000000005, 210.607595086097717, 15.896285709738834 ],
 					"varname" : "[2]",
 					"viewvisibility" : 1
 				}

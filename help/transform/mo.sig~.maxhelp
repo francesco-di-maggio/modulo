@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 388.0, 420.0 ],
+		"rect" : [ 34.0, 87.0, 388.0, 405.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 347.0, 45.0, 45.0 ]
+					"patching_rect" : [ 160.0, 337.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.222703319138759, 356.5, 74.0, 25.0 ],
+					"patching_rect" : [ 244.222703319138759, 346.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 215.50795786459355, 359.5, 20.0, 20.0 ],
+					"patching_rect" : [ 215.50795786459355, 349.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -327,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 345.5, 70.0, 48.0 ]
+					"patching_rect" : [ 41.0, 335.5, 70.0, 48.0 ]
 				}
 
 			}
@@ -439,7 +439,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 41.0, 288.0, 70.0, 30.0 ],
+					"patching_rect" : [ 41.0, 288.0, 70.0, 23.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -457,7 +457,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 50.5, 321.0, 50.5, 321.0 ],
+					"midpoints" : [ 50.5, 312.0, 50.5, 312.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -480,24 +480,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-17::obj-6" : [ "live.text[19]", "live.text", 0 ],
+			"obj-17::obj-52" : [ "live.numbox[292]", "live.numbox", 0 ],
+			"obj-17::obj-6" : [ "live.text[524]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-17::obj-52" : 				{
-					"parameter_longname" : "live.numbox[6]"
-				}
-,
-				"obj-17::obj-6" : 				{
-					"parameter_longname" : "live.text[19]"
 				}
 
 			}

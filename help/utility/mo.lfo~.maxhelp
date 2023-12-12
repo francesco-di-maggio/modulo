@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 620.0, 658.0 ],
+		"rect" : [ 34.0, 87.0, 620.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 632.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -109,7 +109,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "multichannelsignal", "float", "int" ],
-									"patching_rect" : [ 40.999999999999943, 575.5, 56.0, 35.0 ],
+									"patching_rect" : [ 40.999999999999943, 645.5, 56.0, 35.0 ],
 									"sig" : 0.0
 								}
 
@@ -123,7 +123,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 236.277777777777828, 575.5, 50.0, 23.0 ]
+									"patching_rect" : [ 236.277777777777828, 645.5, 50.0, 23.0 ]
 								}
 
 							}
@@ -487,7 +487,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 87.0 ],
+									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 169.0 ],
 									"varname" : "mo.lfo~",
 									"viewvisibility" : 1
 								}
@@ -513,7 +513,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 245.499999999999943, 552.0, 245.777777777777828, 552.0 ],
+									"midpoints" : [ 245.499999999999943, 633.0, 245.777777777777828, 633.0 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -521,7 +521,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"midpoints" : [ 50.499999999999943, 552.0, 50.499999999999943, 552.0 ],
+									"midpoints" : [ 50.499999999999943, 633.0, 50.499999999999943, 633.0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -644,7 +644,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 620.0, 632.0 ],
+						"rect" : [ 34.0, 113.0, 620.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -684,7 +684,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "multichannelsignal", "float", "int" ],
-									"patching_rect" : [ 40.999999999999943, 575.5, 56.0, 35.0 ],
+									"patching_rect" : [ 40.999999999999943, 645.5, 56.0, 35.0 ],
 									"sig" : 0.0
 								}
 
@@ -803,7 +803,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 236.277777777777828, 575.5, 50.0, 23.0 ]
+									"patching_rect" : [ 236.277777777777828, 645.5, 50.0, 23.0 ]
 								}
 
 							}
@@ -1079,7 +1079,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 87.0 ],
+									"patching_rect" : [ 40.999999999999943, 462.999999999999886, 214.0, 169.0 ],
 									"varname" : "mo.lfo~",
 									"viewvisibility" : 1
 								}
@@ -1113,7 +1113,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 245.499999999999943, 552.0, 245.777777777777828, 552.0 ],
+									"midpoints" : [ 245.499999999999943, 633.0, 245.777777777777828, 633.0 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -1121,6 +1121,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
+									"midpoints" : [ 50.499999999999943, 633.0, 50.499999999999943, 633.0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -1225,13 +1226,13 @@
 		"parameters" : 		{
 			"obj-1::obj-13::obj-10" : [ "Jitter", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-120" : [ "offset-", "live.numbox", 0 ],
-			"obj-1::obj-13::obj-13" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-13::obj-13" : [ "live.text[908]", "live.text", 0 ],
 			"obj-1::obj-13::obj-140" : [ "Phase", "live.numbox", 0 ],
 			"obj-1::obj-13::obj-20" : [ "waveform-", "waveform-", 0 ],
-			"obj-1::obj-13::obj-21" : [ "live.text[38]", "live.text", 0 ],
+			"obj-1::obj-13::obj-21" : [ "live.text[711]", "live.text", 0 ],
 			"obj-1::obj-13::obj-26" : [ "mode-", "live.text", 0 ],
 			"obj-1::obj-13::obj-36" : [ "Hold[1]", "live.text", 0 ],
-			"obj-1::obj-13::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-13::obj-42" : [ "live.text[881]", "live.text", 0 ],
 			"obj-1::obj-13::obj-55" : [ "Hold", "live.text", 0 ],
 			"obj-1::obj-13::obj-58" : [ "rate-", "rate", 0 ],
 			"obj-1::obj-13::obj-69" : [ "Smooth", "live.numbox", 0 ],
@@ -1245,9 +1246,9 @@
 			"obj-3::obj-13::obj-20" : [ "waveform-[1]", "waveform-", 0 ],
 			"obj-3::obj-13::obj-21" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-13::obj-26" : [ "mode-[1]", "live.text", 0 ],
-			"obj-3::obj-13::obj-36" : [ "Hold[2]", "live.text", 0 ],
-			"obj-3::obj-13::obj-4" : [ "live.text[4]", "live.text", 0 ],
-			"obj-3::obj-13::obj-55" : [ "Hold[3]", "live.text", 0 ],
+			"obj-3::obj-13::obj-36" : [ "Hold[3]", "live.text", 0 ],
+			"obj-3::obj-13::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-13::obj-55" : [ "Hold[2]", "live.text", 0 ],
 			"obj-3::obj-13::obj-58" : [ "rate-[1]", "rate", 0 ],
 			"obj-3::obj-13::obj-69" : [ "Smooth[1]", "live.numbox", 0 ],
 			"obj-3::obj-13::obj-89" : [ "frate-[1]", "rate", 0 ],
@@ -1263,14 +1264,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-13::obj-13" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-1::obj-13::obj-4" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
 				"obj-3::obj-13::obj-10" : 				{
 					"parameter_longname" : "Jitter[1]"
 				}
@@ -1300,15 +1293,15 @@
 				}
 ,
 				"obj-3::obj-13::obj-36" : 				{
-					"parameter_longname" : "Hold[2]"
+					"parameter_longname" : "Hold[3]"
 				}
 ,
-				"obj-3::obj-13::obj-4" : 				{
-					"parameter_longname" : "live.text[4]"
+				"obj-3::obj-13::obj-42" : 				{
+					"parameter_longname" : "live.text[1]"
 				}
 ,
 				"obj-3::obj-13::obj-55" : 				{
-					"parameter_longname" : "Hold[3]"
+					"parameter_longname" : "Hold[2]"
 				}
 ,
 				"obj-3::obj-13::obj-58" : 				{

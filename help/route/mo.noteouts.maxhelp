@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 610.0, 565.0 ],
+		"rect" : [ 34.0, 87.0, 610.0, 555.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.707317113876343, 517.5, 120.0, 21.0 ],
+					"patching_rect" : [ 356.707317113876343, 508.5, 120.0, 21.0 ],
 					"text" : "note (pitch, velocity)"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 516.5, 63.0, 23.0 ],
+					"patching_rect" : [ 287.0, 507.5, 63.0, 23.0 ],
 					"text" : "63 0"
 				}
 
@@ -349,7 +349,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 404.5, 214.0, 135.0 ],
+					"patching_rect" : [ 41.0, 404.5, 214.0, 126.0 ],
 					"varname" : "mo.noteouts",
 					"viewvisibility" : 1
 				}

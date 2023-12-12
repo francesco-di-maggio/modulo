@@ -273,8 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 426.0, 172.0, 23.0 ],
-					"text" : "foo 1.11"
+					"patching_rect" : [ 41.0, 426.0, 172.0, 23.0 ]
 				}
 
 			}
@@ -294,7 +293,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 302.336235828697681, 214.0, 87.0 ],
+					"patching_rect" : [ 41.0, 302.336235999999985, 214.0, 84.0 ],
 					"varname" : "mo.prepend",
 					"viewvisibility" : 1
 				}

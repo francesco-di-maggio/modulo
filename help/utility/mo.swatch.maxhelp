@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 476.0, 623.0 ],
+		"rect" : [ 34.0, 87.0, 476.0, 584.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -181,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 580.0, 214.0, 23.0 ],
+					"patching_rect" : [ 41.0, 540.0, 214.0, 23.0 ],
 					"text" : "1. 0. 0. 1."
 				}
 
@@ -283,7 +283,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 288.0, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 288.0, 214.0, 214.0 ],
 					"varname" : "mo.swatch",
 					"viewvisibility" : 1
 				}
@@ -341,7 +341,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 567.0, 245.5, 567.0 ],
+					"midpoints" : [ 50.5, 525.0, 245.5, 525.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -380,35 +380,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-1" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-5::obj-2" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-5::obj-3" : [ "live.text[75]", "live.text", 0 ],
-			"obj-5::obj-52" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-5::obj-1" : [ "live.numbox[383]", "live.numbox", 0 ],
+			"obj-5::obj-2" : [ "live.numbox[384]", "live.numbox", 0 ],
+			"obj-5::obj-3" : [ "live.text[379]", "live.text", 0 ],
+			"obj-5::obj-52" : [ "live.numbox[382]", "live.numbox", 0 ],
 			"obj-5::obj-87" : [ "swatch[4]", "swatch", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-1" : 				{
-					"parameter_longname" : "live.numbox[9]"
-				}
-,
-				"obj-5::obj-2" : 				{
-					"parameter_longname" : "live.numbox[10]"
-				}
-,
-				"obj-5::obj-3" : 				{
-					"parameter_longname" : "live.text[75]"
-				}
-,
-				"obj-5::obj-52" : 				{
-					"parameter_longname" : "live.numbox[8]"
 				}
 
 			}

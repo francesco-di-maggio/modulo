@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 479.0, 634.0 ],
+		"rect" : [ 34.0, 87.0, 479.0, 582.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 585.0, 240.0, 23.0 ],
+					"patching_rect" : [ 41.0, 535.0, 240.0, 23.0 ],
 					"text" : "bgcolor 0.75 0.25 0.25 1."
 				}
 
@@ -283,7 +283,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 288.0, 214.0, 265.0 ],
+					"patching_rect" : [ 41.0, 288.0, 214.0, 214.0 ],
 					"varname" : "mo.swatch",
 					"viewvisibility" : 1
 				}
@@ -301,6 +301,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 50.5, 228.0, 50.5, 228.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -356,7 +357,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
-					"midpoints" : [ 50.5, 570.0, 271.5, 570.0 ],
+					"midpoints" : [ 50.5, 522.0, 271.5, 522.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -379,35 +380,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-19::obj-1" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-19::obj-11" : [ "live.text[19]", "live.text", 0 ],
-			"obj-19::obj-2" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-19::obj-52" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-19::obj-1" : [ "live.numbox[380]", "live.numbox", 0 ],
+			"obj-19::obj-11" : [ "live.text[327]", "live.text", 0 ],
+			"obj-19::obj-2" : [ "live.numbox[354]", "live.numbox", 0 ],
+			"obj-19::obj-52" : [ "live.numbox[381]", "live.numbox", 0 ],
 			"obj-19::obj-87" : [ "swatch[1]", "swatch", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-19::obj-1" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-19::obj-11" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-19::obj-2" : 				{
-					"parameter_longname" : "live.numbox[2]"
-				}
-,
-				"obj-19::obj-52" : 				{
-					"parameter_longname" : "live.numbox[1]"
 				}
 
 			}

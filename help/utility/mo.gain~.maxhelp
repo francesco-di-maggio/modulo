@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 666.0, 623.0 ],
+		"rect" : [ 34.0, 87.0, 666.0, 601.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -99,7 +99,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 555.5, 45.0, 45.0 ]
+					"patching_rect" : [ 303.0, 535.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.714745454545209, 565.0, 74.0, 25.0 ],
+					"patching_rect" : [ 389.714745454545209, 545.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -132,7 +132,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 361.0, 568.0, 20.0, 20.0 ],
+					"patching_rect" : [ 361.0, 548.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 554.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 534.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -329,7 +329,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 383.600575178861618, 214.0, 137.0 ],
+					"patching_rect" : [ 41.0, 383.600574999999992, 214.0, 126.0 ],
 					"varname" : "mo.gain~",
 					"viewvisibility" : 1
 				}
@@ -355,7 +355,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 50.5, 522.0, 50.5, 522.0 ],
+					"midpoints" : [ 50.5, 510.0, 50.5, 510.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

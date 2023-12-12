@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 431.0, 540.0 ],
+		"rect" : [ 34.0, 87.0, 431.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -171,7 +171,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 455.499999999999886, 172.0, 61.0 ],
+					"patching_rect" : [ 41.0, 445.499999999999886, 172.0, 61.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"size" : 4,
@@ -197,7 +197,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 272.499999999999886, 214.0, 135.0 ],
+					"patching_rect" : [ 41.0, 272.5, 214.0, 126.0 ],
 					"varname" : "mo.crosspatch",
 					"viewvisibility" : 1
 				}
@@ -207,7 +207,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 50.5, 408.0, 50.5, 408.0 ],
+					"midpoints" : [ 50.5, 399.0, 50.5, 399.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -291,6 +291,10 @@
 ,
 				"obj-1::obj-39" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-1::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
 				}
 
 			}

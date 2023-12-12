@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 472.0, 636.0 ],
+		"rect" : [ 34.0, 87.0, 472.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.640615909090684, 564.5, 45.0, 45.0 ]
+					"patching_rect" : [ 291.640615909090684, 544.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.855361363635893, 574.0, 74.0, 25.0 ],
+					"patching_rect" : [ 377.855361363635893, 554.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 349.140615909090684, 577.0, 20.0, 20.0 ],
+					"patching_rect" : [ 349.140615909090684, 557.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -162,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 41.0, 563.0, 214.0, 48.0 ]
+					"patching_rect" : [ 41.0, 543.0, 214.0, 48.0 ]
 				}
 
 			}
@@ -262,7 +262,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 299.047931000000005, 214.0, 226.0 ],
+					"patching_rect" : [ 41.0, 299.047931000000062, 214.0, 214.0 ],
 					"varname" : "mo.meter~",
 					"viewvisibility" : 1
 				}
@@ -272,7 +272,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 50.5, 528.0, 50.5, 528.0 ],
+					"midpoints" : [ 50.5, 516.0, 50.5, 516.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -288,7 +288,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 50.5, 234.0, 50.5, 234.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

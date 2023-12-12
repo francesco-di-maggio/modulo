@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 221.5, 29.5, 23.0 ],
+					"patching_rect" : [ 326.0, 221.5, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -273,8 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 449.0, 106.833333333333314, 23.0 ],
-					"text" : "0.021"
+					"patching_rect" : [ 41.0, 449.0, 106.833333333333314, 23.0 ]
 				}
 
 			}
@@ -294,7 +293,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 325.336235828697681, 214.0, 87.0 ],
+					"patching_rect" : [ 41.0, 325.336235999999985, 214.0, 84.0 ],
 					"varname" : "mo.prepend[1]",
 					"viewvisibility" : 1
 				}
@@ -360,7 +359,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 329.5, 258.0, 245.5, 258.0 ],
+					"midpoints" : [ 335.5, 258.0, 245.5, 258.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

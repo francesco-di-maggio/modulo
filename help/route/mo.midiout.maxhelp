@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 302.440027274027386, 522.0, 92.5, 23.0 ],
+					"patching_rect" : [ 302.440027274027386, 509.5, 92.5, 23.0 ],
 					"text" : "midiparse"
 				}
 
@@ -420,7 +420,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 487.5, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 487.5, 214.0, 45.0 ],
 					"varname" : "mo.midiout",
 					"viewvisibility" : 1
 				}
@@ -502,7 +502,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 311.940027274027386, 546.0, 311.940027274027443, 546.0 ],
+					"midpoints" : [ 311.940027274027386, 534.0, 311.940027274027443, 534.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -557,29 +557,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-15" : [ "live.text[17]", "live.text", 0 ],
-			"obj-4::obj-36" : [ "live.text[52]", "live.text", 0 ],
-			"obj-4::obj-4" : [ "live.text[16]", "live.text", 0 ],
+			"obj-4::obj-15" : [ "live.text[1005]", "live.text", 0 ],
+			"obj-4::obj-36" : [ "live.text[615]", "live.text", 0 ],
+			"obj-4::obj-4" : [ "live.text[606]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-4::obj-15" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-4::obj-36" : 				{
-					"parameter_longname" : "live.text[52]"
-				}
-,
-				"obj-4::obj-4" : 				{
-					"parameter_longname" : "live.text[16]"
 				}
 
 			}

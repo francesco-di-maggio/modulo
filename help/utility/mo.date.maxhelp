@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 282.0, 400.0 ],
+		"rect" : [ 34.0, 87.0, 282.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,8 +101,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 348.0, 79.0, 23.0 ],
-					"text" : "10 47 17"
+					"patching_rect" : [ 176.0, 328.0, 79.0, 23.0 ],
+					"text" : "12 42 32"
 				}
 
 			}
@@ -137,8 +137,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 348.0, 79.0, 23.0 ],
-					"text" : "11 21 2023"
+					"patching_rect" : [ 41.0, 328.0, 79.0, 23.0 ],
+					"text" : "12 12 2023"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list", "list" ],
-					"patching_rect" : [ 41.0, 253.0, 214.0, 62.0 ],
+					"patching_rect" : [ 41.0, 253.0, 214.0, 45.0 ],
 					"varname" : "mo.date",
 					"viewvisibility" : 1
 				}
@@ -176,7 +176,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 245.5, 318.0, 245.5, 318.0 ],
+					"midpoints" : [ 245.5, 300.0, 245.5, 300.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -184,7 +184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 333.0, 110.5, 333.0 ],
+					"midpoints" : [ 50.5, 315.0, 110.5, 315.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
