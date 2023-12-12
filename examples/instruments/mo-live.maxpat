@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 788.0, 438.0 ],
+		"rect" : [ 34.0, 87.0, 794.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,9 +53,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 440.0, 300.0, 20.0, 20.0 ],
+					"patching_rect" : [ 407.5, 254.629860904761642, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 174.029662698412551, 20.0, 20.0 ],
+					"presentation_rect" : [ 243.0, 169.65952339682508, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 565.0, 285.0, 214.0, 57.5 ],
+					"patching_rect" : [ 542.0, 293.550098999999989, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 361.949900793650784, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 349.57976169841254, 214.0, 45.0 ],
 					"varname" : "mo.launch",
 					"viewvisibility" : 1
 				}
@@ -107,9 +107,9 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
-					"patching_rect" : [ 565.0, 400.449900793650784, 214.0, 57.5 ],
+					"patching_rect" : [ 542.0, 384.0, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 19.449900793650784, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -130,9 +130,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 565.0, 512.449900793650841, 286.0, 87.0 ],
+					"patching_rect" : [ 542.0, 481.999999999999943, 214.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 78.949900793650784, 286.0, 87.0 ],
+					"presentation_rect" : [ 20.0, 77.0, 214.0, 84.0 ],
 					"varname" : "mo.keyboard",
 					"viewvisibility" : 1
 				}
@@ -154,9 +154,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 304.0, 400.449900793650784, 214.0, 199.0 ],
+					"patching_rect" : [ 281.0, 384.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 220.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 559.0, 212.57976169841254, 214.0, 182.0 ],
 					"varname" : "mo.noteouts[1]",
 					"viewvisibility" : 1
 				}
@@ -179,9 +179,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 304.0, 36.449900793650784, 214.0, 199.0 ],
+					"patching_rect" : [ 281.0, 20.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 19.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 559.0, 20.0, 214.0, 182.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -196,10 +196,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.5, 334.420238095238346, 101.0, 54.0 ],
+					"patching_rect" : [ 367.0, 284.050098999999989, 101.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 193.0, 202.029662698412551, 101.0, 54.0 ],
+					"presentation_rect" : [ 202.0, 194.65952339682508, 101.0, 54.0 ],
 					"text" : "set \nMIDI output port"
 				}
 
@@ -213,10 +213,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 180.0, 124.0, 69.0 ],
+					"patching_rect" : [ 670.0, 183.550098999999989, 124.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 146.0, 260.0, 124.0, 69.0 ],
+					"presentation_rect" : [ 149.0, 250.629860698412529, 124.0, 69.0 ],
 					"text" : "this button will lauch \nAbleton Live, and \nload a live set",
 					"textjustification" : 1
 				}
@@ -237,9 +237,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 744.0, 257.616567460317469, 20.0, 20.0 ],
+					"patching_rect" : [ 722.0, 261.166666460317458, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.0, 335.949900793650784, 20.0, 20.0 ],
+					"presentation_rect" : [ 201.0, 324.579761492063312, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -266,7 +266,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 326.283234126984155, 70.0, 57.5 ],
+					"patching_rect" : [ 20.0, 302.666666666666686, 70.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 246.0, 99.000000000000014, 70.0, 62.0 ],
 					"varname" : "mo.speedlim",
 					"viewvisibility" : 1
 				}
@@ -288,9 +290,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 252.116567460317469, 70.0, 57.5 ],
+					"patching_rect" : [ 20.0, 221.333333333333371, 70.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 237.0, 19.449900793650784, 70.0, 57.5 ],
+					"presentation_rect" : [ 246.0, 20.0, 70.0, 62.0 ],
 					"varname" : "mo.line",
 					"viewvisibility" : 1
 				}
@@ -312,9 +314,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 43.0, 400.449900793650784, 214.0, 199.0 ],
+					"patching_rect" : [ 20.0, 384.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 220.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 328.0, 212.57976169841254, 214.0, 182.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}
@@ -337,9 +339,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 36.449900793650784, 214.0, 199.0 ],
+					"patching_rect" : [ 20.0, 20.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 19.449900793650784, 214.0, 199.0 ],
+					"presentation_rect" : [ 328.0, 20.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -354,10 +356,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 36.449900793650784, 164.0, 79.0 ],
+					"patching_rect" : [ 542.0, 19.999999793650787, 164.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 21.0, 177.029662698412551, 164.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 168.0, 164.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch Ableton Live's set.\n3. Interact with the GUIs."
 				}
 
@@ -370,9 +372,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.5, 348.420238095238346, 114.0, 40.0 ],
+					"patching_rect" : [ 367.0, 298.050098999999989, 114.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 271.0, 216.029662698412551, 36.0, 40.0 ],
+					"presentation_rect" : [ 280.0, 208.65952339682508, 36.0, 40.0 ],
 					"text" : "\n"
 				}
 
@@ -697,6 +699,10 @@
 ,
 				"obj-1::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[105]"
+				}
+,
+				"obj-1::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[151]"
 				}
 ,
 				"obj-1::obj-1::obj-20" : 				{

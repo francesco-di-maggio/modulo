@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 846.0, 445.0 ],
+		"rect" : [ 34.0, 87.0, 846.0, 398.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1348,7 +1348,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 97.5, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 268.0, 152.5, 74.0, 25.0 ],
+					"presentation_rect" : [ 268.0, 137.5, 74.0, 25.0 ],
 					"text" : "set mode"
 				}
 
@@ -1362,10 +1362,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 659.0, 86.0, 138.0, 39.0 ],
+					"patching_rect" : [ 661.0, 75.0, 138.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 268.0, 45.0, 138.0, 39.0 ],
+					"presentation_rect" : [ 268.0, 34.0, 138.0, 39.0 ],
 					"text" : "set input MIDI port:\n\"ODD Pro Bluetooth\""
 				}
 
@@ -1387,7 +1387,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 100.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 155.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 240.0, 140.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1413,9 +1413,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 630.0, 95.5, 20.0, 20.0 ],
+					"patching_rect" : [ 632.0, 84.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 54.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 240.0, 43.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1434,9 +1434,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.5, 171.0, 166.0, 25.0 ],
+					"patching_rect" : [ 336.5, 175.0, 166.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 372.0, 166.0, 25.0 ],
+					"presentation_rect" : [ 100.0, 332.991667000000007, 166.0, 25.0 ],
 					"text" : "set hypersensitivity on/off"
 				}
 
@@ -1458,9 +1458,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.0, 140.0, 70.0, 87.0 ],
+					"patching_rect" : [ 250.0, 144.0, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 339.008333333333667, 70.0, 87.0 ],
+					"presentation_rect" : [ 20.0, 300.0, 70.0, 70.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -1494,9 +1494,9 @@
 					"numinlets" : 8,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 20.0, 409.793636227365823, 214.0, 57.5 ],
+					"patching_rect" : [ 20.0, 409.793635999999992, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 269.0, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 243.0, 214.0, 45.0 ],
 					"varname" : "mo.midiout",
 					"viewvisibility" : 1
 				}
@@ -1519,9 +1519,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 20.0, 60.0, 214.0, 167.0 ],
+					"patching_rect" : [ 20.0, 60.0, 214.0, 154.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 90.0, 214.0, 167.0 ],
+					"presentation_rect" : [ 20.0, 77.0, 214.0, 154.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}
@@ -1543,9 +1543,9 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "", "" ],
-					"patching_rect" : [ 411.0, 60.0, 214.0, 57.5 ],
+					"patching_rect" : [ 411.0, 60.0, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"varname" : "mo.midiin",
 					"viewvisibility" : 1
 				}
@@ -1607,10 +1607,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 552.793636227365823, 414.0, 122.0 ],
+					"patching_rect" : [ 20.0, 501.793635999999879, 414.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 420.0, 304.5, 414.0, 122.0 ],
+					"presentation_rect" : [ 420.0, 257.0, 414.0, 122.0 ],
 					"text" : "MODES:\n\n1. Bounce: Trigger note and velocity messages by bouncing the ball.\n2. Bounce Modulation: Trigger an Envelope via CC messages with bounce.\n3. Shake Note: Trigger notes and velocity by shaking the ball.\n4. Shake Modulation: Trigger CC messages by shaking the ball.\n5. Gyroscope Raw Data: output raw gyroscope data from X,Y, Z axis.\n6. Accelerometer Raw Data: output raw accelerometer data from X,Y, Z axis."
 				}
 
@@ -1646,9 +1646,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.599999999999909, 409.793636227365823, 70.0, 265.0 ],
+					"patching_rect" : [ 449.600000000000023, 409.793635999999992, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 420.0, 20.0, 70.0, 265.0 ],
+					"presentation_rect" : [ 420.0, 20.0, 70.0, 214.0 ],
 					"varname" : "mo.slider",
 					"viewvisibility" : 1
 				}
@@ -1671,9 +1671,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 606.0, 409.793636227365823, 214.0, 265.0 ],
+					"patching_rect" : [ 606.0, 409.793635999999992, 214.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 20.0, 214.0, 265.0 ],
+					"presentation_rect" : [ 584.0, 20.0, 214.0, 214.0 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -1696,9 +1696,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 527.849999999999909, 409.793636227365823, 70.0, 265.0 ],
+					"patching_rect" : [ 527.850000000000023, 409.793635999999992, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 20.0, 70.0, 265.0 ],
+					"presentation_rect" : [ 502.0, 20.0, 70.0, 214.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -1713,10 +1713,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 436.793636227365823, 139.0, 39.0 ],
+					"patching_rect" : [ 270.0, 425.793636227365823, 139.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 268.0, 295.0, 139.0, 39.0 ],
+					"presentation_rect" : [ 268.0, 257.0, 139.0, 39.0 ],
 					"text" : "set output MIDI port:\n\"ODD Pro Bluetooth\""
 				}
 
@@ -1736,9 +1736,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 446.293636227365823, 20.0, 20.0 ],
+					"patching_rect" : [ 240.0, 435.293636227365823, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 304.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 240.0, 266.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1808,7 +1808,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 459.099999999999909, 373.0, 459.099999999999909, 373.0 ],
+					"midpoints" : [ 459.099999999999909, 373.0, 459.100000000000023, 373.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -1816,7 +1816,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 537.299999999999955, 373.0, 537.349999999999909, 373.0 ],
+					"midpoints" : [ 537.299999999999955, 373.0, 537.350000000000023, 373.0 ],
 					"source" : [ "obj-78", 1 ]
 				}
 

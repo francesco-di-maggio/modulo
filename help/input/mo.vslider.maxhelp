@@ -243,8 +243,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.255791574060595, 306.0, 85.0, 23.0 ],
-					"text" : "prepend name"
+					"patching_rect" : [ 328.255791574060595, 306.0, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -432,6 +432,17 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-21" : 				{
+					"parameter_longname" : "live.text[883]"
+				}
+,
+				"obj-5::obj-35" : 				{
+					"parameter_longname" : "live.text[880]"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 616.0, 513.0 ],
+		"rect" : [ 34.0, 87.0, 606.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.052369487782016, 71.06666666666672, 182.0, 23.0 ],
+					"patching_rect" : [ 371.052369487782016, 63.06666666666672, 182.0, 23.0 ],
 					"text" : "read p-mo.holonist.json, recall 1"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 385.052369487782016, 32.834328101851497, 58.0, 23.0 ],
+					"patching_rect" : [ 371.052369487782016, 24.834328101851497, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -79,9 +79,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 34.0, 101.997916666666583, 214.0, 199.0 ],
+					"patching_rect" : [ 20.0, 86.5, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 87.5, 214.0, 199.0 ],
+					"presentation_rect" : [ 20.0, 77.0, 214.0, 182.0 ],
 					"varname" : "mo.route",
 					"viewvisibility" : 1
 				}
@@ -95,10 +95,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.885702821115501, 242.495833333333167, 347.0, 122.0 ],
+					"patching_rect" : [ 281.885702821115501, 234.495833333333167, 347.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 254.0, 28.0, 347.0, 122.0 ],
+					"presentation_rect" : [ 245.0, 20.0, 347.0, 122.0 ],
 					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open the Holonist app: \n     https://holon.ist\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -119,9 +119,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 28.0, 214.0, 57.5 ],
+					"patching_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 28.0, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
 				}
@@ -144,9 +144,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 317.997916666666583, 214.0, 199.0 ],
+					"patching_rect" : [ 20.0, 290.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 288.5, 214.0, 199.0 ],
+					"presentation_rect" : [ 20.0, 271.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -159,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.885702821115501, 71.06666666666672, 65.0, 23.0 ],
+					"patching_rect" : [ 281.885702821115501, 63.06666666666672, 65.0, 23.0 ],
 					"text" : "writeagain"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 295.885702821115501, 170.06666666666672, 52.0, 28.0 ],
+					"patching_rect" : [ 281.885702821115501, 162.06666666666672, 52.0, 28.0 ],
 					"pattrstorage" : "p-mo.holonist"
 				}
 
@@ -185,16 +185,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.885702821115501, 126.091666666666356, 332.0, 23.0 ],
+					"patching_rect" : [ 281.885702821115501, 118.091666666666356, 332.0, 23.0 ],
 					"priority" : 					{
-						"mo.sliders::[1]::polarity" : 1,
-						"mo.sliders::[2]::polarity" : 1,
-						"mo.sliders::[3]::polarity" : 1,
-						"mo.sliders::[4]::polarity" : 1,
-						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::polarity" : 1,
-						"mo.sliders::[7]::polarity" : 1,
-						"mo.sliders::[8]::polarity" : 1,
+						"mo.sliders::[1]::slider" : 1,
+						"mo.sliders::[2]::slider" : 1,
+						"mo.sliders::[3]::slider" : 1,
+						"mo.sliders::[4]::slider" : 1,
+						"mo.sliders::[5]::slider" : 1,
+						"mo.sliders::[6]::slider" : 1,
+						"mo.sliders::[7]::slider" : 1,
+						"mo.sliders::[8]::slider" : 1,
 						"mo.route::[1]::set" : 1,
 						"mo.route::[2]::set" : 1,
 						"mo.route::[3]::set" : 1,
@@ -206,7 +206,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -221,7 +221,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 43.5, 303.0, 43.5, 303.0 ],
+					"midpoints" : [ 29.5, 270.0, 29.5, 270.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -229,7 +229,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 394.552369487782016, 57.0, 394.552369487782016, 57.0 ],
+					"midpoints" : [ 380.552369487782016, 48.0, 380.552369487782016, 48.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -237,7 +237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 394.552369487782016, 111.0, 305.385702821115501, 111.0 ],
+					"midpoints" : [ 380.552369487782016, 105.0, 291.385702821115501, 105.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -245,7 +245,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 305.385702821115501, 96.0, 305.385702821115501, 96.0 ],
+					"midpoints" : [ 291.385702821115501, 87.0, 291.385702821115501, 87.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -253,7 +253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 43.5, 87.0, 43.5, 87.0 ],
+					"midpoints" : [ 29.5, 66.0, 29.5, 66.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -451,6 +451,10 @@
 ,
 				"obj-3::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[105]"
+				}
+,
+				"obj-3::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[151]"
 				}
 ,
 				"obj-3::obj-1::obj-20" : 				{

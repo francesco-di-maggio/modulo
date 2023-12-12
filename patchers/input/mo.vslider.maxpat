@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -230,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 666.0, 505.0, 202.0, 23.0 ],
+					"patching_rect" : [ 663.0, 505.0, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -339,7 +339,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[883]",
+							"parameter_longname" : "live.text[242]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -347,8 +347,8 @@
 
 					}
 ,
-					"text" : "vslider",
-					"texton" : "vslider",
+					"text" : "w",
+					"texton" : "w",
 					"varname" : "mute-"
 				}
 
@@ -360,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 704.0, 367.5, 230.0, 23.0 ],
+					"patching_rect" : [ 698.0, 367.5, 230.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -466,7 +466,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[880]",
+							"parameter_longname" : "live.text[240]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -486,7 +486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 666.0, 412.5, 202.0, 23.0 ],
+					"patching_rect" : [ 663.0, 412.5, 202.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -505,7 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 666.0, 460.75, 210.0, 23.0 ],
+					"patching_rect" : [ 663.0, 460.75, 210.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.0 ],
 						"parameter_enable" : 0,
@@ -533,7 +533,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -557,15 +557,15 @@
 					"presentation_rect" : [ 29.0, 31.0, 34.0, 174.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slider-[50]",
+							"parameter_longname" : "slider-[18]",
 							"parameter_mmax" : 1.0,
+							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "slider-",
 							"parameter_type" : 0
 						}
 
 					}
 ,
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -578,7 +578,7 @@
 				"box" : 				{
 					"comment" : "(message) color, polarity, set, mute",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -594,8 +594,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 627.0, 150.0, 173.0, 23.0 ],
-					"text" : "route color mute polarity name"
+					"patching_rect" : [ 627.0, 150.0, 161.0, 23.0 ],
+					"text" : "route color mute polarity set"
 				}
 
 			}
@@ -651,7 +651,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -728,7 +728,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 713.5, 174.0, 713.5, 174.0 ],
+					"midpoints" : [ 707.5, 174.0, 707.5, 174.0 ],
 					"source" : [ "obj-11", 2 ]
 				}
 
@@ -736,7 +736,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 752.0, 186.0, 999.5, 186.0 ],
+					"midpoints" : [ 743.0, 186.0, 999.5, 186.0 ],
 					"source" : [ "obj-11", 3 ]
 				}
 
@@ -752,7 +752,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 675.0, 174.0, 675.5, 174.0 ],
+					"midpoints" : [ 672.0, 174.0, 672.5, 174.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -977,38 +977,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-21" : [ "live.text[883]", "live.text", 0 ],
-			"obj-3" : [ "slider-[50]", "slider-", 0 ],
-			"obj-35" : [ "live.text[880]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.color.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
