@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
+						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -94,20 +94,19 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 236.0, 411.5, 100.0, 40.0 ],
-									"pattrstorage" : "untitled"
+									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "p-mo.preset.json",
+									"autorestore" : "preset.json",
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 428.5, 77.0, 23.0 ],
+									"patching_rect" : [ 64.0, 420.0, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 4, 44, 358, 172 ],
 										"parameter_enable" : 0,
@@ -116,7 +115,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "untitled"
+									"varname" : "u208008118"
 								}
 
 							}
@@ -421,14 +420,15 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-1", 1 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-1", 0 ]
+									"midpoints" : [ 245.5, 405.0, 73.5, 405.0 ],
+									"source" : [ "obj-1", 1 ]
 								}
 
 							}
@@ -512,7 +512,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -549,8 +549,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 236.0, 411.5, 100.0, 40.0 ],
-									"pattrstorage" : "untitled"
+									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ]
 								}
 
 							}
@@ -562,7 +561,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 428.5, 77.0, 23.0 ],
+									"patching_rect" : [ 64.0, 420.0, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 4, 44, 358, 172 ],
 										"parameter_enable" : 0,
@@ -571,7 +570,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "untitled"
+									"varname" : "u208008118"
 								}
 
 							}
@@ -831,14 +830,16 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-10", 1 ]
+									"midpoints" : [ 50.5, 396.0, 50.5, 396.0 ],
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-10", 0 ]
+									"midpoints" : [ 245.5, 405.0, 73.5, 405.0 ],
+									"source" : [ "obj-10", 1 ]
 								}
 
 							}
@@ -1034,13 +1035,6 @@
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-mo.preset.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

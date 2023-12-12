@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 10.0, 10.0, 70.0, 30.0 ],
+					"patching_rect" : [ 10.0, 10.0, 70.0, 23.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -97,7 +97,7 @@
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "70 x 27, containing 1 object",
-			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAAAeCAYAAACR82geAAAABHNCSVQICAgIfAhkiAAAAg1JREFUaIHtmb1L61AYh59cQocG09GSDqeCm0ugg3MFoUjadOjk7OJqN6H/QUvo4OLm0FkRshTBxaUfW+vi1iF2a4cSEFqJ0+1wb3Ov9nK0eM8zHkjyO0/ek5PDqwERit/QAUaj0Vfn2CiEEPz46hCbihITgxITg75qUAjx4Rt9t+/USjHwsYmuI3LTUUsphk8T8/T0xMHBAYvF4rMe+U98mhghBNVqFV2PXb0bhTQxQRDgOA62bXN/f89sNuPy8hKAu7s7CoUCxWIR13XpdruyYqyNtNfn+z6GYXB7e8tgMOD19ZXn52eiKKJWq+F5Htvb2xwdHfHy8oLv+9TrddLpNLlcjoeHB25ubmTF+yvSKsZxHHRdp1wuEwTBcnw8HhOGIfv7++zs7LC7uwtAMpnk+voaz/PIZrM0Gg1Z0d6FtIppt9ucnZ2RSqUolUq4rguAZVmYpkmz2SSdTjMcDgHI5/PLayuViqxY70aamEwmw8nJCaZpcnx8jKZpAERRRKPR4OrqijAMsSyLra0tWTHWRpqYw8NDOp0O8/kcwzAA6PV6PD4+cnp6yvn5OdPplCiKsG1bVoy1kbpdJxKJpZSf7O3tcXFxQb/fZzKZ0Gq1ltW0SWhA9Ovv//9+VhJCrF5K32mS66LOSjEoMTEoMTFoqC7BSlSXYAWqS/AHlJgYlJgYlJgYlJgY1HYdwxtCYJrOlVilsgAAAABJRU5ErkJggg=="
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAAAXCAYAAAC2/DnWAAAABHNCSVQICAgIfAhkiAAAAexJREFUWIXtma2rIlEYhx+XweCg1sExqGCziMUmCAoqCgabxeJfoEXwH7AMWLRZzX4EEUwWETFosfuRRBAEQXE2rWHXYe91OV65O088MDO/88z7njOHsQA6Jn8gAWw2m6/O8VaoqsqPrw7xrphiDDDFGCA9GlRV9dM3+m7r1EMx8LmJPiPy3TFbyYCXiVmtVkQiEa7X66se+U+8TIzH46FcLiNJht37VggTs16vSSQSBAIBRqMRx+ORRqMBwHA4JBaLkUwmSaVSTCYTUTGeRtjr6/V6yLJMv99nsVhwu93Ybrfouk6lUqFer6MoCvF4nPP5TK/Xo1aroSgKoVCI8XhMt9sVFe+vCKuYdDqNJElkMhnW6/V9fLfbcTqdCIfDeL1e/H4/ADabjU6nQ71ex+fzoWmaqGgfQljFDAYDSqUSTqeTVCpFNpsFwOVy4XQ60TQNRVFYLBYARKPR+7W5XE5UrA8jTIzb7aZQKOBwOMjn81gsFgB0XUfTNFqtFqfTCVVVsdvtomI8jTAx8Xic2WzG5XJBlmUA5vM5y+WSYrFItVrlcDig6zrBYFBUjKcRul1brda7lF8EAgGazSbT6ZT9fk+73b5X0zthAfTfP///97OSqqqPW+k7TfJZzLOSAaYYA0wxBlgw/xI85CeKy5bJC+1q8gAAAABJRU5ErkJggg=="
 		}
 ,
 		"autosave" : 0

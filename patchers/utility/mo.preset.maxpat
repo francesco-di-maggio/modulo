@@ -162,11 +162,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 2,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 517.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.509452972809299, 517.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -191,7 +191,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0594602227211, 5.371792723306498, 93.435897380113602, 14.0 ],
 					"rounded" : 0.0,
-					"text" : "untitled",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -536,7 +535,7 @@
 				"box" : 				{
 					"comment" : "(message) to pattrstorage",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1721,7 +1720,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 40.009452972809299, 504.0, 133.5, 504.0 ],
+					"midpoints" : [ 40.009452972809299, 504.0, 40.009452972809299, 504.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
