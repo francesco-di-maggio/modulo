@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -599,7 +599,7 @@
 				"box" : 				{
 					"comment" : "(int) sequence index out",
 					"id" : "obj-25",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -611,7 +611,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-20",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -623,7 +623,7 @@
 				"box" : 				{
 					"comment" : "(list) mouse over information",
 					"id" : "obj-16",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -635,7 +635,7 @@
 				"box" : 				{
 					"comment" : "(list) current loop points",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1198,7 +1198,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, zero, tempo, nstep, fold, random, init, direction, display, mute",
 					"id" : "obj-65",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1437,7 +1437,7 @@
 				"box" : 				{
 					"comment" : "(list) step value",
 					"id" : "obj-32",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1996,6 +1996,51 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "live.text[825]", "live.text", 0 ],
+			"obj-3" : [ "live.text[262]", "live.text", 0 ],
+			"obj-35" : [ "live.numbox[78]", "live.numbox", 0 ],
+			"obj-39" : [ "live.step[2]", "live.step", 0 ],
+			"obj-4" : [ "live.text[843]", "live.text", 0 ],
+			"obj-42" : [ "live.text[245]", "live.text", 0 ],
+			"obj-59" : [ "live.numbox[410]", "live.numbox", 0 ],
+			"obj-66" : [ "live.text[246]", "live.text", 0 ],
+			"obj-69" : [ "live.text[232]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

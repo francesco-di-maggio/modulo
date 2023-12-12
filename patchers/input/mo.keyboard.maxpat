@@ -173,7 +173,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-30",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -756,7 +756,7 @@
 				"box" : 				{
 					"comment" : "(message) mode, flush, octave, semitone, refresh, channel, port, mute",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -824,7 +824,7 @@
 				"box" : 				{
 					"comment" : "(int) midi note to display, (list) midi note and velocity to output",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1677,6 +1677,36 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-27" : [ "semitone", "live.numbox", 0 ],
+			"obj-37" : [ "live.text[33]", "live.numbox", 0 ],
+			"obj-39" : [ "live.numbox[140]", "live.numbox", 0 ],
+			"obj-46" : [ "live.text[44]", "live.text", 0 ],
+			"obj-5" : [ "live.text[15]", "live.text", 0 ],
+			"obj-56" : [ "live.text[145]", "live.text", 0 ],
+			"obj-72" : [ "live.numbox[36]", "live.numbox", 0 ],
+			"obj-75" : [ "Cutoff-DL", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

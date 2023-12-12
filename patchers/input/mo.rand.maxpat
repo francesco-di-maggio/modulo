@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -519,7 +519,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -859,7 +858,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1137,7 +1135,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1408,7 +1405,7 @@
 				"box" : 				{
 					"comment" : "(int) voices, (message) target, onoff, bang, rate, probability, amount, polarity, mute",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1634,7 +1631,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1912,7 +1908,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2392,7 +2387,7 @@
 				"box" : 				{
 					"comment" : "(list) random values",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2507,7 +2502,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-32",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4711,6 +4705,79 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-11" : [ "live.numbox[41]", "live.numbox", 0 ],
+			"obj-12" : [ "live.text[118]", "live.text", 0 ],
+			"obj-13" : [ "live.numbox[77]", "live.text", 0 ],
+			"obj-14" : [ "live.text[781]", "live.text", 0 ],
+			"obj-15" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-16" : [ "live.numbox[42]", "live.numbox", 0 ],
+			"obj-3" : [ "live.text[117]", "live.text", 0 ],
+			"obj-32" : [ "live.text[700]", "live.text", 0 ],
+			"obj-4" : [ "live.numbox[4]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[53]", "live.numbox", 0 ],
+			"obj-6.1::obj-10" : [ "live.text[780]", "live.text", 0 ],
+			"obj-6.1::obj-14" : [ "live.text[779]", "live.text", 0 ],
+			"obj-6.1::obj-15" : [ "live.numbox[31]", "live.numbox", 0 ],
+			"obj-6.1::obj-27" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-6.1::obj-32" : [ "live.numbox[34]", "live.text", 0 ],
+			"obj-6.1::obj-33" : [ "live.text[778]", "live.text", 0 ],
+			"obj-6.1::obj-35" : [ "live.numbox[33]", "live.numbox", 0 ],
+			"obj-6.1::obj-38" : [ "live.numbox[35]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.rand.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fwdarrow.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pause.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
