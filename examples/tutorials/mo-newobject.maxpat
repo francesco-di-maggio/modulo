@@ -427,7 +427,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 2,
+					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -789,6 +789,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-22" : 				{
+					"parameter_longname" : "live.text[192]"
+				}
+,
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
 				"obj-24::obj-2" : 				{
 					"parameter_longname" : "live.text[90]"
 				}

@@ -121,7 +121,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.041, 0.518, 0.998, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-4",
 					"invisiblebkgnd" : 1,
 					"maxclass" : "pictslider",
@@ -159,7 +159,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 570.0, 242.101953774690628, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 14.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 15.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "color-"
 				}

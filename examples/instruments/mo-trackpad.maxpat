@@ -822,6 +822,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 254.5, 188.0, 254.5, 188.0 ],
+					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -830,6 +831,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 137.5, 188.0, 137.75, 188.0 ],
+					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1293,6 +1295,10 @@
 ,
 				"obj-17::obj-9" : 				{
 					"parameter_longname" : "live.text[779]"
+				}
+,
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[907]"
 				}
 ,
 				"obj-1::obj-6" : 				{

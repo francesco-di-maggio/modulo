@@ -871,6 +871,14 @@
 					"parameter_longname" : "live.numbox[18]"
 				}
 ,
+				"obj-7::obj-123::obj-26" : 				{
+					"parameter_longname" : "live.text[728]"
+				}
+,
+				"obj-7::obj-123::obj-33" : 				{
+					"parameter_longname" : "live.text[633]"
+				}
+,
 				"obj-7::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[13]"
 				}

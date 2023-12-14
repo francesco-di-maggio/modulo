@@ -1161,7 +1161,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"spacing" : 2,
 					"varname" : "slider-"
 				}
@@ -1275,7 +1275,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 469.0, 279.251276284456253, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 14.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 15.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "color-"
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 606.0, 473.0 ],
+		"rect" : [ 34.0, 87.0, 470.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -141,7 +141,7 @@
 					"patching_rect" : [ 280.0, 257.929166666666447, 347.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 250.0, 77.0, 347.0, 122.0 ],
+					"presentation_rect" : [ 20.0, 271.0, 347.0, 122.0 ],
 					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open the Holonist app: \n     https://holon.ist\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -189,7 +189,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 290.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 271.0, 214.0, 182.0 ],
+					"presentation_rect" : [ 236.0, 77.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 325.0, 371.0 ],
+		"rect" : [ 34.0, 87.0, 256.0, 371.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -137,6 +137,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -151,9 +152,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.0, 109.0, 214.0, 70.0 ],
+					"patching_rect" : [ 71.0, 109.0, 142.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 20.0, 214.0, 70.0 ],
+					"presentation_rect" : [ 92.0, 20.0, 142.0, 70.0 ],
 					"varname" : "mo.hslider",
 					"viewvisibility" : 1
 				}
@@ -281,8 +282,8 @@
 					"patching_rect" : [ 147.0, 26.0, 86.0, 68.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 128.0, 116.5, 145.0, 39.0 ],
-					"text" : "1. set gate using slider\n2. trigger note"
+					"presentation_rect" : [ 122.0, 116.5, 121.0, 39.0 ],
+					"text" : "1. gate with slider\n2. trigger note"
 				}
 
 			}
@@ -303,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 117.0, 50.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 126.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 97.0, 126.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -399,8 +400,8 @@
 			"obj-12::obj-72" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-13::obj-1" : [ "live.text[8]", "live.text", 0 ],
 			"obj-13::obj-45" : [ "live.text[22]", "live.text", 0 ],
-			"obj-13::obj-64" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-13::obj-72" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-13::obj-64" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-13::obj-72" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-1::obj-103" : [ "live.numbox[185]", "live.numbox", 0 ],
 			"obj-1::obj-4" : [ "live.text[449]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "live.numbox[186]", "live.numbox", 0 ],
@@ -417,6 +418,7 @@
 			"obj-6::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-6::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-6::obj-56" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-7::obj-2" : [ "live.text[3]", "live.text", 0 ],
 			"obj-7::obj-22" : [ "live.text[6]", "live.text", 0 ],
 			"obj-7::obj-6" : [ "live.text[5]", "live.text", 0 ],
@@ -467,11 +469,11 @@
 				}
 ,
 				"obj-13::obj-64" : 				{
-					"parameter_longname" : "live.numbox[5]"
+					"parameter_longname" : "live.numbox[6]"
 				}
 ,
 				"obj-13::obj-72" : 				{
-					"parameter_longname" : "live.numbox[6]"
+					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-1::obj-56" : 				{

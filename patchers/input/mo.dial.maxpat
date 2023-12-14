@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -251,7 +251,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[907]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -392,7 +392,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[185]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -400,8 +400,8 @@
 
 					}
 ,
-					"text" : "dial",
-					"texton" : "dial",
+					"text" : "Y",
+					"texton" : "Y",
 					"varname" : "mute-"
 				}
 
@@ -446,38 +446,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"floatoutput" : 1,
-					"id" : "obj-21",
-					"maxclass" : "dial",
-					"mode" : 5,
-					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 93.489049971103668, 550.001276284456253, 78.0, 78.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 29.0, 34.0, 34.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "dial-[29]",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "dial-",
-							"parameter_type" : 0
-						}
-
-					}
-,
-					"size" : 1.0,
-					"thickness" : 80.099999999999994,
-					"varname" : "dial-"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -496,7 +464,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 125.538977009388248, 47.0, 30.0, 30.0 ]
 				}
 
@@ -650,9 +618,41 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 400.0, 184.126276284456253, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 14.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 15.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "color-"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"floatoutput" : 1,
+					"id" : "obj-21",
+					"maxclass" : "dial",
+					"mode" : 5,
+					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 93.489049971103668, 550.001276284456253, 78.0, 78.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 29.0, 29.0, 34.0, 34.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial-[1]",
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "dial-",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 1.0,
+					"thickness" : 80.099999999999994,
+					"varname" : "dial-"
 				}
 
 			}

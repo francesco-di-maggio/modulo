@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 286.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -776,26 +776,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 430.0, 60.0, 5.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 286.0, 5.0 ],
-					"saved_attribute_attributes" : 					{
-						"linecolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-46",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -837,7 +817,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 441.0, 264.583333333333485, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 13.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 15.0, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "color-"
 				}
@@ -1252,6 +1232,26 @@
 					"presentation_rect" : [ 27.0, 27.0, 254.0, 38.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 357.0, 430.0, 60.0, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 22.0, 286.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}

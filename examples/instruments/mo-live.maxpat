@@ -181,7 +181,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 20.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 328.0, 212.57976169841254, 214.0, 182.0 ],
+					"presentation_rect" : [ 544.0, 20.0, 214.0, 182.0 ],
 					"varname" : "mo.pads",
 					"viewvisibility" : 1
 				}
@@ -209,15 +209,15 @@
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-39",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.0, 183.550098999999989, 124.0, 69.0 ],
+					"patching_rect" : [ 670.0, 183.550098999999989, 124.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 149.0, 250.629860698412529, 124.0, 69.0 ],
-					"text" : "this button will lauch \nAbleton Live, and \nload a live set",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 149.0, 265.0, 124.0, 54.0 ],
+					"text" : "this button will lauch \nan Ableton Live set",
 					"textjustification" : 1
 				}
 
@@ -316,7 +316,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 20.0, 384.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.0, 20.0, 214.0, 182.0 ],
+					"presentation_rect" : [ 328.0, 212.57976169841254, 214.0, 182.0 ],
 					"varname" : "mo.ctlouts",
 					"viewvisibility" : 1
 				}

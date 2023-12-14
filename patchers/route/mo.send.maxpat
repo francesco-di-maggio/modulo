@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -87,7 +87,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[554]",
+							"parameter_longname" : "live.text[182]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -391,6 +391,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.941421547044769, 26.871792723306498, 58.13041431729053, 14.093006536364555 ],
 					"rounded" : 0.0,
+					"text" : "fm",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "set-"
 				}

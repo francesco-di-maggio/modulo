@@ -94,7 +94,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 15 ],
+					"args" : [ 3, "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -119,7 +119,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 15 ],
+					"args" : [ 3, "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -144,7 +144,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 15 ],
+					"args" : [ 3, "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -169,7 +169,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 15 ],
+					"args" : [ 3, "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -219,7 +219,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@color", 15 ],
+					"args" : [ 3, "@color", 15 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -339,6 +339,7 @@
 			"obj-1::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-2" : [ "live.text[8]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
@@ -347,15 +348,19 @@
 			"obj-4::obj-21" : [ "live.text[6]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-4::obj-56" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-6::obj-21" : [ "live.text[9]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[2]", "slider-", 0 ],
 			"obj-6::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-6::obj-56" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-7::obj-21" : [ "live.text[13]", "live.text", 0 ],
 			"obj-7::obj-3" : [ "slider-[3]", "slider-", 0 ],
 			"obj-7::obj-35" : [ "live.text[12]", "live.text", 0 ],
+			"obj-7::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-9::obj-21" : [ "live.text[15]", "live.text", 0 ],
 			"obj-9::obj-3" : [ "slider-[4]", "slider-", 0 ],
 			"obj-9::obj-35" : [ "live.text[20]", "live.text", 0 ],
+			"obj-9::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -402,12 +407,20 @@
 					"parameter_longname" : "live.text[4]"
 				}
 ,
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
 				"obj-6::obj-21" : 				{
 					"parameter_longname" : "live.text[9]"
 				}
 ,
 				"obj-6::obj-35" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-6::obj-56" : 				{
+					"parameter_longname" : "live.numbox[4]"
 				}
 ,
 				"obj-7::obj-21" : 				{
@@ -418,12 +431,20 @@
 					"parameter_longname" : "live.text[12]"
 				}
 ,
+				"obj-7::obj-56" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
 				"obj-9::obj-21" : 				{
 					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-9::obj-35" : 				{
 					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-9::obj-56" : 				{
+					"parameter_longname" : "live.numbox[8]"
 				}
 
 			}

@@ -54,9 +54,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.875, 137.25, 214.0, 70.0 ],
+					"patching_rect" : [ 141.875, 137.25, 286.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 77.071428999999995, 214.0, 70.0 ],
+					"presentation_rect" : [ 20.0, 77.071428999999995, 286.0, 70.0 ],
 					"varname" : "mo.hslider",
 					"viewvisibility" : 1
 				}
@@ -182,6 +182,7 @@
 			"obj-3::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-3::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-3::obj-56" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
