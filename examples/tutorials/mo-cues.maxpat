@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 98.5277777777778, 20.0, 58.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -520,6 +532,14 @@
 					"destination" : [ "obj-43", 0 ],
 					"midpoints" : [ 169.25, 291.0, 169.666666666666686, 291.0 ],
 					"source" : [ "obj-15", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"midpoints" : [ 108.0277777777778, 57.0, 49.5, 57.0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

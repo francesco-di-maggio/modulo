@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 529.0, 622.0 ],
+		"rect" : [ 34.0, 87.0, 528.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -377,17 +377,11 @@
 					"patching_rect" : [ 515.0, 144.899667762819632, 303.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::slider" : 1,
-						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::slider" : 1,
-						"mo.sliders::[2]::polarity" : 1,
 						"mo.sliders::[3]::slider" : 1,
-						"mo.sliders::[3]::polarity" : 1,
 						"mo.sliders::[4]::slider" : 1,
-						"mo.sliders::[4]::polarity" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[5]::polarity" : 1,
-						"mo.sliders::[6]::slider" : 1,
-						"mo.sliders::[6]::polarity" : 1
+						"mo.sliders::[6]::slider" : 1
 					}
 ,
 					"saved_object_attributes" : 					{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 846.0, 398.0 ],
+		"rect" : [ 34.0, 87.0, 817.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1610,7 +1610,7 @@
 					"patching_rect" : [ 20.0, 501.793635999999879, 414.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 420.0, 257.0, 414.0, 122.0 ],
+					"presentation_rect" : [ 387.0, 248.0, 414.0, 122.0 ],
 					"text" : "MODES:\n\n1. Bounce: Trigger note and velocity messages by bouncing the ball.\n2. Bounce Modulation: Trigger an Envelope via CC messages with bounce.\n3. Shake Note: Trigger notes and velocity by shaking the ball.\n4. Shake Modulation: Trigger CC messages by shaking the ball.\n5. Gyroscope Raw Data: output raw gyroscope data from X,Y, Z axis.\n6. Accelerometer Raw Data: output raw accelerometer data from X,Y, Z axis."
 				}
 
@@ -1716,7 +1716,7 @@
 					"patching_rect" : [ 270.0, 425.793636227365823, 139.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 268.0, 257.0, 139.0, 39.0 ],
+					"presentation_rect" : [ 239.0, 289.5, 139.0, 39.0 ],
 					"text" : "set output MIDI port:\n\"ODD Pro Bluetooth\""
 				}
 
@@ -1738,7 +1738,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 240.0, 435.293636227365823, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 266.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 211.0, 299.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

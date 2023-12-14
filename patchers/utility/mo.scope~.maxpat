@@ -125,7 +125,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[695]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -209,7 +209,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[696]",
+							"parameter_longname" : "live.text[22]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -319,6 +319,7 @@
 			}
 , 			{
 				"box" : 				{
+					"automatic" : 1,
 					"bgcolor" : [ 0.058823529411765, 0.058823529411765, 0.058823529411765, 0.0 ],
 					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"gridcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],

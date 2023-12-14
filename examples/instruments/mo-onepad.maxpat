@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 72 ],
+					"args" : [ 72, "@port", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 67 ],
+					"args" : [ 67, "@port", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -88,6 +88,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 60, "@port", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

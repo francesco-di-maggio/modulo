@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-34",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 670.0, 230.0, 46.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 39.0, 13.0, 13.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -55,7 +74,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -77,7 +96,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 670.0, 230.0, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 24.0, 17.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 38.0, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -128,7 +147,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 420.0, 160.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 38.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 4.0, 26.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1422,7 +1441,7 @@
 				"box" : 				{
 					"comment" : "(int) number of tabs, (message) mode, items, rand, reset, mute",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1471,7 +1490,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1515,7 +1534,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1991,39 +2010,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-29" : [ "live.numbox[389]", "live.numbox", 0 ],
-			"obj-31" : [ "live.text[685]", "live.text", 0 ],
-			"obj-38" : [ "live.text[461]", "live.text", 0 ],
-			"obj-6" : [ "live.text[13]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

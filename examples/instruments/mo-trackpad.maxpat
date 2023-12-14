@@ -686,7 +686,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "CLICK", "@color", 3 ],
+					"args" : [ "@set", "CLICK" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -822,7 +822,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 254.5, 188.0, 254.5, 188.0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -831,7 +830,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 137.5, 188.0, 137.75, 188.0 ],
-					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 

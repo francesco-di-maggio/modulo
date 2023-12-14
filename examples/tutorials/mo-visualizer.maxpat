@@ -177,7 +177,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -209,7 +208,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1035.421395999999959, 389.500000458887996, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 358.735307750912682, 189.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 358.735307750912682, 181.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -231,7 +230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1009.421395999999959, 393.500000458887996, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.735307750912682, 192.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 332.735307750912682, 184.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -251,7 +250,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 950.421395999999959, 377.000000458887996, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 271.735307750912682, 179.5, 45.0, 45.0 ]
+					"presentation_rect" : [ 271.735307750912682, 171.5, 45.0, 45.0 ]
 				}
 
 			}

@@ -40,12 +40,55 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 272.666666666666742, 42.24999977777783, 71.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 265.166666666666742, 41.285026599544011, 71.0, 25.0 ],
+					"text" : "set port ",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-33",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 244.666666666666742, 44.74999977777783, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 241.11886337647843, 43.785026599544011, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.052369487782016, 63.06666666666672, 182.0, 23.0 ],
+					"patching_rect" : [ 369.166666666666515, 86.5, 182.0, 23.0 ],
 					"text" : "read p-mo.holonist.json, recall 1"
 				}
 
@@ -57,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 371.052369487782016, 24.834328101851497, 58.0, 23.0 ],
+					"patching_rect" : [ 369.166666666666515, 48.267661435184777, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -95,10 +138,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.885702821115501, 234.495833333333167, 347.0, 122.0 ],
+					"patching_rect" : [ 280.0, 257.929166666666447, 347.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 245.0, 20.0, 347.0, 122.0 ],
+					"presentation_rect" : [ 250.0, 77.0, 347.0, 122.0 ],
 					"text" : "INSTRUCTIONS:\n\nUse the \"Holon.ist\" iOS App to retrieve iPhone sensors.\n\n1. Download, and open the Holonist app: \n     https://holon.ist\n2. Load preset: Utilities > Presets > Factory > inputs_iPhone.\n3. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -159,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.885702821115501, 63.06666666666672, 65.0, 23.0 ],
+					"patching_rect" : [ 280.0, 86.5, 65.0, 23.0 ],
 					"text" : "writeagain"
 				}
 
@@ -172,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 281.885702821115501, 162.06666666666672, 52.0, 28.0 ],
+					"patching_rect" : [ 280.0, 185.5, 52.0, 28.0 ],
 					"pattrstorage" : "p-mo.holonist"
 				}
 
@@ -185,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.885702821115501, 118.091666666666356, 332.0, 23.0 ],
+					"patching_rect" : [ 280.0, 141.524999999999636, 332.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[2]::slider" : 1,
@@ -229,7 +272,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 380.552369487782016, 48.0, 380.552369487782016, 48.0 ],
+					"midpoints" : [ 378.666666666666515, 71.43333333333328, 378.666666666666515, 71.43333333333328 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -237,7 +280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 380.552369487782016, 105.0, 291.385702821115501, 105.0 ],
+					"midpoints" : [ 378.666666666666515, 128.43333333333328, 289.5, 128.43333333333328 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -245,7 +288,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 291.385702821115501, 87.0, 291.385702821115501, 87.0 ],
+					"midpoints" : [ 289.5, 110.43333333333328, 289.5, 110.43333333333328 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

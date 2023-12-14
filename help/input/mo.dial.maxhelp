@@ -279,8 +279,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.255791574060538, 259.0, 85.0, 23.0 ],
-					"text" : "prepend name"
+					"patching_rect" : [ 227.255791574060538, 259.0, 72.0, 23.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -450,6 +450,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-6" : 				{
+					"parameter_longname" : "live.text[185]"
 				}
 
 			}

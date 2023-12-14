@@ -277,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 150.349702174603181, 340.0, 23.0 ],
+					"patching_rect" : [ 628.0, 150.349702174603181, 417.0, 23.0 ],
 					"priority" : 					{
 						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[2]::slider" : 1,
@@ -294,7 +294,7 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-mo.gametrak @autorestore 1 @changemode 1",
+					"text" : "pattrstorage p-mo.gametrak @savemode 1 @autorestore 1 @changemode 1",
 					"varname" : "p-mo.gametrak"
 				}
 

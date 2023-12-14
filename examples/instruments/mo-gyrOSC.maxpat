@@ -57,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1244.594237999999905, 20.0, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.0, 77.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 462.0, 100.0, 70.0, 70.0 ],
 					"varname" : "mo.pad[9]",
 					"viewvisibility" : 1
 				}
@@ -82,7 +82,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1172.594237999999905, 20.0, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 77.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 390.0, 100.0, 70.0, 70.0 ],
 					"varname" : "mo.pad[10]",
 					"viewvisibility" : 1
 				}
