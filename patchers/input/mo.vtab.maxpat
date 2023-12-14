@@ -490,7 +490,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[43]",
+							"parameter_longname" : "live.numbox[6]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1456,7 +1456,7 @@
 
 					}
 ,
-					"text" : "rand",
+					"text" : " ",
 					"varname" : "live.text[1]"
 				}
 

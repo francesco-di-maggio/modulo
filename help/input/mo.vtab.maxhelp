@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.0, 360.0, 29.5, 23.0 ],
-					"text" : "C"
+					"text" : "1"
 				}
 
 			}
@@ -340,6 +340,21 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-5::obj-38" : 				{
+					"parameter_invisible" : 2,
+					"parameter_longname" : "live.text[258]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
 				}
 
 			}

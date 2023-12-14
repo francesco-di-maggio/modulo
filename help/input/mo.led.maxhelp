@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 569.0, 472.0 ],
+		"rect" : [ 34.0, 87.0, 535.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,12 +45,12 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 238.0, 166.0, 25.0 ],
-					"presentation_linecount" : 2,
-					"text" : "set mode (inactive/active)"
+					"patching_rect" : [ 400.0, 230.5, 117.0, 39.0 ],
+					"text" : "set outline mode (active/inactive)"
 				}
 
 			}
@@ -88,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 212.972386092603585, 238.0, 141.0, 25.0 ],
-					"presentation_linecount" : 4,
 					"text" : "set brightness (0./1.)"
 				}
 
@@ -116,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 158.972386092603585, 279.0, 82.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "brightness $1"
 				}
 
