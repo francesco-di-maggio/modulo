@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 53.0, 1566.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -251,7 +251,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -382,6 +382,14 @@
 							"expression" : "themecolor.live_active_automation"
 						}
 ,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
@@ -390,9 +398,13 @@
 							"expression" : ""
 						}
 ,
+						"labeltextcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -400,8 +412,8 @@
 
 					}
 ,
-					"text" : "Y",
-					"texton" : "Y",
+					"text" : "dial",
+					"texton" : "dial",
 					"varname" : "mute-"
 				}
 
@@ -460,11 +472,11 @@
 				"box" : 				{
 					"comment" : "(float) dial",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.538977009388248, 47.0, 30.0, 30.0 ]
 				}
 
@@ -473,7 +485,7 @@
 				"box" : 				{
 					"comment" : "(message) color, set, mute",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -566,32 +578,11 @@
 				"box" : 				{
 					"comment" : "(float) dial",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.872310342721619, 734.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-20",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 550.001276284456253, 78.0, 78.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 38.0, 38.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0,
-					"shape" : 1,
-					"varname" : "panel"
 				}
 
 			}
@@ -627,6 +618,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"degrees" : 289,
 					"floatoutput" : 1,
 					"id" : "obj-21",
 					"maxclass" : "dial",
@@ -642,7 +634,7 @@
 					"presentation_rect" : [ 29.0, 29.0, 34.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial-[1]",
+							"parameter_longname" : "dial-[6]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial-",
 							"parameter_type" : 0
@@ -651,8 +643,29 @@
 					}
 ,
 					"size" : 1.0,
-					"thickness" : 80.099999999999994,
+					"thickness" : 80.0,
 					"varname" : "dial-"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-20",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 400.0, 550.001276284456253, 78.0, 78.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.0, 27.0, 38.0, 38.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0,
+					"shape" : 1,
+					"varname" : "panel"
 				}
 
 			}
@@ -917,6 +930,38 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-21" : [ "dial-[6]", "dial-", 0 ],
+			"obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-6" : [ "live.text[12]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
