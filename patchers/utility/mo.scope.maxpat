@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -172,7 +172,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[694]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -581,7 +581,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[556]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -867,7 +867,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[352]",
+							"parameter_longname" : "live.numbox[6]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -912,10 +912,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.842786306142557, 401.411174970092702, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 28.0, 202.0, 180.0 ],
+					"presentation_rect" : [ 6.0, 28.0, 202.0, 181.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
-					"size" : 3,
-					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
