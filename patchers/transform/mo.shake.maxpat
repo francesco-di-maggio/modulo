@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 96.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -88,14 +88,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 699.218562195698382, 216.5, 216.0, 23.0 ],
+					"patching_rect" : [ 699.218562195698382, 216.5, 223.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.5 ],
+						"initial" : [ 0.25 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr down @bindto down- @initial 0.5",
+					"text" : "pattr down @bindto down- @initial 0.25",
 					"varname" : "down"
 				}
 
@@ -163,7 +163,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[644]",
+							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -289,7 +289,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[642]",
+							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -538,7 +538,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[896]",
+							"parameter_longname" : "live.text[429]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -696,7 +696,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[643]",
+							"parameter_longname" : "live.numbox[160]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,

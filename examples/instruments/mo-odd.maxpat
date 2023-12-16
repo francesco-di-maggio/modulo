@@ -1656,7 +1656,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3, "@polarity", 1, "@set", "GYROSCOPE / ACCELEROMETER" ],
+					"args" : [ 3, "@polarity", 1, "@set", "ORIENTATION" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

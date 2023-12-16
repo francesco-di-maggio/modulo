@@ -66,14 +66,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 854.0, 540.0, 235.0, 23.0 ],
+					"patching_rect" : [ 854.0, 540.0, 182.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr connect @bindto connect- @initial 0",
+					"text" : "pattr connect @bindto connect-",
 					"varname" : "connect"
 				}
 
@@ -501,8 +501,8 @@
 					"patching_rect" : [ 854.0, 489.0, 322.0, 23.0 ],
 					"restore" : [ 						{
 							"data" : 							{
-								"numins" : 3,
-								"numouts" : 3
+								"numins" : 4,
+								"numouts" : 4
 							}
 
 						}
@@ -2542,22 +2542,20 @@
 					"gainstyle" : 1,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : [ "1", "2", "3" ],
+					"inlabels" : [ "1", "2", "3", "4" ],
 					"labelheight" : 12.0,
 					"labelwidth" : 30.0,
 					"linecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
-					"numins" : 3,
 					"numoutlets" : 2,
-					"numouts" : 3,
 					"outcolormap" : "none",
-					"outlabels" : [ "1", "2", "3" ],
+					"outlabels" : [ "1", "2", "3", "4" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.139760281642339, 396.325857325578113, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 41.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 55.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "crosspatch-"
 				}
@@ -2752,7 +2750,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.139760281642339, 290.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 41.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 55.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3167,7 +3165,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 397.639760281642339, 264.0, 397.639760281642339, 264.0 ],
 					"source" : [ "obj-61", 1 ]
 				}
 

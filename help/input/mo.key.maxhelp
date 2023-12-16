@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 206.0, 184.5, 95.0, 68.0 ],
-					"text" : "key: \n1 = spacebar\n2 = esc\n3 = return"
+					"text" : "set key: \n1 = spacebar\n2 = esc\n3 = return"
 				}
 
 			}
