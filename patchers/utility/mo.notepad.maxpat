@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -54,6 +54,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -413,7 +414,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[982]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -450,6 +451,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.5,
 					"id" : "obj-36",
+					"keymode" : 1,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
@@ -458,7 +460,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 376.930321824550504, 443.0, 150.0, 223.0 ],
+					"patching_rect" : [ 376.930321824550504, 443.0, 130.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 70.13141244374863, 197.0, 134.84408679687516 ],
 					"rounded" : 0.0,
@@ -638,7 +640,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[820]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -687,7 +689,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[834]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -783,7 +785,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[325]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -831,7 +833,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[323]",
+							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -880,7 +882,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[324]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -931,7 +933,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[326]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1119,7 +1121,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 142.551895529031754, 39.0, 30.0, 30.0 ]
 				}
 
@@ -1306,6 +1308,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 950.5, 756.0, 950.5, 756.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1321,7 +1324,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 950.5, 779.5, 950.5, 779.5 ],
+					"midpoints" : [ 950.5, 780.0, 950.5, 780.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1656,7 +1659,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 386.430321824550504, 687.0, 336.0, 687.0, 336.0, 507.0, 386.430321824550504, 507.0 ],
+					"midpoints" : [ 386.430321824550504, 504.0, 386.430321824550504, 504.0 ],
 					"order" : 1,
 					"source" : [ "obj-36", 0 ]
 				}

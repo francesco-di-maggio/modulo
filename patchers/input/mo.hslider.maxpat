@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 286.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 286.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -987,8 +987,8 @@
 
 					}
 ,
-					"text" : "bounce",
-					"texton" : "bounce",
+					"text" : "hslider",
+					"texton" : "hslider",
 					"varname" : "mute-"
 				}
 
@@ -1161,7 +1161,7 @@
 				"box" : 				{
 					"comment" : "(float) slider",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1183,7 +1183,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 89.489049971103668, 526.751276284456253, 78.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.0, 29.0, 174.0, 34.0 ],
+					"presentation_rect" : [ 31.0, 29.0, 246.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider-[9]",
@@ -1197,7 +1197,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"spacing" : 2,
 					"varname" : "slider-"
 				}
@@ -1207,7 +1207,7 @@
 				"box" : 				{
 					"comment" : "(message) color, set, polarity, mute",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1280,7 +1280,7 @@
 				"box" : 				{
 					"comment" : "(float) slider",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1330,7 +1330,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 329.0, 526.751276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 182.0, 38.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 254.0, 38.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1345,7 +1345,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 480.0, 60.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 286.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1680,6 +1680,39 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-19" : [ "live.text[4]", "live.text", 0 ],
+			"obj-3" : [ "slider-[9]", "slider-", 0 ],
+			"obj-35" : [ "live.text[5]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

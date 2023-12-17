@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1671,7 +1671,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.0, 370.0, 241.5, 210.0 ],
+					"patching_rect" : [ 300.5, 380.0, 220.0, 190.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.675538547296355, 66.033937669039005, 204.846665225963761, 143.563396156664055 ],
 					"proportion" : 0.5,

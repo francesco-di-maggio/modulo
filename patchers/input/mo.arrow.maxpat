@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,39 +41,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1339.0, 771.626276284456253, 58.0, 23.0 ],
+					"patching_rect" : [ 348.0, 255.0, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1339.0, 796.626276284456253, 82.0, 23.0 ],
+					"patching_rect" : [ 348.0, 280.0, 82.0, 23.0 ],
 					"text" : "a-mo.settings"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1396.0, 846.626276284456253, 70.0, 23.0 ],
+					"patching_rect" : [ 405.0, 330.0, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -81,12 +78,11 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 821.626276284456253, 127.0, 23.0 ],
+					"patching_rect" : [ 348.0, 305.0, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -486,7 +482,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 367.245423614453841, 353.0, 78.0, 78.0 ],
+					"patching_rect" : [ 77.499999999999943, 380.990021225398777, 117.666666666666686, 24.571428571428442 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 27.0, 60.370044559240341, 38.590308889746666 ],
 					"proportion" : 0.5,

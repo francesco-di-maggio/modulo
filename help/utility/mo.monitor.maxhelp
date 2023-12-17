@@ -140,8 +140,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 32.0, 85.0, 64.0, 23.0 ],
-									"text" : "metro 500"
+									"patching_rect" : [ 32.0, 85.0, 72.0, 23.0 ],
+									"text" : "metro 1000"
 								}
 
 							}
@@ -223,7 +223,7 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 41.0, 207.5, 69.0, 23.0 ],
+					"patching_rect" : [ 41.0, 207.5, 59.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -235,7 +235,7 @@
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p password"
+					"text" : "p random"
 				}
 
 			}

@@ -278,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 949.989049971103668, 654.0, 58.0, 23.0 ],
+					"patching_rect" : [ 950.989049971103668, 630.0, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -290,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 949.989049971103668, 679.0, 82.0, 23.0 ],
+					"patching_rect" : [ 950.989049971103668, 655.0, 82.0, 23.0 ],
 					"text" : "a-mo.settings"
 				}
 
@@ -302,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1006.989049971103668, 729.0, 70.0, 23.0 ],
+					"patching_rect" : [ 1007.989049971103668, 705.0, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -314,7 +314,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.989049971103668, 704.0, 127.0, 23.0 ],
+					"patching_rect" : [ 950.989049971103668, 680.0, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -418,9 +418,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -438,8 +438,9 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
+						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -602,6 +603,7 @@
 
 							}
  ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -614,7 +616,8 @@
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"tags" : "",
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p encoder"
@@ -830,7 +833,7 @@
 				"box" : 				{
 					"comment" : "(int, float) encoder",
 					"id" : "obj-42",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -843,7 +846,7 @@
 				"box" : 				{
 					"comment" : "(message) color, set, mode, mute",
 					"id" : "obj-43",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -916,7 +919,7 @@
 				"box" : 				{
 					"comment" : "(float) encoder",
 					"id" : "obj-60",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1057,7 +1060,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 959.489049971103668, 705.0, 959.489049971103668, 705.0 ],
+					"midpoints" : [ 960.489049971103668, 681.0, 960.489049971103668, 681.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1400,12 +1403,44 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 959.489049971103668, 678.0, 959.489049971103668, 678.0 ],
+					"midpoints" : [ 960.489049971103668, 654.0, 960.489049971103668, 654.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "live.text[804]", "live.text", 0 ],
+			"obj-21" : [ "dial-[1]", "dial", 0 ],
+			"obj-5" : [ "live.text[882]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
