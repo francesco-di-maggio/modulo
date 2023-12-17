@@ -44,10 +44,10 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 280.0, 206.0, 41.0, 23.0 ],
-					"text" : "unjoin"
+					"numoutlets" : 2,
+					"outlettype" : [ "menu", "clear" ],
+					"patching_rect" : [ 280.0, 206.0, 75.0, 23.0 ],
+					"text" : "t menu clear"
 				}
 
 			}
@@ -57,9 +57,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 170.0, 120.0, 23.0 ],
-					"text" : "loadmess menu clear"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 280.0, 170.0, 58.0, 23.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -71,7 +71,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 599.035088539123535, 223.0, 141.0, 23.0 ],
-					"restore" : [ "Magic Keyboard" ],
+					"restore" : [ "Keyboard Backlight" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -224,14 +224,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 539.341515487432503, 270.342105031013602, 202.0, 23.0 ],
+					"patching_rect" : [ 539.341515487432503, 270.342105031013602, 149.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mute @bindto mute- @initial 0",
+					"text" : "pattr mute @bindto mute-",
 					"varname" : "mute"
 				}
 
@@ -322,8 +322,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.947368621826172, 269.842105031013602, 38.0, 23.0 ],
-					"text" : "poll 5"
+					"patching_rect" : [ 69.947368621826172, 269.842105031013602, 45.0, 23.0 ],
+					"text" : "poll 10"
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "Magic Keyboard", ",", "Magic Keyboard 2", ",", "Magic Keyboard 3", ",", "Magic Trackpad 2", ",", "Magic Trackpad 2 2", ",", "Magic Trackpad 2 3", ",", "Magic Trackpad 2 4", ",", "Magic Keyboard 4", ",", "Magic Trackpad 2 5", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5" ],
+					"items" : [ "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -409,7 +409,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 434.0, 174.0, 48.96437227123306, 15.0 ],
+					"patching_rect" : [ 430.0, 170.0, 48.96437227123306, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 26.372827489742122, 17.284977346658707, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -484,7 +484,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 300.5, 258.0, 158.5, 258.0 ],
+					"midpoints" : [ 345.5, 258.0, 158.5, 258.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -508,7 +508,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-209", 0 ],
-					"midpoints" : [ 473.46437227123306, 330.0, 199.959516625821379, 330.0 ],
+					"midpoints" : [ 469.46437227123306, 330.0, 199.959516625821379, 330.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -548,7 +548,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 587.508182154099131, 159.0, 443.5, 159.0 ],
+					"midpoints" : [ 587.508182154099131, 156.0, 439.5, 156.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 

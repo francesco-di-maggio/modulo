@@ -1575,7 +1575,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1860,7 +1860,7 @@
 														"GyrOSC" : [ "mo-gyrOSC" ],
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
-														"ODD Ball" : [ "mo-odd" ],
+														"Logitech Extreme 3D Pro" : [ "mo-joystick" ],
 														"One Pad" : [ "mo-onepad" ],
 														"Step Sequencer" : [ "mo-stepsequencer" ],
 														"Theremin" : [ "mo-theremin" ],
@@ -2109,10 +2109,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 491.0, 22.0 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  transform a normalized value into a different set of values  –",
+									"text" : "–  acquire data from a Logitech Extreme 3D Pro joystick  –",
 									"textjustification" : 1
 								}
 
@@ -2247,7 +2247,7 @@
 														"GyrOSC" : "connect the gryOSC app and stream quaternion and button values",
 														"Holon.ist" : "connect the Holonist app and stream the iPhone's motion data",
 														"KORG nanoKONTROL2" : "an assignable virtual representiation of the KORG nanoKONTROL2",
-														"ODD Ball" : "connect an ODD ball and stream bounce, shake and modulation values",
+														"Logitech Extreme 3D Pro" : "acquire and stream data from a Logitech Extreme 3D Pro joystick",
 														"One Pad" : "use one pad and a slider to control different midi notes",
 														"Step Sequencer" : "generate a melody, and variate its pitch, velocity and duration",
 														"Theremin" : "play a digital theremin synthesizer using xy pad coordinates to control pitch and volume",
@@ -2683,7 +2683,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  computer keyboard arrows  –",
+									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -3205,7 +3205,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
-									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
+									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
 							}
@@ -3828,7 +3828,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "One Pad", "ODD Ball", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
@@ -3995,7 +3995,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
