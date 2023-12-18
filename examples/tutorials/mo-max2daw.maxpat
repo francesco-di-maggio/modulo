@@ -487,6 +487,18 @@
 					"parameter_longname" : "live.text[88]"
 				}
 ,
+				"obj-3::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-3::obj-22" : 				{
+					"parameter_longname" : "live.text[910]"
+				}
+,
+				"obj-3::obj-6" : 				{
+					"parameter_longname" : "live.text[724]"
+				}
+,
 				"obj-4::obj-35" : 				{
 					"parameter_longname" : "live.text[907]"
 				}
