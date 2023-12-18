@@ -182,7 +182,7 @@
 					"patching_rect" : [ 352.098901098900569, 472.0, 52.0, 18.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 50.717952200283065, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 60.0, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -211,8 +211,8 @@
 
 					}
 ,
-					"text" : "radiate",
-					"texton" : "radiate",
+					"text" : "vector",
+					"texton" : "vector",
 					"varname" : "mute-"
 				}
 

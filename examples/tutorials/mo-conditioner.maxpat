@@ -67,7 +67,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.999999542877958, 473.845874999999978, 81.0, 23.0 ],
+					"patching_rect" : [ 235.999999542877958, 488.345874999999978, 81.0, 23.0 ],
 					"text" : "zmap -1 1 0 1"
 				}
 
@@ -207,7 +207,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.radiate.maxpat",
+					"name" : "mo.vector.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -215,7 +215,7 @@
 					"patching_rect" : [ 235.999999542877958, 403.845874999999978, 70.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.000000000000014, 397.0, 70.0, 62.0 ],
-					"varname" : "mo.radiate",
+					"varname" : "mo.vector",
 					"viewvisibility" : 1
 				}
 
@@ -253,7 +253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 173.0, 54.0 ],
+					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 158.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 20.0, 20.0, 173.0, 54.0 ],
@@ -276,7 +276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.999999542877958, 60.499999945402145, 20.0, 20.0 ],
+					"patching_rect" : [ 337.499999542877958, 110.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.5, 80.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -318,7 +318,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 29.499999542877948, 378.845874999999978, 29.499999542877948, 378.845874999999978 ],
+					"midpoints" : [ 29.499999542877948, 378.0, 29.499999542877948, 378.0 ],
 					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -327,16 +327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 29.499999542877948, 390.845874999999978, 245.499999542877958, 390.845874999999978 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 29.499999542877948, 390.845874999999978, 461.499999542877958, 390.845874999999978 ],
+					"midpoints" : [ 29.499999542877948, 390.0, 245.499999542877958, 390.0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -344,8 +335,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 29.499999542877948, 390.0, 461.499999542877958, 390.0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 29.5, 306.845874999999978, 29.499999542877948, 306.845874999999978 ],
+					"midpoints" : [ 29.5, 306.0, 29.499999542877948, 306.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -353,7 +353,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 245.499999542877958, 513.845874999999978, 245.499999542877958, 513.845874999999978 ],
+					"midpoints" : [ 245.499999542877958, 513.0, 245.499999542877958, 513.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -361,7 +361,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 29.5, 105.845874999999978, 29.5, 105.845874999999978 ],
+					"midpoints" : [ 29.5, 105.0, 29.5, 105.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -369,7 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 29.499999542877948, 468.845874999999978, 29.499999542877948, 468.845874999999978 ],
+					"midpoints" : [ 29.499999542877948, 468.0, 29.499999542877948, 468.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -377,7 +377,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 245.499999542877958, 468.845874999999978, 245.499999542877958, 468.845874999999978 ],
+					"midpoints" : [ 245.499999542877958, 468.0, 245.499999542877958, 468.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -385,7 +385,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 461.499999542877958, 468.845874999999978, 461.499999542877958, 468.845874999999978 ],
+					"midpoints" : [ 461.499999542877958, 468.0, 461.499999542877958, 468.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -602,6 +602,10 @@
 					"parameter_longname" : "live.text[54]"
 				}
 ,
+				"obj-12::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-12::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
@@ -612,6 +616,14 @@
 ,
 				"obj-12::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[57]"
+				}
+,
+				"obj-12::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-12::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-12::obj-40::obj-20" : 				{
@@ -760,6 +772,14 @@
 ,
 				"obj-12::obj-74::obj-8" : 				{
 					"parameter_longname" : "live.text[50]"
+				}
+,
+				"obj-13::obj-19" : 				{
+					"parameter_longname" : "live.text[140]"
+				}
+,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[139]"
 				}
 ,
 				"obj-13::obj-56" : 				{
@@ -1168,13 +1188,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.radiate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../patchers/transform",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1197,6 +1210,13 @@
 			}
 , 			{
 				"name" : "mo.steer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.vector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",

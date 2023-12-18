@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 476.0, 556.0 ],
+		"rect" : [ 34.0, 87.0, 479.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,15 +46,16 @@
 					"id" : "obj-9",
 					"knobsize" : 8.0,
 					"maxclass" : "nodes",
-					"nodesnames" : [ "1" ],
-					"nsize" : [ 0.0 ],
+					"nodenumber" : 4,
+					"nodesnames" : [ "1", "2", "3", "4" ],
+					"nsize" : [ 0.586391767441861, 0.545694093023256, 0.487554558139535, 0.731740604651163 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 161.0, 425.9838293650796, 95.0, 95.0 ],
-					"xplace" : [ 0.5 ],
-					"yplace" : [ 0.5 ]
+					"xplace" : [ 0.20680411627907, 0.5, 0.743777279069767, 0.5 ],
+					"yplace" : [ 0.5, 0.227152953488372, 0.5, 0.865870302325581 ]
 				}
 
 			}
@@ -116,13 +117,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.radiate.maxpat",
+					"name" : "mo.vector.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.140616000000001, 296.244563000000028, 70.0, 62.0 ],
-					"varname" : "bbdmi.radiate",
+					"varname" : "mo.vector",
 					"viewvisibility" : 1
 				}
 
@@ -155,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 202.0, 133.0, 25.0 ],
+					"patching_rect" : [ 330.0, 201.0, 133.0, 25.0 ],
 					"text" : "set rotation (0. / 1.)"
 				}
 
@@ -196,8 +197,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 83.0, 420.0, 23.0 ],
-					"text" : "Combine a list of control signals into radial speherical coordinates."
+					"patching_rect" : [ 9.0, 83.0, 465.0, 23.0 ],
+					"text" : "Combine a list of control signals into speherical coordinates (vector sum)."
 				}
 
 			}
@@ -210,8 +211,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 9.0, 267.0, 71.0 ],
-					"text" : "mo.radiate"
+					"patching_rect" : [ 9.0, 9.0, 249.0, 71.0 ],
+					"text" : "mo.vector"
 				}
 
 			}
@@ -275,7 +276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 303.5, 204.5, 20.0, 20.0 ],
+					"patching_rect" : [ 303.5, 203.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -376,7 +377,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.radiate.maxpat",
+				"name" : "mo.vector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",

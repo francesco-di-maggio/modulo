@@ -2112,7 +2112,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  acquire data from a Logitech Extreme 3D Pro joystick  –",
+									"text" : "–  combine, mix and customize sets of modules  –",
 									"textjustification" : 1
 								}
 
@@ -2257,7 +2257,7 @@
 														"Blinker" : "blink a series of colored leds using an adjustable time window",
 														"Conditioner" : "transform a normalized value into a different set of values",
 														"Interpolator" : "interpolate data graphically using a two-dimension nodes object",
-														"Legos" : "combine, mix and customize sets of modules",
+														"LEGO®" : "combine, mix and customize sets of modules",
 														"Many To One" : "map a set of input values to a single output value",
 														"Mapper" : "map parameters to a midi controller or computer keyboard keys",
 														"Max To DAW" : "communicate with a digital audio workstation from max",
@@ -2680,10 +2680,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.0 ],
+									"patching_rect" : [ 96.0, 657.80976314285715, 540.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  project a list of input data into a circular plane, and get the combined xy axes (vector sum)  –",
 									"textjustification" : 1
 								}
 
@@ -2872,7 +2872,6 @@
 														"mo.minmax" : "get the absolute mimimum and maximum input ranges from an incoming value",
 														"mo.pipe" : "delay anything over a specific time window",
 														"mo.poll" : "stream a list of input data at a specific rate",
-														"mo.radiate" : "project a list of input data over a circular plane, and get the combined xy axes",
 														"mo.rms~" : "get the average of incoming multichannel audio signals, and output the numeric value",
 														"mo.scale" : "assign a list of normalized input values to a different output range",
 														"mo.schmitt" : "output a trigger when a list of values exceed a maximum threshold",
@@ -2885,6 +2884,7 @@
 														"mo.speedlim" : "limit the stream of a list of values at a specific rate",
 														"mo.split" : "get values included, below, and above a specific minimum and maximum range",
 														"mo.steer" : "output the direction of a list of two values",
+														"mo.vector" : "project a list of input data into a circular plane, and get the combined xy axes (vector sum)",
 														"mo.adstatus" : "open the max audio status settings",
 														"mo.console" : "monitor and clear the max console window with keys combination",
 														"mo.cpu" : "monitor the central processing unit (cpu)",
@@ -3205,7 +3205,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -3221,7 +3221,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Process input data through filtering, averaging and smoothing algorithms."
 								}
 
 							}
@@ -3614,7 +3614,7 @@
 													"data" : 													{
 														"input" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
-														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.radiate", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer" ],
+														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer", "mo.vector" ],
 														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
 													}
 ,
@@ -3995,7 +3995,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -4048,7 +4048,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer", "mo.vector" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -4627,7 +4627,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 657.80976314285715, 530.5, 22.19023685714285 ],
+									"patching_rect" : [ 96.0, 657.80976314285715, 540.5, 22.19023685714285 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 301.75, 677.52661058306694, 28.0 ],
 									"proportion" : 0.5,
@@ -4646,7 +4646,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.0, 657.80976314285715, 551.5, 22.19023685714285 ],
+									"patching_rect" : [ 814.0, 657.80976314285715, 561.5, 22.19023685714285 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 301.75, 677.52661058306694, 28.0 ],
 									"proportion" : 0.5,

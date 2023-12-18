@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 479.0, 582.0 ],
+		"rect" : [ 34.0, 87.0, 473.0, 575.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 535.0, 240.0, 23.0 ],
-					"text" : "bgcolor 0.75 0.25 0.25 1."
+					"patching_rect" : [ 41.0, 535.0, 214.0, 23.0 ],
+					"text" : "bgcolor 0.605 0.395 0.395 1."
 				}
 
 			}
@@ -357,7 +357,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
-					"midpoints" : [ 50.5, 522.0, 271.5, 522.0 ],
+					"midpoints" : [ 50.5, 522.0, 245.5, 522.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
