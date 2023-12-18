@@ -427,8 +427,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.291666666666667, 0.965725806451613, 1.0, 1.0 ],
 					"bgmode" : 0,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -789,6 +790,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
 				"obj-1::obj-22" : 				{
 					"parameter_longname" : "live.text[192]"
 				}
