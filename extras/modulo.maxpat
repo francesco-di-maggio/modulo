@@ -1575,7 +1575,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1587,7 +1587,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+						"rect" : [ 34.0, 87.0, 1532.0, 779.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2112,7 +2112,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
-									"text" : "–  combine, mix and customize sets of modules  –",
+									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -2683,7 +2683,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 540.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "–  project a list of input data into a circular plane, and get the combined xy axes (vector sum)  –",
+									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -3052,14 +3052,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 410.066666666666663, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 113.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 116.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3073,14 +3072,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 426.777777777777771, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 113.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 116.5, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3094,14 +3092,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 402.211111111111109, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 27.0, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 28.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3115,14 +3112,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 385.5, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 27.0, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 28.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -3204,8 +3200,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 118.5, 680.0, 22.0 ],
-									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
+									"presentation_rect" : [ 739.476190477609634, 119.5, 680.0, 22.0 ],
+									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
 							}
@@ -3220,8 +3216,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 118.5, 677.0, 22.0 ],
-									"text" : "Process input data through filtering, averaging and smoothing algorithms."
+									"presentation_rect" : [ 9.190476208925247, 119.5, 677.0, 22.0 ],
+									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -3995,7 +3991,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -4048,7 +4044,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer", "mo.vector" ],
+											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -4065,14 +4061,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-36",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 394.355555555555554, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 138.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.476190477609634, 141.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -4338,14 +4333,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-51",
-									"justification" : 1,
 									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 417.922222222222217, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 138.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.190476208925247, 141.75, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
