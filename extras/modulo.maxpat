@@ -2111,7 +2111,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 304.75, 665.52661058306694, 22.0 ],
+									"presentation_rect" : [ 739.476190477609634, 304.75, 667.52661058306694, 22.0 ],
 									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
@@ -2682,8 +2682,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 657.80976314285715, 540.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 304.75, 677.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"presentation_rect" : [ 9.190476208925247, 304.75, 679.52661058306694, 22.0 ],
+									"text" : "–  perform different click behaviours: click, double-click, and hold  –",
 									"textjustification" : 1
 								}
 
@@ -3217,7 +3217,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 119.5, 677.0, 22.0 ],
-									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
+									"text" : "Process input data through filtering, averaging and smoothing algorithms."
 								}
 
 							}
@@ -4044,7 +4044,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
+											"parameter_enum" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer", "mo.vector" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",
@@ -4623,7 +4623,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 657.80976314285715, 540.5, 22.19023685714285 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 301.75, 677.52661058306694, 28.0 ],
+									"presentation_rect" : [ 9.190476208925247, 301.75, 679.52661058306694, 28.0 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
@@ -4642,7 +4642,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 814.0, 657.80976314285715, 561.5, 22.19023685714285 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 301.75, 677.52661058306694, 28.0 ],
+									"presentation_rect" : [ 739.476190477609634, 301.75, 679.52661058306694, 28.0 ],
 									"proportion" : 0.5,
 									"rounded" : 10
 								}
