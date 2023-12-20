@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -67,7 +67,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -239,7 +239,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -381,7 +381,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -570,7 +570,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -726,7 +726,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -859,7 +859,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1391,7 +1391,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1521,7 +1521,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1639,7 +1639,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1810,7 +1810,7 @@
 														"Blinker" : [ "mo-blinker" ],
 														"Conditioner" : [ "mo-conditioner" ],
 														"Interpolator" : [ "mo-interpolator" ],
-														"LEGO®" : [ "mo-legos" ],
+														"LEGO" : [ "mo-lego" ],
 														"Many To One" : [ "mo-many2one" ],
 														"Mapper" : "mo-mapper",
 														"Max To DAW" : "mo-max2daw",
@@ -2052,7 +2052,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 667.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  combine, mix and customize sets of modules  –",
 									"textjustification" : 1
 								}
 
@@ -2081,7 +2081,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2197,7 +2197,7 @@
 														"Blinker" : "blink a series of colored leds using an adjustable time window",
 														"Conditioner" : "transform a normalized value into a different set of values",
 														"Interpolator" : "interpolate data graphically using a two-dimension nodes object",
-														"LEGO®" : "combine, mix and customize sets of modules",
+														"LEGO" : "combine, mix and customize sets of modules",
 														"Many To One" : "map a set of input values to a single output value",
 														"Mapper" : "map parameters to a midi controller or computer keyboard keys",
 														"Max To DAW" : "communicate with a digital audio workstation from max",
@@ -2384,7 +2384,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2652,7 +2652,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3141,7 +3141,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 119.5, 680.0, 22.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -3197,7 +3197,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3474,7 +3474,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3690,7 +3690,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3765,7 +3765,7 @@
 												"box" : 												{
 													"data" : 													{
 														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
-														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "LEGO®", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
+														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "LEGO", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3931,7 +3931,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -4046,7 +4046,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4318,7 +4318,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5073,8 +5073,8 @@
 					"patching_rect" : [ 21.5, 203.0, 680.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 27.158536583185196, 216.662162184715271, 680.0, 55.0 ],
-					"text" : "Think of it as a LEGO® set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix and match, customize, and extend your own musical tools in a modular and multichannel workflow."
+					"presentation_rect" : [ 26.158536583185196, 216.662162184715271, 680.0, 55.0 ],
+					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!"
 				}
 
 			}
