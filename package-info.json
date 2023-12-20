@@ -4,7 +4,7 @@
 	"version" : "1.0.3",
 	"author" : "Francesco Di Maggio",
 	"description" : "A Toolkit for Tinkering with Digital Musical Instruments.",
-	"tags" : [ "digital", "musical", "instrument", "design", "modular", "multichannel", "lego", "input", "route", "transform", "utility" ],
+	"tags" : [ "digital", "musical", "instrument", "design", "modular", "multichannel", "input", "route", "transform", "utility" ],
 	"website" : "https://francescodimaggio.nl",
 	"extensible" : 0,
 	"extends" : "",
