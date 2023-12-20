@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -217,7 +217,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 8 ],
+					"args" : [ 8, "@mode", 1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

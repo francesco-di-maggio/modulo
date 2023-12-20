@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -466,25 +466,11 @@
 						"mo.sliders[1]::[3]::slider" : 1,
 						"mo.sliders[1]::[4]::slider" : 1,
 						"mo.sliders[1]::[5]::slider" : 1,
-						"mo.prepend::set" : -1,
 						"mo.prepend::[1]::set" : 1,
 						"mo.prepend::[2]::set" : 1,
 						"mo.prepend::[3]::set" : 1,
 						"mo.prepend::[4]::set" : 1,
-						"mo.prepend::[5]::set" : 1,
-						"mo.prepend::[6]::set" : 1,
-						"mo.prepend::[7]::set" : 1,
-						"mo.prepend::[8]::set" : 1,
-						"mo.prepend::[9]::set" : 1,
-						"mo.prepend::[10]::set" : 1,
-						"mo.prepend::[11]::set" : 1,
-						"mo.prepend::[12]::set" : 1,
-						"mo.prepend::[13]::set" : 1,
-						"mo.prepend::[14]::set" : 1,
-						"mo.prepend::[15]::set" : 1,
-						"mo.prepend::[16]::set" : 1,
-						"mo.::set" : -1,
-						"mo.sends::set" : -1
+						"mo.prepend::[5]::set" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -798,7 +784,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

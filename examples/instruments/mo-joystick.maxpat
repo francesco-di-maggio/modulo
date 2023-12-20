@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -658,17 +658,6 @@
 						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[6]::slider" : 1,
-						"mo.sliders::[7]::slider" : 1,
-						"mo.sliders::[8]::slider" : 1,
-						"mo.sliders::[9]::slider" : 1,
-						"mo.sliders::[10]::slider" : 1,
-						"mo.sliders::[11]::slider" : 1,
-						"mo.sliders::[12]::slider" : 1,
-						"mo.sliders::[13]::slider" : 1,
-						"mo.sliders::[14]::slider" : 1,
-						"mo.sliders::[15]::slider" : 1,
-						"mo.sliders::[16]::slider" : 1,
 						"mo.prepend::[1]::set" : 1,
 						"mo.prepend::[2]::set" : 1,
 						"mo.prepend::[3]::set" : 1,
@@ -689,7 +678,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -2069,112 +2058,112 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.exposer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../../modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.colors.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../../modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.hi.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../../modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.pad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../../modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../../modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../../modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.send.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../../modulo/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../../modulo/patchers/input",
+				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.smooth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../../modulo/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p-mo.joystick3d.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
+				"patcherrelativepath" : "../../../modulo-plus/misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

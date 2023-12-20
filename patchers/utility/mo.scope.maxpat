@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 800.0, 208.0, 67.0, 23.0 ],
+					"patching_rect" : [ 800.0, 208.0, 140.0, 23.0 ],
 					"text" : "route bang"
 				}
 
@@ -78,12 +78,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.0, 245.333333333333343, 40.0, 23.0 ],
-					"text" : "scope"
+					"patching_rect" : [ 800.0, 245.333333333333343, 92.0, 23.0 ],
+					"text" : "loadmess scope"
 				}
 
 			}
@@ -180,8 +180,8 @@
 
 					}
 ,
-					"text" : "orientation",
-					"texton" : "orientation",
+					"text" : "scope",
+					"texton" : "scope",
 					"varname" : "mute-"
 				}
 
@@ -255,7 +255,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -507,7 +507,7 @@
 				"box" : 				{
 					"comment" : "(int) voices, (message) set, polarity, mute",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -606,7 +606,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -923,7 +923,7 @@
 				"box" : 				{
 					"comment" : "(list) passthrough",
 					"id" : "obj-70",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -935,7 +935,7 @@
 				"box" : 				{
 					"comment" : "(list) to visualize",
 					"id" : "obj-43",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1119,7 +1119,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 857.5, 285.0, 809.5, 285.0 ],
+					"midpoints" : [ 930.5, 285.0, 809.5, 285.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -1215,6 +1215,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-11" : [ "live.text[9]", "live.text", 0 ],
+			"obj-18" : [ "live.text[10]", "live.text", 0 ],
+			"obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

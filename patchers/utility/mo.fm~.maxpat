@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -185,39 +185,36 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1339.0, 771.626276284456253, 58.0, 23.0 ],
+					"patching_rect" : [ 795.212961634000294, 553.0, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1339.0, 796.626276284456253, 82.0, 23.0 ],
+					"patching_rect" : [ 795.212961634000294, 578.0, 82.0, 23.0 ],
 					"text" : "a-mo.settings"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1396.0, 846.626276284456253, 70.0, 23.0 ],
+					"patching_rect" : [ 852.212961634000294, 628.0, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -225,12 +222,11 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 821.626276284456253, 127.0, 23.0 ],
+					"patching_rect" : [ 795.212961634000294, 603.0, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -346,7 +342,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3944,7 +3940,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4293,7 +4289,7 @@
 				"box" : 				{
 					"comment" : "(list) parameters, (message) carrier, harmonicity, ratio, rate, depth, gain",
 					"id" : "obj-79",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4535,7 +4531,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-208",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4645,7 +4641,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5885,8 +5881,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"hidden" : 1,
-					"midpoints" : [ 1348.5, 795.0, 1348.5, 795.0 ],
+					"midpoints" : [ 804.712961634000294, 576.373723715543747, 804.712961634000294, 576.373723715543747 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -5976,8 +5971,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"hidden" : 1,
-					"midpoints" : [ 1348.5, 822.0, 1348.5, 822.0 ],
+					"midpoints" : [ 804.712961634000294, 603.373723715543747, 804.712961634000294, 603.373723715543747 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -6225,6 +6219,58 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-111" : [ "live.dial[38]", "detune", 0 ],
+			"obj-112" : [ "live.dial[42]", "decay", 0 ],
+			"obj-113" : [ "live.dial[15]", "attack", 0 ],
+			"obj-114" : [ "live.dial[10]", "sustain", 0 ],
+			"obj-116" : [ "live.dial[41]", "live.dial[12]", 0 ],
+			"obj-118" : [ "live.dial[40]", "pitch", 0 ],
+			"obj-12" : [ "live.text[835]", "live.text", 0 ],
+			"obj-22" : [ "live.dial[39]", "live.dial[18]", 0 ],
+			"obj-24" : [ "live.dial[9]", "release", 0 ],
+			"obj-25" : [ "live.dial[17]", "semitone", 0 ],
+			"obj-27" : [ "live.dial[16]", "vibrato", 0 ],
+			"obj-34" : [ "live.text[884]", "live.text", 0 ],
+			"obj-37" : [ "live.text[821]", "octave", 0 ],
+			"obj-4" : [ "live.dial[30]", "volume", 0 ],
+			"obj-42" : [ "live.text[823]", "live.text", 0 ],
+			"obj-7" : [ "live.dial[8]", "live.dial[7]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
