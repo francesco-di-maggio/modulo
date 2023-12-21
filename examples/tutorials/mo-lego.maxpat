@@ -115,7 +115,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.legos.json",
 					"hidden" : 1,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -323,8 +322,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 52.0, 121.0, 23.0 ],
-					"text" : "read p-mo.legos.json"
+					"patching_rect" : [ 380.0, 52.0, 115.0, 23.0 ],
+					"text" : "read p-mo.lego.json"
 				}
 
 			}
@@ -885,13 +884,6 @@
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-mo.legos.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
