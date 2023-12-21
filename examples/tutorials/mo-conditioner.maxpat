@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -257,7 +257,7 @@
 					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 158.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 20.0, 20.0, 173.0, 54.0 ],
+					"presentation_rect" : [ 22.0, 20.0, 158.0, 54.0 ],
 					"text" : "1. set speed and probability\n2. start random generator"
 				}
 
@@ -279,7 +279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 337.499999542877958, 110.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.5, 80.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 91.0, 80.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -180,7 +180,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 487.0, 425.845875054597855, 162.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.5, 467.845875054597855, 143.014276457122037, 10.0 ],
+					"presentation_rect" : [ 230.5, 465.845875054597855, 143.014276457122037, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -202,7 +202,7 @@
 					"patching_rect" : [ 670.0, 404.345875054597855, 93.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 383.514276457122037, 445.845875054597855, 93.0, 52.0 ],
+					"presentation_rect" : [ 383.514276457122037, 443.845875054597855, 93.0, 52.0 ],
 					"text" : ";\rpad 0;\rdial 0, 0.5 8000"
 				}
 
@@ -643,6 +643,50 @@
 ,
 				"obj-25::obj-9" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-28::obj-13" : 				{
+					"parameter_longname" : "live.numbox[353]"
+				}
+,
+				"obj-28::obj-9" : 				{
+					"parameter_longname" : "live.text[138]"
+				}
+,
+				"obj-78::obj-11" : 				{
+					"parameter_longname" : "live.text[325]"
+				}
+,
+				"obj-78::obj-22" : 				{
+					"parameter_longname" : "live.text[324]"
+				}
+,
+				"obj-78::obj-30" : 				{
+					"parameter_longname" : "live.text[834]"
+				}
+,
+				"obj-78::obj-37" : 				{
+					"parameter_longname" : "live.text[982]"
+				}
+,
+				"obj-78::obj-41" : 				{
+					"parameter_longname" : "live.text[323]"
+				}
+,
+				"obj-78::obj-5" : 				{
+					"parameter_longname" : "live.text[326]"
+				}
+,
+				"obj-78::obj-85" : 				{
+					"parameter_longname" : "live.text[820]"
+				}
+,
+				"obj-88::obj-22" : 				{
+					"parameter_longname" : "live.text[192]"
+				}
+,
+				"obj-88::obj-6" : 				{
+					"parameter_longname" : "live.text[25]"
 				}
 
 			}
