@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -957,7 +957,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.0, 419.0, 109.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 31.0, 102.0, 102.0 ],
+					"presentation_rect" : [ 30.0, 31.0, 174.0, 174.0 ],
 					"varname" : "xypad-"
 				}
 
@@ -1050,7 +1050,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 634.666666666666629, 466.329910755157471, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 22.0, 5.0, 120.0 ],
+					"presentation_rect" : [ 22.0, 22.0, 5.0, 192.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -1192,7 +1192,7 @@
 					"patching_rect" : [ 102.9375, 41.626276284456253, 48.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 50.744737782587066, 15.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 62.0, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1588,7 +1588,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 56.0, 419.0, 109.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 110.0, 110.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 182.0, 182.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1603,7 +1603,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 667.0, 450.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 142.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

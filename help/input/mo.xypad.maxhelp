@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 450.255791574060595, 204.0, 125.0, 25.0 ],
-					"presentation_linecount" : 3,
 					"text" : "set knob size (S/L)"
 				}
 
@@ -460,6 +459,7 @@
 			"obj-5::obj-18" : [ "live.text[260]", "live.text", 0 ],
 			"obj-5::obj-20" : [ "live.text[259]", "live.text", 0 ],
 			"obj-5::obj-31" : [ "live.text[642]", "live.text", 0 ],
+			"obj-5::obj-56" : [ "live.numbox[503]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
