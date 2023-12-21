@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 618.0, 390.0 ],
+		"rect" : [ 34.0, 87.0, 614.0, 387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -403,6 +403,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 2 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -642,6 +643,7 @@
 			"obj-5::obj-18" : [ "live.text[260]", "live.text", 0 ],
 			"obj-5::obj-20" : [ "live.text[259]", "live.text", 0 ],
 			"obj-5::obj-31" : [ "live.text[642]", "live.text", 0 ],
+			"obj-5::obj-56" : [ "live.numbox[503]", "live.numbox", 0 ],
 			"obj-7::obj-13" : [ "live.numbox[298]", "live.numbox", 0 ],
 			"obj-7::obj-9" : [ "live.text[530]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -668,6 +670,10 @@
 ,
 				"obj-18::obj-35" : 				{
 					"parameter_longname" : "live.text[53]"
+				}
+,
+				"obj-18::obj-56" : 				{
+					"parameter_longname" : "live.numbox[5]"
 				}
 ,
 				"obj-20::obj-166" : 				{
