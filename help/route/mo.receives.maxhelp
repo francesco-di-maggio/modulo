@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,6 +44,42 @@
 					"bubble" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 372.5, 131.0, 39.0 ],
+					"text" : "type \"value-1\", \n          \"value-2\", etc."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-16",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 270.0, 382.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -69,7 +105,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 500.0, 431.999999999999886, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -86,13 +122,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 166.0, 250.0 ],
+						"rect" : [ 59.0, 106.0, 157.0, 250.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -127,8 +163,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 24.0, 115.833333333333314, 119.0, 23.0 ],
-									"text" : "sprintf %i-output %f"
+									"patching_rect" : [ 24.0, 115.833333333333314, 111.0, 23.0 ],
+									"text" : "sprintf value-%i %f"
 								}
 
 							}
@@ -197,7 +233,8 @@
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 318.0, 397.666667000000018, 34.0, 23.0 ],
+					"patching_rect" : [ 320.0, 279.9377296641469, 69.0, 23.0 ],
+					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -209,7 +246,7 @@
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p list"
+					"text" : "p value-nth"
 				}
 
 			}
@@ -232,8 +269,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.0, 479.999999999999943, 65.0, 23.0 ],
-					"text" : "s 1-output"
+					"patching_rect" : [ 442.0, 479.999999999999943, 57.0, 23.0 ],
+					"text" : "s value-1"
 				}
 
 			}
@@ -243,7 +280,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 479.999999999999943, 71.0, 23.0 ],
+					"patching_rect" : [ 320.0, 318.5, 71.0, 23.0 ],
 					"text" : "send device"
 				}
 
@@ -256,7 +293,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 480.0, 249.0, 23.0 ]
+					"patching_rect" : [ 41.0, 480.0, 249.0, 23.0 ],
+					"text" : "0.581395 0.453488 0.22093 0.581395"
 				}
 
 			}
@@ -329,7 +367,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 175.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "2",
+					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -402,7 +440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 315.999999999999886, 103.0, 25.0 ],
+					"patching_rect" : [ 529.0, 200.8754593282938, 103.0, 25.0 ],
 					"text" : "generate data "
 				}
 
@@ -421,9 +459,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.0, 318.499999999999886, 20.0, 20.0 ],
+					"patching_rect" : [ 502.0, 203.3754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
-					"text" : "3",
+					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -439,7 +477,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 318.0, 318.499999999999886, 172.0, 61.0 ],
+					"patching_rect" : [ 320.0, 203.3754593282938, 172.0, 61.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"size" : 4,
@@ -508,7 +546,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 327.5, 423.0, 327.5, 423.0 ],
+					"midpoints" : [ 329.5, 307.875459328293914, 329.5, 307.875459328293914 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -540,7 +578,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 327.5, 381.0, 327.5, 381.0 ],
+					"midpoints" : [ 329.5, 265.875459328293914, 329.5, 265.875459328293914 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -660,34 +698,34 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.exposer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.receive.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"patcherrelativepath" : "../../../modulo-plus/misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.receives.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/route",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
