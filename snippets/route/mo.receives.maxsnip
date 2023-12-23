@@ -1,0 +1,211 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 7,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "214 x 87, containing 1 object",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.receives.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 214.0, 84.0 ],
+					"varname" : "mo.receives",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-107::obj-2" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-123::obj-2" : [ "live.text[727]", "live.text", 0 ],
+			"obj-1::obj-15" : [ "live.numbox[7]", "live.text", 0 ],
+			"obj-1::obj-1::obj-2" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1::obj-36::obj-2" : [ "live.text[5]", "live.text", 0 ],
+			"obj-1::obj-40::obj-2" : [ "live.text[6]", "live.text", 0 ],
+			"obj-1::obj-41::obj-2" : [ "live.text[7]", "live.text", 0 ],
+			"obj-1::obj-42::obj-2" : [ "live.text[8]", "live.text", 0 ],
+			"obj-1::obj-43::obj-2" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-44::obj-2" : [ "live.text[10]", "live.text", 0 ],
+			"obj-1::obj-45::obj-2" : [ "live.text[11]", "live.text", 0 ],
+			"obj-1::obj-46::obj-2" : [ "live.text[12]", "live.text", 0 ],
+			"obj-1::obj-47::obj-2" : [ "live.text[13]", "live.text", 0 ],
+			"obj-1::obj-48::obj-2" : [ "live.text[14]", "live.text", 0 ],
+			"obj-1::obj-49::obj-2" : [ "live.text[15]", "live.text", 0 ],
+			"obj-1::obj-50::obj-2" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-74::obj-2" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[141]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-107::obj-2" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-1::obj-2" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-1::obj-36::obj-2" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-1::obj-40::obj-2" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-1::obj-41::obj-2" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-1::obj-42::obj-2" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-1::obj-43::obj-2" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-1::obj-44::obj-2" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-1::obj-45::obj-2" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-1::obj-46::obj-2" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-1::obj-47::obj-2" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-1::obj-48::obj-2" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-1::obj-49::obj-2" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-1::obj-50::obj-2" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[49]"
+				}
+,
+				"obj-1::obj-74::obj-2" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.receive.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.receives.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"snippetinfo" : 		{
+			"name" : "mo.scale",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 87, containing 1 object",
+			"image" : "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"
+		}
+,
+		"autosave" : 0
+	}
+
+}

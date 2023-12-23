@@ -1799,14 +1799,14 @@
 														"Ableton Live" : [ "mo-live" ],
 														"FM Synth" : [ "mo-fm" ],
 														"Gametrak" : [ "mo-gametrak" ],
-														"Genki Wave" : [ "mo-wave" ],
+														"Granulator" : [ "mo-granulator" ],
 														"Grid Sync" : [ "mo-gridsync" ],
 														"GyrOSC" : [ "mo-gyrOSC" ],
 														"Holon.ist" : [ "mo-holon.ist" ],
 														"KORG nanoKONTROL2" : [ "mo-nanoKONTROL2" ],
 														"Logitech Extreme 3D Pro" : [ "mo-joystick" ],
 														"One Pad" : [ "mo-onepad" ],
-														"Step Sequencer" : [ "mo-stepsequencer" ],
+														"Step Sequencer" : [ "mo-step.seq" ],
 														"Theremin" : [ "mo-theremin" ],
 														"TouchOSC" : [ "mo-touchOSC" ],
 														"Trackpad" : [ "mo-trackpad" ],
@@ -2056,7 +2056,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 667.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  play a eight-phase shifted stereo granular synthesizer  –",
 									"textjustification" : 1
 								}
 
@@ -2186,7 +2186,7 @@
 														"Ableton Live" : "control an ableton live set from max using midi notes and control change values via virtual midi ports",
 														"FM Synth" : "play a frequency modulator synthesizer using a series of sliders each one controlling a sound parameter",
 														"Gametrak" : "connect a gametrak controller and stream xyz values for each string",
-														"Genki Wave" : "connect a genki wave ring and control an horizontal slider with a vibrato gesture",
+														"Granulator" : "play a eight-phase shifted stereo granular synthesizer",
 														"Grid Sync" : "play a drum sound using two linkable grids as step sequencers",
 														"GyrOSC" : "connect the gryOSC app and stream quaternion and button values",
 														"Holon.ist" : "connect the Holonist app and stream the iPhone's motion data",
@@ -2621,14 +2621,13 @@
 									"fontname" : "Ableton Sans Light Regular",
 									"fontsize" : 13.0,
 									"id" : "obj-44",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 657.80976314285715, 488.0, 38.0 ],
+									"patching_rect" : [ 96.0, 657.80976314285715, 488.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 679.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  a list of dynamic sending names  –",
 									"textjustification" : 1
 								}
 
@@ -2794,12 +2793,12 @@
 														"mo.midiout" : "a midi output device",
 														"mo.noteout" : "a single customizable note value",
 														"mo.noteouts" : "a list of customizable note values",
-														"mo.prepend" : "add a message in front a list of any input",
 														"mo.receive" : "get a list of data using a dynamic receiving name",
 														"mo.receive~" : "get multichannel audio signals using a dynamic receiving name",
-														"mo.route" : "parse an incoming list of data based on input matching",
+														"mo.receives" : "receive a list of data from specified send objects",
 														"mo.send" : "transmit a list of data using a dynamic sending name",
 														"mo.send~" : "transmit multichannel audio signals using a dynamic sending name",
+														"mo.sends" : "transmit a list of data to specified receive objects",
 														"mo.serial" : "an input-output serial communication port",
 														"mo.udpreceive" : "get a list of data over the network",
 														"mo.udpsend" : "transmit a list of data over the network",
@@ -2830,13 +2829,12 @@
 														"mo.split" : "get values included, below, and above a specific minimum and maximum range",
 														"mo.steer" : "output the direction of a list of two values",
 														"mo.vector" : "project a list of input data into a circular plane, and get the combined xy axes (vector sum)",
-														"mo.adstatus" : "open the max audio status settings",
-														"mo.console" : "monitor and clear the max console window with keys combination",
 														"mo.cpu" : "monitor the central processing unit (cpu)",
 														"mo.cue" : "trigger a series of events usign cues",
 														"mo.date" : "get today's date and current time",
 														"mo.fm~" : "a frequency modulator synthesizeer used as a sound generator",
 														"mo.gain~" : "a multichannel audio signals gain control",
+														"mo.granulator~" : "a eight-phase shifted stereo granular synthesizer",
 														"mo.gridmeter~" : "a multichannel audio signals meter in the form of grid",
 														"mo.launch" : "open a website, a file, or an app from max",
 														"mo.lfo~" : "a low frequency oscillator as both audio and control signal",
@@ -2844,11 +2842,12 @@
 														"mo.meter~" : "a multichannel audio signals meter",
 														"mo.monitor" : "display incoming data on a dynamic text box",
 														"mo.notepad" : "type text, store, recall and control objects remotely",
-														"mo.panel" : "a coloured background area with hue, saturation and lightness control",
 														"mo.playlist~" : "load, playback and loop sound files",
+														"mo.prepend" : "add a message in front a list of any input",
 														"mo.preset" : "store and recall the main parameter settings of any module",
 														"mo.record" : "record, playback and loop a list of values with adjustable speed and range, read and write file on disk",
 														"mo.record~" : "record, playback and loop multichannel audio signals, read and write sound file on disk",
+														"mo.route" : "parse an incoming list of data based on input matching",
 														"mo.scope" : "display a list of values as time series",
 														"mo.scope~" : "a multichannel audio signals scope",
 														"mo.spectroscope~" : "visualize multichannel audio signals through a spectroscope or spectrogram",
@@ -3162,7 +3161,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 119.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Interface with external devices, including MIDI, OSC, Max, and Eurorack modules."
 								}
 
 							}
@@ -3554,9 +3553,9 @@
 												"box" : 												{
 													"data" : 													{
 														"input" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
-														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.prepend", "mo.receive", "mo.receive~", "mo.route", "mo.send", "mo.send~", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
+														"route" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.receive", "mo.receive~", "mo.receives", "mo.send", "mo.send~", "mo.sends", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 														"transform" : [ "mo.average", "mo.calibrate", "mo.click", "mo.debounce", "mo.ggate", "mo.if", "mo.joystick", "mo.latch", "mo.line", "mo.minmax", "mo.pipe", "mo.poll", "mo.rms~", "mo.scale", "mo.schmitt", "mo.select", "mo.shake", "mo.sig~", "mo.slide", "mo.smooth", "mo.snapshot~", "mo.speedlim", "mo.split", "mo.steer", "mo.vector" ],
-														"utility" : [ "mo.adstatus", "mo.console", "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.panel", "mo.playlist~", "mo.preset", "mo.record", "mo.record~", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
+														"utility" : [ "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.granulator~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.playlist~", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3769,7 +3768,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+														"instruments" : [ "Ableton Live", "FM Synth", "Gametrak", "Granulator", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 														"tutorials" : [ "Blinker", "Conditioner", "Interpolator", "LEGO", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ]
 													}
 ,
@@ -3936,7 +3935,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Genki Wave", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Granulator", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_shortname" : "live.menu",
@@ -3989,7 +3988,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.receive", "mo.receive~", "mo.receives", "mo.send", "mo.send~", "mo.sends", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_shortname" : "live.menu",

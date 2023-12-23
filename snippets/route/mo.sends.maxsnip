@@ -1,0 +1,206 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 7,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "214 x 87, containing 1 object",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.sends.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 10.0, 10.0, 214.0, 84.0 ],
+					"varname" : "mo.sends",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-107::obj-1" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-123::obj-1" : [ "live.text[220]", "live.text", 0 ],
+			"obj-1::obj-15" : [ "live.numbox[7]", "live.text", 0 ],
+			"obj-1::obj-1::obj-1" : [ "live.text[29]", "live.text", 0 ],
+			"obj-1::obj-36::obj-1" : [ "live.text[33]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[603]", "live.text", 0 ],
+			"obj-1::obj-40::obj-1" : [ "live.text[35]", "live.text", 0 ],
+			"obj-1::obj-41::obj-1" : [ "live.text[36]", "live.text", 0 ],
+			"obj-1::obj-42::obj-1" : [ "live.text[37]", "live.text", 0 ],
+			"obj-1::obj-43::obj-1" : [ "live.text[30]", "live.text", 0 ],
+			"obj-1::obj-44::obj-1" : [ "live.text[34]", "live.text", 0 ],
+			"obj-1::obj-45::obj-1" : [ "live.text[38]", "live.text", 0 ],
+			"obj-1::obj-46::obj-1" : [ "live.text[39]", "live.text", 0 ],
+			"obj-1::obj-47::obj-1" : [ "live.text[31]", "live.text", 0 ],
+			"obj-1::obj-48::obj-1" : [ "live.text[40]", "live.text", 0 ],
+			"obj-1::obj-49::obj-1" : [ "live.text[41]", "live.text", 0 ],
+			"obj-1::obj-50::obj-1" : [ "live.text[32]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.numbox[49]", "live.numbox", 0 ],
+			"obj-1::obj-74::obj-1" : [ "live.text[1]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-107::obj-1" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-1::obj-1" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-1::obj-36::obj-1" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-1::obj-40::obj-1" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-1::obj-41::obj-1" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-1::obj-42::obj-1" : 				{
+					"parameter_longname" : "live.text[37]"
+				}
+,
+				"obj-1::obj-43::obj-1" : 				{
+					"parameter_longname" : "live.text[30]"
+				}
+,
+				"obj-1::obj-44::obj-1" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-1::obj-45::obj-1" : 				{
+					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-1::obj-46::obj-1" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
+				"obj-1::obj-47::obj-1" : 				{
+					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-1::obj-48::obj-1" : 				{
+					"parameter_longname" : "live.text[40]"
+				}
+,
+				"obj-1::obj-49::obj-1" : 				{
+					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-1::obj-50::obj-1" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-1::obj-74::obj-1" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.exposer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.send.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.windower.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.sends.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/route",
+				"patcherrelativepath" : "../../patchers/route",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"snippetinfo" : 		{
+			"name" : "mo.scale",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 87, containing 1 object",
+			"image" : "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"
+		}
+,
+		"autosave" : 0
+	}
+
+}

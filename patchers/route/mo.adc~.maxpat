@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,26 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-46",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 573.0, 45.0, 150.442643090089064, 5.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 22.0, 5.0, 192.0 ],
-					"saved_attribute_attributes" : 					{
-						"linecolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
@@ -75,7 +55,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 512.283333333333303, 160.0, 48.0, 15.472915806517562 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.277676984667806, 43.0, 17.161977633833857, 15.0 ],
+					"presentation_rect" : [ 173.277676984667806, 4.0, 17.161977633833857, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -111,9 +91,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
-					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-15",
 					"maxclass" : "live.numbox",
@@ -121,15 +100,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 343.0, 327.5, 46.0, 15.0 ],
+					"patching_rect" : [ 343.0, 327.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.735055, 26.0, 17.0, 15.0 ],
+					"presentation_rect" : [ 189.735054999999988, 4.0, 20.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
 							"expression" : ""
 						}
 ,
@@ -146,11 +121,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[661]",
-							"parameter_mmax" : 16.0,
+							"parameter_longname" : "live.numbox[348]",
+							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
@@ -162,20 +137,21 @@
 			}
 , 			{
 				"box" : 				{
-					"channels" : 1,
+					"channels" : 2,
 					"clip_size" : 1,
 					"coldcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-18",
-					"lastchannelcount" : 1,
+					"lastchannelcount" : 2,
 					"maxclass" : "mc.live.gain~",
 					"numinlets" : 1,
 					"numoutlets" : 4,
+					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 41.153199976682799, 434.626276284456253, 32.0, 145.0 ],
+					"patching_rect" : [ 41.153199976682799, 434.626276284456253, 148.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 25.0, 42.0, 183.0 ],
+					"presentation_rect" : [ 4.0, 28.0, 208.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"coldcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
@@ -203,7 +179,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[5]",
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "volume",
@@ -476,7 +452,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.948104470968246, 38.0, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 70.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
