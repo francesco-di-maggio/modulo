@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 32.0, 620.0, 59.0, 23.0 ],
+					"text" : "zl.change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -366,7 +378,7 @@
 				"box" : 				{
 					"comment" : "(list) smoothed",
 					"id" : "obj-56",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -378,7 +390,7 @@
 				"box" : 				{
 					"comment" : "(list) to smooth",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -533,7 +545,7 @@
 				"box" : 				{
 					"comment" : "(float) amount",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -599,8 +611,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 41.735639840364456, 549.0, 41.735639840364456, 549.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 41.735639840364456, 549.0, 41.5, 549.0 ],
 					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -620,6 +632,14 @@
 					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 41.735639840364456, 504.0, 41.735639840364456, 504.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 41.5, 645.0, 41.735639840364456, 645.0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -658,7 +678,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 849.051895529031981, 503.636336319976181, 849.051895529031981, 503.636336319976181 ],
+					"midpoints" : [ 849.051895529031981, 504.0, 849.051895529031981, 504.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -682,7 +702,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 849.051895529031981, 530.636336319976181, 849.051895529031981, 530.636336319976181 ],
+					"midpoints" : [ 849.051895529031981, 531.0, 849.051895529031981, 531.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -737,18 +757,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 229.5, 549.0, 207.0, 549.0, 207.0, 465.0, 290.5, 465.0 ],
-					"order" : 0,
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 229.5, 606.0, 41.5, 606.0 ],
+					"order" : 1,
 					"source" : [ "obj-29", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 229.5, 687.0, 41.735639840364456, 687.0 ],
-					"order" : 1,
+					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 229.5, 549.0, 207.0, 549.0, 207.0, 465.0, 290.5, 465.0 ],
+					"order" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -850,8 +870,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 404.5, 687.0, 41.735639840364456, 687.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 404.5, 606.0, 41.5, 606.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -915,30 +935,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "live.numbox[296]", "live.numbox", 0 ],
-			"obj-15" : [ "live.text[528]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

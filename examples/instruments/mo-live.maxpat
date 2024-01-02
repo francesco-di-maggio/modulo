@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 562.0, 414.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -147,10 +147,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 210.000000206349227, 86.0, 40.0 ],
+					"patching_rect" : [ 417.0, 210.0, 106.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 280.0, 86.0, 40.0 ],
-					"text" : "launch live set",
+					"presentation_rect" : [ 158.0, 280.0, 106.0, 40.0 ],
+					"text" : "launch the live set",
 					"textjustification" : 1
 				}
 
@@ -320,7 +320,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 195.0, 86.0, 40.0 ],
+					"patching_rect" : [ 80.0, 575.0, 50.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 198.0, 52.0, 40.0 ]
 				}

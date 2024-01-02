@@ -57,8 +57,6 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "number",
-					"maximum" : 16,
-					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
