@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 240.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 213.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -222,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.255791574060595, 204.3754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 171.255791574060595, 204.3754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -234,8 +234,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.0, 204.3754593282938, 50.0, 23.0 ],
-					"text" : "number"
+					"patching_rect" : [ 123.0, 204.3754593282938, 37.0, 23.0 ],
+					"text" : "value"
 				}
 
 			}
@@ -257,8 +257,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 384.0, 78.0, 23.0 ],
-					"text" : "send number"
+					"patching_rect" : [ 223.0, 384.0, 65.0, 23.0 ],
+					"text" : "send value"
 				}
 
 			}
@@ -320,7 +320,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 190.755791574060595, 243.0, 132.5, 243.0 ],
+					"midpoints" : [ 180.755791574060595, 243.0, 132.5, 243.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 450.0, 404.0 ],
+		"rect" : [ 34.0, 87.0, 440.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,8 +94,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.5, 318.499999999999886, 57.0, 23.0 ],
-					"text" : "r number"
+					"patching_rect" : [ 235.5, 318.499999999999886, 44.0, 23.0 ],
+					"text" : "r value"
 				}
 
 			}
@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.5, 201.8754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 349.5, 201.8754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -220,7 +220,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.5, 204.3754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 322.5, 204.3754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -234,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.755791574060595, 202.8754593282938, 29.5, 23.0 ],
+					"patching_rect" : [ 284.755791574060595, 202.8754593282938, 29.5, 23.0 ],
 					"text" : "\" \""
 				}
 
@@ -246,8 +246,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.5, 202.8754593282938, 50.0, 23.0 ],
-					"text" : "number"
+					"patching_rect" : [ 235.5, 202.8754593282938, 37.0, 23.0 ],
+					"text" : "value"
 				}
 
 			}
@@ -328,7 +328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 304.255791574060595, 240.0, 245.0, 240.0 ],
+					"midpoints" : [ 294.255791574060595, 240.0, 245.0, 240.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -350,6 +350,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-19::obj-12" : 				{
+					"parameter_longname" : "live.text[554]"
 				}
 
 			}
