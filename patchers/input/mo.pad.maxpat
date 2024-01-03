@@ -629,7 +629,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.538977009388248, 21.0, 30.0, 30.0 ]
 				}
 

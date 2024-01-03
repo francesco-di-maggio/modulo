@@ -121,7 +121,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[348]",
+							"parameter_longname" : "live.numbox[661]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -179,7 +179,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "live.gain~[1]",
+							"parameter_longname" : "live.gain~[5]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "volume",
@@ -317,12 +317,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 314.585018158500986, 475.591499499999998, 211.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
+						"initial" : [ 2 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr chans @bindto chans- @initial 1",
+					"text" : "pattr chans @bindto chans- @initial 2",
 					"varname" : "chans"
 				}
 
