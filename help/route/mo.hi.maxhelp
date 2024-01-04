@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.000000000000028, 328.0, 142.0, 23.0 ]
+					"patching_rect" : [ 41.000000000000028, 328.0, 142.0, 23.0 ],
+					"text" : "1001 0"
 				}
 
 			}
@@ -146,8 +147,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 206.0, 91.0, 23.0 ],
-					"text" : "prepend device"
+					"patching_rect" : [ 185.0, 206.0, 79.0, 23.0 ],
+					"text" : "prepend port"
 				}
 
 			}
