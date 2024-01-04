@@ -177,7 +177,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 62.0, 260.0, 100.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 106.0, 85.0, 22.0 ],
+					"presentation_rect" : [ 18.0, 106.0, 85.0, 23.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
