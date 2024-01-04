@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -721,7 +721,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 288.75, 142.5, 71.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 96.5, 71.0, 40.0 ],
+					"presentation_rect" : [ 9.5, 96.5, 71.0, 40.0 ],
 					"text" : "start timer "
 				}
 
@@ -743,7 +743,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 314.25, 113.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 70.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 35.0, 70.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

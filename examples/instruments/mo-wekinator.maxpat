@@ -584,7 +584,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@set", "clear", "@mode", 1, "@color", 3 ],
+					"args" : [ "@set", "CLEAR", "@mode", 1, "@color", 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

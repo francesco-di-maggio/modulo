@@ -271,8 +271,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 60.0, 150.0, 23.0 ],
-					"text" : "read d-mo.messenger.json"
+					"patching_rect" : [ 20.0, 60.0, 138.0, 23.0 ],
+					"text" : "read mo.messenger.json"
 				}
 
 			}

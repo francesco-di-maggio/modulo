@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 455.0, 622.0 ],
+		"rect" : [ 34.0, 87.0, 455.0, 601.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 455.0, 596.0 ],
+						"rect" : [ 0.0, 26.0, 455.0, 575.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -90,12 +90,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"dontreplace" : 1,
-									"id" : "obj-12",
+									"id" : "obj-8",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 540.0, 52.0, 23.0 ]
+									"patching_rect" : [ 41.0, 530.0, 89.0, 23.0 ]
 								}
 
 							}
@@ -434,7 +434,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -487,7 +487,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 455.0, 596.0 ],
+						"rect" : [ 34.0, 113.0, 455.0, 575.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -517,6 +517,18 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"dontreplace" : 1,
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 41.0, 530.0, 89.0, 23.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"fontname" : "Ableton Sans Medium",
@@ -566,13 +578,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.529780500000015, 230.0, 116.470219499999985, 37.0 ],
-									"text" : "read d-mo.notepad.json"
+									"patching_rect" : [ 63.529780500000015, 237.0, 126.0, 23.0 ],
+									"text" : "read mo.notepad.json"
 								}
 
 							}
@@ -838,6 +849,13 @@
 									"destination" : [ "obj-3", 0 ],
 									"midpoints" : [ 73.029780500000015, 222.0, 73.029780500000015, 222.0 ],
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}

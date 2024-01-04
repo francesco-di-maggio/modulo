@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 694.0, 467.0 ],
+		"rect" : [ 34.0, 87.0, 694.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 824.0, 311.222221999999988, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 606.0, 380.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 606.0, 309.0, 70.0, 70.0 ],
 					"varname" : "mo.pad[3]",
 					"viewvisibility" : 1
 				}
@@ -177,7 +177,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 752.0, 311.222221999999988, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 380.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 534.0, 309.0, 70.0, 70.0 ],
 					"varname" : "mo.pad[2]",
 					"viewvisibility" : 1
 				}
@@ -201,7 +201,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 680.0, 311.222221999999988, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.0, 380.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 462.0, 309.0, 70.0, 70.0 ],
 					"varname" : "mo.pad[1]",
 					"viewvisibility" : 1
 				}
@@ -244,7 +244,7 @@
 					"patching_rect" : [ 952.0, 278.222221999999988, 354.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 20.0, 370.999999999999943, 354.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 367.0, 354.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download, and open TouchOSC: https://hexler.net/touchosc\n2. Load preset \"Simple Mk3\".\n3. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -351,7 +351,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -366,9 +366,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 311.222221999999988, 70.0, 286.0 ],
+					"patching_rect" : [ 92.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.0, 92.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 462.0, 92.0, 70.0, 215.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -376,7 +376,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -391,9 +391,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 311.222221999999988, 70.0, 286.0 ],
+					"patching_rect" : [ 236.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 606.0, 92.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 606.0, 92.0, 70.0, 215.0 ],
 					"varname" : "mo.slider[3]",
 					"viewvisibility" : 1
 				}
@@ -401,7 +401,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -416,9 +416,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 311.222221999999988, 70.0, 286.0 ],
+					"patching_rect" : [ 164.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 92.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 534.0, 92.0, 70.0, 215.0 ],
 					"varname" : "mo.slider[2]",
 					"viewvisibility" : 1
 				}
@@ -442,7 +442,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 608.0, 311.222221999999988, 70.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 380.0, 70.0, 70.0 ],
+					"presentation_rect" : [ 390.0, 309.0, 70.0, 70.0 ],
 					"varname" : "mo.pad",
 					"viewvisibility" : 1
 				}
@@ -450,7 +450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -465,9 +465,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 311.222221999999988, 70.0, 286.0 ],
+					"patching_rect" : [ 20.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 92.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 390.0, 92.0, 70.0, 215.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -305,7 +305,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -814,7 +814,7 @@
 				"box" : 				{
 					"comment" : "(anything) synchronization messages",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -826,7 +826,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -838,7 +838,7 @@
 				"box" : 				{
 					"comment" : "(list) mouse over information",
 					"id" : "obj-53",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -850,7 +850,7 @@
 				"box" : 				{
 					"comment" : "(list) direction values",
 					"id" : "obj-46",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -862,7 +862,7 @@
 				"box" : 				{
 					"comment" : "(list) steps values",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -957,7 +957,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[43]",
+							"parameter_longname" : "live.numbox[141]",
 							"parameter_mmax" : 240.0,
 							"parameter_mmin" : 30.0,
 							"parameter_shortname" : "live.numbox",
@@ -1059,7 +1059,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 46.5, 83.0, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "mo.play.svg", "mo.stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.698093478413419, 43.064706000000001, 34.349178187469683, 15.0 ],
 					"remapsvgcolors" : 1,
@@ -1527,7 +1527,7 @@
 				"box" : 				{
 					"comment" : "(int) step, (message) onoff, zero, tempo, columns, rows, random, reset, direction, matrix, link, mute",
 					"id" : "obj-65",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1577,7 +1577,7 @@
 				"box" : 				{
 					"comment" : "(int) current step value",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2183,59 +2183,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.text[822]", "live.text", 0 ],
-			"obj-16" : [ "live.text[244]", "live.text", 0 ],
-			"obj-29" : [ "live.text[8]", "live.text", 0 ],
-			"obj-3" : [ "live.text[220]", "live.text", 0 ],
-			"obj-30" : [ "live.text[3]", "live.text", 0 ],
-			"obj-33" : [ "live.numbox[44]", "live.numbox", 0 ],
-			"obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-39" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-40" : [ "live.grid", "live.grid", 0 ],
-			"obj-41" : [ "live.text[261]", "live.text", 0 ],
-			"obj-59" : [ "live.numbox[43]", "live.numbox", 0 ],
-			"obj-63" : [ "live.text[12]", "live.text", 0 ],
-			"obj-64" : [ "live.text[218]", "live.text", 0 ],
-			"obj-66" : [ "live.text[6]", "live.text", 0 ],
-			"obj-67" : [ "live.text[219]", "live.text", 0 ],
-			"obj-69" : [ "live.text[5]", "live.text", 0 ],
-			"obj-70" : [ "live.text[4]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

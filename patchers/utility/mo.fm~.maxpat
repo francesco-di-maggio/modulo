@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 169.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 169.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -3529,7 +3529,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 614.25, 187.299990355968475, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "mo.play.svg", "mo.stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 98.634451101923787, 61.792231817787496, 65.751668058335781 ],
 					"remapsvgcolors" : 1,
@@ -4289,7 +4289,7 @@
 				"box" : 				{
 					"comment" : "(list) parameters, (message) carrier, harmonicity, ratio, rate, depth, gain",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4531,7 +4531,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-208",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6219,58 +6219,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-111" : [ "live.dial[38]", "detune", 0 ],
-			"obj-112" : [ "live.dial[42]", "decay", 0 ],
-			"obj-113" : [ "live.dial[15]", "attack", 0 ],
-			"obj-114" : [ "live.dial[10]", "sustain", 0 ],
-			"obj-116" : [ "live.dial[41]", "live.dial[12]", 0 ],
-			"obj-118" : [ "live.dial[40]", "pitch", 0 ],
-			"obj-12" : [ "live.text[835]", "live.text", 0 ],
-			"obj-22" : [ "live.dial[39]", "live.dial[18]", 0 ],
-			"obj-24" : [ "live.dial[9]", "release", 0 ],
-			"obj-25" : [ "live.dial[17]", "semitone", 0 ],
-			"obj-27" : [ "live.dial[16]", "vibrato", 0 ],
-			"obj-34" : [ "live.text[884]", "live.text", 0 ],
-			"obj-37" : [ "live.text[821]", "octave", 0 ],
-			"obj-4" : [ "live.dial[30]", "volume", 0 ],
-			"obj-42" : [ "live.text[823]", "live.text", 0 ],
-			"obj-7" : [ "live.dial[8]", "live.dial[7]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

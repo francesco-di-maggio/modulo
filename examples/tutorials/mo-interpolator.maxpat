@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 481.0, 635.0 ],
+		"rect" : [ 34.0, 87.0, 481.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -154,6 +154,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -168,9 +169,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 289.495779000000027, 70.0, 285.504220999999973 ],
+					"patching_rect" : [ 526.0, 289.495779000000027, 70.0, 213.504220999999973 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.0, 328.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 164.0, 328.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[2]",
 					"viewvisibility" : 1
 				}
@@ -336,6 +337,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -350,9 +352,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 289.313494999999989, 70.0, 285.504220999999916 ],
+					"patching_rect" : [ 382.0, 289.313494999999989, 70.0, 213.504220999999916 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 328.0, 70.0, 286.0 ],
+					"presentation_rect" : [ 20.0, 328.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[1]",
 					"viewvisibility" : 1
 				}
@@ -360,6 +362,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -374,9 +377,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.973348999999985, 289.313494999999989, 70.0, 285.504220999999916 ],
+					"patching_rect" : [ 453.973348999999985, 289.313494999999989, 70.0, 213.504220999999916 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.973348999999999, 328.0, 69.999999999999986, 286.0 ],
+					"presentation_rect" : [ 91.973348999999999, 328.0, 69.999999999999986, 214.0 ],
 					"varname" : "mo.vrslider",
 					"viewvisibility" : 1
 				}
