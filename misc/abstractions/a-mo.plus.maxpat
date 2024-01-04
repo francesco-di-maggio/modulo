@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 279.0, 242.0, 390.0, 192.0 ],
+		"openrect" : [ 279.0, 242.0, 390.0, 218.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,22 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 114.841463416814804, 106.0, 368.5, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 187.0, 159.0, 21.0 ],
+					"text" : "* Requires external libraries."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -631,13 +647,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 16.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.5, 80.0, 344.0, 26.0 ],
+					"patching_rect" : [ 44.5, 80.0, 344.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.5, 50.411127424189658, 344.0, 26.0 ],
-					"text" : "A Creative Extension to the                     Package."
+					"presentation_rect" : [ 26.5, 50.411127424189658, 350.0, 26.0 ],
+					"text" : "A Creative Extension* to the                     Package."
 				}
 
 			}
@@ -666,7 +683,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 18.0, 174.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.5, 6.411127424189658, 174.0, 42.0 ],
+					"presentation_rect" : [ 25.5, 6.411127424189658, 174.0, 42.0 ],
 					"text" : "modulo-plus",
 					"underline" : 1
 				}
