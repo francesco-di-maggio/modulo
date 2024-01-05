@@ -3428,7 +3428,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 489.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 679.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  a single customizable dial  –",
 									"textjustification" : 1
 								}
 

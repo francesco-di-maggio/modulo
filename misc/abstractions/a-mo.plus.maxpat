@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "mo.main",
-		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -183,7 +182,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontname" : "Ableton Sans Light Regular",
-					"fontsize" : 16.0,
+					"fontsize" : 14.0,
 					"id" : "obj-7",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -748,7 +747,6 @@
 ,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
-		"toolbarexclusions" : [ "autolockunselected", "presentation", "patchernavmenu", "objectpriority", "dialogsidebar", "openreferencesidebar", "openmaxwindowsidebar", "showsnapshots", "showmappings", "mixerslider", "audiopowerctrl", "transport", "keymap", "midimap", "traceenable", "savefavorite", "grid", "edit", "browser_images", "browser_snippet", "browser_plugin", "browsevizzie", "browsebeap", "browser_video", "browser_audio", "browser_objects", "omnibrowser", "packagemanager", "browsecollections", "viewzoom", "object_menu", "message_menu", "comment", "toggle", "button", "number", "slider", "live.dial", "other", "formatpalette", "calendar", "showsidebarsearch" ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
