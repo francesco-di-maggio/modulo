@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.841463416814804, 106.0, 368.5, 21.0 ],
+					"patching_rect" : [ 21.579268291592598, 350.0, 159.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 187.0, 159.0, 21.0 ],
 					"text" : "* Requires external libraries."
@@ -72,7 +72,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 392.0, 246.0, 376.0, 171.0 ],
+						"rect" : [ 392.0, 246.0, 349.0, 171.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -119,9 +119,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "https://www.patreon.com/francescodimaggio/shop/97434" ],
-									"patching_rect" : [ 24.0, 81.0, 334.0, 23.0 ],
-									"text" : "t https://www.patreon.com/francescodimaggio/shop/97434"
+									"outlettype" : [ "https://github.com/francesco-di-maggio/modulo-plus" ],
+									"patching_rect" : [ 24.0, 81.0, 306.0, 23.0 ],
+									"text" : "t https://github.com/francesco-di-maggio/modulo-plus"
 								}
 
 							}
@@ -358,7 +358,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.5, 24.0, 30.0, 30.0 ]
+					"patching_rect" : [ 229.5, 24.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -647,11 +647,10 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 16.0,
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.5, 80.0, 344.0, 45.0 ],
+					"patching_rect" : [ 37.5, 80.0, 350.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.5, 50.411127424189658, 350.0, 26.0 ],
 					"text" : "A Creative Extension* to the                     Package."
@@ -681,7 +680,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.5, 18.0, 174.0, 42.0 ],
+					"patching_rect" : [ 37.5, 18.0, 174.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.5, 6.411127424189658, 174.0, 42.0 ],
 					"text" : "modulo-plus",
