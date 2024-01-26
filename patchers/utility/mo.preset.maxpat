@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 79.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -58,14 +58,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1104.5, 712.0, 254.0, 23.0 ],
+					"patching_rect" : [ 1072.0, 712.0, 321.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr savemode @bindto savemode- @initial 1",
+					"text" : "pattr savemode @bindto savemode- @initial 1 @invisible 1",
 					"varname" : "savemode"
 				}
 
@@ -90,7 +90,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1008.958427564707563, 647.0, 235.541572435292437, 20.0 ],
+					"patching_rect" : [ 976.0, 647.0, 235.541572435292437, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.204651000000013, 40.776969000000001, 20.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -110,7 +110,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1008.958427564707563, 647.0, 235.541572435292437, 19.0 ],
+					"patching_rect" : [ 976.0, 647.0, 235.541572435292437, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 193.428442127608321, 43.77696881774844, 16.401690872391669, 13.376782789826393 ],
 					"proportion" : 0.5,
@@ -128,7 +128,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1008.958427564707563, 679.0, 51.0, 23.0 ]
+					"patching_rect" : [ 976.0, 679.0, 51.0, 23.0 ]
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1008.958427564707563, 712.0, 79.0, 23.0 ],
+					"patching_rect" : [ 976.0, 712.0, 79.0, 23.0 ],
 					"text" : "savemode $1"
 				}
 
@@ -203,6 +203,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0594602227211, 5.371792723306498, 93.435897380113602, 14.0 ],
 					"rounded" : 0.0,
+					"text" : "gb_preset_1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -1091,8 +1092,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1491,7 +1492,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[69]",
+							"parameter_longname" : "live.numbox[90]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1838,7 +1839,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 941.860333949731626, 171.0, 879.0, 171.0, 879.0, 426.0, 924.0, 426.0, 924.0, 633.0, 1018.458427564707563, 633.0 ],
+					"midpoints" : [ 941.860333949731626, 171.0, 879.0, 171.0, 879.0, 426.0, 924.0, 426.0, 924.0, 633.0, 985.5, 633.0 ],
 					"source" : [ "obj-32", 7 ]
 				}
 
@@ -1886,7 +1887,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 1018.458427564707563, 705.0, 1018.458427564707563, 705.0 ],
+					"midpoints" : [ 985.5, 705.0, 985.5, 705.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1918,7 +1919,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 1018.458427564707563, 747.0, 89.906532035675696, 747.0 ],
+					"midpoints" : [ 985.5, 747.0, 89.906532035675696, 747.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1942,7 +1943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 1018.458427564707563, 669.0, 1018.458427564707563, 669.0 ],
+					"midpoints" : [ 985.5, 669.0, 985.5, 669.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
