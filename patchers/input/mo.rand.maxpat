@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
+		"rect" : [ 0.0, 45.0, 1886.0, 1001.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,18 +41,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-44",
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 557.199999999999932, 151.75, 62.0, 23.0 ],
+					"text" : "a-mo.args"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 996.250000000000227, 770.0, 70.0, 23.0 ],
+					"patching_rect" : [ 557.199999999999932, 176.75, 79.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize",
+						"filename" : "mo.replace",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js mo.resize"
+					"text" : "js mo.replace"
 				}
 
 			}
@@ -68,7 +80,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -375,6 +387,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[118]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -566,6 +579,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[700]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -628,7 +642,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -944,6 +958,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[41]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -967,7 +982,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1244,7 +1259,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1579,6 +1594,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[42]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1697,6 +1713,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1740,7 +1757,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2017,7 +2034,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2296,18 +2313,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 407.0, 30.0, 58.0, 23.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 11,
@@ -2330,7 +2335,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2629,6 +2634,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[117]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2654,7 +2660,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3157,7 +3163,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3400,6 +3406,7 @@
 							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 60000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3457,6 +3464,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[781]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3509,6 +3517,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.numbox[77]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3596,6 +3605,7 @@
 							"parameter_longname" : "live.numbox[53]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -3637,7 +3647,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4088,7 +4098,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4462,16 +4472,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 948.750000000000227, 696.0, 948.750000000000227, 696.0 ],
-					"order" : 1,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 948.750000000000227, 696.0, 924.0, 696.0, 924.0, 765.0, 1005.750000000000227, 765.0 ],
-					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -4590,8 +4590,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 416.5, 54.0, 416.5, 54.0 ],
+					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 566.699999999999932, 177.0, 566.699999999999932, 177.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -4600,7 +4600,26 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"midpoints" : [ 470.5, 87.0, 470.5, 87.0 ],
+					"order" : 1,
 					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 1 ],
+					"midpoints" : [ 470.5, 138.0, 609.699999999999932, 138.0 ],
+					"order" : 0,
+					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 416.5, 138.0, 566.699999999999932, 138.0 ],
+					"order" : 0,
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -4608,6 +4627,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"midpoints" : [ 416.5, 99.0, 232.75, 99.0 ],
+					"order" : 1,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -4912,6 +4932,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.args.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -4939,7 +4966,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.resize.js",
+				"name" : "mo.replace.js",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../misc/js",
 				"type" : "TEXT",

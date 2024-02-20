@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
+		"rect" : [ 0.0, 45.0, 1886.0, 1001.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -43,16 +43,28 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1344.0, 129.0, 62.0, 23.0 ],
+					"text" : "a-mo.args"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 697.0, 522.156569071114063, 70.0, 23.0 ],
+					"patching_rect" : [ 1344.0, 154.0, 79.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize",
+						"filename" : "mo.replace",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js mo.resize"
+					"text" : "js mo.replace"
 				}
 
 			}
@@ -138,6 +150,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[244]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -322,7 +335,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -463,6 +476,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -527,6 +541,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -577,6 +592,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[218]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -627,6 +643,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -677,6 +694,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[219]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -727,6 +745,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -777,6 +796,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -831,7 +851,7 @@
 				"box" : 				{
 					"comment" : "(anything) synchronization messages",
 					"id" : "obj-47",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -843,7 +863,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-50",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -855,7 +875,7 @@
 				"box" : 				{
 					"comment" : "(list) mouse over information",
 					"id" : "obj-53",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -867,7 +887,7 @@
 				"box" : 				{
 					"comment" : "(list) direction values",
 					"id" : "obj-46",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -879,7 +899,7 @@
 				"box" : 				{
 					"comment" : "(list) steps values",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -977,6 +997,7 @@
 							"parameter_longname" : "live.numbox[141]",
 							"parameter_mmax" : 240.0,
 							"parameter_mmin" : 30.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1038,6 +1059,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[220]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1109,6 +1131,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[261]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1187,6 +1210,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1248,6 +1272,7 @@
 							"parameter_longname" : "live.numbox[44]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1308,6 +1333,7 @@
 							"parameter_longname" : "live.numbox[7]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1367,6 +1393,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[9]",
 							"parameter_mmax" : 16.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1528,6 +1555,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[822]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1544,7 +1572,7 @@
 				"box" : 				{
 					"comment" : "(int) step, (message) onoff, zero, tempo, columns, rows, random, reset, direction, matrix, link, mute",
 					"id" : "obj-65",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1580,21 +1608,9 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 784.5, 41.626276284456253, 58.0, 23.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "(int) current step value",
 					"id" : "obj-32",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1667,6 +1683,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.grid",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3
 						}
@@ -1725,16 +1742,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 649.5, 444.0, 649.5, 444.0 ],
-					"order" : 1,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 649.5, 444.0, 627.0, 444.0, 627.0, 519.0, 706.5, 519.0 ],
-					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1744,14 +1751,6 @@
 					"destination" : [ "obj-26", 0 ],
 					"midpoints" : [ 649.5, 471.0, 649.5, 471.0 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 794.0, 66.0, 794.0, 66.0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -1981,7 +1980,25 @@
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"midpoints" : [ 848.0, 102.0, 848.5, 102.0 ],
+					"order" : 1,
 					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"midpoints" : [ 848.0, 114.0, 1396.5, 114.0 ],
+					"order" : 0,
+					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 794.0, 114.0, 1353.5, 114.0 ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -2115,6 +2132,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 1353.5, 153.0, 1353.5, 153.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"midpoints" : [ 620.0, 366.0, 310.0, 366.0 ],
 					"source" : [ "obj-62", 0 ]
@@ -2210,6 +2235,73 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "live.text[822]", "live.text", 0 ],
+			"obj-16" : [ "live.text[244]", "live.text", 0 ],
+			"obj-29" : [ "live.text[8]", "live.text", 0 ],
+			"obj-3" : [ "live.text[220]", "live.text", 0 ],
+			"obj-30" : [ "live.text[3]", "live.text", 0 ],
+			"obj-33" : [ "live.numbox[44]", "live.numbox", 0 ],
+			"obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-39" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-40" : [ "live.grid", "live.grid", 0 ],
+			"obj-41" : [ "live.text[261]", "live.text", 0 ],
+			"obj-59" : [ "live.numbox[141]", "live.numbox", 0 ],
+			"obj-63" : [ "live.text[12]", "live.text", 0 ],
+			"obj-64" : [ "live.text[218]", "live.text", 0 ],
+			"obj-66" : [ "live.text[6]", "live.text", 0 ],
+			"obj-67" : [ "live.text[219]", "live.text", 0 ],
+			"obj-69" : [ "live.text[5]", "live.text", 0 ],
+			"obj-70" : [ "live.text[4]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.args.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.replace.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

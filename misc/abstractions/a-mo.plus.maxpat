@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -64,8 +64,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -192,7 +192,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 62.0, 260.0, 100.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 106.0, 85.0, 23.0 ],
+					"presentation_rect" : [ 18.0, 103.0, 96.0, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -215,13 +215,14 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "download",
+					"text" : "DOWNLOAD",
 					"texton" : "workflow",
 					"varname" : "live.tab[3]"
 				}
@@ -237,8 +238,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -401,6 +402,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[55]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -473,6 +475,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[56]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -495,8 +498,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

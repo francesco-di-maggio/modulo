@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
+		"rect" : [ 0.0, 45.0, 1886.0, 1001.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,18 +41,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-43",
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1311.615552005313475, 125.0, 62.0, 23.0 ],
+					"text" : "a-mo.args"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 504.0, 70.0, 23.0 ],
+					"patching_rect" : [ 1311.615552005313475, 150.0, 79.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize",
+						"filename" : "mo.replace",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js mo.resize"
+					"text" : "js mo.replace"
 				}
 
 			}
@@ -65,18 +77,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 350.842786306142557, 66.0, 73.0, 23.0 ],
 					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 350.842786306142557, 39.0, 58.0, 23.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -336,6 +336,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -460,6 +461,7 @@
 							"parameter_longname" : "live.numbox[36]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -541,6 +543,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[44]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -672,6 +675,7 @@
 							"parameter_longname" : "semitone",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_units" : "oct",
@@ -722,6 +726,7 @@
 							"parameter_longname" : "Cutoff-DL",
 							"parameter_mmax" : 4.0,
 							"parameter_mmin" : -4.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_units" : "oct",
@@ -882,7 +887,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1175,6 +1180,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[177]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1219,6 +1225,7 @@
 ,
 						"valueof" : 						{
 							"parameter_longname" : "live.text[209]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
@@ -1292,6 +1299,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[210]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1569,14 +1577,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 360.342786306142557, 63.0, 360.342786306142557, 63.0 ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"midpoints" : [ 94.342786306142557, 492.0, 94.342786306142557, 492.0 ],
 					"source" : [ "obj-36", 0 ]
@@ -1595,7 +1595,25 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 414.342786306142557, 90.0, 414.5, 90.0 ],
+					"order" : 1,
 					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"midpoints" : [ 414.342786306142557, 111.0, 1364.115552005313475, 111.0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 360.342786306142557, 111.0, 1321.115552005313475, 111.0 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -1604,6 +1622,14 @@
 					"destination" : [ "obj-52", 1 ],
 					"midpoints" : [ 169.342786306142557, 552.0, 169.342786306142557, 552.0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 1321.115552005313475, 150.0, 1321.115552005313475, 150.0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -1675,16 +1701,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 399.5, 429.0, 399.5, 429.0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 399.5, 429.0, 375.0, 429.0, 375.0, 498.0, 456.5, 498.0 ],
-					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1760,6 +1776,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.args.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1767,7 +1790,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.resize.js",
+				"name" : "mo.replace.js",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../misc/js",
 				"type" : "TEXT",

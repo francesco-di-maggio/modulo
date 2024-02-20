@@ -1,2 +1,2 @@
-max definecommand M patcher inserttextobj mo.;
-max definecommandinstructions patcher M "modulo object or abstraction";
+max definecommand % patcher inserttextobj mo.;
+// max definecommandinstructions patcher M "modulo object or abstraction";

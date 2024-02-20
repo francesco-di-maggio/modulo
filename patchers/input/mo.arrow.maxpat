@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
+		"rect" : [ 0.0, 45.0, 1886.0, 1001.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,18 +41,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-49",
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 590.0, 143.0, 62.0, 23.0 ],
+					"text" : "a-mo.args"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 355.0, 70.0, 23.0 ],
+					"patching_rect" : [ 590.0, 186.0, 79.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize.js",
+						"filename" : "mo.replace",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js mo.resize"
+					"text" : "js mo.replace"
 				}
 
 			}
@@ -143,6 +155,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[188]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -208,18 +221,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 294.0, 82.0, 73.0, 23.0 ],
 					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 294.0, 43.0, 58.0, 23.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -521,7 +522,25 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 357.5, 108.0, 357.5, 108.0 ],
+					"order" : 1,
 					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"midpoints" : [ 357.5, 120.0, 642.5, 120.0 ],
+					"order" : 0,
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 303.5, 120.0, 599.5, 120.0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -649,19 +668,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"hidden" : 1,
-					"midpoints" : [ 357.5, 279.0, 357.5, 279.0 ],
-					"order" : 1,
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 599.5, 168.0, 599.5, 168.0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"midpoints" : [ 357.5, 279.0, 333.0, 279.0, 333.0, 351.0, 414.5, 351.0 ],
-					"order" : 0,
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 357.5, 279.0, 357.5, 279.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -706,14 +723,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 303.5, 69.0, 303.5, 69.0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-8" : [ "live.text[188]", "live.text", 0 ],
@@ -730,6 +739,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "a-mo.args.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -737,7 +753,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.resize.js",
+				"name" : "mo.replace.js",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../misc/js",
 				"type" : "TEXT",
