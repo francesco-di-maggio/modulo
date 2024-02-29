@@ -46,9 +46,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.0, 731.626276284456253, 70.0, 23.0 ],
+					"patching_rect" : [ 850.0, 750.0, 70.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize.js",
+						"filename" : "mo.resize",
 						"parameter_enable" : 0
 					}
 ,
@@ -134,7 +134,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[181]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -321,7 +321,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[272]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -756,7 +756,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[295]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1046,7 +1046,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 804.5, 657.0, 780.0, 657.0, 780.0, 726.0, 859.5, 726.0 ],
+					"midpoints" : [ 804.5, 657.0, 780.0, 657.0, 780.0, 744.0, 859.5, 744.0 ],
 					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
