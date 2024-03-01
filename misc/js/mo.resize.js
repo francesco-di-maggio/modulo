@@ -5,18 +5,17 @@ outlets = 1;
 function bang() {
 	// when sending a bang (e.g. mo.pad)
 	if (this.patcher.parentpatcher.box) {
-	
-	post('bang');
-	
+	if (this.patcher.parentpatcher.box.getattr("presentation_rect") == null) { // bpatchers return null for presentation_rect, as opposed to normal patchers	
+
 	var p = this.patcher.parentpatcher.box;
 	var b = this.patcher.parentpatcher.parentpatcher;
-
-	if (p.getattr("presentation_rect") == null) { // bpatchers return null for presentation_rect, as opposed to normal patchers	
 	var resize = p.getattr("openrect");
-		
+
+	//post('bpatcher');
+	
 	// this.patcher.box.varname = "bp_" + Math.random()*10000; 
-	p.message("script", "sendbox", b.varname, "patching_size", resize[2], resize[3]); 
-	p.message("script", "sendbox", b.varname, "border", 1);
+	b.message("script", "sendbox", p.varname, "patching_size", resize[2], resize[3]); 
+	b.message("script", "sendbox", p.varname, "border", 1);
 	// this.patcher.box.varname = ""; 	
 		}
 	}
@@ -69,7 +68,7 @@ function msg_int(x){
 
 	if (p.getattr("presentation_rect") == null) { // bpatchers return null for presentation_rect, as opposed to normal patchers
 	
-	post('if', "\n");
+	//post('if', "\n");
 
 	// adjust the size of the objects on object load based on patcher
 	var resize = p.getattr('openrect');
@@ -87,7 +86,7 @@ function msg_int(x){
 		
 	else {
 	
-	post('else', "\n");
+	//post('else', "\n");
 	
 	var p = this.patcher.parentpatcher;
 	var resize = p.wind.location;
