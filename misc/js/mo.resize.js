@@ -15,6 +15,7 @@ function bang() {
 	
 	// this.patcher.box.varname = "bp_" + Math.random()*10000; 
 	b.message("script", "sendbox", p.varname, "patching_size", resize[2], resize[3]); 
+	b.message("script", "sendbox", p.varname, "presentation_size", resize[2], resize[3]); 
 	b.message("script", "sendbox", p.varname, "border", 1);
 	// this.patcher.box.varname = ""; 	
 		}
@@ -37,6 +38,7 @@ function list(x,y) {
 			
 	// this.patcher.box.varname = "bp_" + Math.random()*10000; 
 	b.message("script", "sendbox", p.varname, "patching_size", x, y); 
+	b.message("script", "sendbox", p.varname, "presentation_size", x, y); 
 	b.message("script", "sendbox", p.varname, "border", 1);
 	// this.patcher.box.varname = ""; 	
 	outlet(0, bang);
@@ -80,6 +82,7 @@ function msg_int(x){
 	//p.box.setboxattr('patching_size', loadSize);
 	//p.box.setboxattr('presentation_size', loadSize);
 	b.message("script", "sendbox", p.varname, "patching_size", resize[2], x);
+	b.message("script", "sendbox", p.varname, "presentation_size", resize[2], x);
 	b.message("script", "sendbox", p.varname, 'border', 1); 
 		}
 	}
@@ -95,10 +98,7 @@ function msg_int(x){
 	x = (x * 13) + (x - 1);
 	x = x + 85;
 
-	//resize(loadSize);
-		//outlet(0, loadSize[0], loadSize[1], loadSize[2]-34, loadSize[1] + x);
-	//p.window('size', resize[0], resize[1], resize[2]-34, resize[1] + x);
-	p.window('size', resize[0], resize[1], resize[0] + 214, resize[1] + x);	
+	p.window('size', resize[0], resize[1], resize[0] + 214, resize[1] + x);
 	p.window("exec");
 	}
 }

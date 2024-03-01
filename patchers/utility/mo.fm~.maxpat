@@ -3,15 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 169.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 169.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 170.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 170.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -155,7 +155,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.50047539387424, 99.634451101923787, 140.022810906171799, 62.99908379825871 ],
+					"presentation_rect" : [ 68.50047539387424, 99.634451101923787, 140.0, 64.0 ],
 					"range" : [ -0.3, 0.3 ],
 					"rounded" : 0.0,
 					"samples" : 441.0,
@@ -177,7 +177,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1118.649213254451524, 1055.436599800000067, 211.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.50047539387424, 99.634451101923787, 140.022810906171799, 64.281401984393597 ],
+					"presentation_rect" : [ 68.50047539387424, 99.634451101923787, 140.0, 65.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -199,7 +199,7 @@
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 795.212961634000294, 578.0, 82.0, 23.0 ],
@@ -270,6 +270,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[835]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -317,6 +318,7 @@
 							"parameter_longname" : "live.text[821]",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "octave",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -341,8 +343,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3261,6 +3263,7 @@
 							"parameter_longname" : "live.dial[17]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "semitone",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 7
@@ -3287,6 +3290,7 @@
 							"parameter_longname" : "live.dial[38]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "detune",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3384,6 +3388,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[9]",
 							"parameter_mmax" : 8000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3410,6 +3415,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[42]",
 							"parameter_mmax" : 4000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3436,6 +3442,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[15]",
 							"parameter_mmax" : 20000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3462,6 +3469,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[10]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3531,7 +3539,7 @@
 					"patching_rect" : [ 614.25, 187.299990355968475, 44.0, 15.0 ],
 					"pictures" : [ "mo.play.svg", "mo.stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 98.634451101923787, 61.792231817787496, 65.751668058335781 ],
+					"presentation_rect" : [ 3.5, 98.634451101923787, 62.0, 67.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -3562,6 +3570,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[823]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3717,6 +3726,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[884]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3939,8 +3949,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4129,7 +4139,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.0, 151.333333333333343, 119.0, 22.0 ],
 									"text" : "random 2147483647"
 								}
@@ -4516,6 +4526,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[30]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4573,6 +4584,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[40]",
 							"parameter_mmax" : 1760.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -4617,6 +4629,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[41]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4640,8 +4653,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5425,6 +5438,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[16]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vibrato",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -5469,6 +5483,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[39]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[18]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -5513,6 +5528,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[8]",
 							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[7]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
