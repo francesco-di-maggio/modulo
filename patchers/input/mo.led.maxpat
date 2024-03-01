@@ -41,23 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 827.0, 660.0, 70.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "mo.resize",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js mo.resize"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -394,7 +377,7 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.0, 585.0, 82.0, 23.0 ],
@@ -811,16 +794,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 779.5, 585.0, 779.5, 585.0 ],
-					"order" : 1,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 779.5, 585.0, 756.0, 585.0, 756.0, 654.0, 836.5, 654.0 ],
-					"order" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 

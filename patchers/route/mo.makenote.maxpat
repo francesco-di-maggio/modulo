@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -144,6 +144,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[264]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -212,7 +213,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 67.0, 550.0, 160.0, 23.0 ],
+					"patching_rect" : [ 67.0, 570.0, 160.0, 23.0 ],
 					"text" : "makenote @repeatmode 1"
 				}
 
@@ -311,7 +312,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 287.0, 425.0, 73.0, 23.0 ],
 					"text" : "random 100"
 				}
@@ -333,7 +334,7 @@
 				"box" : 				{
 					"comment" : "(list) pitch, velocity, duration, probability",
 					"id" : "obj-89",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -464,7 +465,7 @@
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 402.424482601293221, 82.0, 23.0 ],
@@ -535,6 +536,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[842]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -593,6 +595,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[841]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -748,7 +751,7 @@
 				"box" : 				{
 					"comment" : "(message) refresh, port, repeatmode, stop, mute",
 					"id" : "obj-47",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -793,7 +796,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 360.5, 498.0, 54.0, 498.0, 54.0, 546.0, 76.5, 546.0 ],
+					"midpoints" : [ 360.5, 555.0, 76.5, 555.0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -809,6 +812,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 54.5, 90.0, 54.5, 90.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -848,7 +852,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 54.5, 546.0, 76.5, 546.0 ],
+					"midpoints" : [ 54.5, 555.0, 76.5, 555.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -864,7 +868,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 729.5, 400.798206316836968, 729.5, 400.798206316836968 ],
+					"midpoints" : [ 729.5, 402.0, 729.5, 402.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -896,6 +900,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 585.229837719599232, 150.0, 585.229837719599232, 150.0 ],
 					"source" : [ "obj-34", 3 ]
 				}
 
@@ -919,7 +924,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 729.5, 427.798206316836968, 729.5, 427.798206316836968 ],
+					"midpoints" : [ 729.5, 426.0, 729.5, 426.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -991,7 +996,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 76.5, 576.0, 76.5, 576.0 ],
+					"midpoints" : [ 76.5, 594.0, 76.5, 594.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1111,12 +1116,44 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 1 ],
-					"midpoints" : [ 163.5, 537.0, 147.0, 537.0 ],
+					"midpoints" : [ 163.5, 555.0, 147.0, 555.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "live.text[264]", "live.text", 0 ],
+			"obj-15" : [ "live.text[841]", "live.text", 0 ],
+			"obj-4" : [ "live.text[842]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
