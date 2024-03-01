@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -55,9 +55,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 310.0, 397.962136999999984, 214.0, 169.0 ],
+					"patching_rect" : [ 310.0, 397.962136999999984, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 452.0, 384.0, 214.0, 169.0 ],
+					"presentation_rect" : [ 452.0, 384.0, 214.0, 170.0 ],
 					"varname" : "mo.theremin~",
 					"viewvisibility" : 1
 				}
@@ -168,7 +168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.375, 700.25, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 503.000000000000057, 74.0, 25.0 ],
+					"presentation_rect" : [ 353.5, 587.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -190,7 +190,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 393.875, 702.75, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.875, 505.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 328.5, 590.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -210,7 +210,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.0, 690.25, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 493.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 269.5, 577.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 20.0, 543.981069000000048, 215.0, 126.0 ],
+					"patching_rect" : [ 20.0, 543.981069000000048, 214.0, 126.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.0, 246.0, 214.0, 126.0 ],
 					"varname" : "mo.sends",
@@ -396,7 +396,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 397.962136999999984, 215.0, 126.0 ],
+					"patching_rect" : [ 20.0, 397.962136999999984, 214.0, 126.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 246.0, 214.0, 126.0 ],
 					"varname" : "mo.scale",
@@ -418,7 +418,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.theremin.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -652,6 +651,14 @@
 ,
 				"obj-16::obj-20" : 				{
 					"parameter_longname" : "live.text[59]"
+				}
+,
+				"obj-16::obj-31" : 				{
+					"parameter_longname" : "live.text[642]"
+				}
+,
+				"obj-16::obj-56" : 				{
+					"parameter_longname" : "live.numbox[503]"
 				}
 ,
 				"obj-17::obj-1" : 				{
@@ -1059,20 +1066,13 @@
 			}
 , 			{
 				"name" : "a-mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo-plus/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.windower.maxpat",
+				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -1100,6 +1100,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
@@ -1111,6 +1125,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -1132,20 +1153,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

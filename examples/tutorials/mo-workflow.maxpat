@@ -70,7 +70,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 797.0, 653.0 ],
+						"rect" : [ 0.0, 26.0, 797.0, 653.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -100,6 +100,55 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"local" : 1,
+									"maxclass" : "mc.ezdac~",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 598.25, 583.71875, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 682.25, 593.71875, 74.0, 25.0 ],
+									"text" : "start dsp"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+									"fontname" : "Ableton Sans Medium",
+									"fontsize" : 10.0,
+									"hint" : "",
+									"id" : "obj-35",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 655.25, 595.71875, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+									"usebgoncolor" : 1,
+									"usetextovercolor" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 12.0,
 									"id" : "obj-13",
@@ -226,8 +275,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 543.25, 496.85401366666656, 100.0, 40.0 ],
-									"pattrstorage" : "untitled"
+									"patching_rect" : [ 543.25, 497.187347000000045, 100.0, 40.0 ],
+									"pattrstorage" : "p-mo.workflow-1"
 								}
 
 							}
@@ -239,30 +288,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 566.25, 462.85401366666656, 77.0, 23.0 ],
+									"patching_rect" : [ 566.0, 469.0, 77.0, 23.0 ],
 									"priority" : 									{
 										"mo.sliders::[1]::slider" : 1,
 										"mo.sliders::[2]::slider" : 1,
 										"mo.sliders::[3]::slider" : 1,
 										"mo.sliders::[4]::slider" : 1,
 										"mo.sliders::[5]::slider" : 1,
-										"mo.sliders::[6]::slider" : 1,
-										"mo.sliders[1]::[1]::slider" : 1,
-										"mo.sliders[1]::[2]::slider" : 1,
-										"mo.sliders[1]::[3]::slider" : 1,
-										"mo.sliders[1]::[4]::slider" : 1,
-										"mo.sliders[1]::[5]::slider" : 1,
-										"mo.sliders[1]::[6]::slider" : 1,
-										"mo.sliders[1]::[7]::slider" : 1,
-										"mo.sliders[1]::[8]::slider" : 1,
-										"mo.sliders[1]::[9]::slider" : 1,
-										"mo.sliders[1]::[10]::slider" : 1,
-										"mo.sliders[1]::[11]::slider" : 1,
-										"mo.sliders[1]::[12]::slider" : 1,
-										"mo.sliders[1]::[13]::slider" : 1,
-										"mo.sliders[1]::[14]::slider" : 1,
-										"mo.sliders[1]::[15]::slider" : 1,
-										"mo.sliders[1]::[16]::slider" : 1
+										"mo.sliders::[6]::slider" : 1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -273,7 +306,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "untitled"
+									"varname" : "p-mo.workflow-1"
 								}
 
 							}
@@ -292,7 +325,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 303.75, 558.71875, 214.0, 70.0 ],
+									"patching_rect" : [ 303.75, 558.718749999999886, 214.0, 70.0 ],
 									"varname" : "mo.dac~[1]",
 									"viewvisibility" : 1
 								}
@@ -314,7 +347,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 303.75, 367.854013666666674, 214.0, 169.0 ],
+									"patching_rect" : [ 303.75, 367.187346999999932, 214.0, 170.0 ],
 									"varname" : "mo.fm~[1]",
 									"viewvisibility" : 1
 								}
@@ -328,7 +361,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 543.25, 277.582721114470701, 24.0, 24.0 ]
+									"patching_rect" : [ 543.25, 276.187346890568733, 24.0, 24.0 ]
 								}
 
 							}
@@ -368,17 +401,6 @@
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"usebgoncolor" : 1,
 									"usetextovercolor" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-16",
-									"local" : 1,
-									"maxclass" : "mc.ezdac~",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 598.25, 583.718749999999886, 45.0, 45.0 ]
 								}
 
 							}
@@ -437,7 +459,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 543.25, 367.854013666666674, 214.0, 79.0 ],
+									"patching_rect" : [ 543.25, 366.187346890568733, 214.0, 79.0 ],
 									"varname" : "mo.preset",
 									"viewvisibility" : 1
 								}
@@ -450,7 +472,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 601.75, 277.582721114470701, 88.0, 25.0 ],
+									"patching_rect" : [ 602.25, 276.187346890568733, 88.0, 25.0 ],
 									"text" : "load preset ",
 									"textjustification" : 1
 								}
@@ -471,7 +493,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 574.75, 279.582721114470701, 20.0, 20.0 ],
+									"patching_rect" : [ 575.25, 278.187346890568733, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -489,7 +511,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 543.25, 322.989277333333291, 199.0, 23.0 ],
+									"patching_rect" : [ 543.25, 321.187346890568733, 199.0, 23.0 ],
 									"text" : "read p-mo.workflow-1.json, recall 1"
 								}
 
@@ -510,44 +532,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
-									"id" : "obj-27",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 682.0, 593.718749999999886, 74.0, 25.0 ],
-									"text" : "start dsp"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 10.0,
-									"hint" : "",
-									"id" : "obj-35",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 654.5, 596.218749999999886, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "1",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-									"usebgoncolor" : 1,
-									"usetextovercolor" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"args" : [ 6 ],
 									"bgmode" : 0,
 									"border" : 1,
@@ -563,7 +547,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 303.75, 191.98927733333332, 214.0, 153.0 ],
+									"patching_rect" : [ 303.75, 191.655943999999977, 214.0, 154.0 ],
 									"varname" : "mo.scale",
 									"viewvisibility" : 1
 								}
@@ -586,7 +570,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 303.75, 16.124541000000001, 214.0, 153.0 ],
+									"patching_rect" : [ 303.75, 16.124541000000001, 214.0, 154.0 ],
 									"varname" : "mo.sliders",
 									"viewvisibility" : 1
 								}
@@ -604,7 +588,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
-									"midpoints" : [ 313.25, 537.0, 313.25, 537.0 ],
+									"midpoints" : [ 313.25, 540.0, 313.25, 540.0 ],
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -628,7 +612,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 552.75, 348.0, 552.75, 348.0 ],
+									"midpoints" : [ 552.75, 345.0, 552.75, 345.0 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -644,7 +628,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"midpoints" : [ 747.75, 456.0, 575.75, 456.0 ],
+									"midpoints" : [ 747.75, 456.0, 575.5, 456.0 ],
 									"source" : [ "obj-37", 1 ]
 								}
 
@@ -689,7 +673,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 797.0, 653.0 ],
+						"rect" : [ 34.0, 79.0, 797.0, 653.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2760,13 +2744,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.args.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.exposer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -2789,13 +2766,6 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -2834,13 +2804,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.replaces.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

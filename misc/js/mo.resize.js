@@ -1,4 +1,8 @@
 
+// Resize bpacthers based on opening mode
+// ® Francesco Di Maggio
+// Last modified: 1-03-2024
+
 autowatch = 1;
 outlets = 1;
 

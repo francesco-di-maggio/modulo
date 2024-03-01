@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,14 +51,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -94,13 +94,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ]
+									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ],
+									"pattrstorage" : "none"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "preset.json",
+									"autorestore" : "p-mo.preset.json",
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -108,14 +109,14 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.0, 420.0, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 44, 358, 172 ],
+										"client_rect" : [ 100, 157, 454, 285 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 100, 157, 551, 285 ]
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "u208008118"
+									"varname" : "none"
 								}
 
 							}
@@ -263,6 +264,7 @@
 , 							{
 								"box" : 								{
 									"addpoints" : [ 77.539549679674721, 0.486269277449192, 0, 498.52860154041889, 0.753925048340279, 0, 1000.0008544921875, 0.0, 0 ],
+									"classic_curve" : 1,
 									"domain" : 1000.0008544921875,
 									"id" : "obj-7",
 									"maxclass" : "function",
@@ -505,14 +507,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
+						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -563,14 +565,14 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.0, 420.0, 77.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 44, 358, 172 ],
+										"client_rect" : [ 100, 157, 454, 285 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 100, 157, 551, 285 ]
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "u208008118"
+									"varname" : "untitled"
 								}
 
 							}
@@ -648,6 +650,7 @@
 							}
 , 							{
 								"box" : 								{
+									"classic_curve" : 1,
 									"domain" : 1000.0008544921875,
 									"id" : "obj-7",
 									"maxclass" : "function",
@@ -1035,6 +1038,20 @@
 				"name" : "mo.preset.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-mo.preset.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

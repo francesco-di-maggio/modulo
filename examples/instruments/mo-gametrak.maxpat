@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -79,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 317.549602999999991, 70.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 77.0, 70.0, 62.0 ],
@@ -271,7 +271,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.gametrak.json",
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -917,6 +916,10 @@
 					"parameter_longname" : "live.text[113]"
 				}
 ,
+				"obj-7::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-7::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
@@ -927,6 +930,14 @@
 ,
 				"obj-7::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[116]"
+				}
+,
+				"obj-7::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-7::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-7::obj-40::obj-20" : 				{
@@ -1061,6 +1072,10 @@
 					"parameter_longname" : "live.text[52]"
 				}
 ,
+				"obj-7::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
 				"obj-7::obj-74::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[2]"
 				}
@@ -1115,13 +1130,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.windower.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
@@ -1147,6 +1155,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

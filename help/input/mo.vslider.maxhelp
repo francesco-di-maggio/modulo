@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 577.0, 754.0 ],
+		"rect" : [ 34.0, 87.0, 577.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -336,7 +336,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 707.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 647.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -356,7 +356,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 399.0, 70.0, 286.0 ],
+					"patching_rect" : [ 41.0, 399.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -446,7 +446,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 50.5, 687.0, 50.5, 687.0 ],
+					"midpoints" : [ 50.5, 615.0, 50.5, 615.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -503,6 +503,13 @@
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

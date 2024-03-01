@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -113,6 +113,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -368,7 +369,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 92.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.0, 92.0, 70.0, 215.0 ],
+					"presentation_rect" : [ 462.0, 92.0, 70.0, 214.0 ],
 					"varname" : "mo.slider[1]",
 					"viewvisibility" : 1
 				}
@@ -393,7 +394,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 236.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 606.0, 92.0, 70.0, 215.0 ],
+					"presentation_rect" : [ 606.0, 92.0, 70.0, 214.0 ],
 					"varname" : "mo.slider[3]",
 					"viewvisibility" : 1
 				}
@@ -418,7 +419,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 164.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 92.0, 70.0, 215.0 ],
+					"presentation_rect" : [ 534.0, 92.0, 70.0, 214.0 ],
 					"varname" : "mo.slider[2]",
 					"viewvisibility" : 1
 				}
@@ -467,7 +468,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 311.222221999999988, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 92.0, 70.0, 215.0 ],
+					"presentation_rect" : [ 390.0, 92.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider",
 					"viewvisibility" : 1
 				}
@@ -996,13 +997,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.windower.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../misc/colls",
@@ -1021,6 +1015,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

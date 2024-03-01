@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -126,9 +126,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 528.5, 445.0, 214.0, 169.0 ],
+					"patching_rect" : [ 528.5, 445.0, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 433.0, 214.0, 169.0 ],
+					"presentation_rect" : [ 20.0, 432.5, 214.0, 170.0 ],
 					"varname" : "mo.fm~[1]",
 					"viewvisibility" : 1
 				}
@@ -162,7 +162,7 @@
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 296.0, 717.5, 82.0, 23.0 ],
@@ -1330,6 +1330,14 @@
 					"parameter_longname" : "live.text[633]"
 				}
 ,
+				"obj-74::obj-13" : 				{
+					"parameter_longname" : "live.numbox[296]"
+				}
+,
+				"obj-74::obj-15" : 				{
+					"parameter_longname" : "live.text[528]"
+				}
+,
 				"obj-87::obj-11" : 				{
 					"parameter_longname" : "live.numbox[107]"
 				}
@@ -1573,6 +1581,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -1580,10 +1595,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.smooth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -1596,20 +1625,6 @@
 , 			{
 				"name" : "pause.svg",
 				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

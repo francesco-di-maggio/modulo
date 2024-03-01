@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 471.0, 504.0 ],
+		"rect" : [ 34.0, 87.0, 481.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 695.0, 58.0, 100.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 326.0, 333.5, 100.0, 25.0 ],
+					"presentation_rect" : [ 336.0, 334.0, 100.0, 25.0 ],
 					"text" : "replace sound"
 				}
 
@@ -92,7 +92,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 670.0, 60.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 301.0, 336.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 311.0, 337.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -113,7 +113,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 640.0, 58.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 334.5, 24.0, 24.0 ]
+					"presentation_rect" : [ 280.0, 335.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -296,7 +296,7 @@
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 373.833332999999982, 30.0, 214.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 102.0, 214.0, 214.0 ],
+					"presentation_rect" : [ 246.0, 102.0, 214.0, 214.0 ],
 					"varname" : "mo.grid[2]",
 					"viewvisibility" : 1
 				}
@@ -377,7 +377,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 715.455140000000029, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 427.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 280.0, 427.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -420,7 +420,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 640.0, 125.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 369.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 280.0, 369.0, 155.0, 23.0 ],
 					"text" : "buffer~ sound jongly.aif 0 2"
 				}
 
@@ -525,7 +525,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.186889999999948, 724.955140000000029, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 437.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 370.0, 437.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -547,7 +547,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 149.0, 727.455140000000029, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 439.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 340.0, 440.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1134,14 +1134,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
+				"name" : "mo.play.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop.svg",
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",

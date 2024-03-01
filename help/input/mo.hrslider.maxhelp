@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -320,7 +320,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 490.0, 129.0, 23.0 ],
-					"text" : "0. 0."
+					"text" : "0.209302 0.418605"
 				}
 
 			}
@@ -382,7 +382,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 396.0, 286.0, 70.0 ],
+					"patching_rect" : [ 41.0, 396.0, 214.0, 70.0 ],
 					"varname" : "mo.rslider",
 					"viewvisibility" : 1
 				}
@@ -416,7 +416,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 399.755791574060595, 381.0, 317.5, 381.0 ],
+					"midpoints" : [ 399.755791574060595, 381.0, 245.5, 381.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -440,7 +440,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 157.5, 381.0, 317.5, 381.0 ],
+					"midpoints" : [ 157.5, 381.0, 245.5, 381.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -456,7 +456,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 317.755791574060595, 279.0, 317.5, 279.0 ],
+					"midpoints" : [ 317.755791574060595, 381.0, 245.5, 381.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -464,7 +464,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 181.0, 381.0, 317.5, 381.0 ],
+					"midpoints" : [ 181.0, 381.0, 245.5, 381.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -496,7 +496,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 507.755791574060595, 381.0, 317.5, 381.0 ],
+					"midpoints" : [ 507.755791574060595, 381.0, 245.5, 381.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -536,6 +536,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

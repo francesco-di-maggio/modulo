@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -78,8 +78,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -375,8 +375,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 882.604546405753126, 106.5, 24.0, 24.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 882.604546405753126, 106.5, 24.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "toggle",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "toggle",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "toggle"
 				}
 
 			}
@@ -408,7 +423,7 @@
 , 			{
 				"box" : 				{
 					"arrows" : 2,
-					"border" : 0.5,
+					"border" : 0.7,
 					"id" : "obj-9",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -451,13 +466,13 @@
 , 			{
 				"box" : 				{
 					"arrows" : 1,
-					"border" : 0.5,
+					"border" : 0.7,
 					"id" : "obj-6",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 389.956609154740931, 53.0, 8.043390845259069 ],
+					"patching_rect" : [ 13.0, 376.0, 53.0, 8.043390845259069 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -475,7 +490,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 384.365287323792757, 68.0, 21.0 ],
+					"patching_rect" : [ 71.0, 370.0, 68.0, 21.0 ],
 					"text" : "SNIPPETS:"
 				}
 
@@ -508,7 +523,7 @@
 , 			{
 				"box" : 				{
 					"arrows" : 2,
-					"border" : 0.5,
+					"border" : 0.7,
 					"id" : "obj-23",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -528,7 +543,7 @@
 , 			{
 				"box" : 				{
 					"arrows" : 2,
-					"border" : 0.5,
+					"border" : 0.7,
 					"id" : "obj-22",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -677,7 +692,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 431.365287323792813, 20.0, 20.0 ],
+					"patching_rect" : [ 30.0, 417.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -697,7 +712,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 407.365287323792813, 431.0, 68.0 ],
+					"patching_rect" : [ 55.0, 393.0, 431.0, 68.0 ],
 					"text" : "1. Unlock the patcher window.\n2. On the Left Toolbar, click on Snippets.\n3. Find \"modulo\", and choose a module.\n4. Double-click, or drag-and-drop a module on an unlocked patcher window."
 				}
 
@@ -780,6 +795,7 @@
 			"obj-24::obj-2" : [ "live.text[90]", "live.text", 0 ],
 			"obj-24::obj-22" : [ "live.text[19]", "live.text", 0 ],
 			"obj-24::obj-6" : [ "live.text[92]", "live.text", 0 ],
+			"obj-32" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -838,6 +854,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

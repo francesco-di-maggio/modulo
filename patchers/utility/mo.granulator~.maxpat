@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 430.0, 170.0 ],
+		"rect" : [ 0.0, 45.0, 430.0, 170.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 169.975903391838074 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -387,6 +387,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[639]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -437,6 +438,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[641]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -549,6 +551,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[687]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -637,6 +640,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[713]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -689,6 +693,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[712]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1141,7 +1146,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-160",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1259,6 +1264,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[648]",
 							"parameter_mmax" : 60000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1345,6 +1351,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[688]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1538,6 +1545,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[645]",
 							"parameter_mmax" : 600000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1572,8 +1580,8 @@
 					"id" : "obj-241",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 					"patching_rect" : [ 354.342786306142557, 2095.538159461857049, 107.0, 23.0 ],
 					"text" : "info~ init"
 				}
@@ -1675,8 +1683,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1795,7 +1803,7 @@
 					"hidden" : 1,
 					"id" : "obj-58",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 820.0, 717.250000000000227, 82.0, 23.0 ],
@@ -1868,6 +1876,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[714]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2179,8 +2188,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2341,8 +2350,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2802,8 +2811,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3217,7 +3226,7 @@
 				"box" : 				{
 					"comment" : "(list) mode, playpos, stretch, randpos, playstop, graindur. transp, aleaoct, quant, panrand, gain",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3315,8 +3324,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3946,6 +3955,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[646]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4005,6 +4015,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[652]",
 							"parameter_mmax" : 0.5,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4114,8 +4125,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4798,7 +4809,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) stereo output",
 					"id" : "obj-208",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5364,6 +5375,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[1021]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -5388,8 +5400,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5763,7 +5775,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 22.46666666666664, 120.349999999999994, 119.0, 22.0 ],
 									"text" : "random 2147483647"
 								}
@@ -6228,6 +6240,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[640]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -6275,6 +6288,7 @@
 							"parameter_longname" : "live.numbox[647]",
 							"parameter_mmax" : 6000.0,
 							"parameter_mmin" : -6000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6364,6 +6378,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[653]",
 							"parameter_mmax" : 4000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6412,6 +6427,7 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_longname" : "live.text[638]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -6455,6 +6471,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[651]",
 							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6497,6 +6514,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[481]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6542,6 +6560,7 @@
 							"parameter_longname" : "live.dial[43]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6585,6 +6604,7 @@
 							"parameter_exponent" : 3.333,
 							"parameter_longname" : "live.numbox[649]",
 							"parameter_mmax" : 4000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6645,6 +6665,7 @@
 							"parameter_longname" : "live.numbox[650]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6744,8 +6765,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6803,8 +6824,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7060,8 +7081,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7471,8 +7492,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9128,8 +9149,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11148,7 +11169,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-205", 0 ],
-					"midpoints" : [ 440.842786306142557, 2136.0, 774.77400283557995, 2136.0 ],
+					"midpoints" : [ 432.287230750587014, 2136.0, 774.77400283557995, 2136.0 ],
 					"source" : [ "obj-241", 7 ]
 				}
 
@@ -11156,7 +11177,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-228", 1 ],
-					"midpoints" : [ 451.842786306142557, 2304.0, 651.342786306142443, 2304.0 ],
+					"midpoints" : [ 442.065008528364785, 2304.0, 651.342786306142443, 2304.0 ],
 					"source" : [ "obj-241", 8 ]
 				}
 
@@ -11164,7 +11185,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
-					"midpoints" : [ 429.842786306142557, 2121.0, 429.842786306142557, 2121.0 ],
+					"midpoints" : [ 422.509452972809186, 2121.0, 429.842786306142557, 2121.0 ],
 					"source" : [ "obj-241", 6 ]
 				}
 
@@ -11928,6 +11949,84 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "live.numbox[646]", "live.dial[12]", 0 ],
+			"obj-136" : [ "live.text[687]", "live.text", 0 ],
+			"obj-152" : [ "live.text[640]", "live.text", 0 ],
+			"obj-155" : [ "live.numbox[647]", "live.dial[12]", 0 ],
+			"obj-161" : [ "live.numbox[653]", "live.dial[12]", 0 ],
+			"obj-163" : [ "live.text[638]", "live.text", 0 ],
+			"obj-166" : [ "live.numbox[651]", "live.dial[12]", 0 ],
+			"obj-167" : [ "live.numbox[481]", "live.dial[12]", 0 ],
+			"obj-168" : [ "live.dial[43]", "live.dial[12]", 0 ],
+			"obj-169" : [ "live.numbox[649]", "live.dial[12]", 0 ],
+			"obj-171" : [ "live.numbox[650]", "live.dial[12]", 0 ],
+			"obj-185" : [ "live.numbox[648]", "live.dial[12]", 0 ],
+			"obj-188" : [ "live.text[688]", "live.text", 0 ],
+			"obj-19" : [ "live.numbox[652]", "live.dial[12]", 0 ],
+			"obj-236" : [ "live.numbox[645]", "live.dial[12]", 0 ],
+			"obj-245" : [ "live.text[641]", "live.text", 0 ],
+			"obj-247" : [ "live.text[712]", "live.text", 0 ],
+			"obj-248" : [ "live.text[713]", "live.text", 0 ],
+			"obj-249" : [ "live.text[639]", "live.text", 0 ],
+			"obj-5" : [ "live.text[714]", "live.text", 0 ],
+			"obj-88" : [ "live.text[1021]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.gran~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

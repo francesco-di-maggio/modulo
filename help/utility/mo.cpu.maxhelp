@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 554.0, 531.0 ],
+		"rect" : [ 34.0, 87.0, 491.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 290.0, 128.0, 98.0, 97.0 ],
-					"presentation_linecount" : 7,
 					"text" : "set rate (ms):\n0 = 100\n1 = 500\n2 = 1000\n3 = 2000\n4 = 5000"
 				}
 
@@ -89,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 165.0, 94.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set rate (ms)"
 				}
 
@@ -141,7 +139,7 @@
 					"numoutlets" : 1,
 					"orientation" : 2,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 140.0, 335.0, 391.0, 175.0 ]
+					"patching_rect" : [ 140.0, 335.0, 328.0, 176.0 ]
 				}
 
 			}
@@ -152,8 +150,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 140.0, 270.0, 139.0, 23.0 ],
-					"text" : "mc.rand~ 5 @chans 128"
+					"patching_rect" : [ 140.0, 270.0, 132.0, 23.0 ],
+					"text" : "mc.rand~ 5 @chans 64"
 				}
 
 			}
@@ -165,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.5, 269.0, 74.0, 25.0 ],
+					"patching_rect" : [ 394.0, 269.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -177,7 +175,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 259.0, 45.0, 45.0 ]
+					"patching_rect" : [ 307.0, 259.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -237,7 +235,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 427.0, 271.500000000000114, 20.0, 20.0 ],
+					"patching_rect" : [ 364.0, 272.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -328,6 +326,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 582.0, 650.0 ],
+		"rect" : [ 34.0, 87.0, 582.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 580.0, 50.0, 23.0 ]
+					"patching_rect" : [ 61.0, 520.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 611.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 551.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 277.0, 70.0, 286.0 ],
+					"patching_rect" : [ 41.0, 277.0, 70.0, 214.0 ],
 					"varname" : "mo.vtab",
 					"viewvisibility" : 1
 				}
@@ -293,7 +293,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 101.5, 564.0, 101.5, 564.0 ],
+					"midpoints" : [ 101.5, 492.0, 101.5, 492.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -301,7 +301,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 50.5, 564.0, 50.5, 564.0 ],
+					"midpoints" : [ 50.5, 492.0, 50.5, 492.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -379,10 +379,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vtab.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
