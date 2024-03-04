@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
+						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -263,7 +263,6 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 77.539549679674721, 0.486269277449192, 0, 498.52860154041889, 0.753925048340279, 0, 1000.0008544921875, 0.0, 0 ],
 									"classic_curve" : 1,
 									"domain" : 1000.0008544921875,
 									"id" : "obj-7",
@@ -406,11 +405,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 272.0, 514.785720999999967, 98.0, 23.0 ],
 									"restore" : 									{
-										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, 77.539549679674721, 0.486269277449192, 0, 498.52860154041889, 0.753925048340279, 0, 1000.0008544921875, 0.0, 0, "linear" ],
-										"myknob[1]" : [ 114 ],
-										"myknob[2]" : [ 63 ],
-										"myknob[3]" : [ 21 ],
-										"myslider" : [ -0.366639063583815 ]
+										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, "linear" ],
+										"myknob[1]" : [ 0 ],
+										"myknob[2]" : [ 0 ],
+										"myknob[3]" : [ 0 ],
+										"myslider" : [ -1.0 ]
 									}
 ,
 									"text" : "autopattr help-2",
@@ -514,7 +513,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 426.0, 707.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -551,19 +550,19 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ]
+									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ],
+									"pattrstorage" : "none"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "preset.json",
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 420.0, 77.0, 23.0 ],
+									"patching_rect" : [ 64.0, 420.0, 163.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 100, 157, 454, 285 ],
 										"parameter_enable" : 0,
@@ -571,8 +570,8 @@
 										"storage_rect" : [ 100, 157, 551, 285 ]
 									}
 ,
-									"text" : "pattrstorage",
-									"varname" : "untitled"
+									"text" : "pattrstorage @autorestore 1",
+									"varname" : "u550011037"
 								}
 
 							}
@@ -917,6 +916,7 @@
 			"obj-13::obj-10::obj-46" : [ "live.text[669]", "live.text", 0 ],
 			"obj-13::obj-10::obj-48" : [ "live.text[670]", "live.text", 0 ],
 			"obj-13::obj-10::obj-50" : [ "live.text[671]", "live.text", 0 ],
+			"obj-13::obj-10::obj-51" : [ "live.text[204]", "live.text", 0 ],
 			"obj-13::obj-10::obj-52" : [ "live.numbox[407]", "live.text", 0 ],
 			"obj-13::obj-10::obj-53" : [ "live.text[672]", "live.text", 0 ],
 			"obj-13::obj-10::obj-55" : [ "live.text[677]", "live.text", 0 ],
@@ -927,6 +927,7 @@
 			"obj-14::obj-1::obj-46" : [ "live.text[29]", "live.text", 0 ],
 			"obj-14::obj-1::obj-48" : [ "live.text[30]", "live.text", 0 ],
 			"obj-14::obj-1::obj-50" : [ "live.text[22]", "live.text", 0 ],
+			"obj-14::obj-1::obj-51" : [ "live.text[1]", "live.text", 0 ],
 			"obj-14::obj-1::obj-52" : [ "live.numbox[6]", "live.text", 0 ],
 			"obj-14::obj-1::obj-53" : [ "live.text[28]", "live.text", 0 ],
 			"obj-14::obj-1::obj-55" : [ "live.text[27]", "live.text", 0 ],
@@ -1002,6 +1003,10 @@
 					"parameter_longname" : "live.text[22]"
 				}
 ,
+				"obj-14::obj-1::obj-51" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-14::obj-1::obj-52" : 				{
 					"parameter_longname" : "live.numbox[6]"
 				}
@@ -1052,13 +1057,6 @@
 				"name" : "p-mo.preset.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "preset.json",
-				"bootpath" : "~/Documents/Max 8/Packages/bbdmi/events/2023-03-17_ICM/presets",
-				"patcherrelativepath" : "../../../bbdmi/events/2023-03-17_ICM/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

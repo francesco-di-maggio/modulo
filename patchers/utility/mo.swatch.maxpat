@@ -55,7 +55,7 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 444.0, 414.0, 82.0, 23.0 ],
@@ -178,7 +178,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
@@ -199,14 +199,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 543.333333333333371, 192.0, 254.0, 23.0 ],
+					"patching_rect" : [ 543.333333333333371, 192.0, 277.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.5 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr lightness @bindto lightness- @initial 0.5",
+					"text" : "pattr lightness @bindto lightness- @autorestore 0",
 					"varname" : "lightness"
 				}
 
@@ -218,14 +218,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 493.666666666666629, 229.0, 266.0, 23.0 ],
+					"patching_rect" : [ 493.666666666666629, 229.0, 296.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr saturation- @bindto saturation- @initial 1.",
+					"text" : "pattr saturation- @bindto saturation- @autorestore 0",
 					"varname" : "saturation-[1]"
 				}
 
@@ -333,8 +333,6 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0.5 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[384]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
@@ -389,8 +387,6 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0.5 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[383]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
@@ -437,14 +433,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 444.0, 266.0, 191.0, 23.0 ],
+					"patching_rect" : [ 444.0, 266.0, 221.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr hue @bindto hue- @initial 0.",
+					"text" : "pattr hue @bindto hue- @autorestore 0",
 					"varname" : "hue"
 				}
 
@@ -525,8 +521,6 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[382]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
@@ -621,8 +615,6 @@
 					"saturation" : 1.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "swatch[4]",
 							"parameter_modmode" : 0,

@@ -41,31 +41,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 775.0, 448.0, 81.0, 23.0 ],
-					"text" : "a-mo.exposer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 776.306426948308854, 473.0, 70.0, 23.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-16",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
@@ -101,24 +76,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 881.0, 448.0, 58.0, 23.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 881.0, 473.0, 82.0, 23.0 ],
+					"patching_rect" : [ 774.806426948308854, 443.631139906100429, 82.0, 23.0 ],
 					"text" : "a-mo.settings"
 				}
 
@@ -130,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 938.0, 523.0, 70.0, 23.0 ],
+					"patching_rect" : [ 831.806426948308854, 493.631139906100429, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -142,7 +105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 881.0, 498.0, 127.0, 23.0 ],
+					"patching_rect" : [ 774.806426948308854, 468.631139906100429, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -256,7 +219,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-11",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2288,7 +2251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 890.5, 498.0, 890.5, 498.0 ],
+					"midpoints" : [ 784.306426948308854, 468.0, 784.306426948308854, 468.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2303,26 +2266,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 784.5, 474.0, 785.806426948308854, 474.0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 784.306426948308854, 435.0, 953.5, 435.0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 784.306426948308854, 408.0, 784.306426948308854, 408.0 ],
 					"order" : 0,
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 784.306426948308854, 408.0, 784.5, 408.0 ],
-					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -2331,7 +2277,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
 					"midpoints" : [ 784.306426948308854, 408.0, 711.0, 408.0, 711.0, 294.0, 691.306426948308854, 294.0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -2753,14 +2699,6 @@
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 784.2545314192771, 78.0, 784.306426948308854, 78.0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 890.5, 474.0, 890.5, 474.0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}

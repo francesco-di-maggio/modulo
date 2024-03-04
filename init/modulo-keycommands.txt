@@ -1,2 +1,2 @@
-max definecommand + patcher inserttextobj "bpatcher @name 
-max definecommandinstructions patcher + "modulo object or abstraction";
+max definecommand + patcher inserttextobj "bpatcher @name mo."
+max definecommandinstructions patcher + "modulo object or bpatcher";

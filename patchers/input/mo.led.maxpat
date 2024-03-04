@@ -377,7 +377,7 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.0, 585.0, 82.0, 23.0 ],
@@ -493,14 +493,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 770.0, 500.0, 180.0, 23.0 ],
+					"patching_rect" : [ 770.0, 500.0, 214.0, 23.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr led @bindto led- @initial 0",
+					"text" : "pattr led @bindto led- @autorestore 0",
 					"varname" : "led"
 				}
 
