@@ -40,6 +40,60 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Bold Regular",
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 525.5, 123.0, 21.0 ],
+					"presentation_linecount" : 3,
+					"text" : "LOAD AS BPATCHER:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-11",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 579.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "4",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-12",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 547.5, 582.0, 83.0 ],
+					"presentation_linecount" : 6,
+					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Type \"bpatcher mo.\" followed by the name of a module (e.g. bpatcher mo.sliders).\n     (Optional) Use the shortcut: \"Shift/+\" to create a new \"bpatcher @name mo.\" object.\n4. (Optional) Add @args \"...\" (e.g. bpatcher mo.sliders @args 4) to initialize the object with an attribute."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -442,9 +496,9 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.291666666666667, 0.965725806451613, 1.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.625, 0.262096774193548, 1.0 ],
 					"bgmode" : 0,
-					"border" : 0,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -673,7 +727,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 55.0, 62.5, 378.0, 68.0 ],
-					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Write the name of the module (e.g. mo.pad).\n4. (Optional) Navigate: Object > Transform > Patcher to Bpatcher."
+					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Type the name of the module (e.g. mo.pad).\n4. (Optional) Navigate: Object > Transform > Patcher to Bpatcher."
 				}
 
 			}
