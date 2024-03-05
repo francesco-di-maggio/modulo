@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 214.0, 45.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 406.0, 515.0, 82.0, 23.0 ],
@@ -300,7 +300,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "2 : 33 : 51 : 645",
+					"text" : "0 : 27 : 11 : 297",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -356,7 +356,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 115.495357602834702, 27.371792723306498, 96.0, 14.0 ],
 					"rounded" : 0.0,
-					"text" : "14 : 37 : 16",
+					"text" : "23 : 37 : 32",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -467,7 +467,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 27.371792723306498, 106.0, 14.0 ],
 					"rounded" : 0.0,
-					"text" : "1 / 3 / 2024",
+					"text" : "5 / 3 / 2024",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -424,17 +424,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-21" : [ "live.text[30]", "live.text", 0 ],
+			"obj-10::obj-21" : [ "live.text[35]", "live.text", 0 ],
 			"obj-10::obj-3" : [ "slider-[21]", "slider-", 0 ],
 			"obj-10::obj-35" : [ "live.text[34]", "live.text", 0 ],
+			"obj-10::obj-38" : [ "live.text[30]", "live.text", 0 ],
 			"obj-10::obj-56" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-11::obj-21" : [ "live.text[29]", "live.text", 0 ],
+			"obj-11::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-11::obj-3" : [ "slider-[6]", "slider-", 0 ],
 			"obj-11::obj-35" : [ "live.text[33]", "live.text", 0 ],
+			"obj-11::obj-38" : [ "live.text[4]", "live.text", 0 ],
 			"obj-11::obj-56" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-12::obj-21" : [ "live.text[32]", "live.text", 0 ],
 			"obj-12::obj-3" : [ "slider-[20]", "slider-", 0 ],
 			"obj-12::obj-35" : [ "live.text[18]", "live.text", 0 ],
+			"obj-12::obj-38" : [ "live.text[29]", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-39::obj-13" : [ "live.text[16]", "live.text", 0 ],
 			"obj-39::obj-14" : [ "live.button[4]", "live.button", 0 ],
@@ -453,14 +456,17 @@
 			"obj-5::obj-21" : [ "live.text[242]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[240]", "live.text", 0 ],
+			"obj-5::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-5::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-6::obj-21" : [ "live.text[11]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[4]", "slider-", 0 ],
 			"obj-6::obj-35" : [ "live.text[21]", "live.text", 0 ],
+			"obj-6::obj-38" : [ "live.text[2]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-7::obj-21" : [ "live.text[22]", "live.text", 0 ],
 			"obj-7::obj-3" : [ "slider-[5]", "slider-", 0 ],
 			"obj-7::obj-35" : [ "live.text[13]", "live.text", 0 ],
+			"obj-7::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-7::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -473,11 +479,15 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-10::obj-21" : 				{
-					"parameter_longname" : "live.text[30]"
+					"parameter_longname" : "live.text[35]"
 				}
 ,
 				"obj-10::obj-35" : 				{
 					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-10::obj-38" : 				{
+					"parameter_longname" : "live.text[30]"
 				}
 ,
 				"obj-10::obj-56" : 				{
@@ -485,11 +495,15 @@
 				}
 ,
 				"obj-11::obj-21" : 				{
-					"parameter_longname" : "live.text[29]"
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-11::obj-35" : 				{
 					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-11::obj-38" : 				{
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-11::obj-56" : 				{
@@ -502,6 +516,10 @@
 ,
 				"obj-12::obj-35" : 				{
 					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-12::obj-38" : 				{
+					"parameter_longname" : "live.text[29]"
 				}
 ,
 				"obj-12::obj-56" : 				{
@@ -582,6 +600,10 @@
 					"parameter_longname" : "live.text[21]"
 				}
 ,
+				"obj-6::obj-38" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-6::obj-56" : 				{
 					"parameter_longname" : "live.numbox[9]"
 				}
@@ -592,6 +614,10 @@
 ,
 				"obj-7::obj-35" : 				{
 					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-7::obj-38" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-7::obj-56" : 				{
@@ -618,6 +644,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.record.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
@@ -625,31 +658,31 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

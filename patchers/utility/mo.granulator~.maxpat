@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 430.0, 170.0 ],
+		"rect" : [ 0.0, 53.0, 430.0, 170.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 169.975903391838074 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1803,7 +1803,7 @@
 					"hidden" : 1,
 					"id" : "obj-58",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 820.0, 717.250000000000227, 82.0, 23.0 ],

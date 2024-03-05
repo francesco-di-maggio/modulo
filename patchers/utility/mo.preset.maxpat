@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 214.0, 79.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 79.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 79.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -238,7 +238,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -267,7 +267,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.0, 5.0, 103.0, 13.0 ],
 					"rounded" : 0.0,
-					"text" : "p-mo.workflow-1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -613,7 +612,7 @@
 				"box" : 				{
 					"comment" : "(message) to pattrstorage",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -698,7 +697,7 @@
 				"box" : 				{
 					"comment" : "(message) set, folder, recall, multirecall, read, write, clear",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2342,6 +2341,46 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "live.text[676]", "live.text", 0 ],
+			"obj-43" : [ "live.text[136]", "live.text", 0 ],
+			"obj-46" : [ "live.text[137]", "live.text", 0 ],
+			"obj-48" : [ "live.text[103]", "live.text", 0 ],
+			"obj-50" : [ "live.text[117]", "live.text", 0 ],
+			"obj-51" : [ "live.text[204]", "live.text", 0 ],
+			"obj-52" : [ "live.numbox[39]", "live.text", 0 ],
+			"obj-53" : [ "live.text[139]", "live.text", 0 ],
+			"obj-55" : [ "live.text[138]", "live.text", 0 ],
+			"obj-62" : [ "live.numbox[69]", "live.numbox", 0 ],
+			"obj-64" : [ "live.text[135]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

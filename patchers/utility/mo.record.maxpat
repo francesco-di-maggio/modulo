@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 214.0, 84.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -75,7 +75,7 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 916.858322477340835, 565.885147094726562, 82.0, 23.0 ],
@@ -155,7 +155,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[990]",
+							"parameter_longname" : "live.text[92]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -207,7 +207,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[991]",
+							"parameter_longname" : "live.text[65]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -389,7 +389,7 @@
 					"presentation_rect" : [ 24.702159625314579, 66.657977014485255, 141.0, 11.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"signed" : 1,
-					"slidercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+					"slidercolor" : [ 0.984313725490196, 0.007843137254902, 0.027450980392157, 1.0 ],
 					"spacing" : 3,
 					"varname" : "Slider-MS"
 				}
@@ -973,7 +973,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[131]",
+							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1022,7 +1022,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[256]",
+							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1073,7 +1073,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[257]",
+							"parameter_longname" : "live.text[25]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1132,7 +1132,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[878]",
+							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1184,7 +1184,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[170]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -1243,7 +1243,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[265]",
+							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1297,7 +1297,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[992]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1383,7 +1383,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[10]",
+							"parameter_longname" : "live.button[3]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button",
@@ -1569,7 +1569,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[216]",
+							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 5.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
@@ -1678,7 +1678,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[725]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -2743,20 +2743,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "live.text[265]", "live.text", 0 ],
+			"obj-13" : [ "live.text[16]", "live.text", 0 ],
 			"obj-14" : [ "live.button[4]", "live.button", 0 ],
-			"obj-2" : [ "live.text[990]", "live.text", 0 ],
-			"obj-21" : [ "live.text[992]", "live.text", 0 ],
-			"obj-3" : [ "live.text[256]", "live.text", 0 ],
-			"obj-37" : [ "live.text[725]", "live.text", 0 ],
+			"obj-2" : [ "live.text[92]", "live.text", 0 ],
+			"obj-21" : [ "live.text[9]", "live.text", 0 ],
+			"obj-3" : [ "live.text[28]", "live.text", 0 ],
+			"obj-37" : [ "live.text[6]", "live.text", 0 ],
 			"obj-44" : [ "live.numbox[8]", "live.dial[12]", 0 ],
-			"obj-45" : [ "live.text[257]", "live.text", 0 ],
-			"obj-59" : [ "live.numbox[216]", "live.numbox", 0 ],
-			"obj-6" : [ "live.numbox[170]", "live.numbox", 0 ],
-			"obj-60" : [ "live.button[10]", "live.button", 0 ],
-			"obj-85" : [ "live.text[131]", "live.text", 0 ],
-			"obj-9" : [ "live.text[991]", "live.text", 0 ],
-			"obj-92" : [ "live.text[878]", "live.text", 0 ],
+			"obj-45" : [ "live.text[25]", "live.text", 0 ],
+			"obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-6" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-60" : [ "live.button[3]", "live.button", 0 ],
+			"obj-85" : [ "live.text[27]", "live.text", 0 ],
+			"obj-9" : [ "live.text[65]", "live.text", 0 ],
+			"obj-92" : [ "live.text[26]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
