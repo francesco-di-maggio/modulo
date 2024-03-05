@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 528.0, 694.0 ],
+		"rect" : [ 34.0, 87.0, 528.0, 623.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,31 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 0.4 ],
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.smooth.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 367.0, 70.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 349.5, 70.0, 62.0 ],
-					"varname" : "mo.smooth",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -78,9 +53,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 20.0, 638.0, 214.0, 70.0 ],
+					"patching_rect" : [ 20.0, 558.0, 214.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 603.0, 214.0, 70.0 ],
+					"presentation_rect" : [ 20.0, 531.0, 214.0, 70.0 ],
 					"varname" : "mo.dac~[1]",
 					"viewvisibility" : 1
 				}
@@ -102,9 +77,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 20.0, 448.5, 214.0, 170.0 ],
+					"patching_rect" : [ 20.0, 368.0, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 422.25, 214.0, 170.0 ],
+					"presentation_rect" : [ 20.0, 350.0, 214.0, 170.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -141,9 +116,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.0, 660.5, 74.0, 25.0 ],
+					"patching_rect" : [ 356.0, 581.0, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 626.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 361.0, 554.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -163,9 +138,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 328.0, 662.5, 20.0, 20.0 ],
+					"patching_rect" : [ 328.0, 583.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 334.0, 628.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 334.0, 556.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -183,9 +158,9 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 650.5, 45.0, 45.0 ],
+					"patching_rect" : [ 273.0, 571.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 616.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 275.0, 544.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -256,9 +231,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 569.0, 102.0, 25.0 ],
+					"patching_rect" : [ 273.0, 489.0, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 540.0, 102.0, 25.0 ],
+					"presentation_rect" : [ 275.0, 469.0, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -278,9 +253,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.0, 571.0, 20.0, 20.0 ],
+					"patching_rect" : [ 246.0, 491.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 542.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 249.0, 471.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -346,9 +321,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 193.5, 214.0, 154.0 ],
+					"patching_rect" : [ 20.0, 194.0, 214.0, 154.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 184.75, 214.0, 154.0 ],
+					"presentation_rect" : [ 20.0, 185.0, 214.0, 154.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -436,14 +411,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 29.5, 432.0, 29.5, 432.0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 599.88113662352157, 81.0, 599.88113662352157, 81.0 ],
 					"source" : [ "obj-14", 0 ]
@@ -477,15 +444,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 29.5, 621.0, 29.5, 621.0 ],
+					"midpoints" : [ 29.5, 540.0, 29.5, 540.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 29.5, 348.0, 29.5, 348.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 29.5, 351.0, 29.5, 351.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -564,8 +531,6 @@
 			"obj-18::obj-74::obj-35" : [ "live.text[17]", "live.text", 0 ],
 			"obj-18::obj-74::obj-8" : [ "live.text[1]", "live.text", 0 ],
 			"obj-18::obj-74::obj-9" : [ "slider-[3]", "slider-[2]", 0 ],
-			"obj-1::obj-13" : [ "live.numbox[19]", "live.numbox", 0 ],
-			"obj-1::obj-15" : [ "live.text[64]", "live.text", 0 ],
 			"obj-6::obj-111" : [ "live.dial[38]", "detune", 0 ],
 			"obj-6::obj-112" : [ "live.dial[42]", "decay", 0 ],
 			"obj-6::obj-113" : [ "live.dial[15]", "attack", 0 ],
@@ -885,10 +850,6 @@
 					"parameter_longname" : "live.text[1]"
 				}
 ,
-				"obj-1::obj-15" : 				{
-					"parameter_longname" : "live.text[64]"
-				}
-,
 				"obj-6::obj-34" : 				{
 					"parameter_longname" : "live.text[61]"
 				}
@@ -1175,13 +1136,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1248,13 +1202,6 @@
 				"name" : "mo.sliders.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.smooth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
