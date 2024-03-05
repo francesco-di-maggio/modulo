@@ -173,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 90.0, 568.461547999999993, 81.0, 23.0 ],
+					"patching_rect" : [ 90.0, 568.461547999999993, 82.0, 23.0 ],
 					"text" : "mc.pack~"
 				}
 
@@ -463,7 +463,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 326.5, 146.0, 68.0 ],
+					"patching_rect" : [ 200.0, 319.5, 146.0, 68.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 274.5, 21.0, 146.0, 68.0 ],
@@ -760,7 +760,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-134", 1 ],
-					"midpoints" : [ 162.0, 564.0, 161.5, 564.0 ],
+					"midpoints" : [ 162.0, 564.0, 162.5, 564.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 

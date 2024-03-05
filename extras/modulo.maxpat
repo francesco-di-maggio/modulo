@@ -1120,7 +1120,6 @@
 					"fontsize" : 18.0,
 					"id" : "obj-39",
 					"maxclass" : "live.text",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -5746,8 +5745,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 90.0, 501.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 96.0, 501.0, 30.0 ],
-					"text" : "A Toolkit for Tinkering with Digital Musical Instruments."
+					"presentation_rect" : [ 202.0, 96.0, 495.0, 30.0 ],
+					"text" : "A Toolkit for Tinkering with Digital Musical Instruments"
 				}
 
 			}
@@ -5776,7 +5775,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 27.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 33.411127424189658, 173.0, 67.0 ],
+					"presentation_rect" : [ 202.0, 33.0, 173.0, 67.0 ],
 					"text" : "modulo",
 					"underline" : 1
 				}
@@ -6605,6 +6604,10 @@
 					"parameter_longname" : "live.text[93]"
 				}
 ,
+				"obj-19::obj-1::obj-2::obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[204]"
+				}
+,
 				"obj-19::obj-1::obj-2::obj-1::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[4]"
 				}
@@ -6615,6 +6618,14 @@
 ,
 				"obj-19::obj-1::obj-2::obj-1::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[95]"
+				}
+,
+				"obj-19::obj-1::obj-2::obj-1::obj-38" : 				{
+					"parameter_longname" : "live.text[196]"
+				}
+,
+				"obj-19::obj-1::obj-2::obj-1::obj-4" : 				{
+					"parameter_longname" : "live.text[185]"
 				}
 ,
 				"obj-19::obj-1::obj-2::obj-1::obj-40::obj-20" : 				{
