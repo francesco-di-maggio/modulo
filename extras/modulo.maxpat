@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 45.0, 730.0, 730.0 ],
+		"rect" : [ 34.0, 53.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -2244,7 +2244,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -730.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -2795,7 +2795,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 667.52661058306694, 22.0 ],
-									"text" : "–  create a new object from a patcher window using different methods  –",
+									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -3354,7 +3354,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 489.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 679.52661058306694, 22.0 ],
-									"text" : "–  transform multichannel audio signals into a list of numeric values  –",
+									"text" : "–  perform different click behaviours: click, double-click, and hold  –",
 									"textjustification" : 1
 								}
 
@@ -3873,7 +3873,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 119.5, 680.0, 22.0 ],
-									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
+									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
 								}
 
 							}
@@ -4665,7 +4665,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Blinker", "Conditioner", "Interpolator", "LEGO", "Many To One", "Mapper", "Max To DAW", "Messenger", "New Object", "One To Many", "Randomizer", "Recorder", "Trigger Events", "Visualizer", "Workflow" ],
+											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Granulator", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
 											"parameter_mmax" : 14,
 											"parameter_modmode" : 0,
@@ -6238,22 +6238,22 @@
 			"obj-47::obj-9::obj-6.2::obj-38" : [ "live.numbox[10]", "live.text", 0 ],
 			"obj-7::obj-11" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-7::obj-12" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-7::obj-30::obj-126" : [ "live.text[44]", "live.text", 0 ],
-			"obj-7::obj-30::obj-16" : [ "live.text[16]", "live.text", 0 ],
-			"obj-7::obj-30::obj-51" : [ "live.numbox[63]", "live.numbox", 0 ],
-			"obj-7::obj-30::obj-74" : [ "live.text[28]", "live.text", 0 ],
-			"obj-7::obj-30::obj-75" : [ "live.text[24]", "live.text", 0 ],
-			"obj-7::obj-30::obj-78" : [ "live.text[45]", "live.text", 0 ],
+			"obj-7::obj-30::obj-126" : [ "live.text[410]", "live.text", 0 ],
+			"obj-7::obj-30::obj-16" : [ "live.text[412]", "live.text", 0 ],
+			"obj-7::obj-30::obj-51" : [ "live.numbox[158]", "live.numbox", 0 ],
+			"obj-7::obj-30::obj-74" : [ "live.text[427]", "live.text", 0 ],
+			"obj-7::obj-30::obj-75" : [ "live.text[413]", "live.text", 0 ],
+			"obj-7::obj-30::obj-78" : [ "live.text[411]", "live.text", 0 ],
 			"obj-7::obj-32::obj-45" : [ "live.text[10]", "live.text", 0 ],
 			"obj-7::obj-32::obj-53" : [ "live.text[32]", "live.text", 0 ],
 			"obj-7::obj-32::obj-9" : [ "live.text[31]", "live.text", 0 ],
 			"obj-7::obj-46" : [ "live.menu[18]", "live.menu", 0 ],
-			"obj-7::obj-47::obj-126" : [ "live.text[838]", "live.text", 0 ],
-			"obj-7::obj-47::obj-16" : [ "live.text[837]", "live.text", 0 ],
-			"obj-7::obj-47::obj-51" : [ "live.numbox[379]", "live.numbox", 0 ],
-			"obj-7::obj-47::obj-74" : [ "live.text[839]", "live.text", 0 ],
-			"obj-7::obj-47::obj-75" : [ "live.text[840]", "live.text", 0 ],
-			"obj-7::obj-47::obj-78" : [ "live.text[836]", "live.text", 0 ],
+			"obj-7::obj-47::obj-126" : [ "live.text[157]", "live.text", 0 ],
+			"obj-7::obj-47::obj-16" : [ "live.text[156]", "live.text", 0 ],
+			"obj-7::obj-47::obj-51" : [ "live.numbox[86]", "live.numbox", 0 ],
+			"obj-7::obj-47::obj-74" : [ "live.text[160]", "live.text", 0 ],
+			"obj-7::obj-47::obj-75" : [ "live.text[158]", "live.text", 0 ],
+			"obj-7::obj-47::obj-78" : [ "live.text[159]", "live.text", 0 ],
 			"obj-7::obj-48::obj-45" : [ "live.text[786]", "live.text", 0 ],
 			"obj-7::obj-48::obj-53" : [ "live.text[787]", "live.text", 0 ],
 			"obj-7::obj-48::obj-9" : [ "live.text[785]", "live.text", 0 ],
@@ -7164,30 +7164,6 @@
 					"parameter_longname" : "live.numbox[10]"
 				}
 ,
-				"obj-7::obj-30::obj-126" : 				{
-					"parameter_longname" : "live.text[44]"
-				}
-,
-				"obj-7::obj-30::obj-16" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-7::obj-30::obj-51" : 				{
-					"parameter_longname" : "live.numbox[63]"
-				}
-,
-				"obj-7::obj-30::obj-74" : 				{
-					"parameter_longname" : "live.text[28]"
-				}
-,
-				"obj-7::obj-30::obj-75" : 				{
-					"parameter_longname" : "live.text[24]"
-				}
-,
-				"obj-7::obj-30::obj-78" : 				{
-					"parameter_longname" : "live.text[45]"
-				}
-,
 				"obj-7::obj-32::obj-45" : 				{
 					"parameter_longname" : "live.text[10]"
 				}
@@ -7198,6 +7174,30 @@
 ,
 				"obj-7::obj-32::obj-9" : 				{
 					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-7::obj-47::obj-126" : 				{
+					"parameter_longname" : "live.text[157]"
+				}
+,
+				"obj-7::obj-47::obj-16" : 				{
+					"parameter_longname" : "live.text[156]"
+				}
+,
+				"obj-7::obj-47::obj-51" : 				{
+					"parameter_longname" : "live.numbox[86]"
+				}
+,
+				"obj-7::obj-47::obj-74" : 				{
+					"parameter_longname" : "live.text[160]"
+				}
+,
+				"obj-7::obj-47::obj-75" : 				{
+					"parameter_longname" : "live.text[158]"
+				}
+,
+				"obj-7::obj-47::obj-78" : 				{
+					"parameter_longname" : "live.text[159]"
 				}
 
 			}
