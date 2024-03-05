@@ -464,6 +464,7 @@
 			"obj-5::obj-21" : [ "live.text[883]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-[50]", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[880]", "live.text", 0 ],
+			"obj-5::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-5::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -481,6 +482,14 @@
 ,
 				"obj-5::obj-35" : 				{
 					"parameter_longname" : "live.text[880]"
+				}
+,
+				"obj-5::obj-38" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[1]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-5::obj-56" : 				{
