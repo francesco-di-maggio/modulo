@@ -5745,7 +5745,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 90.0, 501.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 96.0, 495.0, 30.0 ],
+					"presentation_rect" : [ 202.0, 86.0, 495.0, 30.0 ],
 					"text" : "A Toolkit for Tinkering with Digital Musical Instruments"
 				}
 
@@ -5775,7 +5775,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 27.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 33.0, 173.0, 67.0 ],
+					"presentation_rect" : [ 202.0, 23.0, 173.0, 67.0 ],
 					"text" : "modulo",
 					"underline" : 1
 				}
