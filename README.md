@@ -10,7 +10,8 @@ Think of it as a LEGO set for your musical ideas. Each module is designed with s
 
 ## Architecture
 
-```modulo``` is a modular ecosystem that allows the user to seamlessly interchange bespoke sound and modulation stages for rapid prototyping of digital musical instruments. Each module represents a building block in the processing chain. The system consists of different types of modules, from input signal generators to control processing algorithms such as smoothing, calibrating and scaling, sound synthesis and output routers. These modules are presented with an adjustable user-friendly GUI, making it easy to access main control parameters and settings. Moreover, to streamline the patching experience, all modules share the same logic of "one-cable" patching, eliminating the hassle of connecting multiple input and output cables.
+```modulo``` is a modular ecosystem that allows the user to seamlessly interchange bespoke sound and modulation stages for rapid prototyping of digital musical instruments. Each module represents a building block in the processing chain. The system consists of different types of module, from input signal generators to control processing algorithms such as smoothing, calibrating and scaling, sound synthesis, recorders and routers. To streamline the patching experience, all modules share the same logic of "one-cable" patching, eliminating the hassle of connecting multiple input and output cables.
+Moreover, modules are encapsulated within an adjustable user-friendly GUI, making it easy to access, store and recall main control parameters and settings. 
 
 ### Modules
 
