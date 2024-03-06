@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -98,7 +98,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 381.0, 173.0, 214.0, 18.0 ],
-					"pattrstorage" : "p-mo.legos",
+					"pattrstorage" : "p-mo.lego",
 					"presentation" : 1,
 					"presentation_rect" : [ 381.0, 172.845875054597855, 214.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -115,6 +115,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "p-mo.lego.json",
 					"hidden" : 1,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -137,7 +138,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "p-mo.legos"
+					"varname" : "p-mo.lego"
 				}
 
 			}
@@ -342,7 +343,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 306.845875054597855, 70.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 306.845875054597855, 70.0, 62.0 ],
@@ -590,6 +591,7 @@
 			"obj-10::obj-46" : [ "live.text[137]", "live.text", 0 ],
 			"obj-10::obj-48" : [ "live.text[103]", "live.text", 0 ],
 			"obj-10::obj-50" : [ "live.text[117]", "live.text", 0 ],
+			"obj-10::obj-51" : [ "live.text[204]", "live.text", 0 ],
 			"obj-10::obj-52" : [ "live.numbox[39]", "live.text", 0 ],
 			"obj-10::obj-53" : [ "live.text[139]", "live.text", 0 ],
 			"obj-10::obj-55" : [ "live.text[17]", "live.text", 0 ],
@@ -597,7 +599,8 @@
 			"obj-10::obj-64" : [ "live.text[135]", "live.text", 0 ],
 			"obj-12::obj-3" : [ "live.text[238]", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.numbox[502]", "live.numbox", 0 ],
-			"obj-16::obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-16::obj-1" : [ "live.text[4]", "live.text", 0 ],
+			"obj-16::obj-18" : [ "live.text[928]", "live.text", 0 ],
 			"obj-16::obj-2" : [ "live.text[8]", "live.text", 0 ],
 			"obj-16::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-16::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
@@ -605,17 +608,19 @@
 			"obj-18::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-18::obj-3" : [ "slider-[11]", "slider-", 0 ],
 			"obj-18::obj-35" : [ "live.text[53]", "live.text", 0 ],
+			"obj-18::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-18::obj-56" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-13" : [ "live.numbox[353]", "live.numbox", 0 ],
 			"obj-1::obj-9" : [ "live.text[138]", "live.text", 0 ],
 			"obj-20::obj-166" : [ "live.numbox[43]", "live.numbox", 0 ],
 			"obj-20::obj-56" : [ "live.text[52]", "live.text", 0 ],
 			"obj-20::obj-62" : [ "live.numbox[42]", "live.numbox", 0 ],
-			"obj-20::obj-70" : [ "live.text[1]", "live.text", 0 ],
+			"obj-20::obj-70" : [ "live.text[18]", "live.text", 0 ],
 			"obj-20::obj-9" : [ "live.text[11]", "live.text", 0 ],
 			"obj-21::obj-21" : [ "live.text[242]", "live.text", 0 ],
 			"obj-21::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-21::obj-35" : [ "live.text[240]", "live.text", 0 ],
+			"obj-21::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-21::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-25::obj-13" : [ "live.numbox[202]", "live.numbox", 0 ],
 			"obj-25::obj-15" : [ "live.text[136]", "live.text", 0 ],
@@ -663,6 +668,26 @@
 					"parameter_longname" : "live.text[17]"
 				}
 ,
+				"obj-16::obj-1" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-16::obj-2" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-16::obj-37" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-16::obj-39" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-16::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
+				}
+,
 				"obj-18::obj-19" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -673,6 +698,14 @@
 ,
 				"obj-18::obj-56" : 				{
 					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "live.numbox[353]"
+				}
+,
+				"obj-1::obj-9" : 				{
+					"parameter_longname" : "live.text[138]"
 				}
 ,
 				"obj-20::obj-166" : 				{
@@ -687,6 +720,10 @@
 					"parameter_longname" : "live.numbox[42]"
 				}
 ,
+				"obj-20::obj-70" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
 				"obj-20::obj-9" : 				{
 					"parameter_longname" : "live.text[11]"
 				}
@@ -697,6 +734,10 @@
 ,
 				"obj-21::obj-35" : 				{
 					"parameter_longname" : "live.text[240]"
+				}
+,
+				"obj-21::obj-38" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-25::obj-13" : 				{
@@ -713,6 +754,18 @@
 ,
 				"obj-2::obj-30" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-31::obj-1" : 				{
+					"parameter_longname" : "live.text[562]"
+				}
+,
+				"obj-31::obj-64" : 				{
+					"parameter_longname" : "live.numbox[423]"
+				}
+,
+				"obj-31::obj-72" : 				{
+					"parameter_longname" : "live.numbox[350]"
 				}
 ,
 				"obj-37::obj-22" : 				{
@@ -741,13 +794,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -846,6 +892,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.smooth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
@@ -885,6 +938,19 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-mo.lego.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
