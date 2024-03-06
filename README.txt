@@ -6,17 +6,15 @@ A Toolkit for Tinkering with Digital Musical Instruments.
 
 ## About 
 
-Think of it as a LEGO® set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize, and extend your own musical tools in a modular and multichannel workflow. Happy patching!
+Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow.
 
 ## Architecture
 
-### Modularisation of Max objects
-
-Each module is a wrapper around a specific Max object (e.g. ```mo.record``` > ```mtr```, ```mo.dial``` > ```dial```). Key control parameters are displayed in the top-level GUI, allowing users to flexibly interchange modules for rapid prototyping. 
+```modulo``` is a modular ecosystem that allows the user to seamlessly interchange bespoke sound and modulation stages for rapid prototyping of digital musical instruments. Each module represents a building block in the processing chain. The system consists of different types of modules, from input signal generators to control processing algorithms such as smoothing, calibrating and scaling, sound synthesis and output routers. These modules are presented with an adjustable user-friendly GUI, making it easy to access main control parameters and settings. Moreover, to streamline the patching experience, all modules share the same logic of "one-cable" patching, eliminating the hassle of connecting multiple input and output cables.
 
 ### Modules
 
-While the toolkit focuses on acquiring, processing and mapping input data to sound, the routing modules make it easy to connect users to their own workflow and sound synthesis tools.
+While the toolkit focuses on acquiring, processing and mapping input data to sound, the routing and utility modules make it easy to connect to different workflows and external sound synthesis tools.
 
 - [```input```](https://github.com/francesco-di-maggio/modulo/tree/main/patchers/input) modules capture, display and map input data, such as pads, sliders, and computer keyboard input.
 
