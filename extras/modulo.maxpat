@@ -2213,7 +2213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2752,7 +2752,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 493.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 667.52661058306694, 22.0 ],
-									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  connect the gryOSC app and stream quaternion and button values  –",
 									"textjustification" : 1
 								}
 
@@ -3846,7 +3846,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 601.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 119.5, 677.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -4676,7 +4676,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.cpu", "mo.cue", "mo.date", "mo.fm~", "mo.gain~", "mo.granulator~", "mo.gridmeter~", "mo.launch", "mo.lfo~", "mo.map", "mo.meter~", "mo.monitor", "mo.notepad", "mo.playlist~", "mo.prepend", "mo.preset", "mo.record", "mo.record~", "mo.route", "mo.scope", "mo.scope~", "mo.spectroscope~", "mo.swatch", "mo.theremin~", "mo.transport" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_modmode" : 0,
