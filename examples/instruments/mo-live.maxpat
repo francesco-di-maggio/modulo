@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -117,7 +117,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@mode", 2 ],
+					"args" : [ "@mode", 2, "@port", 1, "@octave", -1 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -149,7 +149,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 417.0, 210.0, 106.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 280.0, 106.0, 40.0 ],
+					"presentation_rect" : [ 158.0, 277.0, 106.0, 40.0 ],
 					"text" : "launch the live set",
 					"textjustification" : 1
 				}
@@ -1045,6 +1045,10 @@
 					"parameter_longname" : "live.numbox[82]"
 				}
 ,
+				"obj-6::obj-5" : 				{
+					"parameter_longname" : "live.text[80]"
+				}
+,
 				"obj-6::obj-50::obj-35" : 				{
 					"parameter_longname" : "live.text[72]"
 				}
@@ -1065,8 +1069,16 @@
 					"parameter_longname" : "live.numbox[85]"
 				}
 ,
+				"obj-6::obj-53" : 				{
+					"parameter_longname" : "live.text[295]"
+				}
+,
 				"obj-6::obj-56" : 				{
 					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-6::obj-72" : 				{
+					"parameter_longname" : "live.numbox[550]"
 				}
 ,
 				"obj-6::obj-74::obj-35" : 				{
@@ -1110,13 +1122,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1125,13 +1130,6 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -1177,6 +1175,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
