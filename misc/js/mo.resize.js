@@ -15,8 +15,8 @@ function bang() {
 	if (p.getattr("presentation_rect") == null) { // bpatchers return null for presentation_rect, as opposed to normal patchers	
 
 	var resize = p.getattr("openrect");
-
-	//post('bpatcher');
+	
+//	post(resize);
 	
 	// this.patcher.box.varname = "bp_" + Math.random()*10000; 
 	b.message("script", "sendbox", p.varname, "patching_size", resize[2], resize[3]); 
