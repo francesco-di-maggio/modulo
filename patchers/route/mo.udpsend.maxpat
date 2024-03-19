@@ -16,7 +16,7 @@
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 1,
@@ -61,8 +61,15 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 26.871792723306498, 125.350895643234253, 14.093006536364555 ],
 					"rounded" : 0.0,
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
 					"text" : "127.0.0.1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "host-"
 				}
@@ -108,8 +115,15 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 138.0, 26.871792723306498, 70.568100947886705, 14.093006536364555 ],
 					"rounded" : 0.0,
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
 					"text" : "7400",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
 				}

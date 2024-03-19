@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 79.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 79.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -158,7 +158,14 @@
 					"patching_rect" : [ 976.0, 597.0, 235.541572435292437, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 86.0, 2.0, 20.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "savemode-"
 				}
@@ -275,7 +282,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
 				}
@@ -789,7 +795,14 @@
 					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/%/help/input/media/",
 					"presentation" : 1,
 					"presentation_rect" : [ 89.674522877094859, 57.840994710187545, 121.053506050892594, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Folder-UM"
 				}
 

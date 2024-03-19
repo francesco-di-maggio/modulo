@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 96.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -96,7 +96,14 @@
 					"patching_rect" : [ 394.383321126302008, 686.626276284456253, 44.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.374926686286926, 58.029153622686863, 61.835265874862671, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
@@ -139,7 +146,14 @@
 					"patching_rect" : [ 266.54998779296875, 686.626276284456253, 44.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.374926686286926, 75.141994036734104, 61.835265874862671, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
@@ -850,7 +864,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
-					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-37",
 					"maxclass" : "live.text",
@@ -868,10 +881,6 @@
 ,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_bar"
-						}
-,
-						"bordercolor" : 						{
-							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"focusbordercolor" : 						{

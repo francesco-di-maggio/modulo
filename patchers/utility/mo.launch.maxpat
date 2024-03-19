@@ -42,6 +42,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"id" : "obj-99",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 566.0, 233.799999713897819, 33.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 66.087920977805538, 4.0, 98.597665100286918, 15.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1.0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"id" : "obj-74",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 695.0, 332.949999928474483, 140.0, 43.100000143051091 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 66.087920977805538, 4.0, 98.597665100286918, 13.0 ],
+					"rounded" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
@@ -80,22 +112,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 451.0, 87.550000071525531, 67.0, 23.0 ],
 					"text" : "route done"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-99",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 566.0, 233.799999713897819, 33.0, 42.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 66.087920977805538, 4.0, 98.597665100286918, 15.0 ]
 				}
 
 			}
@@ -273,15 +289,8 @@
 					"patching_rect" : [ 743.0, 345.5, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.386753527948997, 2.5, 92.0, 18.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_text_selection"
-						}
-
-					}
-,
 					"text" : "drop here",
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -352,25 +361,8 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 1.0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"id" : "obj-74",
-					"maxclass" : "dropfile",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 695.0, 332.949999928474483, 140.0, 43.100000143051091 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 66.087920977805538, 4.0, 98.597665100286918, 13.0 ],
-					"rounded" : 0.0
 				}
 
 			}

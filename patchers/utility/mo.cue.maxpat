@@ -239,7 +239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 652.5, 30.0, 18.0 ],
+					"patching_rect" : [ 160.0, 652.5, 31.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.989975563522421, 25.0, 27.0, 18.0 ],
 					"text" : "step"
@@ -471,7 +471,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fgcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"id" : "obj-60",
 					"maxclass" : "incdec",
 					"numinlets" : 1,
@@ -727,7 +726,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "cue-"
 				}
 

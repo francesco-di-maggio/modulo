@@ -730,6 +730,10 @@
 							"expression" : ""
 						}
 ,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_longname" : "live.tab",

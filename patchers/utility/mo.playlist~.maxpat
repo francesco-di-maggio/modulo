@@ -66,9 +66,9 @@
 								"filename" : "brushes.aif",
 								"filekind" : "audiofile",
 								"id" : "u501007193",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -99,11 +99,15 @@
 						"selectioncolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
 
 					}
 ,
 					"selectioncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"timestretch" : [ 0 ],
 					"waveformdisplay" : 0
 				}

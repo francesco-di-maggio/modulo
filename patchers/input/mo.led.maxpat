@@ -661,7 +661,14 @@
 					"patching_rect" : [ 322.0, 202.5, 76.707317113876343, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 14.5, 20.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_selection"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "color-"
 				}
 
