@@ -186,6 +186,8 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -258,7 +260,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.5, 27.0, 171.0, 37.0 ],
+					"patching_rect" : [ 493.5, 49.0, 171.0, 37.0 ],
 					"text" : ";\rmax colortheme dark-graphite"
 				}
 
@@ -271,7 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 27.0, 135.0, 37.0 ],
+					"patching_rect" : [ 354.0, 49.0, 135.0, 37.0 ],
 					"text" : ";\rmax colortheme default"
 				}
 
@@ -582,7 +584,7 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hilite" : 0,
+					"hltcolor" : [ 0.0, 0.0, 0.0, 0.2 ],
 					"id" : "obj-20",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -591,7 +593,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 344.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.0, 173.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 620.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"rounded" : 8.0
 				}
 
 			}
@@ -737,7 +740,7 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hilite" : 0,
+					"hltcolor" : [ 0.0, 0.0, 0.0, 0.2 ],
 					"id" : "obj-16",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -746,7 +749,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 592.0, 173.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 592.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"rounded" : 8.0
 				}
 
 			}
@@ -1351,6 +1355,8 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1418,7 +1424,7 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hilite" : 0,
+					"hltcolor" : [ 0.0, 0.0, 0.0, 0.2 ],
 					"id" : "obj-8",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -1427,7 +1433,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 564.0, 173.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 564.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"rounded" : 8.0
 				}
 
 			}
@@ -5908,6 +5915,8 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -5920,7 +5929,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 90.0, 507.0, 30.0 ],
+					"patching_rect" : [ 172.0, 90.0, 495.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.0, 96.0, 495.0, 30.0 ],
 					"text" : "A Toolkit for Tinkering with Digital Musical Instruments"
