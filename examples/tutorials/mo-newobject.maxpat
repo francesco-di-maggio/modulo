@@ -465,12 +465,12 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-21",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 39.0, 242.0, 50.0 ],
-					"text" : "NOTE: In the Inspector you may:\n• change background color \n• enable/disable border, or use thispatcher"
+					"patching_rect" : [ 883.0, 29.0, 242.0, 64.0 ],
+					"text" : "NOTE: In the Inspector you may:\n\n• change background color \n• enable/disable border, or use thispatcher"
 				}
 
 			}
@@ -816,7 +816,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -854,84 +854,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1::obj-2" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-22" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[1]", "live.text", 0 ],
-			"obj-24::obj-2" : [ "live.text[218]", "live.text", 0 ],
-			"obj-24::obj-22" : [ "live.text[217]", "live.text", 0 ],
-			"obj-24::obj-6" : [ "live.text[219]", "live.text", 0 ],
-			"obj-32" : [ "toggle", "toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-2" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-1::obj-22" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-24::obj-2" : 				{
-					"parameter_longname" : "live.text[218]"
-				}
-,
-				"obj-24::obj-22" : 				{
-					"parameter_longname" : "live.text[217]"
-				}
-,
-				"obj-24::obj-6" : 				{
-					"parameter_longname" : "live.text[219]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.color.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

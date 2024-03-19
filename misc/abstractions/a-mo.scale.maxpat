@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 214.0, 50.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -209,7 +209,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 721.333333333333258, 180.0, 177.0, 23.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -254,7 +254,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[79]",
+							"parameter_longname" : "live.text[104]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -273,7 +273,6 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
 					"format" : 6,
-					"hidden" : 1,
 					"htricolor" : [ 0.556862745098039, 0.556862745098039, 0.556862745098039, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "flonum",
@@ -321,7 +320,6 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
 					"format" : 6,
-					"hidden" : 1,
 					"htricolor" : [ 0.556862745098039, 0.556862745098039, 0.556862745098039, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "flonum",
@@ -369,6 +367,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
 					"format" : 6,
+					"hidden" : 1,
 					"htricolor" : [ 0.556862745098039, 0.556862745098039, 0.556862745098039, 1.0 ],
 					"id" : "obj-60",
 					"maxclass" : "flonum",
@@ -386,7 +385,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "input-max-"
@@ -417,6 +415,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
 					"format" : 6,
+					"hidden" : 1,
 					"htricolor" : [ 0.556862745098039, 0.556862745098039, 0.556862745098039, 1.0 ],
 					"id" : "obj-62",
 					"maxclass" : "flonum",
@@ -434,7 +433,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "input-min-"
@@ -1038,7 +1036,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[728]",
+							"parameter_longname" : "live.text[103]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1411,7 +1409,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[14]",
+							"parameter_longname" : "live.numbox[27]",
 							"parameter_mmax" : 20.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
@@ -1585,7 +1583,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[105]",
+							"parameter_longname" : "live.text[55]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",

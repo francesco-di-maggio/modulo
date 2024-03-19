@@ -186,8 +186,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1353,8 +1351,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -5034,14 +5030,6 @@
 											"expression" : ""
 										}
 ,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"textoncolor" : 										{
-											"expression" : ""
-										}
-,
 										"valueof" : 										{
 											"parameter_enum" : [ "Ableton Live", "FM Synth", "Gametrak", "Granulator", "Grid Sync", "GyrOSC", "Holon.ist", "KORG nanoKONTROL2", "Logitech Extreme 3D Pro", "One Pad", "Step Sequencer", "Theremin", "TouchOSC", "Trackpad", "Wekinator" ],
 											"parameter_longname" : "live.menu[6]",
@@ -5054,8 +5042,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-									"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 									"varname" : "examples"
 								}
 
@@ -5098,14 +5084,6 @@
 											"expression" : ""
 										}
 ,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"textoncolor" : 										{
-											"expression" : ""
-										}
-,
 										"valueof" : 										{
 											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
@@ -5118,8 +5096,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-									"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 									"varname" : "modules"
 								}
 
@@ -5382,14 +5358,6 @@
 											"expression" : ""
 										}
 ,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"textoncolor" : 										{
-											"expression" : ""
-										}
-,
 										"valueof" : 										{
 											"parameter_enum" : [ "instruments", "tutorials" ],
 											"parameter_longname" : "live.menu[18]",
@@ -5402,8 +5370,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-									"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 									"varname" : "live.tab[1]"
 								}
 
@@ -5483,14 +5449,6 @@
 											"expression" : ""
 										}
 ,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"textoncolor" : 										{
-											"expression" : ""
-										}
-,
 										"valueof" : 										{
 											"parameter_enum" : [ "input", "route", "transform", "utility" ],
 											"parameter_longname" : "live.menu[25]",
@@ -5503,8 +5461,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-									"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 									"varname" : "live.tab[2]"
 								}
 
@@ -5931,7 +5887,7 @@
 						}
 ,
 						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"textoncolor" : 						{
@@ -5952,8 +5908,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"textoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -6513,6 +6467,22 @@
 ,
 				"obj-19::obj-1::obj-1::obj-20::obj-107::obj-72" : 				{
 					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-19::obj-1::obj-1::obj-20::obj-123::obj-26" : 				{
+					"parameter_longname" : "live.text[77]"
+				}
+,
+				"obj-19::obj-1::obj-1::obj-20::obj-123::obj-33" : 				{
+					"parameter_longname" : "live.text[79]"
+				}
+,
+				"obj-19::obj-1::obj-1::obj-20::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[78]"
+				}
+,
+				"obj-19::obj-1::obj-1::obj-20::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[20]"
 				}
 ,
 				"obj-19::obj-1::obj-1::obj-20::obj-15" : 				{
