@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -66,25 +66,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-27",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 310.501276284456253, 46.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 27.0, 13.0, 13.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
 					"activetricolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -115,10 +96,6 @@
 							"expression" : ""
 						}
 ,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[502]",
 							"parameter_mmax" : 4.0,
@@ -131,7 +108,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "length-"
 				}
 
@@ -965,7 +941,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1266,6 +1242,25 @@
 					"patching_rect" : [ 279.0, 517.001276284456253, 78.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 27.0, 38.0, 182.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-27",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 230.0, 310.501276284456253, 46.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 27.0, 13.0, 13.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -410,11 +410,11 @@
 				"box" : 				{
 					"comment" : "(int) cue number to output, (message) bang, inc, dec, reset, goto, mute",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 372.0, 43.498130464903795, 30.0, 30.0 ]
 				}
 
@@ -517,10 +517,6 @@
 							"expression" : ""
 						}
 ,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[42]",
 							"parameter_mmax" : 500.0,
@@ -532,7 +528,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "goto-"
 				}
 
@@ -676,7 +671,7 @@
 				"box" : 				{
 					"comment" : "(int) cue number",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -708,10 +703,6 @@
 						}
 ,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -1060,7 +1051,41 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-166" : [ "live.numbox[43]", "live.numbox", 0 ],
+			"obj-56" : [ "live.text[145]", "live.text", 0 ],
+			"obj-62" : [ "live.numbox[42]", "live.numbox", 0 ],
+			"obj-70" : [ "live.text[1]", "live.text", 0 ],
+			"obj-9" : [ "live.text[12]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

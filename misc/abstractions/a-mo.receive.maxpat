@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -904,7 +904,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1008,7 +1008,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1046,8 +1046,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-2",
@@ -1068,19 +1067,11 @@
 							"expression" : "themecolor.live_active_automation"
 						}
 ,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -1096,7 +1087,6 @@
 					}
 ,
 					"text" : "1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "1",
 					"varname" : "mute-"
 				}
@@ -1109,7 +1099,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.666666666666657, 220.073603877314895, 105.0, 22.0 ],
+					"patching_rect" : [ 36.666666666666657, 220.073603877314895, 105.0, 23.0 ],
 					"text" : "text $1, texton $1"
 				}
 
@@ -1238,23 +1228,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2" : [ "live.text[727]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -16,7 +16,7 @@
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 1,
@@ -510,10 +510,6 @@
 							"expression" : ""
 						}
 ,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 60000.0,
@@ -525,7 +521,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "time-"
 				}
 

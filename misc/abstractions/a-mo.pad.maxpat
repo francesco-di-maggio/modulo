@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 214.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 170.5, 298.3125, 100.0, 22.0 ],
+					"patching_rect" : [ 170.5, 298.3125, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.666666666666629, 590.90625, 56.0, 22.0 ],
+					"patching_rect" : [ 51.666666666666629, 590.90625, 56.0, 23.0 ],
 					"text" : "pipe 200"
 				}
 
@@ -157,8 +157,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-18",
@@ -177,10 +176,6 @@
 ,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_active_automation"
-						}
-,
-						"activetextcolor" : 						{
-							"expression" : ""
 						}
 ,
 						"bordercolor" : 						{
@@ -244,7 +239,6 @@
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"activetextoncolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-15",
@@ -366,8 +360,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-8",
@@ -386,10 +379,6 @@
 ,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_bar"
-						}
-,
-						"activetextcolor" : 						{
-							"expression" : ""
 						}
 ,
 						"bordercolor" : 						{
@@ -452,7 +441,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -465,7 +454,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -503,7 +492,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -824,32 +813,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-15" : [ "live.text[75]", "live.text", 0 ],
-			"obj-18" : [ "live.text[154]", "live.text", 0 ],
-			"obj-8" : [ "live.text[74]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mo.colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

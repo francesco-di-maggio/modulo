@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 157.666666666666629, 190.25, 61.0, 22.0 ],
+					"patching_rect" : [ 157.666666666666629, 190.25, 61.0, 23.0 ],
 					"text" : "change 0."
 				}
 
@@ -55,7 +55,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -219,6 +219,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "port-"
 				}
@@ -298,10 +299,6 @@
 							"expression" : ""
 						}
 ,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[10]",
 							"parameter_modmode" : 0,
@@ -312,7 +309,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "channel-"
 				}
 
@@ -330,7 +326,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 128.666666666666657, 548.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.017574422464627, -0.058990031480789, 27.814330637210553, 15.0 ],
+					"presentation_rect" : [ 24.017574422464627, -0.058990031480789, 29.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -344,10 +340,6 @@
 							"expression" : ""
 						}
 ,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[12]",
 							"parameter_modmode" : 0,
@@ -358,7 +350,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "CC-"
 				}
 
@@ -566,8 +557,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-35",
@@ -588,19 +578,11 @@
 							"expression" : "themecolor.live_active_automation"
 						}
 ,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -616,7 +598,6 @@
 					}
 ,
 					"text" : "1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "1",
 					"varname" : "mute-"
 				}
@@ -654,7 +635,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -695,7 +676,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -711,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.166666666666629, 110.823603877314895, 105.0, 22.0 ],
+					"patching_rect" : [ 44.166666666666629, 110.823603877314895, 105.0, 23.0 ],
 					"text" : "text $1, texton $1"
 				}
 
@@ -980,27 +961,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-35" : [ "live.text[52]", "live.text", 0 ],
-			"obj-53" : [ "live.text[828]", "live.text", 0 ],
-			"obj-66" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-68" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-72" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

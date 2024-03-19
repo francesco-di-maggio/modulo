@@ -131,7 +131,14 @@
 					"patching_rect" : [ 165.646341443061829, 170.0, 129.707317113876343, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.188362382847629, 24.251437890878321, 20.333636515102597, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "rate-"
 				}
