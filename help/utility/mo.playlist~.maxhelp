@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 470.0, 601.0 ],
+		"rect" : [ 34.0, 87.0, 470.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.192717424242687, 492.0, 48.0, 48.0 ]
+					"patching_rect" : [ 292.0, 359.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.907462878787896, 503.0, 74.0, 25.0 ],
+					"patching_rect" : [ 380.0, 370.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 351.192717424242687, 506.0, 20.0, 20.0 ],
+					"patching_rect" : [ 351.0, 373.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -96,7 +96,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 559.0, 54.0, 23.0 ],
+					"patching_rect" : [ 41.0, 426.0, 54.0, 23.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -111,7 +111,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 41.0, 506.0, 136.0, 36.0 ],
+					"patching_rect" : [ 41.0, 373.0, 136.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -20 ],
@@ -119,6 +119,7 @@
 							"parameter_longname" : "mc.live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "output gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -134,6 +135,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -212,11 +214,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.192717424242687, 207.5, 131.0, 25.0 ],
+					"patching_rect" : [ 292.192717424242687, 207.5, 137.0, 25.0 ],
 					"text" : "start/stop playback"
 				}
 
@@ -311,7 +314,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 271.0, 214.0, 214.0 ],
+					"patching_rect" : [ 41.0, 271.0, 211.859384000000006, 70.0 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -337,7 +340,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 50.5, 543.0, 50.5, 543.0 ],
+					"midpoints" : [ 50.5, 411.0, 50.5, 411.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -369,7 +372,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 50.5, 486.0, 50.5, 486.0 ],
+					"midpoints" : [ 50.5, 342.0, 50.5, 342.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -397,6 +400,21 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-7::obj-3" : 				{
+					"parameter_longname" : "live.text[605]"
+				}
+,
+				"obj-7::obj-33" : 				{
+					"parameter_longname" : "live.text[604]"
+				}
+,
+				"obj-7::obj-42" : 				{
+					"parameter_longname" : "live.text[782]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -409,18 +427,6 @@
 			}
 , 			{
 				"name" : "brushes.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "drumLoop.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "duduk.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1
@@ -439,23 +445,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pause.svg",
 				"bootpath" : "C74:/interfaces",
 				"type" : "svg",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "sho0630.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0,
-		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority", "traceenable", "patchernavmenu", "autolockunselected" ],
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority", "traceenable", "patchernavmenu", "autolockunselected" ]
 	}
 
 }

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -46,16 +46,15 @@
 					"id" : "obj-9",
 					"knobsize" : 8.0,
 					"maxclass" : "nodes",
-					"nodenumber" : 4,
-					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.586391767441861, 0.545694093023256, 0.487554558139535, 0.731740604651163 ],
+					"nodesnames" : [ "1" ],
+					"nsize" : [ 0.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 161.0, 425.9838293650796, 95.0, 95.0 ],
-					"xplace" : [ 0.20680411627907, 0.5, 0.743777279069767, 0.5 ],
-					"yplace" : [ 0.5, 0.227152953488372, 0.5, 0.865870302325581 ]
+					"xplace" : [ 0.5 ],
+					"yplace" : [ 0.5 ]
 				}
 
 			}
@@ -74,6 +73,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "pictslider",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "pictslider",
 							"parameter_type" : 3
 						}
@@ -86,22 +86,24 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.5, 525.344563492063685, 41.0, 21.0 ],
+					"patching_rect" : [ 190.5, 525.344563492063685, 40.0, 21.0 ],
 					"text" : "nodes"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.140615999999994, 525.344563492063685, 68.0, 21.0 ],
+					"patching_rect" : [ 53.140615999999994, 525.344563492063685, 70.0, 21.0 ],
 					"text" : "vector sum"
 				}
 
@@ -363,17 +365,24 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.radiate.maxpat",
+				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.settings.maxpat",
+				"name" : "a-mo.vector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -384,10 +393,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }
