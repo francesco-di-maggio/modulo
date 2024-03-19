@@ -10,14 +10,14 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 129.0, 378.0, 340.0 ],
+		"rect" : [ 34.0, 87.0, 378.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"default_fontname" : "Ableton Sans Medium",
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
@@ -36,16 +36,18 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 41.0, 114.0, 33.0 ],
+					"patching_rect" : [ 234.0, 41.0, 114.0, 35.0 ],
 					"text" : "0 = normal mode\n1 = automatic mode"
 				}
 
@@ -57,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 81.0, 70.0, 22.0 ],
+					"patching_rect" : [ 234.0, 81.0, 68.0, 23.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -65,7 +67,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -82,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 153.0, 81.0, 53.0, 22.0 ],
+					"patching_rect" : [ 153.0, 81.0, 54.0, 23.0 ],
 					"text" : "route bp"
 				}
 
@@ -94,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 202.0, 113.0, 22.0 ],
+					"patching_rect" : [ 23.0, 202.0, 113.0, 23.0 ],
 					"text" : "prepend arguments"
 				}
 
@@ -106,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 187.0, 202.0, 66.0, 22.0 ],
+					"patching_rect" : [ 187.0, 202.0, 67.0, 23.0 ],
 					"text" : "route done"
 				}
 
@@ -118,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 239.0, 105.0, 22.0 ],
+					"patching_rect" : [ 234.0, 239.0, 110.0, 23.0 ],
 					"text" : "prepend attributes"
 				}
 
@@ -173,7 +174,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 196.5, 105.0, 196.5, 105.0 ],
+					"midpoints" : [ 197.5, 105.0, 196.5, 105.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -229,7 +230,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 243.5, 225.0, 243.5, 225.0 ],
+					"midpoints" : [ 244.5, 225.0, 243.5, 225.0 ],
 					"source" : [ "obj-54", 1 ]
 				}
 
