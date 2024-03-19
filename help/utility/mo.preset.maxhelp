@@ -600,8 +600,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 235.5, 250.499999999999943, 102.0, 25.0 ],
-									"text" : "store a preset "
+									"patching_rect" : [ 235.5, 250.499999999999943, 99.0, 25.0 ],
+									"text" : "store a preset"
 								}
 
 							}
@@ -613,8 +613,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 215.499999999999943, 92.0, 25.0 ],
-									"text" : "clear preset "
+									"patching_rect" : [ 192.5, 215.499999999999943, 89.0, 25.0 ],
+									"text" : "clear preset"
 								}
 
 							}
@@ -719,8 +719,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 143.5, 163.0, 76.0, 25.0 ],
-									"text" : "set name "
+									"patching_rect" : [ 143.5, 163.0, 74.0, 25.0 ],
+									"text" : "set name"
 								}
 
 							}

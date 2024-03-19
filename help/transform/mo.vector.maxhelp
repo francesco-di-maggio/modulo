@@ -172,8 +172,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 165.0, 92.0, 25.0 ],
-					"text" : "input values "
+					"patching_rect" : [ 247.0, 165.0, 90.0, 25.0 ],
+					"text" : "input values"
 				}
 
 			}

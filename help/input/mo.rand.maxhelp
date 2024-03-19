@@ -60,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.640615909090684, 209.0, 119.0, 25.0 ],
-					"text" : "number of voices "
+					"patching_rect" : [ 188.640615909090684, 209.0, 117.0, 25.0 ],
+					"text" : "number of voices"
 				}
 
 			}
@@ -138,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 547.640615909090684, 444.047930985689163, 69.0, 25.0 ],
-					"text" : "set to 0 "
+					"patching_rect" : [ 547.640615909090684, 444.047930985689163, 66.0, 25.0 ],
+					"text" : "set to 0"
 				}
 
 			}
@@ -164,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.640615909090684, 408.047930985689163, 114.0, 25.0 ],
-					"text" : "one shot trigger "
+					"patching_rect" : [ 502.640615909090684, 408.047930985689163, 111.0, 25.0 ],
+					"text" : "one shot trigger"
 				}
 
 			}
@@ -178,8 +178,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.640615909090684, 369.047930985689163, 145.0, 25.0 ],
-					"text" : "set trigger probability "
+					"patching_rect" : [ 417.640615909090684, 369.047930985689163, 142.0, 25.0 ],
+					"text" : "set trigger probability"
 				}
 
 			}
@@ -192,8 +192,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 133.0, 25.0 ],
-					"text" : "set amount (0. / 1.) "
+					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 130.0, 25.0 ],
+					"text" : "set amount (0. / 1.)"
 				}
 
 			}
@@ -220,8 +220,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.640615909090684, 248.047930985689163, 144.0, 25.0 ],
-					"text" : "turn on/off generator "
+					"patching_rect" : [ 205.640615909090684, 248.047930985689163, 141.0, 25.0 ],
+					"text" : "turn on/off generator"
 				}
 
 			}
@@ -260,8 +260,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 166.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 72.0, 166.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}

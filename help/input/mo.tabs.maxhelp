@@ -120,8 +120,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 251.777777045965195, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 327.0, 251.777777045965195, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -134,8 +134,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 165.0, 82.0, 25.0 ],
-					"text" : "set names "
+					"patching_rect" : [ 499.0, 165.0, 79.0, 25.0 ],
+					"text" : "set names"
 				}
 
 			}
@@ -148,8 +148,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 214.0, 109.0, 25.0 ],
-					"text" : "number of tabs "
+					"patching_rect" : [ 499.0, 214.0, 107.0, 25.0 ],
+					"text" : "number of tabs"
 				}
 
 			}
@@ -162,8 +162,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.255791574060538, 165.0, 90.0, 25.0 ],
-					"text" : "tab number "
+					"patching_rect" : [ 98.255791574060538, 165.0, 87.0, 25.0 ],
+					"text" : "tab number"
 				}
 
 			}

@@ -95,8 +95,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.666666666666629, 280.0, 115.0, 25.0 ],
-					"text" : "unipolar/bipolar "
+					"patching_rect" : [ 394.666666666666629, 280.0, 112.0, 25.0 ],
+					"text" : "unipolar/bipolar"
 				}
 
 			}
@@ -109,8 +109,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.666666666666629, 203.0, 133.0, 25.0 ],
-					"text" : "number of numbers "
+					"patching_rect" : [ 292.666666666666629, 203.0, 130.0, 25.0 ],
+					"text" : "number of numbers"
 				}
 
 			}
@@ -144,8 +144,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 163.5, 105.0, 25.0 ],
-					"text" : "input numbers "
+					"patching_rect" : [ 254.0, 163.5, 103.0, 25.0 ],
+					"text" : "input numbers"
 				}
 
 			}

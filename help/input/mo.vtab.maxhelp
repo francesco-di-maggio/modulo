@@ -60,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 165.0, 103.0, 25.0 ],
-					"text" : "set tab names "
+					"patching_rect" : [ 464.0, 165.0, 100.0, 25.0 ],
+					"text" : "set tab names"
 				}
 
 			}
@@ -74,8 +74,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.744208425939462, 214.0, 109.0, 25.0 ],
-					"text" : "number of tabs "
+					"patching_rect" : [ 146.744208425939462, 214.0, 107.0, 25.0 ],
+					"text" : "number of tabs"
 				}
 
 			}
@@ -88,8 +88,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.255791574060538, 165.0, 90.0, 25.0 ],
-					"text" : "tab number "
+					"patching_rect" : [ 98.255791574060538, 165.0, 87.0, 25.0 ],
+					"text" : "tab number"
 				}
 
 			}

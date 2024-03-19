@@ -155,8 +155,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 472.255791574060595, 253.5, 76.0, 25.0 ],
-					"text" : "set name "
+					"patching_rect" : [ 472.255791574060595, 253.5, 74.0, 25.0 ],
+					"text" : "set name"
 				}
 
 			}

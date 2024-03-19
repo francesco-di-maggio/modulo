@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 706.0 ],
+						"rect" : [ 34.0, 113.0, 620.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -203,8 +203,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.5, 166.0, 144.0, 25.0 ],
-									"text" : "turn on/off generator "
+									"patching_rect" : [ 99.5, 166.0, 141.0, 25.0 ],
+									"text" : "turn on/off generator"
 								}
 
 							}
@@ -217,8 +217,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.277777777777828, 370.0, 101.0, 25.0 ],
-									"text" : "set amplitude "
+									"patching_rect" : [ 485.277777777777828, 370.0, 98.0, 25.0 ],
+									"text" : "set amplitude"
 								}
 
 							}
@@ -231,8 +231,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 415.277777777777828, 329.0, 83.0, 25.0 ],
-									"text" : "add offset "
+									"patching_rect" : [ 415.277777777777828, 329.0, 81.0, 25.0 ],
+									"text" : "add offset"
 								}
 
 							}
@@ -373,8 +373,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.277777777777828, 288.0, 107.0, 25.0 ],
-									"text" : "add smoothing "
+									"patching_rect" : [ 327.277777777777828, 288.0, 104.0, 25.0 ],
+									"text" : "add smoothing"
 								}
 
 							}
@@ -387,8 +387,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.277777777777828, 248.0, 79.0, 25.0 ],
-									"text" : "add noise "
+									"patching_rect" : [ 234.277777777777828, 248.0, 76.0, 25.0 ],
+									"text" : "add noise"
 								}
 
 							}
@@ -401,8 +401,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 207.0, 92.0, 25.0 ],
-									"text" : "freeze value "
+									"patching_rect" : [ 140.0, 207.0, 90.0, 25.0 ],
+									"text" : "freeze value"
 								}
 
 							}
@@ -641,7 +641,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 620.0, 706.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -773,8 +773,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 415.277777777777828, 330.0, 98.0, 25.0 ],
-									"text" : "set rate in Hz "
+									"patching_rect" : [ 415.277777777777828, 330.0, 96.0, 25.0 ],
+									"text" : "set rate in Hz"
 								}
 
 							}
@@ -787,8 +787,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 487.277777777777828, 370.0, 116.0, 25.0 ],
-									"text" : "set rate in Notes "
+									"patching_rect" : [ 487.277777777777828, 370.0, 113.0, 25.0 ],
+									"text" : "set rate in Notes"
 								}
 
 							}
@@ -814,8 +814,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 305.277777777777828, 289.0, 188.0, 25.0 ],
-									"text" : "set polarity (bipolar/unipolar) "
+									"patching_rect" : [ 305.277777777777828, 289.0, 185.0, 25.0 ],
+									"text" : "set polarity (bipolar/unipolar)"
 								}
 
 							}
@@ -828,8 +828,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.277777777777828, 248.0, 115.0, 25.0 ],
-									"text" : "select waveform "
+									"patching_rect" : [ 234.277777777777828, 248.0, 112.0, 25.0 ],
+									"text" : "select waveform"
 								}
 
 							}
@@ -842,8 +842,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 207.0, 159.0, 25.0 ],
-									"text" : "quantization (Hz/Notes) "
+									"patching_rect" : [ 140.0, 207.0, 156.0, 25.0 ],
+									"text" : "quantization (Hz/Notes)"
 								}
 
 							}
@@ -856,8 +856,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.5, 166.0, 144.0, 25.0 ],
-									"text" : "turn on/off generator "
+									"patching_rect" : [ 99.5, 166.0, 141.0, 25.0 ],
+									"text" : "turn on/off generator"
 								}
 
 							}

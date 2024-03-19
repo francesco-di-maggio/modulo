@@ -172,8 +172,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.255791574060595, 165.0, 69.0, 25.0 ],
-					"text" : "shake it "
+					"patching_rect" : [ 246.0, 165.0, 56.0, 25.0 ],
+					"text" : "shake"
 				}
 
 			}

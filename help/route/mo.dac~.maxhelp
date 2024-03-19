@@ -127,8 +127,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.358261704444885, 226.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 271.358261704444885, 226.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}

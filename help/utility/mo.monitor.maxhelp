@@ -270,8 +270,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 238.0, 100.0, 25.0 ],
-					"text" : "clear monitor "
+					"patching_rect" : [ 317.0, 238.0, 97.0, 25.0 ],
+					"text" : "clear monitor"
 				}
 
 			}
@@ -358,8 +358,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.529780500000015, 163.5, 169.0, 25.0 ],
-					"text" : "generate random numbers "
+					"patching_rect" : [ 100.529780500000015, 163.5, 166.0, 25.0 ],
+					"text" : "generate random numbers"
 				}
 
 			}

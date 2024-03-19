@@ -87,8 +87,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.5, 205.0, 133.0, 25.0 ],
-					"text" : "set speed limit (ms) "
+					"patching_rect" : [ 177.5, 205.0, 130.0, 25.0 ],
+					"text" : "set speed limit (ms)"
 				}
 
 			}
@@ -101,8 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 164.5, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 245.0, 164.5, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}

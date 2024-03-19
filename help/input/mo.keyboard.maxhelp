@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 637.707317113876343, 323.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 637.707317113876343, 323.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -62,8 +62,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 655.707317113876343, 274.0, 138.0, 25.0 ],
-					"text" : "set output MIDI port "
+					"patching_rect" : [ 655.707317113876343, 274.0, 135.0, 25.0 ],
+					"text" : "set output MIDI port"
 				}
 
 			}
@@ -301,8 +301,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 324.0, 87.0, 25.0 ],
-					"text" : "flush notes "
+					"patching_rect" : [ 341.0, 324.0, 84.0, 25.0 ],
+					"text" : "flush notes"
 				}
 
 			}
@@ -329,8 +329,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 165.0, 119.0, 25.0 ],
-					"text" : "play on/off notes "
+					"patching_rect" : [ 126.0, 165.0, 116.0, 25.0 ],
+					"text" : "play on/off notes"
 				}
 
 			}

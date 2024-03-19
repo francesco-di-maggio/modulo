@@ -84,8 +84,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.218947186410105, 319.0, 92.0, 25.0 ],
-					"text" : "target voice "
+					"patching_rect" : [ 484.218947186410105, 319.0, 90.0, 25.0 ],
+					"text" : "target voice"
 				}
 
 			}
@@ -98,8 +98,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.5, 282.0, 119.0, 25.0 ],
-					"text" : "set low threshold "
+					"patching_rect" : [ 438.5, 282.0, 117.0, 25.0 ],
+					"text" : "set low threshold"
 				}
 
 			}
@@ -176,8 +176,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.5, 204.0, 119.0, 25.0 ],
-					"text" : "number of voices "
+					"patching_rect" : [ 291.5, 204.0, 117.0, 25.0 ],
+					"text" : "number of voices"
 				}
 
 			}
@@ -190,8 +190,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 164.5, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 245.0, 164.5, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}
@@ -315,8 +315,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.5, 245.0, 124.0, 25.0 ],
-					"text" : "set high threshold "
+					"patching_rect" : [ 376.5, 245.0, 121.0, 25.0 ],
+					"text" : "set high threshold"
 				}
 
 			}

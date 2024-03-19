@@ -156,8 +156,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.945414036184388, 204.0, 112.0, 25.0 ],
-					"text" : "number of pads "
+					"patching_rect" : [ 292.945414036184388, 204.0, 109.0, 25.0 ],
+					"text" : "number of pads"
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.945414036184388, 165.5, 87.0, 25.0 ],
+					"patching_rect" : [ 189.0, 166.0, 87.0, 25.0 ],
 					"text" : "list (0. / 1.)"
 				}
 

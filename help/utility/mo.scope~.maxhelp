@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.140615909090684, 259.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 333.140615909090684, 259.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -125,8 +125,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 165.0, 191.0, 25.0 ],
-					"text" : "generate random audio signals "
+					"patching_rect" : [ 100.0, 165.0, 188.0, 25.0 ],
+					"text" : "generate random audio signals"
 				}
 
 			}
@@ -215,8 +215,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.640615909090684, 209.0, 170.0, 25.0 ],
-					"text" : "set automatic mode on/off "
+					"patching_rect" : [ 266.640615909090684, 209.0, 168.0, 25.0 ],
+					"text" : "set automatic mode on/off"
 				}
 
 			}

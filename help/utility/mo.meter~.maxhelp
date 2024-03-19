@@ -125,8 +125,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.640615909090684, 209.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 266.640615909090684, 209.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -175,8 +175,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 166.0, 115.0, 25.0 ],
-					"text" : "generate signals "
+					"patching_rect" : [ 99.0, 166.0, 113.0, 25.0 ],
+					"text" : "generate signals"
 				}
 
 			}
@@ -316,6 +316,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-10::obj-6" : 				{
+					"parameter_longname" : "live.text[775]"
 				}
 
 			}

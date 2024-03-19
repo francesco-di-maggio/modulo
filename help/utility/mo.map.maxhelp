@@ -99,8 +99,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.445759877562523, 202.0, 128.0, 25.0 ],
-					"text" : "map keyboard keys "
+					"patching_rect" : [ 146.445759877562523, 202.0, 127.0, 25.0 ],
+					"text" : "map keyboard keys"
 				}
 
 			}
@@ -112,8 +112,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.50795786459355, 164.0, 108.0, 25.0 ],
-					"text" : "map controller "
+					"patching_rect" : [ 104.50795786459355, 164.0, 104.0, 25.0 ],
+					"text" : "map controller"
 				}
 
 			}

@@ -105,8 +105,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.5, 165.0, 109.0, 25.0 ],
-					"text" : "input a number "
+					"patching_rect" : [ 122.5, 165.0, 106.0, 25.0 ],
+					"text" : "input a number"
 				}
 
 			}

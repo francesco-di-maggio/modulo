@@ -85,8 +85,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 166.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 70.0, 166.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}

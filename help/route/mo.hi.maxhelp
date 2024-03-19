@@ -101,8 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 164.0, 71.0, 25.0 ],
-					"text" : "set port "
+					"patching_rect" : [ 434.0, 164.0, 68.0, 25.0 ],
+					"text" : "set port"
 				}
 
 			}

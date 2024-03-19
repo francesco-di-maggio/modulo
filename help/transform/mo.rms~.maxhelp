@@ -125,8 +125,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.799751910048144, 165.5, 171.0, 25.0 ],
-					"text" : "start/stop audio generator "
+					"patching_rect" : [ 103.799751910048144, 165.5, 168.0, 25.0 ],
+					"text" : "start/stop audio generator"
 				}
 
 			}
@@ -197,8 +197,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.949380461063356, 328.095861971378326, 155.0, 25.0 ],
-					"text" : "set output interval (ms) "
+					"patching_rect" : [ 282.949380461063356, 328.095861971378326, 152.0, 25.0 ],
+					"text" : "set output interval (ms)"
 				}
 
 			}

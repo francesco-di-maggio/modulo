@@ -82,8 +82,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 166.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 72.0, 166.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -267,8 +267,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.333333333333485, 255.0, 95.0, 25.0 ],
-					"text" : "set channels "
+					"patching_rect" : [ 334.333333333333485, 255.0, 92.0, 25.0 ],
+					"text" : "set channels"
 				}
 
 			}

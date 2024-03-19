@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.280237540602684, 164.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 76.280237540602684, 164.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 176.0, 328.0, 79.0, 23.0 ],
-					"text" : "13 13 33"
+					"text" : "15 54 16"
 				}
 
 			}

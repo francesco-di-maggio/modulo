@@ -175,8 +175,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.912314266622388, 210.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 266.912314266622388, 210.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -189,8 +189,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.619631380498731, 257.0, 138.0, 25.0 ],
-					"text" : "set output MIDI port "
+					"patching_rect" : [ 485.619631380498731, 257.0, 135.0, 25.0 ],
+					"text" : "set output MIDI port"
 				}
 
 			}

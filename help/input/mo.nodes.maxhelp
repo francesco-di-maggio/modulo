@@ -60,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.255791574060538, 242.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 244.255791574060538, 242.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -119,8 +119,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.255791574060538, 203.5, 118.0, 25.0 ],
-					"text" : "number of nodes "
+					"patching_rect" : [ 215.255791574060538, 203.5, 115.0, 25.0 ],
+					"text" : "number of nodes"
 				}
 
 			}

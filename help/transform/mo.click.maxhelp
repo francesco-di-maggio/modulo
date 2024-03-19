@@ -305,8 +305,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 164.0, 95.0, 25.0 ],
-					"text" : "hit spacebar "
+					"patching_rect" : [ 148.0, 164.0, 92.0, 25.0 ],
+					"text" : "hit spacebar"
 				}
 
 			}
@@ -319,8 +319,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 202.0, 122.0, 25.0 ],
-					"text" : "set time response "
+					"patching_rect" : [ 149.0, 202.0, 120.0, 25.0 ],
+					"text" : "set time response"
 				}
 
 			}

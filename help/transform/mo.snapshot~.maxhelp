@@ -112,8 +112,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.841291197926921, 164.5, 158.0, 25.0 ],
-					"text" : "generate random signals "
+					"patching_rect" : [ 99.841291197926921, 164.5, 156.0, 25.0 ],
+					"text" : "generate random signals"
 				}
 
 			}

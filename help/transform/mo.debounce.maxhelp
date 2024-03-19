@@ -111,7 +111,6 @@
 						"subpatcher_template" : " ",
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -269,8 +268,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 165.0, 95.0, 25.0 ],
-					"text" : "hit spacebar "
+					"patching_rect" : [ 148.0, 165.0, 92.0, 25.0 ],
+					"text" : "hit spacebar"
 				}
 
 			}
@@ -345,8 +344,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 212.480686187744141, 127.0, 25.0 ],
-					"text" : "set debounce time "
+					"patching_rect" : [ 176.0, 212.480686187744141, 124.0, 25.0 ],
+					"text" : "set debounce time"
 				}
 
 			}

@@ -164,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.640615909090684, 216.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 266.640615909090684, 216.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -214,8 +214,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 165.0, 315.0, 25.0 ],
-					"text" : "generate random audio signals at a specific frequency "
+					"patching_rect" : [ 159.0, 165.0, 312.0, 25.0 ],
+					"text" : "generate random audio signals at a specific frequency"
 				}
 
 			}

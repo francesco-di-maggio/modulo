@@ -62,8 +62,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.719762459397316, 163.0, 128.0, 25.0 ],
-					"text" : "set without output "
+					"patching_rect" : [ 300.719762459397316, 163.0, 125.0, 25.0 ],
+					"text" : "set without output"
 				}
 
 			}
@@ -113,8 +113,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.280237540602684, 200.0, 90.0, 39.0 ],
-					"text" : "reset count\nwith output "
+					"patching_rect" : [ 559.280237540602684, 200.0, 88.0, 39.0 ],
+					"text" : "reset count\nwith output"
 				}
 
 			}
@@ -127,8 +127,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.280237540602684, 164.0, 87.0, 25.0 ],
-					"text" : "output cue "
+					"patching_rect" : [ 515.280237540602684, 164.0, 84.0, 25.0 ],
+					"text" : "output cue"
 				}
 
 			}
@@ -141,8 +141,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.280237540602684, 164.0, 131.0, 25.0 ],
-					"text" : "output cue number "
+					"patching_rect" : [ 101.280237540602684, 164.0, 128.0, 25.0 ],
+					"text" : "output cue number"
 				}
 
 			}

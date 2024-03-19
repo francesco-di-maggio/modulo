@@ -80,8 +80,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.759259259259295, 209.5, 172.0, 25.0 ],
-					"text" : "mute serial communication "
+					"patching_rect" : [ 293.759259259259295, 209.5, 169.0, 25.0 ],
+					"text" : "mute serial communication"
 				}
 
 			}
@@ -440,8 +440,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 600.0, 258.5, 71.0, 25.0 ],
-					"text" : "set port "
+					"patching_rect" : [ 600.0, 258.5, 68.0, 25.0 ],
+					"text" : "set port"
 				}
 
 			}

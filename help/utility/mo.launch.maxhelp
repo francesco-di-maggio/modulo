@@ -86,8 +86,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 241.25, 73.0, 25.0 ],
-					"text" : "set a file "
+					"patching_rect" : [ 396.0, 241.25, 70.0, 25.0 ],
+					"text" : "set a file"
 				}
 
 			}
@@ -135,8 +135,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 202.0, 83.0, 25.0 ],
-					"text" : "set an app "
+					"patching_rect" : [ 378.0, 202.0, 81.0, 25.0 ],
+					"text" : "set an app"
 				}
 
 			}
@@ -218,8 +218,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 165.5, 162.0, 25.0 ],
-					"text" : "set a webpage, and lauch "
+					"patching_rect" : [ 380.0, 165.5, 159.0, 25.0 ],
+					"text" : "set a webpage, and lauch"
 				}
 
 			}

@@ -84,8 +84,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 429.499999999999886, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 527.0, 429.499999999999886, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}
@@ -301,8 +301,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 166.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 72.0, 166.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -434,8 +434,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.0, 200.8754593282938, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 529.0, 200.8754593282938, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}

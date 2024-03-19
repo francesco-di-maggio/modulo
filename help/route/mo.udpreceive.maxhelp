@@ -138,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 163.0, 71.0, 25.0 ],
-					"text" : "set port "
+					"patching_rect" : [ 125.0, 163.0, 68.0, 25.0 ],
+					"text" : "set port"
 				}
 
 			}
@@ -200,8 +200,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.0, 216.1245406717062, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 171.0, 216.1245406717062, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}

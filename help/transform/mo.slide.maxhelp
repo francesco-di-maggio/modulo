@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 279.0, 135.0, 25.0 ],
-					"text" : "set polling rate (ms) "
+					"patching_rect" : [ 262.0, 279.0, 133.0, 25.0 ],
+					"text" : "set polling rate (ms)"
 				}
 
 			}
@@ -62,8 +62,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 245.0, 98.0, 25.0 ],
-					"text" : "set threshold "
+					"patching_rect" : [ 180.0, 245.0, 96.0, 25.0 ],
+					"text" : "set threshold"
 				}
 
 			}
@@ -76,8 +76,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 404.0, 349.0, 103.0, 25.0 ],
-					"text" : "set slide down "
+					"patching_rect" : [ 404.0, 349.0, 101.0, 25.0 ],
+					"text" : "set slide down"
 				}
 
 			}
@@ -129,8 +129,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.5, 205.0, 119.0, 25.0 ],
-					"text" : "number of voices "
+					"patching_rect" : [ 147.5, 205.0, 117.0, 25.0 ],
+					"text" : "number of voices"
 				}
 
 			}
@@ -143,8 +143,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 164.5, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 245.0, 164.5, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}
@@ -249,8 +249,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.5, 314.0, 88.0, 25.0 ],
-					"text" : "set slide up "
+					"patching_rect" : [ 345.5, 314.0, 85.0, 25.0 ],
+					"text" : "set slide up"
 				}
 
 			}

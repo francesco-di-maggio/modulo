@@ -96,8 +96,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.677460387650484, 250.5, 115.0, 25.0 ],
-					"text" : "unipolar/bipolar "
+					"patching_rect" : [ 183.677460387650484, 250.5, 112.0, 25.0 ],
+					"text" : "unipolar/bipolar"
 				}
 
 			}
@@ -160,8 +160,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 165.0, 112.0, 25.0 ],
-					"text" : "generate values "
+					"patching_rect" : [ 125.0, 165.0, 110.0, 25.0 ],
+					"text" : "generate values"
 				}
 
 			}
@@ -283,8 +283,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.677460387650484, 208.5, 148.0, 25.0 ],
-					"text" : "turn calibration on/off "
+					"patching_rect" : [ 155.677460387650484, 208.5, 145.0, 25.0 ],
+					"text" : "turn calibration on/off"
 				}
 
 			}

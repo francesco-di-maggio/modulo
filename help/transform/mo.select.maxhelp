@@ -183,8 +183,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.5, 236.5, 105.0, 25.0 ],
-					"text" : "input to select "
+					"patching_rect" : [ 256.5, 236.5, 102.0, 25.0 ],
+					"text" : "input to select"
 				}
 
 			}
@@ -239,8 +239,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 165.0, 107.0, 25.0 ],
-					"text" : "generate value "
+					"patching_rect" : [ 206.0, 165.0, 104.0, 25.0 ],
+					"text" : "generate value"
 				}
 
 			}

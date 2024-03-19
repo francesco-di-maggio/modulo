@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 165.5, 103.0, 25.0 ],
-					"text" : "generate data "
+					"patching_rect" : [ 125.0, 165.5, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}
@@ -121,8 +121,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 201.6245406717062, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 123.0, 201.6245406717062, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}

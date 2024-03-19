@@ -60,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 165.0, 103.0, 25.0 ],
-					"text" : "set tab names "
+					"patching_rect" : [ 501.0, 165.0, 100.0, 25.0 ],
+					"text" : "set tab names"
 				}
 
 			}
@@ -146,22 +146,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.744208425939462, 214.0, 109.0, 25.0 ],
-					"text" : "number of tabs "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 98.255791574060538, 165.0, 90.0, 25.0 ],
-					"text" : "tab number "
+					"patching_rect" : [ 183.744208425939462, 214.0, 107.0, 25.0 ],
+					"text" : "number of tabs"
 				}
 
 			}

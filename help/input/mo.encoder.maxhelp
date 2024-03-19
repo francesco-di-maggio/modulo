@@ -161,8 +161,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.0, 210.0, 76.0, 25.0 ],
-					"text" : "set name "
+					"patching_rect" : [ 331.0, 210.0, 74.0, 25.0 ],
+					"text" : "set name"
 				}
 
 			}

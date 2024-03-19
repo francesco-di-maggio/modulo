@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.5, 200.5, 110.0, 25.0 ],
-					"text" : "input or output "
+					"patching_rect" : [ 323.5, 200.5, 107.0, 25.0 ],
+					"text" : "input or output"
 				}
 
 			}
@@ -122,8 +122,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1015.468947186410105, 511.5, 92.0, 25.0 ],
-					"text" : "target voice "
+					"patching_rect" : [ 1015.468947186410105, 511.5, 90.0, 25.0 ],
+					"text" : "target voice"
 				}
 
 			}
@@ -136,8 +136,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.0, 469.5, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 907.0, 469.5, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -174,8 +174,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.5, 321.5, 97.0, 25.0 ],
-					"text" : "set min input "
+					"patching_rect" : [ 577.5, 321.5, 95.0, 25.0 ],
+					"text" : "set min input"
 				}
 
 			}
@@ -238,8 +238,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.5, 284.5, 100.0, 25.0 ],
-					"text" : "set max input "
+					"patching_rect" : [ 487.5, 284.5, 97.0, 25.0 ],
+					"text" : "set max input"
 				}
 
 			}
@@ -252,8 +252,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 868.5, 432.5, 113.0, 25.0 ],
-					"text" : "set curve factor "
+					"patching_rect" : [ 868.5, 432.5, 110.0, 25.0 ],
+					"text" : "set curve factor"
 				}
 
 			}
@@ -266,8 +266,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 796.5, 395.5, 106.0, 25.0 ],
-					"text" : "set min output "
+					"patching_rect" : [ 796.5, 395.5, 103.0, 25.0 ],
+					"text" : "set min output"
 				}
 
 			}
@@ -314,8 +314,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.5, 243.5, 115.0, 25.0 ],
-					"text" : "unipolar/bipolar "
+					"patching_rect" : [ 384.5, 243.5, 112.0, 25.0 ],
+					"text" : "unipolar/bipolar"
 				}
 
 			}
@@ -328,8 +328,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.5, 163.5, 119.0, 25.0 ],
-					"text" : "number of voices "
+					"patching_rect" : [ 291.5, 163.5, 117.0, 25.0 ],
+					"text" : "number of voices"
 				}
 
 			}
@@ -342,8 +342,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 164.5, 92.0, 25.0 ],
-					"text" : "input values "
+					"patching_rect" : [ 126.0, 164.5, 90.0, 25.0 ],
+					"text" : "input values"
 				}
 
 			}
@@ -542,8 +542,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 691.5, 358.5, 108.0, 25.0 ],
-					"text" : "set max output "
+					"patching_rect" : [ 691.5, 358.5, 106.0, 25.0 ],
+					"text" : "set max output"
 				}
 
 			}

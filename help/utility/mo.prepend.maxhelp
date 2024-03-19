@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.945414036184388, 214.0, 119.0, 25.0 ],
-					"text" : "number of voices "
+					"patching_rect" : [ 292.945414036184388, 214.0, 117.0, 25.0 ],
+					"text" : "number of voices"
 				}
 
 			}
@@ -143,8 +143,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.25, 164.0, 88.0, 25.0 ],
-					"text" : "input types "
+					"patching_rect" : [ 294.25, 164.0, 86.0, 25.0 ],
+					"text" : "input types"
 				}
 
 			}
@@ -206,8 +206,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.945414036184388, 249.0, 92.0, 25.0 ],
-					"text" : "target voice "
+					"patching_rect" : [ 425.945414036184388, 249.0, 90.0, 25.0 ],
+					"text" : "target voice"
 				}
 
 			}

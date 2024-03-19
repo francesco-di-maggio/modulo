@@ -64,7 +64,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 186.707317113876343, 277.0, 240.0, 39.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set the 0,0 point from which to measure the mouse location"
 				}
 
@@ -198,8 +197,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.280237540602684, 164.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 76.280237540602684, 164.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -276,7 +275,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 444.0, 118.0, 23.0 ],
-					"text" : "0.249306 0.581111"
+					"text" : "0.127083 0.711111"
 				}
 
 			}

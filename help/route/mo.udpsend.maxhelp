@@ -117,8 +117,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0, 270.5, 71.0, 25.0 ],
-					"text" : "set port "
+					"patching_rect" : [ 418.0, 270.5, 68.0, 25.0 ],
+					"text" : "set port"
 				}
 
 			}
@@ -144,8 +144,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 164.5, 80.0, 25.0 ],
-					"text" : "send data "
+					"patching_rect" : [ 201.0, 164.5, 78.0, 25.0 ],
+					"text" : "send data"
 				}
 
 			}
@@ -179,8 +179,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 316.3754593282938, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 464.0, 316.3754593282938, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -259,8 +259,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 227.3754593282938, 71.0, 25.0 ],
-					"text" : "set host "
+					"patching_rect" : [ 337.0, 227.3754593282938, 68.0, 25.0 ],
+					"text" : "set host"
 				}
 
 			}

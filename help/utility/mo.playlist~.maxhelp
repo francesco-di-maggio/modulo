@@ -219,7 +219,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.192717424242687, 207.5, 137.0, 25.0 ],
+					"patching_rect" : [ 292.192717424242687, 207.5, 131.0, 25.0 ],
 					"text" : "start/stop playback"
 				}
 
