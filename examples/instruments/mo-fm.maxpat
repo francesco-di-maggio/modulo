@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -112,11 +113,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.0, 581.0, 74.0, 25.0 ],
+					"patching_rect" : [ 356.0, 581.0, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 361.0, 554.0, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -167,11 +169,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.38113662352157, 90.899667762819632, 171.0, 25.0 ],
+					"patching_rect" : [ 283.38113662352157, 90.899667762819632, 173.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 118.899667762819632, 166.0, 25.0 ],
 					"text" : "control sound parameters ",
@@ -210,16 +213,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 236.018417762819894, 264.0, 79.0 ],
+					"patching_rect" : [ 515.0, 236.018417762819894, 258.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 249.0, 20.000000435184777, 264.0, 79.0 ],
+					"presentation_rect" : [ 249.0, 20.000000435184777, 258.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start DSP, and fm~ playback.\n2. Use sliders to control the sound parameters.\n3. (Optional) Set different scaling factors."
 				}
 
@@ -227,11 +230,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 489.0, 102.0, 25.0 ],
+					"patching_rect" : [ 273.0, 489.0, 105.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 275.0, 469.0, 102.0, 25.0 ],
 					"text" : "start playback"
@@ -269,6 +273,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -384,10 +389,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage p-mo.fm @autorestore 1 @changemode 1",
@@ -1220,10 +1225,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

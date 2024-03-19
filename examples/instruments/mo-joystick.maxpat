@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -151,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 313.257006857142869, 70.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 77.0, 70.0, 62.0 ],
@@ -548,16 +549,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 590.0, 620.0, 293.0, 50.0 ],
+					"patching_rect" : [ 590.0, 620.0, 287.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 445.0, 13.5, 293.0, 50.0 ],
+					"presentation_rect" : [ 445.0, 13.5, 287.0, 50.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Connect a Logitech EXTREME 3D PRO JOYSTICK."
 				}
 
@@ -565,11 +566,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.666666666666742, 41.077876984127045, 79.0, 25.0 ],
+					"patching_rect" : [ 283.666666666666742, 41.077876984127045, 80.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 283.666666666666742, 41.077876984127045, 79.0, 25.0 ],
 					"text" : "set device",
@@ -619,7 +621,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.joystick3d.json",
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -632,34 +633,15 @@
 						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.prepend::[1]::set" : 1,
-						"mo.prepend::[2]::set" : 1,
-						"mo.prepend::[3]::set" : 1,
-						"mo.prepend::[4]::set" : 1,
-						"mo.prepend::[5]::set" : 1,
-						"mo.prepend::set" : -1,
-						"mo.prepend[1]::[1]::set" : 1,
-						"mo.prepend[1]::[2]::set" : 1,
-						"mo.prepend[1]::[3]::set" : 1,
-						"mo.prepend[1]::[4]::set" : 1,
-						"mo.prepend[1]::[5]::set" : 1,
-						"mo.prepend[1]::[6]::set" : 1,
-						"mo.prepend[1]::[7]::set" : 1,
-						"mo.prepend[1]::[8]::set" : 1,
-						"mo.prepend[1]::[9]::set" : 1,
-						"mo.prepend[1]::[10]::set" : 1,
-						"mo.prepend[1]::[11]::set" : 1,
-						"mo.prepend[1]::[12]::set" : 1,
-						"mo.prepend[1]::set" : -1,
 						"mo.sends::set" : -1,
 						"mo.sends[1]::set" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage p-mo.joystick3d @autorestore 1 @changemode 1",
@@ -2011,6 +1993,14 @@
 				"obj-7::obj-74::obj-8" : 				{
 					"parameter_longname" : "live.text[34]"
 				}
+,
+				"obj-9::obj-13" : 				{
+					"parameter_longname" : "live.numbox[296]"
+				}
+,
+				"obj-9::obj-15" : 				{
+					"parameter_longname" : "live.text[528]"
+				}
 
 			}
 ,
@@ -2018,13 +2008,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -2033,8 +2016,8 @@
 			}
 , 			{
 				"name" : "a-mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo-plus/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2047,13 +2030,6 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -2088,6 +2064,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
@@ -2117,16 +2100,13 @@
 			}
 , 			{
 				"name" : "p-mo.joystick3d.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/presets",
-				"patcherrelativepath" : "../../../modulo-plus/misc/presets",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

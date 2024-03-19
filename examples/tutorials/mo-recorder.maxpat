@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -69,11 +70,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.73530791772464, 358.791298999999981, 138.0, 25.0 ],
+					"patching_rect" : [ 324.73530791772464, 358.791298999999981, 144.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.735307750912625, 295.0, 131.0, 25.0 ],
 					"text" : "start/stop playback",
@@ -286,6 +288,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -328,11 +331,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.73530791772464, 331.853798999999981, 138.0, 25.0 ],
+					"patching_rect" : [ 324.73530791772464, 331.853798999999981, 145.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.735307750912625, 268.0, 138.0, 25.0 ],
 					"text" : "start/stop recording ",
@@ -592,6 +596,14 @@
 					"parameter_longname" : "live.text[240]"
 				}
 ,
+				"obj-5::obj-38" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-6::obj-21" : 				{
 					"parameter_longname" : "live.text[11]"
 				}
@@ -686,10 +698,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

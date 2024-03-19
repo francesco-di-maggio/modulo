@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -101,8 +102,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -583,16 +584,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.0, 311.972221999999988, 337.0, 93.0 ],
+					"patching_rect" : [ 352.0, 311.972221999999988, 329.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 77.0, 331.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 77.0, 323.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download, and open the gyrOSC app:       \n     https://www.bitshapesoftware.com/instruments/gyrosc\n2. Enable quaternion from the settings menu.\n3. Set your computer IP address, and UDP receiving port."
 				}
 
@@ -600,11 +601,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.666666666666742, 41.24999977777783, 71.0, 25.0 ],
+					"patching_rect" : [ 281.666666666666742, 41.24999977777783, 74.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.166666666666742, 41.285026599544011, 71.0, 25.0 ],
 					"text" : "set port ",
@@ -1013,6 +1015,7 @@
 			"obj-25::obj-21" : [ "live.text[42]", "live.text", 0 ],
 			"obj-25::obj-3" : [ "slider-[2]", "slider-", 0 ],
 			"obj-25::obj-35" : [ "live.text[52]", "live.text", 0 ],
+			"obj-25::obj-38" : [ "live.text[2]", "live.text", 0 ],
 			"obj-25::obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-26::obj-2" : [ "live.text[33]", "live.text", 0 ],
 			"obj-26::obj-22" : [ "live.text[31]", "live.text", 0 ],
@@ -1020,10 +1023,12 @@
 			"obj-27::obj-21" : [ "live.text[43]", "live.text", 0 ],
 			"obj-27::obj-3" : [ "slider-[3]", "slider-", 0 ],
 			"obj-27::obj-35" : [ "live.text[53]", "live.text", 0 ],
+			"obj-27::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-27::obj-56" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-28::obj-21" : [ "live.text[37]", "live.text", 0 ],
 			"obj-28::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-28::obj-35" : [ "live.text[41]", "live.text", 0 ],
+			"obj-28::obj-38" : [ "live.text[4]", "live.text", 0 ],
 			"obj-28::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-29::obj-2" : [ "live.text[35]", "live.text", 0 ],
 			"obj-29::obj-22" : [ "live.text[34]", "live.text", 0 ],
@@ -1037,6 +1042,7 @@
 			"obj-4::obj-21" : [ "live.text[242]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[240]", "live.text", 0 ],
+			"obj-4::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1144,6 +1150,10 @@
 					"parameter_longname" : "live.text[52]"
 				}
 ,
+				"obj-25::obj-38" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-25::obj-56" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
@@ -1168,6 +1178,10 @@
 					"parameter_longname" : "live.text[53]"
 				}
 ,
+				"obj-27::obj-38" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-27::obj-56" : 				{
 					"parameter_longname" : "live.numbox[2]"
 				}
@@ -1178,6 +1192,10 @@
 ,
 				"obj-28::obj-35" : 				{
 					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-28::obj-38" : 				{
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-28::obj-56" : 				{
@@ -1227,6 +1245,14 @@
 				"obj-4::obj-35" : 				{
 					"parameter_longname" : "live.text[240]"
 				}
+,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
 
 			}
 ,
@@ -1255,6 +1281,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.udpreceive.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../patchers/route",
@@ -1269,10 +1302,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

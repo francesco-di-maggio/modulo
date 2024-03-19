@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -143,11 +144,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-39",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 210.0, 106.0, 40.0 ],
+					"patching_rect" : [ 417.0, 210.0, 105.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.0, 277.0, 106.0, 40.0 ],
 					"text" : "launch the live set",
@@ -283,16 +286,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 20.0, 164.0, 79.0 ],
+					"patching_rect" : [ 280.0, 20.0, 160.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 20.0, 168.0, 164.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 168.0, 160.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch Ableton Live's set.\n3. Interact with the GUIs."
 				}
 
@@ -301,28 +304,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 590.0, 114.0, 25.0 ],
+					"patching_rect" : [ 80.0, 590.0, 117.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.0, 213.0, 109.0, 25.0 ],
+					"presentation_rect" : [ 185.0, 213.0, 109.0, 25.0 ],
 					"text" : "set MIDI output"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 575.0, 50.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 188.0, 198.0, 52.0, 40.0 ]
 				}
 
 			}
@@ -1199,10 +1189,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

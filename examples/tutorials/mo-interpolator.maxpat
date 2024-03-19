@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -59,7 +60,7 @@
 
 					}
 ,
-					"stored1" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"stored1" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -74,10 +75,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 450.0, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage",
@@ -169,7 +170,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 289.495779000000027, 70.0, 213.504220999999973 ],
+					"patching_rect" : [ 526.0, 289.495779000000027, 70.0, 214.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 164.0, 328.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[2]",
@@ -180,11 +181,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.5, 19.0, 161.0, 25.0 ],
+					"patching_rect" : [ 268.5, 19.0, 158.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 19.0, 161.0, 25.0 ],
 					"text" : "randomize nodes position",
@@ -223,11 +226,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.5, 126.813494768518353, 185.0, 25.0 ],
+					"patching_rect" : [ 270.5, 126.813494768518353, 189.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.5, 126.5, 185.0, 25.0 ],
 					"text" : "drag yellow dot to interpolate ",
@@ -352,7 +356,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 289.313494999999989, 70.0, 213.504220999999916 ],
+					"patching_rect" : [ 382.0, 289.313494999999989, 70.0, 214.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 328.0, 70.0, 214.0 ],
 					"varname" : "mo.vslider[1]",
@@ -377,9 +381,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.973348999999985, 289.313494999999989, 70.0, 213.504220999999916 ],
+					"patching_rect" : [ 453.973348999999985, 289.313494999999989, 70.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.973348999999999, 328.0, 69.999999999999986, 214.0 ],
+					"presentation_rect" : [ 91.973348999999999, 328.0, 70.0, 214.0 ],
 					"varname" : "mo.vrslider",
 					"viewvisibility" : 1
 				}
@@ -477,6 +481,7 @@
 			"obj-10::obj-46" : [ "live.text[137]", "live.text", 0 ],
 			"obj-10::obj-48" : [ "live.text[103]", "live.text", 0 ],
 			"obj-10::obj-50" : [ "live.text[117]", "live.text", 0 ],
+			"obj-10::obj-51" : [ "live.text[204]", "live.text", 0 ],
 			"obj-10::obj-52" : [ "live.numbox[39]", "live.text", 0 ],
 			"obj-10::obj-53" : [ "live.text[139]", "live.text", 0 ],
 			"obj-10::obj-55" : [ "live.text[138]", "live.text", 0 ],
@@ -492,6 +497,7 @@
 			"obj-21::obj-21" : [ "live.text[47]", "live.text", 0 ],
 			"obj-21::obj-3" : [ "slider-[20]", "slider-", 0 ],
 			"obj-21::obj-35" : [ "live.text[48]", "live.text", 0 ],
+			"obj-21::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-21::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-3::obj-21" : [ "dial%[1]", "dial-", 0 ],
 			"obj-3::obj-35" : [ "live.text[8]", "live.text", 0 ],
@@ -502,6 +508,7 @@
 			"obj-5::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-5::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-5::obj-35" : [ "live.text[6]", "live.text", 0 ],
+			"obj-5::obj-38" : [ "live.text[5]", "live.text", 0 ],
 			"obj-5::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-61::obj-12" : [ "live.text[4]", "live.text", 0 ],
 			"obj-61::obj-21" : [ "dial", "dial", 0 ],
@@ -536,6 +543,10 @@
 					"parameter_longname" : "live.text[48]"
 				}
 ,
+				"obj-21::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-3::obj-35" : 				{
 					"parameter_longname" : "live.text[8]"
 				}
@@ -558,6 +569,10 @@
 ,
 				"obj-5::obj-35" : 				{
 					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-5::obj-38" : 				{
+					"parameter_longname" : "live.text[5]"
 				}
 ,
 				"obj-5::obj-56" : 				{
@@ -620,6 +635,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vrslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -641,10 +663,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

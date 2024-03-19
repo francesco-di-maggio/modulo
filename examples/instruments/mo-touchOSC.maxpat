@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -236,16 +237,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 952.0, 278.222221999999988, 354.0, 79.0 ],
+					"patching_rect" : [ 952.0, 278.222221999999988, 346.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 20.0, 367.0, 354.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 367.0, 346.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download, and open TouchOSC: https://hexler.net/touchosc\n2. Load preset \"Simple Mk3\".\n3. Set host/port on the app to reflect your computer settings."
 				}
 
@@ -253,11 +254,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.666666666666742, 41.24999977777783, 71.0, 25.0 ],
+					"patching_rect" : [ 272.666666666666742, 41.24999977777783, 74.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 265.166666666666742, 41.285026599544011, 71.0, 25.0 ],
 					"text" : "set port ",
@@ -327,10 +329,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @changemode 1",
@@ -647,18 +649,22 @@
 			"obj-23::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-23::obj-3" : [ "slider-[11]", "slider-", 0 ],
 			"obj-23::obj-35" : [ "live.text[53]", "live.text", 0 ],
+			"obj-23::obj-38" : [ "live.text[9]", "live.text", 0 ],
 			"obj-23::obj-56" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-25::obj-21" : [ "live.text[5]", "live.text", 0 ],
 			"obj-25::obj-3" : [ "slider-[1]", "slider-", 0 ],
 			"obj-25::obj-35" : [ "live.text[59]", "live.text", 0 ],
+			"obj-25::obj-38" : [ "live.text[4]", "live.text", 0 ],
 			"obj-25::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-27::obj-21" : [ "live.text[6]", "live.text", 0 ],
+			"obj-27::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-27::obj-3" : [ "slider-[2]", "slider-", 0 ],
 			"obj-27::obj-35" : [ "live.text[60]", "live.text", 0 ],
+			"obj-27::obj-38" : [ "live.text[6]", "live.text", 0 ],
 			"obj-27::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-28::obj-21" : [ "live.text[883]", "live.text", 0 ],
 			"obj-28::obj-3" : [ "slider-[50]", "slider-", 0 ],
 			"obj-28::obj-35" : [ "live.text[880]", "live.text", 0 ],
+			"obj-28::obj-38" : [ "live.text[8]", "live.text", 0 ],
 			"obj-28::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-3::obj-107::obj-2" : [ "live.text[41]", "live.text", 0 ],
 			"obj-3::obj-123::obj-2" : [ "live.text[29]", "live.text", 0 ],
@@ -681,6 +687,7 @@
 			"obj-4::obj-21" : [ "live.text[78]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "live.text[80]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[77]", "live.text", 0 ],
+			"obj-4::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-56" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-78::obj-107::obj-2" : [ "live.text[55]", "live.text", 0 ],
 			"obj-78::obj-123::obj-2" : [ "live.text[11]", "live.text", 0 ],
@@ -774,6 +781,10 @@
 					"parameter_unitstyle" : 10
 				}
 ,
+				"obj-23::obj-38" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
 				"obj-23::obj-56" : 				{
 					"parameter_longname" : "live.numbox[9]"
 				}
@@ -786,16 +797,24 @@
 					"parameter_longname" : "live.text[59]"
 				}
 ,
+				"obj-25::obj-38" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-25::obj-56" : 				{
 					"parameter_longname" : "live.numbox[8]"
 				}
 ,
 				"obj-27::obj-21" : 				{
-					"parameter_longname" : "live.text[6]"
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-27::obj-35" : 				{
 					"parameter_longname" : "live.text[60]"
+				}
+,
+				"obj-27::obj-38" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-27::obj-56" : 				{
@@ -808,6 +827,10 @@
 ,
 				"obj-28::obj-35" : 				{
 					"parameter_longname" : "live.text[880]"
+				}
+,
+				"obj-28::obj-38" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-28::obj-56" : 				{
@@ -894,6 +917,10 @@
 					"parameter_longname" : "live.text[77]"
 				}
 ,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-4::obj-56" : 				{
 					"parameter_longname" : "live.numbox[10]"
 				}
@@ -976,13 +1003,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.route.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1053,10 +1073,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

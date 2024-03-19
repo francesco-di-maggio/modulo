@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -108,7 +109,7 @@
 
 					}
 ,
-					"stored1" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"stored1" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -131,10 +132,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage",
@@ -740,6 +741,10 @@
 					"parameter_longname" : "live.text[3]"
 				}
 ,
+				"obj-21::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-25::obj-13" : 				{
 					"parameter_longname" : "live.numbox[202]"
 				}
@@ -768,6 +773,10 @@
 					"parameter_longname" : "live.numbox[350]"
 				}
 ,
+				"obj-37::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
 				"obj-37::obj-22" : 				{
 					"parameter_longname" : "live.text[192]"
 				}
@@ -786,6 +795,26 @@
 ,
 				"obj-58::obj-56" : 				{
 					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-5::obj-10" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
+				"obj-5::obj-18" : 				{
+					"parameter_longname" : "live.text[260]"
+				}
+,
+				"obj-5::obj-20" : 				{
+					"parameter_longname" : "live.text[259]"
+				}
+,
+				"obj-5::obj-31" : 				{
+					"parameter_longname" : "live.text[642]"
+				}
+,
+				"obj-5::obj-56" : 				{
+					"parameter_longname" : "live.numbox[503]"
 				}
 
 			}
@@ -958,10 +987,7 @@
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-9", "obj-10" ]
 			}
- ],
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 	}
 
 }

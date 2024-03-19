@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -49,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -330,15 +331,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-73",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.0, 373.927083333333258, 201.0, 35.0 ],
+					"patching_rect" : [ 211.0, 373.927083333333258, 189.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 20.0, 147.0, 201.0, 35.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 20.0, 147.0, 189.0, 50.0 ],
 					"text" : "• CUE AT SECOND : 1, 2, 4, and 8 \n• TIMER RESTARTS AT SECOND : 12"
 				}
 
@@ -715,14 +717,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.75, 142.5, 71.0, 40.0 ],
+					"patching_rect" : [ 288.75, 142.5, 76.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 96.5, 71.0, 40.0 ],
-					"text" : "start timer "
+					"presentation_rect" : [ 11.0, 97.0, 68.0, 40.0 ],
+					"text" : "start timer"
 				}
 
 			}
@@ -981,6 +984,7 @@
 			"obj-50::obj-19" : [ "live.text[140]", "live.text", 0 ],
 			"obj-50::obj-3" : [ "slider-[51]", "slider-", 0 ],
 			"obj-50::obj-35" : [ "live.text[139]", "live.text", 0 ],
+			"obj-50::obj-38" : [ "live.text[2]", "live.text", 0 ],
 			"obj-50::obj-56" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-51::obj-2" : [ "live.text[15]", "live.text", 0 ],
 			"obj-51::obj-22" : [ "live.text[14]", "live.text", 0 ],
@@ -989,8 +993,8 @@
 			"obj-52::obj-22" : [ "live.text[18]", "live.text", 0 ],
 			"obj-52::obj-6" : [ "live.text[20]", "live.text", 0 ],
 			"obj-6::obj-21" : [ "live.text[319]", "live.text", 0 ],
-			"obj-6::obj-39" : [ "live.numbox[18]", "live.numbox", 0 ],
 			"obj-6::obj-4" : [ "live.text[318]", "live.text", 0 ],
+			"obj-6::obj-52" : [ "live.numbox[352]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1041,6 +1045,10 @@
 					"parameter_longname" : "live.text[139]"
 				}
 ,
+				"obj-50::obj-38" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-50::obj-56" : 				{
 					"parameter_longname" : "live.numbox[5]"
 				}
@@ -1075,13 +1083,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1124,31 +1125,35 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.transport.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

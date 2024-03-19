@@ -4407,7 +4407,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 509.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 701.0, 22.0 ],
-									"text" : "–  a list matrix with routing cables  –",
+									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textjustification" : 1
 								}
 
@@ -4942,7 +4942,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 119.5, 702.0, 22.0 ],
-									"text" : "Interface with external devices, including MIDI, OSC, Max, and Eurorack modules."
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -5107,7 +5107,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.receive", "mo.receive~", "mo.receives", "mo.send", "mo.send~", "mo.sends", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
+											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_modmode" : 0,
@@ -7333,6 +7333,18 @@
 ,
 				"obj-32::obj-1::obj-1::obj-6" : 				{
 					"parameter_longname" : "live.text[161]"
+				}
+,
+				"obj-32::obj-1::obj-24::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-32::obj-1::obj-24::obj-22" : 				{
+					"parameter_longname" : "live.text[910]"
+				}
+,
+				"obj-32::obj-1::obj-24::obj-6" : 				{
+					"parameter_longname" : "live.text[724]"
 				}
 ,
 				"obj-47::obj-9::obj-6.2::obj-10" : 				{

@@ -78,7 +78,7 @@
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 2,
+						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -96,8 +96,9 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "mo.main",
+						"subpatcher_template" : " ",
 						"showontab" : 1,
+						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
@@ -113,6 +114,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-27",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -150,6 +152,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
@@ -162,6 +165,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
@@ -178,14 +182,14 @@
 									"arrows" : 2,
 									"border" : 2.0,
 									"id" : "obj-9",
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 27.0, 59.124540671706313, 10.0, 553.875459328293687 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_control_fg"
 										}
 
 									}
@@ -195,6 +199,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
@@ -207,6 +212,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
@@ -220,6 +226,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
@@ -233,6 +240,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-84",
 									"maxclass" : "comment",
@@ -245,12 +253,13 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-92",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 26.1245406717062, 50.0, 23.0 ],
+									"patching_rect" : [ 39.0, 26.1245406717062, 49.0, 23.0 ],
 									"text" : "INPUT",
 									"underline" : 1
 								}
@@ -258,6 +267,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
@@ -369,6 +379,7 @@
 								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 3,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -408,6 +419,7 @@
 								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 3,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -468,6 +480,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -519,13 +532,13 @@
 , 							{
 								"box" : 								{
 									"fontface" : 1,
-									"fontname" : "Ableton Sans Bold Regular",
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-7",
 									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 543.25, 28.1245406717062, 239.0, 122.0 ],
+									"patching_rect" : [ 543.25, 28.1245406717062, 233.0, 122.0 ],
 									"text" : "INSTRUCTIONS:\n\n1. Start DSP.\n2. Load preset.\n3. Adjust output levels.\n4. Turn on the fm~ synthesizer.\n5. Use sliders to control the sound.\n6. (Optional) Set different scaling factors."
 								}
 
@@ -633,22 +646,16 @@
 								}
 
 							}
- ],
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 28.0, 21.0, 72.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : "",
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+						"tags" : ""
 					}
 ,
 					"text" : "p bpatchers",
@@ -681,7 +688,7 @@
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 2,
+						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -699,13 +706,15 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "mo.main",
+						"subpatcher_template" : " ",
 						"showontab" : 1,
+						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 3,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -755,6 +764,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-27",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -792,6 +802,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
@@ -804,6 +815,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
@@ -820,14 +832,14 @@
 									"arrows" : 2,
 									"border" : 2.0,
 									"id" : "obj-9",
-									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 27.0, 59.124540671706313, 10.0, 553.875459328293687 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
-											"expression" : ""
+											"expression" : "themecolor.live_control_fg"
 										}
 
 									}
@@ -837,6 +849,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
@@ -849,6 +862,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
@@ -862,6 +876,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
@@ -875,6 +890,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-84",
 									"maxclass" : "comment",
@@ -887,12 +903,13 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 14.0,
 									"id" : "obj-92",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 26.1245406717062, 50.0, 23.0 ],
+									"patching_rect" : [ 39.0, 26.1245406717062, 49.0, 23.0 ],
 									"text" : "INPUT",
 									"underline" : 1
 								}
@@ -900,6 +917,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
@@ -1115,6 +1133,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-43",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1174,6 +1193,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1508,22 +1528,16 @@
 								}
 
 							}
- ],
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 28.0, 57.0, 85.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : "",
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+						"tags" : ""
 					}
 ,
 					"text" : "p abstractions",
@@ -1833,6 +1847,10 @@
 					"parameter_longname" : "live.numbox[42]"
 				}
 ,
+				"obj-1::obj-20::obj-15" : 				{
+					"parameter_longname" : "live.numbox[81]"
+				}
+,
 				"obj-1::obj-20::obj-16" : 				{
 					"parameter_longname" : "live.text[203]"
 				}
@@ -2043,6 +2061,14 @@
 ,
 				"obj-1::obj-20::obj-50::obj-72" : 				{
 					"parameter_longname" : "live.numbox[57]"
+				}
+,
+				"obj-1::obj-20::obj-59" : 				{
+					"parameter_longname" : "live.numbox[80]"
+				}
+,
+				"obj-1::obj-20::obj-72" : 				{
+					"parameter_longname" : "live.numbox[79]"
 				}
 ,
 				"obj-1::obj-20::obj-74::obj-26" : 				{
@@ -2739,13 +2765,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",

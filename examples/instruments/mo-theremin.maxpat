@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -127,9 +128,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 20.0, 214.0, 214.0 ],
+					"patching_rect" : [ 20.0, 20.0, 142.0, 142.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 214.0, 214.0 ],
+					"presentation_rect" : [ 20.0, 20.0, 142.0, 142.0 ],
 					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
@@ -162,11 +163,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.375, 700.25, 74.0, 25.0 ],
+					"patching_rect" : [ 421.375, 700.25, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.5, 587.5, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -269,11 +271,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.0, 167.5, 171.0, 25.0 ],
+					"patching_rect" : [ 286.0, 167.5, 173.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 277.0, 114.5, 166.0, 25.0 ],
 					"text" : "control sound parameters ",
@@ -284,16 +287,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 633.19513450935483, 272.118750000000261, 262.0, 93.0 ],
+					"patching_rect" : [ 633.19513450935483, 272.118750000000261, 255.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 384.0, 262.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 384.0, 255.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Use xypad to control the sound parameters.\n3. (Optional) Set different scaling factors.\n4. (Optional) Route input to different outputs."
 				}
 
@@ -302,11 +305,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 211.927083333333258, 87.0, 40.0 ],
+					"patching_rect" : [ 250.0, 211.927083333333258, 90.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.5, 168.556794000000025, 87.0, 40.0 ],
 					"text" : "start playback"
@@ -344,6 +348,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -432,10 +437,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage p-mo.theremin @autorestore 1 @changemode 1",
@@ -521,6 +526,7 @@
 			"obj-16::obj-31" : [ "live.text[642]", "live.text", 0 ],
 			"obj-16::obj-56" : [ "live.numbox[503]", "live.numbox", 0 ],
 			"obj-17::obj-1" : [ "live.text[298]", "live.text", 0 ],
+			"obj-17::obj-18" : [ "live.text[928]", "live.text", 0 ],
 			"obj-17::obj-2" : [ "live.text[297]", "live.text", 0 ],
 			"obj-17::obj-37" : [ "live.numbox[131]", "live.numbox", 0 ],
 			"obj-17::obj-39" : [ "live.numbox[110]", "live.numbox", 0 ],
@@ -1051,13 +1057,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -1156,10 +1155,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,16 +36,18 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.175747000000001, 51.808333768518033, 85.0, 25.0 ],
+					"patching_rect" : [ 129.175747000000001, 51.808333768518033, 88.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 151.37545976347883, 80.0, 25.0 ],
 					"text" : "input data"
@@ -246,11 +248,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.175747000000001, 350.808333768518025, 137.0, 40.0 ],
+					"patching_rect" : [ 272.175747000000001, 350.808333768518025, 140.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 187.221204666666694, 180.87545976347883, 137.0, 40.0 ],
 					"text" : "connect cables to route"
@@ -339,27 +342,33 @@
 			"obj-1::obj-21" : [ "live.text[7]", "live.text", 0 ],
 			"obj-1::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-1::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-2::obj-1" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-1" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-18" : [ "live.text[928]", "live.text", 0 ],
 			"obj-2::obj-2" : [ "live.text[8]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-2::obj-42" : [ "live.text[555]", "live.text", 0 ],
 			"obj-4::obj-21" : [ "live.text[6]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[1]", "slider-", 0 ],
-			"obj-4::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-4::obj-35" : [ "live.text[9]", "live.text", 0 ],
+			"obj-4::obj-38" : [ "live.text[10]", "live.text", 0 ],
 			"obj-4::obj-56" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-6::obj-21" : [ "live.text[9]", "live.text", 0 ],
+			"obj-6::obj-21" : [ "live.text[13]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[2]", "slider-", 0 ],
-			"obj-6::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-6::obj-35" : [ "live.text[12]", "live.text", 0 ],
+			"obj-6::obj-38" : [ "live.text[11]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-7::obj-21" : [ "live.text[13]", "live.text", 0 ],
+			"obj-7::obj-21" : [ "live.text[15]", "live.text", 0 ],
 			"obj-7::obj-3" : [ "slider-[3]", "slider-", 0 ],
-			"obj-7::obj-35" : [ "live.text[12]", "live.text", 0 ],
+			"obj-7::obj-35" : [ "live.text[16]", "live.text", 0 ],
+			"obj-7::obj-38" : [ "live.text[14]", "live.text", 0 ],
 			"obj-7::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-9::obj-21" : [ "live.text[15]", "live.text", 0 ],
+			"obj-9::obj-21" : [ "live.text[20]", "live.text", 0 ],
 			"obj-9::obj-3" : [ "slider-[4]", "slider-", 0 ],
-			"obj-9::obj-35" : [ "live.text[20]", "live.text", 0 ],
+			"obj-9::obj-35" : [ "live.text[22]", "live.text", 0 ],
+			"obj-9::obj-38" : [ "live.text[21]", "live.text", 0 ],
 			"obj-9::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -379,8 +388,12 @@
 					"parameter_longname" : "live.text[19]"
 				}
 ,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-2::obj-1" : 				{
-					"parameter_longname" : "live.text[3]"
+					"parameter_longname" : "live.text[4]"
 				}
 ,
 				"obj-2::obj-2" : 				{
@@ -404,7 +417,11 @@
 				}
 ,
 				"obj-4::obj-35" : 				{
-					"parameter_longname" : "live.text[4]"
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-4::obj-56" : 				{
@@ -412,11 +429,15 @@
 				}
 ,
 				"obj-6::obj-21" : 				{
-					"parameter_longname" : "live.text[9]"
+					"parameter_longname" : "live.text[13]"
 				}
 ,
 				"obj-6::obj-35" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-6::obj-38" : 				{
+					"parameter_longname" : "live.text[11]"
 				}
 ,
 				"obj-6::obj-56" : 				{
@@ -424,11 +445,15 @@
 				}
 ,
 				"obj-7::obj-21" : 				{
-					"parameter_longname" : "live.text[13]"
+					"parameter_longname" : "live.text[15]"
 				}
 ,
 				"obj-7::obj-35" : 				{
-					"parameter_longname" : "live.text[12]"
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-7::obj-38" : 				{
+					"parameter_longname" : "live.text[14]"
 				}
 ,
 				"obj-7::obj-56" : 				{
@@ -436,11 +461,15 @@
 				}
 ,
 				"obj-9::obj-21" : 				{
-					"parameter_longname" : "live.text[15]"
+					"parameter_longname" : "live.text[20]"
 				}
 ,
 				"obj-9::obj-35" : 				{
-					"parameter_longname" : "live.text[20]"
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-9::obj-38" : 				{
+					"parameter_longname" : "live.text[21]"
 				}
 ,
 				"obj-9::obj-56" : 				{
@@ -453,13 +482,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -481,6 +503,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -488,10 +517,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

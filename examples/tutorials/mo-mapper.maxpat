@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -264,6 +265,7 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -308,6 +310,7 @@
 			"obj-10::obj-21" : [ "live.text[18]", "live.text", 0 ],
 			"obj-10::obj-3" : [ "slider-[4]", "slider-", 0 ],
 			"obj-10::obj-35" : [ "live.text[17]", "live.text", 0 ],
+			"obj-10::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-10::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-12::obj-2" : [ "live.text[187]", "live.text", 0 ],
 			"obj-12::obj-22" : [ "live.text[192]", "live.text", 0 ],
@@ -316,11 +319,12 @@
 			"obj-13::obj-22" : [ "live.text[29]", "live.text", 0 ],
 			"obj-13::obj-6" : [ "live.text[19]", "live.text", 0 ],
 			"obj-14::obj-2" : [ "live.text[30]", "live.text", 0 ],
-			"obj-14::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-14::obj-22" : [ "live.text[13]", "live.text", 0 ],
 			"obj-14::obj-6" : [ "live.text[31]", "live.text", 0 ],
 			"obj-16::obj-21" : [ "live.text[242]", "live.text", 0 ],
 			"obj-16::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-16::obj-35" : [ "live.text[240]", "live.text", 0 ],
+			"obj-16::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-16::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-1::obj-153" : [ "live.text[309]", "live.text", 0 ],
 			"obj-1::obj-39" : [ "live.text[314]", "live.text", 0 ],
@@ -340,6 +344,7 @@
 			"obj-8::obj-21" : [ "live.text[11]", "live.text", 0 ],
 			"obj-8::obj-3" : [ "slider-[3]", "slider-", 0 ],
 			"obj-8::obj-35" : [ "live.text[27]", "live.text", 0 ],
+			"obj-8::obj-38" : [ "live.text[6]", "live.text", 0 ],
 			"obj-8::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -359,8 +364,16 @@
 					"parameter_longname" : "live.text[17]"
 				}
 ,
+				"obj-10::obj-38" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
 				"obj-10::obj-56" : 				{
 					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-12::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
 				}
 ,
 				"obj-12::obj-22" : 				{
@@ -388,7 +401,7 @@
 				}
 ,
 				"obj-14::obj-22" : 				{
-					"parameter_longname" : "live.text[1]"
+					"parameter_longname" : "live.text[13]"
 				}
 ,
 				"obj-14::obj-6" : 				{
@@ -401,6 +414,10 @@
 ,
 				"obj-16::obj-35" : 				{
 					"parameter_longname" : "live.text[240]"
+				}
+,
+				"obj-16::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
 				}
 ,
 				"obj-1::obj-9" : 				{
@@ -437,6 +454,10 @@
 ,
 				"obj-8::obj-35" : 				{
 					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-8::obj-38" : 				{
+					"parameter_longname" : "live.text[6]"
 				}
 ,
 				"obj-8::obj-56" : 				{
@@ -484,6 +505,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -491,10 +519,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

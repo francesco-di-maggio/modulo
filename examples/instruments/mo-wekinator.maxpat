@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -78,9 +79,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 938.0, 404.447245000000009, 214.0, 169.0 ],
+					"patching_rect" : [ 938.0, 404.447245000000009, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 320.0, 214.0, 169.0 ],
+					"presentation_rect" : [ 450.0, 320.0, 214.0, 170.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -89,11 +90,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1021.0, 710.972858181367201, 74.0, 25.0 ],
+					"patching_rect" : [ 1021.0, 710.972858181367201, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.0, 523.0, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -157,11 +159,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 790.0, 523.947245000000066, 105.0, 25.0 ],
+					"patching_rect" : [ 790.0, 523.947245000000066, 108.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 308.0, 438.552754999999934, 105.0, 25.0 ],
 					"text" : "start playback "
@@ -199,6 +202,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -213,11 +217,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-79",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.4052734375, 435.894490434250201, 89.0, 25.0 ],
+					"patching_rect" : [ 396.4052734375, 435.894490434250201, 91.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 781.426817387342453, 423.605510217125129, 89.0, 25.0 ],
 					"text" : "train model "
@@ -255,6 +260,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-77",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -297,11 +303,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 526.573182612657547, 214.552754782874899, 152.0, 25.0 ],
+					"patching_rect" : [ 526.573182612657547, 214.552754782874899, 155.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.073182612657547, 80.5, 152.0, 25.0 ],
 					"text" : "pair it with input values ",
@@ -424,7 +431,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.wekinator.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -446,10 +452,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 3, 90, 403, 781 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 11, 100, 462, 780 ]
 					}
 ,
 					"text" : "pattrstorage p-mo.wekinator @autorestore 1 @changemode 1",
@@ -473,6 +479,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -527,11 +534,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.4052734375, 462.894490434250201, 77.0, 25.0 ],
+					"patching_rect" : [ 396.4052734375, 462.894490434250201, 80.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 781.426817387342453, 495.605510217125129, 77.0, 25.0 ],
 					"text" : "run / play"
@@ -568,16 +576,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-52",
 					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 938.0, 219.947245217125044, 361.0, 165.0 ],
+					"patching_rect" : [ 938.0, 219.947245217125044, 353.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 450.0, 20.0, 361.0, 165.0 ],
+					"presentation_rect" : [ 450.0, 20.0, 353.0, 165.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download and open Wekinator:\n     http://www.wekinator.org\n     • Open a new project, and click  on\"Next >\" (default settings).\n2. Start DSP, and tehremini~ playback.\n3. Find a sound that you like.\n4. Pair it with an input position.\n5. Record examples of input-output pair. Repeat steps 3 and 4.\n6. Train the model.\n7. Run the model (output predictions based on new input)."
 				}
 
@@ -755,8 +763,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -805,6 +813,7 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
@@ -895,6 +904,7 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-181",
 									"maxclass" : "comment",
@@ -908,6 +918,7 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-180",
 									"maxclass" : "comment",
@@ -921,6 +932,7 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-172",
 									"maxclass" : "comment",
@@ -2648,13 +2660,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -2663,8 +2668,8 @@
 			}
 , 			{
 				"name" : "a-mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo-plus/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2677,13 +2682,6 @@
 			}
 , 			{
 				"name" : "a-mo.slider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
@@ -2725,6 +2723,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.scale.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
@@ -2746,31 +2758,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "p-mo.wekinator.json",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/presets",
 				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -184,11 +185,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.426817387342453, 148.5, 127.0, 25.0 ],
+					"patching_rect" : [ 269.426817387342453, 148.5, 129.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.602564387342454, 137.5, 127.0, 25.0 ],
 					"text" : "select MIDI output "
@@ -226,11 +228,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.426817387342453, 41.101393409073353, 119.0, 25.0 ],
+					"patching_rect" : [ 269.426817387342453, 41.101393409073353, 121.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.602564387342454, 42.0, 119.0, 25.0 ],
 					"text" : "select MIDI input "
@@ -292,11 +295,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.926817387342453, 307.833333333333258, 127.0, 25.0 ],
+					"patching_rect" : [ 274.926817387342453, 307.833333333333258, 129.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.602564387342454, 275.5, 127.0, 25.0 ],
 					"text" : "select MIDI output "
@@ -333,16 +337,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 359.601393409073353, 287.0, 93.0 ],
+					"patching_rect" : [ 20.0, 359.601393409073353, 280.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 329.0, 287.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 329.0, 280.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Open your preferred DAW (e.g Ableton Live).\n2. (Otional) Select MIDI input for keyboard.\n3. Select MIDI output for keyboard (notes).\n4. Select MIDI output for sliders (control changes)."
 				}
 
@@ -585,11 +589,15 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,16 +36,18 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.175746917724609, 45.808333333332939, 85.0, 25.0 ],
+					"patching_rect" : [ 482.175746917724609, 45.808333333332939, 88.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 376.0, 151.37545976347883, 80.0, 25.0 ],
 					"text" : "input data"
@@ -84,11 +86,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.675746917724609, 500.808333333332939, 137.0, 40.0 ],
+					"patching_rect" : [ 111.675746917724609, 500.808333333332939, 140.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 426.499999569695547, 180.87545976347883, 137.0, 40.0 ],
 					"text" : "connect cables to route"
@@ -334,8 +337,10 @@
 			"obj-1::obj-21" : [ "live.text[13]", "live.text", 0 ],
 			"obj-1::obj-3" : [ "slider-[8]", "slider-", 0 ],
 			"obj-1::obj-35" : [ "live.text[14]", "live.text", 0 ],
+			"obj-1::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-2::obj-1" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-18" : [ "live.text[928]", "live.text", 0 ],
 			"obj-2::obj-2" : [ "live.text[9]", "live.text", 0 ],
 			"obj-2::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-2::obj-39" : [ "live.numbox[2]", "live.numbox", 0 ],
@@ -343,18 +348,22 @@
 			"obj-4::obj-21" : [ "live.text[242]", "live.text", 0 ],
 			"obj-4::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-4::obj-35" : [ "live.text[240]", "live.text", 0 ],
+			"obj-4::obj-38" : [ "live.text[5]", "live.text", 0 ],
 			"obj-4::obj-56" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-6::obj-21" : [ "live.text[5]", "live.text", 0 ],
+			"obj-6::obj-21" : [ "live.text[8]", "live.text", 0 ],
 			"obj-6::obj-3" : [ "slider-[5]", "slider-", 0 ],
 			"obj-6::obj-35" : [ "live.text[6]", "live.text", 0 ],
+			"obj-6::obj-38" : [ "live.text[7]", "live.text", 0 ],
 			"obj-6::obj-56" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-7::obj-21" : [ "live.text[7]", "live.text", 0 ],
+			"obj-7::obj-21" : [ "live.text[10]", "live.text", 0 ],
 			"obj-7::obj-3" : [ "slider-[6]", "slider-", 0 ],
-			"obj-7::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-7::obj-35" : [ "live.text[15]", "live.text", 0 ],
+			"obj-7::obj-38" : [ "live.text[16]", "live.text", 0 ],
 			"obj-7::obj-56" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-9::obj-21" : [ "live.text[12]", "live.text", 0 ],
 			"obj-9::obj-3" : [ "slider-[7]", "slider-", 0 ],
 			"obj-9::obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-9::obj-38" : [ "live.text[17]", "live.text", 0 ],
 			"obj-9::obj-56" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -374,6 +383,10 @@
 					"parameter_longname" : "live.text[14]"
 				}
 ,
+				"obj-1::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-2::obj-1" : 				{
 					"parameter_longname" : "live.text[4]"
 				}
@@ -390,6 +403,10 @@
 					"parameter_longname" : "live.numbox[2]"
 				}
 ,
+				"obj-2::obj-42" : 				{
+					"parameter_longname" : "live.text[555]"
+				}
+,
 				"obj-4::obj-21" : 				{
 					"parameter_longname" : "live.text[242]"
 				}
@@ -398,16 +415,24 @@
 					"parameter_longname" : "live.text[240]"
 				}
 ,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-4::obj-56" : 				{
 					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-6::obj-21" : 				{
-					"parameter_longname" : "live.text[5]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-6::obj-35" : 				{
 					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-6::obj-38" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-6::obj-56" : 				{
@@ -415,11 +440,15 @@
 				}
 ,
 				"obj-7::obj-21" : 				{
-					"parameter_longname" : "live.text[7]"
+					"parameter_longname" : "live.text[10]"
 				}
 ,
 				"obj-7::obj-35" : 				{
-					"parameter_longname" : "live.text[10]"
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-7::obj-38" : 				{
+					"parameter_longname" : "live.text[16]"
 				}
 ,
 				"obj-7::obj-56" : 				{
@@ -434,6 +463,10 @@
 					"parameter_longname" : "live.text[11]"
 				}
 ,
+				"obj-9::obj-38" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
 				"obj-9::obj-56" : 				{
 					"parameter_longname" : "live.numbox[9]"
 				}
@@ -444,13 +477,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -472,6 +498,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.vslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -479,10 +512,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

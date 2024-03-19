@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -258,12 +259,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 158.0, 54.0 ],
+					"patching_rect" : [ 268.499999542877958, 50.999999945402145, 160.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 22.0, 20.0, 158.0, 54.0 ],
@@ -475,14 +477,17 @@
 			"obj-13::obj-21" : [ "live.text[883]", "live.text", 0 ],
 			"obj-13::obj-3" : [ "slider-[50]", "slider-", 0 ],
 			"obj-13::obj-35" : [ "live.text[880]", "live.text", 0 ],
+			"obj-13::obj-38" : [ "live.text[3]", "live.text", 0 ],
 			"obj-13::obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-14::obj-21" : [ "live.text[85]", "live.text", 0 ],
 			"obj-14::obj-3" : [ "slider-[18]", "slider-", 0 ],
 			"obj-14::obj-35" : [ "live.text[84]", "live.text", 0 ],
+			"obj-14::obj-38" : [ "live.text[80]", "live.text", 0 ],
 			"obj-14::obj-56" : [ "live.numbox[58]", "live.numbox", 0 ],
 			"obj-16::obj-21" : [ "live.text[86]", "live.text", 0 ],
 			"obj-16::obj-3" : [ "slider-[19]", "slider-", 0 ],
-			"obj-16::obj-35" : [ "live.text[80]", "live.text", 0 ],
+			"obj-16::obj-35" : [ "live.text[82]", "live.text", 0 ],
+			"obj-16::obj-38" : [ "live.text[81]", "live.text", 0 ],
 			"obj-16::obj-56" : [ "live.numbox[59]", "live.numbox", 0 ],
 			"obj-1::obj-13" : [ "live.numbox[298]", "live.numbox", 0 ],
 			"obj-1::obj-9" : [ "live.text[530]", "live.text", 0 ],
@@ -578,6 +583,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-10::obj-13" : 				{
+					"parameter_longname" : "live.numbox[19]"
+				}
+,
 				"obj-10::obj-15" : 				{
 					"parameter_longname" : "live.text[83]"
 				}
@@ -790,12 +799,28 @@
 					"parameter_longname" : "live.text[50]"
 				}
 ,
+				"obj-13::obj-21" : 				{
+					"parameter_longname" : "live.text[883]"
+				}
+,
+				"obj-13::obj-35" : 				{
+					"parameter_longname" : "live.text[880]"
+				}
+,
+				"obj-13::obj-56" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-14::obj-21" : 				{
 					"parameter_longname" : "live.text[85]"
 				}
 ,
 				"obj-14::obj-35" : 				{
 					"parameter_longname" : "live.text[84]"
+				}
+,
+				"obj-14::obj-38" : 				{
+					"parameter_longname" : "live.text[80]"
 				}
 ,
 				"obj-14::obj-56" : 				{
@@ -807,7 +832,11 @@
 				}
 ,
 				"obj-16::obj-35" : 				{
-					"parameter_longname" : "live.text[80]"
+					"parameter_longname" : "live.text[82]"
+				}
+,
+				"obj-16::obj-38" : 				{
+					"parameter_longname" : "live.text[81]"
 				}
 ,
 				"obj-16::obj-56" : 				{
@@ -1247,10 +1276,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

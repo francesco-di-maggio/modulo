@@ -318,7 +318,7 @@
 					"arrows" : 2,
 					"border" : 0.5,
 					"id" : "obj-1",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -327,7 +327,7 @@
 					"presentation_rect" : [ 124.563921772525958, 47.339789700751737, 20.294976636767387, 9.065420567989349 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_fg"
 						}
 
 					}
@@ -372,7 +372,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -410,7 +410,7 @@
 				"box" : 				{
 					"comment" : "(int) cue number to output, (message) bang, inc, dec, reset, goto, mute",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -470,7 +470,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"fgcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"id" : "obj-60",
 					"maxclass" : "incdec",
 					"numinlets" : 1,
@@ -481,6 +482,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.500825196504593, 26.840170949697495, 41.0, 29.532329035048917 ],
 					"saved_attribute_attributes" : 					{
+						"elementcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"fgcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -597,7 +602,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[18]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -671,7 +676,7 @@
 				"box" : 				{
 					"comment" : "(int) cue number",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -757,7 +762,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[145]",
+							"parameter_longname" : "live.text[52]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1051,41 +1056,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-166" : [ "live.numbox[43]", "live.numbox", 0 ],
-			"obj-56" : [ "live.text[145]", "live.text", 0 ],
-			"obj-62" : [ "live.numbox[42]", "live.numbox", 0 ],
-			"obj-70" : [ "live.text[1]", "live.text", 0 ],
-			"obj-9" : [ "live.text[12]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -64,11 +65,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 695.0, 58.0, 100.0, 25.0 ],
+					"patching_rect" : [ 695.0, 58.0, 101.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 336.0, 334.0, 100.0, 25.0 ],
 					"text" : "replace sound"
@@ -458,6 +460,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-35",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -502,16 +505,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.0, 165.0, 201.0, 79.0 ],
+					"patching_rect" : [ 640.0, 165.0, 196.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 20.0, 410.0, 201.0, 79.0 ],
+					"presentation_rect" : [ 20.0, 410.0, 196.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of steps (default: 8).\n2. Turn playback on.\n3. Set link mode on/off."
 				}
 
@@ -519,11 +522,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.186889999999948, 724.955140000000029, 74.0, 25.0 ],
+					"patching_rect" : [ 176.186889999999948, 724.955140000000029, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 370.0, 437.0, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -1155,10 +1159,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

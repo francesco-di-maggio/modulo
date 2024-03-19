@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -113,11 +114,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-24",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.5, 148.5, 131.0, 25.0 ],
+					"patching_rect" : [ 263.5, 148.5, 129.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.5, 59.172937527298927, 131.0, 25.0 ],
 					"text" : "set scene, and bang",
@@ -128,6 +131,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -137,8 +141,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 272.5, 91.845875054597855, 163.0, 39.0 ],
-					"text" : "navigate an empty scene, \nand enter text",
-					"textjustification" : 1
+					"text" : "navigate an empty scene, \nand enter new text",
+					"textjustification" : 0
 				}
 
 			}
@@ -174,7 +178,7 @@
 				"box" : 				{
 					"arrows" : 2,
 					"id" : "obj-22",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -183,7 +187,7 @@
 					"presentation_rect" : [ 230.5, 465.845875054597855, 143.014276457122037, 10.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_fg"
 						}
 
 					}
@@ -210,11 +214,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 73.5, 19.5, 77.0, 25.0 ],
+					"patching_rect" : [ 73.5, 19.5, 79.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 305.5, 200.0, 75.0, 25.0 ],
 					"text" : "load dict ",
@@ -391,6 +396,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -505,16 +511,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 361.845875054597855, 340.0, 194.0 ],
+					"patching_rect" : [ 280.0, 361.845875054597855, 331.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 20.0, 402.345875054597855, 340.0, 194.0 ],
+					"presentation_rect" : [ 20.0, 402.345875054597855, 331.0, 194.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Load dict to fill scenes' messages (read p-mo.messenger).\n2. A \"bang\" on scene 1 will turn \"pad\" on, and start a ramp\n    for \"dial\".  Same as this construct:\n4. Go to scene 2, and \"bang\" again, or \"clear\" current scene.\n     (\"init\" will clear the all scenes!)\n5. Choose mode: \n     • \"manual\" requires a bang to output message.\n     • \"auto\" outputs message after text is entered.\n6. Enter text: \";number del 1000, 0, 1 4000\" (; = semicolon) \n     to start a ramp for \"number\" with a delay of 1000 ms.\n7. Write the newly made score using the \"write\" button."
 				}
 
@@ -653,12 +659,20 @@
 					"parameter_longname" : "live.text[138]"
 				}
 ,
+				"obj-55::obj-6" : 				{
+					"parameter_longname" : "live.text[185]"
+				}
+,
 				"obj-78::obj-11" : 				{
 					"parameter_longname" : "live.text[325]"
 				}
 ,
 				"obj-78::obj-22" : 				{
 					"parameter_longname" : "live.text[324]"
+				}
+,
+				"obj-78::obj-27" : 				{
+					"parameter_longname" : "live.tab"
 				}
 ,
 				"obj-78::obj-30" : 				{
@@ -679,6 +693,10 @@
 ,
 				"obj-78::obj-85" : 				{
 					"parameter_longname" : "live.text[820]"
+				}
+,
+				"obj-88::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
 				}
 ,
 				"obj-88::obj-22" : 				{
@@ -743,11 +761,15 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

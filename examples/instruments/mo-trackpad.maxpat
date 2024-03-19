@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -142,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.25, 300.0, 98.0, 23.0 ],
-					"text" : "zmap 0 1 0.4 0.8"
+					"text" : "zmap 0 1 0.3 0.6"
 				}
 
 			}
@@ -162,7 +163,7 @@
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 296.0, 717.5, 82.0, 23.0 ],
@@ -282,11 +283,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 515.0, 269.0, 33.0, 23.0 ],
+					"patching_rect" : [ 515.0, 269.0, 31.0, 37.0 ],
 					"text" : "sel 1"
 				}
 
@@ -294,11 +296,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 428.0, 269.0, 33.0, 23.0 ],
+					"patching_rect" : [ 428.0, 269.0, 31.0, 37.0 ],
 					"text" : "sel 1"
 				}
 
@@ -364,11 +367,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.5, 267.25, 54.0, 23.0 ],
+					"patching_rect" : [ 27.5, 267.25, 52.0, 37.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -579,6 +583,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -634,16 +639,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-59",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 895.0, 471.0, 215.0, 93.0 ],
+					"patching_rect" : [ 895.0, 471.0, 211.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 20.0, 215.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 20.0, 211.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start DSP, and increase volume.\n2. Hit \"Enter\" to play, \"ESC\" to stop.\n3. Click and drag mouse (or trackpad)\n     to control sound and color."
 				}
 
@@ -1629,10 +1634,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }
