@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -350,6 +350,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"blinkcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"downarrow" : 0,
@@ -366,6 +367,10 @@
 					"presentation_rect" : [ 26.0, 29.0, 18.0, 16.0 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
+						"arrowcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -381,6 +386,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"blinkcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-33",
@@ -396,6 +402,10 @@
 					"presentation_rect" : [ 26.0, 47.0, 18.0, 16.0 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
+						"arrowcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -412,6 +422,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"blinkcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"downarrow" : 0,
@@ -427,6 +438,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 38.370044559240341, 38.295154444873333, 18.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
+						"arrowcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -443,6 +458,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrowcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"blinkcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"downarrow" : 0,
@@ -458,6 +474,10 @@
 					"presentation_rect" : [ 14.0, 38.295154444873333, 18.0, 16.0 ],
 					"rightarrow" : 0,
 					"saved_attribute_attributes" : 					{
+						"arrowcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}

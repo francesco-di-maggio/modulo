@@ -107,8 +107,6 @@
 
 					}
 ,
-					"text" : "granulator",
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
 				}
@@ -477,7 +475,14 @@
 					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo-plus/patchers/utility/media/",
 					"presentation" : 1,
 					"presentation_rect" : [ 323.285206526517868, 74.595438267829479, 102.774710903122696, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "folder-"
 				}
@@ -1146,7 +1151,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-160",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3254,7 +3259,7 @@
 				"box" : 				{
 					"comment" : "(list) mode, playpos, stretch, randpos, playstop, graindur. transp, aleaoct, quant, panrand, gain",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4838,7 +4843,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) stereo output",
 					"id" : "obj-208",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5210,7 +5215,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 660.003682172375534, 1376.259496789370587, 115.248122784766565, 37.0 ],
-					"restore" : [ 100.301000000000002 ],
+					"restore" : [ 100.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5252,7 +5257,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 397.884720564863812, 1376.259496789370587, 110.000000000000057, 37.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 806.14515260952146 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5294,7 +5299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 160.902267109898389, 1376.259496789370587, 108.069914517232689, 37.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 1834.308453490534475 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -11947,7 +11952,85 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-10" : [ "live.numbox[646]", "live.dial[12]", 0 ],
+			"obj-136" : [ "live.text[687]", "live.text", 0 ],
+			"obj-152" : [ "live.text[640]", "live.text", 0 ],
+			"obj-155" : [ "live.numbox[647]", "live.dial[12]", 0 ],
+			"obj-161" : [ "live.numbox[653]", "live.dial[12]", 0 ],
+			"obj-163" : [ "live.text[638]", "live.text", 0 ],
+			"obj-166" : [ "live.numbox[651]", "live.dial[12]", 0 ],
+			"obj-167" : [ "live.numbox[481]", "live.dial[12]", 0 ],
+			"obj-168" : [ "live.dial[43]", "live.dial[12]", 0 ],
+			"obj-169" : [ "live.numbox[649]", "live.dial[12]", 0 ],
+			"obj-171" : [ "live.numbox[650]", "live.dial[12]", 0 ],
+			"obj-185" : [ "live.numbox[648]", "live.dial[12]", 0 ],
+			"obj-188" : [ "live.text[688]", "live.text", 0 ],
+			"obj-19" : [ "live.numbox[652]", "live.dial[12]", 0 ],
+			"obj-236" : [ "live.numbox[645]", "live.dial[12]", 0 ],
+			"obj-245" : [ "live.text[641]", "live.text", 0 ],
+			"obj-247" : [ "live.text[712]", "live.text", 0 ],
+			"obj-248" : [ "live.text[713]", "live.text", 0 ],
+			"obj-249" : [ "live.text[639]", "live.text", 0 ],
+			"obj-5" : [ "live.text[714]", "live.text", 0 ],
+			"obj-88" : [ "live.text[1021]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.gran~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

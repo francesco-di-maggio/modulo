@@ -337,7 +337,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -415,7 +415,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
@@ -426,13 +426,17 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 45.206229716539383, 62.570427238941193, 44.33601987361908 ],
 					"saved_attribute_attributes" : 					{
+						"color" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"switchcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
 
 					}
 ,
-					"switchcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"switchcolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"varname" : "switch"
 				}
 

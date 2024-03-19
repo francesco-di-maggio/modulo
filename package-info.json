@@ -1,7 +1,7 @@
 {	
 	"name" : "modulo",
 	"displayname" : "",
-	"version" : "1.0.3",
+	"version" : "1.1",
 	"author" : "Francesco Di Maggio",
 	"description" : "A Toolkit for Tinkering with Digital Musical Instruments.",
 	"tags" : [ "digital", "musical", "instrument", "design", "modular", "multichannel", "input", "route", "transform", "utility" ],
