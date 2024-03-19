@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 71.0, 525.5, 123.0, 21.0 ],
-					"presentation_linecount" : 3,
 					"text" : "LOAD AS BPATCHER:"
 				}
 
@@ -87,7 +86,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 55.0, 547.5, 582.0, 83.0 ],
-					"presentation_linecount" : 6,
 					"text" : "1. Unlock the patcher window.\n2. Type \"n\" to create a new object.\n3. Type \"bpatcher mo.\" followed by the name of a module (e.g. bpatcher mo.sliders).\n     (Optional) Use the shortcut: \"Shift/+\" to create a new \"bpatcher @name mo.\" object.\n4. (Optional) Add @args \"...\" (e.g. bpatcher mo.sliders @args 4) to initialize the object with an attribute."
 				}
 
@@ -812,6 +810,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-14",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 590.0, 100.5, 30.0, 30.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -842,83 +853,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1::obj-2" : [ "live.text[187]", "live.text", 0 ],
-			"obj-1::obj-22" : [ "live.text[192]", "live.text", 0 ],
-			"obj-1::obj-6" : [ "live.text[25]", "live.text", 0 ],
-			"obj-24::obj-2" : [ "live.text[90]", "live.text", 0 ],
-			"obj-24::obj-22" : [ "live.text[19]", "live.text", 0 ],
-			"obj-24::obj-6" : [ "live.text[92]", "live.text", 0 ],
-			"obj-32" : [ "toggle", "toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-2" : 				{
-					"parameter_longname" : "live.text[187]"
-				}
-,
-				"obj-1::obj-22" : 				{
-					"parameter_longname" : "live.text[192]"
-				}
-,
-				"obj-1::obj-6" : 				{
-					"parameter_longname" : "live.text[25]"
-				}
-,
-				"obj-24::obj-2" : 				{
-					"parameter_longname" : "live.text[90]"
-				}
-,
-				"obj-24::obj-22" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-24::obj-6" : 				{
-					"parameter_longname" : "live.text[92]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.color.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.pad.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

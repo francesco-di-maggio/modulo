@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -90,7 +91,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -249,10 +250,8 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"cellwidth" : 90,
-					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"columns" : 2,
 					"dividersize" : 10,
-					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hotcolor" : [ 0.619607843137255, 0.964705882352941, 0.584313725490196, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "gridmeter~",
@@ -261,14 +260,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 36.806426948308967, 222.911174970092702, 210.0, 186.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 25.0, 210.0, 186.0 ],
-					"saved_attribute_attributes" : 					{
-						"color" : 						{
-							"expression" : "themecolor.live_value_bar"
-						}
-
-					}
-
+					"presentation_rect" : [ 2.0, 25.0, 210.0, 186.0 ]
 				}
 
 			}
@@ -471,10 +463,7 @@
 			}
  ],
 		"autosave" : 0,
-		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority", "traceenable", "autolockunselected" ],
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"toolbarexclusions" : [ "savefavorite", "grid", "objectpriority", "traceenable", "autolockunselected" ]
 	}
 
 }

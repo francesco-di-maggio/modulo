@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -58,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.0, 289.25, 67.0, 23.0 ],
+					"patching_rect" : [ 860.0, 309.0, 67.0, 23.0 ],
 					"text" : "pvar mute-"
 				}
 
@@ -86,7 +87,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-6",
@@ -139,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 859.5, 170.0, 105.5, 23.0 ],
+					"patching_rect" : [ 859.5, 170.0, 67.0, 23.0 ],
 					"text" : "route bang"
 				}
 
@@ -151,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.0, 248.0, 105.0, 23.0 ],
+					"patching_rect" : [ 860.0, 268.0, 105.0, 23.0 ],
 					"text" : "text $1, texton $1"
 				}
 
@@ -163,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 859.5, 200.0, 81.0, 23.0 ],
+					"patching_rect" : [ 860.0, 220.0, 81.0, 23.0 ],
 					"text" : "loadmess pad"
 				}
 
@@ -270,7 +271,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -700,6 +701,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"activetextoncolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -907,7 +909,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 717.5, 234.0, 869.5, 234.0 ],
+					"midpoints" : [ 717.5, 255.0, 869.5, 255.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1068,7 +1070,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 869.0, 225.0, 869.5, 225.0 ],
+					"midpoints" : [ 869.5, 246.0, 869.5, 246.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1092,7 +1094,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 869.0, 195.0, 869.0, 195.0 ],
+					"midpoints" : [ 869.0, 195.0, 869.5, 195.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1100,7 +1102,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 955.5, 234.0, 869.5, 234.0 ],
+					"midpoints" : [ 917.0, 207.0, 846.0, 207.0, 846.0, 255.0, 869.5, 255.0 ],
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -1166,7 +1168,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 869.5, 273.0, 869.5, 273.0 ],
+					"midpoints" : [ 869.5, 294.0, 869.5, 294.0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -1244,10 +1246,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }
