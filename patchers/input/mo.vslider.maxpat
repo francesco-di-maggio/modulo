@@ -188,9 +188,8 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "slider-[18]",
+							"parameter_longname" : "slider-[20]",
 							"parameter_mmax" : 1.0,
-							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider-",
 							"parameter_type" : 0
@@ -215,14 +214,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 718.0, 431.0, 216.0, 23.0 ],
+					"patching_rect" : [ 718.0, 431.0, 317.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 3 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr length @bindto length- @initial 3",
+					"text" : "pattr length @bindto length- @initial 3 @default_interp 0",
 					"varname" : "length"
 				}
 
@@ -882,7 +881,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "color-"
 				}
 
@@ -1116,7 +1114,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[242]",
+							"parameter_longname" : "live.text[47]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1243,7 +1241,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[240]",
+							"parameter_longname" : "live.text[48]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",

@@ -543,6 +543,10 @@
 					"parameter_longname" : "live.text[48]"
 				}
 ,
+				"obj-21::obj-38" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-21::obj-56" : 				{
 					"parameter_longname" : "live.numbox[6]"
 				}

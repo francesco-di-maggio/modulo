@@ -205,8 +205,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.5, 137.0, 143.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 135.5, 139.0, 40.0 ],
-					"text" : "start random generator ",
+					"presentation_rect" : [ 32.0, 136.0, 136.0, 40.0 ],
+					"text" : "start random generator",
 					"textjustification" : 1
 				}
 

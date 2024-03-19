@@ -128,8 +128,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 209.5, 70.0, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.5, 54.0, 132.0, 25.0 ],
-					"text" : "turn blinking on/off "
+					"presentation_rect" : [ 120.5, 54.0, 130.0, 25.0 ],
+					"text" : "turn blinking on/off"
 				}
 
 			}

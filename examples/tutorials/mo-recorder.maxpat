@@ -295,8 +295,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.735307750912682, 55.291298999999995, 103.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 274.73530791772464, 43.5, 103.0, 25.0 ],
-					"text" : "generate data "
+					"presentation_rect" : [ 274.73530791772464, 43.5, 100.0, 25.0 ],
+					"text" : "generate data"
 				}
 
 			}

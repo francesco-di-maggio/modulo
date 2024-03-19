@@ -255,7 +255,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.175747000000001, 350.808333768518025, 140.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.221204666666694, 180.87545976347883, 137.0, 40.0 ],
+					"presentation_rect" : [ 187.221204666666722, 181.0, 137.0, 40.0 ],
 					"text" : "connect cables to route"
 				}
 
@@ -386,6 +386,10 @@
 ,
 				"obj-1::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-38" : 				{
+					"parameter_longname" : "live.text[3]"
 				}
 ,
 				"obj-1::obj-56" : 				{

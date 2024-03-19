@@ -166,8 +166,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 790.0, 523.947245000000066, 108.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 438.552754999999934, 105.0, 25.0 ],
-					"text" : "start playback "
+					"presentation_rect" : [ 308.0, 438.552754999999934, 102.0, 25.0 ],
+					"text" : "start playback"
 				}
 
 			}
@@ -209,8 +209,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 396.4052734375, 489.894490434250201, 90.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 758.426817387342453, 576.500000217125262, 90.0, 25.0 ],
-					"text" : "clear model "
+					"presentation_rect" : [ 758.426817387342453, 576.500000217125262, 87.0, 25.0 ],
+					"text" : "clear model"
 				}
 
 			}
@@ -224,8 +224,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 396.4052734375, 435.894490434250201, 91.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 781.426817387342453, 423.605510217125129, 89.0, 25.0 ],
-					"text" : "train model "
+					"presentation_rect" : [ 781.426817387342453, 423.605510217125129, 86.0, 25.0 ],
+					"text" : "train model"
 				}
 
 			}
@@ -267,8 +267,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 396.4052734375, 406.894490434250201, 116.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 781.426817387342453, 353.052755000000047, 116.0, 25.0 ],
-					"text" : "record examples "
+					"presentation_rect" : [ 781.426817387342453, 353.052755000000047, 113.0, 25.0 ],
+					"text" : "record examples"
 				}
 
 			}
@@ -310,8 +310,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 526.573182612657547, 214.552754782874899, 155.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.073182612657547, 80.5, 152.0, 25.0 ],
-					"text" : "pair it with input values ",
+					"presentation_rect" : [ 269.073182612657547, 80.5, 150.0, 25.0 ],
+					"text" : "pair it with input values",
 					"textjustification" : 1
 				}
 
@@ -486,8 +486,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 526.573182612657547, 137.5, 161.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.573182612657547, 231.052755000000047, 161.0, 25.0 ],
-					"text" : "find a sound that you like "
+					"presentation_rect" : [ 266.573182612657547, 231.052755000000047, 159.0, 25.0 ],
+					"text" : "find a sound that you like"
 				}
 
 			}

@@ -278,8 +278,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 286.0, 167.5, 173.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 114.5, 166.0, 25.0 ],
-					"text" : "control sound parameters ",
+					"presentation_rect" : [ 277.0, 114.5, 163.0, 25.0 ],
+					"text" : "control sound parameters",
 					"textjustification" : 1
 				}
 

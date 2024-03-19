@@ -470,7 +470,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 39.0, 242.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "NOTE: In the Inspector you may:\n• change background color \n• enable/disable border, or use thispatcher"
 				}
 
@@ -808,8 +807,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 198.682643661896435, 395.0, 54.0 ],
-					"text" : "1. Unlock the patcher window.\n2. Right-click anywhere in the patcher window: Paste From > modulo. \n3. Choose a category, and select a module."
+					"patching_rect" : [ 55.0, 198.682643661896435, 392.0, 54.0 ],
+					"text" : "1. Unlock the patcher window.\n2. Right-click anywhere in the patcher window: Paste From > modulo.\n3. Choose a category, and select a module."
 				}
 
 			}

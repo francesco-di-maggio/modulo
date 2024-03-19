@@ -140,9 +140,8 @@
 					"patching_rect" : [ 263.5, 181.5, 163.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 272.5, 91.845875054597855, 163.0, 39.0 ],
-					"text" : "navigate an empty scene, \nand enter new text",
-					"textjustification" : 0
+					"presentation_rect" : [ 272.5, 91.845875054597855, 160.0, 39.0 ],
+					"text" : "navigate an empty scene,\nand enter new text"
 				}
 
 			}
@@ -403,8 +402,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 263.5, 108.5, 77.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 19.5, 77.0, 25.0 ],
-					"text" : "set mode ",
+					"presentation_rect" : [ 272.5, 19.5, 74.0, 25.0 ],
+					"text" : "set mode",
 					"textjustification" : 1
 				}
 

@@ -192,8 +192,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.426817387342453, 148.5, 129.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.602564387342454, 137.5, 127.0, 25.0 ],
-					"text" : "select MIDI output "
+					"presentation_rect" : [ 272.602564387342454, 137.5, 125.0, 25.0 ],
+					"text" : "select MIDI output"
 				}
 
 			}
@@ -235,8 +235,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.426817387342453, 41.101393409073353, 121.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.602564387342454, 42.0, 119.0, 25.0 ],
-					"text" : "select MIDI input "
+					"presentation_rect" : [ 272.602564387342454, 42.0, 116.0, 25.0 ],
+					"text" : "select MIDI input"
 				}
 
 			}
@@ -302,8 +302,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.926817387342453, 307.833333333333258, 129.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.602564387342454, 275.5, 127.0, 25.0 ],
-					"text" : "select MIDI output "
+					"presentation_rect" : [ 270.602564387342454, 275.5, 125.0, 25.0 ],
+					"text" : "select MIDI output"
 				}
 
 			}
