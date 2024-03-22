@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -80,6 +80,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubble_bgcolor" : [ 1.0, 0.788235294117647, 0.470588235294118, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 5,
@@ -132,7 +133,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -479,7 +480,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-9",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -522,7 +523,7 @@
 					"arrows" : 1,
 					"border" : 0.7,
 					"id" : "obj-6",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -579,7 +580,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-23",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -599,7 +600,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-22",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,

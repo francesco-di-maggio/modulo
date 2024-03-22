@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -44,7 +44,7 @@
 				"box" : 				{
 					"comment" : "(anything)",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -321,6 +321,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-9",
 					"linecount" : 3,
 					"maxclass" : "message",
@@ -739,7 +740,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
-							"parameter_longname" : "live.tab[1]",
+							"parameter_longname" : "live.tab",
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
@@ -1126,7 +1127,7 @@
 				"box" : 				{
 					"comment" : "(int) scenes, (message) mode, bang, read, write, init, clear",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1928,44 +1929,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11" : [ "live.text[325]", "live.text", 0 ],
-			"obj-22" : [ "live.text[324]", "live.text", 0 ],
-			"obj-27" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-30" : [ "live.text[834]", "live.text", 0 ],
-			"obj-37" : [ "live.text[982]", "live.text", 0 ],
-			"obj-41" : [ "live.text[323]", "live.text", 0 ],
-			"obj-5" : [ "live.text[326]", "live.text", 0 ],
-			"obj-85" : [ "live.text[820]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
