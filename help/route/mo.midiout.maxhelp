@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 302.440027274027386, 509.5, 92.5, 23.0 ],
+					"patching_rect" : [ 302.440027274027386, 524.0, 92.5, 23.0 ],
 					"text" : "midiparse"
 				}
 
@@ -317,7 +317,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.000000000000057, 604.0, 51.440027274027386, 23.0 ]
+					"patching_rect" : [ 270.000000000000057, 604.0, 51.440027274027386, 23.0 ],
+					"text" : "60 0"
 				}
 
 			}
@@ -502,7 +503,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 311.940027274027386, 534.0, 311.940027274027443, 534.0 ],
+					"midpoints" : [ 311.940027274027386, 549.0, 311.940027274027443, 549.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

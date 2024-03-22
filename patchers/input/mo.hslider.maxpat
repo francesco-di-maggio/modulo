@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -118,7 +118,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -304,7 +304,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1075,7 +1075,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[140]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1191,7 +1191,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[53]",
+							"parameter_longname" : "live.text[139]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1232,7 +1232,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 869.0, 463.333333333333314, 240.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 0.431034482758621 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1281,14 +1281,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 89.0, 617.0, 78.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.0, 29.0, 246.0, 34.0 ],
+					"presentation_rect" : [ 31.0, 29.0, 174.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"slidercolor" : 						{
 							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "slider-[11]",
+							"parameter_longname" : "slider-[51]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider-",
@@ -1298,7 +1298,6 @@
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"spacing" : 2,
@@ -1428,7 +1427,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 329.0, 617.0, 78.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 254.0, 38.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 182.0, 38.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1443,7 +1442,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 570.0, 60.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 286.0, 5.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 214.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""

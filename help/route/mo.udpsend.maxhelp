@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 470.0, 140.0, 23.0 ]
+					"patching_rect" : [ 337.0, 469.869893999999988, 140.0, 23.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 421.869893655180931, 99.0, 23.0 ],
+					"patching_rect" : [ 337.0, 421.869893999999988, 99.0, 23.0 ],
 					"text" : "udpreceive 7400"
 				}
 
@@ -358,7 +358,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 285.5, 456.0, 406.5, 456.0 ],
+					"midpoints" : [ 346.5, 456.000000344819057, 467.5, 456.000000344819057 ],
 					"source" : [ "obj-1", 0 ]
 				}
 

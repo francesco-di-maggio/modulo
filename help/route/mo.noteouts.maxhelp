@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 610.0, 549.0 ],
+		"rect" : [ 34.0, 87.0, 621.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 507.5, 63.0, 23.0 ]
+					"patching_rect" : [ 287.0, 507.5, 63.0, 23.0 ],
+					"text" : "63 0"
 				}
 
 			}
@@ -144,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.707317113876343, 311.5, 92.0, 25.0 ],
+					"patching_rect" : [ 501.0, 312.0, 92.0, 25.0 ],
 					"text" : "mute output"
 				}
 
@@ -364,7 +365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 467.707317113876343, 312.5, 24.0, 24.0 ]
+					"patching_rect" : [ 471.0, 313.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -375,7 +376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.707317113876343, 357.5, 53.0, 23.0 ],
+					"patching_rect" : [ 471.0, 358.0, 53.0, 23.0 ],
 					"text" : "mute $1"
 				}
 
@@ -410,7 +411,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 477.207317113876343, 339.0, 477.207317113876343, 339.0 ],
+					"midpoints" : [ 480.5, 339.5, 480.5, 339.5 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -496,7 +497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
-					"midpoints" : [ 477.207317113876343, 390.0, 245.5, 390.0 ],
+					"midpoints" : [ 480.5, 390.0, 245.5, 390.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

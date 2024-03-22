@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,6 +42,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 3.0,
+					"id" : "obj-33",
+					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 176.0, 83.0, 165.0, 11.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 204.0, 89.0, 166.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -51,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -186,8 +207,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -212,23 +231,11 @@
 							"expression" : ""
 						}
 ,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetextoncolor" : 						{
-							"expression" : ""
-						}
-,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -245,7 +252,6 @@
 					}
 ,
 					"text" : "new object",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "workflow",
 					"transition" : 1,
 					"varname" : "live.tab[3]"
@@ -349,7 +355,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -471,7 +477,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -609,7 +615,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -784,7 +790,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -830,7 +836,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1220,7 +1226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1355,8 +1361,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
-					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1381,23 +1385,11 @@
 							"expression" : ""
 						}
 ,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetextoncolor" : 						{
-							"expression" : ""
-						}
-,
 						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -1414,7 +1406,6 @@
 					}
 ,
 					"text" : "workflow",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "workflow",
 					"transition" : 1,
 					"varname" : "live.tab[2]"
@@ -1449,7 +1440,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1605,7 +1596,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1774,7 +1765,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2285,7 +2276,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 513.0, 129.0, 160.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.841463416814804, 136.0, 166.0, 26.0 ],
+					"presentation_rect" : [ 537.0, 136.0, 164.34946221113205, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -2333,7 +2324,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2463,7 +2454,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2511,7 +2502,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2787,7 +2778,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2995,7 +2986,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3206,7 +3197,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3390,7 +3381,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3730,7 +3721,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4131,7 +4122,15 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 507.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 304.75, 688.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
 									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4184,7 +4183,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4410,7 +4409,15 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 509.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 304.75, 701.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
 									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4439,7 +4446,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4929,7 +4936,15 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 660.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 739.476190477609634, 119.5, 709.0, 22.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "Instruments and interfaces using different type of inputs, and direct mapping.",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -4945,7 +4960,15 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 628.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.190476208925247, 119.5, 702.0, 22.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5139,7 +5162,15 @@
 									"patching_rect" : [ 986.0, 60.0, 93.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 738.285714268684387, 8.0, 93.0, 22.0 ],
-									"text" : "Select a kind…"
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "Select a kind…",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5155,7 +5186,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5413,7 +5444,15 @@
 									"patching_rect" : [ 251.0, 60.0, 119.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 8.0, 119.0, 22.0 ],
-									"text" : "Select a category…"
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "Select a category…",
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5850,8 +5889,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.0, 165.5, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 649.5, 172.0, 59.0, 26.0 ],
-					"text" : "(2023)"
+					"presentation_rect" : [ 647.0, 172.0, 59.0, 26.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "(2023)",
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -5931,8 +5978,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 90.0, 495.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 96.0, 495.0, 30.0 ],
-					"text" : "A Toolkit for Tinkering with Digital Musical Instruments"
+					"presentation_rect" : [ 201.0, 96.0, 495.0, 30.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "A Toolkit for Tinkering with Digital Musical Instruments",
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -5946,8 +6001,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 129.0, 87.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.841463416814804, 136.0, 87.0, 26.0 ],
-					"text" : "Created by"
+					"presentation_rect" : [ 451.0, 136.0, 87.0, 26.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "Created by",
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -5961,9 +6024,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 27.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 33.0, 173.0, 67.0 ],
+					"presentation_rect" : [ 201.0, 33.0, 173.0, 67.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "modulo",
-					"underline" : 1
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -5999,7 +6069,15 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 27.158536583185196, 216.662162184715271, 680.0, 55.0 ],
-					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow."
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow.",
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}

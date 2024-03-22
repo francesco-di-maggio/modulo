@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -41,6 +41,18 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 247.666666666666629, 190.25, 59.0, 23.0 ],
+					"text" : "zl.change"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -88,7 +100,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[97]",
+							"parameter_longname" : "live.text[704]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -298,7 +310,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[81]",
+							"parameter_longname" : "live.numbox[550]",
 							"parameter_mmax" : 16.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
@@ -340,7 +352,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[80]",
+							"parameter_longname" : "live.numbox[420]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -537,7 +549,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[96]",
+							"parameter_longname" : "live.text[105]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -844,8 +856,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
-					"midpoints" : [ 257.166666666666629, 57.0, 257.166666666666629, 57.0, 257.166666666666629, 216.0, 257.166666666666629, 216.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 257.166666666666629, 57.0, 257.166666666666629, 57.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -855,6 +867,14 @@
 					"destination" : [ "obj-79", 0 ],
 					"midpoints" : [ 425.166666666666629, 426.0, 494.336828947067147, 426.0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"midpoints" : [ 257.166666666666629, 216.0, 257.166666666666629, 216.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
