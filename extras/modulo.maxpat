@@ -42,29 +42,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"activebgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"activebgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
-					"fontsize" : 16.0,
+					"fontsize" : 14.0,
 					"id" : "obj-35",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 391.0, 127.0, 36.0, 30.0 ],
-					"pictures" : [ "mo.off.png", "mo.on.png" ],
-					"presentation" : 1,
-					"presentation_rect" : [ 93.0, 35.0, 43.0, 33.0 ],
-					"remapsvgcolors" : 1,
+					"patching_rect" : [ 392.0, 132.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_fg"
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
 						}
 ,
 						"bordercolor" : 						{
@@ -87,11 +88,9 @@
 
 					}
 ,
-					"text" : " ",
-					"texton" : " ",
+					"text" : "%",
+					"texton" : "%",
 					"transition" : 1,
-					"usepicture" : 1,
-					"usesvgviewbox" : 1,
 					"varname" : "live.tab[4]"
 				}
 
@@ -108,7 +107,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 637.0, 278.0, 33.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.158536583185196, 25.411127424189658, 153.5, 153.5 ],
+					"presentation_rect" : [ 24.0, 25.0, 153.5, 153.5 ],
 					"rounded" : 40.0
 				}
 
@@ -782,7 +781,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 344.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 618.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 610.0, 164.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -922,7 +921,7 @@
 					"patching_rect" : [ 338.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 618.0, 173.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 610.0, 164.0, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -938,7 +937,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 590.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 582.0, 164.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -957,7 +956,7 @@
 					"patching_rect" : [ 258.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 590.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 582.0, 164.0, 22.83183143196436, 22.83183143196436 ],
 					"varname" : "youtube"
 				}
 
@@ -1607,7 +1606,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 562.0, 173.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 554.0, 164.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -1747,7 +1746,7 @@
 					"patching_rect" : [ 412.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 562.0, 173.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 554.0, 164.0, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -2431,7 +2430,6 @@
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
 					"activebgoncolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
-					"fontname" : "Ableton Sans Light Regular",
 					"fontsize" : 16.0,
 					"id" : "obj-21",
 					"maxclass" : "live.text",
@@ -2442,7 +2440,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 513.0, 129.0, 160.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.0, 136.0, 164.34946221113205, 26.0 ],
+					"presentation_rect" : [ 534.0, 131.0, 167.0, 26.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -6031,7 +6029,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.0, 165.5, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 647.0, 172.0, 59.0, 26.0 ],
+					"presentation_rect" : [ 639.0, 163.0, 59.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -6138,7 +6136,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 129.0, 87.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.0, 136.0, 87.0, 26.0 ],
+					"presentation_rect" : [ 446.0, 131.0, 87.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -6188,7 +6186,7 @@
 					"patching_rect" : [ 20.0, 20.0, 140.947477794268991, 140.947477794268991 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 24.158536583185196, 25.411127424189658, 153.5, 153.5 ]
+					"presentation_rect" : [ 24.0, 25.0, 153.5, 153.5 ]
 				}
 
 			}
@@ -7740,20 +7738,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.off.png",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.on.png",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../misc/icons",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
