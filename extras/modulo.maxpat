@@ -42,8 +42,8 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"activebgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activebgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"activebgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontsize" : 16.0,
@@ -53,15 +53,18 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 393.0, 133.0, 18.0, 18.0 ],
-					"rounded" : 20.0,
+					"patching_rect" : [ 391.0, 127.0, 36.0, 30.0 ],
+					"pictures" : [ "mo.off.png", "mo.on.png" ],
+					"presentation" : 1,
+					"presentation_rect" : [ 93.0, 35.0, 43.0, 33.0 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
 						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_control_fg"
+							"expression" : ""
 						}
 ,
 						"bordercolor" : 						{
@@ -87,6 +90,8 @@
 					"text" : " ",
 					"texton" : " ",
 					"transition" : 1,
+					"usepicture" : 1,
+					"usesvgviewbox" : 1,
 					"varname" : "live.tab[4]"
 				}
 
@@ -248,13 +253,13 @@
 				"box" : 				{
 					"border" : 3.0,
 					"id" : "obj-33",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 83.0, 165.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 86.0, 166.0, 5.0 ],
+					"presentation_rect" : [ 202.0, 86.0, 166.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -4287,7 +4292,7 @@
 									}
 ,
 									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4574,7 +4579,7 @@
 									}
 ,
 									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -5101,7 +5106,7 @@
 									}
 ,
 									"text" : "Instruments and interfaces using different type of inputs, and direct mapping.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5125,7 +5130,7 @@
 									}
 ,
 									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5317,7 +5322,7 @@
 									}
 ,
 									"text" : "Select a kind…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -5594,7 +5599,7 @@
 									}
 ,
 									"text" : "Select a category…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 								}
 
 							}
@@ -6035,7 +6040,7 @@
 					}
 ,
 					"text" : "(2023)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -6095,6 +6100,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -6118,7 +6124,7 @@
 					}
 ,
 					"text" : "A Toolkit for Tinkering with Digital Musical Instruments",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -6141,7 +6147,7 @@
 					}
 ,
 					"text" : "Created by",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -6155,7 +6161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 27.0, 173.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 30.0, 173.0, 67.0 ],
+					"presentation_rect" : [ 199.0, 30.0, 173.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -6164,7 +6170,7 @@
 					}
 ,
 					"text" : "modulo",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -6208,7 +6214,7 @@
 					}
 ,
 					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -7734,6 +7740,20 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.off.png",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../misc/icons",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.on.png",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../misc/icons",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
