@@ -1363,7 +1363,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.079268291592598, 259.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.167016357183456, 274.0, 675.182445853948593, 5.0 ],
+					"presentation_rect" : [ 26.0, 272.0, 675.182445853948593, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -2575,7 +2575,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1428.0, 339.0 ],
+						"rect" : [ 34.0, 87.0, 699.0, 341.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4252,7 +4252,7 @@
 
 									}
 ,
-									"text" : "–  control an ableton live set from max using midi notes and control change values via virtual midi ports  –",
+									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4540,7 +4540,7 @@
 
 									}
 ,
-									"text" : "–  computer keyboard arrows  –",
+									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
 									"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4912,7 +4912,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 410.066666666666663, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 116.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.0, 119.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -4932,7 +4932,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 426.777777777777771, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 116.5, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.0, 119.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -5248,7 +5248,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 394.355555555555554, 99.0, 5.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 739.476190477609634, 141.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 739.0, 141.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -5270,7 +5270,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 986.0, 60.0, 93.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 738.285714268684387, 8.0, 93.0, 22.0 ],
+									"presentation_rect" : [ 738.0, 7.0, 93.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"textcolor" : 										{
 											"expression" : "themecolor.live_control_fg"
@@ -5526,7 +5526,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 417.922222222222217, 99.0, 6.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.190476208925247, 141.75, 676.52661058306694, 6.0 ],
+									"presentation_rect" : [ 9.0, 141.0, 676.52661058306694, 6.0 ],
 									"saved_attribute_attributes" : 									{
 										"linecolor" : 										{
 											"expression" : ""
@@ -5548,7 +5548,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 251.0, 60.0, 119.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 8.0, 119.0, 22.0 ],
+									"presentation_rect" : [ 8.0, 7.0, 119.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"textcolor" : 										{
 											"expression" : "themecolor.live_control_fg"
@@ -5968,7 +5968,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 199.0, 680.841463416814804, 7.334170999999969 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.167016357183456, 213.665829000000031, 675.182445853948593, 5.0 ],
+					"presentation_rect" : [ 26.0, 211.0, 675.182445853948593, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -6163,7 +6163,7 @@
 					"patching_rect" : [ 20.0, 202.0, 680.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 27.158536583185196, 216.662162184715271, 680.0, 55.0 ],
+					"presentation_rect" : [ 27.158536583185196, 214.5, 680.0, 55.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
