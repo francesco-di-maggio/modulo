@@ -768,7 +768,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 344.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 610.0, 164.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 610.0, 165.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -903,7 +903,7 @@
 					"patching_rect" : [ 338.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 610.0, 164.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 610.0, 165.0, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -919,7 +919,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 582.0, 164.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 582.0, 165.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -938,7 +938,7 @@
 					"patching_rect" : [ 258.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 582.0, 164.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 582.0, 165.0, 22.83183143196436, 22.83183143196436 ],
 					"varname" : "youtube"
 				}
 
@@ -1578,7 +1578,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 284.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 554.0, 164.0, 22.83183143196436, 22.83183143196436 ],
+					"presentation_rect" : [ 554.0, 165.0, 22.83183143196436, 22.83183143196436 ],
 					"rounded" : 8.0
 				}
 
@@ -1713,7 +1713,7 @@
 					"patching_rect" : [ 412.584084284017877, 278.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 554.0, 164.0, 22.83183143196436, 22.83183143196436 ]
+					"presentation_rect" : [ 554.0, 165.0, 22.83183143196436, 22.83183143196436 ]
 				}
 
 			}
@@ -6009,7 +6009,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.0, 165.5, 59.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.0, 163.0, 59.0, 26.0 ],
+					"presentation_rect" : [ 639.0, 164.0, 59.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -6191,7 +6191,7 @@
 
 					}
 ,
-					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow.",
+					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow. Happy patching!",
 					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
@@ -6637,9 +6637,9 @@
 			"obj-7::obj-30::obj-74" : [ "live.text[6]", "live.text", 0 ],
 			"obj-7::obj-30::obj-75" : [ "live.text[9]", "live.text", 0 ],
 			"obj-7::obj-30::obj-78" : [ "live.text[1]", "live.text", 0 ],
-			"obj-7::obj-32::obj-45" : [ "live.text[183]", "live.text", 0 ],
-			"obj-7::obj-32::obj-53" : [ "live.text[189]", "live.text", 0 ],
-			"obj-7::obj-32::obj-9" : [ "live.text[190]", "live.text", 0 ],
+			"obj-7::obj-32::obj-45" : [ "live.text[786]", "live.text", 0 ],
+			"obj-7::obj-32::obj-53" : [ "live.text[787]", "live.text", 0 ],
+			"obj-7::obj-32::obj-9" : [ "live.text[785]", "live.text", 0 ],
 			"obj-7::obj-46" : [ "live.menu[18]", "live.menu", 0 ],
 			"obj-7::obj-47::obj-126" : [ "live.text[173]", "live.text", 0 ],
 			"obj-7::obj-47::obj-16" : [ "live.text[177]", "live.text", 0 ],
@@ -6647,9 +6647,9 @@
 			"obj-7::obj-47::obj-74" : [ "live.text[176]", "live.text", 0 ],
 			"obj-7::obj-47::obj-75" : [ "live.text[174]", "live.text", 0 ],
 			"obj-7::obj-47::obj-78" : [ "live.text[175]", "live.text", 0 ],
-			"obj-7::obj-48::obj-45" : [ "live.text[164]", "live.text", 0 ],
-			"obj-7::obj-48::obj-53" : [ "live.text[162]", "live.text", 0 ],
-			"obj-7::obj-48::obj-9" : [ "live.text[163]", "live.text", 0 ],
+			"obj-7::obj-48::obj-45" : [ "live.text[182]", "live.text", 0 ],
+			"obj-7::obj-48::obj-53" : [ "live.text[181]", "live.text", 0 ],
+			"obj-7::obj-48::obj-9" : [ "live.text[162]", "live.text", 0 ],
 			"obj-7::obj-75" : [ "live.menu[25]", "live.menu", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -7581,18 +7581,6 @@
 					"parameter_longname" : "live.text[1]"
 				}
 ,
-				"obj-7::obj-32::obj-45" : 				{
-					"parameter_longname" : "live.text[183]"
-				}
-,
-				"obj-7::obj-32::obj-53" : 				{
-					"parameter_longname" : "live.text[189]"
-				}
-,
-				"obj-7::obj-32::obj-9" : 				{
-					"parameter_longname" : "live.text[190]"
-				}
-,
 				"obj-7::obj-47::obj-126" : 				{
 					"parameter_longname" : "live.text[173]"
 				}
@@ -7615,6 +7603,18 @@
 ,
 				"obj-7::obj-47::obj-78" : 				{
 					"parameter_longname" : "live.text[175]"
+				}
+,
+				"obj-7::obj-48::obj-45" : 				{
+					"parameter_longname" : "live.text[182]"
+				}
+,
+				"obj-7::obj-48::obj-53" : 				{
+					"parameter_longname" : "live.text[181]"
+				}
+,
+				"obj-7::obj-48::obj-9" : 				{
+					"parameter_longname" : "live.text[162]"
 				}
 
 			}
