@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -146,11 +146,10 @@
 					"bubbleside" : 2,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 210.0, 105.0, 54.0 ],
+					"patching_rect" : [ 417.0, 211.0, 106.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.0, 277.0, 106.0, 40.0 ],
 					"text" : "launch the live set",
@@ -309,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 590.0, 117.0, 25.0 ],
+					"patching_rect" : [ 87.0, 590.0, 109.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 185.0, 213.0, 109.0, 25.0 ],
 					"text" : "set MIDI output"
