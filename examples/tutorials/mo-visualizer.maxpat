@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 20.0, 20.0, 214.0, 214.0 ],
+					"patching_rect" : [ 20.0, 20.0, 214.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 20.0, 214.0, 70.0 ],
 					"varname" : "mo.playlist~",

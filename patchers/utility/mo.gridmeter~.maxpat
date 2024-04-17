@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -250,6 +250,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"cellwidth" : 90,
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"columns" : 2,
 					"dividersize" : 10,
 					"hotcolor" : [ 0.619607843137255, 0.964705882352941, 0.584313725490196, 1.0 ],

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -523,6 +523,46 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-10::obj-1" : 				{
+					"parameter_longname" : "live.text[676]"
+				}
+,
+				"obj-10::obj-43" : 				{
+					"parameter_longname" : "live.text[136]"
+				}
+,
+				"obj-10::obj-46" : 				{
+					"parameter_longname" : "live.text[137]"
+				}
+,
+				"obj-10::obj-48" : 				{
+					"parameter_longname" : "live.text[103]"
+				}
+,
+				"obj-10::obj-50" : 				{
+					"parameter_longname" : "live.text[117]"
+				}
+,
+				"obj-10::obj-52" : 				{
+					"parameter_longname" : "live.numbox[39]"
+				}
+,
+				"obj-10::obj-53" : 				{
+					"parameter_longname" : "live.text[139]"
+				}
+,
+				"obj-10::obj-55" : 				{
+					"parameter_longname" : "live.text[138]"
+				}
+,
+				"obj-10::obj-62" : 				{
+					"parameter_longname" : "live.numbox[69]"
+				}
+,
+				"obj-10::obj-64" : 				{
+					"parameter_longname" : "live.text[135]"
+				}
+,
 				"obj-14::obj-3" : 				{
 					"parameter_longname" : "live.text[46]"
 				}

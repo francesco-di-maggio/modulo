@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -183,10 +183,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 31.0, 32.0, 174.0 ],
 					"saved_attribute_attributes" : 					{
-						"slidercolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-,
 						"valueof" : 						{
 							"parameter_longname" : "slider-[20]",
 							"parameter_mmax" : 1.0,
@@ -200,7 +196,7 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"spacing" : 1,
 					"thickness" : 3,
 					"varname" : "slider-"
@@ -238,7 +234,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1016,7 +1012,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 834.0, 386.0, 236.0, 23.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 15 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1092,6 +1092,10 @@
 ,
 				"obj-78::obj-31" : 				{
 					"parameter_longname" : "live.text[642]"
+				}
+,
+				"obj-78::obj-56" : 				{
+					"parameter_longname" : "live.numbox[2]"
 				}
 
 			}

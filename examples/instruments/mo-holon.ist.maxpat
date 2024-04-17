@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -239,6 +239,14 @@
 						"mo.sliders::[6]::slider" : 1,
 						"mo.sliders::[7]::slider" : 1,
 						"mo.sliders::[8]::slider" : 1,
+						"mo.sliders::[9]::slider" : 1,
+						"mo.sliders::[10]::slider" : 1,
+						"mo.sliders::[11]::slider" : 1,
+						"mo.sliders::[12]::slider" : 1,
+						"mo.sliders::[13]::slider" : 1,
+						"mo.sliders::[14]::slider" : 1,
+						"mo.sliders::[15]::slider" : 1,
+						"mo.sliders::[16]::slider" : 1,
 						"mo.route::[1]::set" : 1,
 						"mo.route::[2]::set" : 1,
 						"mo.route::[3]::set" : 1,
