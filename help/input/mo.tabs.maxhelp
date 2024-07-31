@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 541.0, 50.0, 23.0 ]
+					"patching_rect" : [ 205.0, 541.0, 50.0, 23.0 ],
+					"text" : "THREE"
 				}
 
 			}
@@ -134,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 165.0, 79.0, 25.0 ],
+					"patching_rect" : [ 463.0, 164.0, 79.0, 25.0 ],
 					"text" : "set names"
 				}
 
@@ -258,8 +259,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.173431724309921, 165.0, 136.0, 23.0 ],
-					"text" : "ONE TWO THREE FOUR"
+					"patching_rect" : [ 355.173431724309921, 165.0, 102.0, 23.0 ],
+					"text" : "ONE TWO THREE"
 				}
 
 			}
@@ -351,8 +352,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 41.0, 345.982589000000019, 214.0, 126.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 41.0, 345.982589000000019, 214.0, 112.0 ],
 					"varname" : "mo.tabs",
 					"viewvisibility" : 1
 				}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 456.0, 498.0 ],
+		"rect" : [ 34.0, 87.0, 451.0, 528.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -75,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 445.0, 66.0, 21.0 ],
+					"patching_rect" : [ 163.0, 485.0, 66.0, 21.0 ],
 					"text" : "xy position"
 				}
 
@@ -87,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 444.5, 33.0, 21.0 ],
+					"patching_rect" : [ 265.0, 485.0, 33.0, 21.0 ],
 					"text" : "click"
 				}
 
@@ -184,7 +184,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0, 443.0, 24.0, 24.0 ]
+					"patching_rect" : [ 236.0, 483.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -274,8 +274,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 444.0, 118.0, 23.0 ],
-					"text" : "0.195833 0.383333"
+					"patching_rect" : [ 41.0, 484.0, 118.0, 23.0 ],
+					"text" : "0.280556 0.404444"
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 41.0, 373.0, 214.0, 45.0 ],
+					"patching_rect" : [ 41.0, 373.0, 70.0, 70.0 ],
 					"varname" : "mo.mouse",
 					"viewvisibility" : 1
 				}
@@ -329,7 +329,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 429.0, 149.5, 429.0 ],
+					"midpoints" : [ 50.5, 471.0, 149.5, 471.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -337,7 +337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 245.5, 420.0, 245.5, 420.0 ],
+					"midpoints" : [ 101.5, 468.0, 245.5, 468.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 

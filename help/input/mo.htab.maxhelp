@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 622.0, 417.0 ],
+		"rect" : [ 34.0, 87.0, 581.0, 417.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 165.0, 100.0, 25.0 ],
+					"patching_rect" : [ 461.0, 165.0, 100.0, 25.0 ],
 					"text" : "set tab names"
 				}
 
@@ -84,8 +84,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.999999999999943, 166.0, 84.0, 23.0 ],
-					"text" : "1 2 3 4 5 6 7 8"
+					"patching_rect" : [ 390.0, 166.0, 65.0, 23.0 ],
+					"text" : "1 2 3 4 5 6"
 				}
 
 			}
@@ -96,8 +96,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.863041635797913, 166.0, 90.0, 23.0 ],
-					"text" : "A B C D E F G H"
+					"patching_rect" : [ 307.863041635797913, 166.0, 67.0, 23.0 ],
+					"text" : "A B C D E F"
 				}
 
 			}
@@ -133,7 +133,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 370.0, 50.0, 23.0 ]
+					"patching_rect" : [ 205.0, 370.0, 50.0, 23.0 ],
+					"text" : "A"
 				}
 
 			}
@@ -337,7 +338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 419.499999999999943, 201.0, 317.363041635797913, 201.0 ],
+					"midpoints" : [ 399.5, 201.0, 317.363041635797913, 201.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -365,13 +366,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

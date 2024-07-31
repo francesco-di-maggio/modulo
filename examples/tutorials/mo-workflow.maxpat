@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -64,7 +64,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -182,7 +182,7 @@
 									"arrows" : 2,
 									"border" : 2.0,
 									"id" : "obj-9",
-									"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -305,14 +305,24 @@
 										"mo.sliders::[3]::slider" : 1,
 										"mo.sliders::[4]::slider" : 1,
 										"mo.sliders::[5]::slider" : 1,
-										"mo.sliders::[6]::slider" : 1
+										"mo.sliders::[6]::slider" : 1,
+										"mo.sliders::[7]::slider" : 1,
+										"mo.sliders::[8]::slider" : 1,
+										"mo.sliders::[9]::slider" : 1,
+										"mo.sliders::[10]::slider" : 1,
+										"mo.sliders::[11]::slider" : 1,
+										"mo.sliders::[12]::slider" : 1,
+										"mo.sliders::[13]::slider" : 1,
+										"mo.sliders::[14]::slider" : 1,
+										"mo.sliders::[15]::slider" : 1,
+										"mo.sliders::[16]::slider" : 1
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 3, 90, 403, 781 ],
+										"client_rect" : [ 100, 157, 454, 285 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 11, 100, 462, 780 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage",
@@ -333,8 +343,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "mo.dac~.maxpat",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 303.75, 558.718749999999886, 214.0, 70.0 ],
 									"varname" : "mo.dac~[1]",
 									"viewvisibility" : 1
@@ -674,7 +685,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -832,7 +843,7 @@
 									"arrows" : 2,
 									"border" : 2.0,
 									"id" : "obj-9",
-									"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+									"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -1179,10 +1190,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 421.75, 169.844923380952309, 340.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 3, 90, 403, 781 ],
+										"client_rect" : [ 100, 157, 454, 285 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 11, 100, 462, 780 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage p-mo.workflow-2 @savemode 3 @changemode 1",
@@ -1325,7 +1336,8 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 303.75, 605.718749999999886, 54.0, 23.0 ],
 									"text" : "mo.dac~",
 									"varname" : "mo.dac~"

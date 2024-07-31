@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 582.0, 596.0 ],
+		"rect" : [ 34.0, 87.0, 523.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 510.0, 50.0, 23.0 ]
+					"patching_rect" : [ 61.0, 510.0, 50.0, 23.0 ],
+					"text" : "C"
 				}
 
 			}
@@ -60,7 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 165.0, 100.0, 25.0 ],
+					"patching_rect" : [ 404.0, 165.0, 100.0, 25.0 ],
 					"text" : "set tab names"
 				}
 
@@ -153,8 +154,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 372.999999999999943, 166.0, 84.0, 23.0 ],
-					"text" : "1 2 3 4 5 6 7 8"
+					"patching_rect" : [ 332.0, 166.0, 65.0, 23.0 ],
+					"text" : "1 2 3 4 5 6"
 				}
 
 			}
@@ -165,8 +166,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.863041635797913, 166.0, 90.0, 23.0 ],
-					"text" : "A B C D E F G H"
+					"patching_rect" : [ 270.863041635797913, 166.0, 48.0, 23.0 ],
+					"text" : "A B C D"
 				}
 
 			}
@@ -325,7 +326,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 382.499999999999943, 201.0, 280.363041635797913, 201.0 ],
+					"midpoints" : [ 341.5, 201.0, 280.363041635797913, 201.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -372,13 +373,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.colors.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.resize.js",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../misc/js",
@@ -390,12 +384,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

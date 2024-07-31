@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,17 @@
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 871.0, 79.609483743377893, 36.0, 21.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "button",
@@ -117,7 +128,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -172,7 +183,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 17.0, 90.0, 31.0, 22.0 ],
+									"patching_rect" : [ 17.0, 90.0, 31.0, 23.0 ],
 									"text" : "0"
 								}
 
@@ -196,7 +207,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 233.0, 90.0, 30.0, 22.0 ],
+									"patching_rect" : [ 233.0, 90.0, 30.0, 23.0 ],
 									"text" : "t l 2"
 								}
 
@@ -322,7 +333,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 877.0, 140.0, 63.0, 23.0 ],
+					"patching_rect" : [ 877.0, 139.25, 63.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -343,7 +354,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 921.0, 83.0, 63.0, 44.0 ],
+					"patching_rect" : [ 921.0, 103.5, 128.0, 24.0 ],
 					"saturation" : 1.0
 				}
 
@@ -355,7 +366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 877.0, 170.0, 70.0, 23.0 ],
+					"patching_rect" : [ 877.0, 174.0, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -370,7 +381,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 877.0, 19.0, 244.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "In the bpacther Inspector (Cmd+I), or using \nthe <thispatcher> object and \"sandbox\",\nyou may change the background color."
 				}
 
@@ -380,7 +390,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-9",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -397,8 +407,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.779220779220779, 0.909090909090909, 1.0 ],
-					"bgmode" : 0,
+					"bgcolor" : [ 0.21875, 0.4140625, 1.0, 1.0 ],
+					"bgmode" : 2,
 					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -423,7 +433,7 @@
 					"arrows" : 1,
 					"border" : 0.7,
 					"id" : "obj-6",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -480,7 +490,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-23",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -500,7 +510,7 @@
 					"arrows" : 2,
 					"border" : 0.7,
 					"id" : "obj-22",
-					"linecolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -730,6 +740,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 886.5, 165.0, 886.5, 165.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -737,6 +748,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 886.5, 129.0, 886.5, 129.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -744,6 +756,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
+					"midpoints" : [ 930.5, 129.0, 930.5, 129.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
