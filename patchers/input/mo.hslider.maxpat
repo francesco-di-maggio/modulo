@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -74,8 +74,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
-					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
-					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"activetextoncolor" : [ 0.115, 0.115, 0.115, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -87,6 +86,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 469.0, 446.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.142011940479279, 50.000001281499863, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -94,10 +95,6 @@
 ,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_bar"
-						}
-,
-						"activetextcolor" : 						{
-							"expression" : ""
 						}
 ,
 						"activetextoncolor" : 						{
@@ -127,8 +124,8 @@
 
 					}
 ,
-					"text" : "–",
-					"texton" : "l",
+					"text" : "B",
+					"texton" : "L",
 					"varname" : "style-"
 				}
 
@@ -258,7 +255,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 280.0, 481.0, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 38.0, 17.0, 15.0 ],
+					"presentation_rect" : [ 2.995008230209351, 25.956737995147705, 17.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -277,7 +274,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[9]",
+							"parameter_longname" : "live.numbox[5]",
 							"parameter_mmax" : 4.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -304,7 +301,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1041,7 +1038,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1160,7 +1157,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-35",
@@ -1171,7 +1168,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 182.653199976682799, 146.127552568912506, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 26.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 3.993344306945801, 37.936770915985107, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1232,7 +1229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 869.0, 463.333333333333314, 240.0, 23.0 ],
-					"restore" : [ 0.431034482758621 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1298,8 +1295,9 @@
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 1,
 					"signed" : 1,
-					"slidercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"spacing" : 2,
 					"thickness" : 3,
 					"varname" : "slider-"
@@ -1410,6 +1408,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "color-"
 				}
 
@@ -1466,7 +1465,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 481.0, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 39.0, 13.0, 13.0 ],
+					"presentation_rect" : [ 4.991680383682251, 26.955074071884155, 13.0, 13.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

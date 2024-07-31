@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -76,7 +76,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -384,7 +384,6 @@
 					}
 ,
 					"patching_rect" : [ 296.0, 304.0, 99.0, 23.0 ],
-					"presentation_linecount" : 4,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -455,7 +454,7 @@
 
 					}
 ,
-					"text" : "27",
+					"text" : "32",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "key-"
@@ -1152,7 +1151,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 47.5, 228.0, 47.5, 228.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1291,7 +1290,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"midpoints" : [ 305.5, 396.0, 385.5, 396.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-99", 0 ]
 				}
 
@@ -1300,7 +1299,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"midpoints" : [ 305.5, 396.0, 385.5, 396.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-99", 0 ]
 				}
 
