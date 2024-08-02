@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 214.0, 50.0 ],
+		"rect" : [ 34.0, 87.0, 214.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -708,6 +708,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "slider-[2]",
 							"parameter_mmax" : 1.0,
+							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider-[2]",
 							"parameter_type" : 0
@@ -715,6 +716,7 @@
 
 					}
 ,
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -766,7 +768,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -858,11 +860,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 510.666666666666629, 24.5, 30.0, 30.0 ]
 				}
 
@@ -897,7 +899,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1258,7 +1260,33 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-20" : [ "Show Particle Settings[1]", "live.text", 0 ],
+			"obj-35" : [ "live.text[5]", "live.text", 0 ],
+			"obj-8" : [ "live.text[151]", "live.text", 0 ],
+			"obj-9" : [ "slider-[2]", "slider-[2]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mo.colors.txt",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

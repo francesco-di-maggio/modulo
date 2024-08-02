@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 871.0, 79.609483743377893, 36.0, 21.0 ],
+					"patching_rect" : [ 904.0, 87.5, 36.0, 21.0 ],
 					"text" : "reset"
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 877.0, 103.5, 24.0, 24.0 ]
+					"patching_rect" : [ 877.0, 86.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -333,7 +333,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 877.0, 139.25, 63.0, 23.0 ],
+					"patching_rect" : [ 877.0, 120.5, 107.0, 23.0 ],
+					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -342,7 +343,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p sandbox"
+					"text" : "p \"script sandbox\""
 				}
 
 			}
@@ -354,7 +355,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 921.0, 103.5, 128.0, 24.0 ],
+					"patching_rect" : [ 965.0, 86.0, 100.0, 24.0 ],
 					"saturation" : 1.0
 				}
 
@@ -366,7 +367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 877.0, 174.0, 70.0, 23.0 ],
+					"patching_rect" : [ 877.0, 154.0, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -380,8 +381,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.0, 19.0, 244.0, 50.0 ],
-					"text" : "In the bpacther Inspector (Cmd+I), or using \nthe <thispatcher> object and \"sandbox\",\nyou may change the background color."
+					"patching_rect" : [ 877.0, 19.0, 280.0, 50.0 ],
+					"text" : "You may change the bpatcher background color:\n1. In the bpacther Inspector (Cmd+I),\n2. Using \"sandbox\" and <thispatcher> (see below)."
 				}
 
 			}
@@ -407,8 +408,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.21875, 0.4140625, 1.0, 1.0 ],
-					"bgmode" : 2,
+					"bgcolor" : [ 0.208333333333333, 1.0, 0.814453125, 1.0 ],
+					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -740,7 +741,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 886.5, 165.0, 886.5, 165.0 ],
+					"midpoints" : [ 886.5, 144.0, 886.5, 144.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -748,7 +749,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 886.5, 129.0, 886.5, 129.0 ],
+					"midpoints" : [ 886.5, 111.0, 886.5, 111.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -756,7 +757,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
-					"midpoints" : [ 930.5, 129.0, 930.5, 129.0 ],
+					"midpoints" : [ 974.5, 111.0, 974.5, 111.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
