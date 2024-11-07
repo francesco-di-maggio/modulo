@@ -2,44 +2,22 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 84.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 3,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
@@ -90,42 +68,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 119.0, 165.0, 270.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -240,16 +192,14 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5980"
 					}
 ,
 					"patching_rect" : [ 302.653199976682799, 30.601844755165075, 106.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p set"
@@ -278,42 +228,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 953.0, 186.0, 166.0, 377.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
@@ -464,19 +388,17 @@
 
 							}
  ],
+						"originid" : "pat-5982",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 302.653199976682799, 152.398155244834925, 49.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
 					"text" : "p range"
@@ -532,6 +454,7 @@
 							"parameter_longname" : "live.numbox[10]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -547,7 +470,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bordercolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ],
-					"fgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"fgcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-15",
 					"listmode" : 1,
@@ -655,7 +578,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -689,9 +612,10 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[523]",
+							"parameter_longname" : "live.text[131]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -782,9 +706,10 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.7 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[290]",
+							"parameter_longname" : "live.numbox[75]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -820,42 +745,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 421.0, 100.0, 670.0, 577.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Ableton Sans Medium",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -1442,19 +1341,17 @@
 
 							}
  ],
+						"originid" : "pat-5990",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 302.653199976682799, 276.999999999999886, 96.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
 					"text" : "p control"
@@ -1541,10 +1438,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[291]",
+							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1613,7 +1511,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 629.042139858358041, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 277.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 290.0, 205.0, 15.0 ],
 					"varname" : "[16]",
 					"viewvisibility" : 1
 				}
@@ -1639,7 +1537,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 610.145854148619264, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 263.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 275.0, 205.0, 15.0 ],
 					"varname" : "[15]",
 					"viewvisibility" : 1
 				}
@@ -1665,7 +1563,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 591.249568438880488, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 249.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 260.0, 205.0, 15.0 ],
 					"varname" : "[14]",
 					"viewvisibility" : 1
 				}
@@ -1691,7 +1589,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 572.353282729141711, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 235.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 245.0, 205.0, 15.0 ],
 					"varname" : "[13]",
 					"viewvisibility" : 1
 				}
@@ -1717,7 +1615,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 553.456997019402934, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 221.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 230.0, 205.0, 15.0 ],
 					"varname" : "[12]",
 					"viewvisibility" : 1
 				}
@@ -1743,7 +1641,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 534.560711309664043, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 207.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 215.0, 205.0, 15.0 ],
 					"varname" : "[11]",
 					"viewvisibility" : 1
 				}
@@ -1769,7 +1667,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 515.664425599925153, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 193.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 200.0, 205.0, 15.0 ],
 					"varname" : "[10]",
 					"viewvisibility" : 1
 				}
@@ -1795,7 +1693,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 496.768139890186376, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 179.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 185.0, 205.0, 15.0 ],
 					"varname" : "[9]",
 					"viewvisibility" : 1
 				}
@@ -1821,7 +1719,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 477.871854180447542, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 165.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 170.0, 205.0, 15.0 ],
 					"varname" : "[8]",
 					"viewvisibility" : 1
 				}
@@ -1847,7 +1745,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 458.975568470708708, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 151.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 155.0, 205.0, 15.0 ],
 					"varname" : "[7]",
 					"viewvisibility" : 1
 				}
@@ -1873,7 +1771,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 440.079282760969875, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 136.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 140.0, 205.0, 15.0 ],
 					"varname" : "[6]",
 					"viewvisibility" : 1
 				}
@@ -1899,7 +1797,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 422.182997051231041, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 122.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 125.0, 205.0, 15.0 ],
 					"varname" : "[5]",
 					"viewvisibility" : 1
 				}
@@ -1925,7 +1823,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 403.286711341492207, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 108.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 110.0, 205.0, 15.0 ],
 					"varname" : "[4]",
 					"viewvisibility" : 1
 				}
@@ -1951,7 +1849,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 384.390425631753374, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 94.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 95.0, 205.0, 15.0 ],
 					"varname" : "[3]",
 					"viewvisibility" : 1
 				}
@@ -1977,7 +1875,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 365.49413992201454, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 80.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 80.0, 205.0, 15.0 ],
 					"varname" : "[2]",
 					"viewvisibility" : 1
 				}
@@ -2002,7 +1900,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 346.597854212275706, 204.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 13.0 ],
+					"presentation_rect" : [ 5.0, 65.0, 205.0, 15.0 ],
 					"varname" : "[1]",
 					"viewvisibility" : 1
 				}
@@ -2342,7 +2240,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 312.153199976682799, 399.0, 249.5, 399.0 ],
-					"order" : 13,
+					"order" : 2,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2351,7 +2249,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-107", 1 ],
 					"midpoints" : [ 312.153199976682799, 381.0, 249.5, 381.0 ],
-					"order" : 14,
+					"order" : 1,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2360,7 +2258,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-123", 1 ],
 					"midpoints" : [ 312.153199976682799, 333.0, 249.5, 333.0 ],
-					"order" : 0,
+					"order" : 15,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2369,7 +2267,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 1 ],
 					"midpoints" : [ 312.153199976682799, 417.0, 249.5, 417.0 ],
-					"order" : 12,
+					"order" : 3,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2378,7 +2276,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
 					"midpoints" : [ 312.153199976682799, 435.0, 249.5, 435.0 ],
-					"order" : 11,
+					"order" : 4,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2387,7 +2285,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
 					"midpoints" : [ 312.153199976682799, 453.0, 249.5, 453.0 ],
-					"order" : 10,
+					"order" : 5,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2396,7 +2294,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 1 ],
 					"midpoints" : [ 312.153199976682799, 474.0, 249.5, 474.0 ],
-					"order" : 9,
+					"order" : 6,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2405,7 +2303,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
 					"midpoints" : [ 312.153199976682799, 492.0, 249.5, 492.0 ],
-					"order" : 8,
+					"order" : 7,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2414,7 +2312,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
 					"midpoints" : [ 312.153199976682799, 510.0, 249.5, 510.0 ],
-					"order" : 7,
+					"order" : 8,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2423,7 +2321,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
 					"midpoints" : [ 312.153199976682799, 531.0, 249.5, 531.0 ],
-					"order" : 6,
+					"order" : 9,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2432,7 +2330,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-46", 1 ],
 					"midpoints" : [ 312.153199976682799, 549.0, 249.5, 549.0 ],
-					"order" : 5,
+					"order" : 10,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2441,7 +2339,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 1 ],
 					"midpoints" : [ 312.153199976682799, 567.0, 249.5, 567.0 ],
-					"order" : 4,
+					"order" : 11,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2450,7 +2348,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 1 ],
 					"midpoints" : [ 312.153199976682799, 588.0, 249.5, 588.0 ],
-					"order" : 3,
+					"order" : 12,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2459,7 +2357,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-49", 1 ],
 					"midpoints" : [ 312.153199976682799, 606.0, 249.5, 606.0 ],
-					"order" : 2,
+					"order" : 13,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2468,7 +2366,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
 					"midpoints" : [ 312.153199976682799, 624.0, 249.5, 624.0 ],
-					"order" : 1,
+					"order" : 14,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2477,7 +2375,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-74", 1 ],
 					"midpoints" : [ 312.153199976682799, 360.0, 249.5, 360.0 ],
-					"order" : 15,
+					"order" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2721,7 +2619,8 @@
 				}
 
 			}
- ]
+ ],
+		"originid" : "pat-5978"
 	}
 
 }

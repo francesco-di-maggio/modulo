@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 310.0, 397.962136999999984, 214.0, 170.0 ],
+					"patching_rect" : [ 440.0, 398.0, 214.0, 170.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.0, 384.0, 214.0, 170.0 ],
 					"varname" : "mo.theremin~",
@@ -77,9 +77,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.dac~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 310.0, 599.981069000000048, 214.0, 70.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 440.0, 600.0, 214.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.0, 565.0, 214.0, 70.0 ],
 					"varname" : "mo.dac~",
@@ -114,6 +115,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -128,9 +130,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 20.0, 142.0, 142.0 ],
+					"patching_rect" : [ 20.0, 20.0, 214.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 142.0, 142.0 ],
+					"presentation_rect" : [ 20.0, 20.0, 214.0, 214.0 ],
 					"varname" : "mo.xypad",
 					"viewvisibility" : 1
 				}
@@ -168,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.375, 700.25, 77.0, 25.0 ],
+					"patching_rect" : [ 551.0, 700.0, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.5, 587.5, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -190,7 +192,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 393.875, 702.75, 20.0, 20.0 ],
+					"patching_rect" : [ 524.0, 703.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 328.5, 590.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -210,7 +212,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 690.25, 45.0, 45.0 ],
+					"patching_rect" : [ 470.0, 690.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.5, 577.5, 45.0, 45.0 ]
 				}
@@ -257,7 +259,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.0, 170.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.0, 117.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 245.0, 208.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -278,7 +280,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 286.0, 167.5, 173.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 114.5, 163.0, 25.0 ],
+					"presentation_rect" : [ 272.0, 206.0, 163.0, 25.0 ],
 					"text" : "control sound parameters",
 					"textjustification" : 1
 				}
@@ -304,15 +306,15 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 2,
+					"bubbleside" : 3,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 211.927083333333258, 90.0, 40.0 ],
+					"patching_rect" : [ 287.0, 515.0, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.5, 168.556794000000025, 87.0, 40.0 ],
+					"presentation_rect" : [ 307.5, 502.5, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -332,9 +334,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 283.5, 259.408151905864145, 20.0, 20.0 ],
+					"patching_rect" : [ 403.0, 518.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.0, 218.556794000000025, 20.0, 20.0 ],
+					"presentation_rect" : [ 420.0, 505.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -497,7 +499,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 319.5, 567.0, 319.5, 567.0 ],
+					"midpoints" : [ 449.5, 567.037863000000016, 449.5, 567.037863000000016 ],
 					"source" : [ "obj-18", 0 ]
 				}
 

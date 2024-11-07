@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -201,7 +201,7 @@
 					"patching_rect" : [ 297.375, 265.761972000000014, 165.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 270.0, 284.261971987783909, 163.0, 39.0 ],
+					"presentation_rect" : [ 272.0, 284.0, 163.0, 39.0 ],
 					"text" : "control sound parameters\nusing sliders and pads",
 					"textjustification" : 1
 				}
@@ -411,8 +411,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.dac~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 524.125, 331.170785155761905, 214.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.125, 517.761971987783909, 214.0, 70.0 ],
@@ -1695,11 +1696,11 @@
 				}
 ,
 				"obj-8::obj-161" : 				{
-					"parameter_range" : [ 0.0, 4000.0 ]
+					"parameter_range" : [ 0.0, 9317.346938775510353 ]
 				}
 ,
 				"obj-8::obj-169" : 				{
-					"parameter_range" : [ 0.0, 4000.0 ]
+					"parameter_range" : [ 0.0, 9317.346938775510353 ]
 				}
 
 			}

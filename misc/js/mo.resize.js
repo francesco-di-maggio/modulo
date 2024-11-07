@@ -63,7 +63,7 @@ function list(x,y) {
 	}
 }
 
-function msg_int(x) { 
+function msg_int(x) {
 	// when sending an integer (e.g. mo.sliders)
 	var p = this.patcher.parentpatcher.box;
 	var b = this.patcher.parentpatcher.parentpatcher;
@@ -77,9 +77,9 @@ function msg_int(x) {
 	var resize = p.getattr('openrect');
 	var x = (x - 1);
 	
-	x = (x * 13) + (x - 1);
-	//x = (x * 13);
-	x = x + 85;	
+	//x = (x * 15) + (x - 1);
+	x = (x * 15);
+	x = x + 84;	// 84 is height!
 
 	b.message("script", "sendbox", p.varname, "patching_size", resize[2], x);
 	b.message("script", "sendbox", p.varname, "presentation_size", resize[2], x);
