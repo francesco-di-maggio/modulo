@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 215.0, 50.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -184,7 +184,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -500,7 +500,7 @@
 
 							}
  ],
-						"originid" : "pat-3183",
+						"originid" : "pat-314",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -546,7 +546,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 125.0, 471.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.463759694327862, -0.058990031480789, 14.900888606905937, 15.0 ],
+					"presentation_rect" : [ 27.0, 0.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -566,7 +566,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[18]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -1056,7 +1056,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[40]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -1569,7 +1569,7 @@
 
 			}
  ],
-		"originid" : "pat-3181"
+		"originid" : "pat-312"
 	}
 
 }
