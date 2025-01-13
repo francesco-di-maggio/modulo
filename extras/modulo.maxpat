@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 53.0, 730.0, 730.0 ],
+		"rect" : [ 34.0, 62.0, 730.0, 730.0 ],
 		"openrect" : [ 0.0, 0.0, 730.0, 730.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -30,7 +30,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -38,6 +38,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 87.0, 383.0, 442.0 ],
 						"bglocked" : 1,
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -371,7 +372,7 @@
 
 							}
  ],
-						"originid" : "pat-6"
+						"originid" : "pat-16581"
 					}
 ,
 					"patching_rect" : [ 563.5, 62.0, 52.0, 22.0 ],
@@ -388,7 +389,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -445,6 +446,8 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 0.0 ],
 					"activebgoncolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 0.0 ],
+					"activetextcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"activetextoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontsize" : 18.0,
@@ -514,13 +517,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 134.0, 159.0, 700.0, 647.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1170,7 +1174,7 @@
 
 							}
  ],
-						"originid" : "pat-8"
+						"originid" : "pat-16583"
 					}
 ,
 					"patching_rect" : [ 391.0, 167.0, 52.0, 22.0 ],
@@ -1188,7 +1192,7 @@
 				"box" : 				{
 					"border" : 3.0,
 					"id" : "obj-33",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1216,13 +1220,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 87.0, 119.0, 211.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1302,7 +1307,7 @@
 
 							}
  ],
-						"originid" : "pat-10"
+						"originid" : "pat-16585"
 					}
 ,
 					"patching_rect" : [ 275.0, 167.0, 52.0, 22.0 ],
@@ -1319,7 +1324,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1443,13 +1448,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 452.0, 171.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1510,7 +1516,7 @@
 
 							}
  ],
-						"originid" : "pat-36"
+						"originid" : "pat-16611"
 					}
 ,
 					"patching_rect" : [ 564.0, 331.861052992816838, 57.0, 22.0 ],
@@ -1534,13 +1540,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 309.0, 171.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1600,7 +1607,7 @@
 
 							}
  ],
-						"originid" : "pat-38"
+						"originid" : "pat-16613"
 					}
 ,
 					"patching_rect" : [ 488.25, 331.861052992816838, 61.0, 22.0 ],
@@ -1641,13 +1648,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 230.0, 180.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1708,7 +1716,7 @@
 
 							}
  ],
-						"originid" : "pat-40"
+						"originid" : "pat-16615"
 					}
 ,
 					"patching_rect" : [ 343.75, 331.861052992816838, 59.0, 22.0 ],
@@ -1785,13 +1793,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 699.0, 203.0, 504.0, 184.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -1808,7 +1817,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2049,7 +2058,7 @@
 
 											}
  ],
-										"originid" : "pat-44"
+										"originid" : "pat-16619"
 									}
 ,
 									"patching_rect" : [ 108.999999999999886, 24.500003999999961, 44.0, 23.0 ],
@@ -2117,7 +2126,7 @@
 
 							}
  ],
-						"originid" : "pat-42"
+						"originid" : "pat-16617"
 					}
 ,
 					"patching_rect" : [ 264.0, 331.861052992816838, 65.0, 22.0 ],
@@ -2162,7 +2171,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2170,6 +2179,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 87.0, 118.0, 211.0 ],
 						"bglocked" : 1,
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -2249,7 +2259,7 @@
 
 							}
  ],
-						"originid" : "pat-46"
+						"originid" : "pat-16621"
 					}
 ,
 					"patching_rect" : [ 175.0, 167.0, 52.0, 22.0 ],
@@ -2266,7 +2276,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -2347,13 +2357,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 317.0, 171.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -2413,7 +2424,7 @@
 
 							}
  ],
-						"originid" : "pat-466"
+						"originid" : "pat-17041"
 					}
 ,
 					"patching_rect" : [ 417.5, 331.861052992816838, 56.0, 22.0 ],
@@ -2456,13 +2467,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 850.0, 166.0, 386.0, 347.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -2590,13 +2602,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 184.0, 100.0, 415.0, 654.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -2899,7 +2912,7 @@
 
 											}
  ],
-										"originid" : "pat-512"
+										"originid" : "pat-17087"
 									}
 ,
 									"patching_rect" : [ 20.0, 139.0, 50.0, 23.0 ],
@@ -3006,7 +3019,7 @@
 
 							}
  ],
-						"originid" : "pat-468"
+						"originid" : "pat-17043"
 					}
 ,
 					"patching_rect" : [ 636.5, 331.861052992816838, 82.0, 22.0 ],
@@ -3023,7 +3036,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.956862745098039, 0.976470588235294, 0.980392156862745, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"fontsize" : 16.0,
@@ -3085,13 +3098,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 252.0, 171.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -3151,7 +3165,7 @@
 
 							}
  ],
-						"originid" : "pat-514"
+						"originid" : "pat-17089"
 					}
 ,
 					"patching_rect" : [ 513.0, 167.0, 59.0, 22.0 ],
@@ -3184,7 +3198,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3208,13 +3222,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 106.0, 234.0, 434.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -3436,7 +3451,7 @@
 
 											}
  ],
-										"originid" : "pat-519"
+										"originid" : "pat-17094"
 									}
 ,
 									"patching_rect" : [ 814.0, 607.809763142857264, 79.0, 22.0 ],
@@ -3461,13 +3476,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 106.0, 297.0, 370.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -3620,7 +3636,7 @@
 
 											}
  ],
-										"originid" : "pat-521"
+										"originid" : "pat-17096"
 									}
 ,
 									"patching_rect" : [ 899.5, 201.19023685714285, 61.0, 22.0 ],
@@ -3645,13 +3661,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 106.0, 299.0, 382.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -3806,7 +3823,7 @@
 
 											}
  ],
-										"originid" : "pat-523"
+										"originid" : "pat-17098"
 									}
 ,
 									"patching_rect" : [ 187.5, 201.19023685714285, 61.0, 22.0 ],
@@ -3831,13 +3848,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 106.0, 222.0, 377.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -3966,7 +3984,7 @@
 
 											}
  ],
-										"originid" : "pat-525"
+										"originid" : "pat-17100"
 									}
 ,
 									"patching_rect" : [ 25.5, 348.0, 66.0, 22.0 ],
@@ -3991,13 +4009,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 106.0, 171.0, 480.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -4184,7 +4203,7 @@
 
 											}
  ],
-										"originid" : "pat-527"
+										"originid" : "pat-17102"
 									}
 ,
 									"patching_rect" : [ 1277.5, 87.0, 43.0, 22.0 ],
@@ -4307,7 +4326,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4632,7 +4651,7 @@
 
 											}
  ],
-										"originid" : "pat-545"
+										"originid" : "pat-17120"
 									}
 ,
 									"patching_rect" : [ 814.0, 537.80976314285715, 52.0, 22.0 ],
@@ -4689,7 +4708,7 @@
 									}
 ,
 									"text" : "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4742,13 +4761,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 119.0, 145.0, 356.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -4917,7 +4937,7 @@
 
 											}
  ],
-										"originid" : "pat-567"
+										"originid" : "pat-17142"
 									}
 ,
 									"patching_rect" : [ 136.0, 538.0, 52.0, 22.0 ],
@@ -4951,7 +4971,7 @@
 									}
 ,
 									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4980,13 +5000,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 119.0, 192.0, 368.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -5275,7 +5296,7 @@
 
 											}
  ],
-										"originid" : "pat-569"
+										"originid" : "pat-17144"
 									}
 ,
 									"patching_rect" : [ 96.0, 607.80976314285715, 79.0, 22.0 ],
@@ -5448,7 +5469,7 @@
 									}
 ,
 									"text" : "Instruments and interfaces using different type of inputs, and direct mapping.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
 							}
@@ -5472,7 +5493,7 @@
 									}
 ,
 									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
 							}
@@ -5676,7 +5697,7 @@
 									}
 ,
 									"text" : "Select a kind…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
 							}
@@ -5692,13 +5713,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 119.0, 192.0, 317.0 ],
+										"default_fontname" : "Ableton Sans Medium",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"subpatcher_template" : " ",
@@ -5825,7 +5847,7 @@
 
 											}
  ],
-										"originid" : "pat-571"
+										"originid" : "pat-17146"
 									}
 ,
 									"patching_rect" : [ 737.5, 347.000000000000057, 41.0, 22.0 ],
@@ -5934,7 +5956,7 @@
 									}
 ,
 									"text" : "Select a category…",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
 							}
@@ -6332,7 +6354,7 @@
 
 							}
  ],
-						"originid" : "pat-517"
+						"originid" : "pat-17092"
 					}
 ,
 					"patching_rect" : [ 20.0, 379.0, 698.5, 340.0 ],
@@ -6382,7 +6404,7 @@
 					}
 ,
 					"text" : "(2023)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -6443,6 +6465,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -6466,7 +6489,7 @@
 					}
 ,
 					"text" : "A Toolkit for Tinkering with Digital Musical Instruments",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -6489,7 +6512,7 @@
 					}
 ,
 					"text" : "Created by",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -6512,7 +6535,7 @@
 					}
 ,
 					"text" : "modulo",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -6557,7 +6580,7 @@
 					}
 ,
 					"text" : "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow. Happy patching!",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -6746,7 +6769,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-16579",
 		"parameters" : 		{
 			"obj-19::obj-1::obj-1::obj-20::obj-107::obj-26" : [ "live.text[17]", "live.text", 0 ],
 			"obj-19::obj-1::obj-1::obj-20::obj-107::obj-33" : [ "live.text[18]", "live.text", 0 ],

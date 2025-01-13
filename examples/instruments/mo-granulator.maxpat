@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 168.0, 686.0, 609.0 ],
+		"rect" : [ 34.0, 96.0, 686.0, 609.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
@@ -569,7 +569,7 @@
 
 			}
  ],
-		"originid" : "pat-2980",
+		"originid" : "pat-21376",
 		"parameters" : 		{
 			"obj-10::obj-107::obj-1" : [ "live.text[217]", "live.text", 0 ],
 			"obj-10::obj-123::obj-1" : [ "live.text[215]", "live.text", 0 ],
@@ -1673,11 +1673,11 @@
 				}
 ,
 				"obj-8::obj-161" : 				{
-					"parameter_range" : [ 0.0, 9317.346938775510353 ]
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-8::obj-169" : 				{
-					"parameter_range" : [ 0.0, 9317.346938775510353 ]
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 
 			}

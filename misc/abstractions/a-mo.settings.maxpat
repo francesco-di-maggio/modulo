@@ -326,7 +326,7 @@
 
 							}
  ],
-						"originid" : "pat-11043"
+						"originid" : "pat-27440"
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
@@ -586,7 +586,7 @@
 
 							}
  ],
-						"originid" : "pat-11045"
+						"originid" : "pat-27442"
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
@@ -627,11 +627,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 29.0, 72.0, 82.0, 23.0 ],
-					"text" : "route int float"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 29.0, 72.0, 130.0, 23.0 ],
+					"text" : "route int float list bang"
 				}
 
 			}
@@ -639,7 +639,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -669,7 +669,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -712,8 +712,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 149.5, 111.0, 209.5, 111.0 ],
+					"source" : [ "obj-4", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 101.5, 165.0, 121.5, 165.0 ],
+					"source" : [ "obj-4", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 94.0, 165.0, 121.5, 165.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -721,7 +736,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 70.0, 111.0, 38.5, 111.0 ],
+					"midpoints" : [ 66.25, 111.0, 38.5, 111.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -777,16 +792,7 @@
 
 			}
  ],
-		"originid" : "pat-11041",
-		"dependency_cache" : [ 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-27438"
 	}
 
 }
