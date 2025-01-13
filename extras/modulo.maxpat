@@ -372,7 +372,7 @@
 
 							}
  ],
-						"originid" : "pat-16581"
+						"originid" : "pat-38580"
 					}
 ,
 					"patching_rect" : [ 563.5, 62.0, 52.0, 22.0 ],
@@ -1174,7 +1174,7 @@
 
 							}
  ],
-						"originid" : "pat-16583"
+						"originid" : "pat-38582"
 					}
 ,
 					"patching_rect" : [ 391.0, 167.0, 52.0, 22.0 ],
@@ -1307,7 +1307,7 @@
 
 							}
  ],
-						"originid" : "pat-16585"
+						"originid" : "pat-38584"
 					}
 ,
 					"patching_rect" : [ 275.0, 167.0, 52.0, 22.0 ],
@@ -1516,7 +1516,7 @@
 
 							}
  ],
-						"originid" : "pat-16611"
+						"originid" : "pat-38610"
 					}
 ,
 					"patching_rect" : [ 564.0, 331.861052992816838, 57.0, 22.0 ],
@@ -1607,7 +1607,7 @@
 
 							}
  ],
-						"originid" : "pat-16613"
+						"originid" : "pat-38612"
 					}
 ,
 					"patching_rect" : [ 488.25, 331.861052992816838, 61.0, 22.0 ],
@@ -1716,7 +1716,7 @@
 
 							}
  ],
-						"originid" : "pat-16615"
+						"originid" : "pat-38614"
 					}
 ,
 					"patching_rect" : [ 343.75, 331.861052992816838, 59.0, 22.0 ],
@@ -2058,7 +2058,7 @@
 
 											}
  ],
-										"originid" : "pat-16619"
+										"originid" : "pat-38618"
 									}
 ,
 									"patching_rect" : [ 108.999999999999886, 24.500003999999961, 44.0, 23.0 ],
@@ -2126,7 +2126,7 @@
 
 							}
  ],
-						"originid" : "pat-16617"
+						"originid" : "pat-38616"
 					}
 ,
 					"patching_rect" : [ 264.0, 331.861052992816838, 65.0, 22.0 ],
@@ -2259,7 +2259,7 @@
 
 							}
  ],
-						"originid" : "pat-16621"
+						"originid" : "pat-38620"
 					}
 ,
 					"patching_rect" : [ 175.0, 167.0, 52.0, 22.0 ],
@@ -2424,7 +2424,7 @@
 
 							}
  ],
-						"originid" : "pat-17041"
+						"originid" : "pat-39040"
 					}
 ,
 					"patching_rect" : [ 417.5, 331.861052992816838, 56.0, 22.0 ],
@@ -2912,7 +2912,7 @@
 
 											}
  ],
-										"originid" : "pat-17087"
+										"originid" : "pat-39086"
 									}
 ,
 									"patching_rect" : [ 20.0, 139.0, 50.0, 23.0 ],
@@ -3019,7 +3019,7 @@
 
 							}
  ],
-						"originid" : "pat-17043"
+						"originid" : "pat-39042"
 					}
 ,
 					"patching_rect" : [ 636.5, 331.861052992816838, 82.0, 22.0 ],
@@ -3165,7 +3165,7 @@
 
 							}
  ],
-						"originid" : "pat-17089"
+						"originid" : "pat-39088"
 					}
 ,
 					"patching_rect" : [ 513.0, 167.0, 59.0, 22.0 ],
@@ -3204,7 +3204,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+						"rect" : [ 34.0, 96.0, 1372.0, 802.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
@@ -3451,7 +3451,7 @@
 
 											}
  ],
-										"originid" : "pat-17094"
+										"originid" : "pat-39093"
 									}
 ,
 									"patching_rect" : [ 814.0, 607.809763142857264, 79.0, 22.0 ],
@@ -3636,7 +3636,7 @@
 
 											}
  ],
-										"originid" : "pat-17096"
+										"originid" : "pat-39095"
 									}
 ,
 									"patching_rect" : [ 899.5, 201.19023685714285, 61.0, 22.0 ],
@@ -3823,7 +3823,7 @@
 
 											}
  ],
-										"originid" : "pat-17098"
+										"originid" : "pat-39097"
 									}
 ,
 									"patching_rect" : [ 187.5, 201.19023685714285, 61.0, 22.0 ],
@@ -3984,7 +3984,7 @@
 
 											}
  ],
-										"originid" : "pat-17100"
+										"originid" : "pat-39099"
 									}
 ,
 									"patching_rect" : [ 25.5, 348.0, 66.0, 22.0 ],
@@ -4203,7 +4203,7 @@
 
 											}
  ],
-										"originid" : "pat-17102"
+										"originid" : "pat-39101"
 									}
 ,
 									"patching_rect" : [ 1277.5, 87.0, 43.0, 22.0 ],
@@ -4651,7 +4651,7 @@
 
 											}
  ],
-										"originid" : "pat-17120"
+										"originid" : "pat-39119"
 									}
 ,
 									"patching_rect" : [ 814.0, 537.80976314285715, 52.0, 22.0 ],
@@ -4937,7 +4937,7 @@
 
 											}
  ],
-										"originid" : "pat-17142"
+										"originid" : "pat-39141"
 									}
 ,
 									"patching_rect" : [ 136.0, 538.0, 52.0, 22.0 ],
@@ -4970,7 +4970,7 @@
 
 									}
 ,
-									"text" : "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
+									"text" : "–  a single customizable encoder  –",
 									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"textjustification" : 1
 								}
@@ -5296,7 +5296,7 @@
 
 											}
  ],
-										"originid" : "pat-17144"
+										"originid" : "pat-39143"
 									}
 ,
 									"patching_rect" : [ 96.0, 607.80976314285715, 79.0, 22.0 ],
@@ -5492,7 +5492,7 @@
 
 									}
 ,
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
+									"text" : "Interface with external devices, including MIDI, OSC, Max, and Eurorack modules.",
 									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
@@ -5641,7 +5641,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.arrow", "mo.dial", "mo.encoder", "mo.grid", "mo.hrslider", "mo.hslider", "mo.htab", "mo.key", "mo.keyboard", "mo.led", "mo.mouse", "mo.nodes", "mo.number", "mo.numbers", "mo.pad", "mo.pads", "mo.rand", "mo.rsliders", "mo.sliders", "mo.step", "mo.tabs", "mo.vrslider", "mo.vslider", "mo.vtab", "mo.xypad" ],
+											"parameter_enum" : [ "mo.adc~", "mo.crosspatch", "mo.crosspatch~", "mo.ctlout", "mo.ctlouts", "mo.dac~", "mo.hi", "mo.makenote", "mo.matrix", "mo.matrix~", "mo.midiin", "mo.midiout", "mo.noteout", "mo.noteouts", "mo.receive", "mo.receive~", "mo.receives", "mo.send", "mo.send~", "mo.sends", "mo.serial", "mo.udpreceive", "mo.udpsend", "mo.xbendout", "mo.xbendouts" ],
 											"parameter_longname" : "live.menu[10]",
 											"parameter_mmax" : 24,
 											"parameter_modmode" : 0,
@@ -5847,7 +5847,7 @@
 
 											}
  ],
-										"originid" : "pat-17146"
+										"originid" : "pat-39145"
 									}
 ,
 									"patching_rect" : [ 737.5, 347.000000000000057, 41.0, 22.0 ],
@@ -6354,7 +6354,7 @@
 
 							}
  ],
-						"originid" : "pat-17092"
+						"originid" : "pat-39091"
 					}
 ,
 					"patching_rect" : [ 20.0, 379.0, 698.5, 340.0 ],
@@ -6403,7 +6403,7 @@
 
 					}
 ,
-					"text" : "(2023)",
+					"text" : "(2025)",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
@@ -6769,7 +6769,7 @@
 
 			}
  ],
-		"originid" : "pat-16579",
+		"originid" : "pat-38578",
 		"parameters" : 		{
 			"obj-19::obj-1::obj-1::obj-20::obj-107::obj-26" : [ "live.text[17]", "live.text", 0 ],
 			"obj-19::obj-1::obj-1::obj-20::obj-107::obj-33" : [ "live.text[18]", "live.text", 0 ],
