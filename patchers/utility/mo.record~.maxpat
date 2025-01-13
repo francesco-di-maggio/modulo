@@ -4,15 +4,16 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 62.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"toolbars_unpinned_last_save" : 3,
@@ -257,7 +258,6 @@
 
 					}
 ,
-					"text" : "sound",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"varname" : "set-"
 				}
@@ -557,7 +557,7 @@
 				"box" : 				{
 					"comment" : "(int) channels",
 					"id" : "obj-32",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1055,7 +1055,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1330,7 +1330,7 @@
 				"box" : 				{
 					"comment" : "(message) record, playback, loop, clear, length, read, write",
 					"id" : "obj-40",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1383,11 +1383,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to record",
 					"id" : "obj-47",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.948104470968246, 51.0, 30.0, 30.0 ]
 				}
 
@@ -2576,7 +2576,68 @@
 
 			}
  ],
-		"originid" : "pat-6738"
+		"originid" : "pat-10453",
+		"parameters" : 		{
+			"obj-11" : [ "live.text[360]", "live.text", 0 ],
+			"obj-141" : [ "live.text[358]", "live.text", 0 ],
+			"obj-33" : [ "live.numbox[16]", "live.dial[12]", 0 ],
+			"obj-39" : [ "live.text[357]", "live.text", 0 ],
+			"obj-44" : [ "live.numbox[17]", "live.dial[12]", 0 ],
+			"obj-45" : [ "live.text[415]", "live.text", 0 ],
+			"obj-52" : [ "live.numbox[91]", "live.numbox", 0 ],
+			"obj-56" : [ "live.text[356]", "live.text", 0 ],
+			"obj-85" : [ "live.text[359]", "live.text", 0 ],
+			"obj-9" : [ "live.text[355]", "live.text", 0 ],
+			"obj-92" : [ "live.text[844]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

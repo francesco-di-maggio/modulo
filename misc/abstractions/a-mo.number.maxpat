@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 96.0, 1372.0, 802.0 ],
 		"openrect" : [ 0.0, 0.0, 214.826816082000732, 15.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -30,13 +30,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 115.0, 299.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -161,7 +162,7 @@
 
 							}
  ],
-						"originid" : "pat-4252",
+						"originid" : "pat-5465",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -230,9 +231,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 87.666666666666657, 622.5, 50.0, 20.0 ],
+					"patching_rect" : [ 87.666666666666657, 622.5, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.22682016496438, -2.328377675265074, 129.282911465519874, 20.0 ],
+					"presentation_rect" : [ 80.22682016496438, -2.328377675265074, 129.282911465519874, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_text_selection"
@@ -417,7 +418,7 @@
 						"count" : 8,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ 1, 1, 1, 1 ]
+								"value" : [ 1.0, 1.0, 1.0, 1.0 ]
 							}
 , 							{
 								"key" : 2,
@@ -479,13 +480,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 447.0, 578.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -855,7 +857,7 @@
 
 							}
  ],
-						"originid" : "pat-4254",
+						"originid" : "pat-5467",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -917,7 +919,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Show Particle Settings[18]",
+							"parameter_longname" : "Show Particle Settings[15]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -1028,7 +1030,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1074,7 +1076,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[15]",
+							"parameter_longname" : "live.text[18]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -1084,9 +1086,9 @@
 
 					}
 ,
-					"text" : "0",
+					"text" : "16",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "0",
+					"texton" : "16",
 					"varname" : "mute-"
 				}
 
@@ -1121,7 +1123,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1160,7 +1162,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1195,7 +1197,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.166666666666664, 110.823603877314895, 105.0, 23.0 ],
+					"patching_rect" : [ 58.166666666666664, 110.823603877314895, 105.0, 22.0 ],
 					"text" : "text $1, texton $1"
 				}
 
@@ -1533,31 +1535,7 @@
 
 			}
  ],
-		"originid" : "pat-4250",
-		"parameters" : 		{
-			"obj-20" : [ "Show Particle Settings[18]", "live.text", 0 ],
-			"obj-35" : [ "live.text[15]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/Toolbox/listpackage",
-				"patcherrelativepath" : "../../../Max for the Visual Arts/patchers/Toolbox/listpackage",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-5463"
 	}
 
 }

@@ -4,15 +4,16 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
+		"rect" : [ 0.0, 62.0, 214.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"openinpresentation" : 1,
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"toolbars_unpinned_last_save" : 3,
@@ -62,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 599.035088539123535, 223.0, 141.0, 23.0 ],
-					"restore" : [ "Keyboard Backlight" ],
+					"restore" : [ "TouchBarUserDevice" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -334,7 +335,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "Keyboard Backlight", ",", "Bluetooth USB Host Controller", ",", "Bluetooth USB Host Controller 2", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5" ],
+					"items" : [ "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Apple Internal Keyboard / Trackpad 6", ",", "BTM", ",", "Headset", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x5", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0x4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -653,7 +654,7 @@
 
 			}
  ],
-		"originid" : "pat-2503",
+		"originid" : "pat-7817",
 		"parameters" : 		{
 			"obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"obj-6" : [ "live.text[750]", "live.text", 0 ],
