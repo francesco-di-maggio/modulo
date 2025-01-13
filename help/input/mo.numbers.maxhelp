@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 568.0, 639.0 ],
+		"rect" : [ 34.0, 96.0, 568.0, 639.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -23,7 +23,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 596.0, 245.0, 23.0 ]
+					"patching_rect" : [ 41.0, 596.0, 245.0, 22.0 ]
 				}
 
 			}
@@ -174,7 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 322.0, 67.0, 23.0 ],
+					"patching_rect" : [ 365.0, 322.0, 67.0, 22.0 ],
 					"text" : "polarity $1"
 				}
 
@@ -202,7 +202,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.666666666666629, 240.0, 50.0, 23.0 ]
+					"patching_rect" : [ 292.666666666666629, 240.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -216,7 +216,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 236.0, 204.0, 50.0, 23.0 ],
+					"patching_rect" : [ 236.0, 204.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
@@ -244,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.999999999999886, 363.0, 53.0, 23.0 ],
+					"patching_rect" : [ 446.999999999999886, 363.0, 53.0, 22.0 ],
 					"text" : "mute $1"
 				}
 
@@ -269,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.666666666666629, 281.0, 55.0, 23.0 ],
+					"patching_rect" : [ 292.666666666666629, 281.0, 55.0, 22.0 ],
 					"text" : "mode $1"
 				}
 
@@ -281,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.5, 363.0, 33.0, 23.0 ],
+					"patching_rect" : [ 515.5, 363.0, 33.0, 22.0 ],
 					"text" : "rand"
 				}
 
@@ -322,7 +322,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 418.0, 214.0, 126.0 ],
+					"patching_rect" : [ 41.0, 418.0, 214.0, 129.0 ],
 					"varname" : "mo.numbers",
 					"viewvisibility" : 1
 				}
@@ -410,7 +410,7 @@
 
 			}
  ],
-		"originid" : "pat-4498",
+		"originid" : "pat-11457",
 		"parameters" : 		{
 			"obj-13::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-13::obj-107::obj-35" : [ "live.text[2]", "live.text", 0 ],

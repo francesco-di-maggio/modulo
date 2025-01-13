@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 62.0, 142.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 142.0, 70.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -587,18 +587,18 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 949.0, 253.0, 353.0, 520.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
 						"helpsidebarclosed" : 1,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -794,7 +794,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"midpoints" : [ 114.5, 327.5, 139.5, 327.5 ],
+									"midpoints" : [ 114.5, 327.0, 139.5, 327.0 ],
 									"source" : [ "obj-10", 1 ]
 								}
 
@@ -802,6 +802,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
+									"midpoints" : [ 94.5, 327.0, 68.5, 327.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -809,7 +810,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-60", 0 ],
-									"midpoints" : [ 134.5, 327.0, 94.5, 327.0 ],
+									"midpoints" : [ 134.5, 327.0, 114.0, 327.0, 114.0, 402.0, 94.5, 402.0 ],
 									"source" : [ "obj-10", 2 ]
 								}
 
@@ -817,7 +818,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-60", 1 ],
-									"midpoints" : [ 139.5, 366.5, 139.5, 366.5 ],
+									"midpoints" : [ 139.5, 366.0, 139.5, 366.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -825,7 +826,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-60", 0 ],
-									"midpoints" : [ 253.5, 402.5, 94.5, 402.5 ],
+									"midpoints" : [ 253.5, 402.0, 94.5, 402.0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -833,7 +834,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 95.0, 255.5, 94.5, 255.5 ],
+									"midpoints" : [ 95.0, 255.0, 94.5, 255.0 ],
 									"source" : [ "obj-31", 1 ]
 								}
 
@@ -841,7 +842,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-75", 0 ],
-									"midpoints" : [ 41.5, 255.5, 41.5, 255.5 ],
+									"midpoints" : [ 41.5, 255.0, 41.5, 255.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -849,7 +850,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
-									"midpoints" : [ 148.5, 150.5, 148.5, 150.5 ],
+									"midpoints" : [ 148.5, 150.0, 148.5, 150.0 ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -857,7 +858,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
-									"midpoints" : [ 41.5, 219.5, 41.5, 219.5 ],
+									"midpoints" : [ 41.5, 219.0, 41.5, 219.0 ],
 									"source" : [ "obj-38", 0 ]
 								}
 
@@ -865,7 +866,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 41.5, 183.5, 41.5, 183.5 ],
+									"midpoints" : [ 41.5, 183.0, 41.5, 183.0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -873,7 +874,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 41.5, 150.5, 41.5, 150.5 ],
+									"midpoints" : [ 41.5, 150.0, 41.5, 150.0 ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -881,6 +882,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-60", 0 ],
+									"midpoints" : [ 68.5, 402.0, 94.5, 402.0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -888,6 +890,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 94.5, 441.0, 94.5, 441.0 ],
 									"source" : [ "obj-60", 0 ]
 								}
 
@@ -895,7 +898,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 1 ],
-									"midpoints" : [ 170.5, 315.5, 170.5, 315.5 ],
+									"midpoints" : [ 170.5, 315.0, 170.5, 315.0 ],
 									"source" : [ "obj-64", 0 ]
 								}
 
@@ -903,7 +906,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
-									"midpoints" : [ 41.5, 57.5, 41.5, 57.5 ],
+									"midpoints" : [ 41.5, 57.0, 41.5, 57.0 ],
 									"source" : [ "obj-73", 0 ]
 								}
 
@@ -911,13 +914,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
-									"midpoints" : [ 148.5, 57.5, 148.5, 57.5 ],
+									"midpoints" : [ 148.5, 57.0, 148.5, 57.0 ],
 									"source" : [ "obj-74", 0 ]
 								}
 
 							}
  ],
-						"originid" : "pat-901",
+						"originid" : "pat-11091",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1356,9 +1359,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "0",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"texton" : "1",
+					"texton" : "0",
 					"varname" : "mute-"
 				}
 
@@ -2016,7 +2019,45 @@
 
 			}
  ],
-		"originid" : "pat-899"
+		"originid" : "pat-11089",
+		"parameters" : 		{
+			"obj-10" : [ "live.text[17]", "live.text", 0 ],
+			"obj-14" : [ "live.text[18]", "live.text", 0 ],
+			"obj-15" : [ "live.numbox[37]", "live.numbox", 0 ],
+			"obj-27" : [ "live.numbox[21]", "live.numbox", 0 ],
+			"obj-32" : [ "live.numbox[19]", "live.text", 0 ],
+			"obj-33" : [ "live.text[19]", "live.text", 0 ],
+			"obj-35" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-38" : [ "live.numbox[20]", "live.text", 0 ],
+			"obj-43" : [ "live.numbox[43]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

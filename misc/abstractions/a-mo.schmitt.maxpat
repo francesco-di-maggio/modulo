@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 214.0, 15.0 ],
+		"rect" : [ 34.0, 96.0, 214.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -29,7 +29,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -191,7 +191,7 @@
 
 							}
  ],
-						"originid" : "pat-6114"
+						"originid" : "pat-11031"
 					}
 ,
 					"patching_rect" : [ 89.653199976682799, 595.0, 49.0, 22.0 ],
@@ -375,13 +375,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 119.0, 165.0, 270.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -498,7 +499,7 @@
 
 							}
  ],
-						"originid" : "pat-6116"
+						"originid" : "pat-11033"
 					}
 ,
 					"patching_rect" : [ 89.653199976682799, 469.601844755165075, 106.0, 22.0 ],
@@ -561,13 +562,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 953.0, 186.0, 265.0, 375.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -843,7 +845,7 @@
 
 							}
  ],
-						"originid" : "pat-6118",
+						"originid" : "pat-11035",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1172,7 +1174,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1210,7 +1212,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1249,7 +1251,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1628,7 +1630,26 @@
 
 			}
  ],
-		"originid" : "pat-6112"
+		"originid" : "pat-11029",
+		"parameters" : 		{
+			"obj-31" : [ "live.numbox[36]", "live.numbox", 0 ],
+			"obj-35" : [ "live.text[40]", "live.text", 0 ],
+			"obj-39" : [ "live.text[1]", "live.text", 0 ],
+			"obj-70" : [ "live.numbox[56]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

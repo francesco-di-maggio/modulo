@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 576.0, 443.0 ],
+		"rect" : [ 34.0, 96.0, 576.0, 443.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 314.999999999999886, 35.0, 23.0 ],
+					"patching_rect" : [ 353.0, 314.999999999999886, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -135,7 +135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 203.0, 109.0, 23.0 ],
+					"patching_rect" : [ 269.0, 203.0, 109.0, 22.0 ],
 					"text" : "TextEdit.app, open"
 				}
 
@@ -147,8 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 242.25, 96.0, 23.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 296.0, 242.25, 97.0, 22.0 ],
 					"text" : "mo.pad.maxhelp"
 				}
 
@@ -160,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 166.0, 304.0, 23.0 ],
+					"patching_rect" : [ 41.0, 166.0, 304.0, 22.0 ],
 					"text" : "https://github.com/francesco-di-maggio/modulo, open"
 				}
 
@@ -296,7 +295,7 @@
 
 			}
  ],
-		"originid" : "pat-6626",
+		"originid" : "pat-15489",
 		"parameters" : 		{
 			"obj-3::obj-10" : [ "live.text[895]", "live.text", 0 ],
 			"obj-3::obj-12" : [ "live.text[930]", "live.text", 0 ],

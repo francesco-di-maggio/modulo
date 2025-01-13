@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 635.0, 673.0 ],
+		"rect" : [ 34.0, 96.0, 635.0, 673.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -179,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 612.0, 214.0, 23.0 ]
+					"patching_rect" : [ 41.0, 612.0, 214.0, 22.0 ]
 				}
 
 			}
@@ -190,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 513.0, 56.0, 23.0 ],
+					"patching_rect" : [ 41.0, 513.0, 56.0, 22.0 ],
 					"text" : "route list"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 562.0, 180.0, 23.0 ]
+					"patching_rect" : [ 41.0, 562.0, 180.0, 22.0 ]
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.714285714285722, 256.0, 55.0, 23.0 ],
+					"patching_rect" : [ 235.714285714285722, 256.0, 55.0, 22.0 ],
 					"text" : "mode $1"
 				}
 
@@ -243,7 +243,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 210.0, 166.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.666666666666657, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 153.666666666666657, 166.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -272,7 +272,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 442.0, 215.0, 50.0, 23.0 ],
+					"patching_rect" : [ 442.0, 215.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
@@ -300,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 308.999999999999886, 297.0, 53.0, 23.0 ],
+					"patching_rect" : [ 308.999999999999886, 297.0, 53.0, 22.0 ],
 					"text" : "mute $1"
 				}
 
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.945414036184502, 297.0, 67.0, 23.0 ],
+					"patching_rect" : [ 466.945414036184502, 297.0, 67.0, 22.0 ],
 					"text" : "polarity $1"
 				}
 
@@ -350,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.890828072369004, 297.0, 33.0, 23.0 ],
+					"patching_rect" : [ 575.890828072369004, 297.0, 33.0, 22.0 ],
 					"text" : "rand"
 				}
 
@@ -372,7 +372,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 352.0, 214.0, 126.0 ],
+					"patching_rect" : [ 41.0, 352.0, 214.0, 99.0 ],
 					"varname" : "mo.rsliders",
 					"viewvisibility" : 1
 				}
@@ -385,7 +385,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 215.0, 188.0, 23.0 ],
+					"patching_rect" : [ 41.0, 215.0, 188.0, 22.0 ],
 					"text" : "pak 0. 0. 0. 0."
 				}
 
@@ -401,7 +401,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.333333333333329, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 97.333333333333329, 166.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -416,7 +416,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 166.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -550,7 +550,7 @@
 
 			}
  ],
-		"originid" : "pat-4700",
+		"originid" : "pat-11659",
 		"parameters" : 		{
 			"obj-11::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-11::obj-107::obj-35" : [ "live.text[3]", "live.text", 0 ],

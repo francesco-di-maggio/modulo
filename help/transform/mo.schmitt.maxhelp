@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 589.0, 577.0 ],
+		"rect" : [ 34.0, 96.0, 589.0, 577.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -22,7 +22,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.96315561234951, 320.0, 29.5, 23.0 ],
+					"patching_rect" : [ 446.96315561234951, 320.0, 29.5, 22.0 ],
 					"text" : "0.5"
 				}
 
@@ -34,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.5, 371.1245406717062, 120.0, 23.0 ],
+					"patching_rect" : [ 411.5, 371.1245406717062, 120.0, 22.0 ],
 					"text" : "prepend target 1 low"
 				}
 
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.5, 320.0, 29.5, 23.0 ],
+					"patching_rect" : [ 411.5, 320.0, 29.5, 22.0 ],
 					"text" : "0.2"
 				}
 
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 353.5, 283.0, 50.0, 23.0 ]
+					"patching_rect" : [ 353.5, 283.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.5, 320.0, 44.0, 23.0 ],
+					"patching_rect" : [ 353.5, 320.0, 44.0, 22.0 ],
 					"text" : "low $1"
 				}
 
@@ -241,7 +241,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0, 205.0, 50.0, 23.0 ]
+					"patching_rect" : [ 236.0, 205.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 291.5, 246.0, 50.0, 23.0 ]
+					"patching_rect" : [ 291.5, 246.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.5, 283.0, 48.0, 23.0 ],
+					"patching_rect" : [ 291.5, 283.0, 48.0, 22.0 ],
 					"text" : "high $1"
 				}
 
@@ -422,7 +422,7 @@
 
 			}
  ],
-		"originid" : "pat-5976",
+		"originid" : "pat-14351",
 		"parameters" : 		{
 			"obj-16::obj-107::obj-31" : [ "live.numbox[69]", "live.numbox", 0 ],
 			"obj-16::obj-107::obj-35" : [ "live.text[150]", "live.text", 0 ],

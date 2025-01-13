@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 559.0, 541.0 ],
+		"rect" : [ 34.0, 96.0, 559.0, 541.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -49,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 306.0, 67.0, 23.0 ],
+					"patching_rect" : [ 328.0, 306.0, 67.0, 22.0 ],
 					"text" : "polarity $1"
 				}
 
@@ -78,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 411.255791574060595, 306.0, 50.0, 23.0 ]
+					"patching_rect" : [ 411.255791574060595, 306.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -89,7 +89,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.255791574060595, 350.0, 53.0, 23.0 ],
+					"patching_rect" : [ 411.255791574060595, 350.0, 53.0, 22.0 ],
 					"text" : "color $1"
 				}
 
@@ -209,7 +209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 166.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 166.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -220,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.5, 211.0, 37.0, 23.0 ],
+					"patching_rect" : [ 263.5, 211.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -232,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.255791574060538, 211.0, 29.5, 23.0 ],
+					"patching_rect" : [ 227.255791574060538, 211.0, 29.5, 22.0 ],
 					"text" : "dial"
 				}
 
@@ -244,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.255791574060538, 259.0, 72.0, 23.0 ],
+					"patching_rect" : [ 227.255791574060538, 259.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -258,7 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 495.0, 50.0, 23.0 ]
+					"patching_rect" : [ 41.0, 495.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -282,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 259.0, 53.0, 23.0 ],
+					"patching_rect" : [ 92.0, 259.0, 53.0, 22.0 ],
 					"text" : "mute $1"
 				}
 
@@ -399,7 +399,7 @@
 
 			}
  ],
-		"originid" : "pat-4360",
+		"originid" : "pat-11319",
 		"parameters" : 		{
 			"obj-1::obj-21" : [ "dial-[29]", "dial-", 0 ],
 			"obj-1::obj-35" : [ "live.text[907]", "live.text", 0 ],

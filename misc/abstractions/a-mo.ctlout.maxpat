@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 96.0, 215.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -24,7 +24,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 157.666666666666629, 190.25, 61.0, 23.0 ],
+					"patching_rect" : [ 157.666666666666629, 190.25, 61.0, 22.0 ],
 					"text" : "change 0."
 				}
 
@@ -181,7 +181,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-11",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -674,7 +674,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.166666666666629, 110.823603877314895, 105.0, 23.0 ],
+					"patching_rect" : [ 44.166666666666629, 110.823603877314895, 105.0, 22.0 ],
 					"text" : "text $1, texton $1"
 				}
 
@@ -944,7 +944,7 @@
 
 			}
  ],
-		"originid" : "pat-4244",
+		"originid" : "pat-10977",
 		"parameters" : 		{
 			"obj-35" : [ "live.text[52]", "live.text", 0 ],
 			"obj-53" : [ "live.text[828]", "live.text", 0 ],

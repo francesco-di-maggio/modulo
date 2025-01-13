@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 559.0, 541.0 ],
+		"rect" : [ 34.0, 96.0, 559.0, 541.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -397,7 +397,7 @@
 
 			}
  ],
-		"originid" : "pat-3184",
+		"originid" : "pat-11329",
 		"parameters" : 		{
 			"obj-1::obj-12" : [ "live.text[804]", "live.text", 0 ],
 			"obj-1::obj-21" : [ "dial-[1]", "dial", 0 ],

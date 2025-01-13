@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 633.0, 624.0 ],
+		"rect" : [ 34.0, 96.0, 633.0, 624.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -35,7 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.237512772727086, 339.0, 49.0, 23.0 ],
+					"patching_rect" : [ 470.237512772727086, 339.0, 49.0, 22.0 ],
 					"text" : "loop $1"
 				}
 
@@ -97,7 +97,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 577.115920379757881, 54.0, 23.0 ],
+					"patching_rect" : [ 41.0, 577.115920379757881, 54.0, 22.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 194.0, 55.0, 23.0 ],
+					"patching_rect" : [ 41.0, 194.0, 55.0, 22.0 ],
 					"text" : "mc.adc~",
 					"varname" : "bbdmi.adc~"
 				}
@@ -259,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.522767318181877, 339.0, 33.0, 23.0 ],
+					"patching_rect" : [ 579.522767318181877, 339.0, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -284,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.522767318181877, 303.0, 73.0, 23.0 ],
+					"patching_rect" : [ 382.522767318181877, 303.0, 73.0, 22.0 ],
 					"text" : "playback $1"
 				}
 
@@ -311,7 +311,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.600555196969708, 194.0, 60.1724668787881, 23.0 ]
+					"patching_rect" : [ 235.600555196969708, 194.0, 60.1724668787881, 22.0 ]
 				}
 
 			}
@@ -322,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.522767318181877, 267.0, 61.0, 23.0 ],
+					"patching_rect" : [ 309.522767318181877, 267.0, 61.0, 22.0 ],
 					"text" : "record $1"
 				}
 
@@ -334,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.522767318181877, 339.0, 36.0, 23.0 ],
+					"patching_rect" : [ 531.522767318181877, 339.0, 36.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -346,7 +346,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.773022075757808, 230.0, 60.0, 23.0 ],
+					"patching_rect" : [ 235.773022075757808, 230.0, 60.0, 22.0 ],
 					"text" : "length $1"
 				}
 
@@ -487,7 +487,7 @@
 
 			}
  ],
-		"originid" : "pat-6334",
+		"originid" : "pat-15755",
 		"parameters" : 		{
 			"obj-1" : [ "mc.live.gain~", "input gain~", 0 ],
 			"obj-16" : [ "mc.live.gain~[1]", "output gain~", 0 ],
