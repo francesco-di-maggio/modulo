@@ -336,7 +336,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1105,7 +1105,7 @@
 
 			}
  ],
-		"originid" : "pat-7317",
+		"originid" : "pat-20439",
 		"parameters" : 		{
 			"obj-12" : [ "live.text[264]", "live.text", 0 ],
 			"obj-15" : [ "live.text[841]", "live.text", 0 ],

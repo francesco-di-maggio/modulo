@@ -121,7 +121,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1040,7 +1040,7 @@
 
 			}
  ],
-		"originid" : "pat-7359",
+		"originid" : "pat-20481",
 		"parameters" : 		{
 			"obj-15" : [ "live.text[89]", "live.text", 0 ],
 			"obj-36" : [ "live.text[58]", "live.text", 0 ],

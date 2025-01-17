@@ -569,7 +569,7 @@
 
 							}
  ],
-						"originid" : "pat-4497",
+						"originid" : "pat-18777",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1394,7 +1394,7 @@
 
 			}
  ],
-		"originid" : "pat-4489",
+		"originid" : "pat-18769",
 		"parameters" : 		{
 			"obj-12" : [ "live.text[804]", "live.text", 0 ],
 			"obj-21" : [ "dial-[1]", "dial", 0 ],

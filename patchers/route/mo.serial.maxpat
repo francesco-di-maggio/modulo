@@ -475,7 +475,7 @@
 
 							}
  ],
-						"originid" : "pat-7617",
+						"originid" : "pat-20739",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -736,7 +736,7 @@
 
 											}
  ],
-										"originid" : "pat-7621",
+										"originid" : "pat-20743",
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
@@ -868,7 +868,7 @@
 
 							}
  ],
-						"originid" : "pat-7619",
+						"originid" : "pat-20741",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1079,7 +1079,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-49",
-					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "debug-console", ",", "CMFBudsPro2", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1420,7 +1420,7 @@
 
 			}
  ],
-		"originid" : "pat-7609",
+		"originid" : "pat-20731",
 		"parameters" : 		{
 			"obj-1" : [ "live.text[34]", "live.text", 0 ],
 			"obj-6" : [ "live.text[175]", "live.text", 0 ],

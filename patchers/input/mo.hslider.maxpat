@@ -898,7 +898,7 @@
 
 							}
  ],
-						"originid" : "pat-4567",
+						"originid" : "pat-19753",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1233,7 +1233,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 899.0, 463.0, 240.0, 23.0 ],
-					"restore" : [ 0.936781609195402 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1882,7 +1882,7 @@
 
 			}
  ],
-		"originid" : "pat-4565",
+		"originid" : "pat-19751",
 		"parameters" : 		{
 			"obj-19" : [ "live.text[140]", "live.text", 0 ],
 			"obj-3" : [ "slider-[51]", "slider-", 0 ],

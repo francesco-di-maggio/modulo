@@ -4,15 +4,16 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 70.0, 214.0 ],
+		"rect" : [ 0.0, 62.0, 70.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"openinpresentation" : 1,
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"toolbars_unpinned_last_save" : 3,
@@ -194,6 +195,7 @@
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"spacing" : 1,
@@ -233,13 +235,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 592.0, 161.0, 588.0, 325.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -800,7 +803,7 @@
 
 							}
  ],
-						"originid" : "pat-4966",
+						"originid" : "pat-19339",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1279,7 +1282,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1292,7 +1295,7 @@
 				"box" : 				{
 					"comment" : "(message) color, polarity, set, mute",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1353,7 +1356,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1827,7 +1830,48 @@
 
 			}
  ],
-		"originid" : "pat-4964"
+		"originid" : "pat-19337",
+		"parameters" : 		{
+			"obj-21" : [ "live.text[883]", "live.text", 0 ],
+			"obj-3" : [ "slider-[50]", "slider-", 0 ],
+			"obj-35" : [ "live.text[880]", "live.text", 0 ],
+			"obj-38" : [ "live.text[1]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

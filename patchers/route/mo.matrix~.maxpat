@@ -334,7 +334,7 @@
 
 							}
  ],
-						"originid" : "pat-8369"
+						"originid" : "pat-20467"
 					}
 ,
 					"patching_rect" : [ 340.0, 224.0, 32.0, 23.0 ],
@@ -1119,7 +1119,7 @@
 
 											}
  ],
-										"originid" : "pat-8379"
+										"originid" : "pat-20477"
 									}
 ,
 									"patching_rect" : [ 190.0, 141.0, 43.0, 23.0 ],
@@ -1314,7 +1314,7 @@
 
 											}
  ],
-										"originid" : "pat-8381"
+										"originid" : "pat-20479"
 									}
 ,
 									"patching_rect" : [ 31.736999999999966, 201.0, 36.0, 23.0 ],
@@ -1466,7 +1466,7 @@
 
 							}
  ],
-						"originid" : "pat-8377",
+						"originid" : "pat-20475",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1548,7 +1548,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.139760281642339, 480.325857325578113, 286.0, 23.0 ],
-					"restore" : [ 2, 2, 1.0 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2001,7 +2001,7 @@
 
 			}
  ],
-		"originid" : "pat-8367",
+		"originid" : "pat-20465",
 		"parameters" : 		{
 			"obj-1" : [ "live.text[316]", "live.text", 0 ],
 			"obj-37" : [ "live.numbox[89]", "live.numbox", 0 ],

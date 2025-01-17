@@ -281,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 13 : 38 : 293",
+					"text" : "0 : 27 : 42 : 31",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -344,7 +344,7 @@
 
 					}
 ,
-					"text" : "13 : 54 : 36",
+					"text" : "11 : 7 : 49",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"textjustification" : 1
 				}
@@ -462,7 +462,7 @@
 
 					}
 ,
-					"text" : "13 / 1 / 2025",
+					"text" : "17 / 1 / 2025",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"textjustification" : 1
 				}
@@ -718,7 +718,7 @@
 
 			}
  ],
-		"originid" : "pat-10217",
+		"originid" : "pat-22423",
 		"parameters" : 		{
 			"obj-9" : [ "live.text[304]", "live.text", 0 ],
 			"parameterbanks" : 			{

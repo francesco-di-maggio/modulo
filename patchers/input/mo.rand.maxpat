@@ -324,7 +324,7 @@
 
 							}
  ],
-						"originid" : "pat-4803",
+						"originid" : "pat-19425",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -925,7 +925,7 @@
 
 							}
  ],
-						"originid" : "pat-4811",
+						"originid" : "pat-19433",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1237,7 +1237,7 @@
 
 							}
  ],
-						"originid" : "pat-4813",
+						"originid" : "pat-19435",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1487,7 +1487,7 @@
 
 							}
  ],
-						"originid" : "pat-4815",
+						"originid" : "pat-19437",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2195,7 +2195,7 @@
 
 							}
  ],
-						"originid" : "pat-4817",
+						"originid" : "pat-19439",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2445,7 +2445,7 @@
 
 							}
  ],
-						"originid" : "pat-4819",
+						"originid" : "pat-19441",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2697,7 +2697,7 @@
 
 							}
  ],
-						"originid" : "pat-4821",
+						"originid" : "pat-19443",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -3241,7 +3241,7 @@
 
 							}
  ],
-						"originid" : "pat-4823",
+						"originid" : "pat-19445",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -3392,7 +3392,7 @@
 
 							}
  ],
-						"originid" : "pat-4825",
+						"originid" : "pat-19447",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -3863,7 +3863,7 @@
 
 							}
  ],
-						"originid" : "pat-4827",
+						"originid" : "pat-19449",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -4307,7 +4307,7 @@
 
 							}
  ],
-						"originid" : "pat-4829",
+						"originid" : "pat-19451",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -4966,7 +4966,7 @@
 
 			}
  ],
-		"originid" : "pat-4801",
+		"originid" : "pat-19423",
 		"parameters" : 		{
 			"obj-11" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-12" : [ "live.text[1]", "live.text", 0 ],

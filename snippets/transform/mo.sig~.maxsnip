@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 181.0, 640.0, 480.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 34.0, 96.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
 		"description" : "70 x 27, containing 1 object",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -62,6 +37,7 @@
 			}
  ],
 		"lines" : [  ],
+		"originid" : "pat-26601",
 		"parameters" : 		{
 			"obj-1::obj-52" : [ "live.numbox[292]", "live.numbox", 0 ],
 			"obj-1::obj-6" : [ "live.text[524]", "live.text", 0 ],
@@ -79,25 +55,33 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.sig~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
+		"tags" : "",
 		"snippetinfo" : 		{
 			"name" : "mo.sig~",
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "70 x 27, containing 1 object",
-			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAAAXCAYAAAC2/DnWAAAABHNCSVQICAgIfAhkiAAAAexJREFUWIXtma2rIlEYhx+XweCg1sExqGCziMUmCAoqCgabxeJfoEXwH7AMWLRZzX4EEUwWETFosfuRRBAEQXE2rWHXYe91OV65O088MDO/88z7njOHsQA6Jn8gAWw2m6/O8VaoqsqPrw7xrphiDDDFGCA9GlRV9dM3+m7r1EMx8LmJPiPy3TFbyYCXiVmtVkQiEa7X66se+U+8TIzH46FcLiNJht37VggTs16vSSQSBAIBRqMRx+ORRqMBwHA4JBaLkUwmSaVSTCYTUTGeRtjr6/V6yLJMv99nsVhwu93Ybrfouk6lUqFer6MoCvF4nPP5TK/Xo1aroSgKoVCI8XhMt9sVFe+vCKuYdDqNJElkMhnW6/V9fLfbcTqdCIfDeL1e/H4/ADabjU6nQ71ex+fzoWmaqGgfQljFDAYDSqUSTqeTVCpFNpsFwOVy4XQ60TQNRVFYLBYARKPR+7W5XE5UrA8jTIzb7aZQKOBwOMjn81gsFgB0XUfTNFqtFqfTCVVVsdvtomI8jTAx8Xic2WzG5XJBlmUA5vM5y+WSYrFItVrlcDig6zrBYFBUjKcRul1brda7lF8EAgGazSbT6ZT9fk+73b5X0zthAfTfP///97OSqqqPW+k7TfJZzLOSAaYYA0wxBlgw/xI85CeKy5bJC+1q8gAAAABJRU5ErkJggg=="
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAFoAAAArCAYAAAD41p9mAAAABHNCSVQICAgIfAhkiAAAAmdJREFUaIHt2LFLMmEcwPGv13lHZKBTU4u0HE7ttwYJiaODg4NDoxy0tLi7Fw0F/QdC0CZNCgqeg4gKQhASNLipZCbyvkO88vIur3r5PBc+n8lBj5/fO353GrBt+xfKxmmyB9gWKrQgKrQgKrQgKrQgKrQgKrQgKrQgKrQg+rJvrFQqm5zjx7Jte6n3LR16lYNui1UuPrU6BFGhBVGhBVlpR/9rnRvktu55T6FhtXDb/OTiy9URDAZlj/DtfBc6FotxfX1NKBSSPcq38kVoXdcJh8MAPD8/c39/z3g8BsAwDAzDIBAIyBzRM8872qujoyNyuRy7u7sUi0WazSbpdJpqtcrp6SlnZ2fA18m4u7vDdV1CodDiRPz92s+khz4+Pub9/Z2bmxsikQjwtaNN0ySZTHJ7e8tgMCCfz6NpGolEgng8zmQyod/vc3h4yMXFheRv8X/SQ1cqFaLRKI7jUK/XeXl5AeDg4ADDMGi320ynU4bDIQBvb29cXl6i6zqWZVEsFiVOvzzpoU9OTqhWqzw+PuI4DqVSCYDX11fG4zHZbJbRaLTY4a7rLj77kx4XpYfu9XpkMhl2dnYol8t8fHwAYJomDw8PWJbFfD5nNpsxmUwkT7s+6aFrtRqNRgNN05hOpwCcn59jWRapVIqnpyf29/f5/Pyk0+lInnZ9vni8m81mi8h/dLtdrq6u2NvbYzQaUSgUmM/nkib0zvMVvck92Wq1aLVaGzu+SJ5Cb+sfROvwxerYBiq0ICq0ICvt6J/0A8Fvlg6tbnzeqNUhiAotiAotiAotiAotiAotiAotiAotiAotyG8ZUbYxREvrMAAAAABJRU5ErkJggg=="
 		}
 ,
 		"autosave" : 0

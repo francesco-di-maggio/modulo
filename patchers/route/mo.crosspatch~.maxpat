@@ -391,7 +391,7 @@
 
 							}
  ],
-						"originid" : "pat-7195"
+						"originid" : "pat-20317"
 					}
 ,
 					"patching_rect" : [ 310.0, 104.0, 32.0, 23.0 ],
@@ -524,13 +524,7 @@
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 1,
-								"numouts" : 1,
-								"connections" : [ 									{
-										"in" : 0,
-										"out" : 0,
-										"gain" : 1.0
-									}
- ]
+								"numouts" : 1
 							}
 
 						}
@@ -1124,7 +1118,7 @@
 
 											}
  ],
-										"originid" : "pat-7205"
+										"originid" : "pat-20327"
 									}
 ,
 									"patching_rect" : [ 456.0, 142.0, 43.0, 23.0 ],
@@ -1602,7 +1596,7 @@
 
 															}
  ],
-														"originid" : "pat-7209",
+														"originid" : "pat-20331",
 														"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 														"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 														"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1817,7 +1811,7 @@
 
 											}
  ],
-										"originid" : "pat-7207",
+										"originid" : "pat-20329",
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
@@ -2240,7 +2234,7 @@
 
 											}
  ],
-										"originid" : "pat-7211"
+										"originid" : "pat-20333"
 									}
 ,
 									"patching_rect" : [ 164.0, 456.0, 36.0, 23.0 ],
@@ -2519,7 +2513,7 @@
 
 							}
  ],
-						"originid" : "pat-7203",
+						"originid" : "pat-20325",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -3033,7 +3027,7 @@
 
 			}
  ],
-		"originid" : "pat-7193",
+		"originid" : "pat-20315",
 		"parameters" : 		{
 			"obj-1" : [ "live.text[300]", "live.text", 0 ],
 			"obj-18" : [ "live.text[943]", "live.text", 0 ],

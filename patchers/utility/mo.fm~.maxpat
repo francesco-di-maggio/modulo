@@ -736,7 +736,7 @@
 
 							}
  ],
-						"originid" : "pat-10233",
+						"originid" : "pat-22439",
 						"styles" : [ 							{
 								"name" : "17-1-18",
 								"newobj" : 								{
@@ -4199,7 +4199,7 @@
 
 							}
  ],
-						"originid" : "pat-10235",
+						"originid" : "pat-22441",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -5310,7 +5310,7 @@
 
 							}
  ],
-						"originid" : "pat-10237",
+						"originid" : "pat-22443",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -6160,7 +6160,7 @@
 
 			}
  ],
-		"originid" : "pat-10225",
+		"originid" : "pat-22431",
 		"parameters" : 		{
 			"obj-111" : [ "live.dial[38]", "detune", 0 ],
 			"obj-112" : [ "live.dial[42]", "decay", 0 ],

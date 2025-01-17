@@ -4,15 +4,16 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 62.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
+		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"toolbars_unpinned_last_save" : 3,
@@ -259,13 +260,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 362.0, 461.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -588,7 +590,7 @@
 
 							}
  ],
-						"originid" : "pat-5838",
+						"originid" : "pat-20991",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1036,7 +1038,7 @@
 				"box" : 				{
 					"comment" : "(int) voices, (message) target, input-min, input-max, output-min, output-max, curve, polarity, mode, mute",
 					"id" : "obj-53",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1069,13 +1071,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 87.0, 1372.0, 573.0 ],
+						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
@@ -2256,7 +2259,7 @@
 
 							}
  ],
-						"originid" : "pat-5846"
+						"originid" : "pat-20999"
 					}
 ,
 					"patching_rect" : [ 257.0, 277.0, 462.515999883413997, 23.0 ],
@@ -2353,7 +2356,7 @@
 				"box" : 				{
 					"comment" : "(list) scaled",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2393,6 +2396,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-50",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2418,6 +2422,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-49",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2443,6 +2448,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-48",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2468,6 +2474,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-47",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2493,6 +2500,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-46",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2518,6 +2526,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-45",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2543,6 +2552,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-44",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2568,6 +2578,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-43",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2593,6 +2604,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2618,6 +2630,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-41",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2643,6 +2656,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-40",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2668,6 +2682,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-36",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2693,6 +2708,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2718,6 +2734,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-107",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2743,6 +2760,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-74",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2820,7 +2838,7 @@
 				"box" : 				{
 					"comment" : "(list) to scale",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3748,7 +3766,355 @@
 
 			}
  ],
-		"originid" : "pat-5836"
+		"originid" : "pat-20989",
+		"parameters" : 		{
+			"obj-107::obj-26" : [ "live.text[5]", "live.text", 0 ],
+			"obj-107::obj-33" : [ "live.text[6]", "live.text", 0 ],
+			"obj-107::obj-35" : [ "live.text[4]", "live.text", 0 ],
+			"obj-107::obj-72" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-123::obj-26" : [ "live.text[103]", "live.text", 0 ],
+			"obj-123::obj-33" : [ "live.text[104]", "live.text", 0 ],
+			"obj-123::obj-35" : [ "live.text[55]", "live.text", 0 ],
+			"obj-123::obj-72" : [ "live.numbox[27]", "live.numbox", 0 ],
+			"obj-15" : [ "live.numbox[90]", "live.text", 0 ],
+			"obj-16" : [ "live.text[98]", "live.text", 0 ],
+			"obj-1::obj-26" : [ "live.text[7]", "live.text", 0 ],
+			"obj-1::obj-33" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-35" : [ "live.text[8]", "live.text", 0 ],
+			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-36::obj-26" : [ "live.text[12]", "live.text", 0 ],
+			"obj-36::obj-33" : [ "live.text[10]", "live.text", 0 ],
+			"obj-36::obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-36::obj-72" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-40::obj-26" : [ "live.text[15]", "live.text", 0 ],
+			"obj-40::obj-33" : [ "live.text[13]", "live.text", 0 ],
+			"obj-40::obj-35" : [ "live.text[14]", "live.text", 0 ],
+			"obj-40::obj-72" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-41::obj-26" : [ "live.text[17]", "live.text", 0 ],
+			"obj-41::obj-33" : [ "live.text[16]", "live.text", 0 ],
+			"obj-41::obj-35" : [ "live.text[18]", "live.text", 0 ],
+			"obj-41::obj-72" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-42::obj-26" : [ "live.text[20]", "live.text", 0 ],
+			"obj-42::obj-33" : [ "live.text[19]", "live.text", 0 ],
+			"obj-42::obj-35" : [ "live.text[21]", "live.text", 0 ],
+			"obj-42::obj-72" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-43::obj-26" : [ "live.text[23]", "live.text", 0 ],
+			"obj-43::obj-33" : [ "live.text[22]", "live.text", 0 ],
+			"obj-43::obj-35" : [ "live.text[24]", "live.text", 0 ],
+			"obj-43::obj-72" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-44::obj-26" : [ "live.text[26]", "live.text", 0 ],
+			"obj-44::obj-33" : [ "live.text[25]", "live.text", 0 ],
+			"obj-44::obj-35" : [ "live.text[27]", "live.text", 0 ],
+			"obj-44::obj-72" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-45::obj-26" : [ "live.text[29]", "live.text", 0 ],
+			"obj-45::obj-33" : [ "live.text[28]", "live.text", 0 ],
+			"obj-45::obj-35" : [ "live.text[30]", "live.text", 0 ],
+			"obj-45::obj-72" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-46::obj-26" : [ "live.text[31]", "live.text", 0 ],
+			"obj-46::obj-33" : [ "live.text[33]", "live.text", 0 ],
+			"obj-46::obj-35" : [ "live.text[32]", "live.text", 0 ],
+			"obj-46::obj-72" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-47::obj-26" : [ "live.text[36]", "live.text", 0 ],
+			"obj-47::obj-33" : [ "live.text[35]", "live.text", 0 ],
+			"obj-47::obj-35" : [ "live.text[34]", "live.text", 0 ],
+			"obj-47::obj-72" : [ "live.numbox[28]", "live.numbox", 0 ],
+			"obj-48::obj-26" : [ "live.text[38]", "live.text", 0 ],
+			"obj-48::obj-33" : [ "live.text[37]", "live.text", 0 ],
+			"obj-48::obj-35" : [ "live.text[39]", "live.text", 0 ],
+			"obj-48::obj-72" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-49::obj-26" : [ "live.text[41]", "live.text", 0 ],
+			"obj-49::obj-33" : [ "live.text[42]", "live.text", 0 ],
+			"obj-49::obj-35" : [ "live.text[40]", "live.text", 0 ],
+			"obj-49::obj-72" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-50::obj-26" : [ "live.text[43]", "live.text", 0 ],
+			"obj-50::obj-33" : [ "live.text[45]", "live.text", 0 ],
+			"obj-50::obj-35" : [ "live.text[44]", "live.text", 0 ],
+			"obj-50::obj-72" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-59" : [ "live.numbox[50]", "live.numbox", 0 ],
+			"obj-72" : [ "live.numbox[91]", "live.numbox", 0 ],
+			"obj-74::obj-26" : [ "live.text[1]", "live.text", 0 ],
+			"obj-74::obj-33" : [ "live.text[2]", "live.text", 0 ],
+			"obj-74::obj-35" : [ "live.text[3]", "live.text", 0 ],
+			"obj-74::obj-72" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-8" : [ "live.text[497]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-107::obj-26" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-107::obj-33" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-107::obj-35" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-107::obj-72" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-1::obj-26" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-1::obj-33" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-1::obj-72" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-36::obj-26" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-36::obj-33" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-36::obj-35" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-36::obj-72" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-40::obj-26" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-40::obj-33" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-40::obj-35" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-40::obj-72" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-41::obj-26" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-41::obj-33" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-41::obj-35" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-41::obj-72" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-42::obj-26" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-42::obj-33" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-42::obj-35" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-42::obj-72" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-43::obj-26" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-43::obj-33" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-43::obj-35" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-43::obj-72" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-44::obj-26" : 				{
+					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-44::obj-33" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
+				"obj-44::obj-35" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-44::obj-72" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
+				"obj-45::obj-26" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-45::obj-33" : 				{
+					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-45::obj-35" : 				{
+					"parameter_longname" : "live.text[30]"
+				}
+,
+				"obj-45::obj-72" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-46::obj-26" : 				{
+					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-46::obj-33" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-46::obj-35" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-46::obj-72" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-47::obj-26" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-47::obj-33" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-47::obj-35" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-47::obj-72" : 				{
+					"parameter_longname" : "live.numbox[28]"
+				}
+,
+				"obj-48::obj-26" : 				{
+					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-48::obj-33" : 				{
+					"parameter_longname" : "live.text[37]"
+				}
+,
+				"obj-48::obj-35" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
+				"obj-48::obj-72" : 				{
+					"parameter_longname" : "live.numbox[29]"
+				}
+,
+				"obj-49::obj-26" : 				{
+					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-49::obj-33" : 				{
+					"parameter_longname" : "live.text[42]"
+				}
+,
+				"obj-49::obj-35" : 				{
+					"parameter_longname" : "live.text[40]"
+				}
+,
+				"obj-49::obj-72" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-50::obj-26" : 				{
+					"parameter_longname" : "live.text[43]"
+				}
+,
+				"obj-50::obj-33" : 				{
+					"parameter_longname" : "live.text[45]"
+				}
+,
+				"obj-50::obj-35" : 				{
+					"parameter_longname" : "live.text[44]"
+				}
+,
+				"obj-50::obj-72" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
+				"obj-74::obj-26" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-74::obj-33" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-74::obj-35" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-74::obj-72" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.scale.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

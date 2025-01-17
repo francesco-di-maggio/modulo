@@ -326,7 +326,7 @@
 
 							}
  ],
-						"originid" : "pat-27440"
+						"originid" : "pat-18701"
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
@@ -586,7 +586,7 @@
 
 							}
  ],
-						"originid" : "pat-27442"
+						"originid" : "pat-18703"
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
@@ -639,7 +639,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -669,7 +669,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -792,7 +792,16 @@
 
 			}
  ],
-		"originid" : "pat-27438"
+		"originid" : "pat-18699",
+		"dependency_cache" : [ 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

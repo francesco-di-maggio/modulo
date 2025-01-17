@@ -673,7 +673,7 @@
 					"fontsize" : 9.5,
 					"hint" : "midi output port",
 					"id" : "obj-49",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1041,7 +1041,7 @@
 
 			}
  ],
-		"originid" : "pat-7375",
+		"originid" : "pat-20497",
 		"parameters" : 		{
 			"obj-1" : [ "live.text[47]", "live.text", 0 ],
 			"obj-45" : [ "live.text[46]", "live.text", 0 ],

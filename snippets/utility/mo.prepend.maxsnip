@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 159.0, 206.0, 640.0, 480.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 34.0, 96.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
 		"description" : "214 x 87, containing 1 object",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -62,6 +37,7 @@
 			}
  ],
 		"lines" : [  ],
+		"originid" : "pat-27541",
 		"parameters" : 		{
 			"obj-1::obj-107::obj-2" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-123::obj-2" : [ "live.text[145]", "live.text", 0 ],
@@ -169,47 +145,41 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
+		"tags" : "",
 		"snippetinfo" : 		{
 			"name" : "mo.prepend",
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "214 x 87, containing 1 object",
-			"image" : "iVBORw0KGgoAAAANSUhEUgAAANYAAABUCAYAAAD+m8n9AAAABHNCSVQICAgIfAhkiAAABO1JREFUeJzt3E9IFG8cx/HP/kmE1Yt1cvyDuCJISEEahHQRiTA8LXgVhT1IRIcQDA9CEHTxIBoLQggiHawQD3VaIrBEUBCECPwDmkaQGChCbG37O4TCr2bS1f22Ob1fN92ZZ5+BefPM7g4TkJQRgJwKS9Lm5ma+5wH4huM4CuZ7EoAfERZggLAAA2G3fzqOk/VAfE7DaXOc89yN27nvGpbXxl5yNUHgTzvpguB17nMpCBjwdVjPnj3TwMBAvqeBU+jTp0/q7OxUIpE41v6+DmtnZ0dbW1v5ngZOmbW1NbW2tur9+/fa3t4+1hhmYU1NTSkWi6m5uVlXrlzRzMyMNjY2dP36dcViMcXjce3s7Ki/v1/19fXq6OjQ1taW636SND09rba2Nl28eFFPnz6VJN24cUPd3d2qra09WJlWV1fV2dmpxsZGTU1NWR0efKyiokITExNqbW099hhmYe3t7WlpaUmPHj3S3bt31dPTo3Q6rcXFRfX39ysej+vly5daWVnR8+fPdebMGU1MTLjuJ0m9vb26c+eOEomE+vr69O3bN338+FENDQ1KJpN6+PChPn/+rOHhYdXW1urFixdKp9NWhwcfCwQCqqysPNEYnt8K5sLly5dVWVmpiooK3b59W7u7u3IcR+fPn5ckjY+Pa2NjQ729vZJ+HJDbfu/evdP6+rpGRkYkSZcuXTpYoltaWlRWVqZoNKq1tTW9fv1aY2NjOnv2rFpaWvThwwfLQwRcmX7GWlhY0O7urubm5lRaWqri4mKFQqGD1+vq6lRdXa3R0VHF43EVFRW57ldTU6NIJKKenh6Njo6qqqpKweCPqe+Pt/93XV2dpqen9fXrV71588by8ABPpitWOBzWtWvXlMlk1NfX98vr7e3tSiaTunDhgoqKipRIJPT27dtf9guFQnrw4IFisZgikYiam5t17ty5/421v9rdunVL3d3dGhwcVElJiaqqqiwPET60sLBw8B1AJpPR5OSkksmkiouLjzxGQFLm5x/JHMfJ+gfin7d//Pix5ufndf/+fQWDQYXD3g1vb2+rpKTk0P2+fPmidDqtSCTy2/mkUimlUqmDFRBwk+15ftQxHMexW7Gi0ahCoZAKCgoO3XY/qsP2KywsPNJ7FxQUHOl9ASueK1a2uFcQp43VvYKeKxaR4F9geZ77+s4LIF8ICzBAWICBgHhKE5BzPKUJyDGe0gQYISzAAGEBBggLMEBYgAHCAgwQFmCAsAADhAUYICzAAGEBBggLMEBYgAHCAgwQFmCAsAADhAUYICzAAGEBBggLMEBYgAHCAgwQFmCAsAADhAUYICzAAGEBBggLMEBYgAHCAgwQFmCAsAADhAUYICzAAGEBBggLMEBYgIGApEy+JwH4TViSNjc38z0PwDccx+FSELBAWIABwgIMhN3+6TjOiQaNRqN69epVTscE/lZu31G4huW18VEsLy+rq6srp2MCfyuvBYNLQcBA1mE9efJEV69eVSqVspgP4Auel4Ju7t27p9nZWa2srCiT4XdlwEtWK1ZHR4cmJycVDHIFCfxOVitWeXm51TwAX2HpAQwQFmAgq7Bu3rypxsZGff/+XU1NTRoYGLCaF3CqZfUZa2hoyGoegK9wKQgY8FyxTnJvXzQazfmYwGniGpbFPX3cJ4h/CZeCgAHCAgwQFmCApzQBBv4DqvJ+zlv3HUoAAAAASUVORK5CYII="
+			"image" : "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"
 		}
 ,
 		"autosave" : 0

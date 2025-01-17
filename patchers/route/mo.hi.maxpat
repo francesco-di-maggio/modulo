@@ -21,6 +21,18 @@
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 367.0, 206.0, 88.0, 23.0 ],
+					"text" : "loadmess clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -63,7 +75,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 599.035088539123535, 223.0, 141.0, 23.0 ],
-					"restore" : [ "TouchBarUserDevice" ],
+					"restore" : [ "Keyboard Backlight" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -335,7 +347,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Apple Internal Keyboard / Trackpad 6", ",", "BTM", ",", "Headset", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x5", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Apple Internal Keyboard / Trackpad 6", ",", "BTM", ",", "Headset", ",", "Page: 0xff00, Usage: 0x4", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x3", ",", "Page: 0xff00, Usage: 0xff", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x9" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -503,6 +515,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 376.5, 258.0, 158.5, 258.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-209", 0 ],
 					"midpoints" : [ 37.447368621826172, 330.0, 199.959516625821379, 330.0 ],
 					"source" : [ "obj-15", 0 ]
@@ -654,7 +674,7 @@
 
 			}
  ],
-		"originid" : "pat-7817",
+		"originid" : "pat-20431",
 		"parameters" : 		{
 			"obj-2" : [ "live.text[24]", "live.text", 0 ],
 			"obj-6" : [ "live.text[750]", "live.text", 0 ],

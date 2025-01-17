@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 184.0, 231.0, 640.0, 480.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 34.0, 96.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
 		"description" : "70 x 57, containing 1 object",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -62,6 +37,7 @@
 			}
  ],
 		"lines" : [  ],
+		"originid" : "pat-26235",
 		"parameters" : 		{
 			"obj-1::obj-74" : [ "live.text[432]", "live.text", 0 ],
 			"obj-1::obj-9" : [ "live.text[433]", "live.text", 0 ],
@@ -79,25 +55,33 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.latch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
+		"tags" : "",
 		"snippetinfo" : 		{
 			"name" : "mo.latch",
 			"objects" : "jpatcher",
 			"tags" : "",
 			"description" : "70 x 57, containing 1 object",
-			"image" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAAA+CAYAAACWX20oAAAABHNCSVQICAgIfAhkiAAABMRJREFUeJztml9IU18cwD/TMcOJfxjhQ8n0aaiEJRTLBx1UDjMRJX2RZC8SgtGLPeVLBSpEYTCUIFqbDz6JxvbQAsW/ifZiwR4UFcREZlg4tkI3uT1Iwz+7/jS6u8vf+TyN7z333u8+3HPuOfd8NYCE4BBagOXlZbXzSCiMRiNJaieRqAgxMggxMmhjBY1G44kvdNrGqZhi4GR/9E9EJjqiK8mgmJihoSGePHkS85gkSXg8niPPb29v5/3790qkdiwUExMMBvn69WvMYzs7O9y/f//I89fX1wmFQkqkdizi0pXa2tq4dOkSN27cYGFhAZvNRiQSwWq1MjAwwOrqKvfu3aOwsJAHDx4gSbuT8b6+PoqKimhububnz5/xSDWK4mK+fPmCRqNhZmaGmzdv0tvby5s3b9BqtXi9Xmpqanj58iXnzp3j48ePbG9vs7S0BEB2djZjY2OsrKwwMTGhdKr7kH0r/S3Onz8PQEVFBaFQiKKiokNthoeHcTgcpKam8uLFi2i8rKyMjIwMzGZzVFa8UPyJ8fl8jI6O8u7dO2w2GwAajQbYHYckScJkMjE2NgbsdruRkREAkpOT97WPJ4qLyc3NRafTUV5eHn0TJScnU1lZSWlpKY8ePaK1tZXXr19TXFzM4uIiJSUl+66hhhgNIB2czBmNxhNP8I5qL0kSm5ubZGZm7ot///6drKwsYPdNFQwGycjIOH72ChG31bVGozkkBYhKgd2nKBGk/EZ28D2N0/yTEFPMaVsQ/glirSSDECODECODBrFLEBOxSxADsUtwBEKMDEKMDEKMDEKMDEKMDAktZnBwkK6uLlXundBiAoEAGxsbqtxbUTFut5s7d+5gsVhoa2ujs7OTixcvYrfbAZienqa+vp4LFy7gcDgAWFpaoqmpiatXr+J2u6PXcrlclJWVYbVa+fz5s5JpAwqL+fHjBxsbG/T39zM9PU0gEGBgYIDu7m62trZ4+PAhd+/exe12Y7fbmZ+fp6enB5PJhMfjYWdnBwC/3093dzcOh4Pa2lqeP3+uZNpAHHYJCgsLMRgM5Ofnc/nyZfLy8tDr9czNzfHt2zeuXbsGgNls5tOnT3z48AGn04nBYOD69eusra0xPj5OJBLh8ePHSJKEwWBQOm3lx5i9H7L3/j579izhcBifz0cgEGB2dhaz2UxBQQGTk5OEw2GmpqYAyM/PR6vVYrfbefr0Kenp6UqnHb/B96CgpKQkOjo6qKuro7y8nNu3b5OTk0NLSwuvXr2ipKQEv98PQEFBAVVVVVy5coVbt25hMpmUz5cYuwTxZGtrC0mSOHPmTDS2vb1NOBxGr9fvaxsIBEhNTUWrVXYEMBqNyo8x/0VKSsqhmE6nQ6fTHYrHowv9JqHnMWoixMggxMggxMggxMjw18pZ/1UsFgtOp/NQ/K+Us/6rjIyMRBevBxFdSQYhRgbVxfj9/ujnhURCdTFer5fS0lKePXvG6uqq2ulEUV1MY2Mjb9++JS0tDZvNRmNjI5ubm2qnpb6YvfwufE4EVBfjcrmorq4mGAzidDpxuVwJUYun+mcHq9VKQ0NDtKY3UVBdTHZ2ttopxET1rpSo/O/LWS0WS8y4KGeVQXQlGYQYGYQYGUQ5qwy/AJbFjekuS5lpAAAAAElFTkSuQmCC"
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAFoAAABSCAYAAADU+8NvAAAABHNCSVQICAgIfAhkiAAABX5JREFUeJztm11IU28YwH/bcWvVZorpRTQLJJTZCBIsYdjnhZQgdRMSFYFXQcE0hOhG6sLQKESs6y6Cvi4jKroKswtNKFldNGkuP0oTV2o5P866EPd3mf92XL7nnPb+bsbevTt73t/ePWdnzx6Lz+eLIVl1rHoHkC5I0YKQogUhRQtCihaEFC0IKVoQUrQgpGhBZCQ7sb29fTXjMC0+ny+peUmL1nLQdEHL5pOpQxBStCCkaEFoytG/spITZLrm+ZREgzZx6fzNRaYOQegueu/evfj9/t8+ZrfbqaysJCNj+Q/emTNnOHjw4GqF99fQXbTVmhhCVlYWDocDgHXr1nHkyJH4/cVzFrDZbABs2LABi8WyytGunJRz9N/CZrNRX1/P1q1biUaj3Lx5k9OnTwNw5coVHj58yPv37zl58iSbN28mHA7T2NgIwKFDh6iurmZoaIirV68SiUT0XMpv0X1HL7Bp0yY+ffqE3++ns7OTPXv2cOnSJQDOnz/P48ePOXz4MMFgkHPnzjE6OsqWLVsA6Ovrw+/3Y7Va2blzp57LWBbD7Oj+/n5yc3NpampCURSCweCSOUVFRbS2tjI5OUlbWxux2HwB/927d3z79o1gMEh2drbo0JPCMDva4/GQn59PbW0tHR0dAMzOzgKQm5uLy+UiHA5TWlpKZmYmFy9eZP/+/QCoqppwa0R0F72wK0OhEOPj47S2tuLxeAD4/v07PT09NDQ0cOrUKe7du8eOHTu4fv06sVgs/oYsFj03N6fPQv6AJdk/0LS3ty+5OPndmNZjJARjseB0OhkfH08Yd7lc8TFFUVi7di0TExNJv+5qoWX9uu/oxcRisSWSgYSxubk5Q0jWSsonw3S+rNZCSqLT9QeilWCo1PEvI0ULQooWhKYcLU98K0dWwVNAVsENiBQtCClaEFK0IKRoQUjRgvgnRBcUFHDt2jW9w/hfDCPaYrEkVLtdLteSOYur3ws4nc4llXSbzUZmZubfDzIFDFEzLC8v5+jRozgcDkKhENFolO3bt/Pq1Stu3LhBQUEBJ06cwO1209fXR0tLC4qiUFNTQ2FhIV+/fo0fa9++fVRVVeF0Onny5An379/XcWX/YZgdPTU1xYULF8jJyWFycpLLly9TUlJCVlYWlZWV9Pb2UldXh6qqHDhwgLKyMjIyMqirqyMQCADz1Zfq6mqePn3K3bt3qaiowOl06ryyeQwj+uPHj4yNjTEwMEBvby+hUIjZ2VnWr19PUVERnZ2dRCIRenp6yM/PZ9u2bQQCASKRCN3d3QC43W4URaGwsBCPx8ObN2+kaC2Ew2F27drFxo0b8Xq9vH37lg8fPuD1esnJyaG0tBSAwcFBZmZm6Orq4tatWzgcjiX5Wy8MkaMX/01AVdX4/YWK9p07dzh79izl5eV0d3fz8uVLbDYbxcXFNDU18fnzZ1RVZXp6mtu3b3P8+HEURaGrq4uhoSFd1vQrKVXBRWK1WlmzZg0/fvyIjy1XNbfb7VitVqamplY1Ji1ODLGjk0FV1QTJsHzVfHp6WlRYSWOMBJYGSNGCkKIFIUULQooWhPD2N7OSnZ1NcXHxip8vtP3NrIyNjTE4OJjSMWTqEIQULQjTiHa73Yb7MV8LprkE93q9VFVV8fr1a54/f04gEIi3ZZgB04h+9OgRHR0d+Hw+ampqiEajNDc38+XLF71DSwrTpA6Y787Ky8vDbrczMjIS79oyA6bZ0ceOHWP37t28ePGChoYGhoeH9Q5JE6YR/ezZMx48eGDY9rY/YRrRo6OjeoeQEqbK0WZGtr8lSao95rL9TRAydQhCihaEFC0I2f4miKRFyxNfasjUIQgpWhBStCCkaEFI0YKQogUhRQtCihaEFC2InwDEyS9jubY4AAAAAElFTkSuQmCC"
 		}
 ,
 		"autosave" : 0
