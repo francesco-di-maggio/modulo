@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 1123.0, 762.0 ],
+		"rect" : [ 134.0, 173.0, 1123.0, 762.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -747,7 +747,7 @@
 
 			}
  ],
-		"originid" : "pat-14209",
+		"originid" : "pat-26766",
 		"parameters" : 		{
 			"obj-1::obj-107::obj-26" : [ "live.text[5]", "live.text", 0 ],
 			"obj-1::obj-107::obj-33" : [ "live.text[3]", "live.text", 0 ],

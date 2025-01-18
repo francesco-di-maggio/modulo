@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 568.0, 639.0 ],
+		"rect" : [ 134.0, 173.0, 568.0, 625.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"subpatcher_template" : " ",
@@ -23,7 +23,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 596.0, 245.0, 22.0 ]
+					"patching_rect" : [ 41.0, 576.0, 245.0, 22.0 ]
 				}
 
 			}
@@ -410,7 +410,7 @@
 
 			}
  ],
-		"originid" : "pat-11457",
+		"originid" : "pat-25316",
 		"parameters" : 		{
 			"obj-13::obj-107::obj-20" : [ "Show Particle Settings[2]", "live.text", 0 ],
 			"obj-13::obj-107::obj-35" : [ "live.text[2]", "live.text", 0 ],

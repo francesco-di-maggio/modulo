@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 337.0, 468.0 ],
+		"rect" : [ 134.0, 173.0, 341.0, 472.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
@@ -277,7 +277,7 @@
 
 			}
  ],
-		"originid" : "pat-11447",
+		"originid" : "pat-24484",
 		"parameters" : 		{
 			"obj-1::obj-6" : [ "live.text[27]", "live.text", 0 ],
 			"parameterbanks" : 			{

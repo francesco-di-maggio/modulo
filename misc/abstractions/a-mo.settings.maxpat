@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 349.0, 343.0 ],
+		"rect" : [ 134.0, 173.0, 349.0, 343.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
@@ -326,7 +326,7 @@
 
 							}
  ],
-						"originid" : "pat-18701"
+						"originid" : "pat-20538"
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
@@ -586,7 +586,7 @@
 
 							}
  ],
-						"originid" : "pat-18703"
+						"originid" : "pat-20540"
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
@@ -639,7 +639,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -669,7 +669,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -707,14 +707,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 209.5, 180.0, 209.5, 180.0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 149.5, 111.0, 209.5, 111.0 ],
-					"source" : [ "obj-4", 4 ]
 				}
 
 			}
@@ -792,16 +784,7 @@
 
 			}
  ],
-		"originid" : "pat-18699",
-		"dependency_cache" : [ 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-20536"
 	}
 
 }

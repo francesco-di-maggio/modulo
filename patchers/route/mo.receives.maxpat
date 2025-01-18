@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 100.0, 139.0, 214.0, 84.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 214.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
@@ -830,7 +830,7 @@
 
 							}
  ],
-						"originid" : "pat-12982",
+						"originid" : "pat-22356",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1786,7 +1786,7 @@
 
 			}
  ],
-		"originid" : "pat-12974",
+		"originid" : "pat-22348",
 		"parameters" : 		{
 			"obj-107::obj-2" : [ "live.text[2]", "live.text", 0 ],
 			"obj-123::obj-2" : [ "live.text[727]", "live.text", 0 ],
