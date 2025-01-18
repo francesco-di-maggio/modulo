@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 214.0 ],
+		"rect" : [ 100.0, 139.0, 70.0, 214.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -803,7 +803,7 @@
 
 							}
  ],
-						"originid" : "pat-19339",
+						"originid" : "pat-11672",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -1830,7 +1830,7 @@
 
 			}
  ],
-		"originid" : "pat-19337",
+		"originid" : "pat-11670",
 		"parameters" : 		{
 			"obj-21" : [ "live.text[883]", "live.text", 0 ],
 			"obj-3" : [ "slider-[50]", "slider-", 0 ],
