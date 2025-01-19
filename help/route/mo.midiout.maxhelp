@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 742.0, 647.0 ],
+		"rect" : [ 134.0, 173.0, 742.0, 599.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
@@ -23,7 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 302.440027274027386, 524.0, 92.5, 23.0 ],
+					"patching_rect" : [ 302.0, 474.0, 92.5, 23.0 ],
 					"text" : "midiparse"
 				}
 
@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 302.440027274027386, 487.5, 141.0, 23.0 ],
+					"patching_rect" : [ 302.0, 438.0, 141.0, 23.0 ],
 					"text" : "midiin \"IAC Driver Bus 1\""
 				}
 
@@ -256,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.250000000000057, 572.5, 176.0, 21.0 ],
+					"patching_rect" : [ 408.0, 523.0, 176.0, 21.0 ],
 					"text" : "control change (number, value)"
 				}
 
@@ -269,7 +269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.500000000000057, 605.0, 120.0, 21.0 ],
+					"patching_rect" : [ 325.0, 555.0, 120.0, 21.0 ],
 					"text" : "note (pitch, velocity)"
 				}
 
@@ -282,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.625000000000114, 571.5, 51.440027274027386, 23.0 ]
+					"patching_rect" : [ 352.0, 522.0, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -294,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.000000000000057, 604.0, 51.440027274027386, 23.0 ]
+					"patching_rect" : [ 270.0, 554.0, 51.440027274027386, 23.0 ]
 				}
 
 			}
@@ -398,7 +398,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 41.0, 487.5, 214.0, 45.0 ],
+					"patching_rect" : [ 41.0, 438.0, 214.0, 45.0 ],
 					"varname" : "mo.midiout",
 					"viewvisibility" : 1
 				}
@@ -408,7 +408,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 311.940027274027386, 513.0, 311.940027274027386, 513.0 ],
+					"midpoints" : [ 311.5, 462.0, 311.5, 462.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -424,7 +424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 7 ],
-					"midpoints" : [ 539.647344387903786, 474.0, 245.5, 474.0 ],
+					"midpoints" : [ 539.647344387903786, 423.0, 245.5, 423.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -440,7 +440,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 7 ],
-					"midpoints" : [ 473.940027274027443, 474.0, 245.5, 474.0 ],
+					"midpoints" : [ 473.940027274027443, 423.0, 245.5, 423.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -448,7 +448,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 7 ],
-					"midpoints" : [ 311.940027274027386, 474.0, 245.5, 474.0 ],
+					"midpoints" : [ 311.940027274027386, 423.0, 245.5, 423.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -480,7 +480,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 311.940027274027386, 549.0, 311.940027274027443, 549.0 ],
+					"midpoints" : [ 311.5, 498.0, 311.940027274027386, 498.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -488,7 +488,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 332.940027274027386, 558.0, 393.5650272740275, 558.0 ],
+					"midpoints" : [ 332.5, 507.0, 393.940027274027386, 507.0 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -496,7 +496,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 65.5, 474.0, 50.5, 474.0 ],
+					"midpoints" : [ 65.5, 423.0, 50.5, 423.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -528,13 +528,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 7 ],
-					"midpoints" : [ 406.940027274027443, 474.0, 245.5, 474.0 ],
+					"midpoints" : [ 406.940027274027443, 423.0, 245.5, 423.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-13419",
+		"originid" : "pat-4282",
 		"parameters" : 		{
 			"obj-4::obj-15" : [ "live.text[1005]", "live.text", 0 ],
 			"obj-4::obj-36" : [ "live.text[615]", "live.text", 0 ],

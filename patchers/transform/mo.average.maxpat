@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 96.0 ],
+		"rect" : [ 100.0, 139.0, 70.0, 96.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -143,7 +143,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[391]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -245,7 +245,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 37.872310342721619, 201.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.911003291606903, 76.885607749223709, 62.379433043301105, 15.0 ],
+					"presentation_rect" : [ 4.0, 78.0, 62.379433043301105, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -269,7 +269,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[417]",
+							"parameter_longname" : "live.text[71]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -364,7 +364,7 @@
 				"box" : 				{
 					"comment" : "(message) sensitivity, mode",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -437,7 +437,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[116]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -547,7 +547,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[115]",
+							"parameter_longname" : "live.numbox[73]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -594,7 +594,7 @@
 				"box" : 				{
 					"comment" : "(list) averaged",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -606,7 +606,7 @@
 				"box" : 				{
 					"comment" : "(list) to average",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -848,40 +848,7 @@
 
 			}
  ],
-		"originid" : "pat-20823",
-		"parameters" : 		{
-			"obj-18" : [ "live.numbox[116]", "live.numbox", 0 ],
-			"obj-20" : [ "live.text[391]", "live.text", 0 ],
-			"obj-74" : [ "live.text[417]", "live.text", 0 ],
-			"obj-8" : [ "live.numbox[115]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-5844"
 	}
 
 }

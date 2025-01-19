@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 462.0, 499.0 ],
+		"rect" : [ 134.0, 173.0, 462.0, 499.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
@@ -294,6 +294,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"midpoints" : [ 50.5, 402.0, 50.5, 402.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -315,7 +316,7 @@
 
 			}
  ],
-		"originid" : "pat-12817",
+		"originid" : "pat-4640",
 		"parameters" : 		{
 			"obj-19::obj-1" : [ "live.text[3]", "live.text", 0 ],
 			"obj-19::obj-18" : [ "live.text[943]", "live.text", 0 ],
