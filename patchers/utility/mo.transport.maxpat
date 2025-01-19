@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 214.0, 45.0 ],
+		"rect" : [ 100.0, 139.0, 1374.0, 909.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -27,7 +27,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 811.0, 384.0, 45.0, 23.0 ],
-					"text" : "0 0 0 0"
+					"text" : "1 1 0 0"
 				}
 
 			}
@@ -645,7 +645,7 @@
 
 							}
  ],
-						"originid" : "pat-22723"
+						"originid" : "pat-318"
 					}
 ,
 					"patching_rect" : [ 298.0, 482.0, 402.0, 23.0 ],
@@ -661,7 +661,7 @@
 				"box" : 				{
 					"comment" : "(float) raw ticks",
 					"id" : "obj-46",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -715,7 +715,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[167]",
+							"parameter_longname" : "live.numbox[5]",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -776,7 +776,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[211]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -837,7 +837,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[166]",
+							"parameter_longname" : "live.numbox[6]",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -856,7 +856,7 @@
 				"box" : 				{
 					"comment" : "(list) clocksource list",
 					"id" : "obj-36",
-					"index" : 0,
+					"index" : 10,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -868,7 +868,7 @@
 				"box" : 				{
 					"comment" : "(int) transport state",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -880,7 +880,7 @@
 				"box" : 				{
 					"comment" : "(list) time signature",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -892,7 +892,7 @@
 				"box" : 				{
 					"comment" : "(int) tempo",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -904,7 +904,7 @@
 				"box" : 				{
 					"comment" : "(int) current resolution (PPQ)",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -916,7 +916,7 @@
 				"box" : 				{
 					"comment" : "(int) units",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -928,7 +928,7 @@
 				"box" : 				{
 					"comment" : "(int) beats",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -940,7 +940,7 @@
 				"box" : 				{
 					"comment" : "(int) bars",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1044,7 +1044,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 120 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 400.0,
 							"parameter_mmin" : 20.0,
 							"parameter_modmode" : 0,
@@ -1263,7 +1263,7 @@
 				"box" : 				{
 					"comment" : "(message) onoff, reset",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1355,7 +1355,7 @@
 				"box" : 				{
 					"comment" : "(list) global transport",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1457,7 +1457,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[784]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -2112,57 +2112,7 @@
 
 			}
  ],
-		"originid" : "pat-22721",
-		"parameters" : 		{
-			"obj-153" : [ "live.text[784]", "live.text", 0 ],
-			"obj-2" : [ "live.text[783]", "live.text", 0 ],
-			"obj-3" : [ "live.text[382]", "live.text", 0 ],
-			"obj-38" : [ "live.numbox[166]", "live.numbox", 0 ],
-			"obj-39" : [ "live.numbox[211]", "live.numbox", 0 ],
-			"obj-42" : [ "live.numbox[167]", "live.numbox", 0 ],
-			"obj-51" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.play.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.stop.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-316"
 	}
 
 }
