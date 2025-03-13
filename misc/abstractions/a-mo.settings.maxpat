@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -52,7 +52,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -326,13 +326,12 @@
 
 							}
  ],
-						"originid" : "pat-20538"
+						"originid" : "pat-12191"
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p settings"
@@ -363,7 +362,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -586,13 +585,12 @@
 
 							}
  ],
-						"originid" : "pat-20540"
+						"originid" : "pat-12193"
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p exposer"
@@ -643,7 +641,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 29.0, 20.0, 30.0, 30.0 ]
 				}
 
@@ -657,7 +655,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 180.0, 70.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize",
+						"filename" : "mo.resize.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -784,7 +782,7 @@
 
 			}
  ],
-		"originid" : "pat-20536"
+		"originid" : "pat-12189"
 	}
 
 }

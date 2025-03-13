@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 139.0, 914.0, 562.0 ],
+		"rect" : [ 100.0, 139.0, 214.0, 84.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -147,7 +147,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -391,7 +391,7 @@
 
 							}
  ],
-						"originid" : "pat-4136"
+						"originid" : "pat-2482"
 					}
 ,
 					"patching_rect" : [ 310.0, 104.0, 32.0, 23.0 ],
@@ -441,7 +441,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[555]",
+							"parameter_longname" : "live.text[126]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -523,8 +523,8 @@
 					"patching_rect" : [ 854.0, 463.0, 336.0, 23.0 ],
 					"restore" : [ 						{
 							"data" : 							{
-								"numins" : 4,
-								"numouts" : 4
+								"numins" : 1,
+								"numouts" : 1
 							}
 
 						}
@@ -576,7 +576,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[299]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -730,7 +730,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[300]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -797,7 +797,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -829,7 +829,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1115,7 +1115,7 @@
 
 											}
  ],
-										"originid" : "pat-4146"
+										"originid" : "pat-2492"
 									}
 ,
 									"patching_rect" : [ 456.0, 142.0, 43.0, 23.0 ],
@@ -1285,7 +1285,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1305,7 +1305,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1419,6 +1419,7 @@
 																"box" : 																{
 																	"bgcolor" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgcolor2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
+																	"bgfillcolor_autogradient" : 0.0,
 																	"bgfillcolor_color" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgfillcolor_color1" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgfillcolor_color2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
@@ -1438,6 +1439,7 @@
 																"box" : 																{
 																	"bgcolor" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgcolor2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
+																	"bgfillcolor_autogradient" : 0.0,
 																	"bgfillcolor_color" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgfillcolor_color1" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
 																	"bgfillcolor_color2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1 ],
@@ -1605,7 +1607,7 @@
 
 															}
  ],
-														"originid" : "pat-4150"
+														"originid" : "pat-2496"
 													}
 ,
 													"patching_rect" : [ 257.0, 242.551943330534755, 51.0, 22.0 ],
@@ -1793,7 +1795,7 @@
 
 											}
  ],
-										"originid" : "pat-4148"
+										"originid" : "pat-2494"
 									}
 ,
 									"patching_rect" : [ 31.0, 456.0, 116.0, 23.0 ],
@@ -1817,7 +1819,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2211,7 +2213,7 @@
 
 											}
  ],
-										"originid" : "pat-4152"
+										"originid" : "pat-2498"
 									}
 ,
 									"patching_rect" : [ 164.0, 456.0, 36.0, 23.0 ],
@@ -2490,7 +2492,7 @@
 
 							}
  ],
-						"originid" : "pat-4144"
+						"originid" : "pat-2490"
 					}
 ,
 					"patching_rect" : [ 402.0, 104.0, 109.0, 23.0 ],
@@ -2543,7 +2545,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[84]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -2598,20 +2600,22 @@
 					"fontsize" : 9.5,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : [ "1", "2", "3", "4" ],
+					"inlabels" : "1",
 					"labelheight" : 12.0,
 					"labelwidth" : 30.0,
 					"linecolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
+					"numins" : 1,
 					"numoutlets" : 2,
+					"numouts" : 1,
 					"outcolormap" : "none",
-					"outlabels" : [ "1", "2", "3", "4" ],
+					"outlabels" : "1",
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 447.0, 281.0, 160.0, 322.950703680515289 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 58.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 13.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -2656,7 +2660,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[85]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -2680,7 +2684,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 223.0, 31.626276284456253, 30.0, 30.0 ]
 				}
 
@@ -2718,7 +2722,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 402.139760281642339, 165.005973920350584, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 58.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 13.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2997,7 +3001,7 @@
 
 			}
  ],
-		"originid" : "pat-4134"
+		"originid" : "pat-2480"
 	}
 
 }

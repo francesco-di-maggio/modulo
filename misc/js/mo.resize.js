@@ -17,7 +17,7 @@ function bang() {
 	var resize = p.getattr("openrect");
 	
 //	post(resize);
-	
+
 	// this.patcher.box.varname = "bp_" + Math.random()*10000; 
 	b.message("script", "sendbox", p.varname, "patching_size", resize[2], resize[3]); 
 	b.message("script", "sendbox", p.varname, "presentation_size", resize[2], resize[3]); 

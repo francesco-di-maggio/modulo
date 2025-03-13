@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 139.0, 872.0, 526.0 ],
+		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -20,6 +20,42 @@
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "(list) routed",
+					"id" : "obj-24",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 388.0, 767.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 916.0, 576.0, 171.0, 23.0 ],
+					"text" : "labelheight 12., labelwidth 52."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1230.0, 165.0, 67.0, 23.0 ],
+					"text" : "route done"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
@@ -34,7 +70,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-18",
@@ -67,10 +103,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[928]",
+							"parameter_longname" : "live.text[745]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -135,7 +170,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -379,13 +414,12 @@
 
 							}
  ],
-						"originid" : "pat-4112"
+						"originid" : "pat-5298"
 					}
 ,
 					"patching_rect" : [ 280.0, 212.0, 32.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p fill"
@@ -395,7 +429,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -429,10 +463,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[555]",
+							"parameter_longname" : "live.text[747]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -512,8 +545,19 @@
 					"patching_rect" : [ 916.0, 472.0, 322.0, 23.0 ],
 					"restore" : [ 						{
 							"data" : 							{
-								"numins" : 4,
-								"numouts" : 4
+								"numins" : 5,
+								"numouts" : 8,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 3,
+										"gain" : 1.0
+									}
+ ]
 							}
 
 						}
@@ -555,7 +599,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -589,10 +633,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "live.text[744]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -617,7 +660,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -786,14 +829,10 @@
 
 							}
  ],
-						"originid" : "pat-4120"
+						"originid" : "pat-5306"
 					}
 ,
 					"patching_rect" : [ 155.0, 130.0, 65.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p compare"
 				}
 
@@ -805,7 +844,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.0, 721.0, 55.0, 23.0 ],
+					"patching_rect" : [ 446.5, 770.5, 55.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -850,7 +889,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-1",
@@ -883,10 +922,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[746]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -962,7 +1000,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -994,7 +1032,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1280,13 +1318,12 @@
 
 											}
  ],
-										"originid" : "pat-4124"
+										"originid" : "pat-5310"
 									}
 ,
 									"patching_rect" : [ 461.0, 142.0, 43.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : ""
+										"fontname" : "Ableton Sans Medium"
 									}
 ,
 									"text" : "p rand"
@@ -1463,7 +1500,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1483,7 +1520,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1770,7 +1807,7 @@
 
 															}
  ],
-														"originid" : "pat-4128",
+														"originid" : "pat-5314",
 														"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 														"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 														"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1780,7 +1817,6 @@
 													"saved_object_attributes" : 													{
 														"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 														"fontname" : "Ableton Sans Medium",
-														"globalpatchername" : "",
 														"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 														"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 													}
@@ -1965,14 +2001,10 @@
 
 											}
  ],
-										"originid" : "pat-4126"
+										"originid" : "pat-5312"
 									}
 ,
 									"patching_rect" : [ 43.0, 457.0, 116.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p presentation_rect"
 								}
 
@@ -1989,7 +2021,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2383,13 +2415,12 @@
 
 											}
  ],
-										"originid" : "pat-4130"
+										"originid" : "pat-5316"
 									}
 ,
 									"patching_rect" : [ 176.0, 457.0, 36.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : ""
+										"fontname" : "Ableton Sans Medium"
 									}
 ,
 									"text" : "p I/O"
@@ -2662,14 +2693,10 @@
 
 							}
  ],
-						"originid" : "pat-4122"
+						"originid" : "pat-5308"
 					}
 ,
 					"patching_rect" : [ 343.0, 212.0, 109.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p \"input / output\""
 				}
 
@@ -2714,11 +2741,10 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[456]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -2769,20 +2795,22 @@
 					"gainstyle" : 1,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : [ "1", "2", "3", "4" ],
+					"inlabels" : [ "1", "2", "3", "4", "5" ],
 					"labelheight" : 12.0,
-					"labelwidth" : 30.0,
-					"linecolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"labelwidth" : 52.0,
+					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
+					"numins" : 5,
 					"numoutlets" : 2,
+					"numouts" : 8,
 					"outcolormap" : "none",
-					"outlabels" : [ "1", "2", "3", "4" ],
+					"outlabels" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 388.0, 385.0, 160.0, 322.950703680515289 ],
+					"patching_rect" : [ 388.0, 385.0, 275.0, 181.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 55.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 118.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -2794,7 +2822,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "crosspatch-"
 				}
 
@@ -2887,11 +2915,10 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
+							"parameter_longname" : "live.numbox[455]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -2961,7 +2988,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.0, 263.0, 30.065882808446759, 53.051943330534755 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 66.0, 204.0, 55.0 ],
+					"presentation_rect" : [ 5.0, 66.0, 204.0, 118.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3021,6 +3048,14 @@
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 956.0, 141.0, 956.5, 141.0 ],
 					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 1047.5, 150.0, 1239.5, 150.0 ],
+					"source" : [ "obj-16", 4 ]
 				}
 
 			}
@@ -3106,8 +3141,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 397.5, 708.0, 397.5, 708.0 ],
+					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
@@ -3520,8 +3554,16 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 1287.5, 249.0, 397.5, 249.0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
  ],
-		"originid" : "pat-4110"
+		"originid" : "pat-5296"
 	}
 
 }
