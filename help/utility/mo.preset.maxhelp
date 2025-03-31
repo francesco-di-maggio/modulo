@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 426.0, 733.0 ],
+		"rect" : [ 34.0, 93.0, 426.0, 701.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridsize" : [ 15.0, 15.0 ],
 		"subpatcher_template" : "%",
@@ -28,13 +28,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 426.0, 707.0 ],
+						"rect" : [ 0.0, 26.0, 426.0, 675.0 ],
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
@@ -49,7 +49,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ],
-									"pattrstorage" : "none"
+									"pattrstorage" : "p-mo.preset"
 								}
 
 							}
@@ -70,7 +70,7 @@
 									}
 ,
 									"text" : "pattrstorage",
-									"varname" : "none"
+									"varname" : "p-mo.preset"
 								}
 
 							}
@@ -217,6 +217,7 @@
 							}
 , 							{
 								"box" : 								{
+									"addpoints" : [ 77.539549679674721, 0.486269277449192, 0, 498.52860154041889, 0.753925048340279, 0, 1000.0008544921875, 0.0, 0 ],
 									"classic_curve" : 1,
 									"domain" : 1000.0008544921875,
 									"id" : "obj-7",
@@ -359,11 +360,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 272.0, 514.785720999999967, 98.0, 23.0 ],
 									"restore" : 									{
-										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, "linear" ],
-										"myknob[1]" : [ 0 ],
-										"myknob[2]" : [ 0 ],
-										"myknob[3]" : [ 0 ],
-										"myslider" : [ -1.0 ]
+										"myfunction" : [ 1000.0008544921875, 0.0, 1.000800013542175, 77.539549679674721, 0.486269277449192, 0, 498.52860154041889, 0.753925048340279, 0, 1000.0008544921875, 0.0, 0, "linear" ],
+										"myknob[1]" : [ 114 ],
+										"myknob[2]" : [ 63 ],
+										"myknob[3]" : [ 21 ],
+										"myslider" : [ -0.366639063583815 ]
 									}
 ,
 									"text" : "autopattr help-2",
@@ -428,13 +429,12 @@
 
 							}
  ],
-						"originid" : "pat-15693"
+						"originid" : "pat-23935"
 					}
 ,
 					"patching_rect" : [ 38.0, 58.0, 87.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p interpolation",
@@ -453,13 +453,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 122.0, 426.0, 707.0 ],
+						"rect" : [ 34.0, 119.0, 426.0, 675.0 ],
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
@@ -474,7 +474,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
 									"patching_rect" : [ 41.0, 450.0, 100.0, 40.0 ],
-									"pattrstorage" : "none"
+									"pattrstorage" : " "
 								}
 
 							}
@@ -494,7 +494,7 @@
 									}
 ,
 									"text" : "pattrstorage @autorestore 1",
-									"varname" : "none"
+									"varname" : " "
 								}
 
 							}
@@ -701,8 +701,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 216.499999999999943, 72.0, 23.0 ],
-									"text" : "prepend set"
+									"patching_rect" : [ 41.0, 216.499999999999943, 85.0, 23.0 ],
+									"text" : "prepend name"
 								}
 
 							}
@@ -809,13 +809,12 @@
 
 							}
  ],
-						"originid" : "pat-15705"
+						"originid" : "pat-23947"
 					}
 ,
 					"patching_rect" : [ 38.0, 25.0, 46.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p basic",
@@ -825,7 +824,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-15691",
+		"originid" : "pat-23933",
 		"parameters" : 		{
 			"obj-13::obj-10::obj-1" : [ "live.text[9]", "live.text", 0 ],
 			"obj-13::obj-10::obj-43" : [ "live.text[845]", "live.text", 0 ],
@@ -979,8 +978,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
-		"editing_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"editing_bgcolor" : 			{
 				"expression" : "themecolor.live_surface_bg"

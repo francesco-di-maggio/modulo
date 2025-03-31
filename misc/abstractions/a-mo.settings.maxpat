@@ -326,7 +326,7 @@
 
 							}
  ],
-						"originid" : "pat-12191"
+						"originid" : "pat-22813"
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
@@ -585,7 +585,7 @@
 
 							}
  ],
-						"originid" : "pat-12193"
+						"originid" : "pat-22815"
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
@@ -655,7 +655,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 180.0, 70.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "mo.resize.js",
+						"filename" : "mo.resize",
 						"parameter_enable" : 0
 					}
 ,
@@ -703,7 +703,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 209.5, 180.0, 209.5, 180.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -782,7 +781,7 @@
 
 			}
  ],
-		"originid" : "pat-12189"
+		"originid" : "pat-22811"
 	}
 
 }

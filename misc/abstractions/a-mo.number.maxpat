@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 93.0, 1212.0, 701.0 ],
 		"openrect" : [ 0.0, 0.0, 214.826816082000732, 15.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -30,7 +30,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -162,7 +162,7 @@
 
 							}
  ],
-						"originid" : "pat-18643",
+						"originid" : "pat-7571",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -172,7 +172,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -209,13 +208,21 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Ableton Sans Medium",
+					"gradient" : 1,
 					"id" : "obj-43",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 687.17266845703125, 570.595656368467644, 62.0, 23.0 ],
+					"patching_rect" : [ 687.17266845703125, 570.595656368467644, 66.0, 23.0 ],
 					"text" : "format $1"
 				}
 
@@ -224,16 +231,17 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 9.5,
+					"format" : 6,
 					"htricolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 					"id" : "obj-39",
-					"maxclass" : "number",
+					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 87.666666666666657, 622.5, 50.0, 19.0 ],
+					"patching_rect" : [ 88.0, 622.5, 49.666666666666657, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.22682016496438, -2.328377675265074, 129.282911465519874, 19.0 ],
+					"presentation_rect" : [ 80.22682016496438, -2.328377675265074, 119.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_text_selection"
@@ -241,7 +249,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "number-"
@@ -277,7 +285,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mode-"
 				}
 
@@ -309,14 +317,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 681.989049971103668, 379.0, 207.0, 23.0 ],
+					"patching_rect" : [ 681.989049971103668, 379.0, 154.0, 23.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr mode @bindto mode- @initial 0",
+					"text" : "pattr mode @bindto mode-",
 					"varname" : "mode"
 				}
 
@@ -342,7 +350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 725.166666666666629, 185.5, 47.0, 23.0 ],
+					"patching_rect" : [ 725.166666666666629, 185.5, 48.0, 23.0 ],
 					"text" : "change"
 				}
 
@@ -480,7 +488,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -541,6 +549,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
+									"int" : 2,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 3,
@@ -857,7 +866,7 @@
 
 							}
  ],
-						"originid" : "pat-18645",
+						"originid" : "pat-7573",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -867,7 +876,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -879,7 +887,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.0 ],
-					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"annotation" : "",
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -922,7 +930,6 @@
 							"parameter_longname" : "Show Particle Settings[15]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -942,14 +949,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 724.666666666666629, 319.0, 230.0, 23.0 ],
+					"patching_rect" : [ 724.666666666666629, 319.0, 339.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr number @bindto number- @initial 0",
+					"text" : "pattr number @bindto number- @initial 0 @default_priority 1",
 					"varname" : "number"
 				}
 
@@ -989,7 +996,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Ableton Sans Medium",
+					"gradient" : 1,
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1030,7 +1045,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1041,7 +1056,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-35",
@@ -1079,16 +1094,15 @@
 							"parameter_longname" : "live.text[18]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"text" : "16",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "16",
+					"texton" : "1",
 					"varname" : "mute-"
 				}
 
@@ -1123,7 +1137,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1162,7 +1176,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1192,6 +1206,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgcolor2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_type" : "gradient",
+					"gradient" : 1,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1381,7 +1403,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 97.166666666666657, 711.0, 67.666666666666657, 711.0 ],
+					"midpoints" : [ 97.5, 711.0, 67.666666666666657, 711.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1389,7 +1411,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 696.67266845703125, 609.0, 97.166666666666657, 609.0 ],
+					"midpoints" : [ 696.67266845703125, 609.0, 97.5, 609.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -1445,7 +1467,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 97.166666666666657, 600.0, 97.166666666666657, 600.0 ],
+					"midpoints" : [ 97.166666666666657, 600.0, 97.5, 600.0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -1535,31 +1557,7 @@
 
 			}
  ],
-		"originid" : "pat-18641",
-		"parameters" : 		{
-			"obj-20" : [ "Show Particle Settings[15]", "live.text", 0 ],
-			"obj-35" : [ "live.text[18]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "colors.txt",
-				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/Toolbox/listpackage",
-				"patcherrelativepath" : "../../../Max for the Visual Arts/patchers/Toolbox/listpackage",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-7569"
 	}
 
 }
