@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 139.0, 70.0, 214.0 ],
+		"rect" : [ 0.0, 59.0, 1246.0, 735.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -336,7 +336,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.0, 219.0, 50.0, 23.0 ],
-									"text" : "194."
+									"text" : "116."
 								}
 
 							}
@@ -828,7 +828,7 @@
 
 							}
  ],
-						"originid" : "pat-8293",
+						"originid" : "pat-35099",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -925,7 +925,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "live.numbox[343]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 2.0,
 							"parameter_modmode" : 0,
@@ -979,7 +979,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1022,8 +1022,8 @@
 
 					}
 ,
-					"text" : "ID",
-					"texton" : "ID",
+					"text" : "vtab",
+					"texton" : "vtab",
 					"varname" : "mute-"
 				}
 
@@ -1191,7 +1191,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-59",
@@ -1222,7 +1222,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[457]",
+							"parameter_longname" : "live.text[1292]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1264,7 +1264,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"fontsize" : 9.5,
-					"htabcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"htabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -1273,7 +1273,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 507.0, 53.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 38.0, 326.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 38.0, 182.0 ],
 					"rounded" : 0.0,
 					"saved_attribute_attributes" : 					{
 						"htabcolor" : 						{
@@ -1289,8 +1289,8 @@
 					"spacing_x" : 2.0,
 					"spacing_y" : 3.0,
 					"tabcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tabs" : [ "1", "2", "3", "4", "5", "6" ],
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"truncate" : 0,
 					"varname" : "tab-"
 				}
@@ -1315,7 +1315,6 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 260.0, 138.0, 124.0, 327.0 ],
-						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1368,6 +1367,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-97",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
@@ -1448,18 +1448,10 @@
 
 							}
  ],
-						"originid" : "pat-8301",
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+						"originid" : "pat-35107"
 					}
 ,
 					"patching_rect" : [ 237.0, 363.0, 42.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"fontname" : "Ableton Sans Medium",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
-					}
-,
 					"text" : "p tabs"
 				}
 
@@ -1487,7 +1479,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"annotation" : "",
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -1686,7 +1678,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.0, 507.0, 56.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 27.0, 38.0, 326.0 ],
+					"presentation_rect" : [ 27.0, 27.0, 38.0, 182.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1701,7 +1693,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 409.0, 68.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 22.0, 7.0, 336.0 ],
+					"presentation_rect" : [ 22.0, 22.0, 7.0, 192.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -2197,7 +2189,7 @@
 
 			}
  ],
-		"originid" : "pat-8291"
+		"originid" : "pat-35097"
 	}
 
 }
