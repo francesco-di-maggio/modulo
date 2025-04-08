@@ -161,7 +161,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -171,7 +171,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 460.0, 117.0, 59.0, 15.0 ],
+					"patching_rect" : [ 460.0, 117.0, 113.0, 15.0 ],
 					"pictures" : [ "unlock.svg", "lock.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 126.0, 15.0 ],
@@ -195,7 +195,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[797]",
+							"parameter_longname" : "live.text[250]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -204,8 +204,8 @@
 
 					}
 ,
-					"text" : "sliders",
-					"texton" : "sliders",
+					"text" : "ROTATION MATRIX",
+					"texton" : "ROTATION MATRIX",
 					"varname" : "mute-"
 				}
 
@@ -289,7 +289,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"annotation" : "",
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -326,7 +326,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[821]",
+							"parameter_longname" : "live.text[252]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -380,7 +380,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-35",
@@ -411,7 +411,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[830]",
+							"parameter_longname" : "live.text[251]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -479,8 +479,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 584.0, 260.0, 822.0, 549.0 ],
-						"default_fontname" : "Ableton Sans Medium",
+						"rect" : [ 240.0, 142.0, 822.0, 549.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1010,20 +1009,10 @@
 
 							}
  ],
-						"originid" : "pat-1056",
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+						"originid" : "pat-6470"
 					}
 ,
 					"patching_rect" : [ 299.0, 330.0, 234.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"fontname" : "Ableton Sans Medium",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-					}
-,
 					"text" : "p settings",
 					"varname" : "rand"
 				}
@@ -1219,7 +1208,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-43",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1524,7 +1512,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[229]",
+							"parameter_longname" : "live.numbox[15]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -2167,7 +2155,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 4 ],
-					"midpoints" : [ 523.5, 276.0, 523.5, 276.0 ],
 					"order" : 1,
 					"source" : [ "obj-56", 0 ]
 				}
@@ -2222,7 +2209,7 @@
 
 			}
  ],
-		"originid" : "pat-1048"
+		"originid" : "pat-6462"
 	}
 
 }

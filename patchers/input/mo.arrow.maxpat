@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -82,7 +82,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -119,7 +119,6 @@
 							"parameter_longname" : "live.text[188]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -155,7 +154,7 @@
 				"box" : 				{
 					"comment" : "(message) mute",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -300,7 +299,7 @@
 				"box" : 				{
 					"comment" : "(message) left, right, up, down",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -330,8 +329,7 @@
 			}
 , 			{
 				"box" : 				{
-					"blinkcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"downarrow" : 0,
 					"id" : "obj-38",
 					"ignoreclick" : 1,
@@ -349,10 +347,6 @@
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 
@@ -361,8 +355,7 @@
 			}
 , 			{
 				"box" : 				{
-					"blinkcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-33",
 					"ignoreclick" : 1,
 					"leftarrow" : 0,
@@ -379,10 +372,6 @@
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -392,8 +381,7 @@
 			}
 , 			{
 				"box" : 				{
-					"blinkcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"downarrow" : 0,
 					"id" : "obj-31",
 					"ignoreclick" : 1,
@@ -410,10 +398,6 @@
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -423,8 +407,7 @@
 			}
 , 			{
 				"box" : 				{
-					"blinkcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"blinkcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"downarrow" : 0,
 					"id" : "obj-15",
 					"ignoreclick" : 1,
@@ -440,10 +423,6 @@
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_value_bar"
-						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
 						}
 
 					}
@@ -670,37 +649,7 @@
 
 			}
  ],
-		"originid" : "pat-18779",
-		"parameters" : 		{
-			"obj-8" : [ "live.text[188]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-5341"
 	}
 
 }
