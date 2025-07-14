@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 547.0, 438.0 ],
+		"rect" : [ 34.0, 96.0, 642.0, 529.0 ],
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
@@ -18,11 +18,58 @@
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 484.0, 264.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 236.0, 438.0, 50.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-193",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 236.0, 395.369893655180931, 119.0, 23.0 ],
+					"text" : "route present clients"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 309.0, 485.0, 81.0, 21.0 ],
+					"text" : "list of devices"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.0, 395.369893655180931, 137.0, 23.0 ],
+					"patching_rect" : [ 383.0, 395.0, 137.0, 23.0 ],
 					"text" : "udpsend localhost 7374"
 				}
 
@@ -34,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0, 216.1245406717062, 67.0, 23.0 ],
+					"patching_rect" : [ 442.0, 216.0, 67.0, 23.0 ],
 					"text" : "hello world"
 				}
 
@@ -46,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.0, 263.5, 79.0, 23.0 ],
+					"patching_rect" : [ 383.0, 264.0, 79.0, 23.0 ],
 					"text" : "prepend /osc"
 				}
 
@@ -76,9 +123,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.udpreceive.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.0, 315.869893999999988, 214.0, 45.0 ],
 					"varname" : "mo.udpreceive",
 					"viewvisibility" : 1
@@ -129,7 +176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 291.0, 216.1245406717062, 50.0, 23.0 ]
+					"patching_rect" : [ 383.0, 216.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -142,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 215.6245406717062, 80.0, 25.0 ],
+					"patching_rect" : [ 543.0, 216.0, 80.0, 25.0 ],
 					"text" : "send data "
 				}
 
@@ -161,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 425.0, 217.6245406717062, 20.0, 20.0 ],
+					"patching_rect" : [ 517.0, 218.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -232,7 +279,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 140.0, 216.1245406717062, 24.0, 24.0 ],
-					"svg" : "",
 					"varname" : "toggle[2]"
 				}
 
@@ -293,15 +339,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 300.5, 288.0, 300.5, 288.0 ],
+					"midpoints" : [ 392.5, 287.8754593282938, 392.5, 287.8754593282938 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-193", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-193", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 359.5, 249.0, 300.5, 249.0 ],
+					"midpoints" : [ 451.5, 248.8754593282938, 392.5, 248.8754593282938 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -309,7 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 300.5, 240.0, 300.5, 240.0 ],
+					"midpoints" : [ 392.5, 239.8754593282938, 392.5, 239.8754593282938 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -338,8 +398,14 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-193", 0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
  ],
-		"originid" : "pat-13293",
 		"parameters" : 		{
 			"obj-9::obj-6" : [ "live.text[616]", "live.text", 0 ],
 			"parameterbanks" : 			{
@@ -347,6 +413,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-9::obj-6" : 				{
+					"parameter_longname" : "live.text[616]"
 				}
 
 			}
@@ -363,6 +436,13 @@
 			}
 , 			{
 				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.tracker.js",
 				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../misc/js",
 				"type" : "TEXT",

@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
+		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -170,7 +171,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[175]",
+							"parameter_longname" : "live.text[245]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -333,7 +334,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -341,7 +342,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 392.0, 246.0, 404.0, 333.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
@@ -484,8 +484,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-15"
+ ]
 					}
 ,
 					"patching_rect" : [ 72.0, 656.0, 78.0, 23.0 ],
@@ -521,14 +520,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 624.0, 100.0, 244.0, 236.0 ],
-						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -539,28 +537,24 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 23.0, 30.0, 30.0 ]
+									"patching_rect" : [ 61.0, 23.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 12.0,
 									"id" : "obj-49",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 149.0, 133.0, 79.0, 23.0 ],
+									"patching_rect" : [ 149.0, 133.0, 77.0, 22.0 ],
 									"text" : "prepend port"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 12.0,
 									"id" : "obj-50",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -571,19 +565,16 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 34.0, 100.0, 227.0, 325.0 ],
-										"default_fontname" : "Ableton Sans Medium",
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Ableton Sans Medium",
-													"fontsize" : 12.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -596,8 +587,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Ableton Sans Medium",
-													"fontsize" : 12.0,
 													"id" : "obj-2",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -610,8 +599,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Ableton Sans Medium",
-													"fontsize" : 12.0,
 													"id" : "obj-3",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -624,8 +611,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Ableton Sans Medium",
-													"fontsize" : 12.0,
 													"id" : "obj-4",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -638,8 +623,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Ableton Sans Medium",
-													"fontsize" : 12.0,
 													"id" : "obj-5",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -734,47 +717,22 @@
 												}
 
 											}
- ],
-										"originid" : "pat-19",
-										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 									}
 ,
-									"patching_rect" : [ 61.0, 133.0, 58.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-										"fontname" : "Ableton Sans Medium",
-										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
-									}
-,
+									"patching_rect" : [ 61.0, 133.0, 59.0, 22.0 ],
 									"text" : "p devices"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 12.0,
-									"id" : "obj-51",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 61.0, 23.0, 58.0, 23.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Medium",
-									"fontsize" : 12.0,
 									"id" : "obj-58",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 101.0, 35.0, 23.0 ],
+									"patching_rect" : [ 61.0, 101.0, 32.0, 22.0 ],
 									"text" : "print"
 								}
 
@@ -820,7 +778,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
-									"midpoints" : [ 34.5, 87.0, 70.5, 87.0 ],
+									"midpoints" : [ 70.5, 87.0, 70.5, 87.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -843,14 +801,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"midpoints" : [ 70.5, 48.0, 70.5, 48.0 ],
-									"source" : [ "obj-51", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-50", 0 ],
 									"midpoints" : [ 70.5, 126.0, 70.5, 126.0 ],
 									"source" : [ "obj-58", 0 ]
@@ -865,19 +815,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-17",
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 360.0, 459.0, 75.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"fontname" : "Ableton Sans Medium",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
-					}
-,
 					"text" : "p fill_umenu"
 				}
 
@@ -1075,7 +1016,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-49",
-					"items" : [ "debug-console", ",", "CMFBudsPro2", ",", "Bluetooth-Incoming-Port", ",", "usbserial-0221E412", ",", "SLAB_USBtoUART" ],
+					"items" : [ "debug-console", ",", "CMFBudsPro2", ",", "Bluetooth-Incoming-Port", ",", "usbserial-58550222321", ",", "wchusbserial58550222321" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1415,8 +1356,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-7"
+ ]
 	}
 
 }

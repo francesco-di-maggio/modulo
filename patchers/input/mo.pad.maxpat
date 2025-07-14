@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 192.0, 59.0, 1054.0, 735.0 ],
+		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -57,8 +58,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 240.0, 29.5, 23.0 ],
-					"text" : "1, 0"
+					"patching_rect" : [ 365.0, 240.0, 43.0, 23.0 ],
+					"text" : "1, 0, 1"
 				}
 
 			}
@@ -156,7 +157,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[22]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -249,7 +250,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[219]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -338,14 +339,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 793.0, 463.0, 236.0, 23.0 ],
+					"patching_rect" : [ 793.0, 463.0, 302.0, 23.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr color @bindto color- @autorestore 0",
+					"text" : "pattr color @bindto color- @autorestore 0 @invisible 1",
 					"varname" : "color"
 				}
 
@@ -435,7 +436,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[217]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -444,8 +445,8 @@
 
 					}
 ,
-					"text" : "pad",
-					"texton" : "pad",
+					"text" : "3",
+					"texton" : "3",
 					"varname" : "mute-"
 				}
 
@@ -477,7 +478,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 795.0, 542.0, 222.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -519,7 +520,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -662,8 +663,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-3729"
+ ]
 					}
 ,
 					"patching_rect" : [ 151.0, 164.0, 48.0, 23.0 ],
@@ -694,7 +694,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 365.0, 208.0, 84.0, 23.0 ],
+					"patching_rect" : [ 365.0, 208.0, 112.0, 23.0 ],
 					"text" : "route bang int"
 				}
 
@@ -770,7 +770,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[218]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1046,7 +1046,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 407.0, 276.0, 296.5, 276.0 ],
+					"midpoints" : [ 421.0, 276.0, 296.5, 276.0 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -1269,8 +1269,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-3721"
+ ]
 	}
 
 }

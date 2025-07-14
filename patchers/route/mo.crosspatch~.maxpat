@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 139.0, 214.0, 84.0 ],
+		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 84.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -58,7 +58,6 @@
 							"parameter_longname" : "live.text[943]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -147,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -390,14 +389,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2482"
+ ]
 					}
 ,
 					"patching_rect" : [ 310.0, 104.0, 32.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p fill"
@@ -441,10 +438,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[126]",
+							"parameter_longname" : "live.text[129]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -579,7 +575,6 @@
 							"parameter_longname" : "live.text[299]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -733,7 +728,6 @@
 							"parameter_longname" : "live.text[300]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -797,7 +791,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -812,7 +806,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "clear" ],
-									"patching_rect" : [ 456.0, 84.0, 73.0, 23.0 ],
+									"patching_rect" : [ 456.0, 84.0, 73.0, 22.0 ],
 									"text" : "t b clear"
 								}
 
@@ -829,7 +823,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1114,14 +1108,12 @@
 												}
 
 											}
- ],
-										"originid" : "pat-2492"
+ ]
 									}
 ,
-									"patching_rect" : [ 456.0, 142.0, 43.0, 23.0 ],
+									"patching_rect" : [ 456.0, 142.0, 43.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : ""
+										"fontname" : "Ableton Sans Medium"
 									}
 ,
 									"text" : "p rand"
@@ -1148,7 +1140,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 21.0, 254.0, 48.0, 23.0 ],
+									"patching_rect" : [ 21.0, 254.0, 48.0, 22.0 ],
 									"text" : "zl.nth 2"
 								}
 
@@ -1172,7 +1164,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 164.0, 383.0, 29.5, 23.0 ],
+									"patching_rect" : [ 164.0, 383.0, 29.5, 22.0 ],
 									"text" : "i"
 								}
 
@@ -1184,7 +1176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "int", "bang" ],
-									"patching_rect" : [ 21.0, 282.0, 40.0, 23.0 ],
+									"patching_rect" : [ 21.0, 282.0, 40.0, 22.0 ],
 									"text" : "t f i b"
 								}
 
@@ -1196,7 +1188,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 366.0, 383.0, 29.5, 23.0 ],
+									"patching_rect" : [ 366.0, 383.0, 29.5, 22.0 ],
 									"text" : "i"
 								}
 
@@ -1209,7 +1201,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 233.0, 84.0, 50.0, 23.0 ]
+									"patching_rect" : [ 233.0, 84.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -1221,7 +1213,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 21.0, 84.0, 50.0, 23.0 ]
+									"patching_rect" : [ 21.0, 84.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -1232,7 +1224,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 21.0, 126.0, 29.5, 23.0 ],
+									"patching_rect" : [ 21.0, 126.0, 29.5, 22.0 ],
 									"text" : "t i i"
 								}
 
@@ -1244,7 +1236,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 192.0, 99.0, 23.0 ],
+									"patching_rect" : [ 21.0, 192.0, 99.0, 22.0 ],
 									"text" : "join @triggers -1"
 								}
 
@@ -1256,7 +1248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 21.0, 226.0, 52.0, 23.0 ],
+									"patching_rect" : [ 21.0, 226.0, 52.0, 22.0 ],
 									"text" : "zl.sort 0"
 								}
 
@@ -1268,7 +1260,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 233.0, 126.0, 29.5, 23.0 ],
+									"patching_rect" : [ 233.0, 126.0, 29.5, 22.0 ],
 									"text" : "t i i"
 								}
 
@@ -1285,7 +1277,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1305,7 +1297,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1606,15 +1598,10 @@
 																}
 
 															}
- ],
-														"originid" : "pat-2496"
+ ]
 													}
 ,
 													"patching_rect" : [ 257.0, 242.551943330534755, 51.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"globalpatchername" : ""
-													}
-,
 													"text" : "p colors"
 												}
 
@@ -1794,15 +1781,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-2494"
+ ]
 									}
 ,
-									"patching_rect" : [ 31.0, 456.0, 116.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
+									"patching_rect" : [ 31.0, 456.0, 116.0, 22.0 ],
 									"text" : "p presentation_rect"
 								}
 
@@ -1819,7 +1801,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2212,14 +2194,12 @@
 												}
 
 											}
- ],
-										"originid" : "pat-2498"
+ ]
 									}
 ,
-									"patching_rect" : [ 164.0, 456.0, 36.0, 23.0 ],
+									"patching_rect" : [ 164.0, 456.0, 36.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : ""
+										"fontname" : "Ableton Sans Medium"
 									}
 ,
 									"text" : "p I/O"
@@ -2491,15 +2471,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2490"
+ ]
 					}
 ,
 					"patching_rect" : [ 402.0, 104.0, 109.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p \"input / output\""
 				}
 
@@ -2549,7 +2524,6 @@
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -2600,9 +2574,8 @@
 					"fontsize" : 9.5,
 					"id" : "obj-33",
 					"incolormap" : "none",
-					"inlabels" : "1",
 					"labelheight" : 12.0,
-					"labelwidth" : 30.0,
+					"labelwidth" : 52.0,
 					"linecolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
@@ -2610,7 +2583,6 @@
 					"numoutlets" : 2,
 					"numouts" : 1,
 					"outcolormap" : "none",
-					"outlabels" : "1",
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 447.0, 281.0, 160.0, 322.950703680515289 ],
@@ -2664,7 +2636,6 @@
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -3000,8 +2971,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-2480"
+ ]
 	}
 
 }

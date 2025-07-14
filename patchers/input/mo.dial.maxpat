@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -281,14 +282,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 592.0, 433.0, 236.0, 23.0 ],
+					"patching_rect" : [ 592.0, 433.0, 302.0, 23.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr color @bindto color- @autorestore 0",
+					"text" : "pattr color @bindto color- @autorestore 0 @invisible 1",
 					"varname" : "color"
 				}
 
@@ -603,7 +604,7 @@
 					"id" : "obj-21",
 					"maxclass" : "dial",
 					"mode" : 5,
-					"needlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"needlecolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -614,7 +615,7 @@
 					"presentation_rect" : [ 29.0, 29.0, 34.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"needlecolor" : 						{
-							"expression" : "themecolor.live_value_bar"
+							"expression" : "themecolor.live_control_fg"
 						}
 ,
 						"outlinecolor" : 						{
@@ -926,8 +927,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-8385"
+ ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -54,7 +54,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -66,7 +66,6 @@
 						"gridsize" : [ 10.0, 10.0 ],
 						"subpatcher_template" : " ",
 						"helpsidebarclosed" : 1,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -199,14 +198,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-15599"
+ ]
 					}
 ,
 					"patching_rect" : [ 41.0, 207.5, 59.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p random"
@@ -235,8 +232,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 164.5, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 41.0, 164.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -341,7 +337,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mo.monitor.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -370,21 +366,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 279.5, 276.0, 245.5, 276.0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 279.5, 276.0, 50.5, 276.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 245.5, 276.0, 50.5, 276.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-15597",
 		"parameters" : 		{
 			"obj-2::obj-21" : [ "live.text[319]", "live.text", 0 ],
 			"obj-2::obj-4" : [ "live.text[318]", "live.text", 0 ],
@@ -399,6 +395,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-21" : 				{
+					"parameter_longname" : "live.text[319]"
+				}
+,
+				"obj-2::obj-4" : 				{
+					"parameter_longname" : "live.text[318]"
+				}
+,
 				"obj-2::obj-52" : 				{
 					"parameter_longname" : "live.numbox[352]"
 				}

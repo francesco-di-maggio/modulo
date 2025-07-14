@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,6 +14,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
@@ -52,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -120,7 +121,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 196.0, 105.0, 23.0 ],
-									"text" : "gridsnaponopen 0"
+									"text" : "gridsnaponopen 1"
 								}
 
 							}
@@ -325,8 +326,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22813"
+ ]
 					}
 ,
 					"patching_rect" : [ 200.0, 180.0, 61.0, 23.0 ],
@@ -362,7 +362,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -584,8 +584,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22815"
+ ]
 					}
 ,
 					"patching_rect" : [ 40.0, 180.0, 60.0, 23.0 ],
@@ -780,8 +779,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-22811"
+ ]
 	}
 
 }
