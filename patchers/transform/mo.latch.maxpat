@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -49,7 +50,7 @@
 					"comment" : "(int, float) latched",
 					"hint" : "",
 					"id" : "obj-39",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -280,7 +281,7 @@
 				"box" : 				{
 					"comment" : "(int) mode",
 					"id" : "obj-18",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -427,7 +428,7 @@
 				"box" : 				{
 					"comment" : "(list) to latch",
 					"id" : "obj-33",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -442,7 +443,7 @@
 					"comment" : "(int, float) latched",
 					"hint" : "",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -627,7 +628,38 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-74" : [ "live.text[2]", "live.text", 0 ],
+			"obj-9" : [ "live.text[1]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 70.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -131,7 +132,6 @@
 							"parameter_longname" : "live.text[785]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -307,7 +307,6 @@
 							"parameter_longname" : "live.text[786]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -361,7 +360,6 @@
 							"parameter_longname" : "live.text[787]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -490,8 +488,8 @@
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "int", "int", "int", "int", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "float", "float", "list" ],
 					"patching_rect" : [ 194.064107851187089, 399.601953774690628, 100.0, 23.0 ],
 					"text" : "mousestate"
 				}
@@ -760,7 +758,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 244.064107851187089, 423.0, 244.064107851187089, 423.0 ],
+					"midpoints" : [ 221.564107851187089, 423.0, 244.064107851187089, 423.0 ],
 					"source" : [ "obj-38", 2 ]
 				}
 
@@ -768,7 +766,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"midpoints" : [ 223.814107851187089, 423.0, 223.814107851187089, 423.0 ],
+					"midpoints" : [ 212.564107851187089, 423.0, 223.814107851187089, 423.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -894,7 +892,6 @@
 
 			}
  ],
-		"originid" : "pat-18865",
 		"parameters" : 		{
 			"obj-45" : [ "live.text[786]", "live.text", 0 ],
 			"obj-53" : [ "live.text[787]", "live.text", 0 ],

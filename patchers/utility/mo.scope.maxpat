@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 214.0, 214.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 214.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -167,7 +168,6 @@
 							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -249,7 +249,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -445,14 +445,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22679"
+ ]
 					}
 ,
 					"patching_rect" : [ 199.0, 351.0, 61.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p settings"
@@ -540,7 +538,6 @@
 							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -564,7 +561,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -696,14 +693,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22681"
+ ]
 					}
 ,
 					"patching_rect" : [ 296.404713997244585, 351.0, 59.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p polarity"
@@ -797,7 +792,6 @@
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -1150,7 +1144,6 @@
 
 			}
  ],
-		"originid" : "pat-22671",
 		"parameters" : 		{
 			"obj-11" : [ "live.text[27]", "live.text", 0 ],
 			"obj-18" : [ "live.text[28]", "live.text", 0 ],

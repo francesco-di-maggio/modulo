@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 214.0, 45.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -107,7 +108,6 @@
 							"parameter_longname" : "live.text[304]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -281,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 406.0, 434.5, 112.0, 19.0 ],
 					"rounded" : 0.0,
-					"text" : "0 : 27 : 42 : 31",
+					"text" : "0 : 17 : 34 : 917",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "Date-TX[3]"
@@ -344,7 +344,7 @@
 
 					}
 ,
-					"text" : "11 : 7 : 49",
+					"text" : "18 : 13 : 54",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"textjustification" : 1
 				}
@@ -462,7 +462,7 @@
 
 					}
 ,
-					"text" : "17 / 1 / 2025",
+					"text" : "16 / 9 / 2025",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"textjustification" : 1
 				}
@@ -718,7 +718,6 @@
 
 			}
  ],
-		"originid" : "pat-22423",
 		"parameters" : 		{
 			"obj-9" : [ "live.text[304]", "live.text", 0 ],
 			"parameterbanks" : 			{

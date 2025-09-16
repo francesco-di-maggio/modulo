@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 62.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -46,7 +47,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1172,14 +1173,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-20907"
+ ]
 					}
 ,
 					"patching_rect" : [ 50.0, 247.0, 229.745423614453898, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p behaviours"
@@ -1317,7 +1316,6 @@
 							"parameter_longname" : "live.text[412]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1415,7 +1413,6 @@
 							"parameter_longname" : "live.numbox[158]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -1532,7 +1529,6 @@
 							"parameter_longname" : "live.text[410]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1600,7 +1596,6 @@
 							"parameter_longname" : "live.text[427]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1668,7 +1663,6 @@
 							"parameter_longname" : "live.text[413]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1721,7 +1715,6 @@
 							"parameter_longname" : "live.text[411]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1755,8 +1748,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 164.990021225398777, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 50.0, 164.990021225398777, 24.0, 24.0 ]
 				}
 
 			}
@@ -1966,7 +1958,6 @@
 
 			}
  ],
-		"originid" : "pat-20905",
 		"parameters" : 		{
 			"obj-126" : [ "live.text[410]", "live.text", 0 ],
 			"obj-16" : [ "live.text[412]", "live.text", 0 ],

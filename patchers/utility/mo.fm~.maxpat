@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 214.0, 170.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 170.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -265,7 +266,6 @@
 							"parameter_longname" : "live.text[835]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -314,7 +314,6 @@
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "octave",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -340,7 +339,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -736,7 +735,6 @@
 
 							}
  ],
-						"originid" : "pat-22439",
 						"styles" : [ 							{
 								"name" : "17-1-18",
 								"newobj" : 								{
@@ -3215,7 +3213,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -3240,7 +3237,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "semitone",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 7
@@ -3268,7 +3264,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "detune",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3367,7 +3362,6 @@
 							"parameter_longname" : "live.dial[9]",
 							"parameter_mmax" : 8000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "release",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3395,7 +3389,6 @@
 							"parameter_longname" : "live.dial[42]",
 							"parameter_mmax" : 4000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3423,7 +3416,6 @@
 							"parameter_longname" : "live.dial[15]",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3451,7 +3443,6 @@
 							"parameter_longname" : "live.dial[10]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "sustain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -3545,7 +3536,6 @@
 							"parameter_longname" : "live.text[823]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3688,7 +3678,6 @@
 							"parameter_longname" : "live.text[884]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3911,7 +3900,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4199,7 +4188,6 @@
 
 							}
  ],
-						"originid" : "pat-22441",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -4208,7 +4196,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
@@ -4462,7 +4449,6 @@
 							"parameter_longname" : "live.dial[30]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4521,7 +4507,6 @@
 							"parameter_longname" : "live.dial[40]",
 							"parameter_mmax" : 1760.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -4567,7 +4552,6 @@
 							"parameter_longname" : "live.dial[41]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4592,7 +4576,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5310,7 +5294,6 @@
 
 							}
  ],
-						"originid" : "pat-22443",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -5319,7 +5302,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
@@ -5361,7 +5343,6 @@
 							"parameter_longname" : "live.dial[16]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "vibrato",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -5407,7 +5388,6 @@
 							"parameter_longname" : "live.dial[39]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[18]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -5453,7 +5433,6 @@
 							"parameter_longname" : "live.dial[8]",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[7]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -6160,7 +6139,6 @@
 
 			}
  ],
-		"originid" : "pat-22431",
 		"parameters" : 		{
 			"obj-111" : [ "live.dial[38]", "detune", 0 ],
 			"obj-112" : [ "live.dial[42]", "decay", 0 ],

@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 430.0, 170.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 169.975903391838074 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -367,7 +368,6 @@
 							"parameter_longname" : "live.text[639]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -418,7 +418,6 @@
 							"parameter_longname" : "live.text[641]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -539,7 +538,6 @@
 							"parameter_longname" : "live.text[687]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -629,7 +627,6 @@
 							"parameter_longname" : "live.text[713]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -683,7 +680,6 @@
 							"parameter_longname" : "live.text[712]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1088,8 +1084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 629.342786306142443, 1563.825798000000532, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 629.342786306142443, 1563.825798000000532, 24.0, 24.0 ]
 				}
 
 			}
@@ -1256,7 +1251,6 @@
 							"parameter_longname" : "live.numbox[648]",
 							"parameter_mmax" : 60000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1345,7 +1339,6 @@
 							"parameter_longname" : "live.text[688]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1540,7 +1533,6 @@
 							"parameter_longname" : "live.numbox[645]",
 							"parameter_mmax" : 600000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1680,7 +1672,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1740,15 +1732,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22359"
+ ]
 					}
 ,
 					"patching_rect" : [ 765.128500591856778, 340.831427166666344, 34.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p sel"
 				}
 
@@ -1845,7 +1832,6 @@
 							"parameter_longname" : "live.text[714]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2172,7 +2158,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2276,7 +2262,6 @@
 
 							}
  ],
-						"originid" : "pat-22367",
 						"patchlinecolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2286,7 +2271,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"patchlinecolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
 					}
@@ -2307,7 +2291,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2441,7 +2425,6 @@
 
 							}
  ],
-						"originid" : "pat-22369",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2451,7 +2434,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -2751,7 +2733,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3115,7 +3097,6 @@
 
 							}
  ],
-						"originid" : "pat-22371",
 						"patchlinecolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -3125,7 +3106,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"patchlinecolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
 					}
@@ -3237,7 +3217,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3613,15 +3593,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22373"
+ ]
 					}
 ,
 					"patching_rect" : [ 757.628500591856778, 57.0, 71.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p reset_bar",
 					"varname" : "reset_bar"
 				}
@@ -3840,7 +3815,6 @@
 							"parameter_longname" : "live.numbox[646]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3901,7 +3875,6 @@
 							"parameter_longname" : "live.numbox[652]",
 							"parameter_mmax" : 0.5,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -4012,7 +3985,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4065,8 +4038,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 409.0, 87.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 409.0, 87.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -4649,7 +4621,6 @@
 
 							}
  ],
-						"originid" : "pat-22375",
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
@@ -4658,7 +4629,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 					}
 ,
@@ -5216,7 +5186,6 @@
 							"parameter_longname" : "live.text[1021]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -5241,7 +5210,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5882,15 +5851,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22393"
+ ]
 					}
 ,
 					"patching_rect" : [ 535.559717121294284, 1152.823679999999968, 59.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p random"
 				}
 
@@ -6045,7 +6009,6 @@
 							"parameter_longname" : "live.text[640]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -6093,7 +6056,6 @@
 							"parameter_mmax" : 6000.0,
 							"parameter_mmin" : -6000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6184,7 +6146,6 @@
 							"parameter_longname" : "live.numbox[653]",
 							"parameter_mmax" : 4000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6234,7 +6195,6 @@
 							"parameter_longname" : "live.text[638]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -6279,7 +6239,6 @@
 							"parameter_longname" : "live.numbox[651]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6323,7 +6282,6 @@
 							"parameter_longname" : "live.numbox[481]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6370,7 +6328,6 @@
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6415,7 +6372,6 @@
 							"parameter_longname" : "live.numbox[649]",
 							"parameter_mmax" : 4000.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -6477,7 +6433,6 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -6578,7 +6533,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6612,7 +6567,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6762,15 +6717,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-22397"
+ ]
 									}
 ,
 									"patching_rect" : [ 34.0, 159.0, 71.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p gate-stop"
 								}
 
@@ -6841,7 +6791,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6991,15 +6941,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-22399"
+ ]
 									}
 ,
 									"patching_rect" : [ 117.125, 127.0, 71.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p gate-stop"
 								}
 
@@ -7224,7 +7169,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7358,15 +7303,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-22401"
+ ]
 									}
 ,
 									"patching_rect" : [ 45.0, 658.0, 72.0, 23.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p pos_rndm"
 								}
 
@@ -7549,8 +7489,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1225.125, 99.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 1225.125, 99.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -7628,8 +7567,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 779.375, 185.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 779.375, 185.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -8825,14 +8763,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22395"
+ ]
 					}
 ,
 					"patching_rect" : [ 28.842786306142557, 642.5, 142.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p playback~"
@@ -8853,7 +8789,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8906,8 +8842,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 469.0, 197.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 469.0, 197.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -9700,15 +9635,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-22403"
+ ]
 					}
 ,
 					"patching_rect" : [ 1220.051895529031754, 340.831427166666344, 79.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p pitch~"
 				}
 
@@ -11626,7 +11556,6 @@
 
 			}
  ],
-		"originid" : "pat-22357",
 		"parameters" : 		{
 			"obj-10" : [ "live.numbox[646]", "live.dial[12]", 0 ],
 			"obj-136" : [ "live.text[687]", "live.text", 0 ],

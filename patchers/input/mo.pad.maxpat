@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -27,7 +27,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 220.0, 423.0, 47.0, 23.0 ],
+					"patching_rect" : [ 220.0, 423.0, 48.0, 23.0 ],
 					"text" : "change"
 				}
 
@@ -157,7 +157,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[22]",
+							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -250,7 +250,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[25]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -295,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 856.0, 233.0, 81.0, 23.0 ],
+					"patching_rect" : [ 856.0, 233.0, 83.0, 23.0 ],
 					"text" : "loadmess pad"
 				}
 
@@ -339,14 +339,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 793.0, 463.0, 302.0, 23.0 ],
+					"patching_rect" : [ 793.0, 463.0, 236.0, 23.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr color @bindto color- @autorestore 0 @invisible 1",
+					"text" : "pattr color @bindto color- @autorestore 0",
 					"varname" : "color"
 				}
 
@@ -394,7 +394,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 647.0, 125.0, 23.0 ],
+					"patching_rect" : [ 795.0, 647.0, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -436,7 +436,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[21]",
+							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -445,8 +445,8 @@
 
 					}
 ,
-					"text" : "3",
-					"texton" : "3",
+					"text" : "pad",
+					"texton" : "pad",
 					"varname" : "mute-"
 				}
 
@@ -477,14 +477,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 795.0, 542.0, 222.0, 23.0 ],
-					"restore" : [ 1.0 ],
+					"patching_rect" : [ 795.0, 542.0, 135.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr pad @bindto pad- @autorestore 0",
+					"text" : "pattr pad @bindto pad-",
 					"varname" : "pad"
 				}
 
@@ -520,7 +520,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -666,7 +666,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 151.0, 164.0, 48.0, 23.0 ],
+					"patching_rect" : [ 151.0, 164.0, 49.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Ableton Sans Medium"
 					}
@@ -715,7 +715,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -770,7 +770,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[20]",
+							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -789,7 +789,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -838,7 +838,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1070,7 +1070,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 189.5, 519.0, 32.5, 519.0 ],
+					"midpoints" : [ 190.5, 519.0, 32.5, 519.0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
@@ -1269,7 +1269,47 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-2" : [ "live.text[27]", "live.text", 0 ],
+			"obj-22" : [ "live.text[26]", "live.text", 0 ],
+			"obj-48" : [ "live.text[28]", "live.text", 0 ],
+			"obj-6" : [ "live.text[25]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

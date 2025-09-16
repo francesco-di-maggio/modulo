@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 214.0, 15.0 ],
+		"rect" : [ 34.0, 93.0, 1212.0, 701.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 15.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -93,7 +93,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -192,7 +191,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 321.0, 90.0, 16.0 ],
+					"patching_rect" : [ 348.0, 319.75, 93.416368007659912, 16.094069004058838 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.996411346901908, 0.871792723306498, 181.317516028631871, 15.0 ],
 					"rounded" : 0.0,
@@ -203,8 +202,7 @@
 
 					}
 ,
-					"text" : "1 — W",
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "set-"
 				}
 
@@ -349,7 +347,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.301960784313725, 0.27843137254902, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-2",
@@ -431,7 +429,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.0, 321.0, 92.0, 16.0 ],
+					"patching_rect" : [ 349.82579231262207, 319.860634803771973, 92.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 183.483618820945964, 13.593006536364555 ],
 					"proportion" : 0.5,
@@ -688,8 +686,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-14730"
+ ]
 	}
 
 }

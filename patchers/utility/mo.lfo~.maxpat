@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 214.0, 170.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 170.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -125,7 +126,6 @@
 							"parameter_longname" : "live.text[881]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -251,7 +251,6 @@
 							"parameter_longname" : "live.text[908]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -301,7 +300,6 @@
 							"parameter_longname" : "live.text[711]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -338,7 +336,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -702,7 +700,6 @@
 
 							}
  ],
-						"originid" : "pat-22479",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -712,7 +709,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -959,7 +955,6 @@
 							"parameter_longname" : "Hold[1]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1161,7 +1156,6 @@
 							"parameter_longname" : "waveform-",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "waveform-",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 2,
@@ -1345,7 +1339,6 @@
 							"parameter_longname" : "Jitter",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1397,7 +1390,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1454,8 +1447,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 396.0, 148.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 396.0, 148.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1481,8 +1473,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 173.0, 148.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 173.0, 148.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1573,8 +1564,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 253.0, 148.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 253.0, 148.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1638,8 +1628,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 18.0, 148.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 18.0, 148.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1870,7 +1859,6 @@
 
 							}
  ],
-						"originid" : "pat-22481",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -1880,7 +1868,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -1901,7 +1888,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1922,7 +1909,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2113,7 +2100,6 @@
 
 											}
  ],
-										"originid" : "pat-22485",
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2123,7 +2109,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
@@ -2144,7 +2129,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2206,7 +2191,6 @@
 
 											}
  ],
-										"originid" : "pat-22487",
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -2216,7 +2200,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
@@ -2408,7 +2391,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2601,7 +2584,6 @@
 
 											}
  ],
-										"originid" : "pat-22489",
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
@@ -2610,7 +2592,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
 ,
@@ -3211,7 +3192,6 @@
 
 							}
  ],
-						"originid" : "pat-22483",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -3221,7 +3201,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -3263,7 +3242,6 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -3312,7 +3290,6 @@
 							"parameter_longname" : "mode-",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3357,7 +3334,6 @@
 							"parameter_longname" : "Phase",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -3401,7 +3377,6 @@
 							"parameter_longname" : "Smooth",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -3455,7 +3430,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3759,7 +3734,6 @@
 
 							}
  ],
-						"originid" : "pat-22491",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -3769,7 +3743,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -3820,7 +3793,6 @@
 							"parameter_longname" : "retrigger-",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "retrigger-",
 							"parameter_type" : 2
 						}
@@ -3862,7 +3834,6 @@
 							"parameter_mapping_index" : 3,
 							"parameter_mmax" : 23,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "rate",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 2,
@@ -3887,7 +3858,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3917,8 +3888,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 24.0, 71.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 24.0, 71.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -3972,8 +3942,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 24.0, 189.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 24.0, 189.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -4081,7 +4050,6 @@
 
 							}
  ],
-						"originid" : "pat-22493",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -4091,7 +4059,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -4112,7 +4079,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4184,7 +4151,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4369,7 +4336,6 @@
 
 											}
  ],
-										"originid" : "pat-22497",
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -4379,7 +4345,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
@@ -4400,7 +4365,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4563,7 +4528,6 @@
 
 											}
  ],
-										"originid" : "pat-22499",
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -4573,7 +4537,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
@@ -4619,7 +4582,6 @@
 
 							}
  ],
-						"originid" : "pat-22495",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -4629,7 +4591,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -4676,7 +4637,6 @@
 							"parameter_longname" : "Hold",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -4701,7 +4661,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5076,7 +5036,6 @@
 
 							}
  ],
-						"originid" : "pat-22501",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -5086,7 +5045,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -5121,7 +5079,6 @@
 							"parameter_mapping_index" : 5,
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "depth",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 0,
@@ -5162,7 +5119,6 @@
 							"parameter_mapping_index" : 4,
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "rate",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 0,
@@ -5187,7 +5143,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5335,7 +5291,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5511,7 +5467,6 @@
 
 											}
  ],
-										"originid" : "pat-22505",
 										"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
@@ -5520,7 +5475,6 @@
 									"saved_object_attributes" : 									{
 										"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 										"fontname" : "Ableton Sans Medium",
-										"globalpatchername" : "",
 										"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 									}
 ,
@@ -5895,7 +5849,6 @@
 
 							}
  ],
-						"originid" : "pat-22503",
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
@@ -5905,7 +5858,6 @@
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -6444,7 +6396,6 @@
 
 			}
  ],
-		"originid" : "pat-22471",
 		"parameters" : 		{
 			"obj-10" : [ "Jitter", "live.numbox", 0 ],
 			"obj-120" : [ "offset-", "live.numbox", 0 ],

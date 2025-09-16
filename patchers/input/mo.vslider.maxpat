@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 214.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -83,7 +83,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[36]",
+							"parameter_longname" : "live.text[44]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -160,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 448.0, 550.0, 54.0, 23.0 ],
+					"patching_rect" : [ 448.0, 550.0, 55.0, 23.0 ],
 					"text" : "zl.slice 3"
 				}
 
@@ -186,7 +186,7 @@
 ,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "slider-[3]",
+							"parameter_longname" : "slider-[4]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider-",
@@ -236,7 +236,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -949,7 +949,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1141.0, 405.5, 96.0, 23.0 ],
+					"patching_rect" : [ 1141.0, 405.5, 98.0, 23.0 ],
 					"text" : "loadmess vslider"
 				}
 
@@ -985,14 +985,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 821.0, 502.5, 302.0, 23.0 ],
-					"restore" : [ 2 ],
+					"patching_rect" : [ 821.0, 502.5, 236.0, 23.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr color @bindto color- @autorestore 0 @invisible 1",
+					"text" : "pattr color @bindto color- @autorestore 0",
 					"varname" : "color"
 				}
 
@@ -1084,7 +1084,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[37]",
+							"parameter_longname" : "live.text[43]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1093,9 +1093,9 @@
 
 					}
 ,
-					"text" : "MIC",
+					"text" : "vslider",
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"texton" : "MIC",
+					"texton" : "vslider",
 					"varname" : "mute-"
 				}
 
@@ -1211,7 +1211,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[38]",
+							"parameter_longname" : "live.text[45]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -1251,14 +1251,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 821.0, 453.5, 293.0, 23.0 ],
+					"patching_rect" : [ 821.0, 453.5, 207.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr slider @bindto slider- @initial 0 @autorestore 0",
+					"text" : "pattr slider @bindto slider- @initial 0",
 					"varname" : "slider"
 				}
 
@@ -1279,7 +1279,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1292,7 +1292,7 @@
 				"box" : 				{
 					"comment" : "(message) color, polarity, set, mute",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1353,7 +1353,7 @@
 				"box" : 				{
 					"comment" : "(float) slider number",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1416,7 +1416,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 4.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -1659,7 +1659,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 492.5, 576.0, 492.5, 576.0 ],
+					"midpoints" : [ 493.5, 576.0, 492.5, 576.0 ],
 					"source" : [ "obj-31", 1 ]
 				}
 
@@ -1826,7 +1826,48 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-21" : [ "live.text[43]", "live.text", 0 ],
+			"obj-3" : [ "slider-[4]", "slider-", 0 ],
+			"obj-35" : [ "live.text[45]", "live.text", 0 ],
+			"obj-38" : [ "live.text[44]", "live.text", 0 ],
+			"obj-56" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

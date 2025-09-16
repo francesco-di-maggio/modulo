@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 1406.0, 836.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 70.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
@@ -282,14 +282,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 592.0, 433.0, 302.0, 23.0 ],
+					"patching_rect" : [ 592.0, 433.0, 236.0, 23.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr color @bindto color- @autorestore 0 @invisible 1",
+					"text" : "pattr color @bindto color- @autorestore 0",
 					"varname" : "color"
 				}
 
@@ -398,8 +398,8 @@
 
 					}
 ,
-					"text" : "POT",
-					"texton" : "POT",
+					"text" : "dial",
+					"texton" : "dial",
 					"varname" : "mute-"
 				}
 
@@ -430,14 +430,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 592.0, 388.0, 219.0, 23.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 592.0, 388.0, 133.0, 23.0 ],
+					"restore" : [ 0.360837438423645 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr dial @bindto dial- @autorestore 0",
+					"text" : "pattr dial @bindto dial-",
 					"varname" : "dial"
 				}
 
@@ -458,7 +458,7 @@
 				"box" : 				{
 					"comment" : "(float) dial",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -471,7 +471,7 @@
 				"box" : 				{
 					"comment" : "(message) color, set, mute",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -552,7 +552,7 @@
 				"box" : 				{
 					"comment" : "(float) dial",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -898,7 +898,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 51.372310342721619, 351.0, 51.372310342721619, 351.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -927,7 +927,46 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-21" : [ "dial-[4]", "dial-", 0 ],
+			"obj-35" : [ "live.text[533]", "live.text", 0 ],
+			"obj-6" : [ "live.text[534]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.color.txt",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/colls",
+				"patcherrelativepath" : "../../misc/colls",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

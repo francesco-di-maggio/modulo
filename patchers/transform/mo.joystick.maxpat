@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 62.0, 70.0, 96.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 96.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -248,7 +249,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -408,14 +409,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-20933"
+ ]
 					}
 ,
 					"patching_rect" : [ 1139.0, 186.0, 51.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Ableton Sans Medium",
-						"globalpatchername" : ""
+						"fontname" : "Ableton Sans Medium"
 					}
 ,
 					"text" : "p rotate"
@@ -493,8 +492,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 798.0, 552.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 798.0, 552.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -662,8 +660,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 856.0, 282.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 856.0, 282.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -711,8 +708,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 395.0, 282.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 395.0, 282.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1084,7 +1080,6 @@
 							"parameter_longname" : "live.text[764]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1245,7 +1240,6 @@
 							"parameter_longname" : "live.numbox[328]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2017,7 +2011,6 @@
 
 			}
  ],
-		"originid" : "pat-20931",
 		"parameters" : 		{
 			"obj-18" : [ "live.numbox[328]", "live.numbox", 0 ],
 			"obj-20" : [ "live.text[764]", "live.text", 0 ],

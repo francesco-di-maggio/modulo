@@ -4,18 +4,19 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 59.0, 1246.0, 735.0 ],
+		"rect" : [ 0.0, 58.0, 1406.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"toolbars_unpinned_last_save" : 3,
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
@@ -98,14 +99,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 599.035088539123535, 223.0, 141.0, 23.0 ],
-					"restore" : [ "Logitech Extreme 3D" ],
+					"patching_rect" : [ 599.035088539123535, 223.0, 201.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ " " ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr port @bindto port-",
+					"text" : "pattr port @bindto port- @initial \" \"",
 					"varname" : "port"
 				}
 
@@ -238,7 +239,7 @@
 				"box" : 				{
 					"comment" : "(list) element and value",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -281,7 +282,7 @@
 				"box" : 				{
 					"comment" : "(message) refresh, port, mute",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -370,7 +371,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-20",
-					"items" : [ "Logitech Extreme 3D", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Apple Internal Keyboard / Trackpad 6", ",", "BTM", ",", "Headset", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0xff" ],
+					"items" : [ "Francesco’s Keyboard", ",", "Francesco’s Keyboard 2", ",", "Francesco’s Keyboard 3", ",", "Francesco’s Keyboard 4", ",", "Francesco’s Trackpad", ",", "Francesco’s Trackpad 2", ",", "Francesco’s Trackpad 3", ",", "Francesco’s Trackpad 4", ",", "Francesco’s Trackpad 5", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Apple Internal Keyboard / Trackpad 6", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x5", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -508,14 +509,6 @@
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 194.5, 318.0, 159.5, 318.0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 289.5, 318.0, 159.5, 318.0 ],
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -740,7 +733,37 @@
 
 			}
  ],
-		"originid" : "pat-2337"
+		"parameters" : 		{
+			"obj-2" : [ "live.text[24]", "live.text", 0 ],
+			"obj-6" : [ "live.text[750]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
