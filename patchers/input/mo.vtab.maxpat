@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -72,7 +72,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -92,15 +92,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 134.0, 157.0, 865.0, 581.0 ],
-						"default_fontname" : "Ableton Sans Medium",
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-64",
@@ -216,7 +216,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 509.0, 219.0, 30.0, 23.0 ],
 									"text" : "99"
 								}
 
@@ -228,7 +228,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 474.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 474.0, 219.0, 30.0, 23.0 ],
 									"text" : "82"
 								}
 
@@ -240,7 +240,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 439.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 439.0, 219.0, 30.0, 23.0 ],
 									"text" : "66"
 								}
 
@@ -252,7 +252,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 405.0, 219.0, 30.0, 23.0 ],
 									"text" : "49"
 								}
 
@@ -264,7 +264,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 370.0, 219.0, 30.0, 23.0 ],
 									"text" : "33."
 								}
 
@@ -276,7 +276,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 266.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 266.0, 219.0, 30.0, 23.0 ],
 									"text" : "0"
 								}
 
@@ -300,7 +300,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 335.0, 219.0, 29.5, 23.0 ],
+									"patching_rect" : [ 335.0, 219.0, 30.0, 23.0 ],
 									"text" : "16."
 								}
 
@@ -828,18 +828,10 @@
 								}
 
 							}
- ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 292.0, 363.0, 116.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"fontname" : "Ableton Sans Medium",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
-					}
-,
 					"text" : "p presentation_rect"
 				}
 
@@ -1308,7 +1300,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1530,7 +1522,7 @@
 				"box" : 				{
 					"comment" : "(int) voices, (message) mode, items, rand, reset, mute",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1567,7 +1559,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1611,7 +1603,7 @@
 				"box" : 				{
 					"comment" : "(int) tab number",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2187,40 +2179,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-38" : [ "live.text[258]", "live.text", 0 ],
-			"obj-56" : [ "live.numbox[343]", "live.numbox", 0 ],
-			"obj-59" : [ "live.text[1292]", "live.text", 0 ],
-			"obj-6" : [ "live.text[225]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

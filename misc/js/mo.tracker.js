@@ -2,7 +2,7 @@
 // for OSC (under development)
 
 // How long (ms) to consider a device alive without updates
-var TIMEOUT_MS = 1000;
+var TIMEOUT_MS = 2000;
 
 // Object to track device last-seen timestamps
 var deviceTimestamps = {};
@@ -12,7 +12,9 @@ var deviceOrder = [];
 
 // Periodic checker task
 var checkTask = new Task(checkTimeouts, this);
-checkTask.interval = 500; // check every 500 ms
+
+// How often to check for timeouts (ms)
+checkTask.interval = 1000;
 checkTask.repeat();
 
 /**
@@ -23,8 +25,8 @@ function anything() {
     var a = arrayfromargs(messagename, arguments);
     var parts = a[0].split("/");
 
-    if (parts.length > 1) {
-        var device = "/" + parts[1];
+    if (parts.length > 2) {
+        var device = "/" + parts[1] + "/" + parts[2];
         var now = Date.now();
 
         // Update last-seen timestamp

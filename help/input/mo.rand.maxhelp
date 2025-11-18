@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,40 +18,13 @@
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 739.640615909090684, 528.297012329101562, 105.0, 25.0 ],
-					"text" : "target all voice"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.640615909090684, 529.297012329101562, 104.0, 23.0 ],
-					"text" : "target 0, onoff $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 625.640615909090684, 444.047930985689163, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 625.640615909090684, 444.047930985689163, 24.0, 24.0 ]
 				}
 
 			}
@@ -104,8 +77,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.640615909090684, 480.047930985689163, 90.0, 25.0 ],
-					"text" : "target voice"
+					"patching_rect" : [ 739.640615909090684, 480.047930985689163, 110.0, 25.0 ],
+					"text" : "target all voices"
 				}
 
 			}
@@ -117,7 +90,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.640615909090684, 481.047930985689163, 104.0, 23.0 ],
-					"text" : "target 1, onoff $1"
+					"text" : "target 0, onoff $1"
 				}
 
 			}
@@ -129,7 +102,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 640.0, 226.0, 23.0 ]
+					"patching_rect" : [ 41.0, 640.0, 226.0, 23.0 ],
+					"text" : "0.828555"
 				}
 
 			}
@@ -196,8 +170,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 208.0, 25.0 ],
-					"text" : "set curve (exponential base value)"
+					"patching_rect" : [ 340.640615909090684, 329.047930985689163, 212.0, 25.0 ],
+					"text" : "set step size (size of random steps)"
 				}
 
 			}
@@ -274,13 +248,19 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-30",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 267.0, 38.0 ],
-					"text" : "Generate normalized random numbers.\nControl rate, probability trigger and amount.",
-					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
+					"patching_rect" : [ 9.0, 102.0, 233.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+
+					}
+,
+					"text" : "Generate normalized random numbers.",
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ]
 				}
 
 			}
@@ -320,7 +300,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 166.0, 24.0, 24.0 ],
-					"svg" : "",
 					"varname" : "toggle[2]"
 				}
 
@@ -331,8 +310,8 @@
 					"format" : 6,
 					"id" : "obj-9",
 					"maxclass" : "flonum",
-					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -349,8 +328,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.640615909090684, 369.047930985689163, 55.0, 23.0 ],
-					"text" : "curve $1"
+					"patching_rect" : [ 280.640615909090684, 369.047930985689163, 49.0, 23.0 ],
+					"text" : "step $1"
 				}
 
 			}
@@ -411,14 +390,12 @@
 							"parameter_longname" : "toggle[1]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"svg" : "",
 					"varname" : "toggle"
 				}
 
@@ -643,7 +620,6 @@
 
 			}
  ],
-		"originid" : "pat-5630",
 		"parameters" : 		{
 			"obj-1::obj-11" : [ "live.numbox[41]", "live.numbox", 0 ],
 			"obj-1::obj-12" : [ "live.text[118]", "live.text", 0 ],
@@ -666,18 +642,10 @@
 			"obj-1::obj-6.1::obj-43" : [ "live.numbox[23]", "live.numbox", 0 ],
 			"obj-1::obj-67" : [ "live.numbox[368]", "live.numbox", 0 ],
 			"obj-2" : [ "toggle[1]", "toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-1::obj-11" : 				{
-					"parameter_longname" : "live.numbox[41]"
+					"parameter_longname" : "live.numbox[41]",
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-1::obj-12" : 				{
@@ -729,7 +697,9 @@
 				}
 ,
 				"obj-1::obj-6.1::obj-27" : 				{
-					"parameter_longname" : "live.numbox[32]"
+					"parameter_initial" : 1,
+					"parameter_longname" : "live.numbox[32]",
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-1::obj-6.1::obj-32" : 				{
@@ -750,6 +720,10 @@
 ,
 				"obj-1::obj-6.1::obj-43" : 				{
 					"parameter_longname" : "live.numbox[23]"
+				}
+,
+				"obj-1::obj-67" : 				{
+					"parameter_longname" : "live.numbox[368]"
 				}
 
 			}
