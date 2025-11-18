@@ -181,7 +181,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1]",
+                            "parameter_longname": "live.text[92]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -226,7 +226,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[2]",
+                            "parameter_longname": "live.text[65]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -366,14 +366,13 @@
                     "presentation_rect": [ 24.666666850447655, 66.66666716337204, 141.0, 12.0 ],
                     "saved_attribute_attributes": {
                         "slidercolor": {
-                            "expression": "themecolor.live_active_automation"
+                            "expression": "themecolor.live_alert"
                         }
                     },
                     "setminmax": [ 0.0, 1.0 ],
                     "signed": 1,
-                    "slidercolor": [ 1.0, 0.4, 0.3, 1.0 ],
+                    "slidercolor": [ 1.0, 0.490196078431373, 0.262745098039216, 1.0 ],
                     "spacing": 2,
-                    "thickness": 4,
                     "varname": "Slider-MS"
                 }
             },
@@ -825,7 +824,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[3]",
+                            "parameter_longname": "live.text[27]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -867,7 +866,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[5]",
+                            "parameter_longname": "live.text[28]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -911,7 +910,7 @@
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.text[6]",
+                            "parameter_longname": "live.text[25]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -955,7 +954,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[7]",
+                            "parameter_longname": "live.text[26]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1001,7 +1000,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[8]",
+                            "parameter_longname": "live.text[16]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1111,7 +1110,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
-                            "parameter_longname": "live.button[1]",
+                            "parameter_longname": "live.button[3]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.button",
@@ -1273,7 +1272,7 @@
                         "valueof": {
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[5]",
+                            "parameter_longname": "live.numbox[2]",
                             "parameter_mmax": 5.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.numbox",
@@ -1369,7 +1368,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[4]",
+                            "parameter_longname": "live.text[6]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",

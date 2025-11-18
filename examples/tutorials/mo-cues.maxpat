@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 96.0, 255.0, 488.0 ],
+        "rect": [ 34.0, 92.0, 253.0, 485.0 ],
         "openinpresentation": 1,
         "default_fontname": "Ableton Sans Medium",
         "gridonopen": 2,
@@ -262,11 +262,11 @@
                 "box": {
                     "fontname": "Ableton Sans Medium",
                     "id": "obj-73",
-                    "linecount": 3,
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 211.0, 373.92708333333326, 189.0, 50.0 ],
+                    "patching_rect": [ 211.0, 373.92708333333326, 201.0, 35.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 20.0, 147.0, 201.0, 35.0 ],
@@ -626,7 +626,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 288.75, 142.5, 76.0, 40.0 ],
+                    "patching_rect": [ 290.0, 143.0, 68.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 11.0, 97.0, 68.0, 40.0 ],
                     "text": "start timer"
@@ -954,6 +954,12 @@
                 },
                 "obj-52::obj-6": {
                     "parameter_longname": "live.text[20]"
+                },
+                "obj-6::obj-21": {
+                    "parameter_longname": "live.text[319]"
+                },
+                "obj-6::obj-4": {
+                    "parameter_longname": "live.text[318]"
                 }
             },
             "inherited_shortname": 1

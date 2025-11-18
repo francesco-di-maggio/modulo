@@ -1,187 +1,181 @@
 {
-	"pattrstorage" : 	{
-		"name" : "p-mo.lego",
-		"slots" : 		{
-			"1" : 			{
-				"id" : 1,
-				"data" : 				{
-					"mo.hslider::slider" : [ 0.908045977011494 ],
-					"mo.hslider::mute" : [ 0.0 ],
-					"mo.hslider::polarity" : [ 0.0 ],
-					"mo.hslider::color" : [ 0 ],
-					"mo.hslider::length" : [ 3.0 ],
-					"mo.hslider::style" : [ 0.0 ],
-					"mo.vrslider::rslider" : [ 0.226744186046512, 0.441860465116279 ],
-					"mo.vrslider::mute" : [ 0.0 ],
-					"mo.vrslider::color" : [ 4 ],
-					"mo.vrslider::length" : [ 3.0 ],
-					"mo.vslider::slider" : [ 0.862068965517241 ],
-					"mo.vslider::mute" : [ 0.0 ],
-					"mo.vslider::polarity" : [ 0.0 ],
-					"mo.vslider::color" : [ 3 ],
-					"mo.vslider::length" : [ 3.0 ],
-					"mo.vslider::style" : [ 0.0 ],
-					"mo.pad::mode" : [ 1.0 ],
-					"mo.pad::pad" : [ 0.0 ],
-					"mo.pad::mute" : [ 0.0 ],
-					"mo.pad::color" : [ 0 ],
-					"mo.dial::dial" : [ 0.029411764705882 ],
-					"mo.dial::mute" : [ 0.0 ],
-					"mo.dial::color" : [ 2 ],
-					"mo.dial::polarity" : [ 0.0 ],
-					"mo.vtab::voices" : [ 2.0 ],
-					"mo.vtab::mode" : [ 0.0 ],
-					"mo.vtab::tab" : [ 2 ],
-					"mo.vtab::mute" : [ 0.0 ],
-					"mo.led::led" : [ 0 ],
-					"mo.led::mute" : [ 0.0 ],
-					"mo.led::mode" : [ 1.0 ],
-					"mo.led::color" : [ 0 ],
-					"mo.number[2]::mode" : [ 2 ],
-					"mo.number[2]::number" : [ 4444.0 ],
-					"mo.number[2]::mute" : [ 0.0 ],
-					"mo.smooth::amount[1]" : [ 0.25 ],
-					"mo.smooth::mute" : [ 0.0 ],
-					"mo.noteout::port" : [ 1 ],
-					"mo.noteout::channel" : [ 1.0 ],
-					"mo.noteout::note" : [ 64.0 ],
-					"mo.noteout::mute" : [ 0.0 ],
-					"mo.xypad::xypad" : [ 106, 28 ],
-					"mo.xypad::ylock" : [ 0.0 ],
-					"mo.xypad::xlock" : [ 0.0 ],
-					"mo.xypad::mute" : [ 0.0 ],
-					"mo.xypad::color" : [ 0 ],
-					"mo.xypad::knob" : [ 0.0 ],
-					"mo.xypad::length" : [ 2.0 ],
-					"mo.pipe[1]::time" : [ 1000.0 ],
-					"mo.pipe[1]::mute" : [ 0.0 ],
-					"mo.line::time" : [ 200.0 ],
-					"mo.scale::rate" : [ 200.0 ],
-					"mo.crosspatch::ins" : [ 3.0 ],
-					"mo.crosspatch::outs" : [ 3.0 ],
-					"mo.crosspatch::connect" : [ 0.0 ],
-					"mo.crosspatch::mute" : [ 0.0 ],
-					"mo.crosspatch::crosspatch" : [ 						{
-							"data" : 							{
-								"numins" : 3,
-								"numouts" : 3,
-								"connections" : [ 									{
-										"in" : 0,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 2,
-										"out" : 1,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 1,
-										"out" : 2,
-										"gain" : 1.0
-									}
- ]
-							}
-
-						}
- ],
-					"mo.cue::mute" : [ 0.0 ],
-					"mo.cue::goto" : [ 4.0 ]
-				}
-
-			}
-,
-			"2" : 			{
-				"id" : 2,
-				"data" : 				{
-					"mo.hslider::slider" : [ 0.14367816091954 ],
-					"mo.hslider::mute" : [ 0.0 ],
-					"mo.hslider::polarity" : [ 0.0 ],
-					"mo.hslider::color" : [ 7 ],
-					"mo.hslider::length" : [ 3.0 ],
-					"mo.hslider::style" : [ 0.0 ],
-					"mo.vrslider::rslider" : [ 0.441344059688186, 0.726244571463642 ],
-					"mo.vrslider::mute" : [ 0.0 ],
-					"mo.vrslider::color" : [ 11 ],
-					"mo.vrslider::length" : [ 3.0 ],
-					"mo.vslider::slider" : [ 0.37106664664753 ],
-					"mo.vslider::mute" : [ 0.0 ],
-					"mo.vslider::polarity" : [ 0.0 ],
-					"mo.vslider::color" : [ 13 ],
-					"mo.vslider::length" : [ 3.0 ],
-					"mo.vslider::style" : [ 0.0 ],
-					"mo.pad::mode" : [ 0.0 ],
-					"mo.pad::pad" : [ 1.0 ],
-					"mo.pad::mute" : [ 0.0 ],
-					"mo.pad::color" : [ 0 ],
-					"mo.dial::dial" : [ 0.760625342327449 ],
-					"mo.dial::mute" : [ 0.0 ],
-					"mo.dial::color" : [ 0 ],
-					"mo.dial::polarity" : [ 0.0 ],
-					"mo.vtab::voices" : [ 2.0 ],
-					"mo.vtab::mode" : [ 0.0 ],
-					"mo.vtab::tab" : [ 1 ],
-					"mo.vtab::mute" : [ 0.0 ],
-					"mo.led::led" : [ 1 ],
-					"mo.led::mute" : [ 0.0 ],
-					"mo.led::mode" : [ 1.0 ],
-					"mo.led::color" : [ 1 ],
-					"mo.number[2]::mode" : [ 2 ],
-					"mo.number[2]::number" : [ 20.0 ],
-					"mo.number[2]::mute" : [ 0.0 ],
-					"mo.smooth::amount[1]" : [ 0.75 ],
-					"mo.smooth::mute" : [ 0.0 ],
-					"mo.noteout::port" : [ 1 ],
-					"mo.noteout::channel" : [ 1.0 ],
-					"mo.noteout::note" : [ 90.0 ],
-					"mo.noteout::mute" : [ 0.0 ],
-					"mo.xypad::xypad" : [ 64, 105 ],
-					"mo.xypad::ylock" : [ 0.0 ],
-					"mo.xypad::xlock" : [ 0.0 ],
-					"mo.xypad::mute" : [ 0.0 ],
-					"mo.xypad::color" : [ 0 ],
-					"mo.xypad::knob" : [ 1.0 ],
-					"mo.xypad::length" : [ 2.0 ],
-					"mo.pipe[1]::time" : [ 2000.0 ],
-					"mo.pipe[1]::mute" : [ 0.0 ],
-					"mo.line::time" : [ 4000.0 ],
-					"mo.scale::rate" : [ 20.0 ],
-					"mo.crosspatch::ins" : [ 2.0 ],
-					"mo.crosspatch::outs" : [ 3.0 ],
-					"mo.crosspatch::connect" : [ 0.0 ],
-					"mo.crosspatch::mute" : [ 0.0 ],
-					"mo.crosspatch::crosspatch" : [ 						{
-							"data" : 							{
-								"numins" : 2,
-								"numouts" : 3,
-								"connections" : [ 									{
-										"in" : 0,
-										"out" : 2,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 1,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 1,
-										"out" : 1,
-										"gain" : 1.0
-									}
- ]
-							}
-
-						}
- ],
-					"mo.cue::mute" : [ 0.0 ],
-					"mo.cue::goto" : [ 20.0 ]
-				}
-
-			}
-
-		}
-
-	}
-
+    "pattrstorage": {
+        "name": "p-mo.lego",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "mo.hslider::slider": [ 0.908045977011494 ],
+                    "mo.hslider::mute": [ 0.0 ],
+                    "mo.hslider::polarity": [ 0.0 ],
+                    "mo.hslider::length": [ 3.0 ],
+                    "mo.hslider::style": [ 0.0 ],
+                    "mo.vrslider::rslider": [ 0.226744186046512, 0.441860465116279 ],
+                    "mo.vrslider::mute": [ 0.0 ],
+                    "mo.vrslider::color": [ 4 ],
+                    "mo.vrslider::length": [ 3.0 ],
+                    "mo.vslider::slider": [ 0.862068965517241 ],
+                    "mo.vslider::mute": [ 0.0 ],
+                    "mo.vslider::polarity": [ 0.0 ],
+                    "mo.vslider::length": [ 3.0 ],
+                    "mo.vslider::style": [ 0.0 ],
+                    "mo.pad::mode": [ 1.0 ],
+                    "mo.pad::pad": [ 0.0 ],
+                    "mo.pad::mute": [ 0.0 ],
+                    "mo.pad::type": [],
+                    "mo.dial::dial": [ 0.029411764705882 ],
+                    "mo.dial::mute": [ 0.0 ],
+                    "mo.dial::polarity": [ 0.0 ],
+                    "mo.vtab::voices": [ 2.0 ],
+                    "mo.vtab::mode": [ 0.0 ],
+                    "mo.vtab::tab": [ 2 ],
+                    "mo.vtab::mute": [ 0.0 ],
+                    "mo.led::led": [ 0 ],
+                    "mo.led::mute": [ 0.0 ],
+                    "mo.led::mode": [ 1.0 ],
+                    "mo.led::color": [ 0 ],
+                    "mo.number[2]::number": [ 4444.0 ],
+                    "mo.number[2]::mute": [ 0.0 ],
+                    "mo.smooth::amount": [],
+                    "mo.smooth::mute": [ 0.0 ],
+                    "mo.smooth::change::mo.denoise::threshold": [],
+                    "mo.smooth::change::mo.denoise::mute": [],
+                    "mo.noteout::port": [ 1 ],
+                    "mo.noteout::channel": [ 1.0 ],
+                    "mo.noteout::note": [ 64.0 ],
+                    "mo.noteout::mute": [ 0.0 ],
+                    "mo.xypad::xypad": [ 106, 28 ],
+                    "mo.xypad::ylock": [ 0.0 ],
+                    "mo.xypad::xlock": [ 0.0 ],
+                    "mo.xypad::mute": [ 0.0 ],
+                    "mo.xypad::color": [ 0 ],
+                    "mo.xypad::knob": [ 0.0 ],
+                    "mo.xypad::length": [ 2.0 ],
+                    "mo.pipe[1]::time": [ 1000.0 ],
+                    "mo.pipe[1]::mute": [ 0.0 ],
+                    "mo.line::time": [ 200.0 ],
+                    "mo.scale::rate": [ 200.0 ],
+                    "mo.preset::dummy": [],
+                    "mo.crosspatch::ins": [ 3.0 ],
+                    "mo.crosspatch::outs": [ 3.0 ],
+                    "mo.crosspatch::connect": [ 0.0 ],
+                    "mo.crosspatch::mute": [ 0.0 ],
+                    "mo.crosspatch::crosspatch": [
+                        {
+                            "data": {
+                                "numins": 3,
+                                "numouts": 3,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "mo.cue::mute": [ 0.0 ],
+                    "mo.cue::goto": [ 4.0 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "mo.hslider::slider": [ 0.14367816091954 ],
+                    "mo.hslider::mute": [ 0.0 ],
+                    "mo.hslider::polarity": [ 0.0 ],
+                    "mo.hslider::length": [ 3.0 ],
+                    "mo.hslider::style": [ 0.0 ],
+                    "mo.vrslider::rslider": [ 0.441344059688186, 0.726244571463642 ],
+                    "mo.vrslider::mute": [ 0.0 ],
+                    "mo.vrslider::color": [ 11 ],
+                    "mo.vrslider::length": [ 3.0 ],
+                    "mo.vslider::slider": [ 0.37106664664753 ],
+                    "mo.vslider::mute": [ 0.0 ],
+                    "mo.vslider::polarity": [ 0.0 ],
+                    "mo.vslider::length": [ 3.0 ],
+                    "mo.vslider::style": [ 0.0 ],
+                    "mo.pad::mode": [ 0.0 ],
+                    "mo.pad::pad": [ 1.0 ],
+                    "mo.pad::mute": [ 0.0 ],
+                    "mo.pad::type": [ 0.0 ],
+                    "mo.dial::dial": [ 0.760625342327449 ],
+                    "mo.dial::mute": [ 0.0 ],
+                    "mo.dial::polarity": [ 0.0 ],
+                    "mo.vtab::voices": [ 2.0 ],
+                    "mo.vtab::mode": [ 0.0 ],
+                    "mo.vtab::tab": [ 1 ],
+                    "mo.vtab::mute": [ 0.0 ],
+                    "mo.led::led": [ 1 ],
+                    "mo.led::mute": [ 0.0 ],
+                    "mo.led::mode": [ 1.0 ],
+                    "mo.led::color": [ 3 ],
+                    "mo.number[2]::number": [ 20.0 ],
+                    "mo.number[2]::mute": [ 0.0 ],
+                    "mo.smooth::amount": [ 0.5 ],
+                    "mo.smooth::mute": [ 0.0 ],
+                    "mo.smooth::change::mo.denoise::threshold": [ 0.005 ],
+                    "mo.smooth::change::mo.denoise::mute": [ 0.0 ],
+                    "mo.noteout::port": [ 1 ],
+                    "mo.noteout::channel": [ 1.0 ],
+                    "mo.noteout::note": [ 90.0 ],
+                    "mo.noteout::mute": [ 0.0 ],
+                    "mo.xypad::xypad": [ 64, 105 ],
+                    "mo.xypad::ylock": [ 0.0 ],
+                    "mo.xypad::xlock": [ 0.0 ],
+                    "mo.xypad::mute": [ 0.0 ],
+                    "mo.xypad::color": [ 0 ],
+                    "mo.xypad::knob": [ 1.0 ],
+                    "mo.xypad::length": [ 2.0 ],
+                    "mo.pipe[1]::time": [ 2000.0 ],
+                    "mo.pipe[1]::mute": [ 0.0 ],
+                    "mo.line::time": [ 4000.0 ],
+                    "mo.scale::rate": [ 20.0 ],
+                    "mo.preset::dummy": [ 0 ],
+                    "mo.crosspatch::ins": [ 2.0 ],
+                    "mo.crosspatch::outs": [ 3.0 ],
+                    "mo.crosspatch::connect": [ 0.0 ],
+                    "mo.crosspatch::mute": [ 0.0 ],
+                    "mo.crosspatch::crosspatch": [
+                        {
+                            "data": {
+                                "numins": 2,
+                                "numouts": 3,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "mo.cue::mute": [ 0.0 ],
+                    "mo.cue::goto": [ 20.0 ]
+                }
+            }
+        }
+    }
 }

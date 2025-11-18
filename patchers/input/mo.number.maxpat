@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 70.0, 70.0 ],
+        "rect": [ 0.0, 58.0, 1406.0, 840.0 ],
         "openrect": [ 0.0, 0.0, 70.0, 70.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -98,7 +98,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1428]",
+                            "parameter_longname": "live.text[27]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -142,7 +142,7 @@
                             "parameter_modmode": 4,
                             "parameter_shortname": "live.numbox",
                             "parameter_type": 0,
-                            "parameter_unitstyle": 5
+                            "parameter_unitstyle": 0
                         }
                     },
                     "varname": "number-"
@@ -314,7 +314,7 @@
                 "box": {
                     "comment": "(int, float) number",
                     "id": "obj-7",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -326,7 +326,7 @@
                 "box": {
                     "comment": "(message) mode, mute",
                     "id": "obj-12",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -382,7 +382,7 @@
                 "box": {
                     "comment": "(int, float) number",
                     "id": "obj-98",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -593,20 +593,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-39": [ "live.numbox[286]", "live.numbox", 0 ],
-            "obj-6": [ "live.text[1428]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }
