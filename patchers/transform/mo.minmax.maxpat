@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 59.0, 1886.0, 987.0 ],
+        "rect": [ 0.0, 58.0, 70.0, 96.0 ],
         "openrect": [ 0.0, 0.0, 70.0, 96.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -688,11 +688,11 @@
                 "box": {
                     "comment": "(int) turn calibration on/off, (message) min, max, polarity, invert, mute",
                     "id": "obj-3",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "bang" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 333.54998779296875, 23.0, 30.0, 30.0 ]
                 }
             },
@@ -712,7 +712,7 @@
                 "box": {
                     "comment": "(list) minimum and maximum range",
                     "id": "obj-53",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -740,7 +740,7 @@
                 "box": {
                     "comment": "(list) calibrated",
                     "id": "obj-98",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -751,7 +751,7 @@
                 "box": {
                     "comment": "(list) to calibrate",
                     "id": "obj-32",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1519,6 +1519,23 @@
                     "source": [ "obj-93", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-13": [ "live.text[1078]", "live.text", 0 ],
+            "obj-16": [ "live.text[1043]", "live.text", 0 ],
+            "obj-18": [ "live.text[1044]", "live.text", 0 ],
+            "obj-37": [ "live.text[1042]", "live.text", 0 ],
+            "obj-8": [ "live.numbox[342]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

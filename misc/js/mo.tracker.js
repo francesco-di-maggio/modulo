@@ -1,5 +1,6 @@
-// mo.traker.js 
-// for OSC (under development)
+// OSC device tracker
+// ® Francesco Di Maggio
+// Last modified: 1/10/2025
 
 // How long (ms) to consider a device alive without updates
 var TIMEOUT_MS = 2000;

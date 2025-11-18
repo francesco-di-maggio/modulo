@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 92.0, 1372.0, 806.0 ],
+        "rect": [ 34.0, 92.0, 214.0, 15.0 ],
         "openrect": [ 0.0, 0.0, 214.0, 15.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -505,7 +505,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-5",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -517,7 +517,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-4",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -552,7 +552,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-2",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -845,6 +845,22 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-15": [ "live.text[535]", "live.text", 0 ],
+            "obj-18": [ "live.text[527]", "live.text", 0 ],
+            "obj-48": [ "live.text[1371]", "live.text", 0 ],
+            "obj-8": [ "live.text[626]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

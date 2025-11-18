@@ -96,7 +96,7 @@
                 "box": {
                     "comment": "(anything) transmitter",
                     "id": "obj-10",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -272,7 +272,7 @@
                 "box": {
                     "comment": "(anything) receiver",
                     "id": "obj-9",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -546,8 +546,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 34.0, 100.0, 227.0, 325.0 ],
-                                        "visible": 1,
+                                        "rect": [ 34.0, 92.0, 227.0, 325.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -904,7 +903,7 @@
                 "box": {
                     "comment": "(message) refresh, port, baud, mute",
                     "id": "obj-47",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -948,7 +947,7 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.5,
                     "id": "obj-49",
-                    "items": [ "debug-console", ",", "CMFBudsPro2", ",", "Bluetooth-Incoming-Port" ],
+                    "items": [ "debug-console", ",", "CMFBudsPro2", ",", "CMFHeadphonePro", ",", "Bluetooth-Incoming-Port" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -1270,6 +1269,20 @@
                     "source": [ "obj-73", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-1": [ "live.text[34]", "live.text", 0 ],
+            "obj-6": [ "live.text[245]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

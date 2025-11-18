@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 1406.0, 840.0 ],
+        "rect": [ 0.0, 58.0, 214.0, 70.0 ],
         "openrect": [ 0.0, 0.0, 214.0, 70.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -91,7 +91,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-32",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -198,7 +198,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 344.0, 218.0, 838.0, 510.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -484,7 +483,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 76.0, 290.22077733221397, 50.0, 23.0 ]
+                                    "patching_rect": [ 76.0, 290.22077733221397, 50.0, 22.0 ]
                                 }
                             },
                             {
@@ -571,7 +570,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 76.0, 61.50000000000003, 50.0, 23.0 ]
+                                    "patching_rect": [ 76.0, 61.50000000000003, 50.0, 22.0 ]
                                 }
                             },
                             {
@@ -1447,7 +1446,7 @@
                 "box": {
                     "comment": "(int) number of tabs, (message) mode, items, rand, reset, mute",
                     "id": "obj-24",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1481,7 +1480,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-28",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1521,7 +1520,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-2",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1973,6 +1972,14 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-29": [ "live.numbox[389]", "live.numbox", 0 ],
+            "obj-31": [ "live.text[685]", "live.text", 0 ],
+            "obj-38": [ "live.text[461]", "live.text", 0 ],
+            "obj-6": [ "live.text[13]", "live.text", 0 ],
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

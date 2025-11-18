@@ -1,4 +1,3 @@
-
 // Resize bpatcher on load
 // ® Francesco Di Maggio
 // Last modified: 1/03/2024

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 92.0, 1372.0, 806.0 ],
+        "rect": [ 34.0, 92.0, 215.0, 15.0 ],
         "openrect": [ 0.0, 0.0, 215.0, 15.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -168,7 +168,7 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.5,
                     "id": "obj-11",
-                    "items": [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2", ",", "TESI 1" ],
+                    "items": [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UMC1820", ",", "from Max 1", ",", "from Max 2" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -421,7 +421,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 667.0, 371.0, 141.0, 23.0 ],
-                    "restore": [ "TESI 1" ],
+                    "restore": [ "IAC Driver Bus 1" ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -553,7 +553,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-2",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -591,7 +591,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-50",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -845,6 +845,23 @@
                     "source": [ "obj-79", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-35": [ "live.text[664]", "live.text", 0 ],
+            "obj-53": [ "live.text[828]", "live.text", 0 ],
+            "obj-66": [ "live.numbox[100]", "live.numbox", 0 ],
+            "obj-68": [ "live.numbox[99]", "live.numbox", 0 ],
+            "obj-72": [ "live.numbox[162]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

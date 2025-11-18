@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 100.0, 131.0, 70.0, 70.0 ],
+        "rect": [ 0.0, 58.0, 70.0, 70.0 ],
         "openrect": [ 0.0, 0.0, 70.0, 70.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -105,8 +105,8 @@
                             "parameter_type": 2
                         }
                     },
-                    "text": "battery",
-                    "texton": "battery",
+                    "text": "number",
+                    "texton": "number",
                     "varname": "mute-"
                 }
             },
@@ -314,7 +314,7 @@
                 "box": {
                     "comment": "(int, float) number",
                     "id": "obj-7",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -326,7 +326,7 @@
                 "box": {
                     "comment": "(message) mode, mute",
                     "id": "obj-12",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -382,7 +382,7 @@
                 "box": {
                     "comment": "(int, float) number",
                     "id": "obj-98",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -593,6 +593,20 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-39": [ "live.numbox[286]", "live.numbox", 0 ],
+            "obj-6": [ "live.text[1428]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }
