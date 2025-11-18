@@ -56,9 +56,9 @@ If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.githu
 	cd ~/Documents/Max\ 8/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
-Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the ```Max 8 > Packages``` search path:
+Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the ```Max 9 > Packages``` search path:
 
-* `~/Documents/Max\ 8/Packages`
+* `~/Documents/Max\ 9/Packages`
 
 ## Get Started
 
