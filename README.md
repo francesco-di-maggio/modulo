@@ -53,7 +53,7 @@ Search for ```modulo``` in the Max Package Manager or find it under the Featured
 
 If you have [Git](http://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/) installed, you can clone this repo via Terminal using the following commands:
 
-	cd ~/Documents/Max\ 8/Packages
+	cd ~/Documents/Max\ 9/Packages
 	git clone https://github.com/francesco-di-maggio/modulo
 
 Alternatively, you can download the latest release [here](https://github.com/francesco-di-maggio/modulo), and place it in the ```Max 9 > Packages``` search path:
