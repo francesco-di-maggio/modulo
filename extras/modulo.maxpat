@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 62.0, 730.0, 730.0 ],
+        "rect": [ 34.0, 58.0, 730.0, 730.0 ],
         "openrect": [ 0.0, 0.0, 730.0, 730.0 ],
         "openrectmode": 0,
         "bglocked": 1,
@@ -2461,12 +2461,23 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-1",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 133.0, 57.5, 55.0, 23.0 ],
+                                    "text": "deferlow"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-10",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 133.0, 213.0, 56.0, 23.0 ],
+                                    "patching_rect": [ 133.0, 244.0, 56.0, 23.0 ],
                                     "text": "route list"
                                 }
                             },
@@ -2477,7 +2488,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 133.0, 176.0, 223.0, 23.0 ],
+                                    "patching_rect": [ 133.0, 207.0, 223.0, 23.0 ],
                                     "text": "mo.slide @up 300 @down 300 @rate 10",
                                     "varname": "mo.slide"
                                 }
@@ -2489,7 +2500,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 133.0, 98.0, 55.0, 23.0 ],
+                                    "patching_rect": [ 133.0, 129.0, 55.0, 23.0 ],
                                     "text": "onoff $1"
                                 }
                             },
@@ -2500,7 +2511,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 133.0, 139.0, 232.0, 23.0 ],
+                                    "patching_rect": [ 133.0, 170.0, 232.0, 23.0 ],
                                     "text": "mo.rand 2 @rate 10000 @probability 100",
                                     "varname": "mo.rand[1]"
                                 }
@@ -2513,7 +2524,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "int" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 133.0, 62.0, 24.0, 24.0 ]
+                                    "patching_rect": [ 133.0, 93.0, 24.0, 24.0 ]
                                 }
                             },
                             {
@@ -2534,7 +2545,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 43.0, 213.0, 78.0, 23.0 ],
+                                    "patching_rect": [ 43.0, 244.0, 78.0, 23.0 ],
                                     "text": "loadmess 0 0"
                                 }
                             },
@@ -2546,7 +2557,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 20.0, 63.0, 24.0, 24.0 ]
+                                    "patching_rect": [ 20.0, 94.0, 24.0, 24.0 ]
                                 }
                             },
                             {
@@ -2557,7 +2568,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 51.0, 63.0, 50.0, 23.0 ]
+                                    "patching_rect": [ 51.0, 94.0, 50.0, 23.0 ]
                                 }
                             },
                             {
@@ -2854,7 +2865,7 @@
                                             }
                                         ]
                                     },
-                                    "patching_rect": [ 20.0, 139.0, 50.0, 23.0 ],
+                                    "patching_rect": [ 20.0, 170.0, 50.0, 23.0 ],
                                     "saved_object_attributes": {
                                         "fontname": "Ableton Sans Medium"
                                     },
@@ -2869,78 +2880,83 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 20.0, 266.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 20.0, 297.0, 30.0, 30.0 ]
                                 }
                             }
                         ],
                         "lines": [
                             {
                                 "patchline": {
+                                    "destination": [ "obj-4", 0 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-46", 0 ],
-                                    "midpoints": [ 142.5, 252.0, 29.5, 252.0 ],
+                                    "midpoints": [ 142.5, 283.0, 29.5, 283.0 ],
                                     "source": [ "obj-10", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-4", 0 ],
-                                    "midpoints": [ 142.5, 48.0, 142.5, 48.0 ],
+                                    "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-11", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-46", 0 ],
-                                    "midpoints": [ 29.5, 165.0, 29.5, 165.0 ],
+                                    "midpoints": [ 29.5, 196.0, 29.5, 196.0 ],
                                     "source": [ "obj-2", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-10", 0 ],
-                                    "midpoints": [ 142.5, 201.0, 142.5, 201.0 ],
+                                    "midpoints": [ 142.5, 232.0, 142.5, 232.0 ],
                                     "source": [ "obj-26", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-9", 0 ],
-                                    "midpoints": [ 142.5, 123.0, 142.5, 123.0 ],
+                                    "midpoints": [ 142.5, 154.0, 142.5, 154.0 ],
                                     "source": [ "obj-3", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-3", 0 ],
-                                    "midpoints": [ 142.5, 87.0, 142.5, 87.0 ],
+                                    "midpoints": [ 142.5, 118.0, 142.5, 118.0 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-46", 0 ],
-                                    "midpoints": [ 52.5, 252.0, 29.5, 252.0 ],
+                                    "midpoints": [ 52.5, 282.0, 29.5, 282.0 ],
                                     "source": [ "obj-5", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-2", 1 ],
-                                    "midpoints": [ 60.5, 87.0, 60.5, 87.0 ],
+                                    "midpoints": [ 60.5, 118.0, 60.5, 118.0 ],
                                     "source": [ "obj-6", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
-                                    "midpoints": [ 29.5, 90.0, 29.5, 90.0 ],
+                                    "midpoints": [ 29.5, 121.0, 29.5, 121.0 ],
                                     "source": [ "obj-8", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-26", 0 ],
-                                    "midpoints": [ 142.5, 165.0, 142.5, 165.0 ],
+                                    "midpoints": [ 142.5, 196.0, 142.5, 196.0 ],
                                     "source": [ "obj-9", 0 ]
                                 }
                             }
@@ -4464,7 +4480,6 @@
                                         }
                                     },
                                     "text": "… CLICK ON ANY EXAMPLE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                                     "textjustification": 1
                                 }
                             },
@@ -4701,7 +4716,6 @@
                                         }
                                     },
                                     "text": "… CLICK ON ANY MODULE TO SEE ITS DESCRIPTION… DOUBLE-CLICK TO OPEN IT…",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                                     "textjustification": 1
                                 }
                             },
@@ -5153,8 +5167,7 @@
                                             "expression": "themecolor.live_control_fg"
                                         }
                                     },
-                                    "text": "Instruments and interfaces using different type of inputs, and direct mapping.",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                                    "text": "Instruments and interfaces using different type of inputs, and direct mapping."
                                 }
                             },
                             {
@@ -5174,8 +5187,7 @@
                                             "expression": "themecolor.live_control_fg"
                                         }
                                     },
-                                    "text": "Arrange, display and map input data, such as numbers, pads, sliders, and dials.",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                                    "text": "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
                                 }
                             },
                             {
@@ -5352,8 +5364,7 @@
                                             "expression": "themecolor.live_control_fg"
                                         }
                                     },
-                                    "text": "Select a kind…",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                                    "text": "Select a kind…"
                                 }
                             },
                             {
@@ -5580,8 +5591,7 @@
                                             "expression": "themecolor.live_control_fg"
                                         }
                                     },
-                                    "text": "Select a category…",
-                                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                                    "text": "Select a category…"
                                 }
                             },
                             {
@@ -5973,8 +5983,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "(2025)",
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                    "text": "(2025)"
                 }
             },
             {
@@ -6046,8 +6055,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "A Toolkit for Tinkering with Digital Musical Instruments",
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                    "text": "A Toolkit for Tinkering with Digital Musical Instruments"
                 }
             },
             {
@@ -6066,8 +6074,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "Created by",
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                    "text": "Created by"
                 }
             },
             {
@@ -6086,8 +6093,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "modulo",
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                    "text": "modulo"
                 }
             },
             {
@@ -6127,8 +6133,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow. Happy patching!",
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ]
+                    "text": "Think of it as a LEGO set for your musical ideas. Each module is designed with simplicity and versatility in mind, where core functionalities (and patching) are housed within a compact and user-friendly interface. You can mix, match, customize and extend your own musical tools in a modular and multichannel workflow. Happy patching!"
                 }
             },
             {

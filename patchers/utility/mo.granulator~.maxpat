@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 430.0, 170.0 ],
+        "rect": [ 0.0, 58.0, 1406.0, 840.0 ],
         "openrect": [ 0.0, 0.0, 430.0, 169.97590339183807 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -34,7 +34,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 595.0, 825.0, 95.5, 15.5 ],
                     "presentation": 1,
-                    "presentation_rect": [ 323.28520652651787, 61.0261927704438, 102.7747109031227, 13.740740850567818 ],
+                    "presentation_rect": [ 323.43095549941063, 61.08786481618881, 102.7747109031227, 13.740740850567818 ],
                     "proportion": 0.5,
                     "rounded": 0
                 }
@@ -82,6 +82,7 @@
                             "expression": "themecolor.live_control_text_selection"
                         }
                     },
+                    "text": "granulator",
                     "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "textjustification": 1,
                     "varname": "set-"
@@ -1033,7 +1034,7 @@
                 "box": {
                     "comment": "(mc.~) input",
                     "id": "obj-160",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1367,8 +1368,7 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-                    "appearance": 2,
+                    "activebgcolor": [ 0.596078431372549, 0.7215686274509804, 0.9294117647058824, 0.0 ],
                     "bordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "focusbordercolor": [ 0.313725, 0.313725, 0.313725, 0.0 ],
                     "id": "obj-236",
@@ -1382,7 +1382,7 @@
                     "presentation_rect": [ 305.5, 43.12240529214887, 64.71255061030388, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
-                            "expression": "themecolor.live_value_bar"
+                            "expression": ""
                         },
                         "bordercolor": {
                             "expression": ""
@@ -1453,7 +1453,13 @@
                     "presentation": 1,
                     "presentation_rect": [ 323.28520652651787, 60.34701364590967, 101.7747109031227, 15.099099099636078 ],
                     "rounded": 0.0,
-                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_control_fg"
+                        }
+                    },
+                    "text": "brushes",
+                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "textjustification": 1,
                     "varname": "buffer-"
                 }
@@ -1740,15 +1746,15 @@
                     "orientation": 0,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 807.58609, 1227.2594967893706, 160.0, 15.0 ],
+                    "patching_rect": [ 805.0, 1227.0, 160.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 36.0, 299.0, 58.0 ],
+                    "presentation_rect": [ 6.5, 30.0, 296.0, 58.0 ],
                     "saved_attribute_attributes": {
                         "slidercolor": {
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "setminmax": [ 0.0, 4000.0 ],
+                    "setminmax": [ 0.0, 9317.34693877551 ],
                     "signed": 1,
                     "slidercolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "spacing": 3,
@@ -1935,7 +1941,7 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.5,
                     "grid": 100.0,
-                    "gridcolor": [ 0.85, 0.85, 0.85, 1.0 ],
+                    "gridcolor": [ 0.8509803921568627, 0.8509803921568627, 0.8509803921568627, 0.0 ],
                     "id": "obj-16",
                     "maxclass": "waveform~",
                     "numinlets": 5,
@@ -1943,16 +1949,16 @@
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
                     "patching_rect": [ 641.1285005918568, 124.0, 252.0833334326744, 64.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.475380092859268, 27.70512606657394, 297.712210804224, 38.92164553103248 ],
+                    "presentation_rect": [ 6.600000098347664, 27.80000041425228, 295.2000043988228, 38.800000578165054 ],
                     "saved_attribute_attributes": {
-                        "gridcolor": {
+                        "waveformcolor": {
                             "expression": "themecolor.live_control_fg"
                         }
                     },
                     "selectalpha": 1.0,
-                    "selectioncolor": [ 1.0, 1.0, 1.0, 0.6 ],
+                    "selectioncolor": [ 0.349849, 0.762402, 0.944628, 0.6 ],
                     "setmode": 1,
-                    "waveformcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                    "waveformcolor": [ 0.85, 0.85, 0.85, 1.0 ]
                 }
             },
             {
@@ -2346,7 +2352,7 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.5,
                     "grid": 100.0,
-                    "gridcolor": [ 0.85, 0.85, 0.85, 1.0 ],
+                    "gridcolor": [ 0.8509803921568627, 0.8509803921568627, 0.8509803921568627, 0.0 ],
                     "id": "obj-134",
                     "labels": 0,
                     "maxclass": "waveform~",
@@ -2355,18 +2361,18 @@
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
                     "patching_rect": [ 919.6979449204033, 124.0, 252.0833334326743, 64.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.443627201020717, 73.0712160602634, 297.74396369606256, 16.609130914012553 ],
+                    "presentation_rect": [ 6.600000098347664, 73.200001090765, 295.2000043988228, 16.600000247359276 ],
                     "ruler": 0,
                     "saved_attribute_attributes": {
-                        "gridcolor": {
+                        "waveformcolor": {
                             "expression": "themecolor.live_control_fg"
                         }
                     },
                     "selectalpha": 1.0,
-                    "selectioncolor": [ 1.0, 1.0, 1.0, 0.6 ],
+                    "selectioncolor": [ 0.349849, 0.762402, 0.944628, 0.6 ],
                     "setmode": 2,
                     "vticks": 0,
-                    "waveformcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                    "waveformcolor": [ 0.85, 0.85, 0.85, 1.0 ]
                 }
             },
             {
@@ -2837,7 +2843,7 @@
                 "box": {
                     "comment": "(list) mode, playpos, stretch, randpos, playstop, graindur. transp, aleaoct, quant, panrand, gain",
                     "id": "obj-45",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -4216,7 +4222,7 @@
                 "box": {
                     "comment": "(mc.~) stereo output",
                     "id": "obj-208",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -4559,7 +4565,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 660.0036821723755, 1376.2594967893706, 115.24812278476657, 37.0 ],
-                    "restore": [ 100.0 ],
+                    "restore": [ 100.301 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -4597,7 +4603,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 397.8847205648638, 1376.2594967893706, 110.00000000000006, 37.0 ],
-                    "restore": [ 0.0 ],
+                    "restore": [ 336.6213268399859 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -4635,7 +4641,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 160.9022671098984, 1376.2594967893706, 108.06991451723269, 37.0 ],
-                    "restore": [ 0.0 ],
+                    "restore": [ 8991.451558273611 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -5578,7 +5584,7 @@
                             "parameter_initial": [ 0 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "live.numbox[653]",
-                            "parameter_mmax": 4000.0,
+                            "parameter_mmax": 9317.34693877551,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[12]",
                             "parameter_type": 0,
@@ -5773,7 +5779,7 @@
                         "valueof": {
                             "parameter_exponent": 3.333,
                             "parameter_longname": "live.numbox[649]",
-                            "parameter_mmax": 4000.0,
+                            "parameter_mmax": 9317.34693877551,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.dial[12]",
                             "parameter_type": 0,
@@ -8859,7 +8865,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-106", 0 ],
-                    "midpoints": [ 694.5, 1224.0, 817.08609, 1224.0 ],
+                    "midpoints": [ 694.5, 1224.0, 814.5, 1224.0 ],
                     "source": [ "obj-108", 0 ]
                 }
             },
@@ -8986,7 +8992,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-106", 0 ],
-                    "midpoints": [ 817.08609, 1215.0, 817.08609, 1215.0 ],
+                    "midpoints": [ 817.08609, 1215.0, 814.5, 1215.0 ],
                     "source": [ "obj-115", 0 ]
                 }
             },
@@ -10427,39 +10433,6 @@
                     "source": [ "obj-93", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-10": [ "live.numbox[646]", "live.dial[12]", 0 ],
-            "obj-136": [ "live.text[687]", "live.text", 0 ],
-            "obj-152": [ "live.text[640]", "live.text", 0 ],
-            "obj-155": [ "live.numbox[647]", "live.dial[12]", 0 ],
-            "obj-161": [ "live.numbox[653]", "live.dial[12]", 0 ],
-            "obj-163": [ "live.text[638]", "live.text", 0 ],
-            "obj-166": [ "live.numbox[651]", "live.dial[12]", 0 ],
-            "obj-167": [ "live.numbox[481]", "live.dial[12]", 0 ],
-            "obj-168": [ "live.dial[43]", "live.dial[12]", 0 ],
-            "obj-169": [ "live.numbox[649]", "live.dial[12]", 0 ],
-            "obj-171": [ "live.numbox[650]", "live.dial[12]", 0 ],
-            "obj-185": [ "live.numbox[648]", "live.dial[12]", 0 ],
-            "obj-188": [ "live.text[688]", "live.text", 0 ],
-            "obj-19": [ "live.numbox[652]", "live.dial[12]", 0 ],
-            "obj-236": [ "live.numbox[645]", "live.dial[12]", 0 ],
-            "obj-245": [ "live.text[641]", "live.text", 0 ],
-            "obj-247": [ "live.text[712]", "live.text", 0 ],
-            "obj-248": [ "live.text[713]", "live.text", 0 ],
-            "obj-249": [ "live.text[639]", "live.text", 0 ],
-            "obj-5": [ "live.text[714]", "live.text", 0 ],
-            "obj-88": [ "live.text[1021]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

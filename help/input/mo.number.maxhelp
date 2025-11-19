@@ -315,14 +315,6 @@
         "parameters": {
             "obj-1::obj-39": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-1::obj-6": [ "live.text[27]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-39": {
                     "parameter_longname": "live.numbox[1]",

@@ -381,7 +381,7 @@
             },
             {
                 "box": {
-                    "args": [ 10, "@rate", 4000 ],
+                    "args": [ 10, "@rate", 1000, 4000 ],
                     "bgmode": 0,
                     "border": 1,
                     "clickthrough": 0,
@@ -653,6 +653,14 @@
             "obj-78::obj-20": [ "live.text[259]", "live.text", 0 ],
             "obj-78::obj-31": [ "live.text[642]", "live.text", 0 ],
             "obj-78::obj-56": [ "live.numbox[503]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-39": {
                     "parameter_unitstyle": 1

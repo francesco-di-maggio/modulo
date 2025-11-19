@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 96.0, 455.0, 539.0 ],
+        "rect": [ 34.0, 95.0, 455.0, 539.0 ],
         "gridonopen": 2,
         "gridsize": [ 10.0, 10.0 ],
         "subpatcher_template": " ",
@@ -419,6 +419,14 @@
             "obj-5::obj-74::obj-18": [ "live.text[3]", "live.text", 0 ],
             "obj-5::obj-74::obj-48": [ "live.text[1]", "live.text", 0 ],
             "obj-5::obj-74::obj-8": [ "live.text[2]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-5::obj-107::obj-15": {
                     "parameter_longname": "live.text[8]"

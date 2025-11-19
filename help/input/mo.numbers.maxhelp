@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 95.0, 568.0, 625.0 ],
+        "rect": [ 34.0, 96.0, 568.0, 625.0 ],
         "gridonopen": 2,
         "gridsize": [ 10.0, 10.0 ],
         "subpatcher_template": " ",
@@ -419,14 +419,6 @@
             "obj-13::obj-74::obj-20": [ "Show Particle Settings[1]", "live.text", 0 ],
             "obj-13::obj-74::obj-35": [ "live.text[1]", "live.text", 0 ],
             "obj-4": [ "number", "number", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-13::obj-107::obj-20": {
                     "parameter_longname": "Show Particle Settings[2]"
