@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -220,10 +220,16 @@
             }
         ],
         "parameters": {
-            "obj-16::obj-125::obj-6::obj-12": [ "live.text[116]", "live.text", 0 ],
-            "obj-16::obj-125::obj-6::obj-13": [ "live.numbox[253]", "live.numbox", 0 ],
             "obj-16::obj-13": [ "live.numbox[12]", "live.numbox", 0 ],
             "obj-16::obj-15": [ "live.text[25]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-16::obj-13": {
                     "parameter_longname": "live.numbox[12]"

@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -432,26 +432,34 @@
             }
         ],
         "parameters": {
-            "obj-16::obj-125::obj-6::obj-12": [ "live.text[116]", "live.text", 0 ],
-            "obj-16::obj-125::obj-6::obj-13": [ "live.numbox[253]", "live.numbox", 0 ],
             "obj-16::obj-21": [ "live.text[1]", "live.text", 0 ],
             "obj-16::obj-3": [ "live.text[526]", "live.text", 0 ],
             "obj-16::obj-4": [ "live.text[2]", "live.numbox", 0 ],
             "obj-16::obj-59": [ "live.numbox[2]", "live.numbox", 0 ],
             "obj-16::obj-6": [ "live.numbox[4]", "live.numbox", 0 ],
             "obj-16::obj-9": [ "live.numbox[3]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-16::obj-21": {
                     "parameter_longname": "live.text[1]"
                 },
                 "obj-16::obj-4": {
-                    "parameter_longname": "live.text[2]"
+                    "parameter_longname": "live.text[2]",
+                    "parameter_range": [ 0.0, 500.0 ]
                 },
                 "obj-16::obj-59": {
                     "parameter_longname": "live.numbox[2]"
                 },
                 "obj-16::obj-6": {
-                    "parameter_longname": "live.numbox[4]"
+                    "parameter_longname": "live.numbox[4]",
+                    "parameter_range": [ 0.0, 500.0 ]
                 },
                 "obj-16::obj-9": {
                     "parameter_longname": "live.numbox[3]"
