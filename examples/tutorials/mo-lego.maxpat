@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -573,8 +573,6 @@
             "obj-21::obj-35": [ "live.text[240]", "live.text", 0 ],
             "obj-21::obj-38": [ "live.text[3]", "live.text", 0 ],
             "obj-21::obj-56": [ "live.numbox[6]", "live.numbox", 0 ],
-            "obj-25::obj-125::obj-6::obj-12": [ "live.text[116]", "live.text", 0 ],
-            "obj-25::obj-125::obj-6::obj-13": [ "live.numbox[253]", "live.numbox", 0 ],
             "obj-25::obj-13": [ "live.numbox[202]", "live.numbox", 0 ],
             "obj-25::obj-15": [ "live.text[136]", "live.text", 0 ],
             "obj-28::obj-39": [ "live.numbox[286]", "live.numbox", 0 ],
@@ -605,6 +603,14 @@
             "obj-5::obj-56": [ "live.numbox[503]", "live.numbox", 0 ],
             "obj-7::obj-13": [ "live.numbox[298]", "live.numbox", 0 ],
             "obj-7::obj-9": [ "live.text[530]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-1": {
                     "parameter_longname": "live.text[676]"
@@ -644,6 +650,9 @@
                 },
                 "obj-16::obj-2": {
                     "parameter_longname": "live.text[8]"
+                },
+                "obj-16::obj-31": {
+                    "parameter_longname": "live.text[125]"
                 },
                 "obj-16::obj-37": {
                     "parameter_longname": "live.numbox[1]"
@@ -726,6 +735,9 @@
                 "obj-37::obj-22": {
                     "parameter_longname": "live.text[192]"
                 },
+                "obj-37::obj-48": {
+                    "parameter_longname": "live.text[37]"
+                },
                 "obj-37::obj-6": {
                     "parameter_longname": "live.text[65]"
                 },
@@ -741,11 +753,17 @@
                 "obj-55::obj-6": {
                     "parameter_longname": "live.text[185]"
                 },
+                "obj-58::obj-38": {
+                    "parameter_longname": "live.text[258]"
+                },
                 "obj-58::obj-56": {
                     "parameter_longname": "live.numbox[7]"
                 },
                 "obj-58::obj-59": {
                     "parameter_longname": "live.text[243]"
+                },
+                "obj-58::obj-6": {
+                    "parameter_longname": "live.text[225]"
                 },
                 "obj-5::obj-10": {
                     "parameter_longname": "live.text[183]"

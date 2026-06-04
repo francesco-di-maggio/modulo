@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 70.0, 96.0 ],
+        "rect": [ 0.0, 57.0, 1406.0, 841.0 ],
         "openrect": [ 0.0, 0.0, 70.0, 96.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -66,7 +66,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -229,7 +229,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 394.383321126302, 686.6262762844563, 44.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.374926686286926, 58.02915362268686, 61.83526587486267, 20.0 ],
+                    "presentation_rect": [ 4.0, 58.0, 61.83526587486267, 20.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_control_text_selection"
@@ -275,7 +275,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 267.0, 687.0, 44.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.374926686286926, 75.1419940367341, 61.83526587486267, 20.0 ],
+                    "presentation_rect": [ 4.0, 75.0, 61.83526587486267, 20.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_control_text_selection"
@@ -422,7 +422,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1044]",
+                            "parameter_longname": "live.text[1]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -525,7 +525,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1078]",
+                            "parameter_longname": "live.text[4]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -584,7 +584,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[1043]",
+                            "parameter_longname": "live.text[2]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -654,7 +654,7 @@
                         "valueof": {
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[342]",
+                            "parameter_longname": "live.numbox[1]",
                             "parameter_mmax": 99999.0,
                             "parameter_mmin": -99999.0,
                             "parameter_modmode": 0,
@@ -688,7 +688,7 @@
                 "box": {
                     "comment": "(int) turn calibration on/off, (message) min, max, polarity, invert, mute",
                     "id": "obj-3",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -712,7 +712,7 @@
                 "box": {
                     "comment": "(list) minimum and maximum range",
                     "id": "obj-53",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -740,7 +740,7 @@
                 "box": {
                     "comment": "(list) calibrated",
                     "id": "obj-98",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -751,7 +751,7 @@
                 "box": {
                     "comment": "(list) to calibrate",
                     "id": "obj-32",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -938,7 +938,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 2,
-                            "parameter_longname": "live.text[1042]",
+                            "parameter_longname": "live.text[3]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1519,23 +1519,6 @@
                     "source": [ "obj-93", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-13": [ "live.text[1078]", "live.text", 0 ],
-            "obj-16": [ "live.text[1043]", "live.text", 0 ],
-            "obj-18": [ "live.text[1044]", "live.text", 0 ],
-            "obj-37": [ "live.text[1042]", "live.text", 0 ],
-            "obj-8": [ "live.numbox[342]", "live.numbox", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

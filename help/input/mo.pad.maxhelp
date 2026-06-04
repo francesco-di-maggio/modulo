@@ -4,18 +4,53 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 96.0, 565.0, 547.0 ],
+        "rect": [ 34.0, 96.0, 733.0, 555.0 ],
         "default_fontname": "Ableton Sans Medium",
         "gridonopen": 2,
         "gridsize": [ 10.0, 10.0 ],
         "subpatcher_template": " ",
         "helpsidebarclosed": 1,
         "boxes": [
+            {
+                "box": {
+                    "bubble": 1,
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 12.0,
+                    "id": "obj-18",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 600.0, 305.5, 101.0, 25.0 ],
+                    "text": "toggle/button"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 567.0, 307.5, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 567.0, 352.0, 49.0, 23.0 ],
+                    "text": "type $1"
+                }
+            },
             {
                 "box": {
                     "bubble": 1,
@@ -322,6 +357,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "midpoints": [ 576.5, 333.0, 576.5, 333.0 ],
+                    "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 1 ],
+                    "midpoints": [ 576.5, 390.0, 101.5, 390.0 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "midpoints": [ 280.75579157406054, 246.0, 243.75579157406054, 246.0 ],
                     "source": [ "obj-27", 0 ]
@@ -351,7 +400,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "midpoints": [ 50.5, 492.0, 50.5, 492.0 ],
+                    "midpoints": [ 50.5, 477.0, 50.5, 477.0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
@@ -389,12 +438,23 @@
             "obj-5::obj-22": [ "live.text[910]", "live.text", 0 ],
             "obj-5::obj-48": [ "live.text[37]", "live.text", 0 ],
             "obj-5::obj-6": [ "live.text[724]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-5::obj-2": {
                     "parameter_longname": "live.text[187]"
                 },
                 "obj-5::obj-22": {
                     "parameter_longname": "live.text[910]"
+                },
+                "obj-5::obj-48": {
+                    "parameter_longname": "live.text[37]"
                 },
                 "obj-5::obj-6": {
                     "parameter_longname": "live.text[724]"

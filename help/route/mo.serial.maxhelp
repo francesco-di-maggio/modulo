@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -71,7 +71,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -594,7 +594,16 @@
         ],
         "parameters": {
             "obj-4::obj-1": [ "live.text[174]", "live.text", 0 ],
+            "obj-4::obj-115": [ "live.text[11]", "live.text", 0 ],
             "obj-4::obj-6": [ "live.text[175]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-4::obj-1": {
                     "parameter_longname": "live.text[174]"

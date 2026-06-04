@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 70.0, 214.0 ],
+        "rect": [ 0.0, 57.0, 1406.0, 841.0 ],
         "openrect": [ 0.0, 0.0, 70.0, 214.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -69,7 +69,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-13",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -88,7 +88,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -312,7 +312,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 144.0, 219.0, 50.0, 22.0 ],
-                                    "text": "116."
+                                    "text": "38."
                                 }
                             },
                             {
@@ -905,7 +905,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[225]",
+                            "parameter_longname": "live.text[461]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1031,13 +1031,13 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 719.0, 565.0, 189.0, 23.0 ],
+                    "patching_rect": [ 719.0, 565.0, 131.0, 23.0 ],
+                    "restore": [ -1 ],
                     "saved_object_attributes": {
-                        "initial": [ -1 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0
                     },
-                    "text": "pattr tab @bindto tab- @initial -1",
+                    "text": "pattr tab @bindto tab-",
                     "varname": "tab"
                 }
             },
@@ -1139,7 +1139,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 237.0, 507.0, 53.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 27.0, 27.0, 38.0, 182.0 ],
+                    "presentation_rect": [ 27.0, 27.0, 38.0, 38.0 ],
                     "rounded": 0.0,
                     "saved_attribute_attributes": {
                         "htabcolor": {
@@ -1152,7 +1152,7 @@
                     "spacing_x": 2.0,
                     "spacing_y": 3.0,
                     "tabcolor": [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.0 ],
-                    "tabs": [ "1", "2", "3", "4", "5", "6" ],
+                    "tabs": [ "DIR", "IML" ],
                     "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "truncate": 0,
                     "varname": "tab-"
@@ -1170,7 +1170,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1353,7 +1353,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 2,
-                            "parameter_longname": "live.text[258]",
+                            "parameter_longname": "live.text[345]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1368,7 +1368,7 @@
                 "box": {
                     "comment": "(int) voices, (message) mode, items, rand, reset, mute",
                     "id": "obj-24",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1402,7 +1402,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-28",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1442,7 +1442,7 @@
                 "box": {
                     "comment": "(int) tab number",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1502,7 +1502,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 292.0, 507.0, 56.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 27.0, 27.0, 38.0, 182.0 ],
+                    "presentation_rect": [ 27.0, 27.0, 38.0, 38.0 ],
                     "proportion": 0.5,
                     "rounded": 0
                 }
@@ -1516,7 +1516,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 388.0, 409.0, 68.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 22.0, 22.0, 7.0, 192.0 ],
+                    "presentation_rect": [ 22.0, 22.0, 7.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "linecolor": {
                             "expression": ""
@@ -1952,14 +1952,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-38": [ "live.text[258]", "live.text", 0 ],
-            "obj-56": [ "live.numbox[343]", "live.numbox", 0 ],
-            "obj-59": [ "live.text[1292]", "live.text", 0 ],
-            "obj-6": [ "live.text[225]", "live.text", 0 ],
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

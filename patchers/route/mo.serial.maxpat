@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 0.0, 58.0, 214.0, 45.0 ],
+        "rect": [ 0.0, 57.0, 908.0, 821.0 ],
         "openrect": [ 0.0, 0.0, 214.0, 45.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -21,6 +21,75 @@
         "subpatcher_template": " ",
         "helpsidebarclosed": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "bang" ],
+                    "patching_rect": [ 148.35365855693817, 754.0, 29.5, 23.0 ],
+                    "text": "b"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 148.35365855693817, 720.0, 139.0, 23.0 ],
+                    "text": "speedlim 1000 @defer 1"
+                }
+            },
+            {
+                "box": {
+                    "activebgcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
+                    "activebgoncolor": [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+                    "appearance": 1,
+                    "bordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "focusbordercolor": [ 0.313725, 0.313725, 0.313725, 0.0 ],
+                    "id": "obj-115",
+                    "ignoreclick": 1,
+                    "maxclass": "live.text",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 148.35365855693817, 786.0, 52.0, 15.0 ],
+                    "pictures": [ "unlock.svg", "lock.svg" ],
+                    "presentation": 1,
+                    "presentation_rect": [ 4.0, 4.0, 15.0, 15.0 ],
+                    "remapsvgcolors": 1,
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "activebgoncolor": {
+                            "expression": "themecolor.live_value_bar"
+                        },
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_longname": "live.text[11]",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "live.text",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "ping",
+                    "texton": "ping",
+                    "varname": "live.text[1]"
+                }
+            },
             {
                 "box": {
                     "id": "obj-14",
@@ -96,7 +165,7 @@
                 "box": {
                     "comment": "(anything) transmitter",
                     "id": "obj-10",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -272,7 +341,7 @@
                 "box": {
                     "comment": "(anything) receiver",
                     "id": "obj-9",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -330,7 +399,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -468,8 +537,8 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 72.0, 656.0, 78.0, 23.0 ],
-                    "text": "p serial_data"
+                    "patching_rect": [ 72.0, 656.0, 79.0, 23.0 ],
+                    "text": "p parse_data"
                 }
             },
             {
@@ -499,7 +568,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -541,7 +610,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -780,8 +849,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "" ],
-                    "patching_rect": [ 72.0, 587.0, 92.0, 23.0 ],
-                    "text": "serial a 115200"
+                    "patching_rect": [ 72.0, 587.0, 166.0, 23.0 ],
+                    "text": "serial a 115200 @autoopen 1"
                 }
             },
             {
@@ -903,7 +972,7 @@
                 "box": {
                     "comment": "(message) refresh, port, baud, mute",
                     "id": "obj-47",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -947,7 +1016,7 @@
                     "fontname": "Ableton Sans Medium",
                     "fontsize": 9.5,
                     "id": "obj-49",
-                    "items": [ "debug-console", ",", "CMFBudsPro2", ",", "CMFHeadphonePro", ",", "Bluetooth-Incoming-Port" ],
+                    "items": [ "debug-console", ",", "Bluetooth-Incoming-Port" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -1073,6 +1142,13 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "midpoints": [ 157.85365855693817, 744.0, 157.85365855693817, 744.0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "midpoints": [ 678.5, 549.0, 678.5, 549.0 ],
                     "source": [ "obj-18", 0 ]
@@ -1083,6 +1159,13 @@
                     "destination": [ "obj-23", 0 ],
                     "midpoints": [ 678.5, 573.0, 678.5, 573.0 ],
                     "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-115", 0 ],
+                    "midpoints": [ 157.85365855693817, 780.0, 157.85365855693817, 780.0 ],
+                    "source": [ "obj-20", 0 ]
                 }
             },
             {
@@ -1227,8 +1310,17 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "midpoints": [ 81.5, 705.0, 157.85365855693817, 705.0 ],
+                    "order": 0,
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-9", 0 ],
                     "midpoints": [ 81.5, 681.0, 81.5, 681.0 ],
+                    "order": 1,
                     "source": [ "obj-66", 0 ]
                 }
             },
@@ -1269,20 +1361,6 @@
                     "source": [ "obj-73", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-1": [ "live.text[34]", "live.text", 0 ],
-            "obj-6": [ "live.text[245]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 96.0, 753.0, 706.0 ],
+        "rect": [ 34.0, 91.0, 1279.0, 706.0 ],
         "default_fontname": "Ableton Sans Medium",
         "gridonopen": 2,
         "gridsize": [ 10.0, 10.0 ],
@@ -1111,6 +1111,14 @@
             "obj-38::obj-5": [ "live.text[714]", "live.text", 0 ],
             "obj-38::obj-88": [ "live.text[1021]", "live.text", 0 ],
             "obj-8": [ "mc.live.gain~[2]", "output gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-17::obj-107::obj-26": {
                     "parameter_longname": "live.text[4]"

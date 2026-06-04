@@ -87,14 +87,15 @@ function msg_int(x) {
 		
 	else {
 		
-	//post('else', "\n");
+	// post('else', "\n");
 	
 	var p = this.patcher.parentpatcher;
 	var resize = p.wind.location;
 	var x = (x - 1);
-	//x = (x * 13) + (x - 1);
-	x = (x * 13) + (x - 1);
-	x = x + 85;
+
+	// x = (x * 15) + (x - 1);
+	x = (x * 15);
+	x = x + 84;
 
 	p.window('size', resize[0], resize[1], resize[0] + 214, resize[1] + x);
 	p.window("exec");
